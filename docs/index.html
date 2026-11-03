@@ -10,7 +10,7 @@
   --ink: #14213d; --ink-fg: #f6f0e4; --ink-muted: #b9c0d4;
   --left: #1f4e8c; --center: #8a8577; --right: #b8321f; --accent: #14213d; --accent-fg: #fffaf0;
   --hot: #d6401f; --hot-tint: #fbe3d6; --warn: #c27a00; --spin-hi: #c4321a; --track: #e8dec8;
-  --shadow: 0 1px 0 var(--line), 0 10px 24px -18px rgba(20,33,61,.45);
+  --shadow: 0 1px 0 var(--line), 0 10px 24px -18px rgba(20,33,61,.45); --dot: rgba(20,33,61,.09);
   --display: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -20,16 +20,16 @@
   --ink: #0b0c12; --ink-fg: #efe9db; --ink-muted: #9aa2b8;
   --left: #6f9de0; --center: #8d8a80; --right: #ea7f68; --accent: #efe9db; --accent-fg: #12131a;
   --hot: #ff6a45; --hot-tint: #2d1c19; --warn: #e5a93a; --spin-hi: #ef6a4c; --track: #2a2c3a;
-  --shadow: 0 1px 0 var(--line); color-scheme: dark; } }
+  --shadow: 0 1px 0 var(--line); --dot: rgba(255,255,255,.055); color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #12131a; --surface: #1b1c27; --fg: #efe9db; --muted: #a29f93; --line: #2e3040;
   --ink: #0b0c12; --ink-fg: #efe9db; --ink-muted: #9aa2b8;
   --left: #6f9de0; --center: #8d8a80; --right: #ea7f68; --accent: #efe9db; --accent-fg: #12131a;
   --hot: #ff6a45; --hot-tint: #2d1c19; --warn: #e5a93a; --spin-hi: #ef6a4c; --track: #2a2c3a;
-  --shadow: 0 1px 0 var(--line); color-scheme: dark; }
-body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.55;
+  --shadow: 0 1px 0 var(--line); --dot: rgba(255,255,255,.055); color-scheme: dark; }
+body { background-color: var(--bg); background-image: radial-gradient(circle at 1px 1px, var(--dot) 1px, transparent 0); background-size: 24px 24px; color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.55;
   padding-block: 0 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.wrap { max-width: 760px; margin: 0 auto; }
+.wrap { max-width: 1120px; margin: 0 auto; }
 .mast { background: var(--ink); color: var(--ink-fg); margin-left: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); margin-right: calc(-1 * max(16px, env(safe-area-inset-right, 0px)));
   padding: 26px max(16px, env(safe-area-inset-right, 0px)) 24px max(16px, env(safe-area-inset-left, 0px)); position: relative; }
 .mast::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: linear-gradient(90deg, var(--left), var(--center) 50%, var(--right)); }
@@ -107,6 +107,50 @@ textarea { width: 100%; min-height: 150px; box-sizing: border-box; font: 14px/1.
 .btn[disabled] { opacity: .5; cursor: progress; }
 .status { font-size: 13px; color: var(--muted); margin-top: 8px; min-height: 1.4em; }
 #demo-out { margin-top: 14px; }
+
+.mast-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px 40px; align-items: end; }
+@media (min-width: 820px) { .mast-grid { grid-template-columns: minmax(0, 1fr) 270px; } }
+@media (max-width: 819px) { .dial { display: none; } }
+.dial { margin: 18px 0 0; text-align: center; color: var(--ink-fg); }
+.dial svg { width: 100%; height: auto; display: block; overflow: visible; }
+.dial .track { stroke: rgba(255,255,255,.14); }
+.dial .tick { stroke: var(--ink-muted); stroke-width: 2; opacity: .7; }
+.dial .dl { font: 500 11px var(--mono); fill: var(--ink-muted); letter-spacing: .08em; }
+#needle { transform-box: view-box; transform-origin: 120px 125px; transform: rotate(-90deg); transition: transform 1.4s cubic-bezier(.2, 1.25, .3, 1); }
+.dial figcaption { display: flex; flex-direction: column; align-items: center; margin-top: -4px; }
+.dial-num { font-family: var(--display); font-weight: 700; font-size: 38px; line-height: 1; }
+.dial-lbl { font: 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-muted); margin-top: 6px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 36px; align-items: start; }
+.layout main { min-width: 0; }
+@media (min-width: 980px) { .layout { grid-template-columns: minmax(0, 1fr) 320px; } .layout main { grid-column: 1; grid-row: 1; } #side { grid-column: 2; grid-row: 1; } }
+@media (min-width: 980px) and (min-height: 860px) { #side { position: sticky; top: 16px; } }
+#side { padding-top: 20px; min-width: 0; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+@media (min-width: 980px) { .stats { grid-template-columns: 1fr 1fr; gap: 10px; } }
+@media (max-width: 480px) { .stats { grid-template-columns: 1fr 1fr; } }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; box-shadow: var(--shadow); }
+.stat b { display: block; font-family: var(--display); font-weight: 700; font-size: 32px; line-height: 1; letter-spacing: -.01em; }
+.stat span { display: block; margin-top: 6px; font: 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.stat.hotstat { border-color: var(--hot); } .stat.hotstat b { color: var(--hot); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); padding: 14px 16px; margin-top: 14px; }
+.panel summary { font: 500 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; cursor: pointer; list-style: none; display: flex; justify-content: space-between; }
+.panel summary::-webkit-details-marker { display: none; }
+.panel summary::after { content: "+"; color: var(--muted); }
+.panel[open] summary::after { content: "\2212"; }
+.hist { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; align-items: end; margin-top: 16px; }
+.hcol { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 4px; }
+.hbar { width: 100%; border-radius: 4px 4px 0 0; min-height: 4px; }
+.hn { font: 500 12px var(--mono); }
+.hl { font: 10px var(--mono); color: var(--muted); letter-spacing: .04em; text-transform: uppercase; text-align: center; }
+.orow { display: grid; grid-template-columns: minmax(0, 1fr) 96px 26px; gap: 10px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); font-size: 13px; }
+.orow.ohead { border-top: 0; padding: 12px 0 4px; font: 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.orow .oname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.orow .oname small { color: var(--muted); font: 10px var(--mono); margin-left: 4px; }
+.otrack { position: relative; height: 6px; border-radius: 99px; background: linear-gradient(90deg, var(--left), var(--center), var(--right)); }
+.otrack i { position: absolute; top: -5px; width: 16px; height: 16px; border-radius: 50%; background: var(--fg); border: 3px solid var(--surface); transform: translateX(-50%); box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+.ospin { font: 500 12px var(--mono); text-align: right; }
+.fine { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
+#analyzer { max-width: 760px; }
 footer { margin-top: 36px; color: var(--muted); font-size: 12px; }
 </style>
 
@@ -114,14 +158,32 @@ footer { margin-top: 36px; color: var(--muted); font-size: 12px; }
 <header class="mast">
   <div class="wrap">
     <div class="dateline"><span>Political news, scored</span><span id="dateline"></span></div>
+    <div class="mast-grid"><div class="mast-text">
     <h1>True-<em>Spin</em></h1>
     <p class="tag">Every story gets a political leaning, a spin score, and a plain-language explanation of exactly where the bias shows up.</p>
     <p class="notice" id="notice"><b>Illustrative data</b> &nbsp;The outlets, people, bill and quotes below are fictional, written to show how the finished site would read. The live version would pull real headlines from RSS feeds and score them with AI. Try the analyzer at the bottom on any text you paste.</p>
+    </div>
+    <figure class="dial" id="dial">
+      <svg viewBox="0 0 240 150" role="img" aria-label="Gauge showing the average spin score across today's stories">
+        <defs><linearGradient id="dg" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--warn)"/><stop offset="1" style="stop-color:var(--spin-hi)"/></linearGradient></defs>
+        <path class="track" d="M 20 125 A 100 100 0 0 1 220 125" fill="none" stroke-width="16" stroke-linecap="round"/>
+        <path d="M 20 125 A 100 100 0 0 1 220 125" fill="none" stroke="url(#dg)" stroke-width="16" stroke-linecap="round"/>
+        <g id="ticks"></g>
+        <g id="needle"><line x1="120" y1="125" x2="120" y2="40" stroke="var(--ink-fg)" stroke-width="3.5" stroke-linecap="round"/></g>
+        <circle cx="120" cy="125" r="10" fill="var(--ink-fg)"/><circle cx="120" cy="125" r="3.5" fill="var(--ink)"/>
+        <text class="dl" x="20" y="148" text-anchor="middle">0</text><text class="dl" x="220" y="148" text-anchor="middle">100</text>
+      </svg>
+      <figcaption><span class="dial-num" id="dial-num">–</span><span class="dial-lbl">Average spin</span></figcaption>
+    </figure>
+    </div>
   </div>
 </header>
 
 <div class="wrap">
 
+  <div class="layout">
+  <aside id="side" aria-label="Today at a glance"></aside>
+  <main>
   <div class="controls">
     <div class="chips" id="chips" role="group" aria-label="Filter by leaning"></div>
     <label class="ctl">Max spin <input type="range" id="spinmax" min="0" max="100" value="100"><output id="spinout">100</output></label>
@@ -129,6 +191,8 @@ footer { margin-top: 36px; color: var(--muted); font-size: 12px; }
   </div>
 
   <div class="feed" id="feed"></div>
+  </main>
+  </div>
 
   <section class="block" id="method">
     <h2>How scoring works</h2>
@@ -236,6 +300,7 @@ function cardHTML(s, open) {
     </div>`}${/^https?:\/\//.test(s.link || "") ? `<a class="orig" href="${esc(s.link)}" target="_blank" rel="noopener noreferrer">Read the full story at ${esc(s.outlet)} ↗</a>` : ""}</article>`;
 }
 
+let sideSig = "";
 const state = { bucket: "all", spinMax: 100, sort: "hot" };
 function render() {
   const scored = s => s.scorable !== false && s.lean != null;
@@ -253,7 +318,45 @@ function render() {
     parts.push(cardHTML(s, openFirst(i)));
   });
   feed.innerHTML = list.length ? parts.join("") : '<div class="empty">No stories match these filters.</div>';
+  renderSide();
 }
+
+function renderSide() {
+  const sc = STORIES.filter(s => s.scorable !== false && s.lean != null);
+  const side = document.getElementById("side");
+  const avg = a => a.length ? a.reduce((x, y) => x + y, 0) / a.length : 0;
+  const avgSpin = Math.round(avg(sc.map(s => s.spin)));
+  const by = {};
+  sc.forEach(s => { const k = s.outlet || "Unknown"; (by[k] = by[k] || []).push(s); });
+  const rows = Object.entries(by).map(([name, a]) => ({ name, n: a.length, lean: Math.round(avg(a.map(s => s.lean))), spin: Math.round(avg(a.map(s => s.spin))) })).sort((a, b) => a.lean - b.lean);
+  const bins = [0, 0, 0, 0, 0];
+  sc.forEach(s => { bins[s.lean < -60 ? 0 : s.lean < -20 ? 1 : s.lean <= 20 ? 2 : s.lean <= 60 ? 3 : 4]++; });
+  const hotN = STORIES.filter(isHot).length;
+  const sig = JSON.stringify([sc.length, avgSpin, rows, bins, hotN]);
+  if (sig === sideSig) return;
+  sideSig = sig;
+  const needle = document.getElementById("needle"), num = document.getElementById("dial-num");
+  if (num) num.textContent = sc.length ? avgSpin + "" : "–";
+  if (needle) requestAnimationFrame(() => { needle.style.transform = "rotate(" + (avgSpin / 100 * 180 - 90) + "deg)"; });
+  const open = {}; side.querySelectorAll("details").forEach(d => open[d.dataset.k] = d.open);
+  const wide = window.matchMedia("(min-width: 980px)").matches;
+  const isOpen = k => (k in open ? open[k] : wide) ? " open" : "";
+  const maxb = Math.max(1, ...bins);
+  const cols = ["var(--left)", "color-mix(in srgb, var(--left) 55%, var(--center))", "var(--center)", "color-mix(in srgb, var(--right) 55%, var(--center))", "var(--right)"];
+  const names = ["Left", "Lean left", "Center", "Lean right", "Right"];
+  side.innerHTML = `<div class="stats">
+    <div class="stat"><b>${sc.length}</b><span>stories scored</span></div>
+    <div class="stat"><b>${rows.length}</b><span>outlets</span></div>
+    <div class="stat"><b>${avgSpin}</b><span>avg spin</span></div>
+    <div class="stat hotstat"><b>${hotN}</b><span>hot now</span></div></div>
+  <details class="panel" data-k="land"${isOpen("land")}><summary>Where the stories land</summary>
+    <div class="hist">${bins.map((c, i) => `<div class="hcol"><span class="hn">${c}</span><div class="hbar" style="height:${Math.max(4, Math.round(c / maxb * 90))}px;background:${cols[i]}"></div><span class="hl">${names[i]}</span></div>`).join("")}</div></details>
+  <details class="panel" data-k="score"${isOpen("score")}><summary>Outlet scorecard</summary>
+    <div class="orow ohead"><span>Outlet</span><span>Avg leaning</span><span>Spin</span></div>
+    ${rows.map(r => `<div class="orow" title="${esc(r.name)}: average of ${r.n} stor${r.n === 1 ? "y" : "ies"}"><span class="oname">${esc(r.name)}<small>${r.n}</small></span><span class="otrack" role="img" aria-label="Average leaning ${r.lean}"><i style="left:${(r.lean + 100) / 2}%"></i></span><span class="ospin">${r.spin}</span></div>`).join("")}
+    <p class="fine">Averages of the stories shown here, not a verdict on an outlet. Small samples are noisy.</p></details>`;
+}
+(function () { const t = document.getElementById("ticks"); if (!t) return; let h = ""; for (let a = -80; a <= 80; a += 20) h += `<line class="tick" x1="120" y1="33" x2="120" y2="25" transform="rotate(${a} 120 125)"/>`; t.innerHTML = h; })();
 document.getElementById("chips").innerHTML = BUCKETS.map(([k, t]) => `<button type="button" class="chip" data-k="${k}" aria-pressed="${k === "all"}">${t}</button>`).join("");
 document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
