@@ -1,5 +1,30 @@
 [
   {
+    "outlet": "Fox",
+    "title": "Mamdani threatens to sue Trump admin over ICE's use of city-owned lots for immigration enforcement",
+    "link": "https://www.foxnews.com/politics/mamdani-threatens-sue-trump-admin-ices-use-city-owned-lots-immigration-enforcement",
+    "summary": "New York City Mayor Zohran Mamdani threatened legal action against ICE over agents allegedly staging immigration enforcement operations in city-owned parking lots.",
+    "published": "2026-11-03T04:58:37+00:00",
+    "id": "252601d6365e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly straight reporting built on long quotations from Mamdani's letter, with the claims attributed to him and described as \"reported.\" It notes that DHS was asked for comment, but it has no DHS response yet. That leaves the mayor's account as the only voice in the excerpt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Fox News Digital has reached out to the Department of Homeland Security for comment.",
+        "why": "No administration or ICE response is available, so the excerpt rests almost entirely on Mamdani's letter."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "252601d6365e",
+    "coverage": 1
+  },
+  {
     "outlet": "CBS News",
     "title": "Josh Turek pitches \"generational change\" in tight Iowa Senate race",
     "link": "https://www.cbsnews.com/news/josh-turek-generational-change-iowa-senate-midterms-ashley-hinson/",
@@ -442,6 +467,36 @@
     "coverage": 5
   },
   {
+    "outlet": "NBC News",
+    "title": "U.S. military carries out limited strikes on Iran’s Qeshm Island",
+    "link": "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161",
+    "summary": "The strikes, which appeared to be limited as opposed to a full return to hostilities, came on the eve of crucial American midterm elections.",
+    "published": "2026-11-03T02:06:40+00:00",
+    "id": "40b044b4b805",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting, attributing the strikes and the \"self-defense\" framing to named-by-role U.S. officials and including Iranian state media and Vance's on-record comments. A slight tilt appears in the unattributed statement that the war is \"unpopular\" and a vulnerability for Republicans, plus the election-eve framing, but it is modest.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The unpopular Iran war and the resulting impact on U.S. gasoline prices and other parts of the economy have been a vulnerability for Republicans",
+        "why": "States the war's unpopularity and political cost to Republicans as fact without attribution or polling cited."
+      },
+      {
+        "type": "Framing",
+        "quote": "came on the eve of crucial U.S. midterm elections",
+        "why": "Emphasizing election timing, in both summary and text, hints at political context for the strikes beyond what officials said."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "ef0319a38fc0",
+    "coverage": 5
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "OpenAI hires ex-Army Secretary Dan Driscoll two months after Pentagon exit",
     "link": "https://www.washingtonexaminer.com/policy/national-security/4788952/openai-hires-ex-army-secretary-dan-driscoll/",
@@ -658,7 +713,7 @@
     ],
     "confidence": "medium",
     "cluster": "479bbb4b182b",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "NPR",
@@ -782,7 +837,57 @@
     "leanWhy": "The excerpt is short and mostly describes what Talarico said on a podcast, with attribution and no editorializing. The wording \"claiming\" is standard attribution, and the excerpt includes little context, so the slant is hard to judge.",
     "signals": [],
     "confidence": "low",
-    "cluster": "dc91eb259244",
+    "cluster": "bd8e680c8520",
+    "coverage": 2
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Federal police investigating fatal shooting in Laredo, Texas, involving Border Patrol: Report",
+    "link": "https://www.washingtonexaminer.com/news/crime/4788560/border-patrol-fatal-shooting-laredo-texas-customs-border-protection-investigation/",
+    "summary": "Federal law enforcement is investigating a Border Patrol-involved shooting in Laredo, Texas, that took place after an agent was assaulted early Monday morning, according to a new report. A U.S. Customs and Border Protection spokesperson in Laredo confirmed Monday that a fatal shooting had occurred around 2:45 a.m.",
+    "published": "2026-11-02T23:51:18+00:00",
+    "id": "3f7261926578",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The excerpt is short, straight news reporting on a federal investigation into a Border Patrol shooting, attributed to a CBP spokesperson and local outlet KGNS. It leans slightly toward the agency's account because it describes the agent as \"assaulted\" or \"attacked\" without other perspectives, but that is attributed and the excerpt is brief.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "when a Border Patrol agent was attacked by a man",
+        "why": "The only account of events comes from the agency side, with no independent or other perspective in the excerpt."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "3f7261926578",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Georgia officials scramble to resolve absentee ballot issues ahead of Election Day",
+    "link": "https://www.washingtonexaminer.com/news/justice/4788592/georgia-officials-scramble-to-resolve-absentee-ballot-issues-ahead-of-election-day/",
+    "summary": "Election officials in multiple Georgia counties are working to resolve complaints that voters are not receiving their absentee ballots ahead of Election Day, after lawsuits filed by voting groups alleged thousands of ballots never arrived.",
+    "published": "2026-11-02T23:43:52+00:00",
+    "id": "01629cb99f4b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 12,
+    "leanWhy": "The excerpt is mostly straight reporting on lawsuits and county responses, with attribution to officials and filings. The one slant cue is labeling Elias Law Group \"left-wing,\" which frames the lawsuit by the filer's ideology and isn't applied to any counterpart.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "filed by the left-wing Elias Law Group",
+        "why": "The ideological label casts the lawsuit as partisan and may undercut the complaint's credibility, while the other actors get no such label."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "01629cb99f4b",
     "coverage": 1
   },
   {
@@ -832,7 +937,7 @@
     ],
     "confidence": "low",
     "cluster": "479bbb4b182b",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "The Guardian",
@@ -932,6 +1037,46 @@
     "confidence": "medium",
     "cluster": "da9b998cb7e3",
     "coverage": 5
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump’s DoJ charges six more people in ‘voter fraud’ crackdown in California",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/california-voter-fraud-charges",
+    "summary": "Latest arrests come after DoJ unsuccessfully fought to force state election officials to set aside about 20,000 ballots US midterms – live updates The US Department of Justice (DoJ) in California has charged six more people with alleged voter fraud crimes, an escalation of the Trump administration’s campaign against…",
+    "published": "2026-11-02T23:22:24+00:00",
+    "id": "590c6f266436",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -40,
+    "spin": 35,
+    "leanWhy": "The article is mostly factual reporting with attribution, but it frames the DoJ actions as an \"escalation\" and a \"campaign,\" uses scare quotes around \"voter fraud\" in the headline, and includes critical context (rarity of noncitizen voting, judicial rebukes). Sourcing leans on critics and experts, with no DoJ or supporter voice defending the policy beyond brief statements.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "‘voter fraud’ crackdown",
+        "why": "Scare quotes in the headline cast doubt on the legitimacy of the charges before the reader gets the facts."
+      },
+      {
+        "type": "Framing",
+        "quote": "an escalation of the Trump administration’s campaign against the state’s election processes",
+        "why": "Characterizes the prosecutions as a political campaign against the state rather than law enforcement."
+      },
+      {
+        "type": "Framing",
+        "quote": "arranged for a dramatic on-camera arrest of one 72-year-old defendant, editing the footage into a DoJ promotional video",
+        "why": "Emphasizes theatrical, promotional aspects, implying political motives."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Multiple judges have rebuffed the DoJ’s efforts as unconstitutional and a threat to democracy",
+        "why": "Adopts strong judicial rhetoric without balancing sourcing, reinforcing a negative framing of the DoJ."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "4bd17ad16479",
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -1069,7 +1214,7 @@
     ],
     "confidence": "low",
     "cluster": "4bd17ad16479",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1128,8 +1273,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "cd3bb8a73206",
-    "coverage": 1
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
   },
   {
     "outlet": "Daily Caller",
@@ -1198,8 +1343,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "b5bbf432482c",
-    "coverage": 2
+    "cluster": "ea99cb0a630e",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -1239,6 +1384,25 @@
     ],
     "confidence": "medium",
     "cluster": "01e98c9a050d",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "11/2: The Takeout with Major Garrett",
+    "link": "https://www.cbsnews.com/video/110226-the-takeout-with-major-garrett/",
+    "summary": "Fallout continues after Haley Stevens' endorsement of Mike Rogers in Michigan Senate race; Candidates make final pitches ahead of midterms.",
+    "published": "2026-11-02T22:00:00+00:00",
+    "id": "6ea979fc9e6c",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "6ea979fc9e6c",
     "coverage": 1
   },
   {
@@ -1317,6 +1481,146 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "New York Police Department Posts Video Celebrating Destruction Of ‘Illegal’ Guns",
+    "link": "https://dailycaller.com/2026/11/02/nypd-posts-video-celebrating-destruction-of-illegal-guns",
+    "summary": "‘They are melted down’",
+    "published": "2026-11-02T21:45:53+00:00",
+    "id": "dacc62f98e5b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 30,
+    "leanWhy": "The piece mostly describes the video and quotes the NYPD, but it frames the story with gun-rights sources (NRA-ILA, USCCA) for NYC's gun laws and puts \"illegal\" in scare quotes in the headline. It also links to a related item with a snarky tone (\"Blue State Admits... But Sues Them Anyway\"), and the word \"celebrating\" and the description of \"unceremoniously tossing\" firearms add a mildly skeptical tone toward the department.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Posts Video Celebrating Destruction Of ‘Illegal’ Guns",
+        "why": "Scare quotes around 'illegal' and 'celebrating' cast doubt on the framing and imply the police are gloating."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to the National Rifle Association’s Institute for Legislative Action (NRA-ILA) and United States Concealed Carry Association (USCCA)",
+        "why": "Gun-rights advocacy groups are the only sources used to characterize New York's gun laws, and no neutral or opposing source appears."
+      },
+      {
+        "type": "Framing",
+        "quote": "Blue State Admits Glock Doesn’t Make Illegal Switches — But Sues Them Anyway",
+        "why": "The related-story link inserts a partisan, mocking frame about Democratic-led states into a story about guns being destroyed."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "dacc62f98e5b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trump Team Pitched Letting Russian Gas Flow To Europe Again Through Ukraine",
+    "link": "https://dailycaller.com/2026/11/02/russian-gas-europe-ukraine-pipelines-steve-witkoff-jared-kushner-richard-goldberg",
+    "summary": "‘A step backward’",
+    "published": "2026-11-02T21:38:40+00:00",
+    "id": "922c230a8ddf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece reports a WSJ story with attribution to named officials and gives space to critics, skeptics and one supporter, plus a U.S. official's defense. Framing leans slightly critical of the administration through the \"even as\" contrast and the \"step backward\" summary, but it is mostly neutral reporting.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "even as the administration presses the continent to buy American energy",
+        "why": "Opens by highlighting an apparent contradiction in administration policy."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "‘A step backward’",
+        "why": "The summary uses one critic's judgment as the framing, though other views appear in the piece."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "922c230a8ddf",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Why Texas Dems are forecasting a \"Hispanic hurricane\" in midterms",
+    "link": "https://www.cbsnews.com/news/texas-democrats-hispanic-vote-midterms-talarico-paxton-hinojosa-abbott/",
+    "summary": "Two years ago, President Trump made historic gains with Hispanic voters nationwide and won a majority of Texas Hispanics. Now, Democrats believe they could swing back.",
+    "published": "2026-11-02T21:30:00+00:00",
+    "id": "3cb430191ddf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece is mostly standard poll-driven reporting with Pew and CBS data, but it centers Democratic optimism, using a Democratic strategist's hurricane metaphor as the headline and lead quote. Republican perspective is reduced to a single brief line (\"enthusiasm for Democrats is still muted\"), while Democratic voices get extended space.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "There's a Hispanic hurricane coming,",
+        "why": "The headline and lead adopt a Democratic strategist's dramatic metaphor, which frames a Democratic wave as the story's premise."
+      },
+      {
+        "type": "Source selection",
+        "quote": "But Republicans say enthusiasm for Democrats is still muted.",
+        "why": "The Republican counterpoint is a single unattributed line with no named source or elaboration, while Democrats are quoted at length."
+      },
+      {
+        "type": "Framing",
+        "quote": "upending conventional wisdom and setting back the Democratic Party's hopes",
+        "why": "The Trump gains are framed mainly in terms of their effect on Democratic hopes."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "3cb430191ddf",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Lockheed Ramps Up Missile Production As Iran War Drains US Arsenal",
+    "link": "https://dailycaller.com/2026/11/02/lockheed-missile-production-expansion-iran-war",
+    "summary": "‘It’s still going to take several years’",
+    "published": "2026-11-02T21:18:16+00:00",
+    "id": "10dbb7a80987",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 35,
+    "leanWhy": "The piece is mostly sourced reporting with figures from the AP, CSIS, the DoD IG and the company, but its word choice stresses the war's costs and failures and Lockheed's profits. It relies on a critical advocate (Semler) and a skeptical framing of the Trump administration's plans, which tilts mildly against the war and the administration.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "interceptor stockpiles devastated by the costly Iran War",
+        "why": "Emotive wording ('devastated', 'costly') sets a negative frame on the war in the opening line."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Iran War has coincided with a financial windfall for Lockheed Martin",
+        "why": "Juxtaposing the war with corporate profits implies war profiteering without stating evidence."
+      },
+      {
+        "type": "Source selection",
+        "quote": "the Trump administration is saying, ‘Oh well, we signed an agreement with Lockheed",
+        "why": "A critical advocate's dismissive paraphrase of the administration is quoted at length, with no administration response."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "has exposed serious weaknesses in America’s defense industrial base",
+        "why": "Presents a sweeping negative conclusion in the writer's own voice, along with 'devastating missile expenditures'."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "10dbb7a80987",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "Trump to Axios: \"No rush\" to decide on bombing Iran again",
     "link": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war",
@@ -1333,6 +1637,41 @@
     "signals": [],
     "confidence": "low",
     "cluster": "495db00a4829",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Ex-FBI chief in Chicago sues DoJ, claiming he was pressured to investigate Trump’s foes",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/fbi-douglas-depodesta-trump-lawsuit-doj",
+    "summary": "Douglas DePodesta says he was made ‘scapegoat’ after collapse of case against Broadview Six anti-ICE protesters The former head of the FBI in Chicago has accused the Trump administration of pressuring him to investigate the president’s political opponents and making him a “scapegoat” after a major federal case against…",
+    "published": "2026-11-02T20:59:53+00:00",
+    "id": "b180fbd928af",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -35,
+    "spin": 30,
+    "leanWhy": "The piece reports a lawsuit with consistent attribution to the complaint, but it relies almost entirely on the plaintiff's account and adds editorial characterizations in the narrator's voice. Phrases like \"spectacular collapse\" and \"aggressive efforts to criminally charge leftwing activists\" frame the administration negatively, and no response from DoJ or Boutros appears in the excerpt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the spectacular collapse of the DoJ’s criminal case",
+        "why": "The narrator's own wording emphasizes failure, beyond neutral description of the dismissal."
+      },
+      {
+        "type": "Framing",
+        "quote": "the Trump administration’s aggressive efforts to criminally charge leftwing activists even when the charges are opposed by law enforcement officials",
+        "why": "This is an editorial-style characterization in the reporter's voice that generalizes from one plaintiff's allegations."
+      },
+      {
+        "type": "Source selection",
+        "quote": "DePodesta’s lawsuit provides a rare first-hand account from a senior FBI official",
+        "why": "It elevates the plaintiff's credibility, and the excerpt shows no DoJ rebuttal."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "b180fbd928af",
     "coverage": 1
   },
   {
@@ -1382,7 +1721,47 @@
     ],
     "confidence": "low",
     "cluster": "479bbb4b182b",
-    "coverage": 3
+    "coverage": 4
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump unveils results of $14m reflecting pool makeover in final appeal before midterms",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/trump-reflecting-pool-renovation-midterms",
+    "summary": "US president shares delayed results of chaotic renovation on DC site as Americans prepare to head to the polls Donald Trump unveiled the delayed results of his $14m renovation of Washington DC’s Lincoln Memorial reflecting pool in what is expected to be his final press conference before voters head to the polls for…",
+    "published": "2026-11-02T20:42:37+00:00",
+    "id": "fe0137b03ba6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -55,
+    "spin": 48,
+    "leanWhy": "The piece is nominally straight news but uses editorializing asides and a skeptical framing of Trump's project, stressing failures, unsupported claims and his poor polling. Sourcing is one-sided, with Hearn's attorneys quoted and no administration or supporter defense of the renovation.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "It has proven anything but.",
+        "why": "The reporter's own editorial aside rebuts Trump's quote instead of attributing the criticism to a source."
+      },
+      {
+        "type": "Framing",
+        "quote": "chaotic renovation",
+        "why": "The summary frames the project as chaotic in the outlet's own voice."
+      },
+      {
+        "type": "Framing",
+        "quote": "largely the result of the war with Iran that Trump started at the end of February",
+        "why": "The text asserts a causal link for inflation and blames Trump directly, with no attribution or alternative explanation."
+      },
+      {
+        "type": "Source selection",
+        "quote": "does not erase the abuse of government power in arresting and charging a patriotic American who did nothing wrong",
+        "why": "The only outside voice quoted is a critic's attorney, so the account leans against the administration."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "479bbb4b182b",
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -1422,6 +1801,55 @@
     ],
     "confidence": "medium",
     "cluster": "bd8e680c8520",
+    "coverage": 2
+  },
+  {
+    "outlet": "Axios",
+    "title": "Scoop: Senate GOP makes massive bet on streaming",
+    "link": "https://www.axios.com/2026/11/02/senate-republicans-super-pac-slf-streaming-social",
+    "summary": "The top Senate GOP super PAC has nearly tripled its spending on streaming and social media platforms this election cycle to more than $200 million, Axios has learned.",
+    "published": "2026-11-02T20:18:04+00:00",
+    "id": "31b0be96242c",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a short feed summary were available. They report a spending-strategy scoop in factual terms, with no evaluative framing of either party.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "31b0be96242c",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Ahead of Election Day, Trump sets the stage for potential Republican losses",
+    "link": "https://www.nbcnews.com/politics/donald-trump/ahead-election-day-trump-sets-stage-potential-republican-losses-rcna607075",
+    "summary": "President Donald Trump acknowledged historical trends against the president’s party in midterm elections, saying Monday, “We gave this a very strong shot.”",
+    "published": "2026-11-02T20:15:33+00:00",
+    "id": "e438e2768a66",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting built on Trump's own quotes, with a fact-check (\"falsely said\") that is warranted by the claims. Slight framing choices, such as emphasizing his focus on the Reflecting Pool and the \"sets the stage for losses\" headline, lean mildly critical, but the piece stays largely neutral.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump spent most of his remarks speaking about the Reflecting Pool.",
+        "why": "Contrasts the advertised 'closing message' with renovation talk, which subtly casts the speech as unfocused."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump sets the stage for potential Republican losses",
+        "why": "The headline attributes strategic intent to Trump, but the excerpt only shows him citing historical midterm trends."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "e438e2768a66",
     "coverage": 1
   },
   {
@@ -1441,7 +1869,7 @@
     "signals": [],
     "confidence": "low",
     "cluster": "b5bbf432482c",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -1461,6 +1889,145 @@
     "confidence": "low",
     "cluster": "d06eaaa53ee2",
     "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Multiple Mike Rogers Campaign Staffers Are Paid Agents For Israel, Report Shows",
+    "link": "https://dailycaller.com/2026/11/02/mike-rogers-abigail-ronson-jesse-stokes-israel-brad-parscale-drop-site",
+    "summary": "one of two registered foreign agents",
+    "published": "2026-11-02T19:52:30+00:00",
+    "id": "110f9bb742b4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 40,
+    "leanWhy": "The piece relays Drop Site News's report almost entirely, which casts the Republican campaign as tied to Israeli government paid agents. The headline's \"Paid Agents For Israel\" is stronger than the body, which says they \"appear to be\" and that the registered client was an Israeli media company. Sourcing rests on a single outlet, and the Rogers campaign gave no response.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Multiple Mike Rogers Campaign Staffers Are Paid Agents For Israel, Report Shows",
+        "why": "The headline states flatly that staffers are paid agents, while the body hedges with \"appear to be\" and describes a contract through a media company."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to a report from Drop Site News published Sunday",
+        "why": "Nearly all of the claims depend on one outlet's report, with no independent or opposing sources."
+      },
+      {
+        "type": "Framing",
+        "quote": "now the pro-Israel lobby is dedicating millions to help Rogers beat El-Sayed",
+        "why": "This ties AIPAC spending to the Rogers campaign alongside the foreign-agent claims, which suggests a coordinated pro-Israel effort."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "appears to have been the mastermind behind the “buff AI” campaign photo",
+        "why": "\"Mastermind\" is a dramatic, mocking word for a social media photo."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "110f9bb742b4",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "A bitter sheriff's primary, a write-in campaign and a county divided",
+    "link": "https://www.cbsnews.com/news/lee-county-alabama-sheriff-election-write-in-campaign/",
+    "summary": "An unusual sheriff election in Lee County, Alabama, highlights how elected law enforcement often shapes issues of public safety, immigration and gun control.",
+    "published": "2026-11-02T19:43:17+00:00",
+    "id": "e4359f86601e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a straight explanatory news feature on a local sheriff race, presenting both Hunt's and Jones's supporters and attributing claims to named sources. It has no partisan framing, though the sourcing leans on Jones's side of the story.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "e4359f86601e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Judge Invites Gun-Control Groups To Defend Waiting Period Law State Admitted Violated 2A",
+    "link": "https://dailycaller.com/2026/11/02/florida-admits-gun-law-is-unconstitutional-but-federal-judge-asks-gun-control-groups-to-defend-it",
+    "summary": "‘A prominent and vigorously debated question’",
+    "published": "2026-11-02T19:37:38+00:00",
+    "id": "af35cbcde938",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 28,
+    "spin": 25,
+    "leanWhy": "The piece mostly reports the judge's order with direct quotes and background, but the headline presupposes the law violates the Second Amendment (\"State Admitted Violated 2A\") and uses pro-gun framing such as \"pro-Second Amendment group\" and \"Landmark Ruling.\" The judge's statements are attributed with \"claimed,\" while gun-control groups are given no voice and the NRA's side is described sympathetically.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Waiting Period Law State Admitted Violated 2A",
+        "why": "The headline treats the unconstitutionality as established, though the court has not ruled and the settlement concession is contested."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Gun-Control Groups Ask Supreme Court To Reverse Landmark Ruling",
+        "why": "Calling the ruling \"landmark\" in a related link adopts a pro-gun-rights valuation."
+      },
+      {
+        "type": "Framing",
+        "quote": "Merryday claimed.",
+        "why": "Using \"claimed\" for a judge's formal order's reasoning subtly casts doubt on it, unlike neutral \"wrote\"."
+      },
+      {
+        "type": "Framing",
+        "quote": "a pro-Second Amendment group",
+        "why": "Describing the NRA this way, and the opposing side as \"gun-control groups,\" uses each side's partisan labeling asymmetrically."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "af35cbcde938",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Case dismissed against 2 ex-FBI officials in Hunter Biden probe",
+    "link": "https://www.cbsnews.com/news/judge-dismisses-ex-fbi-officials-hunter-biden-case/",
+    "summary": "The two former FBI officials, Nicole Floris and Bradley Benavides, were accused of falsely suggesting to Congress that they weren't aware of the federal investigations surrounding Hunter Biden.",
+    "published": "2026-11-02T19:34:20+00:00",
+    "id": "803dd9f41ba3",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece is mostly straight reporting of a judge's ruling, with DOJ's response quoted. However, it leans on the judge's and defense attorneys' strongest language and describes the case as \"highly unusual\" in the outlet's own voice, which favors the defendants' framing.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "In a scathing, hour-long oral ruling",
+        "why": "The outlet's own word 'scathing' amplifies the rebuke of DOJ."
+      },
+      {
+        "type": "Source selection",
+        "quote": "This was a slapdash complaint, spaghetti at the wall, Hunter Biden conspiracy fever dream.",
+        "why": "A defense attorney's colorful attack is quoted in full, and the excerpt shows no comparable prosecution-side voice beyond a brief statement."
+      },
+      {
+        "type": "Framing",
+        "quote": "The two embraced outside the courtroom after the decision as Floris cried tears of relief.",
+        "why": "Sympathetic human detail frames the defendants as victims."
+      },
+      {
+        "type": "Framing",
+        "quote": "The criminal case against Floris and Benavides has been highly unusual since it first came to light earlier this month.",
+        "why": "The outlet states in its own voice that the case is irregular, which reinforces the judge's critique."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "803dd9f41ba3",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -1514,8 +2081,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "4a7d5f800827",
-    "coverage": 1
+    "cluster": "803dd9f41ba3",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -1558,6 +2125,210 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "Mike Rogers dishes on how shock Haley Stevens endorsement unfolded hours before Election Day",
+    "link": "https://www.foxnews.com/politics/mike-rogers-dishes-shock-haley-stevens-endorsement-unfolded-hours-election-day",
+    "summary": "GOP Senate candidate Mike Rogers defended Dem Rep Haley Stevens as top Democrats erupted over her decision to cross party lines and endorse him over Abdul El-Sayed just before Election Day.",
+    "published": "2026-11-02T18:29:06+00:00",
+    "id": "09da2c9b90b9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 40,
+    "spin": 35,
+    "leanWhy": "The piece is built around Rogers' interview and his framing of Stevens' endorsement as putting country over party, and it largely gives his account. It includes some context (El-Sayed's denial, Democratic reactions), but El-Sayed is not quoted directly on the central charges and the headline's \"dishes\" tone favors the Republican storyline.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "accusing Democrats of viciously attacking the congresswoman",
+        "why": "Adopts Rogers' characterization of Democratic criticism as vicious in the narrator's own voice."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"This is a congresswoman who just stood up and said, 'America is more important than my party right now,'\" Rogers said.",
+        "why": "Centers the Republican candidate's narrative, with a Rogers-friendly source set (Rogers, Turkish) and no El-Sayed response to the 'anti-Jewish' charge."
+      },
+      {
+        "type": "Framing",
+        "quote": "\"putting country before party.\"",
+        "why": "Repeats the 'country before party' framing from sources, reinforcing the Republican storyline that crossing over is principled."
+      },
+      {
+        "type": "Framing",
+        "quote": "stunned her party",
+        "why": "Dramatic framing emphasizes Democratic turmoil and betrayal."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "Fox",
+    "title": "Vance's campaign blitz puts him at the forefront of the GOP's midterm push, as insiders praise packed schedule",
+    "link": "https://www.foxnews.com/politics/vances-campaign-blitz-puts-him-forefront-gops-midterm-push-insiders-praise-packed-schedule",
+    "summary": "Vice President JD Vance has held 19 rallies since September as GOP strategists say his midterm election blitz offers a preview of a potential 2028 run.",
+    "published": "2026-11-02T18:23:00+00:00",
+    "id": "1e7e6451e785",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 55,
+    "spin": 45,
+    "leanWhy": "The piece relies almost entirely on Republican allies (Emmer, Spicer, Priebus) praising Vance, with no Democratic or independent voices, producing a flattering profile. Praise such as \"workhorse\" and an unchallenged jab at Kamala Harris's tenure go without pushback.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"Vice President Vance is constantly on the road,\" House Majority Whip Tom Emmer",
+        "why": "The main sources are GOP insiders who praise Vance, with no critics or neutral analysts."
+      },
+      {
+        "type": "Framing",
+        "quote": "He's been a workhorse.",
+        "why": "Admiring characterization is presented at length and the headline echoes it as 'insiders praise packed schedule'."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "it ended up being a complete and total disaster",
+        "why": "Priebus's partisan attack on Harris is quoted without counterpoint or context."
+      },
+      {
+        "type": "Framing",
+        "quote": "He is, however, the favorite in several prediction markets.",
+        "why": "Adds a note of momentum for Vance's 2028 prospects without any critical context."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "1e7e6451e785",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Trump administration turns to SCOTUS in California ballot case",
+    "link": "https://www.axios.com/2026/11/02/trump-supreme-court-california-ballots-case",
+    "summary": "The Trump administration asked the Supreme Court to mandate that California separate ballots of more than 20,000 voters the government suspects are \"likely\" non-citizens.",
+    "published": "2026-11-02T18:11:30+00:00",
+    "id": "915cb253d8f1",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and a one-sentence feed summary were available. The summary reports the administration's request in neutral terms, attributes the suspicion to the government, and puts \"likely\" in quotation marks. Nothing in it shows slant.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Supreme Court to hear religious liberty case over Colorado preschools",
+    "link": "https://www.cbsnews.com/news/supreme-court-religious-liberty-colorado-preschools-st-mary-catholic-parish-v-roy/",
+    "summary": "The Archdiocese of Denver and Catholic preschools said they were unlawfully excluded from Colorado's universal preschool program over their refusal to admit students from LGBTQ families.",
+    "published": "2026-11-02T18:03:32+00:00",
+    "id": "4f3483b45735",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The excerpt is a straightforward preview of the case. It explains the program, the nondiscrimination rule and the Archdiocese's position, and it quotes only the Catholic plaintiffs' lawyer in the excerpt. The summary and the \"opening the door for more public dollars\" line lean slightly toward framing the case's consequences, but the excerpt is largely neutral.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"This is a program that was sold to them in Colorado as being universal, every child in the state would benefit,\"",
+        "why": "The only extended quote in the excerpt comes from the Catholic plaintiffs' lawyer, with no state counterpart visible yet."
+      },
+      {
+        "type": "Framing",
+        "quote": "opening the door for more public dollars to flow to religious schools",
+        "why": "This frames the potential outcome in terms of church-state funding concerns, a perspective associated with critics of the plaintiffs."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "4f3483b45735",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "House Dems demand Haley Stevens' exile as Jeffries reveals deadline on deciding her fate",
+    "link": "https://www.foxnews.com/politics/house-dems-demand-haley-stevens-exile-jeffries-reveals-deadline-deciding-her-fate",
+    "summary": "House Democratic leaders are considering action against Haley Stevens after her surprise endorsement of Mike Rogers in the Michigan Senate race over Abdul El-Sayed.",
+    "published": "2026-11-02T17:31:31+00:00",
+    "id": "3973965a40ff",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 22,
+    "leanWhy": "The piece is mostly straight reporting with attributed quotes and named sources, but the headline's \"demand... exile\" framing emphasizes Democratic infighting, and the excerpt relies heavily on the harshest intra-party rhetoric. The writing does not editorialize directly, so the slant is mild.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "House Dems demand Haley Stevens' exile",
+        "why": "\"Exile\" and \"demand\" overstate the situation, since only some members called for removal and leaders are still deliberating."
+      },
+      {
+        "type": "Framing",
+        "quote": "That fragile peace ruptured over the weekend",
+        "why": "Dramatic narrative language stresses party turmoil."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Deplorable and embarrassing. Capitulating to fascism, Islamophobia, racism and the policies hurting everyday Americans makes you unfit to serve with the Democratic caucus,\"",
+        "why": "Quoting the harshest rhetoric at length highlights the party's most extreme infighting, with little counterbalancing voice."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Judge dismisses case against ex-FBI agents accused of lying to Congress in Hunter Biden probe",
+    "link": "https://www.nbcnews.com/politics/justice-department/judge-dismisses-case-ex-fbi-agents-lying-congress-hunter-biden-rcna607048",
+    "summary": "The magistrate judge said the case against Nikki Floris and Bradley Benavides failed to establish probable cause for the charges.",
+    "published": "2026-11-02T16:34:53+00:00",
+    "id": "cb31bef90a3a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The piece is mostly straight reporting of a court ruling, with DOJ's response included. However, it adds contextual framing that casts the prosecution as politically motivated (grand juries skeptical of cases against \"Trump enemies,\" the prosecutor's partisan background, the Trump \"falsely claimed\" line) and gives defense lawyers' charges of political smearing considerable space.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "where jurors have been skeptical of politically tinged cases against purported Trump enemies",
+        "why": "Characterizes the prosecution in the news hook as politically tinged, an editorial-style framing in a news report."
+      },
+      {
+        "type": "Source selection",
+        "quote": "is a former Republican Hill staffer who was also involved in the failed indictment of six sitting members of Congress",
+        "why": "Highlights the prosecutor's partisan background and other failed cases, implying political motive without evidence tied to this case."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a social media video that President Donald Trump disfavored",
+        "why": "Frames the other prosecution as driven by Trump's personal displeasure."
+      },
+      {
+        "type": "Source selection",
+        "quote": "nothing more than a politically-motivated smear campaign aimed at scoring political points before the midterm elections.",
+        "why": "Defense attorneys' sharpest accusations get prominent space, while the DOJ rebuttal is shorter."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "803dd9f41ba3",
+    "coverage": 3
+  },
+  {
     "outlet": "NPR",
     "title": "The Supreme Court rejects a DOJ push to separate California ballots",
     "link": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
@@ -1575,6 +2346,46 @@
     "confidence": "low",
     "cluster": "0b1004c8b9a6",
     "coverage": 6
+  },
+  {
+    "outlet": "Fox",
+    "title": "Union boss stuns with major Republican endorsement as election nears",
+    "link": "https://www.foxnews.com/politics/union-boss-stuns-major-republican-endorsement-election-nears",
+    "summary": "Teamsters president endorsed Senate Republican Ashley Moody in the Florida Senate race, marking a major break from traditional union Democratic ties.",
+    "published": "2026-11-02T16:11:56+00:00",
+    "id": "5c30fdf48433",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 28,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting with quotes from O'Brien, Moody and her Democratic opponent. Its framing leans modestly toward Republicans: the headline and lead stress a \"stunning\" endorsement, and Moody gets a favorable label while the Democrat is tagged as DSA-aligned.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "stunned political observers by issuing a surprise endorsement for a Senate Republican stalwart",
+        "why": "Dramatic wording and the flattering label \"stalwart\" amplify the significance of the endorsement for the Republican."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Union boss stuns with major Republican endorsement as election nears",
+        "why": "The headline presents the endorsement as a major shock, though the article shows O'Brien has previously worked with Republicans."
+      },
+      {
+        "type": "Framing",
+        "quote": "whose platform is considered DSA-aligned",
+        "why": "This label casts the Democratic nominee as far-left, with no source given for who considers it so."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a top commenter on O’Brien’s post said",
+        "why": "An anonymous social media comment is used as criticism, and it is not clearly representative."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "5c30fdf48433",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -1596,6 +2407,63 @@
     "coverage": 1
   },
   {
+    "outlet": "Axios",
+    "title": "Trump vows to protect Musk, floats pre-emptive staff pardons",
+    "link": "https://www.axios.com/2026/11/02/trump-musk-democrats",
+    "summary": "President Trump said Monday he'd move to protect Elon Musk if Democrats investigate the SpaceX and Tesla CEO after midterm elections. He also suggested the possibility of pre-emptive pardons for staff and others around him if Democrats win the election.",
+    "published": "2026-11-02T12:38:14+00:00",
+    "id": "c6a643b444dc",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and short feed summary are available. They report what Trump said in plain, attributed terms, with no visible loaded wording or editorializing.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "c6a643b444dc",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+    "link": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
+    "summary": "Democrats in Michigan are considering their options after Haley Stevens endorsed GOP candidate Mike Rogers for Senate. And the Gulf states are bracing for a possible U.S. attack on Iran after the midterms.",
+    "published": "2026-11-02T12:19:54+00:00",
+    "id": "c8579a02fc26",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "c8579a02fc26",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Two economists studied California's billionaire tax. They reached wildly different conclusions",
+    "link": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+    "summary": "What happens in California could shape how America taxes the superrich. But will its billionaire tax fill state coffers — or drain them?",
+    "published": "2026-11-02T11:30:00+00:00",
+    "id": "6ecaa801e809",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "6ecaa801e809",
+    "coverage": 1
+  },
+  {
     "outlet": "BBC",
     "title": "Democrat Stevens defends endorsement switch to Republican Rogers two days before election",
     "link": "https://www.bbc.co.uk/news/articles/c699z8v3282xo?at_medium=RSS&at_campaign=rss",
@@ -1611,8 +2479,46 @@
     "leanWhy": "This is straight news reporting that attributes quotes to Stevens, Schumer, Dingell and Hertel, and it explains the intra-party feud and the stakes. The wording is mostly neutral, with slight emphasis on Democratic condemnation and Stevens' evasiveness, but this follows from the events themselves.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "da9b998cb7e3",
-    "coverage": 5
+    "cluster": "7914bb560af5",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "6 things to watch for on election night",
+    "link": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night",
+    "summary": "Some of the key storylines to watch will center around various voters groups that have soured on President Trump during his second turn out.",
+    "published": "2026-11-02T10:00:00+00:00",
+    "id": "f1e49d926a8a",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "f1e49d926a8a",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "When it comes to election pressure, this year's Georgia or Michigan could be anywhere",
+    "link": "https://www.npr.org/2026/11/02/nx-s1-5989648/midterm-voting-election-pressure",
+    "summary": "The districts that will decide control of the House and Senate next year are spread across the country. Voting officials in those places may face scrutiny and pressure they've never experienced.",
+    "published": "2026-11-02T10:00:00+00:00",
+    "id": "dce8f2ce2b23",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "dce8f2ce2b23",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -1631,6 +2537,93 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "99a3be351d9a",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Democrats have high hopes for midterms - but are the polls right?",
+    "link": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
+    "summary": "Polls have been predicting a Democratic surge, but last-minute deciders and sampling issues mean there's no guarantee.",
+    "published": "2026-11-02T00:25:12+00:00",
+    "id": "7dbaaf3fa66b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is a straightforward news analysis that lays out Democratic poll leads and then the reasons polls could be wrong, using polling examples and a pollster's expert view. It is mostly balanced, with only slight characterizations (e.g., \"historically unpopular\") and a generalizing quote about conservatives.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "A historically unpopular Republican president",
+        "why": "Stated as fact in the narrator's voice without attribution to a poll, mildly favoring the Democratic outlook."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Conservatives, especially those on the far right, are much more anti-establishment by nature,\"",
+        "why": "A sweeping generalization about conservatives is presented unchallenged, though it comes from an attributed expert."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "7dbaaf3fa66b",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "North Carolina voters weigh up Trump's track record on cost of living",
+    "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+    "summary": "The BBC's Clive Myrie found voters in the state were asking themselves whether they were better off than two years ago.",
+    "published": "2026-11-01T22:25:51+00:00",
+    "id": "bc5cccb2d1c2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "The excerpt is a short, neutral video introduction. It says surveys show prices are central to voters' decisions and that a reporter spoke to voters, and it takes no side.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "bc5cccb2d1c2",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Federal judge dismisses Trump attempt to intervene in Alaska Senate race",
+    "link": "https://www.nbcnews.com/politics/2026-election/federal-judge-dismisses-trump-attempt-ballots-alaska-senate-race-rcna606838",
+    "summary": "The president had requested that Alaska segregate ballots cast for a candidate with the same name as the incumbent. The judge said that would “violate Alaskans’ right to a secret ballot.”",
+    "published": "2026-11-01T19:03:25+00:00",
+    "id": "6ddec1a9d360",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is mostly straight reporting. It quotes the judge, the Peltola campaign and the DOJ, and it includes the Times report on the recruited candidate that is embarrassing to Democrats. The headline's \"intervene\" framing and the judge's quotes slightly favor the ruling's side, but both sides get their say.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "6ddec1a9d360",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen. Chris Murphy hospitalized after stroke",
+    "link": "https://www.nbcnews.com/politics/congress/chris-murphy-hospitalized-stroke-recovery-rcna606834",
+    "summary": "“We are optimistic he will make a full recovery,” a spokesperson for the Connecticut Democrat said.",
+    "published": "2026-11-01T18:01:47+00:00",
+    "id": "daa564c8f68c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 4,
+    "leanWhy": "This is a straightforward news report on a senator's health, attributed to his chief of staff and including reactions from Democrats, Republicans and Trump. The closing mention of Murphy's criticism of Trump is context rather than slant, and the piece makes no argument.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "daa564c8f68c",
     "coverage": 1
   }
 ]
