@@ -1,5 +1,760 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "Control of Congress on the line as voters decide midterms — live updates",
+    "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "summary": "The fate of President Trump's legislative agenda is now in the hands of American voters, with the first polls set to close at 7 p.m. ET. Follow live updates here.",
+    "published": "2026-11-03T21:51:44+00:00",
+    "id": "709b57296062",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a live-updates news roundup that attributes claims to named sources (Mullin, the NC Board of Elections, Fulton County) and includes both right-wing (Bannon) and Democratic concerns about ICE at polls. The gas price item is factual with historical comparison and carries little editorializing.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "709b57296062",
+    "coverage": 2
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "DoJ says Trump’s proposed 250ft arch would be completed after end of his term",
+    "link": "https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
+    "summary": "Triumphal arch continues to face legal challenges as government says DC area project will take up to 39 months The US justice department said on Tuesday that Donald Trump’s proposed 250ft (76 meter) triumphal arch in Washington would not be completed until after the end of his second term.",
+    "published": "2026-11-03T21:49:45+00:00",
+    "id": "cc2fb8e68acc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "The piece is mostly standard news reporting with attributed claims from the DOJ, the FAA, and the plaintiffs. Its slightly critical lean comes from the emphasis on legal opposition and the closing list of Trump's name-adding projects, which frames the arch as vanity-driven.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The arch is part of Trump’s broader push to remake Washington DC, including renovating the Lincoln Memorial reflecting pool, redeveloping a golf course in East Potomac Park, adding his name to the US Institute of Peace",
+        "why": "Ending on a list of projects that stress Trump's name implies a pattern of self-aggrandizement without attributing that view to anyone."
+      },
+      {
+        "type": "Framing",
+        "quote": "But the arch has faced significant opposition in the courts.",
+        "why": "The opposition is given prominent emphasis, and the plaintiffs' strongest wording is quoted, while the government's rationale gets less space."
+      },
+      {
+        "type": "Source selection",
+        "quote": "calling it “legally indefensible” and arguing Congress has not approved it",
+        "why": "The plaintiffs' charged characterization is quoted directly, but no comparable direct quote supports the administration's legal position."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "cc2fb8e68acc",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
+    "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+    "summary": "Voters are casting their ballots across the US in a referendum on Donald Trump’s agenda Sign up for the Breaking News US email What are the races to watch and why do they matter? Midterm elections 2026: what time do the polls close today?",
+    "published": "2026-11-03T21:47:46+00:00",
+    "id": "41b46c921540",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "This is a live blog that mostly reports turnout figures from officials, with a mild lean from its framing and voter selection. It frames the election as a \"referendum on Donald Trump's agenda\" and gives more room to voters afraid of Trump's effects (the gay and trans voter, the teacher describing fear in her classroom) than to the one Republican voter, whose profile is sympathetic but mixed.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Voters are casting their ballots across the US in a referendum on Donald Trump’s agenda",
+        "why": "It presents the midterms as a verdict on Trump, which is an interpretive frame stated as fact."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“If Trump wins again it will validate all that hatred.”",
+        "why": "The excerpt quotes a voter's strongly anti-Trump claim without any counterweight on the same point."
+      },
+      {
+        "type": "Framing",
+        "quote": "She has witnessed the fear sweeping through her classrooms.",
+        "why": "This is emotive language that reflects the writer's narrative of fear under Trump and is not attributed to the speaker."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "709b57296062",
+    "coverage": 2
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Ketanji Brown Jackson accuses Catholic preschools of wanting ‘special rule’ to bar LGBT families in universal preschool case",
+    "link": "https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
+    "summary": "Justice Ketanji Brown Jackson sharply questioned a coalition of Catholic schools on Tuesday that are seeking to be allowed into Colorado’s universal preschool program without having to admit families who do not abide by Catholic teachings, accusing them of asking for a “special rule” to discriminate.",
+    "published": "2026-11-03T21:30:34+00:00",
+    "id": "514fa3fe1918",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The excerpt is mostly straightforward reporting of oral arguments, but it centers on Jackson \"sharply\" questioning and \"grilling\" the Catholic schools' lawyer, which frames the liberal justices as hostile. The headline's \"accuses ... of wanting\" casts the exchange in terms favorable to a religious-liberty-sympathetic reading, and the excerpt gives no state-side argument.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "grilled Nicholas Reaves",
+        "why": "Describing the liberal justices as grilling the Catholic lawyer emphasizes confrontation and ideological split."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "accuses Catholic preschools of wanting ‘special rule’ to bar LGBT families",
+        "why": "The headline turns a justice's pointed question into an accusation, which sharpens the conflict beyond what an argument exchange shows."
+      },
+      {
+        "type": "Framing",
+        "quote": "without having to admit families who do not abide by Catholic teachings",
+        "why": "The case is framed around the schools' exemption request, while the state's side is described only as a bar on schools that 'refuse to comply'."
+      },
+      {
+        "type": "Omission",
+        "quote": "Jackson, along with the two other liberal justices on the high court",
+        "why": "The excerpt notes the liberal justices' questioning but gives no sign of how conservative justices or the state's lawyers addressed the issues."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "514fa3fe1918",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Everything you need for election night: From the Politics Desk",
+    "link": "https://www.nbcnews.com/politics/politics-news/everything-need-election-night-politics-desk-rcna607298",
+    "summary": "Welcome to a special Election Day edition of the From the Politics Desk newsletter, where we’re putting all the links and information you’ll need when the vote tallies start rolling in tonight in one place.",
+    "published": "2026-11-03T21:30:00+00:00",
+    "id": "6fa8e458541f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a service-style election night newsletter that lists poll closing times and points readers to guides. The only context given, what is at stake and how many seats Democrats need, is stated neutrally and factually.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "6fa8e458541f",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Minnesota voters leave ‘I Voted’ stickers at memorial sites for Alex Pretti and Renee Good",
+    "link": "https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
+    "summary": "Residents are sending a clear message about the violent deportations taking place across the US this midterm cycle Minnesota voters left “I Voted” stickers on memorial sites for Alex Pretti and Renee Nicole Good, the two US citizens killed by federal immigration officials earlier this year.",
+    "published": "2026-11-03T21:27:03+00:00",
+    "id": "f87940eec03b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -70,
+    "spin": 60,
+    "leanWhy": "The piece adopts the language of anti-deportation activists in the narrator's voice (\"violent deportations,\" \"aggressive and violent mass deportation campaign\") and presents the voters' interpretation as a \"clear message.\" Sourcing is only sympathetic voters and a progressive pastor, with no administration or opposing view on the killings or enforcement.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Donald Trump’s aggressive and violent mass deportation campaign",
+        "why": "The outlet's own voice uses charged adjectives to characterize the policy rather than attributing them."
+      },
+      {
+        "type": "Framing",
+        "quote": "Residents are sending a clear message about the violent deportations",
+        "why": "It asserts a unified voter meaning from a few sticker placements, presenting an interpretation as fact."
+      },
+      {
+        "type": "Source selection",
+        "quote": "And he was assassinated.",
+        "why": "An uncontested, inflammatory claim from a voter is quoted prominently with no response or context on the circumstances of the killing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a progressive pastor from the Park Avenue United Methodist church",
+        "why": "Only sympathetic voices are included, and no administration or counter-perspective appears."
+      }
+    ],
+    "confidence": "high",
+    "cluster": "f87940eec03b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "DOJ charges Oklahoma man accused of mailing white powder to public officials before elections",
+    "link": "https://www.washingtonexaminer.com/news/justice/4789562/doj-charges-oklahoma-man-mail-white-powder/",
+    "summary": "The Justice Department charged an Oklahoma man accused of mailing white powder to hundreds of officials and public figures before the midterm elections. Investigators arrested Robin Martin on Monday and have linked him to more than 700 mailings of white powder to various public figures in two waves — one before the…",
+    "published": "2026-11-03T21:25:49+00:00",
+    "id": "b884acbefe43",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is straight crime reporting on a DOJ case, attributing key claims to the AP and noting the charges. It stresses that recipients were bipartisan and does not cast blame on either party.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "b884acbefe43",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Kornacki: The races that will provide first ‘real tests’ on election night",
+    "link": "https://www.nbcnews.com/meet-the-press/video/kornacki-the-races-that-will-provide-first-real-tests-on-election-night-272787013824",
+    "summary": "Voters are heading to the polls across the country in an election that will determine which party controls the U.S. House and Senate. NBC News’ Steve Kornacki joins Meet the Press NOW to break down key battleground states and the races that could give the earliest indication of which way results are headed.",
+    "published": "2026-11-03T21:25:23+00:00",
+    "id": "728bc295088e",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Only a headline and short feed summary are available. They describe an analyst walking through battleground races on election night in neutral, explanatory terms, with no partisan framing.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "728bc295088e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Iran is betting on the midterm elections. It could lose big",
+    "link": "https://www.washingtonexaminer.com/in_focus/4789956/iran-betting-on-midterm-elections-could-lose-big/",
+    "summary": "Iran is no longer simply waiting for America’s midterm elections. It is trying to influence them. According to Reuters reporting, Iranian officials acknowledge that Tehran has prolonged negotiations with Washington, hoping to deny President Donald Trump a political victory before Americans vote.",
+    "published": "2026-11-03T21:17:52+00:00",
+    "id": "33a9025f69a9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 30,
+    "spin": 35,
+    "leanWhy": "The excerpt is short and reads like an analysis or opinion piece. It frames Iran's negotiating strategy through Trump's political interests, and the headline predicts Iran \"could lose big\" without any support in the visible text. The only sourcing is a Reuters report of Iranian officials' statements.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "It could lose big",
+        "why": "The headline asserts a predictive conclusion that the excerpt doesn't support with any evidence."
+      },
+      {
+        "type": "Framing",
+        "quote": "hoping to deny President Donald Trump a political victory before Americans vote",
+        "why": "It casts the negotiations as a contest over Trump's political win, which implicitly sets Iran against the Republican side."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "sustain pressure on voters",
+        "why": "It asserts Iran's intent to pressure American voters, an interpretive claim presented as the 'calculation'."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "33a9025f69a9",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "DOJ sending election monitors to all 50 states for the first time in U.S. history",
+    "link": "https://www.nbcnews.com/now/video/doj-sending-election-monitors-to-all-50-states-for-the-first-time-in-u-s-history-272787013728",
+    "summary": "The Department of Justice is sending election monitors to polling sites in all 50 states for the first time in U.S. history. NBC News' Justin Levitt discusses how the election monitors have worked in previous elections and how they will operate during the midterms.",
+    "published": "2026-11-03T21:11:32+00:00",
+    "id": "b3ed506426cd",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "b3ed506426cd",
+    "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trump’s Final Pitch To Money-Strapped Voters Before Midterms: Hey, Look At These Cool Renovations We’re Doing",
+    "link": "https://dailycaller.com/2026/11/03/trumps-final-pitch-to-money-tight-voters-before-midterms-hey-look-at-these-cool-renovations-were-doing",
+    "summary": "‘The helipad was desperately needed’",
+    "published": "2026-11-03T20:59:50+00:00",
+    "id": "445e005bf99f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -62,
+    "spin": 55,
+    "leanWhy": "The sarcastic headline and the framing of Trump as out of touch with struggling voters favor a critical, left-leaning view. The excerpt relies on Trump's own quotes and polling, but it adds unattributed claims such as the Iran War's \"$1100 burden\" and the vandalism \"lack of evidence\" line, and it uses selective emphasis.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Hey, Look At These Cool Renovations We’re Doing",
+        "why": "The mocking, sarcastic headline mischaracterizes the speech and signals contempt rather than neutral reporting."
+      },
+      {
+        "type": "Framing",
+        "quote": "spent less time talking about voters’ top issues going into the midterms: inflation",
+        "why": "It frames the speech as evasive and out of touch, and it implies an editorial judgment about how the time was spent."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The Iran War has forced an estimated $1100 burden on each American household.",
+        "why": "This is a contested, unattributed economic claim inserted without a named source, and it advances a critical narrative."
+      },
+      {
+        "type": "Framing",
+        "quote": "There is a lack of evidence to substantiate that the reflecting pool was vandalized",
+        "why": "This is an unsourced assertion that casts doubt on the administration, with no attribution or response."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "445e005bf99f",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Republican Rep. Don Bacon on what a potential blue wave could mean for the GOP",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6027729/republican-rep-don-bacon-on-what-a-potential-blue-wave-could-mean-for-the-gop",
+    "summary": "NPR's Ailsa Chang talks with Republican Congressman Don Bacon of Nebraska about what a Blue Wave would mean for Republicans.",
+    "published": "2026-11-03T20:52:01+00:00",
+    "id": "043026105fad",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "043026105fad",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Election Day challenges facing voters in battleground states",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/4789848/election-day-challenge-voter-battleground-state/",
+    "summary": "Millions of votes are being cast nationwide in the 2026 midterm elections, which have already faced scrutiny in battleground states. In North Carolina, results are expected to be delayed by an hour, until 8:30 p.m., in Hertford, Gates, Lenoir, and Wilson counties due to “various technical issues,” according to Sam…",
+    "published": "2026-11-03T20:48:47+00:00",
+    "id": "871afd6fe8f5",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 18,
+    "leanWhy": "The piece is mostly straight reporting with attributed quotes from officials of both parties, including a Democratic county executive criticizing the failure. Slight right-leaning emphasis comes from highlighting problems in Democratic-run jurisdictions, the \"fear\" of Republicans, and the Fulton County 2020 framing, though the officials' reassurances are also included.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Republicans fear the ballot-scanning problem could be used to hand Conley an advantage",
+        "why": "Foregrounds a Republican concern about advantage to the Democrat without comparable Democratic-side concerns."
+      },
+      {
+        "type": "Framing",
+        "quote": "the site of a sweeping election-integrity battle in the 2020 presidential contest, is once again facing scrutiny",
+        "why": "Invokes the 2020 election-integrity narrative, implying a pattern for routine equipment problems."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Rep. Don Davis (D-NC) is viewed as a highly vulnerable incumbent",
+        "why": "Passive 'is viewed' without attribution frames the Democratic incumbent as weak."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "871afd6fe8f5",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Elon Musk’s AI Company Installs Converted Jet Engines To Help Power Its Memphis Data Center",
+    "link": "https://dailycaller.com/2026/11/03/elon-musk-xai-jet-engines-proenergy-southaven-colossus-2-data-center-power-plant",
+    "summary": "‘If anybody’s ever flown on a Boeing 747, it’s the exact same aircraft engine’",
+    "published": "2026-11-03T20:45:50+00:00",
+    "id": "3df88d876513",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly straight reporting. It attributes claims to the NYT, permits and the company, and it separates the NAACP lawsuit over temporary turbines from the permit appeal over the eight converted units. Its one outside commentator, Blackmon, both criticizes Musk and defends natural gas, and Trump's policy statement is given without commentary.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“intermittent, weather reliant generation simply cannot satisfy.”",
+        "why": "The only outside commentator is a gas-friendly energy analyst. His view on renewables goes unchallenged, and no environmental voice is quoted, though the NAACP was asked for comment."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "3df88d876513",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Republicans fight to hold on to the Senate as Democrats seek gains in traditionally red states",
+    "link": "https://www.nbcnews.com/politics/2026-election/republicans-fight-hold-senate-democrats-rcna605762",
+    "summary": "Control of the Senate is on the line Tuesday, following a midterm election cycle with races marked by betrayal and alleged ballot shenanigans.",
+    "published": "2026-11-03T20:45:40+00:00",
+    "id": "a2cc6acfef78",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly standard election-preview reporting with polling, ad-spending and seat-math context. It adds mocking, editorialized language about Trump (\"incessant swooning,\" \"casting for a movie\") and frames his tenure as \"largely unchecked,\" which leans mildly against the right. It also reports the Democratic ballot-stacking allegation with the Peltola denial.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "President Donald Trump’s incessant swooning over the backside of one Republican candidate",
+        "why": "Mocking, editorialized phrasing in the news lede ridicules Trump rather than neutrally describing his remarks."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Trump, who often gives the impression that he is casting for a movie",
+        "why": "Snide, opinionated aside about Trump inserted into straight news."
+      },
+      {
+        "type": "Framing",
+        "quote": "allowing him to pursue his agenda largely unchecked",
+        "why": "Frames unified GOP control as an absence of checks, a framing more common on the left."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "races marked by betrayal, alleged ballot shenanigans",
+        "why": "Flippant, colorful characterization of the campaign that adds tone beyond the facts."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "a2cc6acfef78",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Americans head to the polls to vote in critical midterm elections – video",
+    "link": "https://www.theguardian.com/us-news/video/2026/nov/03/americans-head-to-the-polls-to-vote-in-critical-midterm-elections-video",
+    "summary": "US voters vote today in the midterm elections, which will decide whether Republicans retain control of the House and Senate. A Democratic victory in either chamber would significantly constrain Trump’s ability to advance his domestic agenda.",
+    "published": "2026-11-03T20:45:25+00:00",
+    "id": "98b321bbb955",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a short, explanatory election-day item that describes what is at stake in factual terms. It does not use loaded language, and its description of the consequences of each outcome is even-handed, though the word \"critical\" in the headline adds slight emphasis.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "97fa00311720",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump’s grip on Washington at stake as the parties battle for House control",
+    "link": "https://www.nbcnews.com/politics/2026-election/democrats-republicans-battle-for-house-trump-washington-midterm-rcna605760",
+    "summary": "The House of Representatives is up for grabs Tuesday as Democrats try to wrest control from Republicans, who have enjoyed power in the chamber for the past four years but are facing formidable political headwinds.",
+    "published": "2026-11-03T20:45:00+00:00",
+    "id": "eb3c6ed0d736",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "This is mostly standard election-eve reporting with balanced facts on redistricting, seat counts and terrain. It leans slightly toward Democrats by stressing Republican \"headwinds\", using Trump's unpopularity as the main frame, and quoting only Jeffries at length.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "facing formidable political headwinds",
+        "why": "The opening frames Republicans as being in a weak position, which presumes the outcome."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The American people are going to judge these MAGA extremists and run them out of town",
+        "why": "A long partisan quote from a Democratic leader appears with no Republican voice in the excerpt to balance it."
+      },
+      {
+        "type": "Framing",
+        "quote": "top Republican outside groups threw in the towel on a handful of once-competitive races",
+        "why": "The phrase \"threw in the towel\" is colloquial and stresses Republican retreat."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "eb3c6ed0d736",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trump Scores Major Greenland Win As Arctic Island Greenlights US Military Expansion",
+    "link": "https://dailycaller.com/2026/11/03/trump-greenland-arctic-military-expansion",
+    "summary": "‘peace and stability are no longer something we can ⁠take for granted’",
+    "published": "2026-11-03T20:28:13+00:00",
+    "id": "170f11eb7233",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The headline and lede frame the ratification as a \"major win\" and \"major victory\" for Trump, adopting a pro-Trump celebratory tone, though the body is largely factual and attributed to Reuters. The excerpt gives strategic benefits of the expansion but no critical voices, and it softens Trump's annexation talk as \"expressed desires.\"",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump Scores Major Greenland Win",
+        "why": "Celebratory victory framing credits Trump and treats the agreement as his personal triumph."
+      },
+      {
+        "type": "Framing",
+        "quote": "secured a major victory in his push to expand American military power",
+        "why": "Presents the deal as the success of Trump's campaign, though the agreement is a security pact among Greenland, Denmark and the US."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump formerly expressed desires to annex the world's largest island",
+        "why": "Soft wording downplays the earlier annexation pressure, which is the context for the deal."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Its high latitude renders it able to detect missile launches from adversarial nations such as Russia and China early.",
+        "why": "Only strategic rationales for the expansion are given, with no critics or skeptics."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "170f11eb7233",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "AI Agents Enter The Battlefield As NATO Prepares For Future Warfare",
+    "link": "https://dailycaller.com/2026/11/03/openai-ai-agents-battlefield-nato",
+    "summary": "‘AI is now in the loop on both sides’",
+    "published": "2026-11-03T20:27:23+00:00",
+    "id": "cc1aee05656d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is straight reporting on a NATO cyber exercise, relying heavily on attributed statements from the CCDCOE and OpenAI. It includes caveats about human oversight and no partisan framing is evident.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "cc1aee05656d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Kansas postal worker indicted for stealing mail, including hundreds of Republican election flyers",
+    "link": "https://www.foxnews.com/politics/kansas-postal-worker-indicted-stealing-mail-including-hundreds-republican-election-flyers",
+    "summary": "Kelly R. Cram, a Kansas postal worker, was indicted for allegedly stealing 4,404 pieces of mail, including nearly 400 Republican political mailers.",
+    "published": "2026-11-03T20:26:15+00:00",
+    "id": "0fed5d738afc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is straight reporting that attributes nearly every claim to the U.S. Attorney's release and uses \"allegedly\" for the charges. It adds neutral election context, naming candidates from both parties, and does not speculate about motive beyond what the release says.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "0fed5d738afc",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Election night opens with Trump in battle mode",
+    "link": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+    "summary": "Voting is underway across the country Tuesday in a midterm election that could decide whether President Trump gets two more years of unified Republican rule — or faces a potential Democratic check on his power.",
+    "published": "2026-11-03T20:17:21+00:00",
+    "id": "20f6392befc0",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and a short feed summary were available. The summary frames the midterms in balanced terms, as either continued unified Republican rule or a Democratic check on Trump's power. \"Battle mode\" is mildly dramatic but not partisan.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "20f6392befc0",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Attorney and Trump foe targeted in Alaska ballot probe, sources say",
+    "link": "https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/",
+    "summary": "Marc Elias, a longtime Democratic attorney and vocal opponent of the Trump administration, received one of about 20 target letters sent by the DOJ in its Alaska ballot investigation.",
+    "published": "2026-11-03T19:59:00+00:00",
+    "id": "724697843f38",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece is mostly standard news reporting with sourcing to law enforcement officials, but it gives Elias's charged rebuttal substantial space. It also adds the outlet's own judgment that the timing \"appear[s] to run afoul\" of DOJ norms, and it stresses prosecutors' discomfort, which leans toward the targets' side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The timing of the letters and subpoenas, which were sent out in recent days, appear to run afoul of the Justice Department's own internal guidelines and historic norms",
+        "why": "The reporter states without attribution that the probe breaks DOJ norms, which implies impropriety by the administration."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"This administration has repeatedly weaponized the DOJ against the President's political enemies despite zero evidence of wrongdoing, and we are the latest targets.\"",
+        "why": "A long, unrebutted quote from the target presents the 'weaponization' framing, and no DOJ or administration response appears in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "has personally sought to recruit assistant U.S. attorneys in Alaska to assist with the probe, but some have declined or expressed discomfort",
+        "why": "Anonymous accounts of prosecutors' reluctance reinforce the picture of an improper investigation."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "724697843f38",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "ASRA NOMANI: Muslim reformers reject ‘fire will rise’ warning if El-Sayed loses as 'Jihad First'",
+    "link": "https://www.foxnews.com/politics/asra-nomani-muslim-reformers-reject-fire-rise-warning-el-sayed-loses-jihad-first",
+    "summary": "Wajahat Ali's warning that \"the fire will rise\" if Abdul El-Sayed loses the Michigan Senate race draws a sharp rebuke from Muslim reformers.",
+    "published": "2026-11-03T19:54:50+00:00",
+    "id": "7871cdb12dd9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 72,
+    "spin": 65,
+    "leanWhy": "The piece, bylined by an opinion writer, frames Ali's tweet as a threat of violence echoing Islamist intimidation, relying solely on critics who share that view. No defenders of Ali or El-Sayed are quoted, and Ali's own reply is presented as \"scolding critics.\"",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "American Muslim reformers are torching political commentator Wajahat Ali",
+        "why": "Combative verb frames the reaction as a decisive takedown rather than neutrally describing criticism."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Dr. Zuhdi Jasser, a Muslim reformer and founder of the American Islamic Forum for Democracy",
+        "why": "All quoted voices are critics of Ali, and one is a Republican candidate, with no counter-view or non-partisan interpretation of the tweet."
+      },
+      {
+        "type": "Framing",
+        "quote": "instead scolding critics for alleged bigotry",
+        "why": "Casts Ali's response as dismissive and sets 'alleged' bigotry in doubt, tilting the reader against him."
+      },
+      {
+        "type": "Framing",
+        "quote": "Maybe we need to expect troubles coming up.",
+        "why": "Amplifies an insinuation of violence without challenging whether Ali's words actually implied it."
+      }
+    ],
+    "confidence": "high",
+    "cluster": "3bc9854a8787",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Nvidia Squeezes China’s Backdoor Access To US AI Chips With This Unwritten Rule",
+    "link": "https://dailycaller.com/2026/11/03/nvidia-china-chips-data-centers-artificial-intelligence-models",
+    "summary": "‘cannot win the SI race unless America’s SI infrastructure wins worldwide’",
+    "published": "2026-11-03T19:48:48+00:00",
+    "id": "e8de8c45a1ee",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting with attribution to the Financial Times, Reuters and an Nvidia statement. It leans slightly right through a China-threat \"back door\" framing, uncritical adoption of Trump's \"Super Intelligence\" rebrand and a \"Russian killer drones\" link, while it includes no outside critics or analysts.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "China’s back door to America’s best artificial intelligence chips just got narrower — but it is not shut.",
+        "why": "Opens with a security-threat framing that casts Chinese access as a loophole, which is the writer's characterization rather than an attributed claim."
+      },
+      {
+        "type": "Source selection",
+        "quote": "America cannot win the SI race unless America’s SI infrastructure wins worldwide",
+        "why": "The only on-record voice is Nvidia's spokesperson, whose nationalist competitiveness framing gets prominent placement with no independent expert or critic."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "American AI Chips Now Power Russian Killer Drones",
+        "why": "The related-story link uses sensational wording that adds a security-alarm tone to the piece."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "e8de8c45a1ee",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Supreme Court offers support for Catholic preschools challenging state funding requirements",
+    "link": "https://www.foxnews.com/politics/supreme-court-offers-support-catholic-preschools-challenging-state-funding-requirements",
+    "summary": "The Supreme Court's conservative majority signaled support for Catholic preschools claiming Colorado's funded program violates their religious liberty.",
+    "published": "2026-11-03T19:43:14+00:00",
+    "id": "a9238dae06ee",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight oral-argument reporting. It quotes both Sotomayor and Kavanaugh and gives the state's position and the plaintiffs' claims. Slight tilt comes from the opening's adoption of the plaintiffs' framing and the characterization of the court's support as \"clear.\"",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "improperly excludes them by unconstitutionally intruding on their religious rights",
+        "why": "The lede states the plaintiffs' legal claim in strong terms, though it is attributed to the schools as what they 'claim'."
+      },
+      {
+        "type": "Framing",
+        "quote": "deny admission to children of LGBTQ+ parents",
+        "why": "The issue is framed around denial of admission, while the schools' stated policy is based on family support for Catholic teaching."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "514fa3fe1918",
+    "coverage": 4
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Supreme Court seems likely to favor Catholic schools in pre-K fight",
+    "link": "https://www.cbsnews.com/news/supreme-court-st-mary-catholic-parish-v-roy-colorado-preschool/",
+    "summary": "The Supreme Court is weighing a case involving Catholic preschools' efforts to participate in Colorado's universal preschool program.",
+    "published": "2026-11-03T19:12:56+00:00",
+    "id": "98ed5905e23d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news account of oral arguments, relying on direct quotes from the justices and a neutral description of the dispute and lower-court rulings. The phrase \"opening the door for more public dollars to flow to religious schools\" adds slight context framing, but overall the piece is balanced.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "opening the door for more public dollars to flow to religious schools",
+        "why": "Adds a mildly interpretive consequence framing that emphasizes public funding going to religious schools."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "514fa3fe1918",
+    "coverage": 4
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "From Marco Polo to Marco Rubio: America should invest in Central Asia",
     "link": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4789382/fortune-awaits-america-wild-east/",
@@ -86,7 +841,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "65984a94218e",
+    "cluster": "709b57296062",
     "coverage": 2
   },
   {
@@ -105,7 +860,7 @@
     "leanWhy": "This is a live-updates election day roundup that quotes candidates from both parties (Pappas, Rogers) and officials in their own words, with attribution. The framing is largely neutral, with no evident loaded language beyond the quoted sources.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "65984a94218e",
+    "cluster": "709b57296062",
     "coverage": 2
   },
   {
@@ -140,7 +895,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "c31db93ce475",
+    "cluster": "f9619ead47e1",
     "coverage": 2
   },
   {
@@ -159,8 +914,8 @@
     "leanWhy": "Straight news report that consistently attributes claims to charging documents, the FBI affidavit and authorities, using \"allegedly\" throughout. It notes the suspect targeted officials of both parties and includes the DSA's cooperation, with no loaded framing.",
     "signals": [],
     "confidence": "high",
-    "cluster": "5ced407a8e71",
-    "coverage": 3
+    "cluster": "b884acbefe43",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -327,8 +1082,8 @@
     "leanWhy": "This is straight wire-style reporting on a federal criminal charge, with attribution to the FBI and court filings. It uses neutral wording, notes that no attorney is listed for the defendant, and takes no side.",
     "signals": [],
     "confidence": "high",
-    "cluster": "5ced407a8e71",
-    "coverage": 3
+    "cluster": "b884acbefe43",
+    "coverage": 4
   },
   {
     "outlet": "Axios",
@@ -353,6 +1108,46 @@
     ],
     "confidence": "low",
     "cluster": "731226cf7d6d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "AOC campaign memo frames growth from progressive firebrand to national Democratic Party force",
+    "link": "https://www.foxnews.com/politics/aoc-campaign-memo-frames-growth-from-progressive-firebrand-national-democratic-party-force",
+    "summary": "Alexandria Ocasio-Cortez's campaign memo reveals how she built a nationwide movement around economic populism after Trump's 2024 election victory.",
+    "published": "2026-11-03T17:49:43+00:00",
+    "id": "0e36b2679f94",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The piece relays a campaign memo almost entirely on the campaign's own terms, with no outside sources, critics, or independent verification. The headline and summary adopt the memo's flattering framing, and claims of influence are repeated as fact in places, though the memo is mostly attributed.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "The five-page document makes no mention of a potential 2028 presidential or Senate run.",
+        "why": "Relies solely on the campaign's own document with no independent or critical voices to test its claims."
+      },
+      {
+        "type": "Framing",
+        "quote": "Alexandria Ocasio-Cortez's campaign memo reveals how she built a nationwide movement around economic populism",
+        "why": "The summary treats the memo's self-description as a revealed fact rather than a campaign claim."
+      },
+      {
+        "type": "Framing",
+        "quote": "Following her endorsement and appearance, he was able to erase the deficit and win the Democratic primary.",
+        "why": "Implies a causal link between her endorsement and the win in the narrator's own voice, without attribution or other explanations."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "formidable national political force",
+        "why": "Flattering characterization that comes from the memo but anchors the framing of the story."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "0e36b2679f94",
     "coverage": 1
   },
   {
@@ -616,7 +1411,7 @@
     "leanWhy": "This is a live-updates election-day item that quotes candidates from both parties with attribution, including Turek's claims, Hinson's denial, and Johnson's \"polls are wrong\" message. The excerpt gives somewhat more space to Turek, but it includes a fact-check note and balancing context, so it shows no clear slant.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "65984a94218e",
+    "cluster": "709b57296062",
     "coverage": 2
   },
   {
@@ -798,8 +1593,8 @@
     "leanWhy": "This is a straight news report on an arrest, attributed to a federal law enforcement source and AP reporting. It uses neutral wording, notes that tests found no hazardous material, and says some substances were harmless.",
     "signals": [],
     "confidence": "high",
-    "cluster": "5ced407a8e71",
-    "coverage": 3
+    "cluster": "b884acbefe43",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -839,7 +1634,7 @@
     ],
     "confidence": "medium",
     "cluster": "7dad7409ee4e",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -857,8 +1652,8 @@
     "leanWhy": "The piece is an explanatory, process-focused look at when election results may be called, using the outlet's own race ratings and past vote-count timing. It describes both parties' positions neutrally and does not push a conclusion beyond the data.",
     "signals": [],
     "confidence": "high",
-    "cluster": "3fbb3f4e6a72",
-    "coverage": 3
+    "cluster": "cdf26c310d88",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1114,8 +1909,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "a1b2256467b7",
-    "coverage": 2
+    "cluster": "514fa3fe1918",
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -1154,8 +1949,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "95621aeba87b",
-    "coverage": 1
+    "cluster": "724697843f38",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -1281,7 +2076,7 @@
       }
     ],
     "confidence": "low",
-    "cluster": "4a8e458c78e3",
+    "cluster": "b3ed506426cd",
     "coverage": 2
   },
   {
@@ -1318,6 +2113,46 @@
         "type": "Framing",
         "quote": "That prospect appeared to be buoyed by Democratic Rep. Haley Stevens’ 11th-hour endorsement",
         "why": "The narrator states in its own voice that the GOP's prospects improved, even though the impact is uncertain."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "26fdab597ad5",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Michigan voters weigh in after Dem Rep Haley Stevens endorses GOP candidate",
+    "link": "https://www.foxnews.com/politics/big-difference-dems-last-minute-endorsement-gives-gop-new-hope-crucial-senate-battle",
+    "summary": "Michigan Republican Mike Rogers' campaign touted Haley Stevens' endorsement as a breakthrough with Black and Jewish voters before Election Day.",
+    "published": "2026-11-03T13:27:22+00:00",
+    "id": "fbaa275a90ca",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The piece is mostly straight reporting and includes caveats (handpicked speakers, skeptical observers, no similar Jewish polling). However, its sourcing is dominated by Republican-aligned speakers, and it adopts some of their framing of El-Sayed and the \"groundswell\" with little counter-voice from Democrats or El-Sayed supporters.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "members of those communities told Fox News Digital the shift is happening",
+        "why": "The evidence for a shift comes from people chosen for a GOP event, not from independent voters or Democrats."
+      },
+      {
+        "type": "Framing",
+        "quote": "That prospect appeared to be buoyed by Democratic Rep. Haley Stevens’ 11th-hour endorsement",
+        "why": "The writing frames the endorsement as boosting the GOP's prospects before supporting evidence is given."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "El-Sayed’s excesses",
+        "why": "The speakers' negative characterization of El-Sayed is repeated without a response from him or his campaign."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "some of his radical associations",
+        "why": "The piece relays the 'radical' label without specifying or testing the claim."
       }
     ],
     "confidence": "medium",
@@ -1365,7 +2200,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "65984a94218e",
+    "cluster": "709b57296062",
     "coverage": 2
   },
   {
@@ -1499,8 +2334,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "7dad7409ee4e",
-    "coverage": 2
+    "cluster": "ef0319a38fc0",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -1841,8 +2676,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "c31db93ce475",
-    "coverage": 2
+    "cluster": "fa9dcb319014",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1877,7 +2712,7 @@
     ],
     "confidence": "medium",
     "cluster": "3fbb3f4e6a72",
-    "coverage": 3
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -1915,7 +2750,7 @@
     "signals": [],
     "confidence": "medium",
     "cluster": "a1b2256467b7",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1940,7 +2775,7 @@
     ],
     "confidence": "high",
     "cluster": "4a8e458c78e3",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -2105,8 +2940,8 @@
     "leanWhy": "Only the headline and a short feed summary were available. They describe a data-based explainer on how early vote counts can differ from final results, with no partisan framing or loaded language.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "3fbb3f4e6a72",
-    "coverage": 3
+    "cluster": "e9f67f7f2bd5",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2324,6 +3159,44 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "3a6c02180006",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "For swing state voters, the cost of living and immigration remain key concerns",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6022233/midterms-swing-state-voters-concerns",
+    "summary": "Before Election Day, the hosts of Morning Edition traveled to several swing states to talk to voters about their views on this significant election. This is what they had to say.",
+    "published": "2026-11-03T09:44:37+00:00",
+    "id": "7de3887809dc",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "7de3887809dc",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "What to watch on election night and why exit polls don't tell the whole story",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6026471/2026-election-night-results-when-to-watch",
+    "summary": "As Election night returns roll in, here's which House races to watch, when the results might start telling a story and why exit polls deserve a little skepticism, according to election analyst David Wasserman.",
+    "published": "2026-11-03T09:42:26+00:00",
+    "id": "9dad8dbef4b5",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "9dad8dbef4b5",
     "coverage": 1
   },
   {
@@ -3911,7 +4784,7 @@
     ],
     "confidence": "low",
     "cluster": "f9619ead47e1",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -5995,6 +6868,25 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "11/1/2026: Michigan Senate Race; Cuba in Crisis; Wemby",
+    "link": "https://www.cbsnews.com/video/60minutes-2026-11-01/",
+    "summary": "First, Michigan race: Abdul El-Sayed and Mike Rogers. Then, inside Cuba under tough U.S. sanctions. And, Victor Wembanyama: The 60 Minutes Interview.",
+    "published": "2026-11-02T00:00:00+00:00",
+    "id": "9c598f773db7",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "9c598f773db7",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "Haley Stevens endorses Mike Rogers amid Michigan Democratic feud",
     "link": "https://www.axios.com/2026/11/01/haley-stevens-mike-rogers-church-michigan-senate",
@@ -6095,6 +6987,25 @@
     "coverage": 1
   },
   {
+    "outlet": "Axios",
+    "title": "Where Dems eyeing the White House are putting their midterm chips",
+    "link": "https://www.axios.com/2026/11/01/2028-democrats-midterm-bets",
+    "summary": "Pennsylvania Gov. Josh Shapiro 's chances of being a presidential contender in 2028 are riding on his winning reelection in a landslide Tuesday. New York Rep. Alexandria Ocasio-Cortez 's future hinges on whether a fellow progressive can carry a swing state, for once. California Gov.",
+    "published": "2026-11-01T22:45:06+00:00",
+    "id": "70b497636ab1",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "70b497636ab1",
+    "coverage": 1
+  },
+  {
     "outlet": "BBC",
     "title": "North Carolina voters weigh up Trump's track record on cost of living",
     "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
@@ -6111,6 +7022,44 @@
     "signals": [],
     "confidence": "medium",
     "cluster": "bc5cccb2d1c2",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Sen. Chris Murphy hospitalized after suffering stroke",
+    "link": "https://www.axios.com/2026/11/01/chris-murphy-stroke-hospitalized",
+    "summary": "Sen. Chris Murphy (D-Conn.) had a stroke Saturday and is being treated at Johns Hopkins Hospital, his office said Sunday. The big picture: Murphy is one of the Senate's more visible Democrats and has been traveling the country campaigning ahead of Tuesday's midterms .",
+    "published": "2026-11-01T21:44:49+00:00",
+    "id": "983093a0637f",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "Only a headline and short feed summary were available. They report a senator's hospitalization, attributed to his office, in neutral factual terms with brief context about his campaigning.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "daa564c8f68c",
+    "coverage": 2
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Judge tosses lawsuit seeking to delay certification of Alaska Senate race",
+    "link": "https://www.cbsnews.com/news/judge-doj-lawsuit-alaska-senate-race-dan-sullivan/",
+    "summary": "The Justice Department argued that Daniel J. Sullivan's name on the ballot potentially diverted voters, and the Democrat running in the race would benefit as a result.",
+    "published": "2026-11-01T20:59:00+00:00",
+    "id": "d4f0fdab5376",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Straight news report that leads with the judge's ruling and quotes her reasoning, then gives the DOJ, Sen. Sullivan and Peltola's campaign their say. Attribution is standard and the claims are tied to their sources, so there is little slant.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "d4f0fdab5376",
     "coverage": 1
   },
   {
@@ -6149,6 +7098,25 @@
     "signals": [],
     "confidence": "high",
     "cluster": "daa564c8f68c",
+    "coverage": 2
+  },
+  {
+    "outlet": "Axios",
+    "title": "Trump has frank call with Netanyahu about next move in Iran war",
+    "link": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war",
+    "summary": "President Trump had a candid phone call with Israeli Prime Minister Benjamin Netanyahu Saturday about the state of U.S. negotiations with Iran and how quickly to return to combat, according to one Israeli and one U.S. source.",
+    "published": "2026-11-01T18:00:05+00:00",
+    "id": "31bd52626dc8",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a short feed summary were available. The wording is neutral and attributes the report to one Israeli and one U.S. source, with no evident slant.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "31bd52626dc8",
     "coverage": 1
   },
   {
@@ -6239,6 +7207,25 @@
     ],
     "confidence": "medium",
     "cluster": "396e41e99e6f",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Former President Obama endorses Booker in Kentucky Senate race",
+    "link": "https://www.cbsnews.com/news/obama-charles-booker-kentucky-midterms/",
+    "summary": "Charles Booker is running against Republican Rep. Andy Barr to succeed Sen. Mitch McConnell.",
+    "published": "2026-11-01T14:00:00+00:00",
+    "id": "a2c58dbcaf23",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Straight news report of an endorsement, with quotes from both Booker and Obama and from Barr and Trump. It adds context such as Cook's \"solid Republican\" rating, Booker's 24-point loss in 2022, and that the campaign's polling claims are internal.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "a2c58dbcaf23",
     "coverage": 1
   },
   {
