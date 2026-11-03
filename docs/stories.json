@@ -57,7 +57,7 @@
     ],
     "confidence": "medium",
     "cluster": "ef0319a38fc0",
-    "coverage": 3
+    "coverage": 5
   },
   {
     "outlet": "Washington Examiner",
@@ -82,7 +82,7 @@
     ],
     "confidence": "medium",
     "cluster": "da9b998cb7e3",
-    "coverage": 2
+    "coverage": 5
   },
   {
     "outlet": "BBC",
@@ -112,7 +112,7 @@
     ],
     "confidence": "medium",
     "cluster": "ef0319a38fc0",
-    "coverage": 3
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -166,7 +166,7 @@
     ],
     "confidence": "medium",
     "cluster": "0b1004c8b9a6",
-    "coverage": 2
+    "coverage": 6
   },
   {
     "outlet": "Washington Examiner",
@@ -250,7 +250,42 @@
     ],
     "confidence": "medium",
     "cluster": "0b1004c8b9a6",
-    "coverage": 2
+    "coverage": 6
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+    "link": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+    "summary": "Iranian state media reported the sound of explosions on the island in the strait of Hormuz, coming on the eve of crucial US midterms The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, ⁠according to reports in US media, hours after US vice-president JD Vance said he was optimistic diplomatic…",
+    "published": "2026-11-03T03:18:36+00:00",
+    "id": "c83451d69cec",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly sourced news reporting with attribution to WSJ, Reuters and AP, but it inserts electoral framing that Trump's party is \"expected to be punished by voters\" for the war's cost-of-living effects. It also juxtaposes Trump's downplaying with the strikes, which mildly favors a critical-of-Trump narrative.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "in which Donald Trump’s Republican party is expected to be punished by voters for the cascading effect the war has had on the US cost of living",
+        "why": "Injects a political-consequence narrative with loaded phrasing ('punished', 'cascading effect') into a military news story, without attributing the expectation."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump continued to play down the significance of the conflict and its effects on the US economy",
+        "why": "Characterizes Trump's statements as downplaying, setting them against the strike reports and implying a contradiction."
+      },
+      {
+        "type": "Framing",
+        "quote": "coming on the eve of crucial US midterms",
+        "why": "Emphasizes the election timing, which hints at political context for the strikes beyond what the facts establish."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "ef0319a38fc0",
+    "coverage": 5
   },
   {
     "outlet": "Washington Examiner",
@@ -275,7 +310,92 @@
     ],
     "confidence": "low",
     "cluster": "da9b998cb7e3",
-    "coverage": 2
+    "coverage": 5
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Tennessee national guard trained guns on dying man after guard member shot him, video shows",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/tennessee-shooting-tyrin-johnson-video",
+    "summary": "Footage from prosecutors shows aftermath of shooting of Tyrin Johnson, 20, shot and killed by national guard in July Tennessee national guard troops in Memphis last summer trained their handguns on a man as he lay dying on a sidewalk after a guard member shot him in the back, video released Monday by county…",
+    "published": "2026-11-03T03:13:06+00:00",
+    "id": "391955bd5b5b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece is mostly straight reporting with attribution to prosecutors, an autopsy, and guard reports, and it includes the guard's account and the armed-suspect context. The headline and lede emphasize the most damning framing (\"trained guns on a dying man\"), and the Trump/Democratic-run cities context gives a mild tilt against the deployment.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "trained guns on dying man after guard member shot him",
+        "why": "The headline stresses the most damning image and states it as fact, though the excerpt itself notes the footage did not show the shooting."
+      },
+      {
+        "type": "Source selection",
+        "quote": "An autopsy report shared by Johnson’s family found that he was shot in the back, contradicting police and national guard accounts",
+        "why": "It relies on a family-provided autopsy to contradict official accounts, with no independent confirmation shown."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democratic-run cities that he described as overrun with crime",
+        "why": "The political context is framed in a way that casts doubt on the premise of the deployment."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "391955bd5b5b",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "ICE planning to deport Afghans through Pakistan, official says",
+    "link": "https://www.cbsnews.com/news/ice-deportation-afghans-through-pakistan/",
+    "summary": "The plan has triggered alarm among advocates for Afghans, who warn that the proposal could lead to the deportation of Afghans who could be persecuted by the Taliban.",
+    "published": "2026-11-03T02:27:18+00:00",
+    "id": "d7b28b005234",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly straight news reporting built on a US official, a sworn ICE declaration and a court case. It gives more space to advocates' and the defense attorney's concerns, and the DHS response is cut off, but the claims are attributed and the language is largely neutral.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "The plan has triggered alarm among advocates for Afghans, who warn that the proposal could lead to the deportation of Afghans who could be persecuted",
+        "why": "The concerns of critics are foregrounded in the summary and lede area, and no supporter of the plan is quoted in the excerpt."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "d7b28b005234",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "US says it conducted defensive strikes against Iran on eve of midterm elections",
+    "link": "https://www.washingtonexaminer.com/policy/defense/4788963/us-defensive-strikes-iran-qeshm-island/",
+    "summary": "The U.S. military launched defensive strikes against Iran on Monday night, marking the first attacks in two months on the eve of the midterm elections. U.S. forces targeted Qeshm Island, which is home to Tehran’s military infrastructure.",
+    "published": "2026-11-03T02:26:16+00:00",
+    "id": "12baa888ae5b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is short, straight-news reporting that relays the \"defensive\" framing of the strikes and attributes the target description to the AP. It leans slightly on the official characterization, but it adds no evident partisan commentary.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The latest blitz does not mark the return to war, as multiple reports said the attacks were limited.",
+        "why": "The text downplays the escalation with a reassuring conclusion, and 'multiple reports' is vague sourcing."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "ef0319a38fc0",
+    "coverage": 5
   },
   {
     "outlet": "NBC News",
@@ -319,7 +439,26 @@
     ],
     "confidence": "medium",
     "cluster": "ef0319a38fc0",
-    "coverage": 3
+    "coverage": 5
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "OpenAI hires ex-Army Secretary Dan Driscoll two months after Pentagon exit",
+    "link": "https://www.washingtonexaminer.com/policy/national-security/4788952/openai-hires-ex-army-secretary-dan-driscoll/",
+    "summary": "OpenAI announced on Monday that former Army Secretary Dan Driscoll will be joining the company as senior counselor for national security modernization, a move that comes over two months after the service leader left the Pentagon.",
+    "published": "2026-11-03T01:43:57+00:00",
+    "id": "f7739eab02a6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "The piece is a short, straightforward report of a hiring announcement, attributing the role description to OpenAI. It uses no loaded language and takes no side, though the excerpt is very brief.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "f7739eab02a6",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -350,6 +489,71 @@
     "confidence": "low",
     "cluster": "9e3b54913a77",
     "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Supreme Court rejects Trump's request in California mail ballots dispute",
+    "link": "https://www.cbsnews.com/news/supreme-court-rejects-trump-california-mail-ballots-alleged-noncitizens/",
+    "summary": "Earlier Monday, the Trump administration asked the Supreme Court to order California election officials to set aside mail ballots from 20,000 people it alleges are noncitizens.",
+    "published": "2026-11-03T01:02:00+00:00",
+    "id": "c55bbac72121",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is mostly straight news reporting of a Supreme Court order, with attribution to the court, the judge and the Justice Department. It includes context on both sides: the rarity of confirmed noncitizen voting, the federal law against it, and the DOJ's prosecutions. The excerpt leans very slightly toward the state's position by quoting the judge's criticism and noting disenfranchisement concerns.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "has taken steps to intervene in the elections",
+        "why": "The phrasing frames the administration's actions as intervention, which is mildly loaded, though the sentence is cut off."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Supreme court rules against Trump over bid to force California to set aside ballots",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/supreme-court-trump-california-ballots",
+    "summary": "Justice department had ordered state to segregate and not count 20,000 ballots from people it claims are non-citizens US midterms – live updates The supreme court on Monday ruled against the Trump administration and its attempts to force California election officials to segregate and not count ballots from people that…",
+    "published": "2026-11-03T00:50:37+00:00",
+    "id": "a5460c6fc4f4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -35,
+    "spin": 30,
+    "leanWhy": "The piece reports a real unanimous emergency ruling accurately, but sourcing leans toward California Democrats, voting rights groups and an arrestee, with no administration voice beyond a non-response. Framing of the DOJ effort (refused methodology, \"trumpeted\" arrests, staged media) casts the administration skeptically.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“After repeatedly losing in the lower courts, the highest court in the land firmly slapped down the Trump DoJ’s baseless attack on California’s electoral process – not even entertaining it,”",
+        "why": "Partisan Newsom statement is quoted at length with no comparable administration or Republican response."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "it also trumpeted arrests of dozens non-citizens",
+        "why": "\"Trumpeted\" frames the administration's publicizing of arrests as showy rather than neutrally describing it."
+      },
+      {
+        "type": "Framing",
+        "quote": "accused the Trump administration of a ploy to cast doubt over midterm elections",
+        "why": "Critics' motive claim is given prominence, while the DOJ's rationale is not presented beyond the claim itself."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“It was staged and I’m the patsy … They wanted to make a scene,”",
+        "why": "An arrestee's claim of a staged arrest is included as supporting color for the critical narrative without administration reply."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
   },
   {
     "outlet": "Fox",
@@ -389,7 +593,72 @@
     ],
     "confidence": "medium",
     "cluster": "da9b998cb7e3",
-    "coverage": 2
+    "coverage": 5
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "DOJ charges 63 people with voting-related crimes day before midterm elections",
+    "link": "https://www.washingtonexaminer.com/news/justice/4788901/doj-charges-63-people-voter-fraud-midterm-elections/",
+    "summary": "The Department of Justice announced charges against 63 people across 15 states Monday for election-related crimes, marking the latest crackdown on alleged voter fraud just one day before the midterm elections. The charges involve illegal voting, fraudulent voter registration, and false claims of U.S.",
+    "published": "2026-11-03T00:35:31+00:00",
+    "id": "8e9585196228",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 20,
+    "spin": 20,
+    "leanWhy": "The excerpt is mostly a straightforward relay of a DOJ press release, with attribution and a caveat that citizenship status of most defendants was unclear. The \"latest crackdown on alleged voter fraud\" framing and reliance on a single government source modestly echo a fraud-concern narrative, but the slant is slight.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "marking the latest crackdown on alleged voter fraud",
+        "why": "Presents the charges as part of an ongoing crackdown narrative, which implies a broader fraud problem."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to a DOJ press release",
+        "why": "Relies solely on the prosecuting agency's own account, with no outside or contextual voices in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Four of those charged were illegal immigrants",
+        "why": "Highlights a small subset (4 of 63) in a way that foregrounds immigration, though it is followed by a clarifying caveat."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "8e9585196228",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Trump touts renovation projects instead of addressing cost of living in final midterm push",
+    "link": "https://www.cbsnews.com/video/trump-touts-renovation-projects-instead-addressing-cost-of-living-midterm/",
+    "summary": "President Trump made his final pitch to voters from the Reflecting Pool in Washington, D.C., on Monday. He held up photos of his various renovation projects, rather than take on cost-of-living issues, which voters say matter to them most.",
+    "published": "2026-11-03T00:17:57+00:00",
+    "id": "479bbb4b182b",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -40,
+    "spin": 40,
+    "leanWhy": "Only a headline and short feed summary were available. The framing says Trump chose renovation photos \"instead of addressing\" cost of living, which casts him as dodging voters' top concern, and the text shows no response from his side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump touts renovation projects instead of addressing cost of living",
+        "why": "The headline presents the event as Trump avoiding voters' main concern, which is a critical judgment rather than a neutral description."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "rather than take on cost-of-living issues, which voters say matter to them most",
+        "why": "It sets Trump's choice against voter priorities, which implies he is out of touch, and it offers no evidence on what he actually said."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "479bbb4b182b",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -427,6 +696,93 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "7fdca72a334d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Final polls, models and markets see a \"blue tsunami\"",
+    "link": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+    "summary": "The threat of a blue tsunami is bearing down on President Trump's Washington, with virtually every major indicator forecasting a Democratic rout in Tuesday's elections.",
+    "published": "2026-11-03T00:00:06+00:00",
+    "id": "f9b8a442fc42",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "Only a headline and a short feed summary were available. The dramatic \"blue tsunami\" and \"rout\" wording is hyperbolic, but it is attributed to polls, models and markets and doesn't clearly favor either side's viewpoint.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The threat of a blue tsunami is bearing down on President Trump's Washington",
+        "why": "Storm and 'threat' imagery dramatizes the forecast and frames a Democratic win as a menace to Trump."
+      },
+      {
+        "type": "Framing",
+        "quote": "virtually every major indicator forecasting a Democratic rout",
+        "why": "'Rout' and 'virtually every' present the outcome as a foregone conclusion, which goes beyond what forecasts can show."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "f9b8a442fc42",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Jewish voters put in spotlight in Michigan Senate race after Stevens and el Sayed feud",
+    "link": "https://www.washingtonexaminer.com/news/senate/4788842/jewish-voters-michigan-senate-haley-stevens-el-sayed-rift/",
+    "summary": "Rep. Haley Stevens’s (D-MI) decision to pull support from Democratic nominee Abdul el Sayed after he declined to condemn an advertisement blaming U.S. support for Israel for rising grocery prices has thrust Jewish voters into the spotlight heading into Election Day.",
+    "published": "2026-11-02T23:59:53+00:00",
+    "id": "a17082398519",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The excerpt is mostly straight reporting of the Stevens–el Sayed dispute. It uses neutral attribution and cites a Sanders-campaign Jewish director for the impact claim. The excerpt is short and partly cut off by a paywall prompt, so the judgment is tentative.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Just hours until critical midterm elections",
+    "link": "https://www.nbcnews.com/nightly-news/video/just-hours-until-critical-midterm-elections-272727109924",
+    "summary": "There are less than 24 hours until the midterm elections that will determine control of Congress. Ryan Nobles, Steve Kornacki, Kristen Welker and Hallie Jackson report.",
+    "published": "2026-11-02T23:53:54+00:00",
+    "id": "5056ae052a17",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "5056ae052a17",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Talarico says he’d work with Trump to fulfill ‘promise’ of MAGA: ‘There’s still time’",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4788790/james-talarico-trump-maga-promise-texas/",
+    "summary": "Texas Democratic Senate nominee James Talarico proposed bipartisan cooperation with President Donald Trump, claiming the two could work together to fulfill the promise of the Make America Great Again movement.",
+    "published": "2026-11-02T23:52:37+00:00",
+    "id": "dc91eb259244",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is short and mostly describes what Talarico said on a podcast, with attribution and no editorializing. The wording \"claiming\" is standard attribution, and the excerpt includes little context, so the slant is hard to judge.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "dc91eb259244",
     "coverage": 1
   },
   {
@@ -475,7 +831,304 @@
       }
     ],
     "confidence": "low",
-    "cluster": "a30dce585280",
+    "cluster": "479bbb4b182b",
+    "coverage": 3
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Five dimensional chess: inside James Talarico’s extraordinary bid to break Texas Democrats’ losing streak",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/james-talarico-texas-senate-midterm-elections",
+    "summary": "The Texan could pull off a historic victory in the Lone Star state, which hasn’t elected a Democratic senator since 1988 When a young, untested former school teacher stood up to address a modest gathering of local donors in Austin, the state capital of Texas, Wendy Davis felt sorry for him.",
+    "published": "2026-11-02T23:32:17+00:00",
+    "id": "cf845ccb6ae2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -62,
+    "spin": 55,
+    "leanWhy": "The profile is admiring toward Democrat Talarico, using a heroic framing (\"extraordinary bid\", \"Baby Obama\", a sympathetic origin story) and sourcing a Democratic ally for praise. Republican opponents are described through loaded terms like \"desperate attacks\", \"baseless lie\" and \"scandal-haunted\", with no Republican voices in the excerpt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Five dimensional chess: inside James Talarico’s extraordinary bid",
+        "why": "The headline casts the candidate as a brilliant strategist and his bid as extraordinary, which is flattering."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Despite the desperate attacks",
+        "why": "It characterizes Republican criticism as desperate, which is an editorial judgment."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a scandal-haunted state attorney general and Trump ally",
+        "why": "It describes the Republican opponent in pejorative terms while the Democrat gets warm descriptors."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“He was like five or six sentences in and I knew that something was different about him,”",
+        "why": "The opening anecdote relies on a Democratic ally's praise, and the excerpt includes no comparable Republican perspective."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "cf845ccb6ae2",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "11/2: CBS Evening News",
+    "link": "https://www.cbsnews.com/video/110226-cbs-evening-news/",
+    "summary": "President Trump makes his closing midterm pitch to voters; a Texas ICE officer was charged with aggravated assault.",
+    "published": "2026-11-02T23:30:00+00:00",
+    "id": "dff3c7fc8b28",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "dff3c7fc8b28",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
+    "summary": "Stevens’s decision sparked fierce backlash from members of the party, while Donald Trump praised the sudden switch Democrat Haley Stevens’s shocking last-minute endorsement of Mike Rogers, the Michigan Republican Senate candidate, in the run-up to Tuesday’s midterm elections has sparked fierce backlash from members of…",
+    "published": "2026-11-02T23:22:57+00:00",
+    "id": "08ded78d6e47",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting of a real intra-party rupture, but sourcing is dominated by Democratic leaders condemning Stevens, with El-Sayed's fundraising haul highlighted. Loaded descriptors in the headline and summary (\"despicable betrayal,\" \"shocking\") and the framing of Stevens as evasive slightly favor the El-Sayed/Democratic establishment side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "‘A despicable betrayal’: Democrats incensed",
+        "why": "The headline adopts the harshest quote and a uniform picture of outrage as its frame."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "shocking last-minute endorsement",
+        "why": "The narrator's own word choice, not attributed, heightens drama and implies the move was illegitimate."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Schumer, the Senate minority leader, described Stevens’ endorsement of Rogers as “a despicable betrayal”.",
+        "why": "Sourcing leans on Democratic leaders' condemnations, with Stevens' explanation given less context in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Stevens refused to clearly explain what led to her endorsement",
+        "why": "This characterization frames her as evasive, with the silence on air emphasized."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "Axios",
+    "title": "SCOTUS rejects Trump's bid over disputed California ballots",
+    "link": "https://www.axios.com/2026/11/02/supreme-court-california-voter-rolls-doj",
+    "summary": "The Supreme Court denied the Trump administration's request Monday to hear its case regarding more than 20,000 California ballots that President Trump claims were cast by noncitizens .",
+    "published": "2026-11-02T23:09:37+00:00",
+    "id": "8a4726727550",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and short feed summary are available. The wording is largely factual, attributing the noncitizen claim to Trump (\"claims\"), and shows no clear slant.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Dingell: Stevens' GOP endorsement is \"galvanizing\" voters behind El-Sayed",
+    "link": "https://www.cbsnews.com/news/debbie-dingell-haley-stevens-abdul-el-sayed/",
+    "summary": "\"It's galvanizing many communities,\" the Michigan Democrat told CBS News on Monday.",
+    "published": "2026-11-02T23:06:00+00:00",
+    "id": "545e6818a447",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting of an interview with Dingell, with context and attribution from both Stevens and El-Sayed. It leans slightly toward the Democratic/El-Sayed side because the headline and lead feature Dingell's favorable \"galvanizing\" claim and the campaign's fundraising figure without independent verification.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Stevens' GOP endorsement is \"galvanizing\" voters behind El-Sayed",
+        "why": "The headline adopts Dingell's positive characterization of the effect as the main frame, without independent evidence."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "stunning endorsement",
+        "why": "\"Stunning\" is an evaluative descriptor in the news voice."
+      },
+      {
+        "type": "Source selection",
+        "quote": "El-Sayed's campaign says it raised more than $2.4 million on Sunday",
+        "why": "The campaign's self-reported figure supports the backlash narrative and is not independently verified."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "How the NBC News Decision Desk is getting ready for all possible polling outcomes",
+    "link": "https://www.nbcnews.com/video/how-the-nbc-news-decision-desk-is-getting-ready-for-all-possible-polling-outcomes-272726085726",
+    "summary": "The NBC News Decision Desk is getting ready for all possible outcomes polling outcomes. NBC News' Ryan Nobles and John Lapinski discuss how the wild cards in Senate races could dictate what happens in Washington, D.C. over the next two years.",
+    "published": "2026-11-02T23:03:13+00:00",
+    "id": "72ebac7aa81f",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "72ebac7aa81f",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Supreme Court quickly rejects Trump effort to target alleged noncitizen voters in California",
+    "link": "https://www.nbcnews.com/politics/supreme-court/rejects-trump-effort-target-alleged-noncitizen-voters-california-midte-rcna606607",
+    "summary": "The Trump administration alleges that about 20,000 noncitizens may be registered to vote in California, an assertion local officials dispute.",
+    "published": "2026-11-02T22:52:20+00:00",
+    "id": "5db60491b628",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "This is mostly straight news reporting of a Supreme Court order, but the framing and sourcing lean toward the California and anti-administration view. It includes a Democratic official's statement, an expert's characterization of the court's \"displeasure,\" and unrebutted context discrediting Trump's claims, while the administration gets no voice because it did not respond to requests for comment.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“the court acted quickly to show its displeasure for the underlying claims”",
+        "why": "The expert's interpretation of the court's motives is presented as analysis with no counter-view."
+      },
+      {
+        "type": "Framing",
+        "quote": "In a loss for President Donald Trump",
+        "why": "The lede frames the story as a defeat for Trump rather than describing the order neutrally."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump has long claimed, without evidence, that millions of noncitizens illegally vote in U.S. elections.",
+        "why": "The article adds context that undercuts the administration's position and gives no administration rationale beyond the legal basis."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“But our work is not over. We will remain vigilant and keep fighting back against federal efforts to undermine our democracy,” he added.",
+        "why": "The article quotes Bonta at length with his charged framing and gives no comparable administration quote."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
+  },
+  {
+    "outlet": "Axios",
+    "title": "Another judge blocks DOJ ballot demands in California",
+    "link": "https://www.axios.com/2026/11/02/judge-blocks-trump-doj-california-ballot-demands",
+    "summary": "A federal judge on the eve of Election Day barred the Trump administration from demanding California officials set aside ballots from registered voters it suspects are noncitizens, finding the effort likely violates the Constitution.",
+    "published": "2026-11-02T22:45:11+00:00",
+    "id": "4bd17ad16479",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and a short feed summary were available. The summary reports the ruling in fairly neutral terms, with attribution (\"it suspects\", \"finding the effort likely violates the Constitution\"). The word \"Another\" in the headline hints at a pattern of losses for the administration, but that is mild.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Another judge blocks DOJ ballot demands",
+        "why": "\"Another\" implies a repeated pattern of rebukes, which gives a slightly negative frame to the administration's actions."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "4bd17ad16479",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "EXCLUSIVE: Woman allegedly raped by illegal alien after Clinton-appointed federal judge ordered his release",
+    "link": "https://www.foxnews.com/politics/exclusive-woman-allegedly-raped-illegal-alien-clinton-appointed-federal-judge-ordered-release",
+    "summary": "Federal officials said Marcotulio Melendez Diaz, 42, was arrested after allegedly raping a woman Oct. 11 in her Minnesota home.",
+    "published": "2026-11-02T22:32:49+00:00",
+    "id": "ac219946af71",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 68,
+    "spin": 62,
+    "leanWhy": "The headline and framing foreground the appointing president of the judge and use \"illegal alien,\" and the sourcing is almost entirely ICE, which blames \"activist judges\" with no response from the judge, the court, or defense. The judge's legal rationale (due process, prolonged detention) appears only briefly, and the story presents the crime as preventable by the ruling.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Clinton-appointed federal judge ordered his release",
+        "why": "The headline highlights the judge's appointing president to cast the ruling in partisan terms, even though it has no bearing on the facts of the case."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"This is what happens when activist judges side with criminal illegal aliens over Americans,\"",
+        "why": "A partisan-sounding agency statement is quoted at length and unchallenged, with no response from the judge or from legal experts."
+      },
+      {
+        "type": "Framing",
+        "quote": "Just two days after his deportation order became final, he was charged with rape.",
+        "why": "The sequencing implies a link between the judicial release and the crime and downplays that the release was based on a legal finding of unlawful or prolonged detention."
+      }
+    ],
+    "confidence": "high",
+    "cluster": "ac219946af71",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "How the Michigan and Alaska dramas shape the fight for the Senate: From the Politics Desk",
+    "link": "https://www.nbcnews.com/politics/politics-news/michigan-alaska-dramas-shape-fight-senate-politics-desk-rcna607114",
+    "summary": "In today’s edition, Sahil Kapur explains how a pair of controversies in Michigan and Alaska could impact the broader battle for Senate control.",
+    "published": "2026-11-02T22:30:41+00:00",
+    "id": "cd3bb8a73206",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The newsletter is a mostly even-handed analysis of Senate scenarios, covering controversies affecting both parties (a Democratic defector in Michigan, a Democratic campaign scandal in Alaska) with attribution and denials noted. Some vivid scenario language (\"blue tsunami\", \"breaches the walls of MAGA country\") frames things from a Democratic-gains perspective, but it is mild and labeled as hypothetical.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The blue wave turns into a tsunami and breaches the walls of MAGA country.",
+        "why": "Dramatic metaphor adopts a Democratic-victory narrative, though it is presented as a hypothetical scenario."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "cd3bb8a73206",
     "coverage": 1
   },
   {
@@ -545,7 +1198,439 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "ea99cb0a630e",
+    "cluster": "b5bbf432482c",
+    "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Voters Get Rare Say Over Who Sets Their Electric Rates",
+    "link": "https://dailycaller.com/2026/11/02/utility-regulator-elections-georgia-public-service-commission-peter-hubbard-fitz-johnson-power-bills",
+    "summary": "‘Who pay a power bill’",
+    "published": "2026-11-02T22:04:10+00:00",
+    "id": "01e98c9a050d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The piece is mostly straight election reporting with attributed quotes from both parties. But its sourcing and emphasis tilt right: it ends with business and industry voices warning that Democratic control would raise costs, and with the claim that blue states raise consumer costs. It also quotes Johnson's attack on \"climate activists\" and describes a left-leaning group's slate in loaded terms.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“People need to understand that blue states have stopped pipelines and shut down dependable power while increasing costs to consumers,”",
+        "why": "A partisan-leaning claim from a business executive is included without any rebuttal or counter-voice."
+      },
+      {
+        "type": "Framing",
+        "quote": "A Democratic majority on Georgia’s commission could slow power deals for big corporate projects",
+        "why": "The article frames a Democratic win mainly through its predicted economic downsides, with a business adviser as the source."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“A new board could delay power contract approvals and spike industrial electricity rates by shifting grid costs onto corporations,”",
+        "why": "The excerpt includes this speculative warning from an industry adviser, and no expert offers an opposing view."
+      },
+      {
+        "type": "Framing",
+        "quote": "a group that backs what it calls “local climate champions,”",
+        "why": "The scare-quote style distances the writer from the group's self-description and casts Democratic candidates as aligned with activists."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "01e98c9a050d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Congressional Hopeful Beth Macy’s ‘Dopesick’ Legacy Gets A Second Look",
+    "link": "https://dailycaller.com/2026/11/02/dopesick-painkiller-beth-macy-virginia-opioid-epidemic-drugs-appalachia-maine-patients-shortage",
+    "summary": "‘Right-wing politics is killing working-class communities across America’",
+    "published": "2026-11-02T21:55:41+00:00",
+    "id": "c000a2f0b79e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 35,
+    "leanWhy": "The piece scrutinizes a Democratic candidate's signature work, built on critics and a single academic study, with no named critics or campaign response in the excerpt. The writing is mostly measured and includes context on Purdue, but the premise and sourcing lean toward undermining a Democratic challenger.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "critics are questioning whether her most famous work tells the full story of the crisis",
+        "why": "The unnamed 'critics' set up a premise that undermines the candidate's credibility, and the excerpt names no actual critic."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Pain-patient advocates contend that efforts to combat prescription opioid abuse have contributed to increasingly restrictive prescribing practices",
+        "why": "The excerpt relies on advocacy claims and one study about the TV adaptation, not Macy's book, and gives no response from Macy or her campaign."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "‘Right-wing politics is killing working-class communities across America’",
+        "why": "The summary quotes a Macy line that frames the story as a political attack, but the excerpt doesn't discuss that statement."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "c000a2f0b79e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Colorado’s Weed Plagued With Pesticides, Chemicals You Probably Can’t Pronounce",
+    "link": "https://dailycaller.com/2026/11/02/colorado-marijuana-weed-cannabis-regulation-enforcement-med-dispensary-ballot-initiative",
+    "summary": "‘Honeymoon diesel’",
+    "published": "2026-11-02T21:55:15+00:00",
+    "id": "5bd931c5b811",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 40,
+    "spin": 48,
+    "leanWhy": "The article reports real recalls with attribution, but the headline is sweeping and the piece adds unrelated negative statistics about legalization, which frames legal cannabis as a failed policy. It gives no counterpoints, such as the share of products affected or the context of the regulatory response, so it leans toward an anti-legalization (conservative) view.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Colorado’s Weed Plagued With Pesticides, Chemicals You Probably Can’t Pronounce",
+        "why": "The headline generalizes from five recalled batches to all of Colorado's cannabis, using alarmist and mocking language."
+      },
+      {
+        "type": "Framing",
+        "quote": "Since Colorado legalized recreational marijuana, traffic fatalities involving drivers impaired by cannabis increased 140%.",
+        "why": "The statistic is added without sourcing or context and implies legalization caused the increase, which strays from the recall story."
+      },
+      {
+        "type": "Omission",
+        "quote": "Hospitalizations involving marijuana rose by 100%.",
+        "why": "The figure has no source, time frame or context, such as population growth or changes in reporting, so it works as an alarm bell."
+      },
+      {
+        "type": "Framing",
+        "quote": "A 2023 American Heart Association (AHA) study found that marijuana users had a 34% greater chance of suffering heart failure than non-users.",
+        "why": "The closing health statistic is unrelated to the recalls and reinforces an anti-cannabis conclusion."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "5bd931c5b811",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Trump to Axios: \"No rush\" to decide on bombing Iran again",
+    "link": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war",
+    "summary": "President Trump told Axios in a phone interview Monday he's \"in no rush\" to decide whether to resume fighting in Iran . Why it matters: The midterm elections have been seen as an inflection point for Trump on whether to unleash a massive bombing campaign to try to bring the war to an end.",
+    "published": "2026-11-02T21:01:34+00:00",
+    "id": "495db00a4829",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary were available. They report Trump's quoted remarks to Axios, and the \"why it matters\" line adds mild context about the midterms without clearly favoring either side.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "495db00a4829",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "US midterms campaign 'shattering' spending records to be most expensive ever",
+    "link": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+    "summary": "The 2026 campaign is projected to cost nearly $12bn - BBC Verify looks into where all that money has come from.",
+    "published": "2026-11-02T20:54:44+00:00",
+    "id": "d148c732ee59",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a data-driven explainer that cites Open Secrets, FEC filings and an expert, and it covers major donors on both the Republican side (Musk, Yass, Uihlein) and the Democratic side (Soros, Bloomberg). Framing is mostly neutral, and the \"shattering records\" language is a quoted expert's description. It notes the Brennan Center's liberal lean, which is a transparency feature and not slant.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "d148c732ee59",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Trump pre-election pitch: Reflecting Pool, pipes and a new promenade",
+    "link": "https://www.axios.com/2026/11/02/trump-dc-projects-reflecting-pool-speech",
+    "summary": "President Trump extolled his administration's Reflecting Pool project , dug up debunked claims of vandalism and applauded the new White House helipad in a Monday pre-Election Day speech.",
+    "published": "2026-11-02T20:48:47+00:00",
+    "id": "d813a795d3fa",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "Only a headline and a short summary were available. The summary uses mildly dismissive wording (\"dug up debunked claims\") and focuses on trivial projects, which frames Trump's speech unfavorably, though the \"debunked\" label may be factually accurate.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "dug up debunked claims of vandalism",
+        "why": "\"Dug up\" and \"debunked\" characterize the remarks pejoratively without any supporting detail in the blurb."
+      },
+      {
+        "type": "Framing",
+        "quote": "extolled his administration's Reflecting Pool project",
+        "why": "Presenting the speech as a list of minor construction projects frames it as trivial for a pre-election address."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "479bbb4b182b",
+    "coverage": 3
+  },
+  {
+    "outlet": "Fox",
+    "title": "Battleground Dem touts bipartisan record, but can’t name single issue she’d work with Trump on",
+    "link": "https://www.foxnews.com/politics/battleground-dem-touts-bipartisan-record-cant-name-single-issue-shed-work-trump",
+    "summary": "Democratic Senate candidate Peggy Flanagan touted her bipartisan record but couldn't name one Trump policy she'd support, citing \"continued grift.\"",
+    "published": "2026-11-02T20:30:44+00:00",
+    "id": "bd8e680c8520",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 45,
+    "spin": 45,
+    "leanWhy": "The headline and lede frame Flanagan's answer as a failure (\"can't name a single issue\"), though she did answer by pointing to her record and priorities. The piece leans on Republican-favorable framing, such as the \"massive fraud scandal\" and Tafoya's campaign line, and gives Flanagan's side less context.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "could not name a single issue she would work with President Donald Trump on",
+        "why": "The headline and lede cast her answer as an inability, rather than a choice to emphasize her record and her opposition to Trump's agenda."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "the massive fraud scandal that unfolded under the Walz administration",
+        "why": "This adopts a characterization that favors the Republican campaign narrative, in the article's own voice rather than attributed to Tafoya."
+      },
+      {
+        "type": "Framing",
+        "quote": "a race Republicans see as a rare opportunity to flip a traditionally blue state",
+        "why": "The framing centers the Republican perspective and opportunity, setting the tone for the story."
+      },
+      {
+        "type": "Source selection",
+        "quote": "pledged to oppose the administration at nearly every turn",
+        "why": "This is an unattributed characterization that reinforces the partisan-obstruction framing."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "bd8e680c8520",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
+    "link": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
+    "summary": "Millions of Americans are turning to AI for election information, but chatbots are getting voting facts wrong and recommending candidates, raising concerns they could influence voters' decisions.",
+    "published": "2026-11-02T20:02:41+00:00",
+    "id": "b5bbf432482c",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and a short feed summary are available. They describe concerns about AI chatbots giving wrong voting facts and recommending candidates, and neither favors a party. The headline's \"can mislead voters\" is somewhat alarmist, but it applies to no side in particular.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "b5bbf432482c",
+    "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "Is America really that polarized? The answer might be a surprise",
+    "link": "https://www.npr.org/2026/11/02/nx-s1-6003534/us-political-polarization-research-trump",
+    "summary": "The U.S. has become more politically polarized, but research shows people overestimate their differences and there is 'messy middle' majority of Americans who share overlapping political views.",
+    "published": "2026-11-02T20:00:00+00:00",
+    "id": "d06eaaa53ee2",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "d06eaaa53ee2",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Pentagon's top spies tasked with 'no-fail' mission as Hegseth puts foreign midterm meddling in crosshairs",
+    "link": "https://www.foxnews.com/politics/pentagons-top-spies-tasked-no-fail-mission-hegseth-puts-foreign-midterm-meddling-crosshairs",
+    "summary": "Secretary of War Pete Hegseth's September directive mobilizes the entire Defense Intelligence Enterprise for midterm election security overseas.",
+    "published": "2026-11-02T18:54:55+00:00",
+    "id": "3bca55d4dc1d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 15,
+    "leanWhy": "The piece is largely straight reporting with useful context, noting the mission is not new, the directive's effect is unclear, and the Pentagon declined to give details. It leans slightly favorable to Hegseth through the headline's \"no-fail mission\" and \"crosshairs\" framing and the scandal-laden \"Russiagate\" opening.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Pentagon's top spies tasked with 'no-fail' mission as Hegseth puts foreign midterm meddling in crosshairs",
+        "why": "The headline presents Hegseth as taking decisive action, though the article says the mission is not new and its effect is unclear."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "the ensuing Russiagate scandal",
+        "why": "The opening uses a politically charged label for the Russia interference story."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "3bca55d4dc1d",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+    "link": "https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden",
+    "summary": "The judge said he was \"deeply troubled\" by the mistakes and rushed nature of the case over the FBI's Hunter Biden probes — one of several politically charged DOJ actions ahead of the midterms.",
+    "published": "2026-11-02T18:54:01+00:00",
+    "id": "4a7d5f800827",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and feed summary are available. They report a judge's criticism using his quoted words, and the \"politically charged DOJ actions\" framing is mildly interpretive but not clearly partisan.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "one of several politically charged DOJ actions ahead of the midterms",
+        "why": "The summary places the ruling in a broader political-motive narrative that the judge's quoted comments do not by themselves establish."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "4a7d5f800827",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "El-Sayed's silence over mom's FBI questioning raises transparency concerns",
+    "link": "https://www.foxnews.com/politics/el-sayeds-silence-over-moms-fbi-questioning-raises-transparency-concerns",
+    "summary": "Abdul El-Sayed's mother was questioned by the FBI after a 2004 raid on the Islamic American Relief Agency, but the Senate candidate says he has no ties.",
+    "published": "2026-11-02T18:33:03+00:00",
+    "id": "697400f69c04",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 50,
+    "spin": 52,
+    "leanWhy": "The piece centers on guilt-by-association attacks on a Democratic candidate, with a headline implying a \"transparency\" problem over his mother's decades-old questioning. It does include caveats (no direct ties, mother not charged, no evidence of terror funding), but the sourcing leans on Republican critics and a Rogers spokesperson, and it adds further association material (Piker, Islamic leaders).",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "El-Sayed's silence over mom's FBI questioning raises transparency concerns",
+        "why": "The headline casts a candidate's non-response about his mother's old questioning as a transparency failure, though he has said he has no ties."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Michiganders cannot trust Abdul El-Sayed. He lies about his physician credentials, his family life",
+        "why": "It gives an unrebutted partisan attack from the opponent's spokesperson, including accusations of lying."
+      },
+      {
+        "type": "Framing",
+        "quote": "The scrutiny of El-Sayed extended to the candidate's fundraisers and campaign events with Islamic leaders, some of whom have reported ties to the Muslim Brotherhood",
+        "why": "It stacks vague guilt-by-association claims onto a story about his mother, widening the insinuation."
+      },
+      {
+        "type": "Omission",
+        "quote": "El-Sayed's campaign did not respond to Fox News Digital's request for comment.",
+        "why": "The candidate's side is mostly absent from the story, and the main rebuttal comes from older interviews."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "697400f69c04",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "The Supreme Court rejects a DOJ push to separate California ballots",
+    "link": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+    "summary": "The U.S. Supreme Court has denied a last-minute request from the Department of Justice to wade into its unprecedented feud with California over the state's voter rolls.",
+    "published": "2026-11-02T16:34:17+00:00",
+    "id": "7bfe8b01c523",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a short feed summary were available. The wording is largely descriptive of a court action, though \"unprecedented feud\" adds mild dramatic framing without clearly favoring a side.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "0b1004c8b9a6",
+    "coverage": 6
+  },
+  {
+    "outlet": "BBC",
+    "title": "A Paralympian vs a former TV news anchor - and other US Senate races to watch",
+    "link": "https://www.bbc.co.uk/news/articles/cqy7ljkprvjko?at_medium=RSS&at_campaign=rss",
+    "summary": "All eyes are on a handful of Senate races that will decide control of the prized upper chamber. Here's a quick guide.",
+    "published": "2026-11-02T13:49:19+00:00",
+    "id": "b29e90e8750a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straightforward explainer profiling competitive Senate races, with attribution to Cook Political Report and balanced treatment of both parties' candidates. Minor colorful phrasing (\"prized upper chamber\", \"survivors of US politics\") is descriptive rather than partisan.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "b29e90e8750a",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Democrat Stevens defends endorsement switch to Republican Rogers two days before election",
+    "link": "https://www.bbc.co.uk/news/articles/c699z8v3282xo?at_medium=RSS&at_campaign=rss",
+    "summary": "But she refuses to be drawn on her rationale for switching candidates in the closely-fought US Senate race.",
+    "published": "2026-11-02T11:08:09+00:00",
+    "id": "7914bb560af5",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is straight news reporting that attributes quotes to Stevens, Schumer, Dingell and Hertel, and it explains the intra-party feud and the stakes. The wording is mostly neutral, with slight emphasis on Democratic condemnation and Stevens' evasiveness, but this follows from the events themselves.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "da9b998cb7e3",
+    "coverage": 5
+  },
+  {
+    "outlet": "BBC",
+    "title": "What are Americans voting for in this election?",
+    "link": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
+    "summary": "The BBC's Maddie Gerber explains what's on the ballot in the 2026 midterm elections in the United States.",
+    "published": "2026-11-02T09:22:55+00:00",
+    "id": "99a3be351d9a",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "99a3be351d9a",
     "coverage": 1
   }
 ]
