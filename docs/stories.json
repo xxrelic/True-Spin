@@ -1,6 +1,711 @@
 [
   {
     "outlet": "CBS News",
+    "title": "Americans cast ballots as polls open across the country — live updates",
+    "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "summary": "All 435 House seats and 35 Senate seats are on the ballot, while 36 states will be electing governors.",
+    "published": "2026-11-03T15:56:03+00:00",
+    "id": "75631aa854cd",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a live-updates election-day item that quotes candidates from both parties with attribution, including Turek's claims, Hinson's denial, and Johnson's \"polls are wrong\" message. The excerpt gives somewhat more space to Turek, but it includes a fact-check note and balancing context, so it shows no clear slant.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "75631aa854cd",
+    "coverage": 2
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Gas prices in Trump’s second term hit record high for any presidency",
+    "link": "https://www.washingtonexaminer.com/policy/energy-and-environment/4788298/gas-prices-trump-second-term-hit-record-high-for-any-presidency/",
+    "summary": "The average price of gasoline for President Donald Trump’s second term is the highest of any presidential administration, eclipsing that of the Biden administration on Election Day.",
+    "published": "2026-11-03T15:46:09+00:00",
+    "id": "77fa6ec58989",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The excerpt is a short data-based report citing the Energy Information Administration, and it attributes the figures. The framing of a \"record high for any presidency\" rests on a very narrow margin ($3.46 vs $3.457) and is negative for Trump, with no context on causes or on the comparison method, so it leans slightly critical.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Gas prices in Trump’s second term hit record high for any presidency",
+        "why": "The headline presents a statistically tiny margin as a dramatic record and treats it as a presidency-level judgment."
+      },
+      {
+        "type": "Omission",
+        "quote": "just beating the mark of $3.457 for President Joe Biden",
+        "why": "The excerpt itself shows the difference is a fraction of a cent, so the \"record\" framing overstates its significance, and it gives no context on causes such as global oil markets or inflation."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "77fa6ec58989",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Republicans are ‘undervalued’ in polls, expect big midterm election wins: Joe Concha",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4789294/republicans-undervalued-expect-midterm-wins-joe-concha/",
+    "summary": "Washington Examiner columnist Joe Concha said Republicans are often undervalued in polling, and expressed optimism that the party will pull big wins in the midterm elections. “I saw a survey that was like one in three Democrats will pick up a call when a pollster is calling, one in 10 Republicans will do the same,” […]",
+    "published": "2026-11-03T15:39:29+00:00",
+    "id": "a3d47a49d2e4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 40,
+    "spin": 45,
+    "leanWhy": "The piece relays only Concha's optimistic claim that Republicans are undervalued in polls and will win big, with no outside voices, data, or counterpoints. The headline adopts his prediction as the story, and the unverified survey claim is left unchallenged.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“I saw a survey that was like one in three Democrats will pick up a call when a pollster is calling, one in 10 Republicans will do the same,”",
+        "why": "A vague, secondhand survey reference is the only evidence offered and is not verified or contextualized."
+      },
+      {
+        "type": "Framing",
+        "quote": "Republicans are ‘undervalued’ in polls, expect big midterm election wins",
+        "why": "The headline presents a partisan commentator's prediction as the news, favoring a Republican-optimistic narrative."
+      },
+      {
+        "type": "Omission",
+        "quote": "So they are obviously being undervalued as they always are.",
+        "why": "The sweeping claim is presented without any pollster response, data, or opposing view."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "a3d47a49d2e4",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Prediction markets have a lot riding on the blue wave",
+    "link": "https://www.axios.com/2026/11/03/kalshi-polymarket-midterms-democrats",
+    "summary": "Prediction markets like Kalshi and Polymarket officially don't care which side of a bet wins. There is no \"house.\" They get their cut either way. It's a business model that's attracted billions of VC dollars. Yes, but: Kalshi and Polymarket should be pulling hard for Democrats in today's midterm elections.",
+    "published": "2026-11-03T15:36:42+00:00",
+    "id": "742dda608778",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "Only a headline and short feed summary were available. The piece is about the business interests of prediction markets in the midterms, not about the parties' merits, and its claim that they \"should be pulling hard for Democrats\" is an analytical assertion with no visible support.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "should be pulling hard for Democrats",
+        "why": "It asserts that the markets have a partisan stake without showing the reasoning in the summary, though the claim concerns business incentives and not a party's merits."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "742dda608778",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Ken Paxton makes closing pitch to anxious Republicans — and even some opponents",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4789055/ken-paxton-makes-closing-pitch-anxious-republicans/",
+    "summary": "ALLEN, Texas — Ken Paxton didn’t mince words on his final day of campaigning for Texas’s open Senate seat about what was at stake in Tuesday’s midterm elections: the Texas way of life. “Texas has never been this close to slipping away. We have never been this close to losing everything that we hold here: […]",
+    "published": "2026-11-03T15:35:12+00:00",
+    "id": "ab6af7299cd7",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 25,
+    "spin": 22,
+    "leanWhy": "The excerpt is mostly direct quotation of Paxton's rally rhetoric, with no counter-voices or context in the visible text. The headline's framing of a \"closing pitch\" reaching \"anxious Republicans — and even some opponents\" is flattering to Paxton and is not supported by anything in the excerpt.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "and even some opponents",
+        "why": "The headline suggests Paxton is winning over opponents, but the excerpt gives no evidence of that."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“If Texas falls, we don’t have another Texas to move to.”",
+        "why": "The excerpt relies only on Paxton's own dramatic rhetoric, with no rebuttal or independent context."
+      },
+      {
+        "type": "Framing",
+        "quote": "didn’t mince words",
+        "why": "The phrasing portrays Paxton as blunt and forthright, which casts his apocalyptic rhetoric in a favorable light."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "ab6af7299cd7",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Voting machine chaos hits key House battleground",
+    "link": "https://www.axios.com/2026/11/03/ny-voting-ballot-polls-ballot-issue",
+    "summary": "Voting machines across New York's Westchester County are rejecting paper ballots on Election Day, raising concerns about potential delays in one of the nation's most competitive House races. Why it matters: Results could be delayed for one of the country's most prominent House races, between Rep.",
+    "published": "2026-11-03T15:20:03+00:00",
+    "id": "5b8363410d2e",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "5b8363410d2e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "US Strikes Island In Strait Of Hormuz As Trump Continues Touting Negotiations",
+    "link": "https://dailycaller.com/2026/11/03/us-strikes-qeshm-island-strait-hormuz-trump",
+    "summary": "‘We had a war with Iran. We won’",
+    "published": "2026-11-03T15:15:34+00:00",
+    "id": "7dad7409ee4e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly sourced to WSJ and NYT reporting, but it frames Trump as downplaying the war and contradicting his own diplomacy, and it flatly calls his claim \"false\" within a news report. The related-link about the arsenal being drained adds a critical angle, though it also includes US officials' defensive justification and Iran's statements.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "falsely claiming that the U.S. “won.”",
+        "why": "The reporter asserts falsity in the narrator's voice on a contestable characterization, rather than attributing or explaining it."
+      },
+      {
+        "type": "Framing",
+        "quote": "While President Donald Trump touted the possibility of a peace deal, the U.S. conducted a series of strikes against Iran.",
+        "why": "The opening juxtaposition frames the president's diplomacy as at odds with military action."
+      },
+      {
+        "type": "Framing",
+        "quote": "Lockheed Ramps Up Missile Production As Iran War Drains US Arsenal",
+        "why": "The related link adds a negative cost-of-war frame to the story."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Pentagon is keeping these occurrences under wraps",
+        "why": "This wording suggests concealment, though the text attributes it to US officials and gives a stated reason."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "7dad7409ee4e",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Inside the Decision Desk: When will we know Senate and House control?",
+    "link": "https://www.nbcnews.com/politics/2026-election/decision-desk-will-know-senate-house-control-rcna603038",
+    "summary": "In 2024, Donald Trump’s election night wins in the presidential battlegrounds of Georgia, North Carolina, Texas and Florida meant that most Americans went to bed on Tuesday with a good idea of the result of the election — and woke up to the networks having called enough states to declare Trump the president-elect.",
+    "published": "2026-11-03T15:15:09+00:00",
+    "id": "cdf26c310d88",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "The piece is an explanatory, process-focused look at when election results may be called, using the outlet's own race ratings and past vote-count timing. It describes both parties' positions neutrally and does not push a conclusion beyond the data.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "cdf26c310d88",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Judge orders Iowa to permit Satanic Temple holiday event at state capitol",
+    "link": "https://www.theguardian.com/us-news/2026/nov/03/iowa-satanic-temple-holiday-event-judge",
+    "summary": "Federal court says group likely to win its free speech claim and tells officials to approve application within seven days A federal judge ordered state officials in Iowa on Monday to permit a local Satanic Temple organization to hold a holiday event in the rotunda of the state capitol after years of denying the…",
+    "published": "2026-11-03T15:13:33+00:00",
+    "id": "e11cb1a5f0cf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight court reporting with attribution to the judge, the AG's office and the ACLU. It leans slightly left through its sourcing, which includes an ACLU quote but no direct state-official quote. It also includes the Charlie Kirk detail and gives the group's self-description with little challenge.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "State officials have made it clear that they denied TST permission to hold events in the Capitol rotunda because they disagreed with their religious viewpoint,",
+        "why": "The only extended quote is from the ACLU attorney, who is on the plaintiff's side, while the state's reasoning is paraphrased."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Turning Point founder, Charlie Kirk, pledged $10,000 to the accused vandal’s legal defense.",
+        "why": "This tangential detail ties conservative figures to the vandalism and casts the opposing side in a negative light."
+      },
+      {
+        "type": "Framing",
+        "quote": "Iowa Republican state officials have been in a legal battle",
+        "why": "The partisan label is stressed repeatedly, which casts the dispute as Republicans against a religious minority."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "e11cb1a5f0cf",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Where weather could complicate Election Day voting",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/4789131/where-weather-could-complicate-election-day-voting/",
+    "summary": "Storms and flooding are set to complicate voting across several states, including in locations where pivotal races are being held. Poor weather is known to suppress turnout, especially among low-propensity voters.",
+    "published": "2026-11-03T15:08:38+00:00",
+    "id": "5bb0fb7af2d4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "The excerpt is a short, factual weather and logistics report on Election Day voting. It names no party and doesn't blame or favor any side. The excerpt is very short, and the last line is a paywall promo.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "5bb0fb7af2d4",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Voting begins in US midterm elections – in pictures",
+    "link": "https://www.theguardian.com/us-news/gallery/2026/nov/03/voting-begins-in-us-midterm-elections-in-pictures",
+    "summary": "Americans are voting in midterm elections with control of the House and the Senate at stake for the remainder of Donald Trump’s second term in office, while voters are also electing governors and other state and local officials Continue reading...",
+    "published": "2026-11-03T15:07:10+00:00",
+    "id": "f8e05350cf1e",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "f8e05350cf1e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "STATE OF TUESDAY: Why Republicans Deserve To Lose Tonight",
+    "link": "https://dailycaller.com/2026/11/03/state-of-tuesday-midterm-election-republicans-trump-congress",
+    "summary": "A blank check for reckless behavior",
+    "published": "2026-11-03T15:04:06+00:00",
+    "id": "93a9f72406a6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -60,
+    "spin": 60,
+    "leanWhy": "This is a newsletter opinion piece arguing Republicans deserve to lose the election, using critiques of Trump's record on prices, war, MAHA promises and corruption. Although it comes from a conservative-leaning outlet and frames itself as anti-partisan-loyalty, the content and conclusion favor the Democratic side of the election outcome.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "if Republicans have earned anything, it’s a defeat",
+        "why": "The thesis explicitly argues for a Republican loss, setting the conclusion before the evidence."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "That’s a blank check for reckless behavior in Washington",
+        "why": "Characterizes party loyalty and Republican governance as reckless in sweeping terms."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Let’s not forget about the swamp either.",
+        "why": "Selects a string of corruption and special-interest examples that build a one-directional case against Trump and the GOP."
+      },
+      {
+        "type": "Framing",
+        "quote": "another win for the world’s special interests",
+        "why": "Editorializes a court ruling as a victory for special interests instead of describing it neutrally."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "93a9f72406a6",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump to end all military funding to Israel by end of the year: ‘They don’t need it’",
+    "link": "https://www.washingtonexaminer.com/news/world/4789202/trump-end-all-military-funding-israel-end-of-year/",
+    "summary": "President Donald Trump revealed in an interview that all military funding to Israel will be cut by the end of the year, despite claiming no bad blood with the Middle East ally.",
+    "published": "2026-11-03T15:02:12+00:00",
+    "id": "f59f7ccbb849",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 22,
+    "leanWhy": "The excerpt is short and mostly relays Trump's quoted remarks from a Fox News phone interview, with little overt partisan framing. Some phrasing (\"shutting off the taps,\" \"despite claiming no bad blood\") adds mild interpretive spin and treats the cut as settled based on a single interview.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "despite claiming no bad blood with the Middle East ally",
+        "why": "This sets up a contradiction between Trump's words and actions that the excerpt does not substantiate."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "shutting off the taps when it came to funding the Jewish state’s defense",
+        "why": "The idiom dramatizes the policy and implies a sudden cutoff, and it rests on unnamed 'rumors and speculation'."
+      },
+      {
+        "type": "Framing",
+        "quote": "It seems to confirm months of rumors and speculation",
+        "why": "The writer's own interpretation presents an offhand interview remark as confirmation of a formal policy."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "f59f7ccbb849",
+    "coverage": 2
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Justice department funds research into gender dysphoria and violent crime in latest anti-trans effort",
+    "link": "https://www.theguardian.com/us-news/2026/nov/03/doj-research-gender-dysphoria-violent-crime",
+    "summary": "Experts say ‘very dangerous’ move diverts attention from violence driven by far-right extremist ideologies The US Department of Justice is funding research aimed at exploring whether there is a link between gender dysphoria and violent crime.",
+    "published": "2026-11-03T15:00:22+00:00",
+    "id": "617cddaaa56c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -68,
+    "spin": 60,
+    "leanWhy": "The headline and framing call the funding an \"anti-trans effort\" and rely on critics who call it \"very dangerous\" and \"pseudoscience\", and the excerpt shows no defense from the DOJ or supporters. The text also uses \"falsely\" in the outlet's own voice and frames the administration's policies as aggressive curtailment of rights.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "in latest anti-trans effort",
+        "why": "The headline characterizes the research funding as an anti-trans effort as established fact, not as a critics' claim."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Experts and LGBTQ+ advocates call these attempts to link trans people and violence “pseudoscience”",
+        "why": "The excerpt draws on critics and advocates and gives no space to the NIJ or supporters of the research."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Trump administration has repeatedly sought to falsely portray transgender people as more likely to commit extremist violence",
+        "why": "The reporting presents the administration's intent and the falsity of its claims as fact, though the sentence is attributed to Via."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a term often used by those on the right to falsely suggest that being trans is a political ideology",
+        "why": "The outlet's own voice rejects the right's framing as false instead of attributing the judgment."
+      }
+    ],
+    "confidence": "high",
+    "cluster": "617cddaaa56c",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Talarico warms to Trump, says he wants to help fulfill some MAGA promises",
+    "link": "https://www.foxnews.com/politics/talarico-warms-trump-says-help-fulfill-maga-promises",
+    "summary": "James Talarico told the \"Diary of a CEO\" podcast he'd work with Trump on healthcare, housing and childcare despite months of attacks from the president.",
+    "published": "2026-11-03T14:43:50+00:00",
+    "id": "cd38f9f136d8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece reports Talarico's remarks at length with direct quotes and includes a skeptical response from Karoline Leavitt, giving both perspectives. Word choice is mostly neutral (\"appeared to extend an olive branch\"), with only slight framing that leans on Talarico's own quotes.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "appeared to extend an olive branch to President Donald Trump",
+        "why": "The conciliatory framing adopts the gesture's own self-presentation, though it is hedged with 'appeared'."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "cd38f9f136d8",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "U.S. will stop $4B in aid to Israel at the end of the year, Trump says",
+    "link": "https://www.nbcnews.com/politics/2026-election/trump-says-us-will-stop-4b-military-aid-israel-end-2026-rcna607210",
+    "summary": "President Donald Trump said Tuesday that he has made a deal with Israeli Prime Minister Benjamin Netanyahu for the United States to stop sending $4 billion in aid annually to Israel, without providing details.",
+    "published": "2026-11-03T14:18:36+00:00",
+    "id": "5c44751c6a33",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is straight news reporting that quotes Trump at length and adds context: Netanyahu's office said it knew nothing about the remarks, the exact funding was unclear, and it cites the existing memorandum of understanding. It carries no evident partisan framing, although it relies on one think-tank figure for the aid total.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "f59f7ccbb849",
+    "coverage": 2
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "US supreme court to hear arguments in Catholic preschools’ LGBTQ+ exclusion case",
+    "link": "https://www.theguardian.com/us-news/2026/nov/03/lgbtq-catholic-public-preschool-supreme-court",
+    "summary": "A decision could reshape the relationship between religious freedom and nondiscrimination laws in the US The US supreme court will hear arguments on Tuesday over a challenge brought by two Catholic preschools in Colorado , arguing that they should be admitted to the state’s free education system despite their…",
+    "published": "2026-11-03T14:17:52+00:00",
+    "id": "f4d6c56d70cf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is a straightforward preview of the case. It presents Colorado's position and the lower court's reasoning alongside the plaintiffs' arguments, with attribution throughout. The excerpt quotes plaintiff-side voices (Becket Fund, Catholic bishops) a bit more heavily, and the state gets fewer direct quotes, but this is a mild imbalance.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Nicholas Reaves, counsel at the Becket Fund for Religious Liberty",
+        "why": "The excerpt's outside voices are all from the religious-liberty side (Becket Fund counsel, bishops' amicus brief), with no independent or opposing advocate quoted."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "f4d6c56d70cf",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "Alaska voter 'disgusted' by reported 'decoy Dan' plot switches from Peltola to Sullivan",
+    "link": "https://www.foxnews.com/politics/alaska-voter-disgusted-decoy-dan-plot-switches-peltola-sullivan",
+    "summary": "An Alaska voter who considered voting for former Rep. Mary Peltola, said he \"switched\" and would vote for incumbent GOP Sen. Dan S. Sullivan.",
+    "published": "2026-11-03T14:15:53+00:00",
+    "id": "95621aeba87b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 55,
+    "spin": 50,
+    "leanWhy": "The piece centers on an anecdotal pair of unnamed voters turning against Peltola over an alleged scheme, a framing that favors Sullivan and Republicans. Peltola's denial is included, but the sourcing is one-sided, with voter condemnations, Sullivan's \"corruption\" claim and Trump's \"FRAUD\" post getting more room than any rebuttal or independent context.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "A woman who was with the man in Alaska noted that he had \"thought about voting for Mary Peltola.\"",
+        "why": "The story rests on a hand-picked anecdote from unnamed voters who moved toward the Republican, which is not a representative measure of opinion."
+      },
+      {
+        "type": "Framing",
+        "quote": "an alleged Democrat-linked election scheme",
+        "why": "The lead frames the story as a Democratic scheme, and the excerpt gives no evidence tying Peltola to it."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "\"unethical, and I don't think [Peltola] should be elected.\"",
+        "why": "The voter's judgment of Peltola is presented even though she denies involvement, which implies she is culpable."
+      },
+      {
+        "type": "Source selection",
+        "quote": "for the FRAUD that has been committed against him",
+        "why": "Trump's fraud claim is quoted at length with no independent check, which amplifies a partisan accusation."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "95621aeba87b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Editor Daily Rundown: Trump Makes Closing Blitz Before Polls Open",
+    "link": "https://dailycaller.com/2026/11/03/trump-election-day-promises-oil-taxes-border-economy-energy-greenland",
+    "summary": "‘I’ve kept EVERY SINGLE PROMISE I made’",
+    "published": "2026-11-03T14:12:39+00:00",
+    "id": "b842945890d0",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "b842945890d0",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen. Schumer calls mood on Election Day ‘nauseously optimistic’ after casting vote",
+    "link": "https://www.nbcnews.com/now/video/sen-schumer-votes-in-2026-midterm-election-272757829699",
+    "summary": "Senate Minority Leader Chuck Schumer voted in the 2026 midterm election and spoke to reporters, saying, “We don't want to count our chickens before they hatch.” NBC News' Julie Tsirkin breaks down what Sen. Schumer said after casting his vote.",
+    "published": "2026-11-03T13:55:39+00:00",
+    "id": "05c673195487",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "05c673195487",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "What we're watching on election night for energy",
+    "link": "https://www.axios.com/2026/11/03/election-night-midterms-energy",
+    "summary": "There's a lot at stake for energy in the midterms, from the fate of the bipartisan permitting deal to the growing backlash against data centers and electricity prices. Why it matters: The results could spotlight which energy topics resonate with voters — and which have become political liabilities.",
+    "published": "2026-11-03T13:38:23+00:00",
+    "id": "320cbe716920",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a short feed summary are available. They read as a neutral election-night preview of energy issues, and they take no side.",
+    "signals": [],
+    "confidence": "medium",
+    "cluster": "320cbe716920",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "The economy is on the ballot. 3 charts reveal the reality voters face as they head to the polls",
+    "link": "https://www.foxnews.com/politics/economy-ballot-3-charts-reveal-reality-voters-face-head-polls",
+    "summary": "Inflation outpacing wages, gas prices above $4, and mortgage rates past 7% are squeezing voters even as the S&P 500 surges over 26% under Trump.",
+    "published": "2026-11-03T13:30:45+00:00",
+    "id": "b1bdd59811ef",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "The piece is mostly data-driven and attributes figures to sources like the BLS, NY Fed, EIA and Freddie Mac. It leans mildly against Trump and Republicans by stressing his unmet promises and tariff costs, though it also notes the stock gains and says the charts can't show who voters will blame.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "all pressures that put Republicans' affordability promises to the test",
+        "why": "It frames the economic data mainly as a test of the Republican side's promises."
+      },
+      {
+        "type": "Framing",
+        "quote": "President Donald Trump vowed a better economy and a brighter financial future in his 2024 bid for office.",
+        "why": "Opening with Trump's promise sets up a contrast with current conditions and implies he failed to deliver."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Trump's tariffs added about 2.9 percentage points to prices",
+        "why": "It highlights one study on tariff costs and gives no counterpoint or alternative estimates."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "fuel prices have surged, inflation has accelerated",
+        "why": "Dramatic verbs stress the negative trend, although the figures given back them up."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "b1bdd59811ef",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "DOJ sending 1,000 election monitors to all 50 states",
+    "link": "https://www.axios.com/2026/11/03/election-day-polls-doj-observers",
+    "summary": "The Justice Department said Tuesday it will deploy about 1,000 election monitors to all 50 states for the first time ever to watch the polls. Why it matters: The unprecedented effort comes after courts repeatedly rejected the DOJ's efforts to force states to restrict voting for alleged noncitizens.",
+    "published": "2026-11-03T13:29:32+00:00",
+    "id": "6af8ed68f787",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -25,
+    "spin": 30,
+    "leanWhy": "Only a headline and short feed summary were available. The \"Why it matters\" line frames the monitor deployment as following court defeats on efforts \"to force states to restrict voting,\" which implies a voter-suppression motive and uses a critical framing of the DOJ's aims.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The unprecedented effort comes after courts repeatedly rejected the DOJ's efforts to force states to restrict voting for alleged noncitizens.",
+        "why": "Links the monitors to prior court losses and describes the DOJ's goal as restricting voting, which implies a motive without evidence in the text."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "force states to restrict voting",
+        "why": "Characterizes the DOJ's noncitizen-voting efforts as voting restriction rather than as election integrity enforcement, which is the framing critics of those efforts use."
+      }
+    ],
+    "confidence": "low",
+    "cluster": "6af8ed68f787",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "'Big difference': Dem's last-minute endorsement gives GOP new hope in crucial Senate battle",
+    "link": "https://www.foxnews.com/politics/big-difference-dems-last-minute-endorsement-gives-gop-new-hope-crucial-senate-battle",
+    "summary": "Michigan Republican Mike Rogers' campaign touted Haley Stevens' endorsement as a breakthrough with Black and Jewish voters before Election Day.",
+    "published": "2026-11-03T13:27:22+00:00",
+    "id": "26fdab597ad5",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The piece is mostly news reporting on a GOP press event, but the headline and framing adopt the Republican campaign's \"new hope\" narrative, and sourcing leans on handpicked GOP-aligned speakers. The article does acknowledge skeptics and that speakers were handpicked, and cites some data, which tempers the slant.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "gives GOP new hope in crucial Senate battle",
+        "why": "The headline presents the Republican campaign's spin as an established breakthrough, while the body says observers doubt the impact."
+      },
+      {
+        "type": "Source selection",
+        "quote": "six community leaders representing African Americans and Jews criticized what they saw as El-Sayed’s excesses",
+        "why": "Most quoted voices come from a Republican-organized event, so the story's core claims rest on partisan-selected sources."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "some of the radical things we've heard about Abdul El-Sayed",
+        "why": "The piece repeats the 'radical' label for the Democratic candidate without any rebuttal or context."
+      },
+      {
+        "type": "Framing",
+        "quote": "That prospect appeared to be buoyed by Democratic Rep. Haley Stevens’ 11th-hour endorsement",
+        "why": "The narrator states in its own voice that the GOP's prospects improved, even though the impact is uncertain."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "26fdab597ad5",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Elon Musk Spends Nearly Half a Billion for Republican Campaigns",
+    "link": "https://www.today.com/video/inside-look-at-elon-musk-s-2026-political-spending-spree-272752197984",
+    "summary": "Billions of dollars for political campaigns are pouring in from deep-pocket donors on both sides of the aisle, with many hoping to influence which party controls the House and the Senate. At the top of that list of donors is Elon Musk, who spent nearly half a billion dollars to keep Republicans in office.",
+    "published": "2026-11-03T13:10:26+00:00",
+    "id": "811f0a934e83",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary were available. The wording is mostly factual and notes donors on both sides, though \"to keep Republicans in office\" slightly characterizes intent.",
+    "signals": [],
+    "confidence": "low",
+    "cluster": "811f0a934e83",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
     "title": "Election Day live updates with House and Senate control at stake",
     "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
     "summary": "All 435 House seats and 35 Senate seats are on the ballot, while 36 states will be electing governors.",
@@ -21,8 +726,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "75631aa854cd",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -155,8 +860,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "7dad7409ee4e",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -252,8 +957,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "29da824900ca",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -292,8 +997,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "1cb0681ec4d4",
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -355,8 +1060,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "e11c48702af0",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -453,8 +1158,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "4bef1d10098c",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -497,7 +1202,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "079e68661fc8",
+    "cluster": "fa9dcb319014",
     "coverage": 1
   },
   {
@@ -532,8 +1237,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "3fbb3f4e6a72",
-    "coverage": 1
+    "cluster": "7cfee51e9c25",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -570,8 +1275,8 @@
     "leanWhy": "The excerpt is a straight preview of oral arguments that presents both sides with attribution, quoting the Becket lawyers and Colorado's state filing. The framing \"pit LGBTQ and religious rights against each other\" and the note about the 6-3 conservative majority are mild context rather than clear slant.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "a1b2256467b7",
-    "coverage": 1
+    "cluster": "f4d6c56d70cf",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -595,8 +1300,8 @@
       }
     ],
     "confidence": "high",
-    "cluster": "4a8e458c78e3",
-    "coverage": 1
+    "cluster": "6af8ed68f787",
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -683,6 +1388,25 @@
     "coverage": 1
   },
   {
+    "outlet": "BBC",
+    "title": "Which stars have made the leap into US politics? Try our midterms quiz",
+    "link": "https://www.bbc.co.uk/news/articles/cwj34rm146kno?at_medium=RSS&at_campaign=rss",
+    "summary": "It's been a dramatic campaign - but how much have you picked up along the way? Take our quiz.",
+    "published": "2026-11-03T10:22:17+00:00",
+    "id": "99ec0b8a6a99",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "99ec0b8a6a99",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "Trump vanishes from GOP campaign ads",
     "link": "https://www.axios.com/2026/11/03/republican-campaign-ads-trump-midterms",
@@ -742,8 +1466,8 @@
     "leanWhy": "Only the headline and a short feed summary were available. They describe a data-based explainer on how early vote counts can differ from final results, with no partisan framing or loaded language.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "e9f67f7f2bd5",
-    "coverage": 1
+    "cluster": "7cfee51e9c25",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -768,6 +1492,25 @@
     ],
     "confidence": "medium",
     "cluster": "ba42f20e361b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Three questions that will define AI's political power",
+    "link": "https://www.axios.com/2026/11/03/ai-election-politics-2026-midterms",
+    "summary": "The 2026 midterms will offer the first test of voter sentiment on the AI race, offering a window into how a niche policy debate is transforming into a wedge issue ahead of a presidential campaign cycle.",
+    "published": "2026-11-03T10:00:07+00:00",
+    "id": "926ade95a827",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "926ade95a827",
     "coverage": 1
   },
   {
@@ -830,8 +1573,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "6a74aa2be0d5",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -850,6 +1593,82 @@
     "signals": [],
     "confidence": "high",
     "cluster": "462b3110f3e2",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "How to watch live election results on CBS News",
+    "link": "https://www.cbsnews.com/news/where-to-watch-election-2026/",
+    "summary": "With control of Congress on the line in House and Senate races around the country, here's how to watch the 2026 midterm election results on Tuesday, Nov. 3.",
+    "published": "2026-11-03T10:00:00+00:00",
+    "id": "c19d411e9322",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a service piece explaining how to watch CBS election coverage and when polls close. The wording is neutral, and it notes analysts and pollsters from both parties.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "c19d411e9322",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "From 'model minority' to target, anti-Indian hate on the rise",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
+    "summary": "A massacre allegedly targeting Hindu Americans was recently thwarted, but researchers say it helps to illustrate a growing and increasingly mainstream hate directed at South Asians in the U.S.",
+    "published": "2026-11-03T10:00:00+00:00",
+    "id": "495226b69d42",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "495226b69d42",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+    "summary": "One last check in with the Swing Shift voters before Election Day. All of them voted for President Trump. Now, they're rating his presidency and deciding who to support when he's not on the ballot.",
+    "published": "2026-11-03T10:00:00+00:00",
+    "id": "3a6c02180006",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "3a6c02180006",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Election expert confident about voting today, more concerned about what happens next",
+    "link": "https://www.npr.org/2026/11/03/nx-s1-6026487/2026-midterms-election-security-disinformation",
+    "summary": "Millions of Americans have already voted in the midterms. So what's worrying election experts? Not so much what happens at the polls, but what comes after they close.",
+    "published": "2026-11-03T09:42:11+00:00",
+    "id": "bcaf68bfdc63",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "bcaf68bfdc63",
     "coverage": 1
   },
   {
@@ -889,8 +1708,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "75631aa854cd",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -908,8 +1727,27 @@
     "leanWhy": "This is a straightforward service piece listing poll opening and closing times, early voting availability and voter rights. The wording is neutral and factual, with no partisan framing or sourcing.",
     "signals": [],
     "confidence": "high",
-    "cluster": "7cfee51e9c25",
-    "coverage": 2
+    "cluster": "cefab6301dc5",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Here's when polls open and close for today's elections in each state",
+    "link": "https://www.cbsnews.com/news/when-polls-open-close-2026-midterm-elections/",
+    "summary": "If you are in line to cast your ballot before a polling site closes, you have the right to remain in line and vote.",
+    "published": "2026-11-03T09:30:00+00:00",
+    "id": "7a9ee5fcf21b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a service-style explainer on poll opening and closing times, with factual, neutral wording. It names no parties or candidates and pushes no conclusion.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "cefab6301dc5",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -948,8 +1786,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "1cb0681ec4d4",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -975,6 +1813,31 @@
         "type": "Framing",
         "quote": "Historically speaking, that could be a tall task for the GOP",
         "why": "Emphasizes the difficulty facing Republicans, though it is backed by a historical fact."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "4ee5a74a41e1",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Here's what Americans are voting on in today's elections",
+    "link": "https://www.cbsnews.com/news/what-us-voting-on-november-2026-elections/",
+    "summary": "Control of the House and Senate are at stake as Republicans and Democrats focus on battleground races in key states.",
+    "published": "2026-11-03T09:00:00+00:00",
+    "id": "c741868b6ecf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight election-day explainer that lays out what is at stake and which races are competitive in both parties' territory. It carries a slight tilt in describing the national environment as \"blowing strongly in the face of House Republicans,\" but otherwise it is factual and balanced.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "with the national environment blowing strongly in the face of House Republicans",
+        "why": "This is an evaluative, unattributed characterization of the national mood that leans toward a Democratic-favorable narrative."
       }
     ],
     "confidence": "medium",
@@ -1063,7 +1926,7 @@
     "signals": [],
     "confidence": "high",
     "cluster": "7cfee51e9c25",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -1121,8 +1984,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "1cb0681ec4d4",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1241,8 +2104,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "ef0319a38fc0",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1266,8 +2129,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "da9b998cb7e3",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -1296,8 +2159,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "12baa888ae5b",
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -1326,8 +2189,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "b541ca903ce9",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1345,7 +2208,7 @@
     "leanWhy": "This is a live-updates news roundup that reports candidate statements from both parties with attribution, and it includes context on Paxton's impeachment and acquittal. It has little loaded language from the writer, and the quotes are mostly the candidates' own rhetoric.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "079e68661fc8",
+    "cluster": "fa9dcb319014",
     "coverage": 1
   },
   {
@@ -1381,7 +2244,7 @@
     ],
     "confidence": "medium",
     "cluster": "0b1004c8b9a6",
-    "coverage": 3
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1464,8 +2327,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "0b1004c8b9a6",
-    "coverage": 3
+    "cluster": "a5460c6fc4f4",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1499,8 +2362,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "c83451d69cec",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1524,8 +2387,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "80e23c536af0",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1609,8 +2472,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "12baa888ae5b",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -1653,8 +2516,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "b601ef00db32",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -1683,8 +2546,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "97410af9e424",
-    "coverage": 5
+    "cluster": "b601ef00db32",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1757,8 +2620,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "0b1004c8b9a6",
-    "coverage": 3
+    "cluster": "7bfe8b01c523",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -1797,8 +2660,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "0b1004c8b9a6",
-    "coverage": 3
+    "cluster": "a5460c6fc4f4",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1837,8 +2700,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "29da824900ca",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1989,8 +2852,8 @@
     "leanWhy": "The excerpt is mostly straight reporting of the Stevens–el Sayed dispute. It uses neutral attribution and cites a Sanders-campaign Jewish director for the impact claim. The excerpt is short and partly cut off by a paywall prompt, so the judgment is tentative.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "893a42096655",
-    "coverage": 4
+    "cluster": "a17082398519",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2008,8 +2871,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "4868f2face3b",
-    "coverage": 5
+    "cluster": "5056ae052a17",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2916,6 +3779,25 @@
     "signals": [],
     "confidence": "medium",
     "cluster": "d148c732ee59",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Musk pumps $446m into US midterms, as campaign spending set to 'shatter' records",
+    "link": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+    "summary": "The 2026 campaign is projected to cost nearly $12bn - BBC Verify looks into where all that money has come from.",
+    "published": "2026-11-02T20:54:44+00:00",
+    "id": "184d88f53d2e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a data-driven explainer on campaign finance that attributes figures to Open Secrets, the FEC and the Brennan Center, and it covers big donors on both sides (Soros and Bloomberg as well as Musk, Yass and the Uihleins). The Brennan Center is labelled \"liberal-leaning\", and the tone is neutral.",
+    "signals": [],
+    "confidence": "high",
+    "cluster": "184d88f53d2e",
     "coverage": 1
   },
   {
@@ -3843,7 +4725,7 @@
     "signals": [],
     "confidence": "low",
     "cluster": "7bfe8b01c523",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -4074,7 +4956,7 @@
     "leanWhy": "This is a service-style viewing guide describing coverage plans, poll closing times and races at stake, with neutral wording. It notes analysts and pollsters from both parties, and it shows no partisan framing.",
     "signals": [],
     "confidence": "high",
-    "cluster": "47531bd2206f",
+    "cluster": "2480059f93cc",
     "coverage": 1
   },
   {
@@ -4132,6 +5014,31 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "c8579a02fc26",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "2026 midterm election races to watch",
+    "link": "https://www.cbsnews.com/news/2026-midterm-election-races/",
+    "summary": "CBS News has identified 11 key Senate and 42 House races that will likely decide the majority — all of which can change during the midterm campaign.",
+    "published": "2026-11-02T12:19:00+00:00",
+    "id": "2480059f93cc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "This is a race-preview explainer that describes candidates and conditions for both parties in a largely neutral tone. A few statements, such as calling the Iran war \"unpopular\", are stated as fact without attribution, which slightly tilts the framing against Republicans.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "vulnerable primarily because of the unpopular Iran war and continuing cost-of-living economic pressure",
+        "why": "States the war's unpopularity and the cause of GOP vulnerability as fact without citing polling in this excerpt."
+      }
+    ],
+    "confidence": "medium",
+    "cluster": "2480059f93cc",
     "coverage": 1
   },
   {
