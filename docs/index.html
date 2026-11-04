@@ -150,6 +150,16 @@ textarea { width: 100%; min-height: 150px; box-sizing: border-box; font: 14px/1.
 .otrack i { position: absolute; top: -5px; width: 16px; height: 16px; border-radius: 50%; background: var(--fg); border: 3px solid var(--surface); transform: translateX(-50%); box-shadow: 0 1px 4px rgba(0,0,0,.3); }
 .ospin { font: 500 12px var(--mono); text-align: right; }
 .fine { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
+/* Event cards: one card per story covered by several outlets, with each outlet's leaning on a shared scale */
+.cov { margin-top: 16px; }
+.cov .orow { grid-template-columns: minmax(0, 1fr) minmax(90px, 1.6fr) 34px; }
+.cov .oname a { color: inherit; text-decoration-color: var(--line); }
+.cov .ospin small { color: var(--muted); font-size: 10px; }
+.spread { font: 500 12px var(--mono); color: var(--muted); margin-top: 8px; }
+.spread b { color: var(--fg); }
+.versions { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
+.versions .card { box-shadow: none; padding: 14px 14px 12px; }
+.versions .card h2 { font-size: 18px; }
 #analyzer { max-width: 760px; }
 footer { margin-top: 36px; color: var(--muted); font-size: 12px; }
 </style>
@@ -274,12 +284,13 @@ const spinLabel = n => n < 20 ? "Low" : n < 45 ? "Some" : n < 70 ? "High" : "Hea
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
 const sign = n => (n > 0 ? "+" : "") + n;
 
-function cardHTML(s, open) {
+function cardHTML(s, open, nested) {
+  const hotHere = !nested && isHot(s);
   const unscored = s.scorable === false || s.lean == null;
   const pos = (s.lean + 100) / 2;
   const sigs = (s.signals || []).map(x => `<div class="sig"><div class="type">${esc(x.type)}</div><blockquote>${esc(x.quote)}</blockquote><div class="expl">${esc(x.why)}</div></div>`).join("");
-  const head = s.outlet ? `<div class="meta"><span>${esc(s.outlet)}</span><span>${esc(s.when || "")}</span>${s.opinion ? `<span class="op">Opinion</span>` : ""}${isHot(s) ? `<span class="hot">Hot · ${s.coverage} outlets</span>` : ""}${s.confidence ? `<span>confidence: ${esc(s.confidence)}</span>` : ""}${s.basis ? `<span>${s.basis === "article" ? "read: first ~500 words" : "read: headline + summary only"}</span>` : ""}</div>` : `<div class="meta"><span>Your text</span></div>`;
-  return `<article class="card${isHot(s) ? " is-hot" : ""}" data-id="${s.id}">
+  const head = s.outlet ? `<div class="meta"><span>${esc(s.outlet)}</span><span>${esc(s.when || "")}</span>${s.opinion ? `<span class="op">Opinion</span>` : ""}${hotHere ? `<span class="hot">Hot · ${s.coverage} outlets</span>` : ""}${s.confidence ? `<span>confidence: ${esc(s.confidence)}</span>` : ""}${s.basis ? `<span>${s.basis === "article" ? "read: first ~500 words" : "read: headline + summary only"}</span>` : ""}</div>` : `<div class="meta"><span>Your text</span></div>`;
+  return `<article class="card${hotHere ? " is-hot" : ""}" data-id="${s.id}">
     ${head}
     <h2>${/^https?:\/\//.test(s.link || "") ? `<a href="${esc(s.link)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration-color:var(--line)">${esc(s.title)}</a>` : esc(s.title)}</h2>
     ${s.summary ? `<p class="sum">${esc(s.summary)}</p>` : ""}
@@ -300,6 +311,34 @@ function cardHTML(s, open) {
     </div>`}${/^https?:\/\//.test(s.link || "") ? `<a class="orig" href="${esc(s.link)}" target="_blank" rel="noopener noreferrer">Read the full story at ${esc(s.outlet)} ↗</a>` : ""}</article>`;
 }
 
+/* One card for a story several outlets covered: headline from the straightest version, then each outlet's leaning side by side */
+function eventHTML(group, open) {
+  const scored = group.filter(s => s.scorable !== false && s.lean != null);
+  const lead = [...(scored.length ? scored : group)].sort((a, b) => (!!a.opinion - !!b.opinion) || ((a.spin ?? 999) - (b.spin ?? 999)))[0];
+  const newest = group.reduce((a, b) => (a.ts <= b.ts ? a : b));
+  const outlets = new Set(group.map(s => s.outlet)).size;
+  const hot = group.some(isHot);
+  const rows = [...group].sort((a, b) => (a.lean ?? 999) - (b.lean ?? 999)).map(s => {
+    const ok = s.scorable !== false && s.lean != null;
+    const name = /^https?:\/\//.test(s.link || "") ? `<a href="${esc(s.link)}" target="_blank" rel="noopener noreferrer">${esc(s.outlet)}</a>` : esc(s.outlet);
+    return `<div class="orow"><span class="oname" title="${esc(s.title)}">${name}${s.opinion ? "<small>opinion</small>" : ""}</span>${ok
+      ? `<span class="otrack" role="img" aria-label="${esc(s.outlet)} leaning ${s.lean}"><i style="left:${(s.lean + 100) / 2}%"></i></span><span class="ospin" title="Spin">${s.spin}<small>sp</small></span>`
+      : `<span class="spin-note">not enough text to score</span><span></span>`}</div>`;
+  }).join("");
+  const leans = scored.map(s => s.lean);
+  const spread = leans.length > 1 ? Math.max(...leans) - Math.min(...leans) : null;
+  const spreadTxt = spread == null ? "" : `<div class="spread">Coverage spread: <b>${spread} points</b> · ${spread < 25 ? "outlets framed it similarly" : spread < 60 ? "framing differs noticeably" : "outlets framed it very differently"}</div>`;
+  return `<article class="card${hot ? " is-hot" : ""}" data-id="${lead.id}">
+    <div class="meta"><span>${hot ? "Top story" : outlets + " outlets"}</span><span>${esc(newest.when || "")}</span>${hot ? `<span class="hot">Hot · ${outlets} outlets</span>` : ""}</div>
+    <h2>${esc(lead.title)}</h2>
+    ${lead.summary ? `<p class="sum">${esc(lead.summary)}</p>` : ""}
+    <div class="cov"><div class="orow ohead"><span>Outlet</span><span>Leaning (left → right)</span><span>Spin</span></div>${rows}${spreadTxt}</div>
+    <div class="why">
+      <button type="button" aria-expanded="${open}"><span class="ar">▸</span> See each outlet's version and why it scored that way</button>
+      <div class="why-body" ${open ? "" : "hidden"}><div class="versions">${group.map(s => cardHTML(s, false, true)).join("")}</div></div>
+    </div></article>`;
+}
+
 let sideSig = "";
 const state = { bucket: "all", spinMax: 100, sort: "hot" };
 function render() {
@@ -309,13 +348,21 @@ function render() {
   list.sort(by[state.sort]);
   const feed = document.getElementById("feed");
   const openFirst = i => i === 0 && state.bucket === "all" && state.spinMax === 100 && state.sort === "hot";
+  // Collapse stories about the same event into one entry, placed where its highest-ranked version would have been
+  const groups = [], at = {};
+  list.forEach(s => {
+    const k = s.cluster || s.id;
+    if (!(k in at)) { at[k] = groups.length; groups.push([]); }
+    groups[at[k]].push(s);
+  });
   const parts = []; let seenHot = false, seenRest = false;
-  list.forEach((s, i) => {
+  groups.forEach((g, i) => {
+    const hot = g.some(isHot);
     if (state.sort === "hot") {
-      if (isHot(s) && !seenHot) { seenHot = true; parts.push('<div class="sect hotsect"><i></i><span>Hot right now</span></div>'); }
-      if (!isHot(s) && !seenRest) { seenRest = true; if (seenHot) parts.push('<div class="sect"><span>Latest</span></div>'); }
+      if (hot && !seenHot) { seenHot = true; parts.push('<div class="sect hotsect"><i></i><span>Hot right now</span></div>'); }
+      if (!hot && !seenRest) { seenRest = true; if (seenHot) parts.push('<div class="sect"><span>Latest</span></div>'); }
     }
-    parts.push(cardHTML(s, openFirst(i)));
+    parts.push(g.length > 1 ? eventHTML(g, false) : cardHTML(g[0], openFirst(i)));
   });
   feed.innerHTML = list.length ? parts.join("") : '<div class="empty">No stories match these filters.</div>';
   renderSide();
@@ -331,7 +378,7 @@ function renderSide() {
   const rows = Object.entries(by).map(([name, a]) => ({ name, n: a.length, lean: Math.round(avg(a.map(s => s.lean))), spin: Math.round(avg(a.map(s => s.spin))) })).sort((a, b) => a.lean - b.lean);
   const bins = [0, 0, 0, 0, 0];
   sc.forEach(s => { bins[s.lean < -60 ? 0 : s.lean < -20 ? 1 : s.lean <= 20 ? 2 : s.lean <= 60 ? 3 : 4]++; });
-  const hotN = STORIES.filter(isHot).length;
+  const hotN = new Set(STORIES.filter(isHot).map(s => s.cluster || s.id)).size;
   const sig = JSON.stringify([sc.length, avgSpin, rows, bins, hotN]);
   if (sig === sideSig) return;
   sideSig = sig;
