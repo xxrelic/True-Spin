@@ -19,11 +19,27 @@ from datetime import datetime, timezone
 
 MODEL = os.environ.get("SLANT_MODEL", "claude-sonnet-5-5")
 UA = "SlantMeterBot/0.1 (personal project)"
-PROMPT = """You are a careful media-bias analyst. Analyze this political news item. TEXT BASIS below says whether you have only a headline and feed summary, or also the first ~500 words of the article.
-You MUST report your analysis by calling the report_score tool (do not answer in prose). Its fields: {"political": boolean (true ONLY if this is news about government, elections, politicians, public policy or political events; false for ads, sponsored content, loan/mortgage/credit offers, shopping, lifestyle, sports, entertainment or anything else; if false, every other field may be null),
+PROMPT = """You are a careful media-bias analyst. Analyze this news item. TEXT BASIS below says whether you have only a headline and feed summary, or also the first ~500 words of the article.
+
+WHAT TO SCORE: political news, AND stories that are not filed as politics but divide Americans along left/right values lines: high-profile criminal trials, policing and self-defense cases, school curriculum and book fights, vaccines, abortion, gender and LGBTQ+ issues, psychiatric care, brand boycotts and DEI, culture-war entertainment and sports controversies (anthem protests, trans athletes), religion, immigration, guns, race, climate, speech and content moderation. Skip routine news with no values divide: weather, game results, product launches, celebrity gossip, lifestyle, ads.
+
+VALUES MAP (how each US coalition commonly frames issues as of late 2026; it describes framing, not what is true). Use it to decide which side a framing favors, especially for non-political stories:
+Crime & justice - LEFT: root causes (poverty, mental illness, trauma, systemic failure), rehabilitation, leniency, police accountability. RIGHT: personal responsibility, victims first, deterrence and punishment, backing police, skepticism of insanity or excuse defenses.
+Economy - LEFT: inequality, worker protections, regulation, corporate greed. RIGHT: growth, small business, deregulation, tax burden, government waste.
+Government & institutions - LEFT: trust in experts, agencies and science bodies, threats to democratic norms. RIGHT: distrust of bureaucracy and "elites", government overreach, media bias.
+Immigration - LEFT: humanitarian concerns, asylum seekers, contributions of immigrants. RIGHT: border security, rule of law, costs, crime tied to illegal entry.
+Gender & family - LEFT: bodily autonomy, LGBTQ+ inclusion, women's equality. RIGHT: traditional family, parental rights, religious liberty, biological sex.
+Guns - LEFT: public health, gun violence prevention. RIGHT: Second Amendment, self-defense.
+Race - LEFT: systemic racism, equity, historical injustice. RIGHT: colorblindness, individual merit, opposition to DEI.
+Climate & energy - LEFT: climate crisis, transition to renewables. RIGHT: energy costs, jobs, skepticism of mandates.
+Speech & tech - LEFT: misinformation, hate speech, platform responsibility. RIGHT: censorship, cancel culture, Big Tech bias.
+Foreign policy - LEFT: alliances, diplomacy, human rights, international institutions. RIGHT: national interest, strength, America first, skepticism of foreign aid.
+CROSS-CUTTING THEMES appeal to both sides: distrust of pharmaceuticals, psychiatric drugs and vaccines; anti-corporate and anti-Big Tech sentiment; opposition to foreign wars; privacy and surveillance; criticism of the Federal Reserve or banks. If the main frame is one of these, set favors to "neither" unless framing, sourcing and word choice clearly lean, and name the theme in leanWhy.
+
+You MUST report your analysis by calling the report_score tool (do not answer in prose). Its fields: {"political": boolean (true if this is political news OR a values-divisive story as described in WHAT TO SCORE; false for ads, sponsored content, loan/mortgage/credit offers, shopping, and routine news with no values divide; if false, every other field may be null),
 "opinion": boolean (true if this is a columnist, opinion, editorial or commentary piece rather than straight news reporting; cues include labels like OPINION, a columnist surname prefix such as "ROOKE:", first-person argument, or a thesis headline),
 "scorable": boolean (false if the text is too thin to judge slant, for example only a headline plus a fragment of a sentence and no article excerpt; if false, strength and spin must be null and signals empty),
-"favors": "left"|"right"|"neither" (whose viewpoint the WRITING favors: left = Democratic/progressive side, right = Republican/conservative side; judge framing, word choice and sourcing, not the topic or who won),
+"favors": "left"|"right"|"neither" (whose viewpoint the WRITING favors: left = Democratic/progressive side or left-coded framing in the values map, right = Republican/conservative side or right-coded framing; judge framing, word choice and sourcing, not the topic or who won; a straight factual recap, such as court testimony, is "neither"),
 "strength": integer 0..100 (how strongly the writing favors that side; 0 if neither),
 "spin": integer 0..100 (how far the text pushes a conclusion beyond its facts),
 "leanWhy": string (2 sentences),
@@ -31,6 +47,7 @@ You MUST report your analysis by calling the report_score tool (do not answer in
 "confidence": "low"|"medium"|"high"}
 Rules: 0-4 signals, listing ONLY real evidence of slant or spin (none for neutral reporting, and never list balancing or neutral features as signals); quotes must appear verbatim in the input; do not infer from the outlet's reputation; if only a headline and a short blurb are available, say so in leanWhy and set confidence low or medium; if an article excerpt is provided, use all of it (sourcing, attribution, context) and confidence may be medium or high, but remember it is only the opening of the article. Never invent omissions you cannot see from the text; name an omission only if the text itself implies it.
 Judge the WRITING, not the news. A story reporting an event that is bad for one side (a court ruling against a politician, poor poll numbers, an arrest) is not biased for that reason alone. Standard attribution verbs such as "claims", "alleges", "says" or "suspects" are not slant by themselves. Do not move the lean score because of who won or lost; move it only for framing, word choice, sourcing and emphasis. Neutral items should get lean near 0 and spin under 15.
+Safety: in leanWhy and signals, never repeat accusations against people who have not been charged with a crime, never add graphic detail of violence (especially involving children), and never state verdicts, outcomes or numbers that are not in the text.
 
 HEADLINE: {title}
 SUMMARY: {summary}
@@ -328,7 +345,7 @@ def main():
             r = score_mock(it) if a.mock else score_live(client, it)
             v = validate(r, it)
             if not v.get("political", True):
-                skipped.add(it["id"]); print(f"  skipped (not political): {it['outlet']}: {it['title'][:60]}"); continue
+                skipped.add(it["id"]); print(f"  skipped (not political or divisive):{it['outlet']}: {it['title'][:60]}"); continue
             it.update(v); it.pop("_excerpt", None); it.pop("fulltext", None)  # article text is never saved
             old[it["id"]] = it
         except Exception as e:
