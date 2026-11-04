@@ -1,5 +1,935 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "Sen. Amy Klobuchar wins Minnesota governor's race, CBS News projects",
+    "link": "https://www.cbsnews.com/news/klobuchar-wins-minnesota-governor-race-cbs-news-projects/",
+    "summary": "Democratic U.S. Sen. Amy Klobuchar defeated Republican state House Speaker Lisa Demuth. She will succeed Gov. Tim Walz, who announced in January he would not seek a third term.",
+    "published": "2026-11-04T19:00:13+00:00",
+    "id": "ca550b4ade37",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a standard election-result report that covers both candidates' backgrounds and platforms and attributes claims to AP and CBS. There is a slight tilt in the fraud-scandal passage: it describes a \"right-wing influencer\" and a Republican focus on the Somali community, and it gives the criticism of that focus from Walz and local officials.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "until a right-wing influencer's video went viral late last year and drew the attention of President Trump",
+        "why": "The label and the account of how the scandal gained attention make the origin of the focus on fraud look partisan."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a focus Walz and other local officials have criticized",
+        "why": "The criticism of the Republican focus comes from Democratic officials, and no one defends that focus in this passage."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "ca550b4ade37",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "White House feeling ‘multiple stages of grief’ after major Democratic wins: Christian Datoc",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4792716/white-house-multiple-stages-of-democrats-midterm-wins-christian-datoc/",
+    "summary": "Washington Examiner White House reporter Christian Datoc said officials at the White House are experiencing multiple stages of grief after the blue wave in the midterm elections. “My talks with White House officials, there was a lot of profanities,” Datoc said Wednesday on C-Span.",
+    "published": "2026-11-04T19:00:10+00:00",
+    "id": "31d0bd313786",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is a recap of a reporter's C-SPAN remarks, mixing White House defiance and blame on the Iran war with Trump's openness to working with Democrats. The headline's \"grief\" framing and the closing question about Democrats launching investigations or impeachment tilt slightly, but sourcing is mostly attributed and nearly all from White House officials.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Now, will Democrats play ball with the president, or will they simply launch investigations, impeachment proceedings?",
+        "why": "It puts the burden on Democrats and frames possible oversight as obstruction, and this question gets the last word."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Officials at the White House believe the Iran war was to blame for the midterm election losses",
+        "why": "Almost all the sourcing is administration officials, with no Democratic or independent voices."
+      },
+      {
+        "type": "Framing",
+        "quote": "he has the unimpeachable power of the veto",
+        "why": "This presents Trump's leverage in a favorable light and gives no counterpoint."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "31d0bd313786",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Message to the Democratic legislative majority: Serve the people, don’t replay the past",
+    "link": "https://www.washingtonexaminer.com/restoring-america/fairness-justice/4792703/house-oversight-investigations-governance-not-grievance/",
+    "summary": "The midterm election results have fundamentally altered the balance of power in Washington. With a shifting legislative landscape, the incoming majority now holds considerable leverage, including authority over congressional oversight, committee investigations, and executive branch nominations.",
+    "published": "2026-11-04T18:59:56+00:00",
+    "id": "cc5e68ac9a2c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 45,
+    "spin": 55,
+    "leanWhy": "This opinion piece warns incoming Democratic majority leaders against investigating the Trump administration. It uses right-coded framing: investigations are \"witch hunts\" and \"vendettas\", and it prioritizes border security and cost of living. It gives the case for oversight only a brief nod.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "fishing expeditions and political witch hunts",
+        "why": "Adopts the language Trump allies use to dismiss oversight before any investigation has begun."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "The path of oversight or the path of obsession",
+        "why": "Casts planned investigations as obsession and retribution rather than legitimate oversight."
+      },
+      {
+        "type": "Framing",
+        "quote": "ensuring the absolute security of our national borders",
+        "why": "Presents a right-coded priority as the electorate's mandate, with no sourcing for that claim."
+      },
+      {
+        "type": "Framing",
+        "quote": "This instinct to weaponize a newly won majority is a profound misreading of the American electorate’s mandate",
+        "why": "Asserts what voters want without evidence and treats oversight plans as weaponization."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "cc5e68ac9a2c",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "DOJ subpoenas California counties over alleged noncitizen voting",
+    "link": "https://www.cbsnews.com/news/doj-northern-california-counties-subpoenas-alleged-noncitizen-voting/",
+    "summary": "Several counties in Northern California were hit with fresh grand jury subpoenas over alleged noncitizen voting just days before the midterm elections, local officials told CBS News.",
+    "published": "2026-11-04T18:55:11+00:00",
+    "id": "4749924638f6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -20,
+    "spin": 22,
+    "leanWhy": "The piece is mostly straight reporting, but its sourcing leans on county officials and a source familiar with the subpoenas, and the DOJ's side appears only as \"claims\" and an unanswered request for comment. Phrases like \"pressure California\" and noting that courts refused to force the step frame the DOJ's actions as overreach.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The subpoenas are the latest effort by the Justice Department to pressure California to set aside some 20,000 ballots",
+        "why": "\"Pressure\" and \"latest effort\" cast the DOJ as escalating a campaign rather than pursuing an investigation."
+      },
+      {
+        "type": "Framing",
+        "quote": "have seemingly expanded in recent weeks to focus not just on individual noncitizens who may have voted in prior elections, but also on the actions of state and local officials themselves",
+        "why": "Suggests expansion toward targeting officials, using hedged interpretive language."
+      },
+      {
+        "type": "Source selection",
+        "quote": "even though multiple federal courts — up to and including the U.S. Supreme Court — refused to force them to take such a step, the source added",
+        "why": "Relays an anonymous source's framing that the subpoenas contradict court rulings, with no DOJ counterpoint in the excerpt."
+      },
+      {
+        "type": "Source selection",
+        "quote": "CBS News has reached out to the Justice Department for comment.",
+        "why": "The DOJ's rationale is missing, so local officials' legal objections dominate."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "4749924638f6",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Get ready for Democrats to plot their power grabs for 2028",
+    "link": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4792637/democrats-plot-power-grabs-2028-electoral-college-supreme-court/",
+    "summary": "The Democratic Party’s sweep into power in the 2026 midterm elections means Democrats will spend the next two years planning the extreme power grabs they have been agitating for, to be carried out if they retake the White House in 2028. Democrats have secured 54 Senate seats and could add two more in Alaska and […]",
+    "published": "2026-11-04T18:52:02+00:00",
+    "id": "b9212438df02",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 85,
+    "spin": 85,
+    "leanWhy": "The piece is an argumentative commentary that casts Democratic proposals (Electoral College abolition, D.C. statehood, court expansion) as \"extreme power grabs\" and \"rigging\" the system, with no Democratic voices or counterarguments. It speculates about future intentions and presents them as near-certain, using loaded language throughout.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the extreme power grabs they have been agitating for",
+        "why": "Labels policy proposals as extreme power grabs in the opening sentence, before any evidence is given."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "packing the Supreme Court with left-wing justices who issue whatever rulings the Democratic Party wants",
+        "why": "Presents the court expansion proposal as a bid for a compliant court, in the writer's own voice rather than attributed."
+      },
+      {
+        "type": "Framing",
+        "quote": "If Democrats win the presidency in 2028, why would they not have their likely one-off senators",
+        "why": "A rhetorical question presents speculation about future Democratic conduct as a foregone conclusion."
+      },
+      {
+        "type": "Source selection",
+        "quote": "These are the new mainstream Democratic positions",
+        "why": "Generalizes from a few 2020 primary proposals to the whole party, with no Democratic response or counterargument."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "b9212438df02",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Democrats' midterm gains could sideline Electoral College by 2028",
+    "link": "https://www.axios.com/2026/11/04/democrats-electoral-college-popular-vote-2028",
+    "summary": "Democrats' sweeping statehouse gains Tuesday have opened a path to effectively replacing the Electoral College with a national popular vote in time for the 2028 presidential election — without needing to amend the Constitution.",
+    "published": "2026-11-04T18:50:32+00:00",
+    "id": "51e1c0b4c259",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 20,
+    "leanWhy": "Only a headline and feed summary were available. The wording \"sweeping gains\" and \"without needing to amend the Constitution\" presents the Democratic project as an achievable path, with no opposing view or caveats shown, but the tone is mostly descriptive.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Democrats' sweeping statehouse gains",
+        "why": "\"Sweeping\" is an upbeat characterization of the gains, and the summary offers no counterpoint on their scale."
+      },
+      {
+        "type": "Framing",
+        "quote": "without needing to amend the Constitution",
+        "why": "This stresses how easy the workaround is and leaves out the legal and political obstacles to it."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "51e1c0b4c259",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Rand Paul is the right politician to lead liberty campaign for president",
+    "link": "https://www.washingtonexaminer.com/op-eds/4792680/rand-paul-president-freedom-agenda/",
+    "summary": "The time is now for Sen. Rand Paul (R-KY) to run for president on a freedom agenda. Paul can bring the Republican Party back to its small-government and free-market roots. The public did not vote in the midterm elections for Democrats — it voted against Republicans.",
+    "published": "2026-11-04T18:49:53+00:00",
+    "id": "f1cbb3935a76",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 55,
+    "spin": 55,
+    "leanWhy": "This is an opinion piece urging Rand Paul to run on a libertarian-leaning small-government, free-market agenda, and it frames Democrats as \"lurching toward a government-controlled economy.\" It is critical of the current GOP (Iran war, tariffs), but its prescriptions and sourcing, a libertarian think-tank head, favor the right-libertarian side, and no opposing view appears.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Democrats are lurching toward a government-controlled economy",
+        "why": "Characterizes the Democratic position in a caricatured, pejorative way."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "went into a flaming political dumpster for Republicans",
+        "why": "Colorful, sweeping language that pushes a narrative about the midterm results."
+      },
+      {
+        "type": "Framing",
+        "quote": "The public did not vote in the midterm elections for Democrats — it voted against Republicans.",
+        "why": "Asserts a single interpretation of voter intent as fact to support the thesis."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Dan Mitchell, the president of the Center for Freedom and Prosperity",
+        "why": "Relies on one advocacy-group voice aligned with the author's view and offers no counterpoint."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "f1cbb3935a76",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "DFL trifecta 2.0: Democrats win full control of Minnesota government",
+    "link": "https://www.cbsnews.com/news/minnesota-legislature-balance-of-power-2026-house-senate-control/",
+    "summary": "Democrats flipped the Minnesota House and won the governor's race, returning the DFL to a trifecta after two years of divided government. The results, however, remain unofficial.",
+    "published": "2026-11-04T18:44:47+00:00",
+    "id": "1e23bfd08029",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a straight results recap with seat counts, unofficial-result caveats and historical context, and no loaded language. The only faint tilt is the closing line that \"Several issues stalled under divided government\", which hints at a negative view of divided rule without giving examples or any Republican view.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Several issues stalled under divided government.",
+        "why": "It is an unsourced, unspecific line that implies divided government was a problem, and no Republican perspective is offered."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "ca550b4ade37",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "US midterm elections 2026 live updates: Trump defiant about brutal Republican losses and acknowledges Iran war’s unpopularity",
+    "link": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+    "summary": "President again insisted that if he were on the ballot Republicans would have won, despite historic losses: ‘They just couldn’t transfer that love’ Track live results from all 50 states Full report: Democrats win control of Congress Tell us: how do you feel about the midterm results?",
+    "published": "2026-11-04T18:43:31+00:00",
+    "id": "bc75040dd0aa",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The live-blog uses loaded descriptors for Republican losses (\"catastrophic\", \"bloodbath\", \"brutal\", \"defiant\", \"belligerent\") and dwells on Trump's \"love\" quotes in a way that reads as mocking. Trump's and DeSantis's own words are quoted at length, but the framing is consistently of Republican failure, and no Republican or other voice is given to counter it.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "catastrophic Republican losses in the House and Senate",
+        "why": "Editorial adjective in the news voice amplifies the scale of the losses rather than just stating results."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "while remaining belligerent about his decision to start the conflict",
+        "why": "Characterizes Trump's tone with a pejorative term instead of letting his quotes speak."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "attacking party colleagues who lost seats in the midterms bloodbath",
+        "why": "Dramatic wording frames the election and DeSantis's motives in a negative light."
+      },
+      {
+        "type": "Framing",
+        "quote": "which in many cases they lost to Democrats in historic landslides",
+        "why": "Emphasizes the extent of the Democratic wins and the Republican failure beyond the quoted facts."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "653f5e30294f",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Final Republican who voted to impeach Trump loses reelection bid",
+    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4764482/california-house-vulnerable-republican-david-valadao-newcomer-randy-villegas/",
+    "summary": "Political newcomer and progressive Democrat Randy Villegas defeated Rep. David Valadao (R-CA) on Wednesday afternoon, successfully taking advantage of California’s redistricting push, which saw the incumbent’s district redrawn in favor of Democrats.",
+    "published": "2026-11-04T18:42:41+00:00",
+    "id": "ef82dfbdc548",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual race recap with background on redistricting and polling. It leans slightly left through emphasis on Valadao's Medicaid vote, Trump's declining approval, and Sanders' endorsement, with no Republican voice or rebuttal.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Valadao also had to battle his party's association with Trump, whose approval ratings continue to decline.",
+        "why": "It attributes the loss to Trump's unpopularity without sourcing or Republican response."
+      },
+      {
+        "type": "Source selection",
+        "quote": "At least 64% of his constituents rely on Medicaid, according to CalMatters.",
+        "why": "It stresses a vulnerability for the Republican, and no Republican explanation of his vote is offered."
+      },
+      {
+        "type": "Framing",
+        "quote": "He was a frequent target of the DCCC but was something of a white whale",
+        "why": "The narrative frames the result as a long-sought Democratic triumph."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "ef82dfbdc548",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Black candidates for governor make history with midterm victories",
+    "link": "https://www.cbsnews.com/news/2026-midterm-elections-governors-races-bottoms-donalds-crowley-moore-ford/",
+    "summary": "Americans elected the country's first Black woman, and three other Black candidates, into gubernatorial roles during Tuesday's record midterm races.",
+    "published": "2026-11-04T18:38:20+00:00",
+    "id": "4d417ad8974c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a mostly factual recap of historic firsts and covers both parties' winners, including Republican Byron Donalds as the first Black Republican elected governor. Quotes come mainly from Democrats Moore and Bottoms, and the celebratory \"historic\" framing is mild and focused on representation rather than party.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"This is exciting, because up until this moment, I was the only Black governor in America.",
+        "why": "The main quoted reactions come from Democratic winners, and Republican Donalds is not quoted in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Bottoms has been hailed as a trailblazer for more reasons than one",
+        "why": "The tone is celebratory, though it is mild and tied to a historic milestone."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8dbdedb72d1c",
+    "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "Chuck Schumer heralds Democrats' 'generational remake' of Senate",
+    "link": "https://www.npr.org/2026/11/04/g-s1-151833/2026-midterms-chuck-schumer-senate-democrats",
+    "summary": "In remarks the day after his party flipped control of Congress, the Senate Minority Leader said voters had spoken clearly about their priorities, and said it's up to the Democratic party to deliver.",
+    "published": "2026-11-04T18:37:34+00:00",
+    "id": "fc21e85a766c",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "Only a headline and feed summary were available. The headline uses \"heralds\" and adopts Schumer's own phrase \"generational remake\", and the summary relays his claim that voters spoke clearly. That gives the Democratic framing a mild tilt, and no Republican response appears.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "heralds Democrats' 'generational remake' of Senate",
+        "why": "The headline celebrates the party's own self-characterization of the result and gives no counterpoint."
+      },
+      {
+        "type": "Source selection",
+        "quote": "said voters had spoken clearly about their priorities",
+        "why": "The summary presents Schumer's interpretation of the election as the main frame, with no other voices."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "fc21e85a766c",
+    "coverage": 3
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Democrats’ triumph deals devastating blow to Trump - The Latest",
+    "link": "https://www.theguardian.com/news/video/2026/nov/04/democrats-triumph-deals-devastating-blow-to-trump-the-latest",
+    "summary": "Democrats have won a historic sweep in the US midterm elections, winning back control of Congress in a major setback for Donald Trump. Senate seats went blue in traditional Republican strongholds such as Texas, South Carolina and Kansas, where the Democrats had their first win since 1932.",
+    "published": "2026-11-04T18:37:24+00:00",
+    "id": "56187b538b32",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The headline and blurb use celebratory, high-impact language (\"triumph\", \"devastating blow\", \"historic sweep\") that frames the results from the Democratic side. Republican voices are absent, and the blurb asserts voter motives as fact (\"strong message of discontent\") without attribution.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Democrats’ triumph deals devastating blow to Trump",
+        "why": "Triumphal, dramatic wording frames the outcome as a Democratic victory and a Trump humiliation."
+      },
+      {
+        "type": "Framing",
+        "quote": "Voters have sent a strong message of discontent to the Trump administration over the economy, the cost of living and rising gas prices.",
+        "why": "It states voter motives as settled fact with no attribution or alternative explanations."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Lucy Hough speaks to our Washington editor, Ankita Rao",
+        "why": "The only voice is the outlet's own editor, and no Republican or dissenting view appears."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Trump is now a lame-duck president for the rest of his term.",
+        "why": "This is a sweeping, definitive judgment that goes beyond the election results."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "1cc946dcdb66",
+    "coverage": 3
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump brags about the White House ballroom in his first post-election appearance",
+    "link": "https://www.nbcnews.com/politics/donald-trump/trump-election-white-house-ballroom-iran-rcna607487",
+    "summary": "In his first public appearance since Republicans racked up major losses in the midterm elections, President Donald Trump boasted Wednesday about the White House ballroom under construction and largely skirted talk about his party’s performance.",
+    "published": "2026-11-04T18:36:28+00:00",
+    "id": "06fb90cc9981",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting with direct quotes, but the headline and lead stress that Trump \"brags\" about a ballroom and \"skirted\" the election losses, which frames him as out of touch. Trump's own words get ample space, yet the framing choices and the emphasis on his focus on renovations tilt mildly against him.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump brags about the White House ballroom",
+        "why": "\"Brags\" is a mocking verb choice where \"touts\" or \"talks about\" would be neutral."
+      },
+      {
+        "type": "Framing",
+        "quote": "largely skirted talk about his party’s performance",
+        "why": "It casts Trump as evasive, even though he answered press questions on the results."
+      },
+      {
+        "type": "Framing",
+        "quote": "racked up major losses",
+        "why": "The colorful phrasing emphasizes the GOP's defeat in the lead."
+      },
+      {
+        "type": "Omission",
+        "quote": "has frequently spoken about it during official White House events on unrelated subjects",
+        "why": "The detail stresses his fixation on the project, and the excerpt gives no supporters' or administration's view."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "bdf28862d787",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Both sides of the Atlantic sense more hope: voters are drawn to the ‘politics of love’ | Alexander Hurst",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/04/donald-trump-midterms-atlantic-hope-voters-democratic",
+    "summary": "Trump’s rout could be part of a democratic spring that began in Hungary. But will it extend to the French elections next May? Hungary, Brazil, Serbia, and now the US.",
+    "published": "2026-11-04T18:35:18+00:00",
+    "id": "3bd247ae2690",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -85,
+    "spin": 70,
+    "leanWhy": "This is a first-person opinion column that celebrates Democratic and progressive election wins as a \"democratic spring\" and describes opponents with strongly negative language. It treats the right as oligarchic, corrupt and \"far-right\", and the Democratic side as hopeful and decent.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Away from oligarchic rule and unapologetic corruption, connivance with aggression, expansion, colonialism and war",
+        "why": "Sweeping pejoratives define the opposing side's politics with no attribution or counterview."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump’s rout could be part of a democratic spring that began in Hungary.",
+        "why": "It casts Democratic wins as a continent-wide democratic revival, which pushes a larger conclusion than the election results alone support."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "refused to suffer the fundamental indecency of one candidate",
+        "why": "It presents a Republican candidate as indecent and voters as morally rejecting him."
+      },
+      {
+        "type": "Framing",
+        "quote": "The far-right response has been to try to assert control over the things within immediate grasp: immigration and identity.",
+        "why": "It describes right-coded immigration concerns as a narrow, superficial response, while the author's side is framed as the one tackling real structural forces."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "3bd247ae2690",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Trump's loss limits powers at home, but it will likely be different abroad",
+    "link": "https://www.bbc.co.uk/news/articles/crkg7wj8g201o?at_medium=RSS&at_campaign=rss",
+    "summary": "After bruising midterm results, President Trump will want to show he can still shake the world, the BBC's international editor writes.",
+    "published": "2026-11-04T18:35:07+00:00",
+    "id": "98deb8b0b905",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -35,
+    "spin": 40,
+    "leanWhy": "This is an analysis piece by the BBC's international editor. It frames Trump's defeat as \"political karma\" and describes his motives as contempt for \"losers\" and a wish to hide an \"electoral rout\". It quotes a Democratic senator's condemnation of the war plans and says they would \"likely\" be a war crime, with no Republican or administration view in the excerpt. That is a clear left-leaning tilt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "there is political karma in the sheer size of the defeat",
+        "why": "The line takes a moral, almost gleeful tone about Trump's loss instead of reporting it neutrally."
+      },
+      {
+        "type": "Framing",
+        "quote": "One is his contempt for those he regards as losers, and his determination never to be seen as one.",
+        "why": "It attributes personal, ego-driven motives to Trump's possible foreign actions, with no support from sources."
+      },
+      {
+        "type": "Source selection",
+        "quote": "he condemned the plans as \"insane\", warning that they would trigger a \"devastating escalation\"",
+        "why": "The only US voice on the war plans is a Democratic critic, and no administration or Republican response is given."
+      },
+      {
+        "type": "Framing",
+        "quote": "Not only would that be likely to constitute a war crime",
+        "why": "It presents a speculative scenario as likely illegal, which pushes a conclusion beyond the facts."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "98deb8b0b905",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump answers questions from reporters after Republican midterm losses",
+    "link": "https://www.nbcnews.com/video/trump-answers-questions-from-reporters-after-republican-midterm-losses-272858693547",
+    "summary": "President Trump took questions from reporters on the midterm results, the future of Republican leadership, the war with Iran and the possibility of impeachment in his first appearance since election night.",
+    "published": "2026-11-04T18:32:21+00:00",
+    "id": "bdf28862d787",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and feed summary are available. The wording is largely neutral and lists the topics Trump was asked about, though \"Republican midterm losses\" in the headline puts the focus on the setback.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "bdf28862d787",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "The Guardian view on the US midterms: joy for Democrats, a rout for Republicans and a reprieve for democracy | Editorial",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/04/the-guardian-view-on-the-us-midterms-joy-for-democrats-a-rout-for-republicans-and-a-reprieve-for-democracy",
+    "summary": "Voters have delivered a damning verdict on Donald Trump’s presidency with this Congressional landslide Bitter experience made Democrats wary of believing that the blue wave predicted by polls would materialise. What arrived was not just victory but a rout: control of Congress and a Republican wipeout .",
+    "published": "2026-11-04T18:31:13+00:00",
+    "id": "8daf61f132d9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -80,
+    "spin": 60,
+    "leanWhy": "This is an editorial that openly celebrates a Democratic landslide and condemns Trump in loaded terms (\"humiliation\", \"chaos and cruelty\", \"illegal conflict\", \"vengeful and erratic\"). It shows no Republican voices or counter-framing, and it treats Democratic rejoicing as \"rightly\" deserved.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "an astounding humiliation for a president whose political brand is power",
+        "why": "Mocking, triumphant tone toward Trump instead of neutral description."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "having watched even greater chaos and cruelty wreaked in his second term",
+        "why": "Asserts as fact a harsh characterization of Trump's presidency."
+      },
+      {
+        "type": "Framing",
+        "quote": "He lost it by launching an illegal conflict that hit them in the pocket",
+        "why": "Gives a single causal explanation for the result and calls the conflict illegal without attribution."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats are rightly rejoicing",
+        "why": "The editorial voice explicitly endorses the Democratic side."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "8daf61f132d9",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trans-Rights Protestors Storm ‘Harry Potter’ Store Opening As Star Actors Arrive",
+    "link": "https://dailycaller.com/2026/11/04/trans-rights-protesters-swarm-harry-potter-store-grand-opening-uk-jk-rowling-actors",
+    "summary": "‘You should not be reading Harry Potter to your children and then bringing them to this store’",
+    "published": "2026-11-04T18:25:08+00:00",
+    "id": "c97b2d19ba28",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly a factual recap of the protest, but the headline verb \"Storm\" and the phrase \"advocacy for anti-trans policies\" make it read as a disruption story. It quotes only protester chants and gives no response from Rowling, the store, or trans-rights groups explaining their position, so the framing is slightly unsympathetic to the protesters.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trans-Rights Protestors Storm ‘Harry Potter’ Store Opening",
+        "why": "\"Storm\" suggests a forcible or chaotic intrusion, but the body describes a demonstration outside the venue."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "staging a demonstration outside the venue",
+        "why": "The article says the protest took place outside, which is milder than the headline's \"storm\"."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“You should not be reading Harry Potter to your children and then bringing them to this store,” they shouted.",
+        "why": "The summary and quoted material come only from the protesters' chants, with no Rowling response or detailed protester rationale."
+      },
+      {
+        "type": "Framing",
+        "quote": "Rowling’s advocacy for anti-trans policies in Britain",
+        "why": "The text describes Rowling's position in the critics' terms and gives no description from her side."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "c97b2d19ba28",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Mike Johnson will step aside as top House Republican next Congress",
+    "link": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
+    "summary": "After Tuesday's bruising defeat for Republicans, House Speaker Mike Johnson will not stay on as minority leader come January.",
+    "published": "2026-11-04T18:14:13+00:00",
+    "id": "1a74d9b87a1f",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -10,
+    "spin": 12,
+    "leanWhy": "Only a headline and a short feed summary were available. The phrase \"bruising defeat for Republicans\" is mildly loaded and stresses Republican weakness, but the core claim is factual and no sourcing is visible.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "bruising defeat for Republicans",
+        "why": "Evaluative wording emphasizes the scale of the Republican loss rather than neutrally stating the result."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "1a74d9b87a1f",
+    "coverage": 4
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Democrats Found Victory In Taking Beast Head On While Republicans Cried Boogeyman",
+    "link": "https://dailycaller.com/2026/11/04/democratic-party-data-center-backlash-texas-ohio-elon-musk-silicon-valley",
+    "summary": "It was a smart strategy",
+    "published": "2026-11-04T18:05:26+00:00",
+    "id": "5d4bc7b27e3a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -70,
+    "spin": 60,
+    "leanWhy": "The piece reads as commentary praising Democrats' strategy of tying AI data centers to cost of living, energy bills and corruption. It casts Republicans as aligned with billionaire \"oligarchs\" and mocks their position as crying \"boogeyman\", and the excerpt gives no Republican voice. The anti-Big Tech and anti-corporate theme is cross-cutting, but the framing here is clearly partisan.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "While Republicans cried boogeyman and climbed into bed with Silicon Valley’s most powerful elites",
+        "why": "Mocking, pejorative description of Republicans' stance and motives."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats found victory by taking the beast head-on",
+        "why": "Heroic framing of Democrats' strategy as the cause of their success."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "many of its top billionaire oligarchs, such as Elon Musk",
+        "why": "'Oligarchs' is a charged label that ties Republicans to billionaires."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "It was a smart strategy",
+        "why": "The summary asserts an evaluative conclusion rather than reporting it."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "5d4bc7b27e3a",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+    "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+    "summary": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal.",
+    "published": "2026-11-04T18:01:31+00:00",
+    "id": "b1b6827ca68a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece frames the Democratic midterm win as a \"victory\" and \"repudiation\" of Trump's tariffs, leading with Doug Ford's celebratory quote and Democrats who oppose tariffs. It does add caveats about Trump's veto power and executive orders, and about Democrats who have backed some tariffs, so the tilt is moderate.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "a Democratic sweep that was in part a repudiation by American voters of Donald Trump's tariff on close trade allies",
+        "why": "It states in the narrator's voice that voters rejected the tariffs, which interprets the result as a referendum and goes beyond the facts."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+        "why": "The headline stresses a celebratory frame, while the article admits relief is unlikely any time soon."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"I was doing cartwheels down the street,\"",
+        "why": "The opening quote is an exuberant reaction from a Canadian politician, which sets a triumphant tone."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Five reasons why Republicans lost so badly",
+        "why": "The related-link headline describes the Republican loss in strong terms."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "b1b6827ca68a",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Democrats won Congress in a blue wave. Now comes the hard part.",
+    "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Democrats can vote legislation through. But Trump still has veto power.",
+    "published": "2026-11-04T18:01:27+00:00",
+    "id": "c4e241cf53dd",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "This is mostly a straight analytical news piece about the limits and tasks facing the new Democratic majority. It leans slightly left through celebratory phrasing about the win and through sourcing that comes mainly from Democrats. It also includes cautionary points, such as Democratic unpopularity, the veto, and the impeachment debate.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Election night was a fever dream for Democrats.",
+        "why": "Vivid, celebratory tone adopts the winning side's mood, though it is paired with a cautionary note."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Garcia rattled off a list of possible targets",
+        "why": "Investigation plans are described mainly through a Democratic lawmaker, and no Republican response appears in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "after a blowout victory",
+        "why": "Characterizes the result in strongly positive terms for Democrats."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "1cc946dcdb66",
+    "coverage": 3
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "First Palestinian Elected To State Celebrates With Palestinian Flag, Forgets American Flag",
+    "link": "https://dailycaller.com/2026/11/04/aber-kawas-first-palestinian-elected-flag-new-york",
+    "summary": "‘the organizer I am today’",
+    "published": "2026-11-04T17:59:55+00:00",
+    "id": "1684c368e41f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 72,
+    "spin": 75,
+    "leanWhy": "The piece builds a story out of a single social media post using a flag emoji, framing it as disloyalty to America, and attaches an unrelated inflammatory \"RELATED\" link about Palestinian terrorists. It labels endorsers \"far-left\" and relies on her own website for sourcing, with no response from Kawas and no other perspective.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Celebrates With Palestinian Flag, Forgets American Flag",
+        "why": "The headline presents an emoji choice as a patriotic failing, and 'forgets' implies a lapse the text doesn't establish."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "1684c368e41f",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Mississippi Senate race is toss-up, with margin of under 100 votes",
+    "link": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+    "summary": "The Senate race in deep-red Mississippi remains unresolved Wednesday morning, as Democrat Scott Colom has mounted a surprisingly competitive challenge to incumbent Sen. Cindy Hyde-Smith.",
+    "published": "2026-11-04T17:56:23+00:00",
+    "id": "d1cd98e2f206",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a factual election-night recap, but it uses upbeat language about the Democratic challenger (\"formidable challenge,\" \"stunningly close\") and quotes only Colom. Hyde-Smith gets no quote or campaign context, so the framing leans slightly toward the Democratic side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Colom, a district attorney, launched a formidable challenge, and could deliver Democrats yet another victory",
+        "why": "Admiring wording and the 'yet another victory' framing present the Democratic surge as momentum."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"The results are all trending in our direction.\"",
+        "why": "Only the Democratic candidate is quoted, and his optimistic claim gets the last word on the race, with no response from Hyde-Smith."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a stunningly close result in the Magnolia State",
+        "why": "Emotive wording adds drama in favor of the underdog narrative."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "d1cd98e2f206",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Florida DeSantis describes GOP midterms wipeout as 'close to an extinction-level event' for Republicans",
+    "link": "https://www.foxnews.com/politics/florida-desantis-describes-gop-midterms-wipeout-close-extinction-level-event-republicans",
+    "summary": "Outgoing Florida Gov. Ron DeSantis called the midterm elections results a \"close to an extinction-level event\" for Republicans around the U.S.",
+    "published": "2026-11-04T17:48:25+00:00",
+    "id": "48831aba6e0d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a long recap of DeSantis's own remarks, with attribution and little editorializing. The headline's word \"wipeout\" is mildly sensational, and the lack of any Democratic response gives it a slight tilt in the direction of the story's embarrassment for Republicans.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "GOP midterms wipeout",
+        "why": "\"Wipeout\" is a sensational headline word that is not a direct quote from the article."
+      },
+      {
+        "type": "Source selection",
+        "quote": "They did not earn a mandate to indulge all their left-wing fantasies.",
+        "why": "Only DeSantis's framing is presented, with no Democratic response or independent analysis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "48831aba6e0d",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Schumer posts photo of him grilling, with Republicans on the menu",
     "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4792442/chuck-schumer-social-media-grilling-republicans-midterm-elections/",
@@ -68,7 +998,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "ea836bc3b3b4",
+    "cluster": "d1cd98e2f206",
     "coverage": 1
   },
   {
@@ -100,6 +1030,47 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "aa9a95920ab6",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Gun-Control Supporters Made Major Gains In Red States During Midterm Wipeout",
+    "link": "https://dailycaller.com/2026/11/04/anti-second-amendment-groups-made-major-gains-in-red-states-during-midterm-wipeout",
+    "summary": "Republicans lost the House and Senate",
+    "published": "2026-11-04T17:40:46+00:00",
+    "id": "4f0602858329",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The piece reports the election results factually but repeatedly labels Democratic winners and groups \"anti-Second Amendment\". It stresses billionaire Bloomberg's spending and the candidates' gun-restriction records, and it ends on prospective tax hikes. That is a gun-rights framing, and gun-control advocates get no voice.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Moms Demand Action, an anti-Second Amendment group backed by Bloomberg",
+        "why": "It applies a pejorative label chosen by opponents rather than the groups' own gun-safety description."
+      },
+      {
+        "type": "Framing",
+        "quote": "after former New York City Mayor Michael Bloomberg, a billionaire, donated at least $36 million",
+        "why": "It stresses billionaire money as the explanation for the Democratic wins, a common gun-rights framing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to a 2024 alert by the National Rifle Association’s Political Victory Fund",
+        "why": "It relies on the NRA's characterization of Brown's record and includes no gun-control voices."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Gun-Control Supporters Made Major Gains In Red States During Midterm Wipeout",
+        "why": "The headline credits gun-control supporters with the gains, while the text mostly lists general Democratic wins and attaches gun positions to each winner."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "4f0602858329",
     "coverage": 1
   },
   {
@@ -157,7 +1128,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "6bb46567350c",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -189,6 +1160,26 @@
     "storyChoice": "left",
     "cluster": "06ee52f2f9e7",
     "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Suspect, victim dead after SWAT responds to 'active threat' at office complex near Tampa, Florida",
+    "link": "https://www.foxnews.com/us/swat-units-respond-active-threat-office-complex-near-tampa-florida-suspect-dead-sheriff",
+    "summary": "Florida authorities on Wednesday confirmed a suspect is dead following a reported active shooter situation at a Tampa-area business park.",
+    "published": "2026-11-04T17:35:45+00:00",
+    "id": "c93a42f6cc3f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 2,
+    "leanWhy": "This is a straight breaking-news recap of an active shooter response. It relies on official sources (the sheriff and emergency alerts) and doesn't add any gun-policy or political framing.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "c93a42f6cc3f",
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -224,7 +1215,7 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "6bb46567350c",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -295,7 +1286,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "958d275ef0a9",
+    "cluster": "8d7146712e6f",
     "coverage": 2
   },
   {
@@ -331,8 +1322,44 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3c048be6510d",
-    "coverage": 3
+    "cluster": "d560f75db3ba",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Pollsters missed the mark again — but this time, it wasn't Republicans they underestimated",
+    "link": "https://www.foxnews.com/politics/pollsters-missed-mark-again-but-this-time-wasnt-republicans-they-underestimated",
+    "summary": "Trump and Republicans claimed midterm polls were rigged against the GOP, but pollsters say it was Democrats who were significantly undercounted.",
+    "published": "2026-11-04T17:26:44+00:00",
+    "id": "a4ae1660e417",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting built on quotes from named pollsters of both parties, but the framing sets Trump and Johnson's \"rigged polls\" claims against pollster findings that contradict them. The headline and lead emphasize the Republican claim being wrong, which mildly favors the Democratic side, though the sourcing includes a GOP pollster and the facts are well supported.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Pollsters missed the mark again — but this time, it wasn't Republicans they underestimated",
+        "why": "The headline frames the story as a rebuttal of Republican claims."
+      },
+      {
+        "type": "Framing",
+        "quote": "President Donald Trump repeatedly railed against public opinion polls",
+        "why": "\"Railed\" casts Trump's complaints as a tirade before showing them contradicted."
+      },
+      {
+        "type": "Source selection",
+        "quote": "We definitely didn't undercount Republicans, that's for sure.",
+        "why": "Quotes from pollsters dominate and no one defends the Republican claim, though the quoted pollsters include a GOP pollster."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a4ae1660e417",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -373,6 +1400,47 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "3aa61af63d08",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "The last time a Kansas Democrat was in the Senate, the Wizard of Oz was in cinemas",
+    "link": "https://www.bbc.co.uk/news/articles/cqx29rxkld84o?at_medium=RSS&at_campaign=rss",
+    "summary": "Adam Hamilton, a pastor, has made history as the first Kansas Democrat to win the Senate in almost 100 years.",
+    "published": "2026-11-04T17:21:32+00:00",
+    "id": "74427f81c727",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -28,
+    "spin": 25,
+    "leanWhy": "The piece reads as a celebratory, whimsical victory narrative, with Wizard of Oz imagery, \"sunny skies and historic new leadership\", and \"sighs of relief\". Quoted voters are mostly jubilant Democrats who criticize \"chaos and corruption\", while the one Republican voice is a vivid, somewhat caricatured supporter, and Marshall's side gets little space in the excerpt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Kansas woke up on Wednesday to sunny skies and historic new leadership after days of rain, hail and tornado warnings",
+        "why": "Weather metaphor casts the Democratic win as a relief and a brighter new era."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"People are fed up with the chaos and the corruption,\"",
+        "why": "A Democratic-aligned voter's critique of Republicans is given prominent, unrebutted space."
+      },
+      {
+        "type": "Framing",
+        "quote": "erupted in cheers and sighs of relief",
+        "why": "Describes the reaction in emotive, celebratory terms, with the win as a liberation."
+      },
+      {
+        "type": "Source selection",
+        "quote": "who believes an angel is protecting Trump, otherwise \"he'd be dead\"",
+        "why": "The chosen Republican voter detail is an eccentric belief that tends to make Marshall's backers look less credible."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "74427f81c727",
     "coverage": 1
   },
   {
@@ -450,7 +1518,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "Axios",
@@ -511,8 +1579,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "860595dc1c22",
-    "coverage": 1
+    "cluster": "fc21e85a766c",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -537,7 +1605,7 @@
     ],
     "confidence": "low",
     "cluster": "dec09778d8fb",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -617,8 +1685,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "372f3d8afd21",
-    "coverage": 1
+    "cluster": "68ed1d08e5c7",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -643,7 +1711,7 @@
     ],
     "confidence": "medium",
     "cluster": "053ed1a113b6",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -682,7 +1750,7 @@
       }
     ],
     "confidence": "high",
-    "cluster": "3c048be6510d",
+    "cluster": "1cc946dcdb66",
     "coverage": 3
   },
   {
@@ -782,7 +1850,7 @@
     ],
     "confidence": "medium",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -881,7 +1949,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "3c048be6510d",
+    "cluster": "fc21e85a766c",
     "coverage": 3
   },
   {
@@ -917,7 +1985,7 @@
     ],
     "confidence": "medium",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -936,7 +2004,7 @@
     "signals": [],
     "confidence": "medium",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1031,7 +2099,7 @@
     ],
     "confidence": "low",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "Fox",
@@ -1152,7 +2220,7 @@
     ],
     "confidence": "medium",
     "cluster": "053ed1a113b6",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -1191,8 +2259,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "84242d24c234",
-    "coverage": 1
+    "cluster": "6bb46567350c",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -1232,7 +2300,7 @@
     ],
     "confidence": "medium",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "Fox",
@@ -1262,8 +2330,39 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "bbe6ce08a861",
-    "coverage": 2
+    "cluster": "1cc946dcdb66",
+    "coverage": 3
+  },
+  {
+    "outlet": "NPR",
+    "title": "Kansas just elected a Democrat. His message to Washington? Be decent",
+    "link": "https://www.npr.org/2026/11/04/nx-s1-6028587/adam-hamilton-kansas-senate-political-divides",
+    "summary": "The Methodist pastor who flipped a Republican Senate seat says voters want more than political change. He tells NPR what he heard from Kansans about decency, faith and finding common ground.",
+    "published": "2026-11-04T16:08:41+00:00",
+    "id": "bd77dc8ae17b",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "Only the headline and feed summary were available. The piece is an interview that gives a Democrat who flipped a seat a friendly platform, and it uses the sympathetic frame of decency, faith and common ground. The excerpt shows no opposing voices.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "His message to Washington? Be decent",
+        "why": "The headline adopts the winner's moral framing, which implies Washington is currently indecent."
+      },
+      {
+        "type": "Source selection",
+        "quote": "He tells NPR what he heard from Kansans",
+        "why": "The only voice is the Democratic winner, and he speaks for what voters want."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "bd77dc8ae17b",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -1321,8 +2420,8 @@
     "leanWhy": "Only a headline and a short feed summary were available. They report a leadership decision in neutral terms, attribute it to four sources on the call, and use no loaded language.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "1a74d9b87a1f",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -1433,7 +2532,7 @@
     ],
     "confidence": "low",
     "cluster": "924f235d5a09",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1452,8 +2551,8 @@
     "signals": [],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "0d81d60a8c5a",
-    "coverage": 1
+    "cluster": "c93a42f6cc3f",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -1482,8 +2581,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "3c048be6510d",
-    "coverage": 3
+    "cluster": "68ed1d08e5c7",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -1507,8 +2606,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "1a74d9b87a1f",
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -1577,8 +2676,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "1a74d9b87a1f",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -1596,8 +2695,8 @@
     "leanWhy": "The excerpt is straight news reporting that relies on a source and on Johnson's own quoted words, with no evident partisan framing. Descriptors like \"extensive losses\" and \"wide majority\" are factual characterizations of the election outcome, not slant.",
     "signals": [],
     "confidence": "high",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "6a74d307f700",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1661,8 +2760,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "924f235d5a09",
-    "coverage": 6
+    "cluster": "95a929b9cfee",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -1686,8 +2785,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "053ed1a113b6",
-    "coverage": 3
+    "cluster": "254e80d0252a",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1770,8 +2869,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "dec09778d8fb",
-    "coverage": 2
+    "cluster": "aee87321a0d2",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1859,8 +2958,8 @@
     "leanWhy": "The excerpt is a short, straightforward news report of Johnson's announcement, attributed to four sources on the call. The only mildly evaluative wording is \"massive losses\", which is a small characterization and not a partisan slant.",
     "signals": [],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "6a74d307f700",
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -1889,8 +2988,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "740f1df0ea74",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1914,8 +3013,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "9a2a26a3895d",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -2108,7 +3207,7 @@
     "leanWhy": "This is a straight news report on the appointment of a special prosecutor. It attributes claims to named sources and includes the defense's objections to James's involvement along with the statements from James, Kelly and Hochul.",
     "signals": [],
     "confidence": "high",
-    "cluster": "958d275ef0a9",
+    "cluster": "8d7146712e6f",
     "coverage": 2
   },
   {
@@ -2143,7 +3242,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "ea836bc3b3b4",
+    "cluster": "af90331cad25",
     "coverage": 1
   },
   {
@@ -2299,8 +3398,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "053ed1a113b6",
-    "coverage": 3
+    "cluster": "e9db7e8bcfa2",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -2374,8 +3473,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "3c048be6510d",
-    "coverage": 3
+    "cluster": "8e27afd39e36",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -2394,7 +3493,7 @@
     "signals": [],
     "confidence": "high",
     "cluster": "8dbdedb72d1c",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -2423,8 +3522,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "aa02b9289803",
-    "coverage": 7
+    "cluster": "9a2a26a3895d",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -2505,7 +3604,7 @@
     ],
     "confidence": "medium",
     "cluster": "7ba2ca219417",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2529,8 +3628,8 @@
       }
     ],
     "confidence": "low",
-    "cluster": "7ba2ca219417",
-    "coverage": 2
+    "cluster": "5b84cb02e7cc",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2870,7 +3969,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "77e9ff0de7b4",
+    "cluster": "e5eddb6b0434",
     "coverage": 1
   },
   {
@@ -3508,6 +4607,42 @@
     ],
     "confidence": "low",
     "cluster": "76034b92527a",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Stacey Abrams says Democrat wins in Georgia offer opportunity for 'correcting and restoring rights'",
+    "link": "https://www.npr.org/2026/11/04/nx-s1-6023305/stacey-abrams-georgia-midterm-results-turnout",
+    "summary": "After a historic election night for Georgia and many southern states, former Georgia gubernatorial candidate Stacey Abrams speaks to Morning Edition about what these wins mean for Democrats.",
+    "published": "2026-11-04T11:42:38+00:00",
+    "id": "bab760a6842c",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "Only the headline and a short feed summary were available. The headline quotes Abrams's framing of Democratic wins as 'correcting and restoring rights', and the summary calls the night 'historic' with no Republican voice. That is a one-sided interview framing, though it is an attributed interview and not the outlet's own argument.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "offer opportunity for 'correcting and restoring rights'",
+        "why": "The headline adopts the Democratic interviewee's rights-restoration frame and gives no counter-view."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a historic election night for Georgia and many southern states",
+        "why": "'Historic' celebrates the outcome in the outlet's own voice and presents it as significant for Democrats."
+      },
+      {
+        "type": "Source selection",
+        "quote": "speaks to Morning Edition about what these wins mean for Democrats",
+        "why": "The only voice is a prominent Democrat, so the interpretation of the results is one-sided."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "bab760a6842c",
     "coverage": 1
   },
   {
@@ -4342,7 +5477,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "77e9ff0de7b4",
+    "cluster": "e5eddb6b0434",
     "coverage": 1
   },
   {
@@ -5339,7 +6474,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "77e9ff0de7b4",
+    "cluster": "e5eddb6b0434",
     "coverage": 1
   },
   {
@@ -7297,7 +8432,7 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "527086acf7d9",
+    "cluster": "6e03441dc173",
     "coverage": 1
   },
   {
@@ -7625,8 +8760,8 @@
       }
     ],
     "confidence": "medium",
-    "cluster": "192b9edeb454",
-    "coverage": 2
+    "cluster": "8f9c6690c81f",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -8059,6 +9194,37 @@
     "coverage": 3
   },
   {
+    "outlet": "Axios",
+    "title": "Democrats beat back GOP Senate challenge in N.H. with Pappas win",
+    "link": "https://www.axios.com/2026/11/04/new-hampshire-nh-senate-results-sununu-pappas",
+    "summary": "Democratic Rep. Chris Pappas defeated former GOP Sen. John Sununu in the New Hampshire Senate race, AP projects, becoming the first openly gay man elected to the U.S. Senate. Why it matters: Pappas' victory keeps the seat in Democratic hands and could boost the party's chances of taking control of the Senate.",
+    "published": "2026-11-04T01:27:52+00:00",
+    "id": "4bfec7c7619a",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary were available. The headline's \"beat back GOP Senate challenge\" is mildly Democratic-centered, and the summary stresses the historic first and the boost to Democrats' Senate chances. Otherwise it is a straightforward election-result report attributed to AP.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Democrats beat back GOP Senate challenge in N.H. with Pappas win",
+        "why": "The headline casts the result from the Democratic side, as a defense against a Republican challenge."
+      },
+      {
+        "type": "Framing",
+        "quote": "could boost the party's chances of taking control of the Senate",
+        "why": "The 'why it matters' line looks ahead to a Democratic Senate majority and doesn't mention the Republican perspective."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "4bfec7c7619a",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Wes Moore wins second term as Maryland governor",
     "link": "https://www.washingtonexaminer.com/news/campaigns/state/4778457/wes-moore-democrat-maryland-governor-race/",
@@ -8165,892 +9331,6 @@
     "signals": [],
     "confidence": "high",
     "cluster": "8628e1f670f1",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US midterm elections 2026 live updates: Ossoff and Warner win re-election as Democrats vie for Senate control",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-    "summary": "Democratic US senators from Georgia and Virginia win re-election; polls close in Ohio, North Carolina, and South Carolina as Americans decide the direction of Congress Track live results from all 50 states As we bring you the latest from around the country, Donald Trump is certainly paying attention.",
-    "published": "2026-11-04T01:05:19+00:00",
-    "id": "77e9ff0de7b4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The live blog is mostly factual about poll closings and results, but it frames races from the Democratic perspective, with words like \"our quest to reclaim control\" style framing, \"scandal-plagued\" for Paxton, and Democrats' hopes for flips. It also gives space to Trump's low approval and angry posts without matching Republican-side sourcing.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The state is crucial for Democrats to retain as part of their quest to reclaim control of the Senate.",
-        "why": "Adopts the Democratic party's goals as the narrative lens for the night."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "the scandal-plagued Republican attorney general",
-        "why": "Characterizes the Republican candidate with a pejorative label, while Democratic candidates get positive descriptors like \"surged in the polls\"."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats are betting on James Talarico, the state lawmaker who has surged in the polls",
-        "why": "Emphasizes Democratic momentum and optimism in a close race."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Trump’s approval rating sank to 36% last month, the lowest recorded in a poll by the New York Times/Siena College",
-        "why": "Foregrounds Trump's weakness and his angry posts, with no Republican-side context or response."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "77e9ff0de7b4",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Josh Shapiro clinches second term as governor in battleground Pennsylvania",
-    "link": "https://www.washingtonexaminer.com/news/campaigns/state/4759585/josh-shapiro-stacy-garrity-pennsylvania-governor-race/",
-    "summary": "Gov. Josh Shapiro (D-PA) won his bid for reelection on Tuesday, dealing a blow to Republican challenger Stacy Garrity in Pennsylvania’s 2026 elections. Shapiro clinched a second term in the state’s governor’s mansion with 85.4% of the vote compared to Garrity’s 13.9%, as of 8:01 p.m.",
-    "published": "2026-11-04T01:04:54+00:00",
-    "id": "184fe67d0779",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The piece is mostly straight election reporting, covering the result, the funding gap and both candidates' positions with specifics. It has a few mildly favorable touches toward Shapiro, such as \"widely admired entertainers\" and the 2028 speculation, but they are minor and balanced by a detailed account of Garrity's platform.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "leaning on widely admired entertainers and athletes for star power",
-        "why": "The phrase \"widely admired\" is an unsourced, flattering characterization of the figures Shapiro campaigned with."
-      },
-      {
-        "type": "Framing",
-        "quote": "The achievement demonstrates Shapiro's ability to navigate a competitive political environment",
-        "why": "This presents the win as a personal accomplishment, even though the vote share cited (85.4% to 13.9%) is reported as partial and the story itself describes an uphill race for Garrity."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "89b6c568ba26",
-    "coverage": 2
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Senate election results as polls begin to close, Ossoff wins reelection",
-    "link": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
-    "summary": "Republicans are defending a 53-47 majority in the Senate, as Democrats aim to flip enough seats to gain control.",
-    "published": "2026-11-04T01:02:24+00:00",
-    "id": "87599e064600",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a live-blog style election-night report that mostly relays projections, exit poll findings and candidate facts for both parties. Minor emphasis on Trump's underwater approval and a long Peltola quote is offset by exit-poll findings that cut against Democrats (Andrews seen as too extreme).",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"Alaskans across the state know that Dan Sullivan voted for this war in Iran 14 times,\" Peltola said.",
-        "why": "A lengthy partisan quote from the Democratic candidate is included with little visible Republican response in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "87599e064600",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Midterm results coming in as polls close in half of states — live updates",
-    "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-    "summary": "Polls are now closed in half of the states in the country as results from the 2026 midterm elections continue to come in. Follow live updates here.",
-    "published": "2026-11-04T01:02:16+00:00",
-    "id": "b49395ba1646",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a live-updates election item that mixes race status, state poll-closing details and sourced reporting from both a Manchin interview and Trump administration officials. The sourcing is attributed, and the material is mostly informational, with only a slight tilt from the heavy emphasis on White House gloom and Manchin's \"blue wave\" remark.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "If there was ever a blue wave, this is set up to be one, Manchin said.",
-        "why": "The only outside political voice quoted is a critic of Trump, and the item gives his prediction prominent placement."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "b49395ba1646",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Democratic Gov. JB Pritzker wins a third term in Illinois",
-    "link": "https://www.nbcnews.com/politics/2026-election/jb-pritzker-wins-governor-race-illinois-third-term-darren-bailey-rcna603363",
-    "summary": "Illinois Gov. JB Pritzker has clinched a third term in office, gliding past Republican Darren Bailey in a rematch of the 2022 election, NBC News projects.",
-    "published": "2026-11-04T01:00:00+00:00",
-    "id": "7ff4044ec771",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is mostly straight election-result reporting with context on Pritzker's 2028 prospects, his fights with Trump, and the state's challenges, including crime, property taxes and the failed tax change. A few phrases, such as \"strenuously pushed back\" and \"wildly unpopular\", lean slightly favorable to Pritzker, but the piece also includes critical context.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Trump, who is wildly unpopular in the state",
-        "why": "Strong evaluative wording is stated as fact in the narrator's voice, with no polling cited in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "strenuously pushed back on President Donald Trump’s attempts to deploy the National Guard",
-        "why": "The wording casts Pritzker's opposition in an energetic, favorable light."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "7ff4044ec771",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Gov. Josh Shapiro sails to a second term in battleground Pennsylvania",
-    "link": "https://www.nbcnews.com/politics/2026-election/josh-shapiro-democrat-wins-pennsylvania-governor-battleground-race-rcna603368",
-    "summary": "Pennsylvania Gov. Josh Shapiro easily defeated Republican state Treasurer Stacy Garrity in his re-election bid, NBC News projects.",
-    "published": "2026-11-04T01:00:00+00:00",
-    "id": "89b6c568ba26",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straightforward election-result report that backs its \"easily\" and \"never close\" characterizations with polling and fundraising data. It attributes Shapiro's PAC rationale to his campaign and includes Garrity's challenges and positions without editorializing.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "gives Shapiro a springboard into a potential White House bid",
-        "why": "Forward-looking framing slightly casts the winner as a rising national figure, though it is mild."
-      }
-    ],
-    "confidence": "high",
-    "cluster": "89b6c568ba26",
-    "coverage": 2
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Democratic Gov. Wes Moore wins re-election in deep-blue Maryland",
-    "link": "https://www.nbcnews.com/politics/2026-election/wes-moore-maryland-governor-election-win-democrat-rcna603366",
-    "summary": "Maryland Gov. Wes Moore, a potential 2028 Democratic presidential contender, sailed to a re-election victory on Tuesday, NBC News projects.",
-    "published": "2026-11-04T01:00:00+00:00",
-    "id": "f78cde6ba2c6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straightforward election-result report that gives context on Moore's record, intra-party clashes, the bridge rebuilding delays, and the misrepresentation allegations. Sourcing is mostly attributed and balanced, with only mild word choice such as \"sailed\" suggesting a lopsided race.",
-    "signals": [],
-    "confidence": "high",
-    "cluster": "f78cde6ba2c6",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Jon Ossoff defeats Mike Collins to hold Georgia Senate seat",
-    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4780192/georgia-senate-election-results-jon-ossoff-mike-collins/",
-    "summary": "Sen. Jon Ossoff (D-GA) survived a challenge from Rep. Mike Collins (R-GA) in the midterm election on Tuesday and was elected to a second term, in a win that could help Democrats on their road to a Senate majority and potentially pave the way for a 2028 presidential bid. The Associated Press called the race […]",
-    "published": "2026-11-04T00:57:28+00:00",
-    "id": "4cd6bcc5a1b7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is mostly straightforward election-night reporting with attributed numbers, polling data, and parallel summaries of both candidates' platforms. A few framing choices, such as \"Trump's unpopularity\" as a drag and \"viciously debated,\" lean slightly toward describing the environment as bad for Republicans, but they are mild.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Collins struggled at times to escape from the drag Trump’s unpopularity created for Republican candidates across the country",
-        "why": "States Trump's unpopularity as fact in the narrator's voice rather than attributing it to polling."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Ossoff and Collins viciously debated each other",
-        "why": "\"Viciously\" is a subjective characterization of the debates."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "4cd6bcc5a1b7",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Jon Ossoff wins Georgia Senate race over Republican Mike Collins",
-    "link": "https://www.theguardian.com/us-news/2026/nov/03/jon-ossoff-mike-collins-georgia-senate",
-    "summary": "Rising Democratic star made his re-election campaign a referendum on the Trump administration’s misdeeds US midterm elections – live updates Track live results from all 50 states Jon Ossoff has been re-elected to the Senate in Georgia, defeating Mike Collins, his Republican challenger.",
-    "published": "2026-11-04T00:57:23+00:00",
-    "id": "02cf5aea3b77",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 30,
-    "leanWhy": "The piece is a straight results report, but it adopts the Democratic framing of the Trump administration's \"misdeeds\" in the subhead and describes Ossoff as a \"rising Democratic star.\" Collins's campaign is described mainly through its extremist ties, with no space for his own arguments or Collins/GOP voices.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "referendum on the Trump administration’s misdeeds",
-        "why": "Presents the Trump administration's 'misdeeds' as fact in the writer's own voice rather than as Ossoff's characterization."
-      },
-      {
-        "type": "Framing",
-        "quote": "Rising Democratic star",
-        "why": "Flattering framing of the winner that is not neutral descriptive language."
-      },
-      {
-        "type": "Framing",
-        "quote": "highlighting self-serving stock trades and business deals by the president",
-        "why": "'Self-serving' is an evaluative term adopted without attribution."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Collins ran a campaign focused on immigration enforcement and anti-transgender policies that was badly marred by ties",
-        "why": "Characterizes Collins's platform as 'anti-transgender' and emphasizes scandal, with no Collins or Republican response."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "842b6b625a48",
-    "coverage": 2
-  },
-  {
-    "outlet": "BBC",
-    "title": "When will we know the results?",
-    "link": "https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
-    "summary": "The first polls have closed, but it is possible the results will not be projected for several hours, days or even weeks.",
-    "published": "2026-11-04T00:56:05+00:00",
-    "id": "e1809ade9bb0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is an explanatory news piece on election-night timing and congressional math. It uses neutral language, cites an independent analyst (Cook Political Report), and gives historical context from 2022 without pushing a conclusion.",
-    "signals": [],
-    "confidence": "high",
-    "cluster": "e1809ade9bb0",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Jon Ossoff wins reelection in Georgia, easily defeating Republican Mike Collins",
-    "link": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
-    "summary": "A year ago, the Georgia Senate race was considered one of the cycle's marquee Senate showdowns. In the end, Ossoff easily defeated Collins.",
-    "published": "2026-11-04T00:55:57+00:00",
-    "id": "842b6b625a48",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "Only a headline and short feed summary are available. They report an election result in plain terms, and the word \"easily\" describes the margin without clear slant toward either side.",
-    "signals": [],
-    "confidence": "medium",
-    "cluster": "842b6b625a48",
-    "coverage": 2
-  },
-  {
-    "outlet": "CBS News",
-    "title": "See CBS News exit poll results for the 2026 midterm elections",
-    "link": "https://www.cbsnews.com/news/cbs-news-exit-polls-midterm-elections-2026/",
-    "summary": "Here's a national look at what's on voters' minds in the 2026 midterm elections as they cast their ballots.",
-    "published": "2026-11-04T00:53:37+00:00",
-    "id": "bbe6ce08a861",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a data-driven exit poll summary that reports findings for both parties, including voter doubts about Democrat Andrews and about Republican Graham. Its wording is mostly analytic, with only slight interpretive phrasing around Democratic performance and Trump's low approval.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "this would be a really good performance by a Democrat in Georgia among White voters if this holds",
-        "why": "The evaluative comment on Democratic performance is mild analyst interpretation that goes slightly beyond the raw data."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "bbe6ce08a861",
-    "coverage": 2
-  },
-  {
-    "outlet": "Axios",
-    "title": "Key election night polls close as Trump rages",
-    "link": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
-    "summary": "Most polls in Florida, Virginia and South Carolina closed at 7pm ET, with all three states expected to provide strong indicators of where the midterms are headed.",
-    "published": "2026-11-04T00:48:53+00:00",
-    "id": "15646ac52e91",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -20,
-    "spin": 25,
-    "leanWhy": "Only a headline and a short feed summary were available. The summary is neutral, but the headline's \"Trump rages\" is a loaded, unflattering characterization of Trump that the summary doesn't support.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Trump rages",
-        "why": "\"Rages\" is a charged verb that portrays Trump as angry, and the summary gives no evidence for it."
-      }
-    ],
-    "confidence": "low",
-    "cluster": "15646ac52e91",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Democratic Sen. Jon Ossoff projected to win re-election in Georgia",
-    "link": "https://www.nbcnews.com/video/democratic-sen-jon-ossoff-projected-to-win-re-election-in-georgia-272808517979",
-    "summary": "NBC News projects that Democratic Sen. Jon Ossoff will win re-election in Georgia. NBC News' Steve Kornacki breaks down how the Democrat performed in counties in the state.",
-    "published": "2026-11-04T00:42:22+00:00",
-    "id": "192b9edeb454",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "Only a headline and short feed summary are available. Both are a plain, factual race projection with no loaded wording or advocacy.",
-    "signals": [],
-    "confidence": "medium",
-    "cluster": "192b9edeb454",
-    "coverage": 2
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Democrat Angie Nixon in the lead as early Florida votes counted",
-    "link": "https://www.nbcnews.com/video/democrat-angie-nixon-in-the-lead-as-early-florida-votes-counted-272808517874",
-    "summary": "As vote count begins in Florida, Democrat Senate candidate Angie Nixon is in the lead against her opponent Republican Ashley Moody.",
-    "published": "2026-11-04T00:32:53+00:00",
-    "id": "3b42baa9db11",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "3b42baa9db11",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US midterm voting issues: New York voting machine failures and Florida flooding affect some – video",
-    "link": "https://www.theguardian.com/us-news/video/2026/nov/03/us-midterm-voting-issues-new-york-florida-video",
-    "summary": "Voter turnout has surged as Americans cast their ballots in the critical US midterm elections . Although mostly smooth, there have been some voting snags across the country.",
-    "published": "2026-11-04T00:31:46+00:00",
-    "id": "37c16b1462a7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "The piece is a short, factual rundown of election-day voting problems in several states, with no partisan framing or sourcing. It describes issues in New York, Illinois and Florida evenhandedly and notes that voting was mostly smooth.",
-    "signals": [],
-    "confidence": "high",
-    "cluster": "37c16b1462a7",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "'A brighter future' - why Americans came out to vote",
-    "link": "https://www.bbc.co.uk/news/videos/cq8rz6xlz6ejo?at_medium=RSS&at_campaign=rss",
-    "summary": "Voters in Iowa, Georgia and Ohio spoke to BBC reporters as millions of Americans decide who will control Congress.",
-    "published": "2026-11-04T00:26:48+00:00",
-    "id": "443e8f505c91",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "443e8f505c91",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Democrats look poised to win House control in midterm elections after two turbulent years of Trump",
-    "link": "https://www.theguardian.com/us-news/2026/nov/03/democrats-house-midterm-elections-results",
-    "summary": "Victory for the party comes despite unusual and aggressive efforts by Republicans to redraw congressional districts US midterm elections – live updates Track live results from all 50 states Democrats are poised to take control of the US House of Representatives after two tumultuous years of Donald Trump’s second…",
-    "published": "2026-11-04T00:25:51+00:00",
-    "id": "527086acf7d9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly straight election-night reporting built on forecasts from Cook and UVA, but it uses some loaded wording about Trump's tenure and Republican redistricting. It also gives Democratic investigation plans and the Jeffries milestone prominence, and it includes no Republican voices or perspective.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "two tumultuous years of Donald Trump’s second presidency",
-        "why": "Characterizing the presidency as tumultuous is an evaluative frame that is unfavorable to Trump and Republicans."
-      },
-      {
-        "type": "Framing",
-        "quote": "unusual and aggressive effort by Republicans to redraw congressional districts",
-        "why": "Describing the redistricting as 'aggressive' frames it negatively, with no mention of Democratic redistricting efforts."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "The war in Iran also remains deeply unpopular and gas prices remain extremely high.",
-        "why": "These are stated as flat facts with intensifiers and no attribution or polling figures."
-      },
-      {
-        "type": "Framing",
-        "quote": "something they are expected to do easily",
-        "why": "This presents a Democratic win as nearly certain, which goes beyond the cautious forecasts the article cites."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "527086acf7d9",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Democrats aim to retake Senate from Republicans as Americans go to polls",
-    "link": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
-    "summary": "Party hopes disapproval with Trump’s presidency gives them advantage as Republicans defend slim majority US midterm elections – live updates Track live results from all 50 states Republicans are defending their majority in the US Senate against resurgent Democrats , who believe voters’ dissatisfaction with Donald…",
-    "published": "2026-11-04T00:12:38+00:00",
-    "id": "4ca9dbe02e58",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -30,
-    "spin": 30,
-    "leanWhy": "This is mostly straight election-day reporting with factual context, but it leans toward the Democratic framing. It uses \"resurgent\" for Democrats, says Trump's decisions were unpopular as established fact, and describes Republican fortunes shifting, with no Republican voices or counter-arguments in the excerpt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "resurgent Democrats",
-        "why": "This adjective adopts a flattering narrative of Democratic momentum."
-      },
-      {
-        "type": "Framing",
-        "quote": "His decision to attack Iran has also proven unpopular with voters, as has his hardline implementation of immigration law.",
-        "why": "It states Trump's unpopularity as fact and uses the loaded word \"hardline\", with no attribution or polling cited here."
-      },
-      {
-        "type": "Framing",
-        "quote": "In a sign of Republican concern that a “blue wave” could sweep their Senate majority away",
-        "why": "It interprets Trump's campaign stops as a sign of Republican worry, which is the writer's inference."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats, who believe voters’ dissatisfaction with Donald Trump will put them back in control",
-        "why": "The excerpt relies on the Democratic perspective and includes no Republican voices or arguments."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "4ca9dbe02e58",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Election Day 2026: Photos from around the country",
-    "link": "https://www.npr.org/sections/the-picture-show/2026/11/03/g-s1-151528/election-day-2026-photos-from-around-the-country",
-    "summary": "Voters across the country are heading to the polls today to cast their ballots in the 2026 midterm elections.",
-    "published": "2026-11-04T00:00:10+00:00",
-    "id": "182f35633198",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "182f35633198",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Alito highlights Colorado’s poor Supreme Court record during Catholic preschool case",
-    "link": "https://www.washingtonexaminer.com/news/supreme-court/4790007/samuel-alito-colorado-poor-supreme-court-record-catholic-preschool-case/",
-    "summary": "Justice Samuel Alito highlighted Colorado’s dismal record at the Supreme Court in the past decade on First Amendment issues when questioning the state’s requirements for its universal preschool program, which the state says must exclude Catholic schools. The Supreme Court heard oral arguments in St.",
-    "published": "2026-11-04T00:00:01+00:00",
-    "id": "868cea86114a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 30,
-    "leanWhy": "The piece leads with Alito's critique of Colorado and adopts the loaded characterization \"dismal record\" in the writer's own voice, which frames the state as repeatedly in the wrong. The excerpt gives the Catholic schools' argument but little of Colorado's reasoning beyond a brief statement, and it includes no voices from the liberal justices or the state.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Colorado’s dismal record at the Supreme Court in the past decade",
-        "why": "\"Dismal\" is an evaluative word used in the outlet's voice rather than attributed to Alito, which tilts the framing against Colorado."
-      },
-      {
-        "type": "Framing",
-        "quote": "which the state says must exclude Catholic schools",
-        "why": "This wording presents the state as choosing to exclude Catholic schools, not as applying a universal non-discrimination admissions rule."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The coalition of Catholic schools argued that asking them to admit families who do not follow Catholic teachings would sacrifice their beliefs",
-        "why": "The excerpt develops the Catholic schools' side in more detail, while Colorado's case gets only a brief mention and no named advocates."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "868cea86114a",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "The brutal 2026 attack ads even rivals had to respect",
-    "link": "https://www.axios.com/2026/11/03/2026-midterms-attack-ads-republicans",
-    "summary": "Top party strategists may hate seeing one of their candidates gutted by a brutal ad. But they can still admire the hit. Why it matters: A record $11.6 billion has plastered political ads across screens of every size in the country during the 2026 midterms .",
-    "published": "2026-11-03T23:59:56+00:00",
-    "id": "b5b4f644a191",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "b5b4f644a191",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "US voters name economy and state of democracy as top issues, poll says",
-    "link": "https://www.bbc.co.uk/news/articles/c39wz0970eypo?at_medium=RSS&at_campaign=rss",
-    "summary": "A major election day survey suggests voters are the most unhappy with the economy.",
-    "published": "2026-11-03T23:55:37+00:00",
-    "id": "e1e9fd2a900f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straightforward numerical summary of a voter poll, attributing results to SSRS and noting caveats such as estimates being updated. Findings are unfavorable to Trump, but that comes from the data, and the writing stays descriptive.",
-    "signals": [],
-    "confidence": "high",
-    "cluster": "e1e9fd2a900f",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Paper ballot shortages spark Election Day scramble at polling places in several states",
-    "link": "https://www.foxnews.com/politics/paper-ballot-shortages-spark-election-day-scramble-polling-places-several-states",
-    "summary": "Election Day saw ballot shortages in Kansas, Illinois and Maryland Tuesday, and one voter said the disruption feels like voter suppression.",
-    "published": "2026-11-03T23:33:23+00:00",
-    "id": "115dec08766c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The excerpt is mostly straight reporting, with official explanations from county, state and Chicago election authorities alongside voter accounts. The summary's \"voter suppression\" quote and the \"gripping\" language add mild drama, but officials' context about ordinary turnout-driven shortages is included.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "one voter said the disruption feels like voter suppression",
-        "why": "The summary highlights a single voter's charged characterization, which the excerpt's official explanations (ordering error, higher turnout) don't support."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "While ballot shortages may be gripping some polling precincts",
-        "why": "Dramatic wording makes the scattered, quickly fixed shortages sound more widespread than the reporting shows."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "115dec08766c",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
-    "link": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
-    "summary": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
-    "published": "2026-11-03T23:31:35+00:00",
-    "id": "cca61ff3e5f3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 35,
-    "leanWhy": "The piece relies on anonymous sources and on administration and Trump quotes, and it presents Blanche's claim that \"everybody agrees\" there is fraud with no counterpoint from Democrats or Elias. It does attribute claims and notes the lawsuit was tossed and that letters went to non-Democrats, which tempers the slant somewhat.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"This is a situation where everybody agrees that there is a FRAUD on the ballot,\"",
-        "why": "A sweeping partisan claim from the Attorney General goes unchallenged, with no response from the Democrats or others under investigation."
-      },
-      {
-        "type": "Framing",
-        "quote": "Trump admin puts alleged 'Decoy Dan' conspirators on notice",
-        "why": "The headline casts recipients as conspirators, which presumes a scheme, though the word 'alleged' hedges it."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Trump also suggested that Senate Minority Leader Chuck Schumer should be held \"criminally responsible,\" as well.",
-        "why": "Trump's accusations are repeated at length with no response from the Democrats named."
-      },
-      {
-        "type": "Framing",
-        "quote": "President Trump has been highly critical of the alleged efforts of the Democratic Party to siphon voters away from Sen. Sullivan.",
-        "why": "The text adopts the administration's framing of Democratic efforts as vote-siphoning, with no sourcing for the characterization."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "cca61ff3e5f3",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "What Democrats plan to prioritize if they retake the House",
-    "link": "https://www.npr.org/2026/11/03/nx-s1-6026666/what-democrats-plan-to-prioritize-if-they-retake-the-house",
-    "summary": "This election will determine control of Congress. Rep. Pete Aguilar, who represents California's 33rd Congressional District, shares how Democratic Party leaders are feeling as results come in.",
-    "published": "2026-11-03T23:11:49+00:00",
-    "id": "8d02ff861b6d",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "8d02ff861b6d",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Results: States decide on voter ID and redistricting ballot measures",
-    "link": "https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
-    "summary": "Several states — including Alaska, Arizona, California and Nevada — are voting on changes to how their elections are run, including voter ID measures. Other states decide on redistricting proposals.",
-    "published": "2026-11-03T22:53:23+00:00",
-    "id": "c9609b0ffdae",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "c9609b0ffdae",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "\"I Voted\" stickers become tributes at ICE memorials",
-    "link": "https://www.axios.com/2026/11/03/i-voted-stickers-ice-memorials",
-    "summary": "Voters in Minneapolis and Houston are among those leaving \"I Voted\" stickers at memorials for people killed by federal immigration agents. Why it matters: The tributes highlight how the Trump administration's unpopular immigration crackdown is motivating voters this election cycle.",
-    "published": "2026-11-03T22:46:35+00:00",
-    "id": "002322b7da8d",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 35,
-    "leanWhy": "Only the headline and a short summary were available. The \"Why it matters\" line asserts as fact that the crackdown is \"unpopular\" and is motivating voters, and the framing centers on memorials for people killed by federal agents, which favors the critics of the administration.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "the Trump administration's unpopular immigration crackdown is motivating voters",
-        "why": "It states the crackdown's unpopularity and its effect on voters as fact, with no attribution or data."
-      },
-      {
-        "type": "Framing",
-        "quote": "memorials for people killed by federal immigration agents",
-        "why": "It presents the deaths without any context or the agencies' account, which frames the agents as responsible."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "002322b7da8d",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Connecticut bakers are bringing joy back to election day, one cake at a time",
-    "link": "https://www.npr.org/2026/11/03/nx-s1-6026494/election-cake-bake-off-hartford-connecticut",
-    "summary": "Nicole Sousa from the Old Statehouse in Hartford, CT, discusses the history of election cakes, a sweet civic tradition dating back to 1771.",
-    "published": "2026-11-03T22:28:33+00:00",
-    "id": "01e7430d377f",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "01e7430d377f",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Control of Congress on the line as voters decide midterms — live updates",
-    "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-    "summary": "The fate of President Trump's legislative agenda is now in the hands of American voters, with the first polls set to close at 7 p.m. ET. Follow live updates here.",
-    "published": "2026-11-03T21:51:44+00:00",
-    "id": "709b57296062",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a live-updates news roundup that attributes claims to named sources (Mullin, the NC Board of Elections, Fulton County) and includes both right-wing (Bannon) and Democratic concerns about ICE at polls. The gas price item is factual with historical comparison and carries little editorializing.",
-    "signals": [],
-    "confidence": "medium",
-    "cluster": "709b57296062",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "DoJ says Trump’s proposed 250ft arch would be completed after end of his term",
-    "link": "https://www.theguardian.com/us-news/2026/nov/03/doj-trump-arch-end-of-term",
-    "summary": "Triumphal arch continues to face legal challenges as government says DC area project will take up to 39 months The US justice department said on Tuesday that Donald Trump’s proposed 250ft (76 meter) triumphal arch in Washington would not be completed until after the end of his second term.",
-    "published": "2026-11-03T21:49:45+00:00",
-    "id": "cc2fb8e68acc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly standard news reporting with attributed claims from the DOJ, the FAA, and the plaintiffs. Its slightly critical lean comes from the emphasis on legal opposition and the closing list of Trump's name-adding projects, which frames the arch as vanity-driven.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The arch is part of Trump’s broader push to remake Washington DC, including renovating the Lincoln Memorial reflecting pool, redeveloping a golf course in East Potomac Park, adding his name to the US Institute of Peace",
-        "why": "Ending on a list of projects that stress Trump's name implies a pattern of self-aggrandizement without attributing that view to anyone."
-      },
-      {
-        "type": "Framing",
-        "quote": "But the arch has faced significant opposition in the courts.",
-        "why": "The opposition is given prominent emphasis, and the plaintiffs' strongest wording is quoted, while the government's rationale gets less space."
-      },
-      {
-        "type": "Source selection",
-        "quote": "calling it “legally indefensible” and arguing Congress has not approved it",
-        "why": "The plaintiffs' charged characterization is quoted directly, but no comparable direct quote supports the administration's legal position."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "cc2fb8e68acc",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US midterm elections 2026 live: turnout surges across country as voters decide control of Congress",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-    "summary": "Voters are casting their ballots across the US in a referendum on Donald Trump’s agenda Sign up for the Breaking News US email What are the races to watch and why do they matter? Midterm elections 2026: what time do the polls close today?",
-    "published": "2026-11-03T21:47:46+00:00",
-    "id": "41b46c921540",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "This is a live blog that mostly reports turnout figures from officials, with a mild lean from its framing and voter selection. It frames the election as a \"referendum on Donald Trump's agenda\" and gives more room to voters afraid of Trump's effects (the gay and trans voter, the teacher describing fear in her classroom) than to the one Republican voter, whose profile is sympathetic but mixed.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Voters are casting their ballots across the US in a referendum on Donald Trump’s agenda",
-        "why": "It presents the midterms as a verdict on Trump, which is an interpretive frame stated as fact."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“If Trump wins again it will validate all that hatred.”",
-        "why": "The excerpt quotes a voter's strongly anti-Trump claim without any counterweight on the same point."
-      },
-      {
-        "type": "Framing",
-        "quote": "She has witnessed the fear sweeping through her classrooms.",
-        "why": "This is emotive language that reflects the writer's narrative of fear under Trump and is not attributed to the speaker."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "41b46c921540",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Ketanji Brown Jackson accuses Catholic preschools of wanting ‘special rule’ to bar LGBT families in universal preschool case",
-    "link": "https://www.washingtonexaminer.com/news/supreme-court/4789693/ketanji-brown-jackson-accuses-catholic-preschools-bar-lgbt-families/",
-    "summary": "Justice Ketanji Brown Jackson sharply questioned a coalition of Catholic schools on Tuesday that are seeking to be allowed into Colorado’s universal preschool program without having to admit families who do not abide by Catholic teachings, accusing them of asking for a “special rule” to discriminate.",
-    "published": "2026-11-03T21:30:34+00:00",
-    "id": "514fa3fe1918",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The excerpt is mostly straightforward reporting of oral arguments, but it centers on Jackson \"sharply\" questioning and \"grilling\" the Catholic schools' lawyer, which frames the liberal justices as hostile. The headline's \"accuses ... of wanting\" casts the exchange in terms favorable to a religious-liberty-sympathetic reading, and the excerpt gives no state-side argument.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "grilled Nicholas Reaves",
-        "why": "Describing the liberal justices as grilling the Catholic lawyer emphasizes confrontation and ideological split."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "accuses Catholic preschools of wanting ‘special rule’ to bar LGBT families",
-        "why": "The headline turns a justice's pointed question into an accusation, which sharpens the conflict beyond what an argument exchange shows."
-      },
-      {
-        "type": "Framing",
-        "quote": "without having to admit families who do not abide by Catholic teachings",
-        "why": "The case is framed around the schools' exemption request, while the state's side is described only as a bar on schools that 'refuse to comply'."
-      },
-      {
-        "type": "Omission",
-        "quote": "Jackson, along with the two other liberal justices on the high court",
-        "why": "The excerpt notes the liberal justices' questioning but gives no sign of how conservative justices or the state's lawyers addressed the issues."
-      }
-    ],
-    "confidence": "medium",
-    "cluster": "514fa3fe1918",
     "coverage": 1
   }
 ]
