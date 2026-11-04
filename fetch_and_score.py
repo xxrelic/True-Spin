@@ -44,9 +44,12 @@ You MUST report your analysis by calling the report_score tool (do not answer in
 "spin": integer 0..100 (how far the text pushes a conclusion beyond its facts),
 "leanWhy": string (2 sentences),
 "signals": [{"type": string (Loaded language, Framing, Source selection, Omission, Headline mismatch...), "quote": exact short quote from the text, "why": one sentence}],
-"confidence": "low"|"medium"|"high"}
+"confidence": "low"|"medium"|"high",
+"storyChoice": "left"|"right"|"neither" (separate from the writing: which side benefits from this story being covered at all, for example a scandal, failure or embarrassing quote for one side benefits the other; "neither" if it cuts both ways or is routine)}
 Rules: 0-4 signals, listing ONLY real evidence of slant or spin (none for neutral reporting, and never list balancing or neutral features as signals); quotes must appear verbatim in the input; do not infer from the outlet's reputation; if only a headline and a short blurb are available, say so in leanWhy and set confidence low or medium; if an article excerpt is provided, use all of it (sourcing, attribution, context) and confidence may be medium or high, but remember it is only the opening of the article. Never invent omissions you cannot see from the text; name an omission only if the text itself implies it.
-Judge the WRITING, not the news. A story reporting an event that is bad for one side (a court ruling against a politician, poor poll numbers, an arrest) is not biased for that reason alone. Standard attribution verbs such as "claims", "alleges", "says" or "suspects" are not slant by themselves. Do not move the lean score because of who won or lost; move it only for framing, word choice, sourcing and emphasis. Neutral items should get lean near 0 and spin under 15.
+Judge the WRITING, not the news. A story reporting an event that is bad for one side (a court ruling against a politician, poor poll numbers, an arrest) is not biased for that reason alone. Standard attribution verbs such as "claims", "alleges", "says" or "suspects" are not slant by themselves. Do not move the lean score because of who won or lost; move it only for framing, word choice, sourcing and emphasis. Emphasis counts: choosing to lead with or dwell on details that embarrass one side, celebratory or mocking tone, sensational headline words ("wipeout", "crushed", "slams", "humiliating") and which side gets the last word are all framing.
+CALIBRATION for strength (do not cluster everything at 0): 0 = no detectable tilt at all, reserved for wire-style copy that only states facts with balanced sourcing. 5-20 = subtle tilt (headline emphasis, which side is quoted first or last, mild word choice). 20-45 = clear lean (one side's framing dominates; the other side appears only briefly). 45-70 = strong (other side missing or caricatured, loaded language). 70-100 = advocacy. Most news writing shows at least a subtle tilt; if you can name one, score it.
+MIRROR TEST: before answering, imagine the same piece written with the parties or sides swapped. Your score must be the mirror image. Apply exactly the same standard to left-leaning and right-leaning writing.
 Safety: in leanWhy and signals, never repeat accusations against people who have not been charged with a crime, never add graphic detail of violence (especially involving children), and never state verdicts, outcomes or numbers that are not in the text.
 
 HEADLINE: {title}
@@ -64,7 +67,8 @@ SCORE_TOOL = {"name": "report_score", "description": "Report the bias analysis o
     "leanWhy": {"type": ["string", "null"]},
     "signals": {"type": "array", "items": {"type": "object", "required": ["type", "quote", "why"],
         "properties": {"type": {"type": "string"}, "quote": {"type": "string"}, "why": {"type": "string"}}}},
-    "confidence": {"type": ["string", "null"], "description": "low, medium or high"}}}}
+    "confidence": {"type": ["string", "null"], "description": "low, medium or high"},
+    "storyChoice": {"type": ["string", "null"], "description": "left, right or neither"}}}}
 GROUP_TOOL = {"name": "report_groups", "description": "Report which news items cover the same event.",
   "input_schema": {"type": "object", "required": ["groups"], "properties": {
     "groups": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}}}}
@@ -310,7 +314,8 @@ def validate(r, it):
         if q and (norm(q).strip("()\"' ") in hay or s.get("type") == "Mock"):
             sigs.append({"type": str(s.get("type", "")), "quote": q, "why": str(s.get("why", ""))})
     return {"political": True, "scorable": True, "opinion": opinion, "lean": clamp(lean_raw, -100, 100), "spin": clamp(r["spin"], 0, 100),
-            "leanWhy": str(r.get("leanWhy") or ""), "signals": sigs, "confidence": r.get("confidence") or "low"}
+            "leanWhy": str(r.get("leanWhy") or ""), "signals": sigs, "confidence": r.get("confidence") or "low",
+            "storyChoice": r.get("storyChoice") if r.get("storyChoice") in ("left", "right", "neither") else None}
 
 def main():
     ap = argparse.ArgumentParser()
