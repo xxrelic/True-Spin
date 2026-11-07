@@ -1,6 +1,114 @@
 [
   {
     "outlet": "Fox",
+    "title": "Democrats set sights on Elon Musk probe after midterm wins, but Pritzker draws a surprising line",
+    "link": "https://www.foxnews.com/politics/democrats-set-sights-elon-musk-probe-after-midterm-wins-pritzker-draws-surprising-line",
+    "summary": "Rep. Jamie Raskin, D-Md., says he feels \"pretty certain\" at least one committee will investigate DOGE, calling Elon Musk's cost-cutting effort a catastrophe.",
+    "published": "2026-11-07T09:00:43+00:00",
+    "id": "ac791e0572f0",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a straight recap of Democratic statements, with attribution and a GAO figure. Mild right-leaning tilt comes from the \"Democrats set sights\" and \"surprising line\" framing, the emphasis on a coming wave of probes and impeachment, and the lack of any DOGE defender's voice. Raskin's strong quotes are left unchallenged.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Democrats set sights on Elon Musk probe after midterm wins",
+        "why": "Frames the oversight push as a targeting campaign driven by electoral victory."
+      },
+      {
+        "type": "Framing",
+        "quote": "vowed to use investigative committees and subpoena powers to probe not only Musk, but Trump and much of his administration — including trying to impeach Trump",
+        "why": "Closes on an expansive picture of Democratic investigations, which stresses escalation."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The tech CEO helped launch DOGE at the start of President Donald Trump's second term to root out waste and be more transparent",
+        "why": "Gives DOGE's purpose in its own stated terms, and no critic or defender of DOGE's results is quoted beyond the Democrats."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "ac791e0572f0",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "‘Finally there’s hope’: UK weighs up opportunities and risks after Trump’s midterms disaster",
+    "link": "https://www.theguardian.com/us-news/2026/nov/07/uk-weighs-risks-opportunities-after-trump-us-midterms-disaster",
+    "summary": "Senior British politicians and officials highlight potential to end Iran war but warn US president is not yet ‘a spent force’ Andy Burnham was having dinner at the Commonwealth summit in Antigua when the results of the US midterm elections started rolling in.",
+    "published": "2026-11-07T09:00:06+00:00",
+    "id": "d6a4410e172e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -35,
+    "spin": 35,
+    "leanWhy": "The piece frames Trump's midterm loss as a \"disaster\" and a relief, with anonymous UK officials voicing hope and anxiety about Trump's \"erraticism\". Sources are almost all UK figures who welcome constraints on Trump, and no Republican or pro-Trump voice appears in the excerpt, though the headline includes a caveat that he is not \"a spent force\".",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump’s midterms disaster",
+        "why": "The headline uses the value-laden word 'disaster' in the outlet's own voice rather than attributing it."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“We’ve been dealing with this constant anxiety over Trump’s erraticism and what he might do next for years. Finally, there’s a bit of hope.”",
+        "why": "An anonymous official's emotional, anti-Trump view is the lead quote and sets the tone."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Republican rout",
+        "why": "Dramatic wording stresses the scale of the Republican defeat, in the narrator's voice."
+      },
+      {
+        "type": "Framing",
+        "quote": "Burnham struggled to disguise his relief that the US president could be restrained.",
+        "why": "The writer interprets Burnham's emotions and frames restraining Trump as a good outcome."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "d6a4410e172e",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "U.S. offers $20 million for information on Iran's nuclear program",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "summary": "The Rewards for Justice program says it is offering a reward for information pertaining to Iran's nuclear facilities, equipment and personnel.",
+    "published": "2026-11-07T08:26:56+00:00",
+    "id": "4be2859982b4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual recap of the reward offer, Trump's remarks, Iranian media reports and Treasury sanctions, with attributions to the State Department and Iranian outlets. A slight tilt comes from relying heavily on State Department framing about Iran's enrichment and from the closing note on Republican losses, which are roughly offsetting.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"Experts estimate this quantity, if enriched further, could be enough for several nuclear weapons.\"",
+        "why": "It repeats the administration's threat framing, with the State Department as the main voice and no outside or critical analysis."
+      },
+      {
+        "type": "Framing",
+        "quote": "after huge Republican losses in elections that gave Democrats control of Congress",
+        "why": "It ends on the administration's political weakness, which adds a mildly unfavorable frame."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "4be2859982b4",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
     "title": "DeSantis blasts Washington Post over report he's preparing 2028 presidential bid",
     "link": "https://www.foxnews.com/politics/desantis-blasts-washington-post-report-preparing-2028-presidential-bid",
     "summary": "Florida Gov. Ron DeSantis accused The Washington Post of fabricating claims he reached out to political consultants about a potential 2028 presidential bid.",
@@ -300,8 +408,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "aa0adcdff709",
-    "coverage": 1
+    "cluster": "4be2859982b4",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -336,7 +444,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "405870f7c58e",
+    "cluster": "3a07120cba68",
     "coverage": 1
   },
   {
@@ -495,8 +603,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b2b49919e5bc",
-    "coverage": 6
+    "cluster": "c862473676ae",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -629,8 +737,49 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "b2b49919e5bc",
-    "coverage": 6
+    "cluster": "3200aabf57d2",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Stephen Miller’s appointment shows Trump hasn’t learned his lesson on immigration",
+    "link": "https://www.theguardian.com/us-news/2026/nov/06/donald-trump-stephen-miller-immigration",
+    "summary": "US voters repudiated mass deportation campaign, but choice of new chief of staff is an ominous signal that Trump is driving ahead at full speed On Tuesday, US midterm voters resoundingly rebuked Donald Trump and his brutal mass deportation campaign that sent military tanks and masked agents though residential streets.",
+    "published": "2026-11-07T01:04:52+00:00",
+    "id": "db95f46d2dcb",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -75,
+    "spin": 70,
+    "leanWhy": "The piece is framed as news but uses heavily loaded language (\"brutal\", \"cruelest impulses\", \"hordes of masked agents\", \"zealous, anti-immigrant crusader\") and treats the midterms as a clear mandate against deportation. The only quoted source is an immigrant-advocacy nonprofit head, and no administration or supporter view appears in the excerpt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "his brutal mass deportation campaign that sent military tanks and masked agents though residential streets",
+        "why": "Emotive, one-sided description stated in the news voice as fact."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "sending hordes of masked agents in military gear",
+        "why": "'Hordes' and the dramatic imagery cast enforcement as an invasion of neighborhoods."
+      },
+      {
+        "type": "Source selection",
+        "quote": "signals a doubling down on the administration’s cruelest impulses",
+        "why": "The only quoted voice is an immigration-advocacy nonprofit leader, with no administration or supporter response."
+      },
+      {
+        "type": "Framing",
+        "quote": "US voters repudiated mass deportation campaign",
+        "why": "Presents the midterm result as a specific referendum on deportation, a causal claim stated as fact."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "3200aabf57d2",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -865,6 +1014,37 @@
     "coverage": 5
   },
   {
+    "outlet": "NBC News",
+    "title": "Venezuelan man who said voices told him to kill Trump is arrested near White House",
+    "link": "https://www.nbcnews.com/news/us-news/venezuelan-man-said-voices-told-kill-trump-arrested-white-house-dhs-sa-rcna607943",
+    "summary": "A Venezuelan man who had guns in his vehicle and told officers that voices in his head urged him to kill President Donald Trump was arrested Thursday near the White House, the federal government said.",
+    "published": "2026-11-07T00:30:59+00:00",
+    "id": "0d3860b4607b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "This is mostly a straight news recap that attributes claims to DHS and a court affidavit. It leans slightly on DHS as the main source, including the immigration-status framing, and it gives little independent context. It also notes that the defense side is unclear.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Chrinos, who federal officials said was in the country illegally",
+        "why": "Immigration status comes from DHS, a government source with its own messaging interests, and the excerpt offers no independent verification."
+      },
+      {
+        "type": "Framing",
+        "quote": "DHS said Chrinos entered the U.S. illegally in 2024, was arrested by Border Patrol and later released.",
+        "why": "This emphasizes the immigration-enforcement angle, which fits a right-coded frame, though the excerpt notes DHS gave no further details."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "1e8e1ea5981b",
+    "coverage": 5
+  },
+  {
     "outlet": "The Guardian",
     "title": "Democrats blast Trump’s decision to appoint Stephen Miller as chief of staff in wake of Republican midterm rout – live",
     "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
@@ -1078,7 +1258,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "0ba44366f9cc",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1240,7 +1420,79 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "405870f7c58e",
+    "cluster": "9c793fade58d",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Cornell's Faculty Senate votes \"no confidence\" in administration",
+    "link": "https://www.cbsnews.com/news/cornell-faculty-senates-no-confidence-vote-results/",
+    "summary": "Cornell University's Faculty Senate approved a resolution expressing no confidence in the university's administration, including Cornell President Michael Kotlikoff and other administrators.",
+    "published": "2026-11-06T23:23:00+00:00",
+    "id": "8bae1c03bea4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly a straight recap of the vote. It includes the symbolic nature of the vote, the board's support for the president, and the accused men's denials. The quotes lean toward the faculty sponsors and the plaintiff's attorney, and that gives a slight tilt toward the campus-critic framing on sexual assault and institutional accountability.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "It's a major rebuke of the university's leadership.",
+        "why": "The outlet's own voice characterizes the vote as a major rebuke, which emphasizes the criticism."
+      },
+      {
+        "type": "Source selection",
+        "quote": "the Jane Doe case was the tip of an iceberg",
+        "why": "Most of the quoted material comes from sponsors and the plaintiff's attorney, with no voice from the accused or the administration beyond the trustees' chair."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "0ba44366f9cc",
+    "coverage": 3
+  },
+  {
+    "outlet": "CBS News",
+    "title": "DOJ official resigns amid questions about \"grand conspiracy\" probe",
+    "link": "https://www.cbsnews.com/news/doj-jason-reding-quinones-resigns-grand-conspiracy-probe/",
+    "summary": "Jason Reding Quiñones, U.S. attorney for the Southern District of Florida, abruptly resigned, marking another high-profile departure from a DOJ inquiry plagued by internal disputes.",
+    "published": "2026-11-06T23:19:54+00:00",
+    "id": "df3c1819b710",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 20,
+    "leanWhy": "The piece is mostly straight reporting with attribution and Blanche's denials included, but it stresses a narrative of dysfunction (\"plagued by internal disputes and doubts about its viability\", \"latest blow\"). Sourcing leans on prior CBS reporting about problems with the probe, and the administration's side gets only brief quotes.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "a Justice Department inquiry plagued by internal disputes and doubts about its viability",
+        "why": "The framing in the lead presents the probe as troubled, which is an evaluative characterization."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "His exit is the latest blow to the investigation",
+        "why": "This stacks departures into a narrative of decline and goes beyond the single resignation."
+      },
+      {
+        "type": "Source selection",
+        "quote": "she expressed concerns about the strength of the evidence, CBS News previously reported",
+        "why": "The piece emphasizes internal doubts from the outlet's earlier reporting, while the defense comes only from Blanche's brief denial."
+      },
+      {
+        "type": "Framing",
+        "quote": "known for his efforts to try to overturn the results of the 2020 election",
+        "why": "The background descriptor on Olsen is unflattering and not needed to explain his resignation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "df3c1819b710",
     "coverage": 1
   },
   {
@@ -1317,7 +1569,7 @@
     "confidence": "low",
     "storyChoice": "right",
     "cluster": "b24e977572e3",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -1588,6 +1840,25 @@
     "coverage": 6
   },
   {
+    "outlet": "CBS News",
+    "title": "11/6: The Takeout with Major Garrett",
+    "link": "https://www.cbsnews.com/video/110626-the-takeout-with-major-garrett/",
+    "summary": "Stephen Miller to replace Susie Wiles as Trump's chief of staff after midterm losses; the push to delay leadership elections.",
+    "published": "2026-11-06T22:00:00+00:00",
+    "id": "efa56eda5700",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "efa56eda5700",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "The economy propelled Democrats to victory. What can they actually do about it?",
     "link": "https://www.npr.org/2026/11/06/nx-s1-6026662/the-economy-propelled-democrats-to-victory-what-can-they-actually-do-about-it",
@@ -1673,7 +1944,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "0ba44366f9cc",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -1734,8 +2005,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "b2b49919e5bc",
-    "coverage": 6
+    "cluster": "1d199db0d047",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -1838,7 +2109,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "0ba44366f9cc",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -2304,6 +2575,73 @@
     "coverage": 1
   },
   {
+    "outlet": "NBC News",
+    "title": "Florida candidate sues election official, alleging bias in a razor-thin race",
+    "link": "https://www.nbcnews.com/politics/2026-election/south-florida-miami-rodriguez-sues-supervisor-elections-garcia-salazar-rcna607841",
+    "summary": "MIAMI — South Florida Democratic congressional candidate Eliott Rodriguez filed a federal lawsuit against the Miami-Dade supervisor of elections Friday, citing bias after she declined to recuse herself from the recount process.",
+    "published": "2026-11-06T21:10:43+00:00",
+    "id": "bf1844da4823",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual account of a lawsuit and includes García's own response, but it dwells on her election-night quotes and the family tie. It quotes a Democratic party lawyer twice with no Republican or independent counterpoint, which gives the complainant's framing a slight edge.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“This goes beyond any ethical standards. The canvassing board is a quasi-judicial body so she sits as a quasi-judicial official,”",
+        "why": "The only outside voice is a Democratic committee lawyer who ran against García, and no neutral or opposing expert is quoted."
+      },
+      {
+        "type": "Framing",
+        "quote": "In other words, if Salazar is ahead, it will likely remain that way.",
+        "why": "The reporter's gloss on García's remarks stresses the appearance of a predetermined outcome."
+      },
+      {
+        "type": "Framing",
+        "quote": "García, a Republican who served one term in the Florida state House",
+        "why": "Stressing her party at the end of the excerpt adds a partisan angle to the conflict-of-interest story."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "716fbff499f6",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Data centers are unpopular — and a key motor of economic growth",
+    "link": "https://www.cbsnews.com/news/data-centers-ai-investment-stocks-economy/",
+    "summary": "The political backlash against data centers is intensifying, threatening to choke off a critical source of U.S. investment, according to economists.",
+    "published": "2026-11-06T21:09:04+00:00",
+    "id": "3835e2a663c9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is mostly economist-sourced reporting on how political opposition to data centers could slow investment and growth. It has a mild growth-and-investment frame, and an aside that slowing the buildout \"might well serve the public interest\" leans slightly the other way, so the two roughly offset.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Although slowing that buildout might well serve the public interest, given the widespread opposition to data centers",
+        "why": "The reporter inserts an evaluative aside that is not attributed to a source."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Economists and investors now expect the Democrats' sweeping midterm election wins to both slow and increase the cost of data center development",
+        "why": "The story is framed around Democratic wins as the economic risk, and the sourcing is Wall Street and economist voices with no community or opposition voices."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "3835e2a663c9",
+    "coverage": 1
+  },
+  {
     "outlet": "Daily Caller",
     "title": "EXCLUSIVE: WH Official Accuses ‘Establishment Ghouls’ Of Scapegoating Vance’s Peace Deal",
     "link": "https://dailycaller.com/2026/11/06/trump-vance-iran-war-midterms-peace-deal",
@@ -2341,8 +2679,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b24e977572e3",
-    "coverage": 2
+    "cluster": "5bf4a01e8060",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2361,7 +2699,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b2b49919e5bc",
+    "cluster": "1b4cd7ac0bf5",
     "coverage": 6
   },
   {
@@ -2387,8 +2725,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "0ba44366f9cc",
-    "coverage": 4
+    "cluster": "ab764c60a2b7",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2407,8 +2745,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "0ba44366f9cc",
-    "coverage": 4
+    "cluster": "ab764c60a2b7",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2778,7 +3116,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 4
+    "coverage": 6
   },
   {
     "outlet": "Daily Caller",
@@ -2859,7 +3197,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 4
+    "coverage": 6
   },
   {
     "outlet": "Axios",
@@ -2925,6 +3263,37 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "7b045b1df348",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Incoming Democratic senators don’t want Chuck Schumer as majority leader",
+    "link": "https://www.theguardian.com/us-news/2026/nov/06/chuck-schumer-majority-leader-incoming-democratic-senators",
+    "summary": "New lawmakers from Annie Andrews and Adam Hamilton to Abdul El-Sayed indicate they will not support him Incoming Democratic senators want someone other than Chuck Schumer to become the next majority leader in the US Senate, although Schumer likely still has enough votes in his caucus to remain the top Democrat.",
+    "published": "2026-11-06T19:37:25+00:00",
+    "id": "dbbd329d5a1c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is a mostly factual recap of incoming Democratic senators declining to back Schumer. It includes Schumer's response and notes he likely has the votes, which balances the headline's framing. The lean is a slight tilt toward the narrative of Democratic discord, and the generalization about voters is not sourced.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Democratic voters have indicated they want newer and younger leadership in the party.",
+        "why": "This is a broad claim about voter sentiment stated as fact with no source."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Incoming Democratic senators don’t want Chuck Schumer as majority leader",
+        "why": "The headline generalizes, although the text says some members only declined to commit and Schumer likely has the votes."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "dbbd329d5a1c",
     "coverage": 1
   },
   {
@@ -3046,6 +3415,32 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Exit polls show data centers weren't winners in 2026 elections",
+    "link": "https://www.cbsnews.com/news/exit-polls-data-centers-2026-election/",
+    "summary": "Big majorities of 2026 election voters opposed the building of data centers in their community.",
+    "published": "2026-11-06T19:17:00+00:00",
+    "id": "1ce2298f413b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a mostly factual recap of exit poll results. It notes that opposition to data centers helped Democrats but also that most Republicans opposed them, and it includes the finding that more voters see a local tax benefit.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "This opposition benefited Democratic candidates",
+        "why": "This is a causal claim about the electoral effect, and the poll data shown doesn't establish it."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "1ce2298f413b",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
     "link": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff",
@@ -3069,7 +3464,48 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 4
+    "coverage": 6
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump names Stephen Miller his new chief of staff, replacing Susie Wiles",
+    "link": "https://www.nbcnews.com/politics/donald-trump/trump-stephen-miller-susie-wiles-white-house-chief-of-staff-rcna607892",
+    "summary": "President Donald Trump has turned to MAGA favorite Stephen Miller to lead the White House after Republicans got trounced in Tuesday’s midterm elections, losing both chambers of Congress by wide margins.",
+    "published": "2026-11-06T19:00:20+00:00",
+    "id": "76ce5acdd806",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight news with quotes from both Bannon and Democratic leaders. Word choice such as \"trounced\" and \"hard-charging architect of the president's mass-deportation campaign\" and the harsh Democratic quotes at length give a mild tilt against Trump and Miller.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Republicans got trounced in Tuesday’s midterm elections",
+        "why": "\"Trounced\" is a vivid, somewhat mocking word for the electoral loss in the lead."
+      },
+      {
+        "type": "Framing",
+        "quote": "the hard-charging architect of the president’s mass-deportation campaign",
+        "why": "Defines Miller by his most polarizing policy role, in language that can read as critical."
+      },
+      {
+        "type": "Source selection",
+        "quote": "His presence in government should be eradicated like a malignant tumor.",
+        "why": "Quotes Jeffries's extreme language in full and gives the Democratic leaders the last word, with no Republican response beyond allies praising Miller's combativeness."
+      },
+      {
+        "type": "Framing",
+        "quote": "he’ll leave bodies behind doing it",
+        "why": "Highlighting this ally quote stresses a ruthless image of Miller."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "1b4cd7ac0bf5",
+    "coverage": 6
   },
   {
     "outlet": "Axios",
@@ -3552,6 +3988,37 @@
     "coverage": 1
   },
   {
+    "outlet": "NBC News",
+    "title": "ChatGPT ‘manipulated and encouraged’ a woman to poison her husband, suit alleges",
+    "link": "https://www.nbcnews.com/news/us-news/chatgpt-encouraged-wife-plot-poison-husband-lawsuit-rcna607834",
+    "summary": "A North Carolina man sued OpenAI, alleging that ChatGPT gave his estranged wife detailed instructions on how to poison him.",
+    "published": "2026-11-06T18:09:28+00:00",
+    "id": "5b5124d764e2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is a largely factual report of a civil suit, with consistent attribution (\"the suit alleges\") and OpenAI's response and the dropped criminal charges included. The main frame is anti-Big Tech and platform responsibility, which appeals across the spectrum, with a slight tilt from the amount of space given to the plaintiff's detailed allegations.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "ChatGPT ‘manipulated and encouraged’ a woman to poison her husband, suit alleges",
+        "why": "The headline puts the plaintiff's most striking claim up front, though it is attributed to the suit."
+      },
+      {
+        "type": "Source selection",
+        "quote": "ChatGPT responded with specific instructions on preparation, dosage and administration",
+        "why": "Much of the excerpt dwells on the plaintiff's account, while the company's response is brief and generic."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "efbb1f795aa5",
+    "coverage": 1
+  },
+  {
     "outlet": "Fox",
     "title": "Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles",
     "link": "https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles",
@@ -3580,7 +4047,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 4
+    "coverage": 6
   },
   {
     "outlet": "Washington Examiner",
@@ -4922,6 +5389,37 @@
     "coverage": 1
   },
   {
+    "outlet": "The Guardian",
+    "title": "US job growth exceeds expectations in October despite economic uncertainty",
+    "link": "https://www.theguardian.com/business/2026/nov/06/us-job-growth-october",
+    "summary": "‘Low-hire, low-fire’ labor market shows sluggish growth but few layoffs, with an interest rate hike expected in December The US added 165,000 jobs to the economy in October, a sign of resilience in the labor market amid ongoing war in the Middle East and inflation, according to new data released on Friday.",
+    "published": "2026-11-06T13:42:26+00:00",
+    "id": "080853a3a593",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly a data-driven economic report. It gives both the good news (jobs beat expectations, layoffs are low) and the bad (inflation outpacing wages, high gas prices). The midterm framing and the quoted economist's \"clear verdict\" line add a slight tilt against the incumbent administration's economic record, though the piece doesn't assign blame.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“Americans delivered a clear verdict in the midterm elections that the current economy is squeezing people financially and making it hard to get by, let alone get ahead,”",
+        "why": "The only quoted voice stresses economic frustration, which gives a gloomy political frame to a positive jobs report."
+      },
+      {
+        "type": "Framing",
+        "quote": "But it’s unclear when Americans will get relief.",
+        "why": "It turns a better-than-expected report into a story about continuing hardship."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "080853a3a593",
+    "coverage": 1
+  },
+  {
     "outlet": "Fox",
     "title": "Progressive group's 182-page blueprint maps out potential Dem investigations into Trump, corporate allies",
     "link": "https://www.foxnews.com/politics/progressive-groups-182-page-blueprint-maps-potential-dem-investigations-trump-corporate-allies",
@@ -5050,8 +5548,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "61d0457c702a",
-    "coverage": 3
+    "cluster": "8ffaae668686",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -5554,8 +6052,8 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "71c465b45bfb",
-    "coverage": 2
+    "cluster": "31cc9d77e912",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -5773,6 +6271,47 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "2028 GOP battle lines emerge as Vance, Cruz, DeSantis clash over midterm losses and more top headlines",
+    "link": "https://www.foxnews.com/us/gop-battle-lines-emerge-vance-cruz-desantis-clash-over-midterm-losses-more-top-headlines",
+    "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+    "published": "2026-11-06T11:37:51+00:00",
+    "id": "251881ae9929",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 40,
+    "leanWhy": "This is a newsletter roundup of headlines. Its framing leans right: it uses loaded labels for Democrats and the left, such as \"LEFT-WING AGENDA\" and \"Democratic socialists\", and it stresses crime and sanctuary-city stories. Trump's blame of Democrats is reported without any counterpoint, and the newsletter promotes its own network's ratings.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "LEFT-WING AGENDA — 'Squad' member urges Democrats to leverage power to push Medicare for All, reparations.",
+        "why": "Labels the policy proposals a 'left-wing agenda' and pairs them in a way that casts Democrats as extreme."
+      },
+      {
+        "type": "Framing",
+        "quote": "DANGER ZONE — Seattle's sanctuary shield could put convicted Venezuelan sex offender back on streets.",
+        "why": "Presents sanctuary policy through a worst-case crime scenario with dramatic wording."
+      },
+      {
+        "type": "Framing",
+        "quote": "STREET SHOWDOWN — ICE chief rips NYC sanctuary laws after agents tackle criminal migrants on streets.",
+        "why": "Gives the ICE chief's framing of 'criminal migrants' and dramatizes the confrontation, with no other view."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Trump points finger at Democrats after brutal day for Wall Street stocks.",
+        "why": "Gives Trump's blame of Democrats as the market story without any counterpoint."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "251881ae9929",
+    "coverage": 1
+  },
+  {
     "outlet": "BBC",
     "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
     "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
@@ -5802,6 +6341,47 @@
     "storyChoice": "neither",
     "cluster": "233c6111fc05",
     "coverage": 2
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "There is a showdown looming in the Democratic party over support for Israel | Moustafa Bayoumi",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/06/us-midterms-democratic-party-israel-support",
+    "summary": "Even Donald Trump has acknowledged that support for Israel is increasingly a political liability in US politics. Will the Democratic leadership listen? Abdul El-Sayed’s victorious path to the US Senate must become a wake-up call to the Democratic party .",
+    "published": "2026-11-06T11:00:51+00:00",
+    "id": "72adfed8d29f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -80,
+    "spin": 72,
+    "leanWhy": "This is a columnist's argument that the Democratic party must shift away from pro-Israel positions, written from the progressive, pro-Palestinian side. It uses loaded language such as \"vilest\" and \"all too aware of the toxic associations\", and it shows no pro-Israel perspective beyond the attacks it criticizes.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the vilest Islamophobic and racist attacks, some of the worst that that we’ve seen in years",
+        "why": "Sweeping, emotive characterization of the opposition's attacks, presented as fact."
+      },
+      {
+        "type": "Framing",
+        "quote": "must become a wake-up call to the Democratic party",
+        "why": "Thesis framing presents one faction's preferred direction as an obligation for the party."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "But the group is not dropping out of politics. It’s rebranding.",
+        "why": "Implies Aipac's move is deceptive without presenting its side."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The pro-Israel positions of the old guard are diametrically opposed to the values of",
+        "why": "Presents pro-Israel Democrats as opposed to the party's values, with no pro-Israel voices quoted."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "72adfed8d29f",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -5878,6 +6458,25 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "a5a0afba03f0",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "DUKE: Trump Built A Coalition. Republicans Mistook It For A Loyal Base",
+    "link": "https://dailycaller.com/2026/11/06/duke-2026-midterms-trump-2024-coalition-republican-party-defectors",
+    "summary": "The voters are not ‘theirs’",
+    "published": "2026-11-06T11:00:00+00:00",
+    "id": "528fce8fdee5",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": true,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "528fce8fdee5",
     "coverage": 1
   },
   {
@@ -6079,6 +6678,124 @@
     "confidence": "low",
     "storyChoice": "right",
     "cluster": "9f194bacbeed",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Inside ICE's high-stakes raids targeting illegal migrants in NYC as chief rips sanctuary laws",
+    "link": "https://www.foxnews.com/politics/inside-ice-high-stakes-raids-targeting-illegal-migrants-nyc-chief-rips-sanctuary-laws",
+    "summary": "Fox News Digital embedded with ICE agents as they tracked down and arrested two migrants, one of whom resisted in a tense street confrontation in Brooklyn.",
+    "published": "2026-11-06T10:00:56+00:00",
+    "id": "db382fb39e53",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 50,
+    "spin": 45,
+    "leanWhy": "The piece is an embedded ride-along with an ICE official, so the enforcement view dominates. His claims that sanctuary policies endanger the public and ignore victims go unchallenged, and the city's side appears only as \"opposition to ICE\". The framing of danger, \"high-stakes\" drama and crime records adopts a border-security and rule-of-law frame.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "riding along with the agency's top local enforcement official as he blasted city and state leaders over policies he says put officers and the public at risk",
+        "why": "The main source is the ICE official, and no city or immigrant-advocate voice is shown in the excerpt to answer his claims."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "keeping dangerous offenders on the streets",
+        "why": "It repeats the official's charge about sanctuary policies in the narrator's own summary, with little distancing."
+      },
+      {
+        "type": "Framing",
+        "quote": "The stark warnings offered a glimpse into the dangers agents face",
+        "why": "The narration stresses danger to agents and a dramatic tone, which builds sympathy for enforcement."
+      },
+      {
+        "type": "Source selection",
+        "quote": "had already racked up a lengthy rap sheet for theft, robbery, assault, drug and weapons offenses, according to DHS",
+        "why": "The criminal history of a shooting subject comes from the agency alone and is used to justify the enforcement context."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "db382fb39e53",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Clash in the castle: Medieval Times dinner theater insiders allege animal cruelty, sexual harassment",
+    "link": "https://www.foxnews.com/us/clash-castle-medieval-times-dinner-theater-insiders-allege-animal-cruelty-sexual-harassment",
+    "summary": "A former Medieval Times Dinner & Tournament queen alleges sexual harassment, cyberbullying and doxxing in a lawsuit targeting workplace culture.",
+    "published": "2026-11-06T10:00:47+00:00",
+    "id": "9664d0bd88a3",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece relays workplace-harassment, discrimination and union-related allegations almost entirely from the plaintiffs' lawsuits, with the company's response limited to a dismissive lawyer letter in this excerpt. Left-coded worker-protection and women's-equality frames dominate, though the allegations are consistently attributed to the lawsuits.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "the company’s own castle is under siege",
+        "why": "Dramatic castle metaphor frames the company as besieged by misconduct before any allegation is proven."
+      },
+      {
+        "type": "Source selection",
+        "quote": "an attorney for Medieval Times issued a written letter dismissing the cyberbullying and stalking as \"weird allegations.\"",
+        "why": "The company's only voice in the excerpt is a dismissive quote, which makes it look callous; its fuller response is cut off."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "shrouds a culture of animal cruelty, sexual harassment, discrimination, bullying and retaliation",
+        "why": "Stacks several grave allegations in the lead as a description of company culture."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "9664d0bd88a3",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "One industry faces multitrillion-dollar reckoning after historic midterm election reshuffle",
+    "link": "https://www.foxnews.com/politics/one-industry-faces-multi-trillion-dollar-reckoning-after-historic-midterm-election-reshuffle",
+    "summary": "Donald Trump backed AI data centers, but Texas Democrats' historic midterm sweep now threatens billions in planned projects across the state.",
+    "published": "2026-11-06T10:00:06+00:00",
+    "id": "c70a30f47c35",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 40,
+    "leanWhy": "The piece frames Democratic wins and a proposed data center moratorium as a looming \"reckoning\" for industry, relying almost entirely on one industry CEO who warns of capital flight and opposes bans. Voter concerns about electricity costs get only a brief mention, and no Democratic or community voice is quoted.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the Republican bloodbath in Tuesday's election",
+        "why": "Dramatic wording about Republican losses, relayed from the source, adds a sensational tone to the electoral story."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Brittany Kaiser, CEO of Alpha Compute, told Fox News Digital",
+        "why": "The one sourced voice is an industry executive with a financial stake who argues against moratoriums, and no Hinojosa campaign or community voice is quoted."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "One industry faces multitrillion-dollar reckoning",
+        "why": "The headline's multitrillion-dollar claim is far larger than the excerpt's evidence, which cites 13.3 gigawatts of projects potentially at risk and billions of dollars."
+      },
+      {
+        "type": "Framing",
+        "quote": "the biggest economic opportunity of our generation",
+        "why": "The industry's growth framing is repeated, and the source gets the last word, without counterweight on costs or community impact."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "c70a30f47c35",
     "coverage": 1
   },
   {
@@ -7036,6 +7753,26 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "Police identify agent killed after suspect opens fire near Colorado bus, wounds other 3 officers",
+    "link": "https://www.foxnews.com/us/colorado-police-officer-killed-3-others-wounded-suspect-opens-fire-near-bus",
+    "summary": "A suspect trying to board an RTD bus near Denver opened fire on Lakewood police officers, killing one and wounding three others Thursday evening.",
+    "published": "2026-11-06T04:36:49+00:00",
+    "id": "9333aae8ab45",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "The piece is a straight recap of a police shooting, built on official statements from police and the governor. It leans slightly toward a police-sympathetic, victim-first frame through its tribute details, but it adds no editorializing.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "fd452b35c9ff",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Trump tells voters ‘you only have yourselves to blame’ for post-midterm market ‘crash’",
     "link": "https://www.washingtonexaminer.com/policy/finance-and-economy/4795045/trump-voters-blame-midterms-stock-market-crash/",
@@ -7305,8 +8042,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "71c465b45bfb",
-    "coverage": 2
+    "cluster": "d18e1f3d4b83",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -8260,8 +8997,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "61d0457c702a",
-    "coverage": 3
+    "cluster": "8ffaae668686",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -8826,714 +9563,6 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "85770e8fdb4f",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Newsom commutes executions for all 548 California inmates on death row",
-    "link": "https://www.washingtonexaminer.com/news/justice/4794576/newsom-commutes-executions-california-all-inmates-death-row-becerra-says-will-extend-moratorium/",
-    "summary": "Gov. Gavin Newsom (D-CA) is commuting the death sentences for all 548 inmates on death row in California, he announced Thursday. Newsom’s clemency act comes in the final months of his position as governor, before Gov.-elect Xavier Becerra (D-CA) takes over the helm of the state.",
-    "published": "2026-11-05T22:31:56+00:00",
-    "id": "d588c8a72293",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a short, straight report of the announcement. It states the facts and attributes the \"largest death row in the Western Hemisphere\" line to Newsom. It includes no reaction from victims' families, prosecutors or critics, and it gives no explanation of the decision, so the piece has a slight tilt toward the governor's own framing.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "The outgoing governor said the list of 548 people on death row comprises “the largest death row in the Western Hemisphere.”",
-        "why": "The only quoted voice is Newsom's, so his framing of the issue goes unanswered in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "61d0457c702a",
-    "coverage": 3
-  },
-  {
-    "outlet": "NPR",
-    "title": "How Democrats plan to investigate the Trump administration after their midterm wins",
-    "link": "https://www.npr.org/2026/11/05/nx-s1-6029639/how-democrats-plan-to-investigate-the-trump-administration-after-their-midterm-wins",
-    "summary": "With their new majorities, Democrats will have at their disposal the full investigatory powers of the Congress, which include the ability to subpoena records and compel individuals to testify.",
-    "published": "2026-11-05T22:28:50+00:00",
-    "id": "b4e6e397bc31",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "Only the headline and a short feed summary were available. Both describe congressional oversight powers in neutral, explanatory terms, though the framing centers on Democrats' plans and not on Republican objections.",
-    "signals": [],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "b4e6e397bc31",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Midterms and 2028: Join America's conversation here!",
-    "link": "https://www.foxnews.com/politics/live-chat-2026-midterm-election-results",
-    "summary": "Give us your thoughts on the midterms and the 2028 race! Chat here with Fox News Digital readers.",
-    "published": "2026-11-05T22:21:41+00:00",
-    "id": "fd116acb9f39",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "fd116acb9f39",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Sizing up the blue wave: From the Politics Desk",
-    "link": "https://www.nbcnews.com/politics/politics-news/sizing-blue-wave-politics-desk-rcna607737",
-    "summary": "Democrats are on track for the second-biggest House popular vote edge in the last 50 years. This will also be the largest midterm margin for one party since 1974.",
-    "published": "2026-11-05T22:00:42+00:00",
-    "id": "b50a10c2cc23",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a data-driven recap of election results with historical comparisons. It tilts slightly left through the \"blue wave\" headline, words like \"massive\" and \"sweeping,\" and the framing of 1974 as the country having \"punished\" Republicans. It also dwells on Democratic gains and kingmaker prospects, and it has no Republican voices in the excerpt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "when the country punished the Republican Party",
-        "why": "Describing a past election as punishment is evaluative, and it invites a parallel to the current result."
-      },
-      {
-        "type": "Framing",
-        "quote": "sweeping victories for Democrats in races across the country",
-        "why": "Celebratory, expansive wording stresses Democratic success."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Those leaders’ endorsements could be major prizes for candidates",
-        "why": "The excerpt focuses on Democratic power-brokers and has no Republican perspective or explanation for the losses."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "b50a10c2cc23",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Stocks crater as midterms spur investor exodus from tech and AI",
-    "link": "https://www.cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers/",
-    "summary": "Tech-heavy Nasdaq is now in a \"correction\" as Wall Street weighs the impact of the Democrats' wins on the critical AI sector.",
-    "published": "2026-11-05T21:46:45+00:00",
-    "id": "0b013eecafeb",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 15,
-    "spin": 30,
-    "leanWhy": "The piece is mostly market reporting attributed to analysts, but the headline and framing tie the sell-off causally to the Democratic midterm wins (\"midterms spur investor exodus\"). Dramatic wording and sourcing that only quotes market analysts about Democratic regulation put a mild negative frame on Democratic control, with no counterview.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Stocks crater as midterms spur investor exodus from tech and AI",
-        "why": "Dramatic wording asserts a single cause for the drop, midterm results, as fact."
-      },
-      {
-        "type": "Framing",
-        "quote": "The rout was violent enough that it could delay the highly anticipated initial public offering",
-        "why": "Intense market-crisis language heightens the sense of damage tied to the election outcome."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The trigger for these moves appears to be the concern that the Democrats, both in Congress and at the state level, will seek to regulate the AI industry",
-        "why": "Only market analysts are quoted, all attributing the fall to Democratic regulation, with no alternative explanations such as the bubble concern given equal weight."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "0b013eecafeb",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "DOJ Launches Criminal Investigation Into Leak Of Supreme Court’s Roe Reversal",
-    "link": "https://dailycaller.com/2026/11/05/doj-launches-criminal-investigation-leak-supreme-court-roe-v-wade-reversal-dobs-jeanine-pirro",
-    "summary": "Ramped up over the last few weeks",
-    "published": "2026-11-05T21:44:29+00:00",
-    "id": "23cdc22d13dc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a straightforward recap of a New York Times report, with attributions and quotes from Kagan and Alito. Mild right-leaning tilt comes from the pro-life framing (\"protect the life of the child\"), an unrelated link mocking Democrats (\"Midterm Catastrophe\"), and ending on Alito's hunch.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "which could then petition in their states to protect the life of the child",
-        "why": "It adopts the pro-life movement's own wording, while the opposing view is given in a more abstract way."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Top DOJ Civil Rights Enforcer Resigns After Midterm Catastrophe",
-        "why": "The embedded related-link headline uses partisan, loaded wording unrelated to the story."
-      },
-      {
-        "type": "Framing",
-        "quote": "allowing states to determine their own abortion legislation rather than relying on the standard established by the Court",
-        "why": "It presents the ruling in neutral-to-favorable terms of state choice."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "23cdc22d13dc",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Major tech and AI stocks plummet as Nasdaq loses $2.5tn in value",
-    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
-    "published": "2026-11-05T21:43:39+00:00",
-    "id": "77b16b42b853",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "This is mostly a market recap that attributes the sell-off to fears of tougher regulation after Democratic wins, and it quotes an investment strategist. A few loaded phrases (\"Democratic tsunami\", \"market rout\", \"wiped\") and the detail about Musk's failed spending add a slight tilt, but they don't clearly favor either side.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Texas was turned blue in the Democratic tsunami on Tuesday night",
-        "why": "\"Tsunami\" is dramatic and celebratory-sounding wording for an election result in a news piece."
-      },
-      {
-        "type": "Framing",
-        "quote": "Musk had spent nearly $450m backing Republican campaigns",
-        "why": "Pairing Musk's political spending with his stock losses stresses a embarrassing contrast for Republican-backing tech donors."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI",
-        "why": "\"Onslaught\" is a loaded word, though it is ambiguous about whose view it reflects."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "77b16b42b853",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Hegseth posts defiant video message as impeachment and speculation about his future loom",
-    "link": "https://www.washingtonexaminer.com/policy/defense/4794583/hegseth-defiant-election-message-impeachment-looming-fight/",
-    "summary": "Secretary of War Pete Hegseth had a defiant message for Democrats seeking to impose additional oversight on the Pentagon following this week’s midterm elections, as speculation about his future has gone into overdrive.",
-    "published": "2026-11-05T21:39:42+00:00",
-    "id": "89bc9a5d3a21",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The excerpt is short and mostly reports Hegseth's own words and the context of Democratic oversight plans, with little editorializing. Words such as \"defiant\" and \"speculation... gone into overdrive\" add a slight dramatic tilt that leans toward a framing of Hegseth under siege, but this is subtle.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "speculation about his future has gone into overdrive",
-        "why": "Dramatic phrasing amplifies uncertainty about his job without sourcing in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "had a defiant message for Democrats seeking to impose additional oversight",
-        "why": "Frames the story as a confrontation and describes oversight as something Democrats 'impose'."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "89bc9a5d3a21",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Why did Republicans lose the midterms?",
-    "link": "https://www.cbsnews.com/news/republican-losses-roil-gop-midterms-vance-cruz-desantis/",
-    "summary": "Widespread Republican losses in the midterm elections are roiling the GOP, prompting soul-searching over what went wrong, and a brewing blame-game that's expected to heat up as the party looks toward the next election.",
-    "published": "2026-11-05T21:37:00+00:00",
-    "id": "63f67b9ea408",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting built on quotes from Republicans, including Vance, Trump, Cruz and Pence. Those quotes span different critiques (war cost, tariffs, an unfinished war), so no side's framing dominates. Some intensifiers like \"striking losses\" and \"far beyond what was expected\" give a slight tilt toward emphasizing the GOP's difficulties.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Republicans saw striking losses, both in battlegrounds and in places where the party saw significant support just two years ago",
-        "why": "Emphasizes the breadth of the GOP's defeat in somewhat dramatic terms."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The reason we lost is the war",
-        "why": "Sourcing is drawn almost entirely from Republicans, so the story reflects the GOP's own diagnosis; Democratic explanations do not appear in this excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "63f67b9ea408",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Raman ousts Bass in LA mayor race for historic socialist win",
-    "link": "https://www.axios.com/2026/11/05/nithya-raman-la-mayor-upset-democratic-socialist",
-    "summary": "Democratic socialist Nithya Raman toppled embattled Los Angeles Mayor Karen Bass in a stunning upset, putting South Asian immigrants on course to lead America's two largest cities.",
-    "published": "2026-11-05T21:36:01+00:00",
-    "id": "f09d76070472",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 15,
-    "leanWhy": "Only a headline and feed summary were available. The wording \"historic\" and \"stunning upset\" gives the result a celebratory tone, while \"embattled\" frames the incumbent as weak, which is a mild tilt; the rest is a factual report of an election result.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "historic socialist win",
-        "why": "\"Historic\" frames the result as a milestone and carries a celebratory tone."
-      },
-      {
-        "type": "Framing",
-        "quote": "embattled Los Angeles Mayor Karen Bass",
-        "why": "\"Embattled\" casts the incumbent as already weakened."
-      },
-      {
-        "type": "Framing",
-        "quote": "putting South Asian immigrants on course to lead America's two largest cities",
-        "why": "Emphasizes a milestone narrative about identity and immigrants."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "f09d76070472",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Gavin Newsom Enacts Largest Death Row Mass Commutation In US History",
-    "link": "https://dailycaller.com/2026/11/05/gavin-newsom-enacts-largest-death-row-mass-commutation-in-us-history",
-    "summary": "‘The harm they inflicted persists across generations.’",
-    "published": "2026-11-05T21:35:40+00:00",
-    "id": "28732bfcd9e2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 50,
-    "spin": 48,
-    "leanWhy": "The piece reports the commutation and quotes Newsom, but it spends most of its length on the most disturbing crimes of selected inmates, which pushes a victims-first, punishment-oriented reaction. It includes no supporters, no opponents, no legal context and no victims' families, and it adds \"Despite this\" and unrelated links to Democratic-skeptical stories.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Despite this, Aguirre’s sentence was commuted by Newsom.",
-        "why": "The closing line sets the details of a child's abuse against the commutation, which invites outrage and gives the piece an editorial last word."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Marcus Wesson, an 80-year-old man who killed nine of his own children in 2004",
-        "why": "Only the worst individual cases are profiled, so readers see the commutation through its most extreme examples and no other perspective."
-      },
-      {
-        "type": "Framing",
-        "quote": "(RELATED: Virginia Officials Grant Parole To Dozens Of Rapists, Murderers, And Repeat Violent Offenders)",
-        "why": "The related link groups lenient justice decisions under a loaded heading, which sets up a soft-on-crime theme."
-      },
-      {
-        "type": "Omission",
-        "quote": "Newsom commuted the sentences of all 548 inmates on California’s death row in the final months of his governorship.",
-        "why": "The excerpt gives no reaction from prosecutors, victims' families, abolition advocates or legal experts, so the story rests on Newsom's statement and the crime details."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "28732bfcd9e2",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Epstein files back in spotlight after midterms",
-    "link": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations",
-    "summary": "Congress returns next week facing a renewed push for transparency over the Jeffrey Epstein files, as a top House Democrat promises new investigations following the party's midterm victories.",
-    "published": "2026-11-05T21:27:58+00:00",
-    "id": "61b3adf15473",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and a short feed summary were available. The wording is mostly factual, but it gives the Democratic promise of investigations more prominence, and it presents the push as one for \"transparency\" without any Republican response.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "renewed push for transparency",
-        "why": "Describes the effort in the favorable terms its backers use, with no counter-view in the blurb."
-      },
-      {
-        "type": "Source selection",
-        "quote": "a top House Democrat promises new investigations",
-        "why": "Only the Democratic side is quoted or described in the summary."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "61b3adf15473",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Scott Colom blasts Democrats for not investing more in Mississippi",
-    "link": "https://www.nbcnews.com/meet-the-press/video/scott-colom-blasts-democrats-for-not-investing-more-in-mississippi-272950853801",
-    "summary": "Mississippi U.S. Senate candidate Scott Colom (D) says Democrats did not do enough to be competitive in the state as the Senate race remains too close to call. NBC News' Yamiche Alcindor joins Meet the Press NOW with more from her interview.",
-    "published": "2026-11-05T21:26:56+00:00",
-    "id": "631919ac41cb",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and a short feed summary are available. The word \"blasts\" is mildly sensational, but the item reports a Democratic candidate's criticism of his own party and shows no clear partisan slant.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Scott Colom blasts Democrats",
-        "why": "\"Blasts\" is a dramatic verb that heightens the conflict beyond a neutral \"criticizes\"."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "631919ac41cb",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "California governor commutes sentences for state's 548 death row inmates",
-    "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-    "summary": "California has historically had the largest population of people on death row in the US.",
-    "published": "2026-11-05T21:25:48+00:00",
-    "id": "61d0457c702a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting built around Newsom's own words, and his justification (failure of the system, risk to innocent people, morality) gets extensive space with no critic, prosecutor or victim-family voice in the excerpt. Context such as the \"botched execution\" and the cost savings leans toward the anti-death-penalty frame, though the article does note he acknowledged some Californians will be angered.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"the state cannot morally kill them\"",
-        "why": "Newsom's rationale is quoted at length while no opponents, prosecutors or victims' families are quoted in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "experts say it could save millions of dollars in court costs each year",
-        "why": "Unnamed experts are cited for a benefit that supports the commutation, with no counter-view offered."
-      },
-      {
-        "type": "Framing",
-        "quote": "the high-profile botched execution of a woman in Tennessee",
-        "why": "The context emphasizes failures of capital punishment, which aligns with the abolitionist frame."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "61d0457c702a",
-    "coverage": 3
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Mind-Merging With Machines By 2040 Was Reportedly Once The Plan Of AI Billionaire Headed For Wall Street",
-    "link": "https://dailycaller.com/2026/11/05/dario-amodei-anthropic-singularity-new-york-times",
-    "summary": "‘mortgaging our future as a country’",
-    "published": "2026-11-05T21:24:55+00:00",
-    "id": "ece67ee3c345",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 25,
-    "spin": 35,
-    "leanWhy": "The headline and framing emphasize the CEO's youthful Singularity and transhumanist views, along with his Baidu stint, his past criticism of Thiel's Trump donation, and his push for AI regulation. That portrays him as ideologically odd and fits a right-coded skepticism of Big Tech elites and regulation. Most claims are attributed to the NYT and to Amodei's own words, which limits the spin.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Mind-Merging With Machines By 2040 Was Reportedly Once The Plan Of AI Billionaire Headed For Wall Street",
-        "why": "The headline foregrounds a fringe-sounding belief and the 'billionaire' label to cast the CEO as eccentric."
-      },
-      {
-        "type": "Framing",
-        "quote": "Amodei’s worldview shape’s the company’s desire for AI regulation",
-        "why": "It ties the company's regulatory stance to his quirky ideology, implying the stance is ideological rather than policy-driven."
-      },
-      {
-        "type": "Source selection",
-        "quote": "a high school classmate claimed he was “obsessed” with building AI correctly",
-        "why": "It uses a secondhand anecdote from a classmate to build a portrait of obsession."
-      },
-      {
-        "type": "Omission",
-        "quote": "Amodei was a research scientist as Chinese tech firm Baidu’s AI lab",
-        "why": "It places the Baidu job next to his China chip criticism with no explanation, which hints at hypocrisy."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "ece67ee3c345",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
-    "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-    "summary": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the midterm election results.",
-    "published": "2026-11-05T21:23:18+00:00",
-    "id": "732875da5a1c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a factual market report attributing the sell-off to analyst expectations of Democratic AI and datacentre regulation, with market figures and an analyst quote. It includes a light tilt by attributing a broad market drop mainly to the election and by juxtaposing Trump's boastful post with the crash, but it does not editorialize.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "investors bet on AI slowdown after Democrats’ election triumph",
-        "why": "The headline attributes a sweeping market fall to a single political cause, and 'triumph' is a mildly celebratory word."
-      },
-      {
-        "type": "Framing",
-        "quote": "That rally prompted Donald Trump to once again boast about the record-breaking highs",
-        "why": "Placing the president's boast next to the crash, with 'once again boast', gives an ironic edge."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "732875da5a1c",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
-    "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-    "summary": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 19 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the midterm election results.",
-    "published": "2026-11-05T21:23:18+00:00",
-    "id": "5ec80cb59ed4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a factual market recap that attributes the AI-regulation link to analysts and one named strategist. The headline states the causal link (\"after Democrats' election triumph\") somewhat firmly, and the excerpt closes on Trump's boast, which gives a slight edge of juxtaposition without clear partisan slant.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "investors bet on AI slowdown after Democrats’ election triumph",
-        "why": "The headline presents a single political cause for a broad selloff, though the body attributes this to analyst expectations and notes general AI-spending worries."
-      },
-      {
-        "type": "Framing",
-        "quote": "That rally prompted Donald Trump to once again boast about the record-breaking highs",
-        "why": "Juxtaposing the crash with Trump's boast and the word 'boast' gives mildly mocking contrast."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "732875da5a1c",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Hear Me Out. We Really Need Mitch McConnell Right Now",
-    "link": "https://dailycaller.com/2026/11/05/john-thune-mitch-mcconnell-scotus-supreme-court-justices-judges-thomas-alito-old-age-vacancies-democrats-control",
-    "summary": "Hopes aren’t high that Republicans will put the Senate to work",
-    "published": "2026-11-05T21:19:34+00:00",
-    "id": "d6271f8b4c96",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 45,
-    "spin": 45,
-    "leanWhy": "This is an opinion piece with a thesis headline. It is written from a conservative viewpoint: it urges Republicans to use their remaining weeks to protect the Supreme Court's conservative majority, and it describes a Democratic Senate as a threat to \"remake the judiciary.\"",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "a Democratic Senate that will treat every future vacancy as an opportunity to remake the judiciary",
-        "why": "It presents Democratic judicial confirmations as a threat and assumes motives, which is a conservative-coded frame."
-      },
-      {
-        "type": "Framing",
-        "quote": "That narrow window is all that stands between the conservative majority on the Supreme Court",
-        "why": "It treats keeping the conservative court majority as the goal that matters and the lame-duck window as urgent for that goal."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "The path back to power in 2028 now looks improbable, if not impossible, for the GOP.",
-        "why": "It leans toward a pessimistic prediction that raises the urgency of acting now."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "d6271f8b4c96",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "U.S. gas prices on track to fall below $4 a gallon, experts say",
-    "link": "https://www.cbsnews.com/news/gas-prices-below-four-dollars-expert-predicts/",
-    "summary": "Fuel prices have dropped in recent weeks amid hopes that the midterm elections would increase pressure on the U.S. and Iran to reach a peace deal.",
-    "published": "2026-11-05T21:19:08+00:00",
-    "id": "beb74dbab1f8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straight market report that relies on named energy experts and gives several causes for falling prices, including seasonal shifts, tanker traffic and gas station margins. It mentions the war in Iran and the administration's price-easing measures in a factual tone, without praise or criticism.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "beb74dbab1f8",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "The wave beneath the wave",
-    "link": "https://www.washingtonexaminer.com/opinion/columnists/4794596/pennsylvania-josh-shapiro-blue-wave-2026-elections/",
-    "summary": "ERIE, Pennsylvania — In the last week of October, fall foliage in Pennsylvania’s Appalachian Mountains reached its peak, with native hardwoods and understory trees ablaze in red, orange, yellow, and purple.",
-    "published": "2026-11-05T21:12:54+00:00",
-    "id": "a8b6b1b81584",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The excerpt is a flattering campaign-trail profile of Democratic Gov. Josh Shapiro. It uses a scenic opening, frames his tour as savvy outreach, and relies only on his own stated theory of politics, with no opposing voices in the opening.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "A Democratic governor cruising to reelection had no obvious reason to travel through these rural counties, but Josh Shapiro went anyway.",
-        "why": "Presents Shapiro as a politician going above and beyond, which is admiring in tone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Shapiro told me throughout his reelection campaign, which began in earnest in January, that his theory of politics is about place",
-        "why": "The excerpt relies on Shapiro's own account of his strategy, with no critics or outside analysts."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "ablaze in red, orange, yellow, and purple",
-        "why": "The lyrical, colorful scene-setting gives the piece a warm, glowing feel around the candidate."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "a8b6b1b81584",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Democratic socialist Nithya Raman wins Los Angeles mayoral race over incumbent Karen Bass",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/los-angeles-mayor-nithya-raman-karen-bass",
-    "summary": "Major shake-up as LA councilmember, once considered long shot, ousts Democratic rival she had once endorsed Who is Nithya Raman, Los Angeles’s next mayor? Nithya Raman was elected to serve as the mayor of Los Angeles, defeating incumbent Karen Bass in a major political shake-up that reflects the growing…",
-    "published": "2026-11-05T21:12:41+00:00",
-    "id": "71c465b45bfb",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is mostly a straight election recap that quotes both Raman and Bass and gives context on the race. A few framing choices, such as \"rebuke of Donald Trump\" and the comparison of Bass's approval to Trump's, add a subtle tilt without clearly favoring a side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "in a rebuke of Donald Trump and his party",
-        "why": "It describes the national Democratic wins as a rebuke of Trump, which is interpretive framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "her low approval ratings on par with Donald Trump’s",
-        "why": "It compares a Democratic incumbent's approval to Trump's, which is a pointed framing choice."
-      },
-      {
-        "type": "Framing",
-        "quote": "a major political shake-up that reflects the growing dissatisfaction with the direction of the city",
-        "why": "It states a causal interpretation of the result as fact rather than attributing it to a source."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "71c465b45bfb",
-    "coverage": 2
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Daily on Energy: Newly elected Democratic governors threaten data center development",
-    "link": "https://www.washingtonexaminer.com/daily-on-energy/4794729/daily-on-energy-democratic-governors-threaten-data-center-development/",
-    "summary": "WHAT’S HAPPENING TODAY: Good afternoon and happy Thursday, readers! It might not feel like fall in D.C., with the humidity and warmer weather today, but the leaves have been changing colors! If you’re looking to take some fall photos in the area, here are a few places to check out! 🍂📸 Welcome to Daily on […]",
-    "published": "2026-11-05T21:11:47+00:00",
-    "id": "e11a8204e77e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 22,
-    "leanWhy": "The body is mostly a factual rundown of the governors' stated plans, quoted directly. The headline's \"threaten\" frames Democratic policy as a danger to development, a mild industry-and-growth tilt, and no critics or industry voices appear in the excerpt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Newly elected Democratic governors threaten data center development",
-        "why": "\"Threaten\" casts the governors' regulatory plans as a menace to growth rather than as a policy choice."
-      },
-      {
-        "type": "Framing",
-        "quote": "Data center projects face challenges in states where newly elected Democratic governors have vowed to halt or impose restrictions",
-        "why": "The lead stresses obstacles to the industry and puts the Democratic officials in the role of obstructing it."
-      },
-      {
-        "type": "Omission",
-        "quote": "Republican Gov. Greg Abbott earlier this year paused data center development",
-        "why": "The Republican pause is mentioned only briefly, so the story still centers on Democrats as the source of the threat."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "e11a8204e77e",
     "coverage": 1
   }
 ]
