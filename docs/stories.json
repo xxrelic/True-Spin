@@ -1,5 +1,113 @@
 [
   {
+    "outlet": "Fox",
+    "title": "DeSantis blasts Washington Post over report he's preparing 2028 presidential bid",
+    "link": "https://www.foxnews.com/politics/desantis-blasts-washington-post-report-preparing-2028-presidential-bid",
+    "summary": "Florida Gov. Ron DeSantis accused The Washington Post of fabricating claims he reached out to political consultants about a potential 2028 presidential bid.",
+    "published": "2026-11-07T05:09:45+00:00",
+    "id": "8bcc39098945",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a straight recap. It leads with DeSantis's denial and his attack on the Post, and he gets the last word, while the Post's reporting is summarized briefly and without any Post response. The headline verb \"blasts\" also favors DeSantis's side slightly.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "DeSantis blasts Washington Post over report",
+        "why": "\"Blasts\" is a dramatic headline verb that casts the governor as the aggressor against the paper."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Fox News Digital has reached out to DeSantis' office and The Washington Post for comment.",
+        "why": "The Post's sourcing is described only briefly and the Post's side has no direct voice, so DeSantis's framing dominates."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Sunshine State, however, remained a bright spot for the GOP",
+        "why": "The excerpt adds an upbeat Republican note that is only loosely tied to the story."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "8bcc39098945",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Trump shakes up team as Democratic majority comes into focus",
+    "link": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+    "summary": "President Trump is swapping out his chief of staff after Republicans' losses in the midterms, with more than two dozen House races unresolved. Follow live updates.",
+    "published": "2026-11-07T04:31:47+00:00",
+    "id": "405870f7c58e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a quote-driven live-update recap of Trump's comments and GOP reaction, with mild tilt from emphasis on Republican defeat and intra-party disarray. Loaded phrases like \"electoral bloodbath\" and the description of the SAVE America Act as \"a package of voting restrictions\" lean toward the left-coded framing, and no Democratic or administration rebuttal is offered.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "after Tuesday's electoral bloodbath",
+        "why": "Dramatic wording amplifies the scale of the GOP loss in the outlet's own narration."
+      },
+      {
+        "type": "Framing",
+        "quote": "a package of voting restrictions that Mr. Trump pressed Senate Republicans to take up for months",
+        "why": "Characterizes the bill by its critics' label and stresses Thune's view that it could not pass."
+      },
+      {
+        "type": "Framing",
+        "quote": "Lacore, a former Navy admiral, was fired during Defense Secretary Pete Hegseth's tenure.",
+        "why": "Includes a detail that pointedly highlights a Democratic winner's clash with the administration."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "405870f7c58e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "House GOP Oversight chairman says ‘there’s a lot of questions about Hegseth’",
+    "link": "https://www.washingtonexaminer.com/news/house/4796359/james-comer-lot-of-questions-hegseth/",
+    "summary": "House Oversight Chairman James Comer (R-KY) declined to back Secretary of War Pete Hegseth as an impeachment vote against the secretary looms, saying there are “a lot of questions” about him. The House must vote next week on impeachment articles filed by Rep. Thomas Massie (R-KY) prior to the midterm elections.",
+    "published": "2026-11-07T04:22:25+00:00",
+    "id": "5fb4ab7d542b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 20,
+    "leanWhy": "The piece is mostly straight reporting built on Comer's own quotes, but it adds interpretive framing such as \"thinly veiled criticism,\" \"staggering Republican losses\" and \"stunning loss,\" which emphasizes GOP trouble. Trump's quote gets space at the end but without any pushback or context, and no Hegseth defenders are quoted.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "staggering Republican losses",
+        "why": "Dramatic wording stresses the scale of GOP electoral damage."
+      },
+      {
+        "type": "Framing",
+        "quote": "Comer’s thinly veiled criticism comes as he positions himself for a potential run for Kentucky governor",
+        "why": "Attributes Comer's remarks to political ambition, an interpretation beyond his stated words."
+      },
+      {
+        "type": "Framing",
+        "quote": "Frustrations over high prices due to the prolonged war in Iran led to staggering Republican losses",
+        "why": "States a causal explanation for the election results as fact."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "5fb4ab7d542b",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Houston mayor limits police cooperation with ICE after blue wave",
     "link": "https://www.washingtonexaminer.com/policy/immigration/4796344/houston-mayor-limits-police-cooperation-ice/",
@@ -62,6 +170,37 @@
     "coverage": 2
   },
   {
+    "outlet": "BBC",
+    "title": "Texas mayor instructs police to limit co-operation with ICE",
+    "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
+    "summary": "The new policy, which comes after a Democratic sweep of the state, will limit the people it will inform the immigration agency about to those who have been arrested for jailable offences.",
+    "published": "2026-11-07T03:31:54+00:00",
+    "id": "24180f3a38bc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is mostly straight reporting. It quotes Whitmire, the police chief and DHS, and it explains the old and new rules. Small tilts come from words like \"stunning victories\" and from the context about the ICE shooting and public outcry, which supports the mayor's rationale.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "stunning victories by the party in Texas",
+        "why": "Describing the Democratic wins as 'stunning' adds a mildly celebratory tone."
+      },
+      {
+        "type": "Framing",
+        "quote": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
+        "why": "This context supports the policy change, and the framing of the victim as someone 'driving to work' is sympathetic."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a2737d463519",
+    "coverage": 2
+  },
+  {
     "outlet": "The Guardian",
     "title": "Democrats blast Trump’s decision to make Stephen Miller his chief of staff as president defends picking loyal ‘MVP’ - as it happened",
     "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
@@ -100,7 +239,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "Washington Examiner",
@@ -197,7 +336,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3a07120cba68",
+    "cluster": "405870f7c58e",
     "coverage": 1
   },
   {
@@ -234,7 +373,7 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "6aa47ce0ba33",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -316,7 +455,74 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "What Stephen Miller has pushed for while in Trump administration",
+    "link": "https://www.cbsnews.com/news/stephen-miller-chief-of-staff-trump-immigration-policies/",
+    "summary": "Top Trump adviser Stephen Miller, who is set to take over the White House chief of staff role on Monday, has driven President Trump's most controversial immigration policies during both of his administrations.",
+    "published": "2026-11-07T01:36:49+00:00",
+    "id": "c862473676ae",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece is mostly a factual recap of Miller's policies, but it uses left-coded framing, such as \"most controversial,\" \"bypass due process,\" and the harms of enforcement. The excerpt has no defense of the policies from Miller or the administration, such as border security or rule-of-law arguments.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "has driven President Trump's most controversial immigration policies",
+        "why": "The lead labels the policies as controversial and gives no balancing framing."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "to bypass due process and quickly deport alleged Venezuelan gang members",
+        "why": "Describing the policy as bypassing due process adopts critics' framing rather than neutral legal language."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Detentions of immigrants without criminal histories rose sharply, and increased ICE activity sparked protests across the country.",
+        "why": "The excerpt stresses the downsides and opposition, and it does not include the administration's justification."
+      },
+      {
+        "type": "Framing",
+        "quote": "The move comes after Republicans suffered crippling losses in the midterm elections",
+        "why": "The phrase \"crippling losses\" is dramatic and sets a politically negative context for the move."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "b2b49919e5bc",
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Pope voted in U.S. election because he's \"proud to be an American\"",
+    "link": "https://www.cbsnews.com/news/pope-leo-votes-election-proud-american/",
+    "summary": "Pope Leo, who is on a 12-day, three-country trip in Latin America, also said he credits God and doctors for his lung cancer surgery recovery.",
+    "published": "2026-11-07T01:34:27+00:00",
+    "id": "8f739ef0a641",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is mostly a straight recap of the pope's remarks and Vatican statements. It includes his primary voting history in both parties and notes that he declined to comment on the election result. The only slight tilt is the description of the midterm result as \"a repudiation of President Trump.\"",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "in a repudiation of President Trump",
+        "why": "This is an interpretive characterization of the midterm result, and it is not attributed to anyone."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "8f739ef0a641",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -383,7 +589,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -424,7 +630,7 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "Washington Examiner",
@@ -531,8 +737,8 @@
     "signals": [],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "dfcec979f731",
-    "coverage": 2
+    "cluster": "0c0d2711e57b",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -697,7 +903,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "Daily Caller",
@@ -795,7 +1001,27 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
+  },
+  {
+    "outlet": "NBC News",
+    "title": "U.S. on verge of losing measles elimination status as number of cases grows",
+    "link": "https://www.nbcnews.com/video/u-s-on-verge-of-losing-measles-elimination-status-as-number-of-cases-grows-273037893563",
+    "summary": "The United States is on the verge of losing its measles elimination status as cases top 5,000 nationwide for the first time in more than three decades. Pennsylvania, New York and Wisconsin have all reported measles-related deaths this week.",
+    "published": "2026-11-06T23:58:08+00:00",
+    "id": "65e6064172ee",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and a short feed summary were available. They state case counts and deaths factually, with no blame, quotes or loaded wording. The vaccine-and-public-health topic could mildly help the left-coded trust-in-experts frame, but the text itself adds no clear tilt.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "65e6064172ee",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -883,7 +1109,62 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "White House restores financial disclosure page after CBS News inquiry",
+    "link": "https://www.cbsnews.com/news/white-house-financial-disclosure-page/",
+    "summary": "The White House's page listing dozens of financial disclosure forms went offline without explanation, only to be restored after CBS News inquired about its removal.",
+    "published": "2026-11-06T23:33:00+00:00",
+    "id": "774b0017c6c0",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a detailed, timestamped factual account of a webpage going offline and returning, with repeated notes that the White House did not respond. Emphasis on the lack of explanation and on the president's stock trades involving companies affected by his policies gives a subtle accountability framing that tilts mildly left.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "went offline without explanation Friday afternoon, only to be restored after CBS News inquired about its removal",
+        "why": "The headline and lead imply the outlet's inquiry caused the restoration, though the text shows the cause is unknown."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "including many involving companies that have had business before the government or are directly impacted by his policies",
+        "why": "This context points to possible conflicts of interest and goes beyond the page outage itself."
+      },
+      {
+        "type": "Omission",
+        "quote": "In September, CBS News found that more than 110 of the roughly 180 officials listed on the White House page did not appear in OGE's online records.",
+        "why": "The piece brings in the outlet's earlier findings of missing records, which broadens the transparency criticism beyond this incident."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "774b0017c6c0",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "11/6: CBS Evening News",
+    "link": "https://www.cbsnews.com/video/110626-cbs-evening-news/",
+    "summary": "Susie Wiles exits as White House chief of staff; Secret Service arrests man with guns near White House.",
+    "published": "2026-11-06T23:30:00+00:00",
+    "id": "3332f2c5ef1e",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "3332f2c5ef1e",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -924,7 +1205,43 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Democrats win Senate control — live updates",
+    "link": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+    "summary": "Democrats were able to pick up the seats needed to gain control of the Senate, CBS News projects, and the party scored several upset victories in red states.",
+    "published": "2026-11-06T23:24:00+00:00",
+    "id": "9c793fade58d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is a live-update recap of the Mississippi count. It gives both parties' claims and legal moves with attribution, and it quotes each side. Small tilt comes from the \"upset victories\" and \"stunningly close\" wording and from the Colom campaign's \"desperate stunt\" label appearing without a Republican reply.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the party scored several upset victories in red states",
+        "why": "Celebratory, outcome-focused phrasing in the summary slightly favors the Democratic narrative."
+      },
+      {
+        "type": "Framing",
+        "quote": "stunningly close Mississippi Senate race",
+        "why": "Dramatic wording emphasizes the Democrat's surprise strength in a red state."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The Colom campaign called the move a \"desperate stunt.\"",
+        "why": "The Democratic characterization of the GOP ballot-preservation request is quoted, and the NRSC's own explanation comes later and is more muted."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "405870f7c58e",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -942,8 +1259,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "6aa47ce0ba33",
-    "coverage": 2
+    "cluster": "04c51aa3c8ed",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -969,7 +1286,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "Axios",
@@ -1098,7 +1415,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "NPR",
@@ -1175,7 +1492,7 @@
     "confidence": "high",
     "storyChoice": "neither",
     "cluster": "a2ccf21ab92b",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1232,7 +1549,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "NBC News",
@@ -1268,7 +1585,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "NPR",
@@ -1387,7 +1704,38 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Newly-elected House Dem: Trump didn't listen to voters in elevating Stephen Miller",
+    "link": "https://www.nbcnews.com/meet-the-press/video/newly-elected-house-dem-trump-didn-t-listen-to-voters-in-elevating-stephen-miller-273027141698",
+    "summary": "Democratic Rep.-elect Cait Conley joins Meet the Press NOW fresh off of her win against Rep. Mike Lawler in New York’s 17th congressional district as President Trump announced he will make Stephen Miller the new White House chief of staff.",
+    "published": "2026-11-06T21:46:07+00:00",
+    "id": "1d199db0d047",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "Only a headline and a short feed summary were available. The headline uses a Democratic winner's criticism of Trump as its frame, and the summary describes her win \"against Rep. Mike Lawler\" without any Republican response. Together these tilt the item toward the Democratic side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump didn't listen to voters in elevating Stephen Miller",
+        "why": "The headline adopts the Democratic guest's critique as its main frame, with no counterpoint."
+      },
+      {
+        "type": "Source selection",
+        "quote": "fresh off of her win against Rep. Mike Lawler",
+        "why": "The only voice featured is a newly elected Democrat, and the summary gives no Republican view."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "b2b49919e5bc",
+    "coverage": 6
   },
   {
     "outlet": "Daily Caller",
@@ -1619,7 +1967,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -1686,7 +2034,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "a2ccf21ab92b",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -1917,7 +2265,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "NBC News",
@@ -2014,7 +2362,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "coverage": 6
   },
   {
     "outlet": "NBC News",
@@ -2039,6 +2387,26 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
+    "cluster": "0ba44366f9cc",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Cornell faculty senate votes no confidence in administration’s handling of sexual assault",
+    "link": "https://www.nbcnews.com/news/education/cornell-faculty-senate-issues-no-confidence-vote-administrations-handl-rcna607286",
+    "summary": "Members of the Cornell University faculty senate on Friday issued a vote of no confidence in the administration’s ability to manage the response to an alleged sexual assault at a fraternity house in 2024, according to the university.",
+    "published": "2026-11-06T20:54:27+00:00",
+    "id": "9ae5d00413af",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is mostly straight reporting. It gives the vote count, the board's defense of the president, the sponsors' statement, the plaintiff's attorney and the accused men's denials. The tilt is slight: the sponsors and the attorney get a lot of space, though the trustees chair also gets a full response.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
     "cluster": "0ba44366f9cc",
     "coverage": 4
   },
@@ -2218,8 +2586,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "dfcec979f731",
-    "coverage": 2
+    "cluster": "0c0d2711e57b",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -2249,8 +2617,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "cluster": "5812ed9749c7",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2311,8 +2679,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "a2ccf21ab92b",
-    "coverage": 3
+    "cluster": "3aec2657c470",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2409,8 +2777,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "cluster": "1b4cd7ac0bf5",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -2490,8 +2858,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "b2b49919e5bc",
-    "coverage": 8
+    "cluster": "1b4cd7ac0bf5",
+    "coverage": 4
   },
   {
     "outlet": "Axios",
@@ -2518,6 +2886,26 @@
     "storyChoice": "neither",
     "cluster": "91e0cc122f20",
     "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen. Chris Murphy discharged from hospital after stroke",
+    "link": "https://www.nbcnews.com/politics/congress/senator-chris-murphy-discharged-hospital-stroke-rcna607896",
+    "summary": "The Connecticut Democrat will spend “several weeks at a rehabilitation center” after being discharged from The Johns Hopkins Hospital in Baltimore, Maryland.",
+    "published": "2026-11-06T19:53:33+00:00",
+    "id": "0c0d2711e57b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a straight factual health update on a sitting senator, sourced to his office, his chief of staff and his doctor. The sourcing is mostly friendly to Murphy, which is normal for a medical announcement, and the wording has no evaluative framing.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "0c0d2711e57b",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -2581,6 +2969,83 @@
     "coverage": 1
   },
   {
+    "outlet": "The Guardian",
+    "title": "Houston to limit police cooperation with federal immigration authorities",
+    "link": "https://www.theguardian.com/us-news/2026/nov/06/houston-police-ice-immigration",
+    "summary": "Mayor said only immigrants that ‘pose a danger’ would be referred to ICE, after Democrats gain control of governor’s seat The mayor of Houston on Friday said the city would limit cooperation with federal immigration authorities, heralding “a new model” of immigration enforcement after Democrats won power in Texas for…",
+    "published": "2026-11-06T19:29:55+00:00",
+    "id": "a6b22e95f3c2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 25,
+    "leanWhy": "The piece largely relays the mayor's framing (\"a new model,\" reducing fear) and adds context about ICE shootings and an indicted ICE officer, while sourcing comes from a sympathetic neighbor and no critics of the policy appear. ICE's lack of comment is noted, but supporters of stricter enforcement are absent from the excerpt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“Everybody knows that what happened is wrong. How will we not stand with our people, stand behind them, especially when something so vicious and ugly happened?”",
+        "why": "The only resident voice is a critic of ICE, and the emotional quote is included without any counterpoint."
+      },
+      {
+        "type": "Framing",
+        "quote": "It was also another blow to the embattled housing construction industry in Texas",
+        "why": "Frames the ICE shooting through its economic and community harm, steering readers toward a negative view of enforcement."
+      },
+      {
+        "type": "Omission",
+        "quote": "Spokespersons for ICE did not immediately respond to an email seeking comment",
+        "why": "No supporters of tougher enforcement or public safety critics of the limits are quoted, so the policy is presented mainly through its backers."
+      },
+      {
+        "type": "Framing",
+        "quote": "heralding “a new model” of immigration enforcement",
+        "why": "Adopts the mayor's upbeat language in the lede and ties the move to a partisan victory."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a6b22e95f3c2",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trump Taps Top Immigration Adviser As New Chief Of Staff",
+    "link": "https://dailycaller.com/2026/11/06/trump-stephen-miller-chief-of-staff-susie-wiles",
+    "summary": "‘Serving President Trump in the White House has been the honor of a lifetime’",
+    "published": "2026-11-06T19:21:45+00:00",
+    "id": "0f44f36641c3",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual recap of the personnel change, built on Trump's and Wiles's own statements. It gives space to an anonymous former official who praises Miller, and it includes no critics or outside analysis, which gives a mild favorable tilt toward the administration.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“He genuinely cares about accomplishing the policy goal. Not making a big fat show on Fox News like Kristi did,” the former official said",
+        "why": "An anonymous, friendly source supplies the only assessment of Miller, and no critics or outside analysts are quoted."
+      },
+      {
+        "type": "Framing",
+        "quote": "“Serving President Trump in the White House has been the honor of a lifetime.”",
+        "why": "The summary leads with a glowing quote from Wiles, which sets a positive tone for the story."
+      },
+      {
+        "type": "Omission",
+        "quote": "Miller has served as White House deputy chief of staff for policy and homeland security adviser since the start of Trump’s second administration",
+        "why": "The background is purely descriptive and leaves out the debates over Miller's immigration policies."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "0f44f36641c3",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
     "link": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff",
@@ -2604,7 +3069,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 2
+    "coverage": 4
   },
   {
     "outlet": "Axios",
@@ -2636,6 +3101,42 @@
     "storyChoice": "left",
     "cluster": "f04f772bc613",
     "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Lawyers descend on Mississippi as vote counting continues in razor-thin Senate race",
+    "link": "https://www.theguardian.com/us-news/2026/nov/06/mississippi-senate-race-vote-counting-lawyers",
+    "summary": "Democratic and Republican lawyers and groups trade sharp legal letters about procedures for counting ballots in tight race Where Trump and Republicans lost the midterms – a visual analysis of the key states Democrat Scott Colom is on the verge of winning a Senate seat in Mississippi in a stunning upset, but ballots…",
+    "published": "2026-11-06T18:51:52+00:00",
+    "id": "a72d95cd7170",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece is mostly procedural reporting with quotes from both campaigns, but the framing leans slightly toward the Democratic side. It treats a Republican loss as \"the final straw\" and a \"stunning upset\", and it gives the local civic group's voter-disenfranchisement quote prominent space.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Losing ruby-red Mississippi would be the final straw for Republicans after a midterm sweep by Democrats",
+        "why": "Narrates the race as a cascading Republican collapse, which is a Democratic-favorable storyline."
+      },
+      {
+        "type": "Source selection",
+        "quote": "We will not let administrative failures erase the voices of the people.",
+        "why": "A sympathetic local group's voter-suppression-adjacent framing gets a long quote, while the Republican side gets a brief boilerplate statement."
+      },
+      {
+        "type": "Framing",
+        "quote": "Where Trump and Republicans lost the midterms – a visual analysis of the key states",
+        "why": "The promotional link frames the midterms as a Republican defeat."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "5829bee5b72e",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -2917,6 +3418,73 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "Democrats, Republicans Asking For Money As Vote Counting Persists Days Later",
+    "link": "https://dailycaller.com/2026/11/06/democrats-republicans-fundraising-nrsc-dscc-mississippi-alaska",
+    "summary": "‘democratic process continues to play out’",
+    "published": "2026-11-06T18:26:09+00:00",
+    "id": "0e257f454683",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece mostly reports vote counts and fundraising by both party committees, and it treats the two sides in a similar way. Small touches tilt it slightly right: it calls Harris a \"failed 2024 Democratic nominee,\" and it quotes the NRSC's \"lawful ballot\" language without any pushback.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "failed 2024 Democratic nominee Kamala Harris",
+        "why": "The label 'failed' is a gratuitous negative descriptor of a Democratic figure."
+      },
+      {
+        "type": "Framing",
+        "quote": "despite all votes already being cast",
+        "why": "The framing makes fundraising during the count look slightly cynical for both parties."
+      },
+      {
+        "type": "Source selection",
+        "quote": "we are committed to ensuring that every single lawful ballot is accurately counted",
+        "why": "The NRSC statement is quoted without a Democratic response, since the DSCC did not respond."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "0e257f454683",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Job Gains Were More ‘Treat Than Trick’ In October -— But Don’t Celebrate With Leftover Candy Just Yet",
+    "link": "https://dailycaller.com/2026/11/06/us-hiring-smashes-expectations-but-economists-warn-american-workers-arent-out-of-the-woods",
+    "summary": "U.S. employers added 165,000 jobs in October, beating expectations, but economists warned that young workers and financially strained households continue to face challenges.",
+    "published": "2026-11-06T18:16:59+00:00",
+    "id": "e5735943e7f8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly a data-driven jobs report recap. It credits the beat over expectations and also stresses the weak spots, such as entry-level workers, part-time work and inflation, and it attributes both to economists. The cautionary framing is a mild tilt, but it has no partisan attribution.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "But Don’t Celebrate With Leftover Candy Just Yet",
+        "why": "The headline tempers the good news with a cautionary note, which slightly emphasizes weakness."
+      },
+      {
+        "type": "Source selection",
+        "quote": "limited job opportunities, pressure on household finances and persistent inflation continue to weigh on Americans",
+        "why": "The excerpt leans on economists' warnings about strain, and the sourcing it shows is limited to a few economists."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "e5735943e7f8",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Annie Andrews cool on Schumer’s leadership role",
     "link": "https://www.washingtonexaminer.com/news/senate/4795492/annie-andrews-cool-on-chuck-schumer-leadership-role/",
@@ -3012,7 +3580,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "1b4cd7ac0bf5",
-    "coverage": 2
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -3292,6 +3860,42 @@
     "coverage": 1
   },
   {
+    "outlet": "The Guardian",
+    "title": "Trump will be blocked from putting ‘rightwinger’ on supreme court, Schumer says",
+    "link": "https://www.theguardian.com/us-news/2026/nov/06/trump-rightwing-supreme-court-justice",
+    "summary": "After midterm wins, Democratics plan comeback for when new Congress is sworn in, including pushback against Trump and his policies Donald Trump will be blocked from putting a “rightwinger” on the US supreme court, according to Chuck Schumer, the soon-to-be Senate majority leader, in remarks that were a preview of how…",
+    "published": "2026-11-06T17:40:23+00:00",
+    "id": "4fd8a4f1768f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting built on Schumer's AP interview, but it is told almost wholly from the Democratic side, with framing such as \"comeback\" and \"massive midterm-election wins\". Republican voices appear only in a blame-game paragraph at the end, and the Democratic agenda is described in the party's own terms.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "After scoring massive midterm-election wins and taking back both chambers of Congress",
+        "why": "Triumphant framing of the Democratic result."
+      },
+      {
+        "type": "Framing",
+        "quote": "restoring Medicaid cuts from Trump’s “One Big Beautiful Bill”",
+        "why": "Presents the Democratic priority in the party's own terms, with no Republican counter-framing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Republicans are reflecting on how and why they lost so badly",
+        "why": "Republicans appear only as losers assigning blame, not as stating a policy position."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "4fd8a4f1768f",
+    "coverage": 1
+  },
+  {
     "outlet": "NBC News",
     "title": "Judge blocks construction on Trump’s D.C.-area arch after approval",
     "link": "https://www.nbcnews.com/video/judge-blocks-construction-on-trump-s-d-c-area-arch-after-approval-273011269545",
@@ -3316,6 +3920,32 @@
     "storyChoice": "left",
     "cluster": "805fe3b9c138",
     "coverage": 6
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Could the AI bubble burst after Democrats' midterms sweep? - The Latest",
+    "link": "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest",
+    "summary": "Global tech stocks have plunged after the Democrats’ victory in the US midterm elections, with fears of a slowdown in AI development. Major tech corporations including Apple, Tesla and Nvidia shed about $1tn in a single trading session. Is this stock market jitters, or a sign the AI bubble might be about to burst?",
+    "published": "2026-11-06T17:04:41+00:00",
+    "id": "85e24c76ae59",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "The piece is only a podcast teaser (headline and short blurb). It links a tech stock drop to the Democratic midterm win and asks whether it signals an AI bubble, but it takes no partisan side and offers no sourcing to judge.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Could the AI bubble burst after Democrats' midterms sweep?",
+        "why": "The headline implies a causal link between the election result and the market drop that the blurb doesn't support, and it is posed as a question."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "right",
+    "cluster": "85e24c76ae59",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -3627,6 +4257,37 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "Cult ‘Church’ Leader Receives Sentencing For Killing 190 Children",
+    "link": "https://dailycaller.com/2026/11/06/paul-mackenzie-kenyan-cult-leader-sentenced-200-years-children-deaths",
+    "summary": "Cold and calculated",
+    "published": "2026-11-06T16:05:38+00:00",
+    "id": "34e06e798b91",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is a mostly factual recap of a sentencing, attributed to CNN and CBS. The headline's scare quotes around 'Church' and the summary \"Cold and calculated\" add mild editorializing about religion, but the body does not push a values frame.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Cult ‘Church’ Leader Receives Sentencing For Killing 190 Children",
+        "why": "Scare quotes around 'Church' and the word 'cult' editorialize about the group's religious legitimacy."
+      },
+      {
+        "type": "Framing",
+        "quote": "Cold and calculated",
+        "why": "The summary uses an emotive quote as a tagline without attribution."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "34e06e798b91",
+    "coverage": 1
+  },
+  {
     "outlet": "Fox",
     "title": "Democrat who toppled GOP incumbent will head to court on felony charge just days after election upset",
     "link": "https://www.foxnews.com/politics/democrat-who-toppled-gop-incumbent-head-court-felony-charge-just-days-after-election-upset",
@@ -3868,6 +4529,42 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "DOJ shake-up continues with head of national security division, US attorney in Miami resigning",
+    "link": "https://www.foxnews.com/politics/doj-shake-up-continues-head-national-security-division-us-attorney-miami-resigning",
+    "summary": "John Eisenberg and Miami U.S. Attorney Jason Reding Quiñones are leaving the Justice Department, one day after Harmeet Dhillon announced her departure.",
+    "published": "2026-11-06T15:21:16+00:00",
+    "id": "d1cb30410ef2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a factual account of resignations, but it relies heavily on Blanche's praise and the departing officials' accomplishments, with no outside or critical voices. Descriptions such as Dhillon's priorities and the Castro indictment are presented in administration-friendly terms, giving a mild right-leaning tilt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"He has served with distinction, strengthening our nation’s ability to address threats, both foreign and domestic,\" Blanche said.",
+        "why": "Administration praise is quoted at length with no independent or critical perspective on the departures."
+      },
+      {
+        "type": "Framing",
+        "quote": "Brothers to the Rescue, a Miami-based humanitarian group that searched the Florida Straits for Cuban migrants in distress",
+        "why": "Sympathetic framing of the Castro indictment's background highlights an accomplishment of the departing official."
+      },
+      {
+        "type": "Framing",
+        "quote": "Dhillon defended the Trump administration's investigation into noncitizen voters.",
+        "why": "The administration's election-integrity framing is relayed without any counterview or context."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "d1cb30410ef2",
+    "coverage": 1
+  },
+  {
     "outlet": "The Guardian",
     "title": "Democrats start plotting as civil war breaks out among Republicans | Politics Weekly America",
     "link": "https://www.theguardian.com/politics/video/2026/nov/06/democrats-start-plotting-as-civil-war-breaks-out-among-republicans-politics-weekly-america",
@@ -3973,6 +4670,37 @@
     "confidence": "high",
     "storyChoice": "right",
     "cluster": "5c407f1b964b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Reporter's Notebook: How midterms may change the House impeachment equation for Hegseth",
+    "link": "https://www.foxnews.com/politics/reporters-notebook-how-midterms-may-change-house-impeachment-equation-hegseth",
+    "summary": "Thomas Massie plans to reintroduce articles of impeachment against Pete Hegseth next week, and post-midterm GOP math could work against the Pentagon chief.",
+    "published": "2026-11-06T14:57:52+00:00",
+    "id": "c0206302f178",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "This is a procedural, vote-counting analysis of how an impeachment effort could play out, written in a notebook style. It has a few loaded phrases (\"thumping,\" \"shellacking,\" \"scapegoat\") and a speculative tone about the odds, but it is mostly even-handed and attributes the effort to a Republican member.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the war in Iran contributed directly to the GOP’s thumping",
+        "why": "Presents the war as a direct cause of the electoral loss in the narrator's own voice, with colorful wording."
+      },
+      {
+        "type": "Framing",
+        "quote": "The chances are increasingly high that the House could in fact impeach Hegseth.",
+        "why": "A confident forecast stated as analysis, resting mostly on private grumbling and speculation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "c0206302f178",
     "coverage": 1
   },
   {
@@ -4286,6 +5014,26 @@
     "coverage": 2
   },
   {
+    "outlet": "Fox",
+    "title": "Former US Senator and West Virginia Governor Jay Rockefeller dies at 89",
+    "link": "https://www.foxnews.com/politics/former-senator-governor-jay-rockefeller-dies-89",
+    "summary": "Political figures issued statements honoring former Democratic U.S. Senator and West Virginia Gov. Jay Rockefeller, who passed away at the age of 89 years old.",
+    "published": "2026-11-06T13:24:10+00:00",
+    "id": "0dcdfdc8f66e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a straightforward obituary-style report that compiles bipartisan tributes from Republican and Democratic-turned-independent figures. Party-switch context for Manchin and Justice is factual and gives no sign of slant.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "80b28d773125",
+    "coverage": 2
+  },
+  {
     "outlet": "NBC News",
     "title": "Gov. Gavin Newsom Commutes All 548 California Death Sentences",
     "link": "https://www.today.com/video/gov-gavin-newsom-commutes-all-548-california-death-sentences-272994373864",
@@ -4302,8 +5050,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
+    "cluster": "61d0457c702a",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -4373,6 +5121,47 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "'We didn't expect this': Texas Democrats stunned as blue wave topples GOP stronghold",
+    "link": "https://www.foxnews.com/politics/we-didnt-expect-this-texas-democrats-stunned-blue-wave-topples-gop-stronghold",
+    "summary": "Texas Democrat James Talarico toppled Ken Paxton by over 12 points as a blue wave shattered the GOP's grip on the deep -red Lone Star State.",
+    "published": "2026-11-06T13:02:53+00:00",
+    "id": "9f7b63592a56",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly an election-night recap, but it relies on celebratory Democratic voices and a former Republican saying the party \"lost its way\", with no Republican officials quoted in the excerpt. Dramatic wave language (\"slam into\", \"shattered\", \"swept away\") and the \"referendum against Trump\" quote amplify a Democratic victory narrative.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "shattered the GOP’s grip on Texas, serving Republicans in Congress a stiff blow",
+        "why": "Dramatic, triumphant phrasing goes beyond a neutral account of the result."
+      },
+      {
+        "type": "Source selection",
+        "quote": "This is a referendum against Trump.",
+        "why": "The interpretive frame comes from a lifelong Democrat, and the excerpt offers no Republican counterpoint."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The Republicans have lost their way, I believe.",
+        "why": "A single switching Republican voter is used to support the narrative of a broad GOP collapse."
+      },
+      {
+        "type": "Framing",
+        "quote": "the optimism at the watch party was palpable",
+        "why": "Atmospheric detail emphasizes Democratic jubilation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "9f7b63592a56",
+    "coverage": 1
+  },
+  {
     "outlet": "The Guardian",
     "title": "What is this strange, post-election feeling? Oh right – it’s utter joy | Dave Schilling",
     "link": "https://www.theguardian.com/commentisfree/2026/nov/06/post-election-feeling-optimism",
@@ -4411,6 +5200,47 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "350e63f9723d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Bitter Fetterman-El-Sayed feud threatens to complicate Schumer's Senate unity push",
+    "link": "https://www.foxnews.com/politics/bitter-fetterman-el-sayed-feud-threatens-complicate-schumers-senate-unity-push",
+    "summary": "Senate Minority Leader Chuck Schumer's Party unity push faces an early test as John Fetterman and Abdul El-Sayed trade insults over U.S. aid to Israel.",
+    "published": "2026-11-06T13:00:20+00:00",
+    "id": "41384d0a09e2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly a factual recap of an intra-Democratic feud, but it emphasizes the most damaging material about the party's progressive wing: the \"ogre on a pike\" quote, the Hasan Piker link, and Fetterman's \"pro-Hamas wing\" charge. The headline's \"bitter\" and \"threatens to complicate\" framing stresses Democratic discord, and the sourcing relies on Fetterman quotes and one anonymous staffer. El-Sayed's side gets little direct voice.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Bitter Fetterman-El-Sayed feud threatens to complicate Schumer's Senate unity push",
+        "why": "The headline stresses Democratic division and dysfunction, and the body partly hedges it with the staffer's view that the two could set differences aside."
+      },
+      {
+        "type": "Source selection",
+        "quote": "head of our emerging pro-Hamas wing here in the party",
+        "why": "The article repeats Fetterman's sharpest charge without any response from El-Sayed."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "who previously said \"America deserved 9/11,\"",
+        "why": "It dwells on the Piker association, a detail that embarrasses the progressive wing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "A longtime Democratic Senate staffer told Fox News Digital",
+        "why": "The only outside voice is an anonymous staffer, and El-Sayed's side is covered through a reported private call and debate remarks rather than direct response."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "41384d0a09e2",
     "coverage": 1
   },
   {
@@ -4813,7 +5643,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "5829bee5b72e",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -6570,8 +7400,8 @@
     ],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
+    "cluster": "00f0d80e39a5",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -7304,8 +8134,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "f314198f6efb",
-    "coverage": 2
+    "cluster": "88cd8538dba9",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -7430,8 +8260,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
+    "cluster": "61d0457c702a",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -7713,7 +8543,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "00f0d80e39a5",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -8021,8 +8851,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
+    "cluster": "61d0457c702a",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -8343,8 +9173,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "c1ba20264172",
-    "coverage": 2
+    "cluster": "28732bfcd9e2",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -8436,8 +9266,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3d719d563d21",
-    "coverage": 5
+    "cluster": "61d0457c702a",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -8704,884 +9534,6 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "e11a8204e77e",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "JoAnna Mendoza flips Arizona’s toss-up 6th Congressional District seat",
-    "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4774791/juan-ciscomani-joanna-mendoza-arizona-6-congressional-district/",
-    "summary": "Democratic Marine veteran JoAnna Mendoza defeated incumbent Rep. Juan Ciscomani (R-AZ) in Arizona’s toss-up 6th Congressional District. Mendoza won 53% of the vote compared to Ciscomani, who received 44.9%, according to the Associated Press.",
-    "published": "2026-11-05T21:10:48+00:00",
-    "id": "77a03f095b60",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "Only a headline and a short feed summary were available. They give the result and the AP-attributed vote shares in a factual way, with no loaded language. The verb \"flips\" and the mention of Mendoza's Marine veteran status are routine election-coverage framing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "77a03f095b60",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Russian and Ukrainian officials thank Melania Trump for brokering ceasefire - video",
-    "link": "https://www.theguardian.com/world/video/2026/nov/05/russian-and-ukrainian-officials-thank-melania-trump-for-brokering-ceasefire-video",
-    "summary": "Kirill Dimitrov, envoy to Russian president Vladimir Putin, delivered a gift to Melania Trump at the White House on Thursday to thank her for brokering a ceasefire between Ukraine and Russian forces in Oleshky, Ukraine.",
-    "published": "2026-11-05T21:04:53+00:00",
-    "id": "40465c4c370a",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "Only a headline and a short feed summary were available. The wording is mostly factual and attributes the thanks to named officials, though \"brokering\" is stated in the outlet's own voice and the framing flatters the Trump White House slightly.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "thank Melania Trump for brokering ceasefire",
-        "why": "The headline states in its own voice that she brokered the ceasefire, which credits the First Lady with a diplomatic role without any sourcing or context."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "40465c4c370a",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump's lawyers argue appeal in \"hush money\" case",
-    "link": "https://www.cbsnews.com/news/trump-hush-money-conviction-appeal/",
-    "summary": "President Trump was convicted in 2024 of 34 felonies tied to a 2016 \"hush money\" payment to adult film star Stormy Daniels.",
-    "published": "2026-11-05T21:03:58+00:00",
-    "id": "e2f6e6292ea0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a mostly straight recap of oral arguments. It quotes both the Trump and DA sides, and it includes context such as the defense's trial-time position on jury unanimity. The one small tilt is the detail that the judges \"pelted\" the lawyers with questions, which hints at skepticism toward Trump's arguments.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "pelted them with questions picking apart their arguments",
-        "why": "Vivid wording suggests the panel was dismantling the arguments, though it is said of both lawyers."
-      },
-      {
-        "type": "Framing",
-        "quote": "Giuffra, the powerful co-chair of the white-shoe firm Sullivan & Cromwell",
-        "why": "Emphasizing the lawyer's elite status adds color that mildly frames the defense."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "e2f6e6292ea0",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "The exit polls from A-Z: What motivated voters in 2026",
-    "link": "https://www.washingtonexaminer.com/in_focus/4794145/voter-motivation-exit-polls-midterm-2026/",
-    "summary": "The first exit poll was conducted in a gubernatorial contest in 1968. Since that time, exit polls have been important to understanding the messages voters send in elections.",
-    "published": "2026-11-05T21:00:00+00:00",
-    "id": "1eea630650b1",
-    "basis": "article",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "1eea630650b1",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Newsom moves to empty California's death row as 2028 looms",
-    "link": "https://www.axios.com/2026/11/05/newsom-california-death-penalty-2028",
-    "summary": "California Gov. Gavin Newsom announced Thursday he plans to commute all 548 of the state's death sentences to life without parole, a sweeping decision that could empty the nation's largest death row. Why it matters: If Newsom follows through, it will be the largest mass commutation of death sentences in U.S.",
-    "published": "2026-11-05T20:57:07+00:00",
-    "id": "40e130ef3161",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "Only a headline and short feed summary were available. The summary reports the commutation plan factually, but the \"as 2028 looms\" headline hints at presidential-ambition motives, which is a mild framing tilt. No sources from either side appear.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "as 2028 looms",
-        "why": "Ties a policy decision to presidential ambitions, implying political motive without evidence in the text."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "a sweeping decision that could empty the nation's largest death row",
-        "why": "'Sweeping' emphasizes scale, though it is mostly descriptive."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "40e130ef3161",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "White House event reveals Ukraine and Russia share one goal: flattering Melania",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/melania-trump-white-house-visit-ukraine-russia",
-    "summary": "As war rages on in Kyiv and other cities, the first lady celebrates her single-city ceasefire with Russian and Ukrainian envoys Beaming from a podium in the White House’s Grand Foyer, Melania Trump welcomed senior Russian and Ukrainian officials on Thursday to celebrate a ceasefire in an embattled Ukrainian town for…",
-    "published": "2026-11-05T20:52:27+00:00",
-    "id": "8d4fde5a2cdc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 42,
-    "leanWhy": "The piece uses a mocking headline and skeptical, sardonic asides to cast the first lady's diplomacy as flattery theater, and it dwells on Trump administration pressure on Kyiv and Democratic investigations. It includes factual context on the ceasefire and officials present, but no one defends Melania Trump's role or the administration's approach.",
-    "signals": [
-      {
-        "type": "Headline framing",
-        "quote": "Ukraine and Russia share one goal: flattering Melania",
-        "why": "The headline reduces a diplomatic event to flattery, a mocking tone that undercuts the ceasefire's significance."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "even if her descriptions of reviewing de-mining plans and assessing evacuation routes strained belief",
-        "why": "The writer editorializes that her account was not credible, without any sourced rebuttal."
-      },
-      {
-        "type": "Framing",
-        "quote": "the US cut intelligence sharing and satellite internet in recent weeks in an apparent effort to pressure Kyiv into capitulating",
-        "why": "This presents the administration's Ukraine policy in a harsh light, with an interpretive motive attached."
-      },
-      {
-        "type": "Framing",
-        "quote": "with triumphant Democrats promising to investigate senior aides",
-        "why": "It foregrounds the Democratic view of the administration's Russia dealings, and the other side is not heard."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "8d4fde5a2cdc",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "DeSantis nukes ‘tech guy’ Vivek after Ohio drubbing: ‘Not in tune’ with blue-collar voters",
-    "link": "https://www.foxnews.com/politics/desantis-nukes-tech-guy-vivek-ohio-drubbing-not-tune-blue-collar-voters",
-    "summary": "Florida Republican Gov. Ron DeSantis says Vivek Ramaswamy wasn't \"in tune\" with Ohio's blue-collar voters, citing his tech background and H-1B stance.",
-    "published": "2026-11-05T20:47:34+00:00",
-    "id": "89756cba3e57",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 30,
-    "leanWhy": "The piece is mostly a recap of DeSantis's remarks, but the headline and framing use loaded words (\"nukes,\" \"drubbing,\" \"failed,\" \"scandal-plagued\") and dwell on Ramaswamy's failures and the \"blue wave.\" The tilt is mild and mostly cuts against a Republican figure, though the intra-GOP conflict is the actual story and DeSantis's own words are quoted at length.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "DeSantis nukes ‘tech guy’ Vivek after Ohio drubbing",
-        "why": "Sensational verbs and nouns dramatize the criticism and the loss."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "failed Ohio Republican gubernatorial candidate Vivek Ramaswamy and his GOP handlers",
-        "why": "\"Failed\" and \"handlers\" are pejorative descriptors in the narrator's own voice."
-      },
-      {
-        "type": "Framing",
-        "quote": "lost his scandal-plagued race",
-        "why": "Characterizes the campaign as scandal-ridden in the narrator's voice rather than attributing the description."
-      },
-      {
-        "type": "Source selection",
-        "quote": "drew bipartisan outrage for using Democratic Gov.-elect Amy Acton’s estranged mother in an attack ad",
-        "why": "Adds a damaging episode for Ramaswamy, and the excerpt gives no response from his campaign."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "89756cba3e57",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Democrat locked in Deep South Senate stunner",
-    "link": "https://www.axios.com/2026/11/05/mississippi-senate-election-scott-colom-democrat",
-    "summary": "One of the biggest nail-biters of the 2026 election isn't playing out in a purple state, but crimson Mississippi, where Democrat Scott Colom is trying to pull off a Magnolia State upset. The big picture: It's one of the most remarkable currents of Tuesday's blue wave.",
-    "published": "2026-11-05T20:46:28+00:00",
-    "id": "fa518c7ec644",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "Based on only a headline and short feed summary, the framing is excited toward the Democratic challenger: \"stunner,\" \"nail-biters,\" and \"blue wave\" cast the race as a remarkable Democratic surge. No Republican perspective or sourcing appears in the available text, so the lean is moderate and confidence is low.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Democrat locked in Deep South Senate stunner",
-        "why": "Dramatic headline wording emphasizes the Democrat's surprising strength and frames the race as an upset in the making."
-      },
-      {
-        "type": "Framing",
-        "quote": "It's one of the most remarkable currents of Tuesday's blue wave.",
-        "why": "Adopts the 'blue wave' narrative as established fact and describes it as remarkable, which favors the Democratic storyline."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "trying to pull off a Magnolia State upset",
-        "why": "Casts the Democrat as an underdog pursuing a triumph, with a rooting-style tone."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "fa518c7ec644",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Gavin Newsom commutes more than 500 death sentences in California",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/gavin-newsom-commutes-death-sentences-california",
-    "summary": "Democrat’s move prevents these people from executions under future governors, after Christa Pike’s failed execution Gavin Newsom , California ’s governor, commuted the death sentences of more than 500 people on the state’s death row on Thursday, a move that ensures they can never be executed under future…",
-    "published": "2026-11-05T20:44:57+00:00",
-    "id": "d7e92b6d4c19",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -30,
-    "spin": 25,
-    "leanWhy": "The excerpt leans left through sourcing and framing: it ties the commutation to \"global outrage\" over another execution, quotes Newsom's moral rationale at length, and lists only abolitionist supporters (ACLU, King III, Stevenson, Woodford). Victims' families and death penalty supporters have no voice in the excerpt, though Newsom's acknowledgment of their pain is quoted.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "sparked global outrage and renewed calls for a nationwide pause on capital punishment",
-        "why": "Presents the opposition to executions as broad and the context as favorable to abolition, without any counter-view."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The announcement was praised by the American Civil Liberties Union and prominent advocates who oppose the death penalty",
-        "why": "Only supporters of the move are quoted in the excerpt, while critics and victims' families are absent."
-      },
-      {
-        "type": "Framing",
-        "quote": "for some, a dramatic change after decades isolated in solitary cells",
-        "why": "Emphasizes the benefit to inmates of Newsom's earlier changes, a sympathetic framing of the condemned."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "3d719d563d21",
-    "coverage": 5
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US holds secret talks with Tehran to deport Iranians even as war drags on, court documents show",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/trump-administration-deport-iranians",
-    "summary": "Trump administration push emerges from a lawsuit alleging violations of national immigration regulations The Trump administration held secret talks with Iran on deporting Iranians even as the war there dragged on, court documents obtained by the Associated Press show.",
-    "published": "2026-11-05T20:43:26+00:00",
-    "id": "5cc13f60d773",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly straight reporting from court documents, but it leads with the \"secret talks\" framing and gives the judge's strongly worded rebuke and the plaintiff legal group's claims the most space. The government gets only one brief quote and a no-comment line, which tilts toward the humanitarian, immigration-critical framing.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "US holds secret talks with Tehran to deport Iranians even as war drags on",
-        "why": "\"Secret\" and \"even as war drags on\" cast the contacts as clandestine and morally fraught, though the text describes routine travel-document logistics."
-      },
-      {
-        "type": "Source selection",
-        "quote": "a serious threat of certain death",
-        "why": "The judge's most dramatic language is quoted at length, while the government's rationale gets a single sentence."
-      },
-      {
-        "type": "Source selection",
-        "quote": "One of those detainees attempted suicide once he learned he might be returned to Iran",
-        "why": "The excerpt includes an emotive detail from the advocacy group's director, with no counterweight from the government."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5cc13f60d773",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "California Gov. Newsom commutes all death sentences in the state",
-    "link": "https://www.nbcnews.com/now/video/california-gov-newsom-commutes-all-death-sentences-in-the-state-272948293775",
-    "summary": "California Gov. Gavin Newsom has commuted all death sentences in the state, saying he opposes \"state-sanctioned killing.\" NBC News' Danny Cevallos has details on the governor's decision.",
-    "published": "2026-11-05T20:41:57+00:00",
-    "id": "0d6fa6647c16",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "Only a headline and short feed summary are available. The summary states the action neutrally and quotes Newsom's own phrase \"state-sanctioned killing\" with attribution, with no victim or opposing voices visible, which gives a very slight tilt toward the governor's framing.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "saying he opposes \"state-sanctioned killing.\"",
-        "why": "The only voice in the summary is the governor's own framing, with no victims' families or supporters of capital punishment."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "A Removal Order Is Not a Suggestion",
-    "link": "https://dailycaller.com/2026/11/05/scott-mechkowski-removal-order-ice-dhs-midterms-obama",
-    "summary": "Overstaying a visa. Visa fraud. Falsely claiming to be a citizen.",
-    "published": "2026-11-05T20:37:14+00:00",
-    "id": "02cec7a9d5c6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 68,
-    "spin": 58,
-    "leanWhy": "This is a first-person op-ed by a former ICE official. It argues that the \"non-criminal\" label hides legal violations, using right-coded immigration framing: rule of law, \"illegal alien,\" and attacks on critics and reporters. Opposing views are absent or caricatured, and the argument rests on selective statistics and a one-sided account of due process.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "illegal alien with a final order of removal",
-        "why": "Uses the right-coded term \"illegal alien\" and frames every case as a defiant removal-order violator."
-      },
-      {
-        "type": "Framing",
-        "quote": "The word is doing all the work because the facts can’t.",
-        "why": "Dismisses critics' arguments as deliberate deception and attributes bad faith to them."
-      },
-      {
-        "type": "Source selection",
-        "quote": "the pro-amnesty National Council of La Raza",
-        "why": "Labels an opposing group with a partisan tag, and uses a single quote from it to score a point against Democrats."
-      },
-      {
-        "type": "Omission",
-        "quote": "The reporter almost never tells you what that word is covering for.",
-        "why": "Makes a sweeping claim about press coverage without evidence, and the excerpt does not address cases involving people with no removal order."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "02cec7a9d5c6",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Ex-Alaska lawmaker details mystery recruiter as FBI, Congress widen 'Decoy Dan' scrutiny",
-    "link": "https://www.foxnews.com/politics/ex-alaska-lawmaker-details-mystery-recruiter-fbi-congress-widen-decoy-dan-scrutiny",
-    "summary": "The FBI interviewed former Alaska Republican David Eastman after a Democratic operative allegedly posed as a conservative recruiter in the Senate race.",
-    "published": "2026-11-05T20:32:53+00:00",
-    "id": "c909dcb4760f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 40,
-    "leanWhy": "The piece leans on right-coded sources and framing: a conservative attorney is the main voice on criminal liability, the \"Decoy Dan\" label is used as the story's frame, and a Republican victim account follows. The article does note that the effect on votes is unproven and that the legal theory is untested, but no Democratic or Peltola-side response appears in the excerpt.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Article III Project attorney Will Chamberlain argued that a coordinated effort to deceive voters",
-        "why": "The main legal analysis comes from a conservative advocacy attorney, with no neutral legal expert or Democratic response."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "the controversial \"Decoy Dan Sullivan\" ballot scheme",
-        "why": "Calling it a 'scheme' and using the nickname presents the allegation as established in the narration."
-      },
-      {
-        "type": "Framing",
-        "quote": "The allegations raise questions about potential federal criminal liability.",
-        "why": "The text moves from unproven allegations to felony exposure and a possible 10-year sentence, which pushes the conclusion beyond the facts."
-      },
-      {
-        "type": "Framing",
-        "quote": "an apparent Democratic political operative allegedly posed as a conservative recruiter",
-        "why": "The partisan identity of the alleged operative is stressed, even though the operative's identity is hedged."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "c909dcb4760f",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Inside Mississippi's ballot counting in tight Senate race",
-    "link": "https://www.bbc.co.uk/news/videos/cmj477d0dyxqo?at_medium=RSS&at_campaign=rss",
-    "summary": "The BBC's Carl Nasman goes inside a county election commission building as votes are counted in the race between Democrat Scott Colom and Republican Cindy Hyde-Smith.",
-    "published": "2026-11-05T20:31:38+00:00",
-    "id": "9dafeab3a238",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "The excerpt is a short, factual election-count update that gives vote totals, the deadline and the historical context, with no argument or loaded wording. The phrase \"surprisingly tight\" and the historic-first detail are mild emphasis, but they are standard news context and don't favor either side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "surprisingly tight race",
-        "why": "Calling the race surprising slightly stresses the Democrat's strong showing against the incumbent."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "9dafeab3a238",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Department Of War’s Absurd Answer To Blue Tsunami: A Podcast About How Much Top Iran War Brass Loves French Fries",
-    "link": "https://dailycaller.com/2026/11/05/dow-inside-centcom-podcast-bradley-cooper-iran-war-midterms",
-    "summary": "Is this a joke?",
-    "published": "2026-11-05T20:30:02+00:00",
-    "id": "bd4ed2b92bf4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -80,
-    "spin": 75,
-    "leanWhy": "This is a first-person opinion piece that attacks the Trump administration's Iran war and a Department of War podcast in sharply loaded terms. It has no defenders of the administration or of the podcast, and it casts the war as a failure and the GOP as collapsing.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "The American Empire is in a crisis. The Iran War is an ongoing disaster. The Republican Party is on life support.",
-        "why": "Opens with sweeping, one-sided declarations of failure presented as fact."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "voters spanked the Trump administration for dragging the country into yet another fruitless Middle East war",
-        "why": "Uses mocking, charged wording to interpret an election result as a verdict on the war."
-      },
-      {
-        "type": "Framing",
-        "quote": "Our military can't win wars anymore, but it can set up a mean podcast studio.",
-        "why": "Sarcastic generalization that stretches a minor podcast story into a claim about military failure."
-      },
-      {
-        "type": "Source selection",
-        "quote": "I also learned that the DOW is kind of a joke.",
-        "why": "Judges the project on the writer's own view, with no supporters or the DOW's rationale beyond one quoted line."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "bd4ed2b92bf4",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Obama Judge Allows Blue State’s Permit Scheme For Semi-Auto Guns To Take Effect",
-    "link": "https://dailycaller.com/2026/11/05/obama-judge-allows-blue-states-permit-scheme-for-semi-auto-guns-to-take-effect",
-    "summary": "Martinez also argued that since Colorado’s permit-to-purchase scheme was “shall issue,” it was constitutional.",
-    "published": "2026-11-05T20:27:10+00:00",
-    "id": "5fa8c21a9b24",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 30,
-    "leanWhy": "The headline and text use right-coded framing: the judge is labeled \"Obama Judge\", the law a \"scheme\", and the state \"Blue State\". The piece also leans on gun-rights sourcing (NRA, Mountain States Legal Foundation) and gives no defender of the law. The ruling itself is reported accurately, but the closing details (sales surge, a 152-page draft of photos) stress the law's burdens.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Obama Judge Allows Blue State’s Permit Scheme",
-        "why": "Partisan labels for the judge and state, and the word 'scheme', cast the law and ruling in a hostile light."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Martinez claimed in his opinion",
-        "why": "'Claimed' for a judicial holding casts doubt on its legitimacy, where 'wrote' would be neutral."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The National Rifle Association and the Mountain States Legal Foundation supported litigation",
-        "why": "Only the gun-rights side is described; no supporters of the law or the state's defense are quoted."
-      },
-      {
-        "type": "Framing",
-        "quote": "so-called “assault weapons”",
-        "why": "Scare quotes cast doubt on a term used by gun-control advocates."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "5fa8c21a9b24",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "The Blue Wave’s Wake Intensifies Days After Election Day",
-    "link": "https://dailycaller.com/2026/11/05/blue-wave-election-day-midterm-democrats-win-arizona-north-carolina-virginia-kansas",
-    "summary": "Voters push back against the GOP",
-    "published": "2026-11-05T20:26:51+00:00",
-    "id": "972f11f6f577",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -25,
-    "spin": 25,
-    "leanWhy": "The piece is mostly a tally of races, but it uses celebratory framing (\"just how strong the blue wave really is,\" \"voters push back against the GOP\") and links to triumphant items about Democratic gains. No Republican voices or counter-context appear, so the framing leans toward the Democratic side.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the results show just how strong the blue wave really is",
-        "why": "The opening makes an emphatic claim about the scale of the result instead of leaving the numbers to speak."
-      },
-      {
-        "type": "Framing",
-        "quote": "as voters push back against the GOP and its leader, President Donald Trump",
-        "why": "It presents the results as a repudiation of Republicans and Trump, which is an interpretive frame."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Internet On Fire With The Jokes After Democrats Shellack Republicans In Midterms",
-        "why": "The related link is mocking and celebratory toward Republicans' losses."
-      },
-      {
-        "type": "Source selection",
-        "quote": "according to Politico",
-        "why": "The interpretation relies on one outlet and the AP, with no Republican response or alternative explanation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "972f11f6f577",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Ron DeSantis Slams Vivek’s Disastrous Ohio Gov Campaign: ‘You’ve Got To Meet Voters Where They Are’",
-    "link": "https://dailycaller.com/2026/11/05/ron-desantis-vivek-governor-race",
-    "summary": "‘How bad did they beat Vivek? Like a drum!’",
-    "published": "2026-11-05T20:17:16+00:00",
-    "id": "73644379f894",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 25,
-    "leanWhy": "The piece mostly relays DeSantis's intra-GOP criticism of Ramaswamy, with a sensational headline (\"Slams\", \"Disastrous\") and added context that dwells on Ramaswamy's weaknesses, including the ad controversy and his H-1B stance. It also notes the broader loss for Republicans and Trump, but the framing is mostly about a Republican-vs-Republican dispute, so no clear partisan side is favored.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Ron DeSantis Slams Vivek’s Disastrous Ohio Gov Campaign",
-        "why": "\"Slams\" and \"Disastrous\" are sensational characterizations that go beyond the neutral quotes in the article."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats regained majorities in the House and Senate after voters soured over Trump’s handling of the economy, Iran war and corruption.",
-        "why": "This states a causal explanation for the midterm results in the outlet's own voice, without attribution."
-      },
-      {
-        "type": "Omission",
-        "quote": "Ramaswamy faced backlash after his campaign released an ad featuring Acton’s estranged mother",
-        "why": "The ad controversy is added as unfavorable context for Ramaswamy, with no response from his campaign."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "73644379f894",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Escaped Tennessee killer hid in Illinois shed with beer and garlic bread before capture: Sheriff",
-    "link": "https://www.foxnews.com/us/escaped-tennessee-killer-hid-illinois-shed-beer-garlic-bread-before-capture-sheriff",
-    "summary": "Jacob Allen Morley hid in an Illinois shed near Marion, drinking beer and making garlic bread before FLOCK cameras helped track the Tennessee escapee.",
-    "published": "2026-11-05T20:13:06+00:00",
-    "id": "d220eaf18eb9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight factual recap of a prison escape and recapture, attributed to law enforcement statements. The quirky headline detail (beer, garlic bread) is mildly sensational, but there is no clear partisan framing.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "hid in Illinois shed with beer and garlic bread before capture",
-        "why": "The headline leads with a quirky, almost light-hearted detail about a convicted killer, which is mildly sensational."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "d220eaf18eb9",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Wisconsin reports its first measles death in decades, the third in the U.S. this week",
-    "link": "https://www.nbcnews.com/health/health-news/wisconsin-measles-death-us-third-week-rcna607701",
-    "summary": "An infant in Wisconsin has died of measles, the state health department said — the third measles-related death reported in the U.S. this week.",
-    "published": "2026-11-05T20:05:53+00:00",
-    "id": "f314198f6efb",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a mostly factual report on measles deaths. It relies on state health departments and the CDC, and it attributes figures to them. It leans slightly toward the pro-vaccine, public-health framing by noting that vaccination rates have declined and that the vaccine is effective, but it draws no political conclusions and quotes no partisan voices.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The dramatic rise is linked, in part, to a decline in vaccination rates across the country.",
-        "why": "This puts the vaccination-decline explanation up front without any other perspective, which fits the public-health framing."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "f314198f6efb",
-    "coverage": 2
-  },
-  {
-    "outlet": "Fox",
-    "title": "Gavin Newsom wipes out California's death row in historic mass commutation",
-    "link": "https://www.foxnews.com/politics/gavin-newsom-wipes-out-californias-death-row-historic-mass-commutation",
-    "summary": "California Gov. Gavin Newsom will commute all 548 death sentences to life without parole, drawing sharp backlash from victims' rights advocates.",
-    "published": "2026-11-05T20:03:38+00:00",
-    "id": "c1ba20264172",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The piece reports Newsom's reasoning and includes praise from an anti-death-penalty advocate, but the headline's \"wipes out\" and the summary's \"sharp backlash\" emphasize controversy. Victims' rights criticism is given prominence, including the \"serial killer vote\" jab, and the excerpt shows no support for the death penalty beyond that victim-side voice.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Gavin Newsom wipes out California's death row in historic mass commutation",
-        "why": "\"Wipes out\" and \"mass commutation\" are dramatic words that cast the action as sweeping and extreme."
-      },
-      {
-        "type": "Framing",
-        "quote": "drawing sharp backlash from victims' rights advocates",
-        "why": "The summary leads with the opposition reaction and frames the story around backlash."
-      },
-      {
-        "type": "Source selection",
-        "quote": "He has definitely secured the serial killer vote now,",
-        "why": "The article runs this barbed quote from a victim's father near the end of the critic's section, where it stands unrebutted."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The decision drew immediate criticism from victims' rights advocates",
-        "why": "The excerpt names the critics as a sympathetic victim's family member but gives no prosecutors, officials or other death-penalty supporters."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "c1ba20264172",
-    "coverage": 2
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Deep-red Kansas votes for change as patience wears thin with Trump: ‘The economy is really taking a beating’",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/kansas-voters-trump-republicans-dispatch",
-    "summary": "Bills have soared in rural state buffeted by tariffs and war in Iran – and Democrat Adam Hamilton’s stunning upset shows how deep economic frustrations run Linda Olson always does her homework before voting – a trait she inherited from a family invested, and interested, in politics.",
-    "published": "2026-11-05T20:00:32+00:00",
-    "id": "d58944f53442",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 35,
-    "leanWhy": "The piece is a feature built around a disillusioned Trump voter and a professor's comments, so the story of Republican decline and Trump-driven economic pain dominates. Trump defenders and Republican voices are absent from the excerpt, and the headline and summary present economic hardship as a verdict on Trump.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "he had been acting to “make himself richer instead of really helping the people”",
-        "why": "A former Trump voter's harsh claim goes unanswered by any Trump or Republican voice."
-      },
-      {
-        "type": "Framing",
-        "quote": "patience with Trump and the Republican party is wearing thin",
-        "why": "The reporter states the broad conclusion in their own voice, extrapolating from one race and a few counties."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "this cult of personality that Trump has tried to make the Republican party into",
-        "why": "The professor's charged description is included without any counterpoint."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "‘The economy is really taking a beating’",
-        "why": "The headline quote and 'Deep-red Kansas votes for change' present a single voter's view as the state's mood."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "d58944f53442",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US accuses Mexican judge of $2m bribe to free accused drug trafficker allegedly linked to ex-Olympic snowboarder",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/mexican-judge-us-arrest-drug-trafficking",
-    "summary": "The judge oversaw extradition proceedings in Mexico for a Canadian citizen allegedly helping Ryan Wedding A Mexican judge has been arrested and accused of accepting $2m in bribes in exchange for releasing a suspected Canadian drug trafficker from custody, US officials said on Thursday.",
-    "published": "2026-11-05T19:58:49+00:00",
-    "id": "31e2253bfb52",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news account of a DOJ announcement. It uses consistent attribution (\"accused\", \"allegedly\", \"according to the statement\") and notes that the defense could not be reached. The only mild tilt is that the attorney general's quote is the main voice, and no independent source appears.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "“Crooked public officials, no matter where they are, who assist drug traffickers operating here at home will face justice in the United States,”",
-        "why": "The only direct quote is the prosecution's tough-on-crime line, with no independent or Mexican voice."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "31e2253bfb52",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "California Gov. Gavin Newsom commutes all death sentences",
-    "link": "https://www.nbcnews.com/news/us-news/california-gov-gavin-newsom-commutes-death-sentences-rcna607727",
-    "summary": "Gov. Gavin Newsom commuted all California death sentences on Thursday, declaring that “state-sanctioned killing is incompatible with” values in America’s most populous state.",
-    "published": "2026-11-05T19:42:25+00:00",
-    "id": "3d719d563d21",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The piece is mostly straight reporting. It gives Newsom's rationale and quotes from abolitionist groups, and it also gives a victim's father a lot of space, including a politically pointed closing quote about timing. The balance is roughly even, with a slight tilt toward the critical victim-family framing in the final lines.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "“knife in the back” to him and other victims’ families",
-        "why": "A victim's father gets an emotionally strong quote and the final word, which tilts emphasis slightly toward the punishment-and-victims frame."
-      },
-      {
-        "type": "Framing",
-        "quote": "the timing of this announcement isn’t lost on Klaas",
-        "why": "Raises the 2028 political-motive angle through a critic's voice, with no response from Newsom visible in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "3d719d563d21",
-    "coverage": 5
-  },
-  {
-    "outlet": "Fox",
-    "title": "Democrats ‘divorced from voters’ as 5 states back citizen-only voting, bolstering GOP push",
-    "link": "https://www.foxnews.com/politics/democrats-divorced-voters-5-states-back-citizen-only-voting-bolstering-gop-push",
-    "summary": "Voters in Kansas, Alaska, Arkansas, South Dakota and West Virginia approved noncitizen voting bans by wide margins, but a key Supreme Court case looms.",
-    "published": "2026-11-05T19:34:30+00:00",
-    "id": "93a396d836b0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 55,
-    "spin": 55,
-    "leanWhy": "The headline and sourcing adopt the conservative frame that Democrats are \"divorced from voters.\" The excerpt relies almost entirely on right-leaning advocates (Snead, von Spakovsky) and gives Democrats only a one-clause rebuttal that the SAVE America Act would disenfranchise eligible voters.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "Democrats ‘divorced from voters’ as 5 states back citizen-only voting, bolstering GOP push",
-        "why": "The headline presents a partisan advocate's characterization as the main takeaway, even though the ballot measures themselves did not test Democrats' positions."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Hans von Spakovsky, a former member of the Federal Election Commission and senior legal fellow of Advancing American Freedom, said the Democratic Party is completely \"divorced\" from its voters.",
-        "why": "The only analysis comes from conservative advocates, with no Democratic or voting-rights voices quoted at length."
-      },
-      {
-        "type": "Framing",
-        "quote": "\"The left is far out of step with the American public, and they really should be answering the question,",
-        "why": "The piece ends on an unrebutted partisan attack, and the excerpt gives it the last word."
-      },
-      {
-        "type": "Omission",
-        "quote": "Democrats argued it would disenfranchise eligible voters.",
-        "why": "The Democratic argument gets one clause and no elaboration, while the other side's claims are quoted at length."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "93a396d836b0",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Hegseth demands $350B for military, fires back at Dem impeachment push",
-    "link": "https://www.foxnews.com/politics/hegseth-demands-350b-military-fires-back-dem-impeachment-push",
-    "summary": "War Secretary Pete Hegseth urged Congress to approve $350 billion in military funding and vowed to fight Democratic impeachment efforts.",
-    "published": "2026-11-05T19:28:24+00:00",
-    "id": "253dfd4bed17",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly a recap of Hegseth's video, and it gives his framing most of the space and the last word. Impeachment critics are not quoted directly, and the headline's \"Dem impeachment push\" fits Hegseth's partisan framing even though the text says Massie, a Republican, leads the effort.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "fires back at Dem impeachment push",
-        "why": "The headline labels the effort as Democratic, but the article says it is led by a Republican, Rep. Massie."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"We will not back down. We put America and the warfighter first, always and without apology.\"",
-        "why": "Hegseth gets the closing word, and no impeachment supporters or Democrats are quoted to explain their case."
-      },
-      {
-        "type": "Framing",
-        "quote": "Hegseth dismissed the effort as politically motivated.",
-        "why": "His characterization of the impeachment effort is repeated without independent context on the substance of the war powers allegations."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "253dfd4bed17",
     "coverage": 1
   }
 ]
