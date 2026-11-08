@@ -1,5 +1,138 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "U.S. launches task force to disrupt Iranian ground shipping routes",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "summary": "The U.S. did not say whether any military action would be involved in preventing weapons technology or sanctioned items from entering Iran.",
+    "published": "2026-11-08T07:53:32+00:00",
+    "id": "a7671a8a9a20",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is mostly wire-style reporting that attributes claims to the Houthis, Saudi coalition, CENTCOM and the UN. It leans slightly toward the US military's account by repeating its framing of \"success\" and \"ironclad blockade\" and giving little independent or Iranian response.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "reinforces the success of our ironclad blockade against Iran at sea",
+        "why": "The US military's self-assessment is quoted with no counterpoint or independent assessment in the excerpt."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Houthi authorities said Sunday that Saudi strikes killed 33 people",
+        "why": "The article leads with Yemen's civil war, while the headline is about the US task force, so the framing is diffuse."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "a7671a8a9a20",
+    "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+    "link": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+    "summary": "President Donald Trump said Saturday that he has offered the job of White House press secretary to his friend and UFC boss Dana White.",
+    "published": "2026-11-08T07:35:29+00:00",
+    "id": "68d6d9e5a123",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "Only a headline and a short feed summary were available. Both state the reported facts (an offer and a planned meeting) in neutral wording, with no loaded language or sourcing tilt.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
+  },
+  {
+    "outlet": "Fox",
+    "title": "New Jersey town reveals staggering $26M theft days after election, sparking backlash",
+    "link": "https://www.foxnews.com/politics/new-jersey-town-reveals-staggering-26m-theft-days-after-election-sparking-backlash",
+    "summary": "Cranbury Township residents demand answers after a $26 million fraudulent wire transfer was kept secret until days after Election Day in New Jersey.",
+    "published": "2026-11-08T07:34:26+00:00",
+    "id": "1980a01cdab6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly factual, but the headline and framing stress the timing of the disclosure just after Election Day. It also notes the mayor's Democratic affiliation and the Democrats' sweep of the township committee, which implies a political cover-up that the text does not establish. Sourcing for the backlash is limited to Facebook comments.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "just days after Election Day",
+        "why": "The headline and lead stress the election timing, which implies political motive without evidence of one."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Several residents responded to the announcement on the township's Facebook page",
+        "why": "The backlash rests on a few social media comments, which makes it look like broader outrage."
+      },
+      {
+        "type": "Framing",
+        "quote": "Knierim, a Democrat, said",
+        "why": "The mayor's party is highlighted, and the article adds that Democrats kept all five committee seats, linking the story to partisanship."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "staggering $26M theft",
+        "why": "The word 'staggering' is sensational for what is otherwise a fraud-recovery story with funds partly frozen."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "1980a01cdab6",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump’s shattered ‘mirror world’: American voters roundly reject president’s alternate reality",
+    "link": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/08/trump-midterms-voters-mirror-world",
+    "summary": "President claimed to have ushered in a ‘golden age’ even as prices soared and war dragged on – and midterm voters did not buy his looking-glass narrative A new “golden age of America” is under way, Donald Trump repeatedly declared in his final pitch to voters before the US midterm elections.",
+    "published": "2026-11-08T07:00:34+00:00",
+    "id": "0026999fee7d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -55,
+    "spin": 55,
+    "leanWhy": "The piece is framed as news but adopts a mocking, conclusive frame (a \"shattered mirror\" and an \"alternate reality\") that casts Trump's claims as delusion and treats voter rejection as total. Sourcing is a Republican critic and unnamed voters speaking against Trump, with Trump's own words used to highlight contradictions, so his side gets no substantive defense.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump’s shattered ‘mirror world’: American voters roundly reject president’s alternate reality",
+        "why": "The headline uses a sweeping, derisive metaphor and presents the rejection as total and settled."
+      },
+      {
+        "type": "Framing",
+        "quote": "casting his enemies as democracy-stealing villains and himself as the savior",
+        "why": "It states in the paper's own voice that Trump built a false constructed reality, rather than attributing this to critics."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“One by one,” said Tom Galvin, a Republican on the Maricopa county board of supervisors in Arizona",
+        "why": "A Republican critic is chosen to confirm the failure narrative, and no Trump defenders are quoted in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Americans, including those who went for Trump in the past, weren’t buying his narrative.",
+        "why": "It generalizes about all Americans' views and motives, going beyond what the election results alone show."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "0026999fee7d",
+    "coverage": 1
+  },
+  {
     "outlet": "NBC News",
     "title": "James Talarico, who led Democratic upset in Texas’ U.S. Senate race, kicks off ‘SNL’",
     "link": "https://www.nbcnews.com/pop-culture/tv/james-talarico-kicks-off-snl-rcna608071",
@@ -28,6 +161,42 @@
         "type": "Omission",
         "quote": "suggested working with the Republican president to “make life better for everyday Americans.”",
         "why": "Gives the senator-elect the last, conciliatory word with no Republican response beyond the parody."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "ecd0c52c02fb",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "James Talarico kicks off ‘SNL’ days after historic Texas Senate win",
+    "link": "https://www.nbcnews.com/pop-culture/tv/james-talarico-kicks-off-snl-rcna608071",
+    "summary": "James Talarico, a Democrat whose U.S. Senate victory this week was once thought improbable in the Republican stronghold of Texas, made a surprise appearance to help kick off the latest episode of “Saturday Night Live.”",
+    "published": "2026-11-08T06:09:45+00:00",
+    "id": "4d4ca23565f2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a recap of a comedy sketch, but it frames the Democratic win as \"historic\" and once \"improbable,\" and it recounts the Democratic sweep without any Republican voice. The sketch material is reported lightly, with Trump mocked and Talarico shown as gracious and bipartisan, which gives a mild positive tilt toward Democrats.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "historic Texas Senate win",
+        "why": "The headline presents the Democratic win as historic, a celebratory framing."
+      },
+      {
+        "type": "Framing",
+        "quote": "who claimed every statewide office up for grabs",
+        "why": "It stresses the scale of the Democratic sweep after a 'decades-long drought', with no Republican perspective."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Talarico, who campaigned on battling wealth disparity and political corruption",
+        "why": "It describes his platform in his own favorable terms, with no counterpoint."
       }
     ],
     "confidence": "medium",
@@ -113,8 +282,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "Washington Examiner",
@@ -175,8 +344,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "BBC",
@@ -473,8 +642,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "NPR",
@@ -590,8 +759,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "NBC News",
@@ -621,8 +790,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "Fox",
@@ -688,8 +857,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "Washington Examiner",
@@ -992,8 +1161,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "The Guardian",
@@ -1047,7 +1216,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "409d3062e1d1",
+    "cluster": "a7671a8a9a20",
     "coverage": 2
   },
   {
@@ -1170,8 +1339,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "cd5e78b9475c",
-    "coverage": 6
+    "cluster": "68d6d9e5a123",
+    "coverage": 7
   },
   {
     "outlet": "NPR",
@@ -1558,8 +1727,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "8834a5529d84",
-    "coverage": 3
+    "cluster": "405870f7c58e",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1599,8 +1768,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "8834a5529d84",
-    "coverage": 3
+    "cluster": "aa4cd7414b9b",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1687,8 +1856,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "8834a5529d84",
-    "coverage": 3
+    "cluster": "bccd613eacfb",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1933,7 +2102,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "409d3062e1d1",
+    "cluster": "a7671a8a9a20",
     "coverage": 2
   },
   {
@@ -2072,8 +2241,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "8834a5529d84",
-    "coverage": 3
+    "cluster": "54a148539fde",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2507,8 +2676,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "dcd440deeafe",
-    "coverage": 2
+    "cluster": "e687c5a36a64",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -9548,174 +9717,5 @@
     "storyChoice": "neither",
     "cluster": "80b28d773125",
     "coverage": 3
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Gov. Gavin Newsom Commutes All 548 California Death Sentences",
-    "link": "https://www.today.com/video/gov-gavin-newsom-commutes-all-548-california-death-sentences-272994373864",
-    "summary": "California Gov. Gavin Newsom has commuted the death sentences of all 548 inmates on the state’s death row. Those prisoners will now receive a sentence of life in prison without the possibility of parole.",
-    "published": "2026-11-06T13:06:14+00:00",
-    "id": "f7f9713e9b7c",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "Only a headline and a short summary were available. Both state the action and its consequence (life without parole) in plain terms, with no loaded wording and no quoted sources from either side.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "f7f9713e9b7c",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump touts imminent decision on potential new attack on Iran",
-    "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
-    "summary": "President Trump says he will make a decision \"very soon\" on whether to \"destroy what is left of\" Iran, calls Qatari emir as mediators push for a peace deal.",
-    "published": "2026-11-06T13:05:43+00:00",
-    "id": "95ba0426bdb6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is a straight news report that relies on attributed statements from Iranian officials, a UK maritime agency, the Qatari emir's office and a US official. The headline's \"touts\" is slightly loaded, and the excerpt gives Iranian claims a lot of space, but it flags that the incident reports are unverified.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Trump touts imminent decision on potential new attack on Iran",
-        "why": "\"Touts\" and \"attack\" frame the president's remarks slightly promotionally and aggressively, though this is mild."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "95ba0426bdb6",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US midterm elections 2026 live: all eyes on last two razor-thin Senate races as Democrats vie to expand blue wave",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
-    "summary": "Tight races in Mississippi and Alaska could further tip scale for Democrats; blue wave has already given the party more than 40 new House seats Live results : see results from races in all 50 states Sign up for Breaking News US email European stock markets have fallen sharply as a rout in US tech stocks spread across…",
-    "published": "2026-11-06T13:05:06+00:00",
-    "id": "17881649c0f9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "This is a live-blog recap that mostly reports results, but it uses vivid, Democratic-favorable framing such as \"blue wave\", \"Republican wipeout\" and \"vie to expand\". Quotes from Republicans criticizing their own party's performance dominate, and Democratic voices get little scrutiny.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the Republican wipeout",
-        "why": "Dramatic, triumphal wording describes the GOP result instead of neutral terms."
-      },
-      {
-        "type": "Framing",
-        "quote": "as Democrats vie to expand blue wave",
-        "why": "The headline takes the wave as an established narrative and casts Democrats as the protagonists."
-      },
-      {
-        "type": "Source selection",
-        "quote": "a Watergate-level repudiation",
-        "why": "The excerpt emphasizes a Republican's harsh self-criticism and does not include GOP voices who explain or defend the result."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats are expected to use their power in taking control of Congress to aggressively investigate executive agencies",
-        "why": "It presents the oversight plans without any Republican response or context."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "17881649c0f9",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "'We didn't expect this': Texas Democrats stunned as blue wave topples GOP stronghold",
-    "link": "https://www.foxnews.com/politics/we-didnt-expect-this-texas-democrats-stunned-blue-wave-topples-gop-stronghold",
-    "summary": "Texas Democrat James Talarico toppled Ken Paxton by over 12 points as a blue wave shattered the GOP's grip on the deep -red Lone Star State.",
-    "published": "2026-11-06T13:02:53+00:00",
-    "id": "9f7b63592a56",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly an election-night recap, but it relies on celebratory Democratic voices and a former Republican saying the party \"lost its way\", with no Republican officials quoted in the excerpt. Dramatic wave language (\"slam into\", \"shattered\", \"swept away\") and the \"referendum against Trump\" quote amplify a Democratic victory narrative.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "shattered the GOP’s grip on Texas, serving Republicans in Congress a stiff blow",
-        "why": "Dramatic, triumphant phrasing goes beyond a neutral account of the result."
-      },
-      {
-        "type": "Source selection",
-        "quote": "This is a referendum against Trump.",
-        "why": "The interpretive frame comes from a lifelong Democrat, and the excerpt offers no Republican counterpoint."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The Republicans have lost their way, I believe.",
-        "why": "A single switching Republican voter is used to support the narrative of a broad GOP collapse."
-      },
-      {
-        "type": "Framing",
-        "quote": "the optimism at the watch party was palpable",
-        "why": "Atmospheric detail emphasizes Democratic jubilation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9f7b63592a56",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "What is this strange, post-election feeling? Oh right – it’s utter joy | Dave Schilling",
-    "link": "https://www.theguardian.com/commentisfree/2026/nov/06/post-election-feeling-optimism",
-    "summary": "A decade of political misery does terrible things to the mind. Tuesday’s wins came with a sense of unreality Late on Tuesday night, the comedian Alex Edelman asked a poignant question on social media : “I know we’ve never had to ask this before tonight, but what’s the opposite of doomscrolling?” I don’t have a…",
-    "published": "2026-11-06T13:00:43+00:00",
-    "id": "350e63f9723d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -85,
-    "spin": 60,
-    "leanWhy": "This first-person column celebrates Democratic election wins with open partisan joy. It equates liberal views with \"general human decency\", relishes conservative pundits' dismay, and frames the results as a rebuke of Trump. It briefly concedes losses on anti-trans bills and the billionaire tax.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "whatever buzzword my media colleagues want to ascribe to general human decency",
-        "why": "Equates liberal or progressive identity with decency, which implicitly casts opponents as lacking it."
-      },
-      {
-        "type": "Framing",
-        "quote": "the thousand-yard death stares of conservative pundits on the various cable news channels delivered the schadenfreude my life has sorely lacked",
-        "why": "Openly gloats over political opponents' distress."
-      },
-      {
-        "type": "Framing",
-        "quote": "Maybe this Trump thing didn't work out quite like his people hoped.",
-        "why": "Presents the results as a clear national verdict against Trump."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Abdul El-Sayed’s righteous anger at the Trump administration",
-        "why": "Endorses a Democratic candidate's attacks with admiring language."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "350e63f9723d",
-    "coverage": 1
   }
 ]
