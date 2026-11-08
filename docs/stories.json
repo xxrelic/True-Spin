@@ -1,5 +1,102 @@
 [
   {
+    "outlet": "NBC News",
+    "title": "James Talarico, who led Democratic upset in Texas’ U.S. Senate race, kicks off ‘SNL’",
+    "link": "https://www.nbcnews.com/pop-culture/tv/james-talarico-kicks-off-snl-rcna608071",
+    "summary": "James Talarico, who helped lead Democratic Party upsets in the Republican stronghold of Texas with his U.S.",
+    "published": "2026-11-08T06:09:45+00:00",
+    "id": "ecd0c52c02fb",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a recap of an SNL sketch and uses a celebratory frame for Democratic wins (\"upsets\", \"victory wave\"), with no Republican voice beyond the sketch's parody of Trump. Details of the election are brief, and the tone is light and favorable to Talarico, though it is mostly descriptive entertainment coverage.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "helped lead Democratic Party upsets in the Republican stronghold of Texas",
+        "why": "Opens by emphasizing Democratic triumph in a GOP stronghold, a celebratory frame."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Talarico, who campaigned on battling wealth disparity and political corruption",
+        "why": "Describes the winner's platform in his own preferred terms without any opposing characterization."
+      },
+      {
+        "type": "Omission",
+        "quote": "suggested working with the Republican president to “make life better for everyday Americans.”",
+        "why": "Gives the senator-elect the last, conciliatory word with no Republican response beyond the parody."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "ecd0c52c02fb",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Donald Trump’s power is on the wane. What next for Russia, Israel – and the rest of us? | Simon Tisdall",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/08/donald-trump-power-russia-israel-us-president",
+    "summary": "With the global tide turning against him, the US president’s lame duck status could still aggravate old tensions and spark new explosions It was a victory for the world, too.",
+    "published": "2026-11-08T06:00:32+00:00",
+    "id": "ea661c95f5a4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -92,
+    "spin": 85,
+    "leanWhy": "This is a columnist piece that celebrates Democratic midterm gains and describes Trump as a \"monster\" and \"malignant\" force, using openly partisan and abusive language. It gives no space to Trump supporters or Republican views and presents a global verdict against him as settled fact.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The monster, like others of his kind, still lurks in his gilded White House lair",
+        "why": "Dehumanizing, villain-style imagery for the president rather than analysis."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "offered him a tumescent middle finger",
+        "why": "Crude, mocking language that celebrates his defeat."
+      },
+      {
+        "type": "Framing",
+        "quote": "It was a victory for the world, too.",
+        "why": "Presents a US election result as a unified global triumph and ignores people who disagree."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "his murderous war of choice against Tehran’s oppressive regime",
+        "why": "Uses charged characterizations as established fact."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "ea661c95f5a4",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Three teens, adult charged with murder after woman finds her teenage son dead in abandoned home",
+    "link": "https://www.foxnews.com/us/three-teens-adult-charged-murder-after-woman-finds-her-teenage-son-dead-abandoned-home",
+    "summary": "Austin Payne's mother tracked his cellphone to an abandoned Albany, Georgia, residence after the 15-year-old called to say he had been shot.",
+    "published": "2026-11-08T05:02:35+00:00",
+    "id": "7b6d4d8404f4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight crime report that relies on police statements and local outlet WALB, with attribution throughout and no editorializing. The focus on a victim's family and on the handgun he displayed on social media is mostly factual detail, so any tilt is slight.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "7b6d4d8404f4",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Dana White responds to question about Trump’s White House press secretary request",
     "link": "https://www.washingtonexaminer.com/news/white-house/4796653/dana-white-responds-question-trump-white-house-press-secretary-request/",
@@ -1405,7 +1502,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "54a148539fde",
+    "cluster": "55361c4efab1",
     "coverage": 1
   },
   {
@@ -1461,8 +1558,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "405870f7c58e",
-    "coverage": 1
+    "cluster": "8834a5529d84",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -1502,8 +1599,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "aa4cd7414b9b",
-    "coverage": 1
+    "cluster": "8834a5529d84",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1590,8 +1687,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "bccd613eacfb",
-    "coverage": 1
+    "cluster": "8834a5529d84",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -1975,8 +2072,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "54a148539fde",
-    "coverage": 1
+    "cluster": "8834a5529d84",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -2533,8 +2630,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "dcd440deeafe",
-    "coverage": 2
+    "cluster": "e687c5a36a64",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -9619,119 +9716,6 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "350e63f9723d",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Bitter Fetterman-El-Sayed feud threatens to complicate Schumer's Senate unity push",
-    "link": "https://www.foxnews.com/politics/bitter-fetterman-el-sayed-feud-threatens-complicate-schumers-senate-unity-push",
-    "summary": "Senate Minority Leader Chuck Schumer's Party unity push faces an early test as John Fetterman and Abdul El-Sayed trade insults over U.S. aid to Israel.",
-    "published": "2026-11-06T13:00:20+00:00",
-    "id": "41384d0a09e2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly a factual recap of an intra-Democratic feud, but it emphasizes the most damaging material about the party's progressive wing: the \"ogre on a pike\" quote, the Hasan Piker link, and Fetterman's \"pro-Hamas wing\" charge. The headline's \"bitter\" and \"threatens to complicate\" framing stresses Democratic discord, and the sourcing relies on Fetterman quotes and one anonymous staffer. El-Sayed's side gets little direct voice.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Bitter Fetterman-El-Sayed feud threatens to complicate Schumer's Senate unity push",
-        "why": "The headline stresses Democratic division and dysfunction, and the body partly hedges it with the staffer's view that the two could set differences aside."
-      },
-      {
-        "type": "Source selection",
-        "quote": "head of our emerging pro-Hamas wing here in the party",
-        "why": "The article repeats Fetterman's sharpest charge without any response from El-Sayed."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "who previously said \"America deserved 9/11,\"",
-        "why": "It dwells on the Piker association, a detail that embarrasses the progressive wing."
-      },
-      {
-        "type": "Source selection",
-        "quote": "A longtime Democratic Senate staffer told Fox News Digital",
-        "why": "The only outside voice is an anonymous staffer, and El-Sayed's side is covered through a reported private call and debate remarks rather than direct response."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "41384d0a09e2",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Trump must give independence to Puerto Rico before Democrats add five members of Congress",
-    "link": "https://www.washingtonexaminer.com/op-eds/4793336/puerto-rico-independence-free-association/",
-    "summary": "When Spain ceded Puerto Rico to the United States under the 1898 Treaty of Paris, Washington exploited Article IX of the agreement — breaking a historic precedent by omitting the collective naturalization guarantees that had accompanied every prior U.S. acquisition from Louisiana through Alaska.",
-    "published": "2026-11-06T13:00:00+00:00",
-    "id": "cd54fbcf9dc1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 0,
-    "spin": 55,
-    "leanWhy": "This is a thesis-driven opinion piece. It argues Puerto Rico's status is a deliberate colonial arrangement, using loaded wording such as \"exploited,\" \"calculated exclusion\" and \"manufactured\". The headline uses a partisan-seat-count hook (Democrats adding five members of Congress), which suggests a GOP-strategy angle. The excerpt only covers history, so the partisan lean is unclear. The anti-colonial framing is left-coded, while the headline's independence-before-statehood argument cuts against Democratic interests.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "This calculated exclusion instantly manufactured a tier of second-class American nationals",
-        "why": "It attributes deliberate intent and uses charged phrasing to present the history as a designed injustice."
-      },
-      {
-        "type": "Framing",
-        "quote": "a colonial reality later cemented when the “Insular Cases”",
-        "why": "It frames the current status as colonialism, which is a contested characterization presented as settled fact."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "Trump must give independence to Puerto Rico before Democrats add five members of Congress",
-        "why": "The headline's partisan and strategic thesis is not supported by the historical excerpt, which never mentions Trump or Democrats."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "cd54fbcf9dc1",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "The Republicans take the court as the Washington Generals",
-    "link": "https://www.washingtonexaminer.com/op-eds/4793370/survivorship-bias-politics-2026-midterms/",
-    "summary": "First, congratulations, Democrats. You won convincingly, and your victory can reasonably be described as a blue wave. However, whether you are a Democrat or a Republican, there is a quote by Winston Churchill that seems apropos in this moment: “In war, resolution; in defeat, defiance; in victory, magnanimity; in…",
-    "published": "2026-11-06T13:00:00+00:00",
-    "id": "a1a63ef1f0e8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -35,
-    "spin": 40,
-    "leanWhy": "This is a first-person opinion column. It congratulates Democrats on a \"blue wave\" and compares Republicans to the Washington Generals, a team that exists to lose to the Globetrotters, which mocks them as hapless. The Churchill quote on magnanimity is a mild bipartisan gesture, but the mocking tone is aimed only at Republicans.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the Republicans resemble the Washington Generals, taking the court only to tee up the ball for the Harlem Globetrotters’ slam dunks and comedic mayhem",
-        "why": "The metaphor casts Republicans as perennial, farcical losers and Democrats as the showy winners."
-      },
-      {
-        "type": "Framing",
-        "quote": "You won convincingly, and your victory can reasonably be described as a blue wave.",
-        "why": "The column opens by celebrating the Democratic win and gives no Republican perspective."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "The Republicans take the court as the Washington Generals",
-        "why": "The headline is a mocking thesis that sets the tone for the whole piece."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "a1a63ef1f0e8",
     "coverage": 1
   }
 ]
