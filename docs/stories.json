@@ -1,5 +1,91 @@
 [
   {
+    "outlet": "NBC News",
+    "title": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
+    "link": "https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248",
+    "summary": "The man who opened fire in a public square, killing six people in a suspected far-right terror attack in Kraków, Poland, has died, police said early Monday.",
+    "published": "2026-11-09T07:21:24+00:00",
+    "id": "f596b7c6ed99",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news recap of a shooting, with claims about motive attributed to Polish officials (the justice and interior ministers). The headline states the far-right label as fact, while the body mostly attributes it to officials.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Gunman with far-right views who killed 6 in Poland shooting rampage dies in hospital",
+        "why": "The headline states the far-right ideology as established fact, though the body attributes it to officials and calls the attack 'suspected'."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "f596b7c6ed99",
+    "coverage": 3
+  },
+  {
+    "outlet": "NPR",
+    "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
+    "link": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+    "summary": "A bank's collapse in Paraguay left millions locked out of their money, toppled the president and exposed a web of political and financial ties.",
+    "published": "2026-11-09T06:20:44+00:00",
+    "id": "652c9056d36b",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "652c9056d36b",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump admits deportation policy was ‘too tough’ despite promotion of Stephen Miller",
+    "link": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration",
+    "summary": "President makes unusual acknowledgement that one of the defining policies of his second administration had become a political liability Donald Trump has admitted that his deportation policy was “too tough” and has offered to strike an immigration deal with Democrats in a concession following the Republicans’…",
+    "published": "2026-11-09T03:59:31+00:00",
+    "id": "894ba9f12531",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -25,
+    "spin": 25,
+    "leanWhy": "The piece is mostly built on Trump's own quotes, but the framing leans left. It calls the midterm result a \"disastrous defeat\", describes the policy as a \"political liability\", and gives the harms of ICE raids in the narrator's voice (families separated, fear, two citizens killed) without any Republican or administration rebuttal. The headline and lead stress contradiction and concession.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the Republicans’ disastrous defeat in the midterm elections",
+        "why": "Evaluative wording in the narrator's voice casts the GOP result as a disaster rather than just reporting it."
+      },
+      {
+        "type": "Framing",
+        "quote": "have ensnared people with no criminal records, separated families and spread fear in immigrant communities",
+        "why": "The harms of the raids are stated as fact in the narrator's voice, and no supporter or administration view is given to balance them."
+      },
+      {
+        "type": "Framing",
+        "quote": "seemingly at odds with his decision on Friday to elevate Stephen Miller",
+        "why": "The piece stresses a contradiction in Trump's position, which feeds a narrative of political retreat."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Federal agents fatally shot two US citizens, Renee Good and Alex Pretti",
+        "why": "This is included as background with no context or response from officials, so the reader is steered toward the critical view."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "894ba9f12531",
+    "coverage": 3
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Trump reaffirms support for Vance’s Iran comments but says ‘a lot of people’ didn’t like them",
     "link": "https://www.washingtonexaminer.com/news/white-house/4796920/trump-reaffirms-support-vance-iran-comments-people-didnt-like/",
@@ -125,8 +211,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "68f37035ef12",
-    "coverage": 2
+    "cluster": "894ba9f12531",
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -151,8 +237,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "68f37035ef12",
-    "coverage": 2
+    "cluster": "894ba9f12531",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -170,8 +256,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "a38edcbcda25",
-    "coverage": 2
+    "cluster": "f596b7c6ed99",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -202,7 +288,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "db4a7c8b588e",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -222,7 +308,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "7d3cecc0b6a1",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -262,8 +348,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "68f37035ef12",
-    "coverage": 2
+    "cluster": "894ba9f12531",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -590,7 +676,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "7d3cecc0b6a1",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -617,6 +703,25 @@
     "storyChoice": "left",
     "cluster": "ad504f1b4dda",
     "coverage": 8
+  },
+  {
+    "outlet": "CBS News",
+    "title": "11/8/2026: Donald Trump; France on Fire",
+    "link": "https://www.cbsnews.com/video/60minutes-2026-11-08/",
+    "summary": "First, President Donald Trump: The 2026 60 Minutes post-midterms interview. And, French protests may shift the political landscape.",
+    "published": "2026-11-09T00:00:00+00:00",
+    "id": "c20fdc7f6cdb",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "c20fdc7f6cdb",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -660,8 +765,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e5426bbb017b",
-    "coverage": 2
+    "cluster": "c20fdc7f6cdb",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -749,7 +854,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "e5426bbb017b",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -980,7 +1085,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "db4a7c8b588e",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -1000,6 +1105,32 @@
     "confidence": "low",
     "cluster": "d2e2662e4487",
     "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Former RFK Jr. adviser accuses Trump officials of corruption",
+    "link": "https://www.cbsnews.com/news/calley-means-white-house-health-and-human-services-rfk-jr/",
+    "summary": "Calley Means, a White House senior adviser and aide to Health Secretary Robert F. Kennedy Jr., who resigned last month, said on \"Face the Nation with Margaret Brennan\" that some Trump administration officials are catering to special interests.",
+    "published": "2026-11-08T21:46:00+00:00",
+    "id": "8bd0ccd56e29",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is straight reporting of an interview. It gives Means's allegations, then a detailed denial from Blair, and adds context from sources and Trump's public record on vaping. The framing leads with Means's accusations, but the other side gets space and the piece doesn't editorialize.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "prioritizing industry interests over the health of voters as part of the White House's midterm elections strategy",
+        "why": "The lead states Means's corruption framing in the narrator's voice, though it is attributed to him."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8bd0ccd56e29",
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -1050,7 +1181,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "376dc445b6a1",
+    "cluster": "8bd0ccd56e29",
     "coverage": 3
   },
   {
@@ -1231,7 +1362,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "7d3cecc0b6a1",
+    "cluster": "db4a7c8b588e",
     "coverage": 3
   },
   {
@@ -1257,7 +1388,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "376dc445b6a1",
+    "cluster": "8bd0ccd56e29",
     "coverage": 3
   },
   {
@@ -1364,8 +1495,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "badbc236c1db",
-    "coverage": 2
+    "cluster": "894ba9f12531",
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -1421,7 +1552,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "7d3cecc0b6a1",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1497,8 +1628,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b919769107c",
-    "coverage": 1
+    "cluster": "9c3516c2f6ac",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -1610,7 +1741,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b919769107c",
+    "cluster": "e3f0687ba2c9",
     "coverage": 1
   },
   {
@@ -1744,8 +1875,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a38edcbcda25",
-    "coverage": 2
+    "cluster": "f596b7c6ed99",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1925,7 +2056,7 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "7d3cecc0b6a1",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -2066,7 +2197,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "5d5ffad62aae",
+    "cluster": "a55b7f9e409c",
     "coverage": 2
   },
   {
@@ -2102,7 +2233,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "badbc236c1db",
+    "cluster": "a55b7f9e409c",
     "coverage": 2
   },
   {
@@ -2252,7 +2383,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "376dc445b6a1",
+    "cluster": "8bd0ccd56e29",
     "coverage": 3
   },
   {
@@ -2372,8 +2503,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "9c3516c2f6ac",
-    "coverage": 4
+    "cluster": "33e90e9f1408",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2520,7 +2651,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "5d5ffad62aae",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -3117,6 +3248,83 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Leading Dem on midterms aftermath: \"We're still in the fight of our lives\"",
+    "link": "https://www.cbsnews.com/news/leading-dem-on-midterms-aftermath-were-still-in-the-fight-of-our-lives/",
+    "summary": "The midterms marked one of the biggest rebukes of the Republican Party since Watergate. What is the fallout from this year's elections, and how are Democrats going to address a lame-duck President Trump?",
+    "published": "2026-11-08T14:24:06+00:00",
+    "id": "4b53a5a26bac",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -25,
+    "spin": 25,
+    "leanWhy": "The piece frames the midterms as a historic rebuke of Republicans, relying on Republican voices (DeSantis, Cruz, Hogan) to confirm it, and gives Democrat Raskin a long uninterrupted platform on investigations and accountability. No Trump-aligned defender or counterargument appears, and the Hogan quotes are chosen for their vivid, GOP-critical lines.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "one of the biggest rebukes of the Republican Party since Watergate",
+        "why": "The summary's lead frame is a sweeping repudiation of one party, stated as fact in the outlet's own voice."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Maryland Congressman Jamie Raskin, set to chair the powerful House Judiciary Committee, says Democrats are going to hold President Trump accountable through the rule of law.",
+        "why": "Raskin's framing of the investigations as accountability goes unchallenged, and no Republican or Trump-side response to the investigations appears."
+      },
+      {
+        "type": "Framing",
+        "quote": "\"Like the Cowardly Lion, they'll find that they actually had courage all along.\"",
+        "why": "A mocking quote about Republicans who don't confront Trump is included without any counterweight."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats now have robust majorities in both houses of Congress.",
+        "why": "The positive wording about Democratic strength reinforces the triumphant frame."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "71a43a84e8c0",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Leading Dem on midterms aftermath: \"We're still in the fight of our lives\"",
+    "link": "https://www.cbsnews.com/video/leading-dem-on-midterms-aftermath-were-still-in-the-fight-of-our-lives/",
+    "summary": "Last Tuesday's midterm elections marked one of the biggest rebukes of the Republican Party since Watergate, with Democrats winning control of both houses of Congress.",
+    "published": "2026-11-08T14:23:07+00:00",
+    "id": "71a43a84e8c0",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 35,
+    "leanWhy": "Only a headline and a short feed summary were available. The summary states \"one of the biggest rebukes of the Republican Party since Watergate\" as fact, and the headline gives a Democrat the platform, which tilts the framing toward the Democratic side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "one of the biggest rebukes of the Republican Party since Watergate",
+        "why": "This is a sweeping, evaluative claim stated in the outlet's own voice, and it frames the result as a repudiation of Republicans."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Leading Dem on midterms aftermath",
+        "why": "The headline centers a Democratic voice and no Republican response appears."
+      },
+      {
+        "type": "Framing",
+        "quote": "We're still in the fight of our lives",
+        "why": "The headline uses a high-stakes quote that adopts the Democratic mobilizing frame."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "71a43a84e8c0",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "Behind the Curtain: Texas is the #1 story of America",
     "link": "https://www.axios.com/2026/11/08/behind-the-curtain-texas-democrats-2026",
@@ -3174,6 +3382,63 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "36ec6c4b4c71",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Gov. Josh Shapiro urges Democrats to prioritize healthcare, food assistance",
+    "link": "https://www.nbcnews.com/politics/2026-election/gov-josh-shapiro-urges-democrats-prioritize-healthcare-food-assistance-rcna608060",
+    "summary": "The Pennsylvania governor told NBC News’ “Meet the Press” that he hopes Medicare and SNAP programs are revitalized by Congress.",
+    "published": "2026-11-08T14:00:40+00:00",
+    "id": "5109639a9c22",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly an interview recap with a Democratic governor, and his framing (Medicaid and SNAP \"cuts,\" Trump \"doesn't care about their well-being\") is quoted at length with no Republican response. The statistics on people losing coverage are attributed to Shapiro but not checked or put in context, which gives a subtle left tilt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Shapiro said that in Pennsylvania alone, 510,000 people are losing healthcare and 143,000 more are losing SNAP",
+        "why": "The figures come only from Shapiro and no Republican or independent source is offered to check or contest them."
+      },
+      {
+        "type": "Framing",
+        "quote": "it’s yet another signal to the American people the president actually doesn’t care about their well-being",
+        "why": "A pointed attack on Trump is left as the unanswered closing frame on the veto issue, with no response from Trump or Republicans."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "5109639a9c22",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen.-elect Adam Hamilton says he’d be disappointed if Democrats focus on investigating Trump",
+    "link": "https://www.nbcnews.com/politics/congress/sen-adam-hamilton-disappointed-democrats-trump-investigations-schumer-rcna608088",
+    "summary": "Hamilton said Congress should focus on clawing back Trump’s tariffs and ending the war with Iran.",
+    "published": "2026-11-08T13:55:10+00:00",
+    "id": "5a4e208f572f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight interview recap. It quotes Hamilton, Schumer and Sanders and describes the split among Democrats over investigations versus affordability. Wording such as \"landslide victories\" is mildly favorable to Democrats, but the piece mostly reports what people said.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "After their landslide victories Tuesday gave Democrats control of the House and the Senate",
+        "why": "The word 'landslide' gives the Democratic win a celebratory framing."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "5a4e208f572f",
     "coverage": 1
   },
   {
@@ -4736,6 +5001,32 @@
     "coverage": 7
   },
   {
+    "outlet": "NBC News",
+    "title": "Trump says he was ‘only kidding’ about making UFC head Dana White press secretary",
+    "link": "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039",
+    "summary": "The president suggested on Truth Social that White should bring several UFC fighters as assistants.",
+    "published": "2026-11-07T21:39:10+00:00",
+    "id": "ead163a855ad",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is largely a straight recap of Trump's remarks, his Truth Social post and White's reaction, with direct quotes and a note that the White House did not respond. A slight tilt comes from the closing emphasis on staff turnover, which casts the administration as unstable, though these details are factual.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Wiles’ departure made her the seventh woman to leave the Trump administration this year.",
+        "why": "Ending on administration turnover adds a narrative of instability that goes beyond the joke story."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "d5903dfc0b6d",
+    "coverage": 7
+  },
+  {
     "outlet": "Fox",
     "title": "Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown",
     "link": "https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown",
@@ -5517,8 +5808,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
+    "cluster": "04ed5faa6d7a",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -5824,8 +6115,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "0ba44366f9cc",
-    "coverage": 2
+    "cluster": "4de88c44c49a",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -8607,6 +8898,32 @@
     "coverage": 1
   },
   {
+    "outlet": "Axios",
+    "title": "Vance leads behind-the-scenes push for new Iran deal",
+    "link": "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal",
+    "summary": "Vice President Vance has spent the past two weeks personally involved in indirect talks with Iran aimed at reaching a new ceasefire and resuming nuclear negotiations, according to two sources with knowledge of the matter. Why it matters: Vance's heavy involvement shows he's taking it upon himself to extract the U.S.",
+    "published": "2026-11-07T01:10:14+00:00",
+    "id": "b24e977572e3",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only the headline and a short feed summary were available. The framing is a sourced scoop that credits Vance with initiative (\"taking it upon himself\"), a mildly favorable tilt toward the administration, but it is mostly factual and anonymously sourced.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "he's taking it upon himself to extract the U.S.",
+        "why": "Portrays Vance as a proactive problem-solver, a mildly flattering frame, though the sentence is cut off."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "right",
+    "cluster": "b24e977572e3",
+    "coverage": 1
+  },
+  {
     "outlet": "NBC News",
     "title": "Stephen Miller named as new White House chief of staff",
     "link": "https://www.nbcnews.com/nightly-news/video/stephen-miller-named-as-new-white-house-chief-of-staff-273042501821",
@@ -8804,8 +9121,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
+    "cluster": "1e8e1ea5981b",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -8922,8 +9239,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
+    "cluster": "f2b1f9365393",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -8979,8 +9296,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
+    "cluster": "f2b1f9365393",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -9010,8 +9327,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
+    "cluster": "f2b1f9365393",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -9170,358 +9487,6 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "65e6064172ee",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Armed man arrested near White House for allegedly threatening Trump",
-    "link": "https://www.nbcnews.com/nightly-news/video/armed-man-arrested-near-white-house-for-allegedly-threatening-trump-273036357851",
-    "summary": "The Secret Service said a Venezuelan migrant in the U.S. illegally was arrested with an arsenal of weapons in his car near the White House and threatened to kill President Trump. NBC News’ Tom Winter reports.",
-    "published": "2026-11-06T23:53:14+00:00",
-    "id": "fb62151fa91e",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "Only a headline and short feed summary are available. The summary attributes the claims to the Secret Service and reads as straight reporting, though stressing the suspect's immigration status and \"arsenal\" gives a slight right-coded emphasis.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "a Venezuelan migrant in the U.S. illegally",
-        "why": "Foregrounding immigration status ties the incident to illegal-entry themes that the right commonly emphasizes."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "arsenal of weapons",
-        "why": "'Arsenal' is a dramatic term that may heighten the sense of threat."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "fb62151fa91e",
-    "coverage": 4
-  },
-  {
-    "outlet": "BBC",
-    "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
-    "link": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
-    "summary": "Friday's resolution by academic staff is largely symbolic as they do not have the power to remove those in charge of the university.",
-    "published": "2026-11-06T23:46:08+00:00",
-    "id": "0ba44366f9cc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is mostly straight reporting. It notes the vote is symbolic, that the accused deny wrongdoing and haven't been charged, and it quotes both Doe's lawyer and the university trustees. A slight tilt comes from how much space the lawyer's and trustees' statements get and from the university's concession that it fell short.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "We are hopeful that this will be yet another step forward to educate and support the Cornell community by addressing the longstanding scourge of sexual assault on campus.",
-        "why": "The plaintiff's lawyer gets an extended, unchallenged quote that frames the issue as a long-running campus problem."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "0ba44366f9cc",
-    "coverage": 2
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "The Guardian view on the AI backlash: American voters want a say in their future | Editorial",
-    "link": "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
-    "summary": "Tech stocks have lost trillions while voters have rejected the industry’s political champions. The billionaire-led boom is facing a democratic reckoning This week’s midterms showed that the political bill for the AI boom is falling due.",
-    "published": "2026-11-06T23:45:52+00:00",
-    "id": "b2826170250c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -68,
-    "spin": 55,
-    "leanWhy": "This is an editorial that frames the Democratic midterm sweep as a democratic reckoning against Trump and tech billionaires. It endorses Democratic plans for AI regulation (\"welcome\") and presents Republican and Trump positions as deaf to voters, with no Republican or industry counterargument.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "The US president was deaf to voter frustration over electricity prices, water demand and disruption.",
-        "why": "Characterizes Trump as ignoring voters in dismissive terms rather than describing his stated position."
-      },
-      {
-        "type": "Framing",
-        "quote": "Mr Musk could not buy this election.",
-        "why": "Casts the Republican-aligned donor's spending as an attempt to buy the result, and the Democratic win as a verdict on tech billionaires."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats’ willingness to take public fears about AI seriously is welcome.",
-        "why": "Openly endorses the Democratic approach and presents regulation as the answer to voter concerns."
-      },
-      {
-        "type": "Source selection",
-        "quote": "That is a view held by many influential figures – from Goldman Sachs’ research boss to Nobel laureate Daron Acemoğlu.",
-        "why": "Cites only authorities who support the editorial's skeptical view of the AI boom."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "b2826170250c",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Miller time: Trump turns to a die-hard MAGA loyalist ahead of battle with congressional Democrats",
-    "link": "https://www.washingtonexaminer.com/news/white-house/4796244/miller-trump-maga-loyalist-battle-congress-democrats/",
-    "summary": "The day before the midterm elections, incoming White House chief of staff Stephen Miller had a blunt message to voters who were considering staying home or registering their disapproval of President Donald Trump.",
-    "published": "2026-11-06T23:39:06+00:00",
-    "id": "585c4ab7b293",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 15,
-    "leanWhy": "The headline's \"die-hard MAGA loyalist\" and \"battle with congressional Democrats\" are mildly loaded and cast the appointment as combative. The excerpt is mostly a direct Miller quote with little other context, so the tilt is subtle. The excerpt is only the opening of the article.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Trump turns to a die-hard MAGA loyalist ahead of battle with congressional Democrats",
-        "why": "The headline stresses loyalty and conflict, which frames the pick as partisan and confrontational."
-      },
-      {
-        "type": "Framing",
-        "quote": "had a blunt message to voters who were considering staying home or registering their disapproval of President Donald Trump",
-        "why": "The lead stresses voter disapproval of Trump, which is a mildly unflattering frame."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "585c4ab7b293",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "White House restores financial disclosure page after CBS News inquiry",
-    "link": "https://www.cbsnews.com/news/white-house-financial-disclosure-page/",
-    "summary": "The White House's page listing dozens of financial disclosure forms went offline without explanation, only to be restored after CBS News inquired about its removal.",
-    "published": "2026-11-06T23:33:00+00:00",
-    "id": "774b0017c6c0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a detailed, timestamped factual account of a webpage going offline and returning, with repeated notes that the White House did not respond. Emphasis on the lack of explanation and on the president's stock trades involving companies affected by his policies gives a subtle accountability framing that tilts mildly left.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "went offline without explanation Friday afternoon, only to be restored after CBS News inquired about its removal",
-        "why": "The headline and lead imply the outlet's inquiry caused the restoration, though the text shows the cause is unknown."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "including many involving companies that have had business before the government or are directly impacted by his policies",
-        "why": "This context points to possible conflicts of interest and goes beyond the page outage itself."
-      },
-      {
-        "type": "Omission",
-        "quote": "In September, CBS News found that more than 110 of the roughly 180 officials listed on the White House page did not appear in OGE's online records.",
-        "why": "The piece brings in the outlet's earlier findings of missing records, which broadens the transparency criticism beyond this incident."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "774b0017c6c0",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "11/6: CBS Evening News",
-    "link": "https://www.cbsnews.com/video/110626-cbs-evening-news/",
-    "summary": "Susie Wiles exits as White House chief of staff; Secret Service arrests man with guns near White House.",
-    "published": "2026-11-06T23:30:00+00:00",
-    "id": "3332f2c5ef1e",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "3332f2c5ef1e",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "With Stephen Miller pick, Trump readies for a battle",
-    "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-    "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
-    "published": "2026-11-06T23:24:15+00:00",
-    "id": "800c7cf54888",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly news reporting, but it uses charged descriptors for Miller (\"bare-knuckled,\" \"partisan firebrand,\" \"incendiary\") and frames his promotion as a sign Trump is \"girding for political battle\" instead of an olive branch. It stresses controversies such as the Pretti shooting remarks and critics' \"extra-judicial killings\" charge, and it gives no supporters' defense of those policies.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "bare-knuckled political operative",
-        "why": "This is a colorful, negative-leaning description of Miller that is not neutral."
-      },
-      {
-        "type": "Framing",
-        "quote": "Far from an olive branch to Congress",
-        "why": "The piece gives its own interpretation that the move is confrontational, and it sets the move against Trump's conciliatory words."
-      },
-      {
-        "type": "Source selection",
-        "quote": "which critics have condemned as extra-judicial killings",
-        "why": "It cites only critics' characterization of the military operations and offers no counterview."
-      },
-      {
-        "type": "Framing",
-        "quote": "He made headlines when he called Alex Pretti",
-        "why": "It dwells on a controversial episode and his walk-back, which highlights details that are embarrassing to Miller."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "800c7cf54888",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Democrats win Senate control — live updates",
-    "link": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
-    "summary": "Democrats were able to pick up the seats needed to gain control of the Senate, CBS News projects, and the party scored several upset victories in red states.",
-    "published": "2026-11-06T23:24:00+00:00",
-    "id": "9c793fade58d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The excerpt is a live-update recap of the Mississippi count. It gives both parties' claims and legal moves with attribution, and it quotes each side. Small tilt comes from the \"upset victories\" and \"stunningly close\" wording and from the Colom campaign's \"desperate stunt\" label appearing without a Republican reply.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the party scored several upset victories in red states",
-        "why": "Celebratory, outcome-focused phrasing in the summary slightly favors the Democratic narrative."
-      },
-      {
-        "type": "Framing",
-        "quote": "stunningly close Mississippi Senate race",
-        "why": "Dramatic wording emphasizes the Democrat's surprise strength in a red state."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The Colom campaign called the move a \"desperate stunt.\"",
-        "why": "The Democratic characterization of the GOP ballot-preservation request is quoted, and the NRSC's own explanation comes later and is more muted."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9c793fade58d",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Cornell's Faculty Senate votes \"no confidence\" in administration",
-    "link": "https://www.cbsnews.com/news/cornell-faculty-senates-no-confidence-vote-results/",
-    "summary": "Cornell University's Faculty Senate approved a resolution expressing no confidence in the university's administration, including Cornell President Michael Kotlikoff and other administrators.",
-    "published": "2026-11-06T23:23:00+00:00",
-    "id": "8bae1c03bea4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is mostly a straight recap of the vote. It includes the symbolic nature of the vote, the board's support for the president, and the accused men's denials. The quotes lean toward the faculty sponsors and the plaintiff's attorney, and that gives a slight tilt toward the campus-critic framing on sexual assault and institutional accountability.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "It's a major rebuke of the university's leadership.",
-        "why": "The outlet's own voice characterizes the vote as a major rebuke, which emphasizes the criticism."
-      },
-      {
-        "type": "Source selection",
-        "quote": "the Jane Doe case was the tip of an iceberg",
-        "why": "Most of the quoted material comes from sponsors and the plaintiff's attorney, with no voice from the accused or the administration beyond the trustees' chair."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "8bae1c03bea4",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "DOJ official resigns amid questions about \"grand conspiracy\" probe",
-    "link": "https://www.cbsnews.com/news/doj-jason-reding-quinones-resigns-grand-conspiracy-probe/",
-    "summary": "Jason Reding Quiñones, U.S. attorney for the Southern District of Florida, abruptly resigned, marking another high-profile departure from a DOJ inquiry plagued by internal disputes.",
-    "published": "2026-11-06T23:19:54+00:00",
-    "id": "df3c1819b710",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 20,
-    "leanWhy": "The piece is mostly straight reporting with attribution and Blanche's denials included, but it stresses a narrative of dysfunction (\"plagued by internal disputes and doubts about its viability\", \"latest blow\"). Sourcing leans on prior CBS reporting about problems with the probe, and the administration's side gets only brief quotes.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "a Justice Department inquiry plagued by internal disputes and doubts about its viability",
-        "why": "The framing in the lead presents the probe as troubled, which is an evaluative characterization."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "His exit is the latest blow to the investigation",
-        "why": "This stacks departures into a narrative of decline and goes beyond the single resignation."
-      },
-      {
-        "type": "Source selection",
-        "quote": "she expressed concerns about the strength of the evidence, CBS News previously reported",
-        "why": "The piece emphasizes internal doubts from the outlet's earlier reporting, while the defense comes only from Blanche's brief denial."
-      },
-      {
-        "type": "Framing",
-        "quote": "known for his efforts to try to overturn the results of the 2020 election",
-        "why": "The background descriptor on Olsen is unflattering and not needed to explain his resignation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "df3c1819b710",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump speaks at NASA's aerospace expo in Florida",
-    "link": "https://www.nbcnews.com/video/watch-live-trump-speaks-at-nasa-s-aerospace-expo-in-florida-273027653890",
-    "summary": "Watch live coverage as President Trump speaks during NASA's aerospace expo at the Kennedy Space Center in Florida.",
-    "published": "2026-11-06T23:12:17+00:00",
-    "id": "04c51aa3c8ed",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "04c51aa3c8ed",
     "coverage": 1
   }
 ]
