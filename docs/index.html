@@ -155,6 +155,7 @@ textarea { width: 100%; min-height: 150px; box-sizing: border-box; font: 14px/1.
 .cov .orow { grid-template-columns: minmax(0, 1fr) minmax(90px, 1.6fr) 34px; }
 .cov .oname a { color: inherit; text-decoration-color: var(--line); }
 .cov .ospin small { color: var(--muted); font-size: 10px; }
+.cov .oname small { color: var(--muted); font: 500 10px var(--mono); margin-left: 6px; }
 .spread { font: 500 12px var(--mono); color: var(--muted); margin-top: 8px; }
 .spread b { color: var(--fg); }
 .versions { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
@@ -312,29 +313,54 @@ function cardHTML(s, open, nested) {
 }
 
 /* One card for a story several outlets covered: headline from the straightest version, then each outlet's leaning side by side */
+const VIDEOISH = /^(full speech|watch|video|live|listen|photos?)\b|live updates|as it happened/i;
 function eventHTML(group, open) {
-  const scored = group.filter(s => s.scorable !== false && s.lean != null);
-  const lead = [...(scored.length ? scored : group)].sort((a, b) => (!!a.opinion - !!b.opinion) || ((a.spin ?? 999) - (b.spin ?? 999)))[0];
+  const ok = s => s.scorable !== false && s.lean != null;
+  const scored = group.filter(ok);
+  // Headline: a straight news story, not a video, live blog or opinion piece; then the least slanted
+  const pool = scored.length ? scored : group;
+  const lead = [...pool].sort((a, b) => (VIDEOISH.test(a.title) - VIDEOISH.test(b.title)) || (!!a.opinion - !!b.opinion)
+    || (Math.abs(a.lean ?? 99) - Math.abs(b.lean ?? 99)) || ((a.spin ?? 999) - (b.spin ?? 999)))[0];
   const newest = group.reduce((a, b) => (a.ts <= b.ts ? a : b));
-  const outlets = new Set(group.map(s => s.outlet)).size;
   const hot = group.some(isHot);
-  const rows = [...group].sort((a, b) => (a.lean ?? 999) - (b.lean ?? 999)).map(s => {
-    const ok = s.scorable !== false && s.lean != null;
-    const name = /^https?:\/\//.test(s.link || "") ? `<a href="${esc(s.link)}" target="_blank" rel="noopener noreferrer">${esc(s.outlet)}</a>` : esc(s.outlet);
-    return `<div class="orow"><span class="oname" title="${esc(s.title)}">${name}${s.opinion ? "<small>opinion</small>" : ""}</span>${ok
-      ? `<span class="otrack" role="img" aria-label="${esc(s.outlet)} leaning ${s.lean}"><i style="left:${(s.lean + 100) / 2}%"></i></span><span class="ospin" title="Spin">${s.spin}<small>sp</small></span>`
+  // One row per outlet: the average of its scored articles on this story
+  const per = {};
+  group.forEach(s => { (per[s.outlet] ||= []).push(s); });
+  const outletRows = Object.entries(per).map(([name, arts]) => {
+    const sc = arts.filter(ok);
+    const avg = k => Math.round(sc.reduce((n, s) => n + s[k], 0) / sc.length);
+    const link = [...arts].sort((a, b) => a.ts - b.ts).find(s => /^https?:\/\//.test(s.link || ""));
+    return { name, n: arts.length, lean: sc.length ? avg("lean") : null, spin: sc.length ? avg("spin") : null, link, op: sc.length > 0 && sc.every(s => s.opinion) };
+  }).sort((a, b) => (a.lean ?? 999) - (b.lean ?? 999));
+  const rows = outletRows.map(o => {
+    const label = esc(o.name) + (o.n > 1 ? ` <small>${o.n} stories</small>` : "") + (o.op ? "<small>opinion</small>" : "");
+    const name = o.link ? `<a href="${esc(o.link.link)}" target="_blank" rel="noopener noreferrer">${label}</a>` : label;
+    return `<div class="orow"><span class="oname">${name}</span>${o.lean != null
+      ? `<span class="otrack" role="img" aria-label="${esc(o.name)} leaning ${o.lean}"><i style="left:${(o.lean + 100) / 2}%"></i></span><span class="ospin" title="Spin">${o.spin}<small>sp</small></span>`
       : `<span class="spin-note">not enough text to score</span><span></span>`}</div>`;
   }).join("");
-  const leans = scored.map(s => s.lean);
+  const leans = outletRows.filter(o => o.lean != null).map(o => o.lean);
   const spread = leans.length > 1 ? Math.max(...leans) - Math.min(...leans) : null;
   const spreadTxt = spread == null ? "" : `<div class="spread">Coverage spread: <b>${spread} points</b> · ${spread < 25 ? "outlets framed it similarly" : spread < 60 ? "framing differs noticeably" : "outlets framed it very differently"}</div>`;
+  // Who skipped it, and which side the news itself helps
+  const cl = group[0].cluster;
+  const covered = new Set((cl ? STORIES.filter(s => s.cluster === cl) : group).map(s => s.outlet));
+  const missing = [...new Set(STORIES.map(s => s.outlet))].filter(o => !covered.has(o)).sort();
+  const votes = { left: 0, right: 0, neither: 0 };
+  group.forEach(s => { if (s.storyChoice in votes) votes[s.storyChoice]++; });
+  const nv = votes.left + votes.right + votes.neither;
+  const helps = nv >= 2 && Math.max(votes.left, votes.right) / nv >= 0.6 ? (votes.left > votes.right ? "the left" : "the right") : null;
+  const notes = [
+    missing.length ? `<div class="spread">Didn't cover it: <b>${missing.map(esc).join(", ")}</b></div>` : "",
+    helps ? `<div class="spread">Who this news helps: <b>${helps}</b></div>` : ""
+  ].join("");
   return `<article class="card${hot ? " is-hot" : ""}" data-id="${lead.id}">
-    <div class="meta"><span>${hot ? "Top story" : outlets + " outlets"}</span><span>${esc(newest.when || "")}</span>${hot ? `<span class="hot">Hot · ${outlets} outlets</span>` : ""}</div>
+    <div class="meta"><span>${hot ? "Top story" : covered.size + " outlets"}</span><span>${esc(newest.when || "")}</span>${hot ? `<span class="hot">Hot · ${covered.size} outlets</span>` : ""}</div>
     <h2>${esc(lead.title)}</h2>
     ${lead.summary ? `<p class="sum">${esc(lead.summary)}</p>` : ""}
-    <div class="cov"><div class="orow ohead"><span>Outlet</span><span>Leaning (left → right)</span><span>Spin</span></div>${rows}${spreadTxt}</div>
+    <div class="cov"><div class="orow ohead"><span>Outlet</span><span>Leaning (left → right)</span><span>Spin</span></div>${rows}${spreadTxt}${notes}</div>
     <div class="why">
-      <button type="button" aria-expanded="${open}"><span class="ar">▸</span> See each outlet's version and why it scored that way</button>
+      <button type="button" aria-expanded="${open}"><span class="ar">▸</span> See all ${group.length} stories and why each scored that way</button>
       <div class="why-body" ${open ? "" : "hidden"}><div class="versions">${group.map(s => cardHTML(s, false, true)).join("")}</div></div>
     </div></article>`;
 }
