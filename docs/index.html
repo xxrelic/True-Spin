@@ -147,6 +147,9 @@ textarea { width: 100%; min-height: 150px; box-sizing: border-box; font: 14px/1.
 .orow .oname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .orow .oname small { color: var(--muted); font: 10px var(--mono); margin-left: 4px; }
 .otrack { position: relative; height: 6px; border-radius: 99px; background: linear-gradient(90deg, var(--left), var(--center), var(--right)); }
+.otrack::before { content: ""; position: absolute; left: 50%; top: -6px; width: 2px; height: 18px; margin-left: -1px; border-radius: 1px; background: var(--fg); opacity: .75; }
+.ohead span:nth-child(2) { display: flex; justify-content: space-between; }
+.ohead .mid { color: var(--fg); }
 .otrack i { position: absolute; top: -5px; width: 16px; height: 16px; border-radius: 50%; background: var(--fg); border: 3px solid var(--surface); transform: translateX(-50%); box-shadow: 0 1px 4px rgba(0,0,0,.3); }
 .ospin { font: 500 12px var(--mono); text-align: right; }
 .fine { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
@@ -358,7 +361,7 @@ function eventHTML(group, open) {
     <div class="meta"><span>${hot ? "Top story" : covered.size + " outlets"}</span><span>${esc(newest.when || "")}</span>${hot ? `<span class="hot">Hot · ${covered.size} outlets</span>` : ""}</div>
     <h2>${esc(lead.title)}</h2>
     ${lead.summary ? `<p class="sum">${esc(lead.summary)}</p>` : ""}
-    <div class="cov"><div class="orow ohead"><span>Outlet</span><span>Leaning (left → right)</span><span>Spin</span></div>${rows}${spreadTxt}${notes}</div>
+    <div class="cov"><div class="orow ohead"><span>Outlet</span><span><span>Left</span><span class="mid">Center</span><span>Right</span></span><span>Spin</span></div>${rows}${spreadTxt}${notes}</div>
     <div class="why">
       <button type="button" aria-expanded="${open}"><span class="ar">▸</span> See all ${group.length} stories and why each scored that way</button>
       <div class="why-body" ${open ? "" : "hidden"}><div class="versions">${group.map(s => cardHTML(s, false, true)).join("")}</div></div>
