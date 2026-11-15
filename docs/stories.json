@@ -1,5 +1,113 @@
 [
   {
+    "outlet": "NPR",
+    "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+    "summary": "A new Florida law that prohibits taxpayer dollars from going toward diversity initiatives has prompted Delray Beach to cancel its St. Patrick's Day parade after a nearly 60-year run.",
+    "published": "2026-11-15T00:03:52+00:00",
+    "id": "f0c48431f90f",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary were available. The framing stresses a long-running parade lost because of an anti-DEI law, which casts the law's effects in a negative light, though the wording is mostly factual and attributes the cause to the city's own reasoning.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "after a nearly 60-year run",
+        "why": "Stressing the parade's long history highlights what was lost and invites a negative view of the law."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "f0c48431f90f",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Duffy Floats $50 Billion Price Tag For Congress To Prevent Repeat Paralysis Of US Air Travel",
+    "link": "https://dailycaller.com/2026/11/14/sean-duffy-doubles-down-congress-funding-request-transportation-air-traffic-control-systems-upgrade-50-billion-price",
+    "summary": "‘If we don’t start to switch out our systems, how long are we going to wait?’",
+    "published": "2026-11-14T22:44:07+00:00",
+    "id": "3ce30d71ed70",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting, but it leads with Duffy's framing (\"bipartisan,\" a sign for Congress to \"lean in\") and gives a long, uncritical list of his department's upgrade achievements. It also notes that backlash came from both parties and quotes Hochul's resignation call, which balances the lean somewhat.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“If we don’t start to switch out our systems, how long are we going to wait? I think this [outage] is a sign for [Congress] to lean in. This is bipartisan,”",
+        "why": "The article opens with the secretary's own framing of the issue and the headline repeats it."
+      },
+      {
+        "type": "Framing",
+        "quote": "Duffy announced his department replaced 69% of the copper wires with “high-speed” fiber, deployed “Surface Awareness Initiative” technology at 143 control towers",
+        "why": "A long run of administration-supplied progress figures is given without independent verification or outside context."
+      },
+      {
+        "type": "Framing",
+        "quote": "Duffy also claimed Congress gave his department a “partial payment”",
+        "why": "The article relays his claim that past FAA failures were bipartisan and that the money has been spent well, and the excerpt shows no counterpoint to it."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "3ce30d71ed70",
+    "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "US has lost measles elimination status, global health authorities say",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+    "summary": "The U.S. has lost its status as a country where measles is eliminated, according to researchers with direct knowledge of the deliberations at the Pan American Health Organization.",
+    "published": "2026-11-14T22:15:02+00:00",
+    "id": "7d218e87adfa",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a one-sentence summary were available. They report the loss of elimination status in a straightforward way and attribute it to PAHO-linked researchers, with no loaded wording. The story is about vaccination and public health institutions, a topic that divides along partisan lines, and the framing leans only slightly toward the left-coded view that experts and agencies matter.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "7d218e87adfa",
+    "coverage": 3
+  },
+  {
+    "outlet": "CBS News",
+    "title": "U.S. facilitating direct engagement between Europe and Russia",
+    "link": "https://www.cbsnews.com/news/us-europe-russia-engagement-ukraine-war/",
+    "summary": "President Trump's senior envoy and son-in-law, Jared Kushner, said they are also preparing for the next round of trilateral talks.",
+    "published": "2026-11-14T22:07:08+00:00",
+    "id": "d6f7a6166a6a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news report that quotes Kushner and Zelenskyy at length and notes that European leaders want to decide European security themselves. The headline and lead use the administration's framing of \"facilitating\", but the piece also notes that the talks produced \"nothing to suggest a wider peace deal\" and includes Zelenskyy's warnings.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "U.S. facilitating direct engagement between Europe and Russia",
+        "why": "The headline adopts the administration's own description of its role without attributing it."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "d6f7a6166a6a",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Trump says DC residents will receive 50% discount at Potomac golf course",
     "link": "https://www.washingtonexaminer.com/news/white-house/4804018/trump-dc-residents-50-percent-discount-golf-course/",
@@ -23,6 +131,32 @@
         "type": "Framing",
         "quote": "as he has fought opponents over the Lincoln Memorial’s Reflecting Pool, a new ballroom at the White House",
         "why": "The context line frames the renovations as a pattern of conflict, and the excerpt gives no view from opponents."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "91293a81295b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump says DC residents will receive 50% discount at completed Potomac golf course",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4804018/trump-dc-residents-50-percent-discount-golf-course/",
+    "summary": "President Donald Trump trashed the current state of the East Potomac Golf Links golf course on Saturday afternoon before announcing that residents of the broader Washington, D.C., area will play at the renovated version of the course for half off. “Very importantly, also, is that anyone living in the Washington D.C.",
+    "published": "2026-11-14T21:42:45+00:00",
+    "id": "9d202415f662",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The excerpt mostly reports Trump's announcement and quotes him directly, with brief context about his renovation projects and disputes with opponents. The verb \"trashed\" and the framing of \"fought opponents\" are mildly colorful, but the text draws no conclusion and tilts only slightly.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "President Donald Trump trashed the current state of the East Potomac Golf Links golf course",
+        "why": "\"Trashed\" is a casual verb that colors the description of his remarks, though it echoes his own \"Trash Island\" label."
       }
     ],
     "confidence": "medium",
@@ -80,7 +214,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "8d429ae6b78c",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -101,6 +235,47 @@
     "storyChoice": "neither",
     "cluster": "44cc9cfe4d16",
     "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Minneapolis Narrowly Votes To Make Big Data Centers Buy Green Power",
+    "link": "https://dailycaller.com/2026/11/14/minneapolis-data-center-rules-oakland-moratorium",
+    "summary": "‘already finding new ways to make their communities poorer’",
+    "published": "2026-11-14T20:11:11+00:00",
+    "id": "077b8501844c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 38,
+    "spin": 40,
+    "leanWhy": "The piece is mostly straight reporting on a council vote, but the feed summary and lead quote come from a pro-industry advocacy group accusing Democrats of making communities poorer. That frame is repeated in the \"Democrats\" emphasis (partisan labels, a related link on a Democratic governor's freeze). The only pro-development counterpoint from inside the council is a brief quote from Shaffer.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Democrats spent the election promising affordability and are already finding new ways to make their communities poorer,",
+        "why": "The only outside commentator is an energy-industry advocate, and his partisan attack is lifted into the feed summary."
+      },
+      {
+        "type": "Framing",
+        "quote": "Minneapolis Democrats seem determined to make sure somebody else gets all of that.",
+        "why": "The partisan critique goes unanswered by any supporter of the ordinance or environmental voice outside the council."
+      },
+      {
+        "type": "Framing",
+        "quote": "All members of the Minneapolis City Council are Democrats, except for Wonsely who sits as an independent affiliated with the Democratic Socialists of America (DSA).",
+        "why": "Stressing party and DSA affiliation casts a local land-use rule as a partisan and left-wing project."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Democrats who ran for governor in four states this fall said they wanted to pause new data centers.",
+        "why": "Broadens a city zoning vote into a national Democratic trend, along with a related link on a Democratic governor's freeze."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "077b8501844c",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -234,7 +409,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "3fb04bc77e27",
-    "coverage": 3
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -480,8 +655,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3ce30d71ed70",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -641,7 +816,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "164fd23c81a7",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -690,8 +865,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "4091ce3cd8c8",
-    "coverage": 2
+    "cluster": "7d218e87adfa",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -918,7 +1093,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "8d429ae6b78c",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -978,8 +1153,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3fb04bc77e27",
-    "coverage": 3
+    "cluster": "5711986f2f33",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -1040,8 +1215,39 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3fb04bc77e27",
-    "coverage": 3
+    "cluster": "b4d07cbb82cc",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "Dems descend on Denver to size up 2028; we asked who wants in the race",
+    "link": "https://www.foxnews.com/politics/dems-descend-denver-size-2028-who-wants-race",
+    "summary": "Josh Shapiro, Elissa Slotkin, Cory Booker and Ruben Gallego tested 2028 messaging at a Denver conference, and Chris Van Hollen bowed out early.",
+    "published": "2026-11-14T15:22:21+00:00",
+    "id": "abe208701894",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -10,
+    "spin": 8,
+    "leanWhy": "This is mostly a straight recap of candidates' own statements at a party conference, with attribution throughout. There is a slight tilt toward Democrats in repeating phrases like \"sweeping midterm victories\" and \"major victories\" without any counterpoint, and the sources are all Democrats.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Fresh off sweeping midterm victories, party leaders and rising stars descended on Denver",
+        "why": "Uses a flattering narrative of Democratic momentum and 'rising stars' in the narrator's own voice."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Booker told Fox News Digital",
+        "why": "Quotes come only from Democratic contenders, with no Republican or outside analysis of the field."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "b4d07cbb82cc",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1386,6 +1592,47 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "Florida Republican on Democrats' strategy: 'That's the choice they have to make ... persecution or policy'",
+    "link": "https://www.foxnews.com/politics/florida-republican-democrats-strategy-thats-choice-have-make-persecution-policy",
+    "summary": "Controversial Florida congressman says Democrats will choose to pursue persecution over policy but also signals a willingness to compromise, given the right conditions.",
+    "published": "2026-11-14T14:00:09+00:00",
+    "id": "86fdacd4d56b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 35,
+    "leanWhy": "The piece is an interview-driven write-up that gives one Republican's framing almost all the space. The headline quote frames Democrats as choosing \"persecution,\" and the text repeats this without any Democratic response or outside voice.",
+    "signals": [
+      {
+        "type": "Headline framing",
+        "quote": "persecution or policy",
+        "why": "The headline presents Fine's partisan characterization of Democrats' agenda as the central takeaway, with no counterpoint."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Fine, who expanded his own victory margin to 19 points even as Republicans lost control of the chamber",
+        "why": "The text adds flattering context for the speaker and repeats his self-praise, with no Democratic or independent voice."
+      },
+      {
+        "type": "Framing",
+        "quote": "suggesting Democrats will likely pursue political persecution as the main focus in the next Congress",
+        "why": "The lead states a contested prediction about Democrats in the narrator's voice, based only on Fine's claim."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "the ridiculous impeachments of President Trump's first term",
+        "why": "The quote is unchallenged in the text and shows a one-sided account of past events."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "162ab7f8defd",
+    "coverage": 1
+  },
+  {
     "outlet": "CBS News",
     "title": "Alaska elects first Democratic governor since 1998",
     "link": "https://www.cbsnews.com/news/alaska-governor-jkt-jonathan-kreiss-tomkins-election/",
@@ -1419,7 +1666,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "164fd23c81a7",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "NPR",
@@ -1830,7 +2077,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "8d429ae6b78c",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -2085,8 +2332,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "4091ce3cd8c8",
-    "coverage": 2
+    "cluster": "7d218e87adfa",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -2126,8 +2373,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3fb04bc77e27",
-    "coverage": 3
+    "cluster": "b4d07cbb82cc",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -2209,7 +2456,7 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "c83912b45e51",
-    "coverage": 3
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2366,6 +2613,114 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Trump, Putin, Xi Jinping to meet in first trilateral of its kind",
+    "link": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/",
+    "summary": "President Trump is looking to talk about reducing nuclear arsenals in the first formal trilateral between the leaders of the U.S., China and Russia.",
+    "published": "2026-11-14T10:59:00+00:00",
+    "id": "dbadea2b9324",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a mostly straight news report built on White House and Kremlin statements and anonymous US officials. It has a slight tilt toward the administration's framing, because officials' explanations go unchallenged in the excerpt, but it also includes the Yalta comparison and the Nvidia scandal reference.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"China is not really a part of that track, so it doesn't seem appropriate to have the Ukraine discussion there,\"",
+        "why": "The administration's rationale for leaving Ukraine off the agenda is given without any outside or Ukrainian response in the excerpt."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "dbadea2b9324",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "NYC woman allegedly struck by LGBTQ+ activist after questioning trans youth treatments: 'Never have answers'",
+    "link": "https://www.foxnews.com/us/nyc-woman-allegedly-struck-lgbtq-activist-after-questioning-trans-youth-treatments-never-have-answers",
+    "summary": "LGBTQ+ activist Jay Walker allegedly elbowed a counter-protester outside Mount Sinai Hospital in New York City as she questioned his support for youth transgender procedures.",
+    "published": "2026-11-14T10:56:50+00:00",
+    "id": "edcfb02651ae",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 42,
+    "spin": 40,
+    "leanWhy": "The piece relies almost entirely on the counter-protester's account and video she supplied. It adopts her framing (\"push for transgender medical procedures for children\", \"never have answers\") in the headline and lead, and the excerpt includes no response from Walker. The excerpt does note that both people were yelling and cursing, and that the striking is alleged.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "'Never have answers'",
+        "why": "The headline uses the accuser's jab at activists as its hook, which presents her framing as the story's takeaway."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to video of the incident provided by the alleged victim",
+        "why": "The account and the footage both come from one side, and no response from Walker appears in the excerpt."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "his push for transgender medical procedures for children",
+        "why": "The narration uses the opponents' framing of gender-affirming care instead of neutral terminology."
+      },
+      {
+        "type": "Framing",
+        "quote": "blasted me in the chest",
+        "why": "The excerpt gives the accuser's dramatic description at length, including her speculation that he meant to hit her face."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "edcfb02651ae",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Socialist LA mayor's bold homelessness promise ahead of 2028 Olympics hit with reality check: 'Not optimistic'",
+    "link": "https://www.foxnews.com/politics/socialist-la-mayor-bold-homelessness-promise-ahead-2028-olympics-hit-reality-check-not-optimistic",
+    "summary": "Los Angeles Mayor-elect Nithya Raman pledges to halve homeless encampments before the 2028 Olympics, but a local activist warns it won't work.",
+    "published": "2026-11-14T10:30:51+00:00",
+    "id": "a902278966d4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 42,
+    "spin": 45,
+    "leanWhy": "The headline labels the mayor \"Socialist\" and frames her pledge as hit with a \"reality check.\" The only outside voice is a critical local activist, who gets extended quotes with sweeping claims, and no supporters or independent experts are quoted. The article does lay out Raman's plan in neutral terms and cites official homelessness count data.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Socialist LA mayor's bold homelessness promise ahead of 2028 Olympics hit with reality check",
+        "why": "The ideological label and the 'reality check' framing presuppose that the plan will fail."
+      },
+      {
+        "type": "Source selection",
+        "quote": "John Alle, a business owner and co-founder of the Santa Monica Coalition",
+        "why": "A single critic is the only outside source, and none of the quotes defend or support the plan."
+      },
+      {
+        "type": "Framing",
+        "quote": "the city has become a \"Third World country.\"",
+        "why": "A hyperbolic claim is left unchallenged and gives the piece a bleak tone."
+      },
+      {
+        "type": "Framing",
+        "quote": "The blue city’s growing homeless population",
+        "why": "Describing LA as a 'blue city' implies the problem stems from partisan politics."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "a902278966d4",
+    "coverage": 1
+  },
+  {
     "outlet": "NBC News",
     "title": "A seismic shakeup at Nvidia, and a Senate flip for the ages: The news quiz",
     "link": "https://www.nbcnews.com/news/news-quiz/nvidia-news-quiz-rcna609023",
@@ -2381,8 +2736,49 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "8d429ae6b78c",
-    "coverage": 4
+    "cluster": "eac1780b7aa5",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Democrats seize on midterm wins to push massive minimum wage hikes, but economists see trouble ahead",
+    "link": "https://www.foxnews.com/politics/democrats-seize-midterm-wins-push-massive-minimum-wage-hikes-economists-see-trouble-ahead",
+    "summary": "Josh Shapiro says he wants to more than double Pennsylvania's minimum wage and codify abortion rights with the new Democratic trifecta.",
+    "published": "2026-11-14T10:00:15+00:00",
+    "id": "b2c71d6fa941",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 50,
+    "spin": 55,
+    "leanWhy": "The headline and body frame Democratic wage proposals through a \"trouble ahead\" lens. The only expert quoted is a critical economist, and the evidence cited is Seattle business strain, so right-coded economic framing dominates. Supporters of the wage hikes get only a passing mention, \"proponents have asserted\", with no substantive counterargument.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "but economists see trouble ahead",
+        "why": "The headline generalizes to \"economists\" collectively, but the article quotes only one economist, who is critical."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Tom Savidge, an economist with the American Institute for Economic Research, warned",
+        "why": "A single critical economist gets extended quotes, and no economist who supports the increases is quoted."
+      },
+      {
+        "type": "Framing",
+        "quote": "While proponents have asserted that minimum wage increases will be a boon to employees",
+        "why": "Supporters' case is reduced to an assertion and given one clause, while the costs get detailed coverage."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Democrats seize on midterm wins",
+        "why": "\"Seize on\" casts the Democratic agenda as opportunistic."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "b2c71d6fa941",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2438,8 +2834,8 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "c83912b45e51",
-    "coverage": 3
+    "cluster": "f8a99dacd2f3",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2469,8 +2865,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "c83912b45e51",
-    "coverage": 3
+    "cluster": "284adf4148c0",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2536,8 +2932,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "164fd23c81a7",
-    "coverage": 3
+    "cluster": "bf1ca2d72f54",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2567,8 +2963,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "164fd23c81a7",
-    "coverage": 3
+    "cluster": "ca9b9f1e183b",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -4737,6 +5133,42 @@
     "coverage": 2
   },
   {
+    "outlet": "BBC",
+    "title": "Lauren Boebert, once a MAGA star, loses her Colorado seat",
+    "link": "https://www.bbc.co.uk/news/articles/c6j9mlldgpgjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Boebert, who rose to fame as one of Donald Trump's biggest cheerleaders, will not serve a fourth term in Congress.",
+    "published": "2026-11-13T20:06:46+00:00",
+    "id": "a04e5a2293c0",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 12,
+    "leanWhy": "The piece is largely a factual profile of Boebert's rise and loss, with a Republican legislator and a political scientist as sources. Some mild tilt appears in the repeated \"cheerleader\" label, the dismissive Beatles quote, and the emphasis on provocation and her education, which cast her unflatteringly.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "one of Donald Trump's biggest cheerleaders",
+        "why": "The 'cheerleader' label is mildly belittling and is repeated in the headline summary and the body."
+      },
+      {
+        "type": "Framing",
+        "quote": "Boebert earned her high school equivalency diploma right before that victory",
+        "why": "Including this detail in a profile of her fall subtly underscores her lack of conventional credentials."
+      },
+      {
+        "type": "Source selection",
+        "quote": "like the band that played after the Beatles - no-one remembered them",
+        "why": "Leading with a dismissive quote about her, even from a Republican, shapes a negative tone."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a04e5a2293c0",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "Senate Dems break 32-year drought on leadership challenges",
     "link": "https://www.axios.com/2026/11/13/senate-democrats-van-hollen-schumer-election",
@@ -6584,6 +7016,42 @@
   },
   {
     "outlet": "CBS News",
+    "title": "Critics say Lutnick failed to cut off diversion of Nvidia chips to China",
+    "link": "https://www.cbsnews.com/news/lutnick-nvidia-ai-chips-china/",
+    "summary": "Commerce Secretary Howard Lutnick is under fire from critics asking whether his ties to Chinese companies and friendship with ex-Nvidia CEO Jensen Huang contributed to a lack of oversight over Nvidia AI chip sales.",
+    "published": "2026-11-13T15:15:00+00:00",
+    "id": "7bb011bc4fc6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 30,
+    "leanWhy": "The piece is mostly sourced reporting, but it leads with critics' framing and quotes a single expert's sharp charge (\"Either Lutnick doesn't know how to do his job or he is protecting Huang\") without any defense. The excerpt closes on a call from Democratic Sen. Warren, and the Commerce Department's non-response is the only counterpoint, so the tilt is against a Trump administration official.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Commerce Secretary Howard Lutnick is under fire from critics asking whether his ties to Chinese companies",
+        "why": "The lede puts critics' insinuation of improper ties up front, and the headline and summary repeat it."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Either Lutnick doesn't know how to do his job or he is protecting Huang,\"",
+        "why": "A pointed accusation from a single critic goes unanswered by any defender of Lutnick."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Sen. Elizabeth Warren, the ranking Democrat on the Senate Banking Committee, called on Lutnick",
+        "why": "The excerpt ends with a Democratic critic and includes no Republican or administration voice."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "7bb011bc4fc6",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
     "title": "Lutnick agrees to testify as Bessent blames him for chip sales",
     "link": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
     "summary": "Commerce Secretary Howard Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10, according to a U.S. official.",
@@ -7727,7 +8195,7 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "efab88f4e5de",
+    "cluster": "d7261ddb177a",
     "coverage": 2
   },
   {
@@ -8933,7 +9401,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "efab88f4e5de",
+    "cluster": "d7261ddb177a",
     "coverage": 2
   },
   {
@@ -8994,375 +9462,6 @@
     "confidence": "high",
     "storyChoice": "neither",
     "cluster": "2313395c6a06",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Why midterm vote-counting is taking so long in America's largest state",
-    "link": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Alaskans are still waiting for the full results, including in the close Senate race between Republican Dan Sullivan and Democrat Mary Peltola.",
-    "published": "2026-11-13T00:35:05+00:00",
-    "id": "17d92e7059d8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is an explanatory news piece on the logistics of Alaska's vote count. It relies on a neutral airline spokesman, an MIT election expert and an election lawyer, and it gives no partisan framing to either candidate.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "2313395c6a06",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "House Democratic leaders face fallout over poorly timed floor vote fumbles",
-    "link": "https://www.axios.com/2026/11/13/house-democrats-hegseth-impeachment-vote-jeffries",
-    "summary": "A week that was supposed to see House Democrats transition seamlessly from a landslide midterm victory to a leadership coronation has instead been pocked by surprise Republican victories on the House floor.",
-    "published": "2026-11-13T00:34:48+00:00",
-    "id": "00e8c5f42d4d",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 15,
-    "spin": 25,
-    "leanWhy": "Only the headline and feed summary were available. The framing stresses Democratic stumbles with phrases like \"poorly timed floor vote fumbles\" and \"pocked by surprise Republican victories\", and it casts the week as a failed \"coronation\". That tilts mildly against Democrats, and the excerpt gives no sourcing to judge further.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "poorly timed floor vote fumbles",
-        "why": "'Fumbles' is an evaluative word that presents the votes as Democratic incompetence."
-      },
-      {
-        "type": "Framing",
-        "quote": "leadership coronation",
-        "why": "'Coronation' casts the Democratic leadership transition as presumptuous, which sets up the stumbles as embarrassing."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "pocked by surprise Republican victories",
-        "why": "The wording emphasizes Democratic embarrassment and Republican wins."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "00e8c5f42d4d",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Hegseth awards medal to soldier who reprimanded his group at Arlington National Cemetery",
-    "link": "https://www.cbsnews.com/video/hegseth-awards-medal-soldier-reprimanded-group-arlington-national-cemetery/",
-    "summary": "The soldier who loudly and publicly reprimanded Defense Secretary Pete Hegseth and his guests at Arlington National Cemetery was summoned to the Pentagon on Thursday. Charlie D'Agata reports on what happened next.",
-    "published": "2026-11-13T00:33:38+00:00",
-    "id": "efab88f4e5de",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "efab88f4e5de",
-    "coverage": 2
-  },
-  {
-    "outlet": "Axios",
-    "title": "Senate Dems can look forward to unlikely MAGA allies",
-    "link": "https://www.axios.com/2026/11/13/senate-democrats-republicans-hawley-moreno-banks",
-    "summary": "Senate Democrats could find some of their most surprising allies next Congress from the right wing of the Republican Party . Why it matters: Senate Democrats are on track to need only four GOP votes to break filibusters next Congress.",
-    "published": "2026-11-13T00:32:44+00:00",
-    "id": "6b0799e6a931",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and a short feed summary are available. The framing is analytical, about Senate vote math and possible cross-party alliances, and it does not clearly favor either side.",
-    "signals": [],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "6b0799e6a931",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Suspect in D.C. gym shooting was doctor in legal feud with condo management",
-    "link": "https://www.nbcnews.com/news/us-news/suspect-washington-dc-gym-shooting-was-doctor-legal-feud-condo-board-rcna609089",
-    "summary": "A doctor who was locked in a lengthy legal dispute with his condominium association after alleging his penthouse suffered mold and water damage costing him hundreds of thousands of dollars is suspected of opening fire Thursday morning at a Washington, D.C., gym.",
-    "published": "2026-11-13T00:31:57+00:00",
-    "id": "2a545fc64d33",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight factual report on a shooting. It attributes claims to officials, witnesses and the suspect's attorney, and it has no ideological framing, though the gun-violence topic is values-adjacent.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "2a545fc64d33",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Calls grow for release of beloved California nurse detained by ICE: ‘We want her home’",
-    "link": "https://www.theguardian.com/us-news/2026/nov/12/california-nurse-release-ice-custody",
-    "summary": "Ann Lawani was taken from her home, sparking a huge outcry among students and faculty at her university Nearly two months after ICE agents whisked a beloved California nurse and professor from her home in Lodi, her university has ramped up calls for her release.",
-    "published": "2026-11-13T00:19:54+00:00",
-    "id": "d728eb6882e7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -40,
-    "spin": 35,
-    "leanWhy": "The piece is built around the sympathetic framing of a detained nurse-professor, with a headline and sourcing drawn mostly from her university dean, students, lawmakers and her lawyer. DHS gets a short statement, which her lawyer immediately rebuts, so the humanitarian framing dominates.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "ICE agents whisked a beloved California nurse and professor from her home",
-        "why": "\"Whisked\" and \"beloved\" set up a sympathetic, emotive frame in the narrator's own voice."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“She has supported us to the fullest extent up until the point that she was kidnapped.”",
-        "why": "A student's charged word \"kidnapped\" is quoted without any counterpoint, and sources are overwhelmingly supporters."
-      },
-      {
-        "type": "Framing",
-        "quote": "in a series of opaque transfers",
-        "why": "The narrator characterizes the detention process as opaque without attributing it to a source."
-      },
-      {
-        "type": "Framing",
-        "quote": "Lawani, 39, came to the US in 2007.",
-        "why": "The profile leads with her achievements and ties to the community, while the government's case gets limited space and is followed by a rebuttal."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "d728eb6882e7",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Suspected D.C. gunman who killed 1, wounded 4 identified as a doctor, police say",
-    "link": "https://www.cbsnews.com/video/suspected-dc-gunman-killed-1-wounded-4-identified-doctor-police-say/",
-    "summary": "A gunman killed one person and wounded four others when he opened fire in a gym in Washington, D.C., and then later from his penthouse balcony, police said. The suspected shooter, a 55-year-old doctor, then took his own life, authorities said. Nicole Sganga reports.",
-    "published": "2026-11-13T00:16:00+00:00",
-    "id": "b7afbd17de33",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 3,
-    "leanWhy": "Only a headline and short feed summary were available. They give a straight factual account attributed to police and authorities, with no loaded wording or advocacy.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "b7afbd17de33",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "The GOP knives are out for Trump Commerce Secretary Howard Lutnick",
-    "link": "https://www.washingtonexaminer.com/news/senate/4802297/gop-knives-out-howard-lutnick/",
-    "summary": "Commerce Secretary Howard Lutnick is quickly losing friends on Capitol Hill after coming under fire for his actions with American computer chip giant Nvidia. Lutnick could become the next high-ranking administration member to get the boot as part of President Donald Trump’s post-midterm personnel shuffle over…",
-    "published": "2026-11-12T23:44:10+00:00",
-    "id": "f61b6246747d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 25,
-    "leanWhy": "The piece is a straight news report built on Republican senators' criticism of a Trump cabinet member, with a White House defense included. The dramatic headline and the \"could get the boot\" framing add mild spin, but the sourcing is attributed and no side's ideological framing dominates.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "The GOP knives are out for Trump Commerce Secretary Howard Lutnick",
-        "why": "The headline uses dramatic, combative imagery that goes beyond the measured quotes in the body."
-      },
-      {
-        "type": "Framing",
-        "quote": "Lutnick could become the next high-ranking administration member to get the boot",
-        "why": "The text speculates about his firing and presents it as a likely trend, going beyond what the quoted lawmakers say."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Congress is not going to let this go.",
-        "why": "The sourcing is almost all critical Republicans, and the White House defense gets only brief space."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "f61b6246747d",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
-    "link": "https://www.bbc.co.uk/news/videos/cv5y1309dg3go?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC's Bernd Debusmann breaks down why Defence Secretary Hegseth's group was reprimanded at Arlington National Cemetery and the history behind its strict rules of conduct.",
-    "published": "2026-11-12T23:42:52+00:00",
-    "id": "07027375968e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a short explainer-style intro that states the facts: a sentinel reprimanded a group including Hegseth, and the Pentagon gave the soldier a commendation medal. The headline's word \"reprimand\" and the focus on the rules mildly put Hegseth's conduct in the spotlight, but the excerpt has no loaded language and no partisan sourcing. It is only the opening of the piece.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The tradition behind Hegseth's Veterans Day reprimand",
-        "why": "The headline centers the story on the reprimand of a Trump-administration official, which mildly emphasizes his embarrassment, though it is framed as explanatory."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "07027375968e",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "D.C. gunman kills condo manager at gym then opens fire on pedestrians",
-    "link": "https://www.nbcnews.com/nightly-news/video/d-c-gunman-kills-condo-manager-at-gym-then-opens-fire-on-pedestrians-273381957788",
-    "summary": "An emergency room doctor killed his condo building manager before opening fire on pedestrians from his balcony, according to police. NBC News’ Ryan Nobles reports.",
-    "published": "2026-11-12T23:40:14+00:00",
-    "id": "e326f72d1785",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "e326f72d1785",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "US doctor kills building manager after long-running dispute over mould, police say",
-    "link": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Authorities say the shooting in Washington DC left four people injured, with the suspect dying of a self-inflicted gunshot wound.",
-    "published": "2026-11-12T23:39:04+00:00",
-    "id": "a1468394255b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is a straight factual recap of a shooting, attributed to the police interim chief and an eyewitness. It has no editorializing, and the guns angle (unregistered firearms) is reported as police statements without advocacy.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "a1468394255b",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-    "link": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
-    "summary": "Holscher, a state senator, overcame a more well-known Republican who had Trump's endorsement in the state that has gone to the GOP in most other statewide races.",
-    "published": "2026-11-12T23:36:19+00:00",
-    "id": "7c5fbafa2163",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "Only a headline and a short feed summary are available. They state the election result and its context (a better-known, Trump-endorsed Republican; a state that mostly goes GOP) in plain terms, with little loaded language.",
-    "signals": [],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "7c5fbafa2163",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-    "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-    "summary": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
-    "published": "2026-11-12T23:34:05+00:00",
-    "id": "8af6d09637cd",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 25,
-    "leanWhy": "The piece is mostly straight reporting with attribution, noting China's denial and that the DOJ has drawn no conclusions. The dramatic headline and wording (\"plunging into turmoil\", \"stunning fall from grace\") add sensational emphasis, but not partisan tilt. The only named lawmakers are Democrats, though that reflects who made the demand.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-        "why": "Sensational headline framing amplifies drama beyond the stated facts."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "in a stunning fall from grace that sent shockwaves from Silicon Valley to Capitol Hill",
-        "why": "Dramatic phrasing raises the stakes of an event still based on alleged conduct."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Senators Elizabeth Warren and Chris Coons, along with other Democrats on the House Foreign Affairs Committee, publicly demanded that Huang brief Congress",
-        "why": "Only Democratic lawmakers are named as demanding answers, with no Republican reaction shown in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "8af6d09637cd",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Ex-Oklahoma death row inmate pleads guilty to lesser charge",
-    "link": "https://www.cbsnews.com/news/richard-glossip-ex-oklahoma-death-row-inmate-pleads-guilty-to-accessory/",
-    "summary": "During his time on death row, courts set nine different execution dates for Richard Glossip, and he came so close to being put to death that he ate three separate last meals.",
-    "published": "2026-11-12T23:34:05+00:00",
-    "id": "48956ca99d57",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 12,
-    "leanWhy": "This is mostly straight reporting with attributed quotes from both the defense attorney and the Attorney General, who speaks for the prosecution and the victim's family. The tilt is subtle: the piece dwells on the near-executions and the \"three last meals\" detail, and it gives the defense's innocence claim and celebrity support prominent space.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "he came so close to being put to death that he ate three separate last meals",
-        "why": "The vivid, emotive detail about near-execution stresses the system's harshness toward the defendant and is repeated in the summary and body."
-      },
-      {
-        "type": "Source selection",
-        "quote": "His longstanding claims of innocence have drawn support from Kim Kardashian and other prominent figures.",
-        "why": "Celebrity support for innocence is included while the guilt case is covered mostly as prosecution allegations."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"He had nothing to do with the murder, none of the planning, or carrying it out,\" Knight said.",
-        "why": "The defense attorney's innocence claims get the closing emphasis in this section, with no independent counterweight beyond the AG's statement."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "48956ca99d57",
     "coverage": 1
   }
 ]
