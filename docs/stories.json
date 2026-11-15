@@ -1,5 +1,180 @@
 [
   {
+    "outlet": "Washington Examiner",
+    "title": "Nationwide ground stop spills into partisan politics",
+    "link": "https://www.washingtonexaminer.com/policy/infrastructure/4804068/nationwide-ground-stop-partisan-politics/",
+    "summary": "The nationwide ground stop issued by the Federal Aviation Administration on Friday afternoon spilled into partisan politics throughout Saturday. Multiple Democratic lawmakers took aim at the Trump administration after thousands of flights were canceled on Friday night and throughout Saturday.",
+    "published": "2026-11-15T03:55:28+00:00",
+    "id": "3a9dac247195",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The excerpt is a short factual setup. It says Democratic lawmakers criticized the administration and reports Duffy's explanation of an equipment malfunction from old technology. The excerpt ends before any lawmaker quotes or Republican responses appear, so balance can't be judged, and the framing is mostly neutral.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Multiple Democratic lawmakers took aim at the Trump administration",
+        "why": "The excerpt leads with Democratic criticism, and 'took aim' is mildly active wording. The administration's explanation follows immediately."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "3a9dac247195",
+    "coverage": 7
+  },
+  {
+    "outlet": "CBS News",
+    "title": "How Trump administration responded to FAA ground stop",
+    "link": "https://www.cbsnews.com/news/faa-ground-stop-trump-admin-response/",
+    "summary": "President Trump was informed within 30 minutes after the Federal Aviation Administration imposed a nationwide ground stop Friday afternoon, according to U.S. officials.",
+    "published": "2026-11-15T03:16:17+00:00",
+    "id": "6a4cd9e55f58",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is a procedural account of the administration's response that relies almost entirely on a single U.S. official and the administration's own statements. That sourcing, plus phrasing such as \"A game plan was put in motion\" and the explanation for why officials were late, gives a mildly favorable picture of the White House's handling, and no critics or outside experts appear in the excerpt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "according to U.S. officials",
+        "why": "The account of the response rests on anonymous administration officials, so the White House's own narrative dominates."
+      },
+      {
+        "type": "Framing",
+        "quote": "A game plan was put in motion.",
+        "why": "Presents the response as swift and orderly without independent verification."
+      },
+      {
+        "type": "Framing",
+        "quote": "because they were close to getting the grounding lifted and didn't want to interrupt the effort",
+        "why": "Gives the officials' own explanation for the late press conference, in a favorable light, with no outside perspective."
+      },
+      {
+        "type": "Omission",
+        "quote": "Mr. Trump started calling congressional leaders on Friday to work on getting the FAA more funding.",
+        "why": "Presents the administration's funding push without any critic or context on prior funding or modernization."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "3a9dac247195",
+    "coverage": 7
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "More Americans Could Die Through Assisted Suicide If New Democratic Trifectas Push Policy Across Nation",
+    "link": "https://dailycaller.com/2026/11/14/democrat-trifectas-state-governments-could-push-medical-assisted-suicide-laws-american-deaths",
+    "summary": "‘End of life decisions are never easy’",
+    "published": "2026-11-15T02:50:18+00:00",
+    "id": "3306f614eebf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 62,
+    "spin": 60,
+    "leanWhy": "The piece adopts the anti-euthanasia framing throughout, with \"assisted suicide\" and \"kill themselves\" used as defaults, a headline that presents more deaths as the expected result, and a pro-life advocacy group as the only stated source. Supporters of aid-in-dying and the \"Death with Dignity\" framing are absent apart from the name of the bill, and the outreach was only to pro-life groups.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "help people kill themselves",
+        "why": "Uses a stark, charged description of medical aid in dying instead of neutral wording."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "More Americans Could Die Through Assisted Suicide If New Democratic Trifectas Push Policy Across Nation",
+        "why": "The headline presents more deaths as the likely outcome and casts Democratic control as the cause, though the text only says bills could be revived."
+      },
+      {
+        "type": "Source selection",
+        "quote": "the National Right to Life Committee stated in a Friday press release",
+        "why": "The lead statistic comes from an advocacy group opposed to the policy, with no neutral or supportive voices."
+      },
+      {
+        "type": "Source selection",
+        "quote": "reached out to Live Action, SBA Pro-Life America, Students for Life of America, and multiple other pro-life organizations for comment",
+        "why": "Comment was sought only from groups on one side of the issue."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "3306f614eebf",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Judge temporarily blocks Trump’s plan to redevelop East Potomac golf course in D.C.",
+    "link": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-blocks-trumps-plan-redevelop-east-potomac-golf-cours-rcna609366",
+    "summary": "The Trump administration cannot close East Potomac Park to the public for now, a federal judge in Washington ruled Saturday, dealing a blow to the president’s effort to renovate its golf course.",
+    "published": "2026-11-15T02:46:52+00:00",
+    "id": "0e14ddfe1d24",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "The piece is mostly a straight recap of a court ruling, but it leans on the judge's reasoning and quotes, including her \"bad faith\" characterization and skepticism of the government's safety claim, and gives the administration only brief space. The phrase \"dealing a blow\" and the closing \"pet projects\" line add a mild tilt against Trump.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "dealing a blow to the president’s effort to renovate its golf course",
+        "why": "Frames the ruling as a setback for Trump in the lead, which is mildly evaluative."
+      },
+      {
+        "type": "Source selection",
+        "quote": "If public safety were at risk, NPS would have taken a step—any step—to address the safety issues it knew about.",
+        "why": "Long judicial quotes dominate and the government's argument is paraphrased in far less detail."
+      },
+      {
+        "type": "Framing",
+        "quote": "The president has adopted several pet projects during his second",
+        "why": "'Pet projects' casts the initiative as a personal indulgence."
+      },
+      {
+        "type": "Framing",
+        "quote": "President Donald Trump referred to the park as “trash island” just hours before the ruling, while criticizing Reyes.",
+        "why": "Highlights Trump's disparaging remark, which emphasizes details unflattering to him."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "0e14ddfe1d24",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Mamdani says he and Trump made deal over SNAP rule affecting small businesses nationwide",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4804056/mamdani-trump-deal-snap-rule-nyc-small-businesses/",
+    "summary": "New York City Mayor Zohran Mamdani said Friday he and President Donald Trump brokered a deal on new SNAP requirements that would affect small businesses nationwide.",
+    "published": "2026-11-15T01:29:59+00:00",
+    "id": "42e6df7151b6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The excerpt is a short, mostly factual report built around Mamdani's own quoted account of the deal. The headline and lede attribute the claim to him (\"says\"). The only source is Mamdani, so the White House or USDA account is missing from the excerpt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“I have spoken to President Trump and [Agriculture Secretary Brooke] Rollins, and as a result of those conversations",
+        "why": "The deal is described only through Mamdani's quote, and the excerpt has no confirmation from the administration."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "42e6df7151b6",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
     "link": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
@@ -24,6 +199,25 @@
     "storyChoice": "left",
     "cluster": "f0c48431f90f",
     "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Maintenance gone awry caused nation-wide ground stop, says Transportation Secretary",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary",
+    "summary": "Transportation Secretary Sean Duffy points blame toward contractor in explaining Friday's nation-wide aviation ground stop.",
+    "published": "2026-11-14T22:48:38+00:00",
+    "id": "ae14dcbc0e08",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Daily Caller",
@@ -58,8 +252,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "3ce30d71ed70",
-    "coverage": 2
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "NPR",
@@ -79,7 +273,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "7d218e87adfa",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -300,8 +494,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "The Guardian",
@@ -341,8 +535,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "832d6b568db2",
-    "coverage": 1
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Fox",
@@ -448,6 +642,32 @@
     "coverage": 1
   },
   {
+    "outlet": "BBC",
+    "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+    "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+    "published": "2026-11-14T19:12:25+00:00",
+    "id": "00f4fb575de9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is mostly a factual recap of the official briefing. It attributes claims to Duffy, the FAA head, L3Harris and an outside expert. It notes that Republicans control Congress, which is neutral context. Leading with the administration's account gives officials the framing, but the tilt is minimal.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Duffy warned that a similar issue could arise again unless the US Congress approved upgrades to air traffic control infrastructure.",
+        "why": "The administration's funding argument is relayed without any counterpoint, though it is attributed to Duffy."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "3a9dac247195",
+    "coverage": 7
+  },
+  {
     "outlet": "CBS News",
     "title": "Travelers stranded, flights canceled after ground stop. Here's what we know",
     "link": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
@@ -470,8 +690,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Daily Caller",
@@ -568,8 +788,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Washington Examiner",
@@ -655,8 +875,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "3ce30d71ed70",
-    "coverage": 2
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Daily Caller",
@@ -834,8 +1054,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "CBS News",
@@ -866,7 +1086,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "7d218e87adfa",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -897,6 +1117,42 @@
         "type": "Source selection",
         "quote": "But Fox News Digital polling showed 27% of Republican voters ranked immigration as their top issue, compared to just 3% of Democrats.",
         "why": "The outlet's own poll is used to rebut the Democrats' framing, and the comparison is not placed in context."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "cbd09ceb57a7",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Dems seize on midterm rout to demand ICE reform, but polls reveal a twist in who prioritized immigration",
+    "link": "https://www.foxnews.com/politics/dems-seize-midterm-rout-demand-ice-reform-polls-reveal-twist-prioritized-immigration",
+    "summary": "Rep.-elect Bobby Pulido and Texas Democrats push 2028 candidates to prioritize immigration reform after flipping Republican-leaning districts.",
+    "published": "2026-11-14T16:36:20+00:00",
+    "id": "7e6ac1a7d09b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 30,
+    "leanWhy": "The headline and lead frame Democrats as \"seizing\" on a win to push an agenda that polls say voters did not prioritize, which undercuts the Democratic mandate claim. The body does quote Democrats and Latino advocacy groups at length, and it reports the economic framing, so the tilt is moderate.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Dems seize on midterm rout to demand ICE reform, but polls reveal a twist",
+        "why": "\"Seize\" and \"twist\" cast the Democratic push as opportunistic and at odds with voters."
+      },
+      {
+        "type": "Framing",
+        "quote": "even as polling shows economic concerns far outpaced it as a priority for both Democratic and Hispanic voters",
+        "why": "The lead sets up the immigration push as out of step with voters before Democratic voices are heard."
+      },
+      {
+        "type": "Source selection",
+        "quote": "But Fox News Digital polling showed 27% of Republican voters ranked immigration as their top issue, compared to just 3% of Democrats.",
+        "why": "The outlet's own poll is used as a counterpoint right after Pulido's quote, and the comparison of party voters is of limited relevance to the claim."
       }
     ],
     "confidence": "medium",
@@ -1008,6 +1264,42 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "Democrats eye killing Senate filibuster, and lawmaker warns move could be a 'double-edged sword'",
+    "link": "https://www.foxnews.com/politics/democrats-eye-killing-senate-filibuster-lawmaker-warns-move-could-double-edged-sword",
+    "summary": "Ed Markey says the filibuster must be \"on the table\" as Democrats take the Senate, while Andy Kim warns the move could be a \"double-edged sword.\"",
+    "published": "2026-11-14T16:00:48+00:00",
+    "id": "8c21ab71e8ff",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting with direct quotes from Democratic senators, including a cautionary voice. It tilts slightly right by stressing Democratic internal division, Schumer's silence, and Trump's earlier warning (\"And now they have\"), and by using the loaded phrase \"nuking the filibuster\".",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "And now they have.",
+        "why": "A terse editorial aside that echoes Trump's prediction and implies he was proved right."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "before jumping to nuking the filibuster",
+        "why": "'Nuking' is dramatic wording for a rules change."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Senate Minority Leader Chuck Schumer, D-N.Y., remained silent when asked",
+        "why": "It emphasizes a Democratic leader's evasion and the party's internal friction."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "8da130a823e0",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Peltola again claims victory in Alaska Senate race as vote count drags on",
     "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4803912/peltola-again-claim-victory-alaska-senate-race/",
@@ -1061,8 +1353,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "CBS News",
@@ -1189,8 +1481,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Fox",
@@ -1216,7 +1508,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b4d07cbb82cc",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1247,7 +1539,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "b4d07cbb82cc",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1265,8 +1557,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "af0e1bfaead6",
-    "coverage": 5
+    "cluster": "3a9dac247195",
+    "coverage": 7
   },
   {
     "outlet": "Daily Caller",
@@ -2332,8 +2624,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "7d218e87adfa",
-    "coverage": 3
+    "cluster": "736ce4bb36e4",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -2373,8 +2665,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b4d07cbb82cc",
-    "coverage": 2
+    "cluster": "9e2e366e9da9",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -3149,7 +3441,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "736ce4bb36e4",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -8134,6 +8426,47 @@
     "coverage": 3
   },
   {
+    "outlet": "The Guardian",
+    "title": "Democrats need to fix these three weaknesses before 2028 | Dustin Guastella",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/13/democrats-weaknesses-2028",
+    "summary": "Progressives should be careful not to get comfortable. There is work to be done Democrats had a great midterms result. Big wins in Ohio, Georgia, Iowa, Maine and Texas show the potential for a majority coalition that reaches well beyond traditional liberal strongholds.",
+    "published": "2026-11-13T11:00:16+00:00",
+    "id": "2b975be163a5",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "This is an opinion column written from inside the progressive camp. It urges Democrats toward a populist, pro-worker economic program with industrial policy and crackdowns on \"corporate gouging\", and it treats Trump's economic record and Republican failures as given. The criticism of Democrats is real, but it is aimed at making the party more effective rather than at undermining it.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "cheap anti-tax pseudo-populism on offer by the senator Cory Booker",
+        "why": "Dismissive wording toward a centrist-leaning Democrat, from a left-populist angle."
+      },
+      {
+        "type": "Framing",
+        "quote": "crackdowns on corporate gouging",
+        "why": "Adopts the left-coded anti-corporate frame as the obvious solution."
+      },
+      {
+        "type": "Framing",
+        "quote": "It’s clear that voters don’t approve of Donald Trump’s economic management.",
+        "why": "States a negative judgment of Trump's economy as settled fact, with the survey evidence used to support it."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats had a great midterms result.",
+        "why": "Opens by celebrating the Democratic result and treats it as established."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "2b975be163a5",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "Kratom and 7-OH can feel like 'a miracle.' They can also be addictive",
     "link": "https://www.npr.org/2026/11/13/nx-s1-6039203/kratom-7-oh-dea-addiction-opioid",
@@ -8195,8 +8528,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "d7261ddb177a",
-    "coverage": 2
+    "cluster": "fcc9f5dd7999",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -9196,272 +9529,6 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "6902d904a0c3",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Extended interview: Ole Miss students describe alleged racial harassment seen in viral video",
-    "link": "https://www.cbsnews.com/video/extended-interview-ole-miss-students-describe-alleged-racial-harassment-seen-in-viral-video/",
-    "summary": "A group of University of Mississippi roommates are speaking out after a doorbell camera captured two White students making monkey gestures and sounds outside their apartment.",
-    "published": "2026-11-13T01:37:07+00:00",
-    "id": "575bf8f307ac",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 12,
-    "leanWhy": "Only a headline and a short summary are available. The piece is an interview with the affected students, so their account is the one we see, though \"alleged\" is used and the video is described as captured evidence. That sourcing leans slightly toward a racial-harassment frame, which fits left-coded race framing.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Ole Miss students describe alleged racial harassment seen in viral video",
-        "why": "The headline presents only the alleged victims' account, with no response from the accused students or the university."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "575bf8f307ac",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "‘COPS’ camera crew captures deadly police shooting during New Mexico ride-along",
-    "link": "https://www.nbcnews.com/video/-cops-camera-crew-captures-deadly-police-shooting-during-new-mexico-ride-along-273399877650",
-    "summary": "Video shows a foot chase and struggle after an officer stopped a man for jaywalking in Albuquerque. The crew ran for cover as gunfire erupted. The deadly shooting remains under investigation. NBC News’ Andres Gutierrez reports.",
-    "published": "2026-11-13T01:34:19+00:00",
-    "id": "3adc780716a6",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and short feed summary are available. The summary mostly describes events neutrally and notes the shooting is under investigation, though mentioning the jaywalking stop as the trigger slightly highlights the minor nature of the initial offense.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "after an officer stopped a man for jaywalking",
-        "why": "Leading with the minor offense subtly invites a police-accountability reading."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "3adc780716a6",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
-    "link": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096",
-    "summary": "DENVER — Texas Sen.-elect James Talarico told a gathering of Democrats Thursday that voters are expecting them to immediately deliver, and that means making President Donald Trump’s last two years in office the “most productive of any presidency in American history.”",
-    "published": "2026-11-13T01:28:48+00:00",
-    "id": "cb4ca778b99a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 10,
-    "leanWhy": "The piece is mostly a straight recap of Talarico's speech, but it relies almost entirely on his own words and framing, with no Republican response. Phrases like \"just made history\" and the David-versus-Goliath framing against Musk give a mildly favorable tilt.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "framing himself as David versus Elon Musk, the Goliath",
-        "why": "It repeats the candidate's underdog narrative, which casts his win favorably."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The White House has signaled it plans to fight attempts by Congress to investigate the administration.",
-        "why": "The only other perspective is a brief White House line, and no Republican voices respond to Talarico's claims."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "who just made history by becoming the first Democrat elected senator in Texas since 1988",
-        "why": "The celebratory framing of the win adds a mild positive tone."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "cb4ca778b99a",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Woman who drove onto Kansas soccer field, killing 2, won’t be charged, officials say",
-    "link": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094",
-    "summary": "A woman who killed two people, including a 6-year-old boy, when she drove through a Kansas soccer game last month had taken a nap in her parked vehicle before it accelerated and won’t be criminally charged, officials said Thursday.",
-    "published": "2026-11-13T01:22:28+00:00",
-    "id": "a5938af0bf2f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is a straight factual recap of a prosecutor's and police chief's announcement. It attributes claims to officials and includes uncertainty (\"some questions we may never be able to answer\"), with no loaded framing.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "a5938af0bf2f",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Woman who drove onto soccer field, killing 2, won’t be charged, officials say",
-    "link": "https://www.nbcnews.com/news/us-news/no-charges-woman-drove-kansas-soccer-field-killing-2-officials-say-rcna609094",
-    "summary": "A woman who killed two people, including a 6-year-old boy, when she drove through a Kansas soccer game last month had taken a nap in her parked vehicle before it accelerated and won’t be criminally charged, officials said Thursday.",
-    "published": "2026-11-13T01:22:28+00:00",
-    "id": "dac0124acf59",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straight recap of a prosecutor's and police chief's news conference on a charging decision, with attributions to officials throughout and uncertainty openly acknowledged. A slight tilt comes from relying almost entirely on officials' account and the sympathetic details about the driver, with no victims' families or critics heard in the excerpt.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "I can not only find no evidence of an intentional crime, I can find affirmative evidence that there was not an intentional crime,",
-        "why": "The excerpt relies on officials' account and quotes the prosecutor's strongest exculpatory statement, with no victims' family or dissenting view shown."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "a5938af0bf2f",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Ilhan Omar’s Somali bodyguard was indicted amid DOJ investigation of congresswoman, lawyer claims",
-    "link": "https://www.washingtonexaminer.com/news/investigations/4802260/ilhan-omar-somali-bodyguard-indicted-doj-investigation/",
-    "summary": "A former security guard of Rep. Ilhan Omar (D-MN) was charged earlier this year with a felony related to immigration fraud in an effort by the Trump administration to extract incriminating information on the congresswoman, that Somali bodyguard’s lawyer is now claiming.",
-    "published": "2026-11-13T01:04:51+00:00",
-    "id": "bb57629ec105",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The piece reports the defense lawyer's claim but gives the indictment's details, the anonymous source's denial, and unflattering details about the bodyguard (TikTok persona) considerable room. It leans mildly right through emphasis on the anonymous investigation source and on details that undercut the defendant, while still presenting the lawyer's allegation prominently.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "a source close to the Ilhan Omar immigration investigation told the Washington Examiner",
-        "why": "An anonymous source from the investigating side is given space to dismiss the claims as 'completely false', with the last word on the dispute."
-      },
-      {
-        "type": "Framing",
-        "quote": "a self-described “#AfricanBigDaddy” and “plus-size model,”",
-        "why": "Mocking-tinged personal details about the defendant are irrelevant to the legal claim and undercut his credibility."
-      },
-      {
-        "type": "Framing",
-        "quote": "Somali bodyguard",
-        "why": "Headline emphasizes national origin and ties to Omar, which foregrounds the immigration-fraud frame."
-      },
-      {
-        "type": "Framing",
-        "quote": "though Mohamed graduated in April from the Global Diplomacy & Peace Academy",
-        "why": "The 'though' clause is used to cast doubt on the lawyer's language-proficiency claim."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "bb57629ec105",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Hegseth awards medal to soldier who reprimanded group near tomb",
-    "link": "https://www.cbsnews.com/news/hegseth-medal-reprimand-tomb-of-the-unknown-soldier/",
-    "summary": "Defense Secretary Pete Hegseth awarded a medal to the service member who reprimanded his group for making noise at the Tomb of the Unknown Soldier​.",
-    "published": "2026-11-13T01:04:50+00:00",
-    "id": "d7261ddb177a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a mostly factual wire-style recap. It quotes Hegseth and the Pentagon's own framing, and it adds context that such reprimands are routine. It also notes the footage of Hegseth's group posing near the tomb, which may slightly embarrass him.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Footage showed Hegseth, his wife, his chief of staff and other aides posing for photos near the tomb. Someone laughed",
-        "why": "The excerpt dwells on the group's behavior before the reprimand, a detail that mildly embarrasses Hegseth."
-      },
-      {
-        "type": "Omission",
-        "quote": "Soldiers reminding visitors to maintain decorum at the tomb is not uncommon.",
-        "why": "The context suggests the incident was routine, which implies the medal may be more of a political gesture than an exceptional honor, though the text never says so."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "d7261ddb177a",
-    "coverage": 2
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "DC shooting victim was building manager known to suspected gunman, police say",
-    "link": "https://www.washingtonexaminer.com/news/crime/4802289/dc-shooting-victim-building-manager/",
-    "summary": "The individual who was shot and killed in Washington, D.C.’s Logan Circle neighborhood Thursday morning has been identified as the building manager of the Metropole condominium complex with whom the gunman was involved in a dispute.",
-    "published": "2026-11-13T00:42:57+00:00",
-    "id": "722096553ebf",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is a straight factual report on a shooting. It attributes claims to police, court filings and the gunman's attorney, and it gives both sides of the building dispute. It has no ideological framing, though it touches on gun violence and crime.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "722096553ebf",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Pope Leo calls on followers to \"value women\" and \"respect girls\"",
-    "link": "https://www.cbsnews.com/video/pope-leo-calls-followers-value-women-respect-girls/",
-    "summary": "Pope Leo visited Peru on Thursday, where he said he learned \"what it means to be a shepherd\" when he had lived and served in the country for several decades. He gave an emotional speech in which he denounced the culture of \"machismo\" and called on followers to \"value women.\" Chris Livesay has more.",
-    "published": "2026-11-13T00:35:20+00:00",
-    "id": "72c2b1f506b8",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "Only a headline and short feed summary are available. They report the Pope's remarks on women and machismo in a straightforward way, with no loaded language, though the topic touches gender and religion.",
-    "signals": [],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "72c2b1f506b8",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "A 'really complicated job': Why midterm votes counting is taking so long in America's largest state",
-    "link": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Alaskans are still waiting for the full results, including in the close Senate race between Republican Dan Sullivan and Democrat Mary Peltola.",
-    "published": "2026-11-13T00:35:05+00:00",
-    "id": "2313395c6a06",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is an explanatory piece on the logistics of Alaska's ballot count. It relies on neutral sources (an airline marketer, an MIT election expert, an election lawyer) and gives both candidates equal treatment. The framing leans slightly toward reassurance about election administration, but it is not partisan.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "2313395c6a06",
     "coverage": 1
   }
 ]
