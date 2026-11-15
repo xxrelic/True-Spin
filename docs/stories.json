@@ -1,5 +1,102 @@
 [
   {
+    "outlet": "Fox",
+    "title": "Masked dirt bike riders swarm SUV in brazen NYC street attack, sparking police crackdown",
+    "link": "https://www.foxnews.com/us/masked-dirt-bike-riders-swarm-suv-brazen-nyc-street-attack-sparking-police-crackdown",
+    "summary": "Video captures masked dirt bike riders swarming and attacking an SUV on a busy Staten Island street as the NYPD warns that arrests are near.",
+    "published": "2026-11-15T04:55:51+00:00",
+    "id": "538198f55ce8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 25,
+    "spin": 30,
+    "leanWhy": "The piece relies entirely on law-and-order officials and a Republican assemblyman, and it gives their strongest rhetoric (\"plague of locusts,\" \"teenage terrorists\") without any counter-voice or root-cause context. This matches the right-coded frame of punishment, deterrence, personal and parental responsibility. The basic facts are attributed to video and officials, and it notes that the SUV appeared to run over a bike and that no one was seriously hurt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"They're jackals, they're teenage terrorists, and it's not going to be tolerated here in our borough.\"",
+        "why": "Inflammatory quotes from officials are presented at length with no alternative perspective, such as youth advocates or the riders."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "brazen NYC street attack, sparking police crackdown",
+        "why": "The headline uses dramatic framing, \"brazen\" and \"attack\", while the video shows only partly clear action."
+      },
+      {
+        "type": "Framing",
+        "quote": "Your kid is terrorizing innocent people when they're just going about their business.",
+        "why": "Emphasis on parental blame and punitive measures, ending with a Republican legislator's proposal, reinforces a responsibility-and-punishment frame."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "538198f55ce8",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "US judge blocks Trump’s plan to renovate historic DC golf course",
+    "link": "https://www.theguardian.com/us-news/2026/nov/15/us-judge-blocks-trumps-plan-to-renovate-historic-dc-golf-course",
+    "summary": "Order by judge Ana Reyes is the latest instance of the federal judiciary pushing back against Trump’s efforts to redesign the nation’s capital A federal judge has ordered a temporary suspension of any work at a historic Washington public golf course, in the latest setback for US president Donald Trump’s plan to turn…",
+    "published": "2026-11-15T04:52:34+00:00",
+    "id": "05e5dbc05e0c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -25,
+    "spin": 25,
+    "leanWhy": "The piece is mostly a factual report of the ruling. Its framing leans toward the plaintiffs: it casts the case as a pattern of judicial pushback against Trump's \"efforts to redesign the nation's capital\", it quotes the plaintiffs' advocacy group's \"vanity projects\" and \"destroy\" language without rebuttal, and the administration appears only through a non-response and a denial.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "is the latest instance of the federal judiciary pushing back against Trump’s sweeping efforts to redesign the nation’s capital",
+        "why": "Presents the ruling as part of a pattern of setbacks for Trump, and the same framing appears in the headline summary."
+      },
+      {
+        "type": "Source selection",
+        "quote": "another one of ​the president’s vanity projects",
+        "why": "Gives the plaintiffs' legal group's charged characterization with no counterbalancing administration voice."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The administration’s inexplicable drive to destroy East Potomac Park would have taken away a treasured park that could never be replaced.",
+        "why": "Carries an advocacy quote that is emotive and unrebutted, apart from a note that the administration did not respond."
+      },
+      {
+        "type": "Framing",
+        "quote": "in the latest setback for US president Donald Trump’s plan",
+        "why": "Frames the story as a defeat for Trump rather than neutrally describing the injunction."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05e5dbc05e0c",
+    "coverage": 4
+  },
+  {
+    "outlet": "NPR",
+    "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+    "summary": "A federal judge on Saturday ordered a two-week delay to any work at a historic Washington public golf course not far from the White House.",
+    "published": "2026-11-15T04:28:45+00:00",
+    "id": "4962edc0cb8e",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and a one-sentence feed summary were available. Both state the court action in neutral, wire-style terms, with no loaded wording or sourcing to judge. Naming Trump in the headline and calling the course \"historic\" is a very slight emphasis.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05e5dbc05e0c",
+    "coverage": 4
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Nationwide ground stop spills into partisan politics",
     "link": "https://www.washingtonexaminer.com/policy/infrastructure/4804068/nationwide-ground-stop-partisan-politics/",
@@ -65,6 +162,37 @@
     "storyChoice": "neither",
     "cluster": "3a9dac247195",
     "coverage": 7
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Federal judge blocks Trump from closing historic D.C. golf course, for now",
+    "link": "https://www.cbsnews.com/news/judge-blocks-east-potomac-park-dc-closing/",
+    "summary": "U.S. District Judge Ana Reyes ruled that the Trump administration cannot close East Potomac Park in Washington, D.C., for now.",
+    "published": "2026-11-15T02:57:07+00:00",
+    "id": "884e0d5bf0e6",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting of a court ruling, with a DOJ response included. It gives a long, prominent quote from the plaintiffs' advocate calling the project a \"vanity project\", and it stresses the judge's \"pretextual\" finding and the tree-cutting, which tilts the framing slightly against the administration.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "another one of the president's vanity projects",
+        "why": "The advocacy group's charged characterization gets a full two-sentence quote, while the DOJ reply is shorter and procedural."
+      },
+      {
+        "type": "Framing",
+        "quote": "Reyes said that the Trump administration's justifications for the proposed course closures were pretextual",
+        "why": "Leading with the judge's pretext finding and the tree-felling emphasizes the administration's apparent bad faith."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05e5dbc05e0c",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -145,8 +273,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "0e14ddfe1d24",
-    "coverage": 1
+    "cluster": "05e5dbc05e0c",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -2096,7 +2224,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "771d790de64c",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2471,8 +2599,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "771d790de64c",
-    "coverage": 2
+    "cluster": "c410c17f2abb",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -8113,7 +8241,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -8271,7 +8399,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -8964,7 +9092,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -9046,7 +9174,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -9118,7 +9246,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -9138,7 +9266,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -9390,7 +9518,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
   },
   {
@@ -9426,109 +9554,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "5bdc43b6f39c",
+    "cluster": "97bf04bd8408",
     "coverage": 6
-  },
-  {
-    "outlet": "BBC",
-    "title": "How could the Nvidia CEO’s affair threaten US national security?",
-    "link": "https://www.bbc.co.uk/news/videos/cm7526d2qeg4o?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC's Asma Khalid explains how the Nvidia affair could threaten US national security and risk sensitive US technology getting into China.",
-    "published": "2026-11-13T02:15:59+00:00",
-    "id": "bb10f3ef08e4",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "bb10f3ef08e4",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Texas man executed for beheading 3 children: 'Going to be with my kids'",
-    "link": "https://www.foxnews.com/us/texas-man-executed-beheading-3-children-going-my-kids",
-    "summary": "John Allen Rubio thanked loved ones and said he would soon be with the three children he killed before receiving a lethal injection in Texas.",
-    "published": "2026-11-13T02:04:46+00:00",
-    "id": "fad6c19b1358",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a largely factual recap of an execution, attributed to the AP, and it includes both defense claims (schizophrenia diagnosis, troubled childhood) and the prosecution's dispute of them. A slight victim-focused, punishment-case framing shows in the headline quote and in the closing detail about the site becoming a park, but nothing is argued.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Texas man executed for beheading 3 children: 'Going to be with my kids'",
-        "why": "The headline leads with the graphic crime and the offender's own words about reuniting with the children, which is sensational and victim-centered."
-      },
-      {
-        "type": "Framing",
-        "quote": "prosecution experts ultimately disputed the findings",
-        "why": "The insanity defense gets brief treatment and the prosecution's rebuttal is given the final word, which tilts mildly toward the right-coded skepticism of excuse defenses."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "fad6c19b1358",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
-    "link": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
-    "summary": "Sen. Chris Van Hollen, D-Md., announced Thursday he will run for Senate majority leader, becoming the first to challenge Sen. Chuck Schumer, D-N.Y.",
-    "published": "2026-11-13T02:03:11+00:00",
-    "id": "5bdc43b6f39c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news report on an intra-Democratic leadership challenge, giving both Van Hollen and Schumer direct quotes and noting that Schumer remains favored. A slight tilt comes from repeating Van Hollen's framing of Trump's \"disastrous policies\" and his agenda without pushback, though it is attributed to him.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Van Hollen said in an interview with MS NOW Thursday night that more than 10 senators have pledged to support him.",
-        "why": "The claim of support comes from the challenger's own camp and is not independently verified in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "5bdc43b6f39c",
-    "coverage": 6
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Donald Trump Jr. leaves paid advisory role at prediction market Kalshi",
-    "link": "https://www.washingtonexaminer.com/policy/finance-and-economy/4802337/donald-trump-jr-leaves-adviser-role-kalshi/",
-    "summary": "Donald Trump Jr. departed from his paid advisory role at prediction market Kalshi on Thursday after the two parties reached what was framed as a mutual agreement following the president’s son growing closer to competitor Polymarket.",
-    "published": "2026-11-13T01:57:05+00:00",
-    "id": "6902d904a0c3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is mostly a factual business recap, with a Kalshi spokeswoman quoted and details attributed to the Financial Times and other reports. A mild tilt comes from the closing paragraph, which links the departure to expected Democratic investigations of Trump family finances, but it is framed as context and stays neutral in tone.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Democrats have promised intense congressional scrutiny while in control and have signaled intentions to investigate the Trump family’s financial relationships",
-        "why": "Ending on the Democratic investigation angle implies a political motive or context that the facts of the departure do not themselves show."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "6902d904a0c3",
-    "coverage": 1
   }
 ]
