@@ -1,5 +1,97 @@
 [
   {
+    "outlet": "Fox",
+    "title": "Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes",
+    "link": "https://www.foxnews.com/politics/federal-prosecutor-warns-sen-warren-legal-consequences-records-arent-preserved-trump-linked-probes",
+    "summary": "U.S. Attorney Aaron Reitz warned Elizabeth Warren of legal consequences over her plans to investigate people close to President Donald Trump.",
+    "published": "2026-11-16T07:52:27+00:00",
+    "id": "5c2e77ac0ee0",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 20,
+    "leanWhy": "The article is mostly factual and quotes Reitz's letter at length, but it adds context that undercuts his legal claim: the letter \"does not establish that Warren violated federal law,\" and the Speech or Debate Clause is mentioned. It also stresses the mocking Native American references and the \"Pocahontas\" history, and it gives no response from Reitz's side or from the administration defending the letter.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The letter does not establish that Warren violated federal law.",
+        "why": "The article adds its own legal caveat that weakens the prosecutor's position, and no counterpoint supports the prosecutor."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "appear to mock Warren over previous claims about her Native American heritage",
+        "why": "It dwells on the mocking tone of the letter, which casts the prosecutor's action as a partisan stunt."
+      },
+      {
+        "type": "Omission",
+        "quote": "Trump and his allies have mocked Warren for years, including by calling her \"Pocahontas.\"",
+        "why": "This background reinforces a harassment frame and gives no defense of the letter from Reitz's side."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "5c2e77ac0ee0",
+    "coverage": 2
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Airline schedules returning to normal after ground stop, FAA says",
+    "link": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
+    "summary": "Officials attributed the ground stop to aging system infrastructure and legacy technology.",
+    "published": "2026-11-16T07:50:44+00:00",
+    "id": "887565abc5e2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight factual recap of the ground stop and recovery. It relies mostly on Transportation Secretary Duffy, but it also includes FlightAware figures and a statement from the contractor L3Harris. The slight tilt comes from the official government account being dominant, and nothing is slanted toward either party.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "887565abc5e2",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "U.S. attorney warns Sen. Elizabeth Warren against investigating Trump associates",
+    "link": "https://www.nbcnews.com/politics/congress/us-attorney-warns-sen-elizabeth-warren-investigating-trump-associates-rcna609532",
+    "summary": "A Justice Department official on Sunday accused Sen.",
+    "published": "2026-11-16T05:43:06+00:00",
+    "id": "e71f96333581",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting that quotes Reitz's letter and Warren's own public statements. It adds context, such as Reitz's past work for Cruz and the Native American references being a dig at Warren, and notes that Warren's office had not yet responded. These details slightly undercut the DOJ official, but the framing stays largely neutral.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "A spokesperson for Warren did not immediately respond to a request for comment Sunday night.",
+        "why": "Warren's side is represented only by her earlier public statements, so the DOJ account gets most of the space."
+      },
+      {
+        "type": "Framing",
+        "quote": "Reitz, a former chief of staff to Sen. Ted Cruz, R-Texas, has sent similar letters",
+        "why": "Noting his partisan background and the pattern of letters suggests a political campaign, which mildly frames the move as partisan."
+      },
+      {
+        "type": "Framing",
+        "quote": "a dig at Warren over her past claims of Native American descent.",
+        "why": "Pointing out the slur-like imagery tells readers the letter is a personal jab, which reflects poorly on Reitz."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "5c2e77ac0ee0",
+    "coverage": 2
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "JD Vance and the debate over victory in Iran",
     "link": "https://www.washingtonexaminer.com/daily-memo/4804369/jd-vance-debate-victory-iran/",
@@ -37,8 +129,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "7dd3a8b51b0b",
-    "coverage": 2
+    "cluster": "2e16c1057619",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -162,7 +254,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "NPR",
@@ -180,8 +272,39 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "cluster": "887565abc5e2",
+    "coverage": 4
+  },
+  {
+    "outlet": "BBC",
+    "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+    "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+    "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+    "published": "2026-11-16T00:03:29+00:00",
+    "id": "2c005dcd5816",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "This is mostly a factual recap of the disruption, with figures from FlightAware and statements from Duffy and Trump. The administration's explanation and funding appeal get most of the space, and the excerpt contains no critics before it cuts off, which is a slight tilt toward the administration's framing.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Duffy said that issues will continue to arise until the US makes major modernising changes to its air control system.",
+        "why": "The administration's account of the cause and the fix dominates the excerpt, with only an outside analyst appearing at the very end."
+      },
+      {
+        "type": "Framing",
+        "quote": "\"It will be the BEST SYSTEM anywhere in the World. Much of our current air control system is 50 years old - RIDICULOUS!",
+        "why": "Trump's promotional quote is reproduced at length without any counterpoint in the excerpt."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "887565abc5e2",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -226,7 +349,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ed67595e524c",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -285,7 +408,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "b7c200fb0017",
+    "cluster": "f6d909dd0e45",
     "coverage": 3
   },
   {
@@ -471,7 +594,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "9f98c4813f3c",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -676,8 +799,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "cluster": "db492e24eb5b",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -702,8 +825,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "cluster": "887565abc5e2",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -888,7 +1011,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1021,7 +1144,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b7c200fb0017",
+    "cluster": "f6d909dd0e45",
     "coverage": 3
   },
   {
@@ -1041,7 +1164,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b7c200fb0017",
+    "cluster": "f6d909dd0e45",
     "coverage": 3
   },
   {
@@ -1093,7 +1216,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "BBC",
@@ -1170,7 +1293,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "The Guardian",
@@ -1231,7 +1354,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "ed67595e524c",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -1442,7 +1565,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "Fox",
@@ -1473,7 +1596,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "The Guardian",
@@ -1514,7 +1637,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1678,7 +1801,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "b7c200fb0017",
+    "cluster": "f6d909dd0e45",
     "coverage": 3
   },
   {
@@ -1715,7 +1838,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "db492e24eb5b",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -1733,8 +1856,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "9f98c4813f3c",
-    "coverage": 2
+    "cluster": "ebbae4d293a1",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1937,7 +2060,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1957,7 +2080,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1987,8 +2110,34 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "ed67595e524c",
-    "coverage": 3
+    "cluster": "e65df85292fe",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Mike Pence says Trump administration has an ‘air of corruption’",
+    "link": "https://www.nbcnews.com/meet-the-press/video/mike-pence-says-trump-administration-has-an-air-of-corruption-273549893931",
+    "summary": "Former Vice President Mike Pence tells Meet the Press he believes ongoing reporting has given the Trump administration the appearance of being entangled in corruption, and hopes the Republican party can return to “high standards in public office.”",
+    "published": "2026-11-15T14:48:54+00:00",
+    "id": "812709eb2455",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary were available. The piece reports a Republican former vice president criticizing the Trump administration, and the quoted \"air of corruption\" phrase leads, with no response from the administration visible. That gives a mild tilt toward the critical frame.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "has an ‘air of corruption’",
+        "why": "The headline leads with the critic's most damaging phrase and no administration response is visible."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "9d9547d811a8",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2091,7 +2240,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "coverage": 5
   },
   {
     "outlet": "Washington Examiner",
@@ -2253,6 +2402,42 @@
     "coverage": 3
   },
   {
+    "outlet": "The Guardian",
+    "title": "Poundland pins rescue hopes on Yorkshire Tea, Pot Noodle and Gloria Gaynor",
+    "link": "https://www.theguardian.com/business/2026/nov/15/poundland-pins-rescue-hopes-on-yorkshire-tea-pot-noodle-and-gloria-gaynor",
+    "summary": "Chain restocks stores in operation named after singer of I Will Survive, as US owners release some of withheld funds Poundland’s under-fire US owners have released funds to help the stricken discount chain restock shelves temporarily, keeping hopes of a rescue deal alive in the run-up to crunch talks with the…",
+    "published": "2026-11-15T13:41:01+00:00",
+    "id": "1938913da3d4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly factual business reporting, but it leans on critics of the US owners, quoting \"predatory capitalism\" and the \"wolf of Wall Street\" line from MPs. It does include Gordon Brothers' denials and its claim to have rescued the firm. The anti-corporate frame is the main tilt, and it also appeals across the spectrum.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"the wolf of Wall Street, on the British high street\"",
+        "why": "A vivid critical quote from an MP is included, and no comparably colorful defense of the owners is given."
+      },
+      {
+        "type": "Framing",
+        "quote": "Poundland's under-fire US owners",
+        "why": "The lead frames the owners as under attack and the company as a victim."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "accused it of “predatory capitalism”",
+        "why": "The article repeats the critics' charged characterization of the owners' conduct."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "1938913da3d4",
+    "coverage": 1
+  },
+  {
     "outlet": "NPR",
     "title": "Laws limiting coal miners' exposure to toxic dust are in danger of being rolled back",
     "link": "https://www.npr.org/2026/11/15/nx-s1-6039311/laws-limiting-coal-miners-exposure-to-toxic-dust-are-in-danger-of-being-rolled-back",
@@ -2305,7 +2490,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "7dd3a8b51b0b",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2324,7 +2509,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "7dd3a8b51b0b",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2349,8 +2534,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "ea3ce278f61d",
-    "coverage": 6
+    "cluster": "530679cec1dc",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -6861,6 +7046,37 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Lutnick agrees to testify as Bessent blames him for chip sales",
+    "link": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
+    "summary": "Commerce Secretary Howard Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10, according to a U.S. official.",
+    "published": "2026-11-14T02:02:30+00:00",
+    "id": "00b1e83ce4ff",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is a straight news report on intra-administration scrutiny, quoting Republican Sen. Banks and Treasury Secretary Bessent, with the Commerce Department's lack of response noted. The tilt is slight: the framing leans on Republican criticism of a Trump cabinet member and presents the blame as one-sided because only Lutnick's critics are quoted.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "A growing number of Republicans are calling on Lutnick to answer questions",
+        "why": "Only critics of Lutnick are quoted, and no defense of Commerce is presented beyond a note that it did not respond."
+      },
+      {
+        "type": "Framing",
+        "quote": "laying the blame for the delay at the feet of the Commerce Department",
+        "why": "The framing adopts Bessent's blame narrative as the story's main thread."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "00b1e83ce4ff",
+    "coverage": 1
+  },
+  {
     "outlet": "NBC News",
     "title": "Duffy details timeline of ground stop, demands more FAA funding",
     "link": "https://www.nbcnews.com/video/duffy-details-timeline-of-ground-stop-demands-more-faa-funding-273494085679",
@@ -9135,263 +9351,6 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "870410e9c39b",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Gun-Rights Group Asks Judge To Stick With Ruling That Tossed ‘Ghost Gun’ Ban",
-    "link": "https://dailycaller.com/2026/11/13/gun-rights-group-asks-appeals-court-to-stick-with-ruling-that-tossed-ghost-gun-ban",
-    "summary": "‘There is no public interest in enforcing unconstitutional laws’",
-    "published": "2026-11-13T18:26:07+00:00",
-    "id": "518b3da8a51d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 30,
-    "leanWhy": "The piece relays the gun-rights group's arguments at length, uses its quote as the summary and quotes the judge's reasoning, while Delaware's side gets one brief quote introduced with \"claimed\". Scare quotes around \"ghost guns\", the \"Trump appointee\" label, and pro-gun \"RELATED\" links add a right-coded framing, though the basic facts are reported accurately.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "There is no public interest in enforcing unconstitutional laws",
-        "why": "The advocacy group's claim is used as the summary, presenting the law as unconstitutional in the group's own words."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Democratic Delaware Attorney General Kathy Jennings claimed",
-        "why": "The opposing side is flagged by party and given the weaker verb \"claimed\", while the FPC's position is stated as \"argued\"."
-      },
-      {
-        "type": "Source selection",
-        "quote": "It Took College Student Just 4 Weeks To End Transit Authority’s No Guns Rule",
-        "why": "Related links celebrate gun-rights wins, which sets a favorable tone toward the pro-gun side."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Delaware’s ban of the incomplete frames or receivers violated the Second Amendment",
-        "why": "The coverage rests on the gun-rights plaintiffs' and the judge's framing, with no gun-control advocate or public-safety voice."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "518b3da8a51d",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Schumer's former ally mounts leadership challenge as Democrats face rare internal power struggle",
-    "link": "https://www.foxnews.com/politics/schumers-former-ally-mounts-leadership-challenge-democrats-face-rare-internal-power-struggle",
-    "summary": "Senate Democrats face their first contested leadership race since 1994 as Chris Van Hollen challenges Chuck Schumer with Bernie Sanders' backing.",
-    "published": "2026-11-13T18:23:20+00:00",
-    "id": "cbb6ea1dc422",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is a mostly straight account of an intra-Democratic leadership race, quoting Van Hollen and listing his backers while noting Schumer's long experience dealing with Trump. Some mildly celebratory phrasing (\"blue wave crashed over Republicans,\" \"commanding majority\") and the sympathetic framing of Van Hollen's Abrego Garcia trip give a slight left-coded tilt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the blue wave crashed over Republicans",
-        "why": "Triumphant, vivid phrasing about a Democratic win adds a slightly partisan tone to a news report."
-      },
-      {
-        "type": "Framing",
-        "quote": "Van Hollen won praise from progressives when he traveled to El Salvador for a welfare check on Kilmar Abrego Garcia, a Maryland resident who was mistakenly deported by the administration",
-        "why": "It adopts a framing of the deportation as a mistake and presents Van Hollen's trip favorably, without noting any administration view."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Van Hollen interpreting the seismic political shift as an indictment of President Donald Trump",
-        "why": "It dwells on Van Hollen's framing of the election result, and Schumer's side appears only briefly in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "cbb6ea1dc422",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Texas county approves taxpayer-funded legal help for illegal immigrants following Paxton loss",
-    "link": "https://www.washingtonexaminer.com/policy/immigration/4802651/travis-county-texas-approves-taxpayer-funded-legal-help-illegal-immigrants/",
-    "summary": "Just days after state Attorney General Ken Paxton (R-TX) lost his bid for the Senate, the county that holds the state’s capital has allotted $500,000 of taxpayer funds to cover legal aid programs for illegal immigrants facing deportation and other immigration-related matters.",
-    "published": "2026-11-13T18:23:02+00:00",
-    "id": "6cc85d9be325",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 45,
-    "spin": 50,
-    "leanWhy": "The headline and lead frame the vote as \"taxpayer-funded\" help for \"illegal immigrants\" and tie it to Paxton's loss, implying a causal or opportunistic link the text does not show. The excerpt closes with a claim that Democrats avoided the initiative while Republicans were in power, and it quotes no county officials or supporters in the excerpt.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "following Paxton loss",
-        "why": "The headline links the county vote to Paxton's defeat, implying a causal or opportunistic timing that the text does not establish."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "taxpayer-funded legal help for illegal immigrants",
-        "why": "Emphasizing taxpayer cost and 'illegal' status uses right-coded framing on immigration costs and rule of law."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats moving forward with a progressive initiative they had avoided while Republicans were in power",
-        "why": "This asserts a partisan motive and strategy without sourcing, which is interpretive."
-      },
-      {
-        "type": "Source selection",
-        "quote": "voted unanimously this week to make half a million dollars available",
-        "why": "The excerpt gives no justification from commissioners or advocates, so the humanitarian or legal-access rationale goes unheard."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "6cc85d9be325",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Kamala Harris’s ship has sailed",
-    "link": "https://www.washingtonexaminer.com/op-eds/4802909/kamala-harris-ship-sailed-2028-elections/",
-    "summary": "The midterm election results gave the minority party plenty of confidence heading into the new year. It wasn’t a trickle or a wave. It was a tsunami. It was a repudiation of the majority-party leadership in Washington and throughout the country.",
-    "published": "2026-11-13T18:21:43+00:00",
-    "id": "4bd1a93c07ce",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -15,
-    "spin": 30,
-    "leanWhy": "The excerpt is a commentary-style piece that frames the midterm results as a \"tsunami\" and a \"repudiation\" of the Republican majority. That tilts mildly toward the Democratic side, though the headline points to Harris's weakness as a 2028 candidate, which cuts the other way. The excerpt stops before the argument about Harris.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "It wasn’t a trickle or a wave. It was a tsunami.",
-        "why": "Hyperbolic framing magnifies the scale of the Democratic win."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "It was a repudiation of the majority-party leadership in Washington and throughout the country.",
-        "why": "Presents the result as a sweeping rejection of Republicans, which is an interpretation and not a neutral description."
-      },
-      {
-        "type": "Framing",
-        "quote": "While Republicans lick their collective wounds, Democrats are celebrating.",
-        "why": "The wording leans toward mocking Republicans and sets up a winners-and-losers story."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "4bd1a93c07ce",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Undercover Israeli agents will testify in Louisiana against alleged Oct. 7 terrorist: Judge",
-    "link": "https://www.washingtonexaminer.com/news/crime/4802598/undercover-israeli-agents-testify-against-alleged-oct-7-terrorist/",
-    "summary": "Israeli government agents are set to testify under pseudonyms in an unusual federal case against a suspected Gaza terrorist captured in Louisiana. Two Israeli Security Agency officials and one “potential” Israeli military witness may keep their aliases while taking the stand against Mahmoud Amin Ya’qub al Muhtadi, an…",
-    "published": "2026-11-13T18:17:20+00:00",
-    "id": "bbc60ccc7694",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a straightforward account of a court ruling on witness pseudonyms, with the charges attributed to authorities. A slight right-leaning tilt comes from the headline and phrasing, which describe the defendant as a \"terrorist\" and stress that he entered the country by posing as a refugee. That framing touches on immigration and border security.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "against alleged Oct. 7 terrorist",
-        "why": "The headline labels the defendant a terrorist, with only the word 'alleged' as a qualifier, before any trial."
-      },
-      {
-        "type": "Framing",
-        "quote": "pretended to be a refugee to enter the country",
-        "why": "This emphasizes refugee-status fraud, which fits a border-security and immigration-enforcement frame, though it is attributed to authorities."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "bbc60ccc7694",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "US and Israel negotiating $3 billion aid payments through 2033, despite Trump saying aid will end this year",
-    "link": "https://www.washingtonexaminer.com/policy/defense/4802849/us-negotiating-with-israel-3-billion-aid-through-2033-despite-trump-announcement/",
-    "summary": "The United States and Israel are negotiating annual $3.3 billion military aid payments through 2033, despite President Donald Trump’s announcement that aid to Israel would end this year. Trump’s sudden announcement that the U.S.",
-    "published": "2026-11-13T18:16:50+00:00",
-    "id": "7707c3187db8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The excerpt is a short, mostly factual report on negotiations over US military aid to Israel, attributed to Israeli media. Wording such as \"sudden\" and \"took the world by shock\" slightly emphasizes disruption from Trump's move, but the piece is thin and offers no sourcing from either side.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "took the world by shock",
-        "why": "Dramatic phrasing amplifies the surprise of Trump's announcement without attributing the reaction."
-      },
-      {
-        "type": "Framing",
-        "quote": "despite President Donald Trump’s announcement that aid to Israel would end this year",
-        "why": "Frames the negotiations as contradicting Trump, implying his statement was not reliable."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "7707c3187db8",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "St. Patrick’s Day parade canceled in Florida thanks to state’s anti-DEI law",
-    "link": "https://www.nbcnews.com/news/us-news/st-patricks-day-parade-canceled-florida-thanks-states-anti-dei-law-rcna609175",
-    "summary": "A new anti-DEI law championed by Florida Gov.",
-    "published": "2026-11-13T18:16:47+00:00",
-    "id": "5fccf634dbfb",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -30,
-    "spin": 35,
-    "leanWhy": "The headline's \"thanks to\" and the framing of a beloved parade lost to DeSantis's law cast the anti-DEI measure as having absurd consequences. The piece quotes DeSantis only on his earlier anti-DEI remarks, adds that the mayor \"did not mention\" the Pride event, and includes no defenders of the law responding to the cancellation.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "canceled in Florida thanks to state’s anti-DEI law",
-        "why": "The sarcastic \"thanks to\" assigns the cancellation to the law, though the text shows the city chose to cancel after its own legal review and the state has not weighed in."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Feeling the heat from his angry constituents",
-        "why": "This dramatizes public backlash and implies the policy is unpopular, even among Republicans."
-      },
-      {
-        "type": "Framing",
-        "quote": "Notably, in his post, Carney did not mention whether he or any other city officials were working to salvage the Pride celebration.",
-        "why": "It stresses what the mayor left unsaid about Pride, steering readers toward a suspicion of selective treatment."
-      },
-      {
-        "type": "Source selection",
-        "quote": "DEI is better viewed as standing for ‘discrimination, exclusion and indoctrination,’",
-        "why": "DeSantis is quoted from 2023 in a way that sets his rhetoric against the cancellation, and no supporter of the law comments on the current events."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5fccf634dbfb",
     "coverage": 1
   }
 ]
