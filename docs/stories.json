@@ -1,6 +1,755 @@
 [
   {
     "outlet": "Washington Examiner",
+    "title": "Don’t let the treasurer sell the jerseys",
+    "link": "https://www.washingtonexaminer.com/op-eds/4807840/baltimore-school-board-conflict-of-interest/",
+    "summary": "I’ve coached youth football and rugby for more than a decade, and every league I’ve worked with ran on one dull rule. The person who approves the spending doesn’t get paid by the spending. Everyone in youth sports has met the guy who figured he was the exception. Baltimore’s school board never got that memo. […]",
+    "published": "2026-11-19T16:00:00+00:00",
+    "id": "b386f8843fcc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 22,
+    "spin": 35,
+    "leanWhy": "This is a first-person opinion piece that uses a youth-sports analogy to argue that a local school board serves itself, which fits the right-coded frame of distrust of government institutions and government waste. It notes that the commissioner has not been charged, but still presents the story as proof of a systemic conflict-of-interest failure.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Baltimore’s school board never got that memo.",
+        "why": "Sets up the board as negligent about basic ethics before the facts are laid out."
+      },
+      {
+        "type": "Framing",
+        "quote": "how a local government ends up serving itself, and that story needs no indictment",
+        "why": "Draws a broad conclusion about institutional self-dealing without any charge or finding."
+      },
+      {
+        "type": "Source selection",
+        "quote": "A source told the Baltimore Banner",
+        "why": "Relies on an anonymous source relayed from another outlet for the warrant's scope."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "b386f8843fcc",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Palestinians flee as Israeli tanks cross Gaza ceasefire’s ‘yellow line’",
+    "link": "https://www.nbcnews.com/world/middle-east/gaza-ceasefire-tested-israel-tanks-cross-yellow-line-ground-raid-rcna610169",
+    "summary": "Israel’s ground operation across the yellow ceasefire line in Gaza, which forced Palestinians to flee their makeshift shelters, marks a fresh escalation in the conflict and risks undermining an already floundering truce with Hamas, analysts said Thursday.",
+    "published": "2026-11-19T15:58:08+00:00",
+    "id": "3395ced96a38",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 22,
+    "leanWhy": "The piece leads with displaced Palestinian civilians and humanitarian detail (14th displacement, no food or water, a baby strapped to a mother's chest), and frames the operation as an escalation that risks the truce. Israel's security rationale and Hamas's response are included with attribution, and the IDF's vague warnings are noted, but the personal testimonies dominate.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "marks a fresh escalation in the conflict and risks undermining an already floundering truce",
+        "why": "The lead adopts the analysts' escalation frame rather than treating the Israeli account as equally central."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“This is the 14th time that we’re getting displaced,” al-Gasar said",
+        "why": "Extended civilian testimony, with emotive detail, gets prominent space ahead of the Israeli justification."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "her baby in a pink fluffy sweater strapped to her chest",
+        "why": "Emotive descriptive detail adds sympathy for the displaced."
+      },
+      {
+        "type": "Omission",
+        "quote": "though they did not expand on how exactly warnings were issued",
+        "why": "Highlights the vagueness of Israel's warnings and so casts doubt on its claims."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "3395ced96a38",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "The midterms were the largest win for either party in 50 years",
+    "link": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+    "summary": "Some 56% of people cast votes for Democrats in House races, compared to 42% who voted Republican. That 14-point spread is the widest win for either party in 50 years, since after Watergate.",
+    "published": "2026-11-19T15:55:05+00:00",
+    "id": "b906c1aecae3",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "Only a headline and a short feed summary were available. The framing stresses the scale of the Democratic win (\"largest win for either party in 50 years\") and invokes Watergate, which is mildly celebratory for Democrats. The figures are presented as facts, though, and no loaded language or opinion appears.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The midterms were the largest win for either party in 50 years",
+        "why": "The headline puts the magnitude of the result first and doesn't name the winning party, but the summary shows it was Democrats, which makes it a favorable headline for them."
+      },
+      {
+        "type": "Framing",
+        "quote": "since after Watergate",
+        "why": "Invoking Watergate frames the result as a historic repudiation, with an implied comparison that is unflattering to Republicans."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "b906c1aecae3",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Leaked Navy Town Hall Reveals Military Families Left In Financial Limbo After Iran Attacks",
+    "link": "https://dailycaller.com/2026/11/19/navy-town-hall-military-families-financial-limbo-iran-war",
+    "summary": "‘Taking over 9 months to get an answer’",
+    "published": "2026-11-19T15:27:04+00:00",
+    "id": "bb4912793611",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "The piece, which relies on MS NOW's reporting of a leaked town hall, centers on families criticizing Navy leadership and an administration-run war effort, with only complainants quoted. It adds a mild critical tilt through emphasis and loaded descriptors, though it is mostly attributed and factual and notes CENTCOM did not respond.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“If I stopped paying my taxes, you better believe the government would be at my door within 30 days,”",
+        "why": "The final and most vivid voice is an aggrieved family member, with no official response to balance it."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "incompetent mental health services",
+        "why": "The characterization is stated in the outlet's own voice rather than attributed to participants."
+      },
+      {
+        "type": "Framing",
+        "quote": "This is not the first time that leaked town hall meetings have demonstrated the strain that the Iran war has put on military families.",
+        "why": "It builds a pattern of failure narrative around the war's costs beyond the single event."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "bb4912793611",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "In Dems’ latest move to address affordability, Gallego threatens Elon Musk with a subpoena",
+    "link": "https://www.washingtonexaminer.com/opinion/4808426/gallego-threatens-elon-musk-subpoena/",
+    "summary": "In the months leading up to the 2026 midterm elections, Democrats made affordability the central focus of their campaign to win back control of Congress. It worked, as Democrats defeated Republicans by significant margins and will control both the House of Representatives and the Senate starting in January.",
+    "published": "2026-11-19T15:25:44+00:00",
+    "id": "83cf9610f542",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 55,
+    "spin": 55,
+    "leanWhy": "The piece is framed as news but argues that Democrats abandoned affordability after winning and now pursue \"revenge, payback, and legal investigations\". The headline's sarcastic \"latest move to address affordability\" and the lack of any Democratic response in the excerpt make it a critique from a right-leaning perspective.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "In Dems’ latest move to address affordability, Gallego threatens Elon Musk with a subpoena",
+        "why": "The sarcastic framing implies a subpoena threat is a pretend affordability measure and sets up the criticism that follows."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "they have prioritized threatening Republicans with revenge, payback, and legal investigations",
+        "why": "This states a motive as fact and generalizes from one senator's social media post to the whole party."
+      },
+      {
+        "type": "Framing",
+        "quote": "Yet ever since their victory, Democrats have spent little time talking about affordability",
+        "why": "The excerpt makes a sweeping claim without evidence and gives no Democratic voices in response."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Gallego made the preemptive remark in a social media post on Wednesday evening",
+        "why": "The story rests on one social media post, which is thin support for the broad claim about Democratic priorities."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "83cf9610f542",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "STATE OF THURSDAY: The Anti-Establishment Influencers Caught Up In A Political Pay-To-Play Machine",
+    "link": "https://dailycaller.com/2026/11/19/state-of-thursday-x-paid-influencer-campaigns-urban-legend",
+    "summary": "It’s really quite disgusting",
+    "published": "2026-11-19T15:01:18+00:00",
+    "id": "8a7501229e50",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 55,
+    "leanWhy": "This is a newsletter commentary that criticizes conservative influencers for undisclosed paid political promotion, which is an intra-right critique of anti-establishment credibility. It draws on anti-corporate and anti-pharma themes and uses strongly loaded language, but it doesn't clearly favor the left or the right. It also includes a caveat that some posts may have been organic.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "It’s a brazen deception. Not to mention, incredibly patronizing to their followers.",
+        "why": "Strong moral condemnation goes beyond the investigation's reported facts."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "pro-data-center propaganda, shilling for big pharma, and anti-Palestinian grifting",
+        "why": "Pejorative labels for the campaigns' messages are asserted as fact rather than attributed."
+      },
+      {
+        "type": "Framing",
+        "quote": "Those positions can’t win on their own merits, so paid influence campaigns have to borrow the credibility",
+        "why": "Draws a sweeping conclusion about motives that the investigation excerpt does not establish."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8a7501229e50",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "The ‘blue wave’ could foil the Trump administration’s Big Bend wall plans",
+    "link": "https://www.theguardian.com/us-news/2026/nov/19/big-bend-texas-trump",
+    "summary": "Supreme court greenlit federal government’s plan to rampage through national park, but with Texas now flipped, there will be more hurdles The Trump administration’s plans to build a “smart border wall” through a 500-mile stretch of Texas that includes the Big Bend national park recently got the green light from the…",
+    "published": "2026-11-19T15:00:51+00:00",
+    "id": "8b73355e4408",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -62,
+    "spin": 55,
+    "leanWhy": "The piece uses loaded, vivid language (\"rampage\", \"slam into a big, blue wall\", \"unpopular wall expansion\", \"destroy ancient rock art\") and frames the Democratic wins as a hopeful obstacle to the administration's plan. Sourcing is only the Democratic governor-elect and opponents of the wall, with no administration or pro-wall voice in the excerpt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "plan to rampage through national park",
+        "why": "Verb choice casts the federal plan as destructive aggression rather than neutrally describing construction."
+      },
+      {
+        "type": "Framing",
+        "quote": "those efforts are likely to slam into a big, blue wall",
+        "why": "Celebratory partisan wordplay frames the Democratic wave as a victory against the administration."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“By letting the federal government bulldoze our land, the supreme court is continuing to put corporate profits before the people of Texas.”",
+        "why": "The only quoted voice is a Democratic official with a pointed attack, with no administration or wall-supporter response."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "orchestrated an unpopular wall expansion that threatened to carve up private property, destroy ancient rock art and mar beloved parks",
+        "why": "Asserts unpopularity and harms in the narrator's voice rather than attributing them."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "8b73355e4408",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Democrats’ criticism of corporate medicine is a red herring",
+    "link": "https://www.washingtonexaminer.com/op-eds/4808528/private-equity-healthcare-ban-physician-practices/",
+    "summary": "As Democrats consider their post-midterm healthcare agenda, Congress is calling to investigate the role of private equity in medicine. While corporate medicine receives a lot of criticism, the alternative often leads to higher healthcare costs and less patient choice. Before the midterm elections, Sen.",
+    "published": "2026-11-19T15:00:00+00:00",
+    "id": "9402b0283d90",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 50,
+    "spin": 55,
+    "leanWhy": "The thesis headline calls Democrats' criticism of corporate medicine a \"red herring\" and says the alternative means higher costs and less patient choice. That is a deregulatory, pro-market framing that dismisses the left's corporate-greed critique, and the excerpt shows no opposing voices or evidence.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Democrats’ criticism of corporate medicine is a red herring",
+        "why": "The thesis headline dismisses the opposing view as a distraction instead of engaging with it."
+      },
+      {
+        "type": "Framing",
+        "quote": "the alternative often leads to higher healthcare costs and less patient choice",
+        "why": "It asserts a conclusion against regulating corporate ownership with no evidence or attribution in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Warren’s bill is expected to fail",
+        "why": "It treats the bill as doomed and frames blue-state versions as a spreading problem."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "9402b0283d90",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "EXCLUSIVE: Egypt Seeks To Execute Christian Convert Amid Torture Allegations, GOP Lawmakers Step In",
+    "link": "https://dailycaller.com/2026/11/19/egypt-anti-christian-execute-convert-abdel-fattah-el-sisi-riley-moore-said-abdelrazek",
+    "summary": "‘Baseless charges’",
+    "published": "2026-11-19T14:59:58+00:00",
+    "id": "a04d5535095b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 25,
+    "leanWhy": "The piece is built around a letter from Republican lawmakers, and it relies on their framing and the USCIRF's. It adopts the letter's phrase \"baseless charges\" in the summary, and it includes no response from Egypt or any Democratic or other outside voice. Its focus on persecution of Christians and its leverage-over-aid framing fit right-coded religious-liberty and America-first foreign policy themes.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "exclusively obtained by the Daily Caller",
+        "why": "The story depends on a Republican-authored letter and gives no Egyptian government response or non-GOP viewpoint."
+      },
+      {
+        "type": "Framing",
+        "quote": "‘Baseless charges’",
+        "why": "The summary repeats the letter's characterization as if it were established fact and puts it in the headline area."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Egypt Seeks To Execute Christian Convert Amid Torture Allegations, GOP Lawmakers Step In",
+        "why": "The headline states that Egypt seeks execution, but the text says only that prosecutors will pursue the maximum penalty and that he could face a death sentence if convicted. It also casts the GOP lawmakers as the rescuers."
+      },
+      {
+        "type": "Framing",
+        "quote": "(RELATED: MLB Team Speaks Out After Player Posts Video Of Christian Preacher Trashing Islam)",
+        "why": "The related-story link adds a culture-war angle about Christianity and Islam that is outside this story's subject."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "a04d5535095b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "AOC leaves door open to 2028 presidential run, signals willingness to work with Trump",
+    "link": "https://www.foxnews.com/politics/aoc-leaves-door-open-2028-presidential-run-signals-willingness-work-trump",
+    "summary": "Alexandria Ocasio-Cortez would not rule out a 2028 White House run, saying her focus is getting results for people after Democrats reclaimed the House majority.",
+    "published": "2026-11-19T14:52:29+00:00",
+    "id": "f6291a95ee1c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a straight recap of AOC's quoted remarks, with attribution to the interview and no editorializing. Slight emphasis on her democratic-socialist label and the intra-party split adds a faint right-leaning tilt, but her own framing of bipartisan goals also gets ample space.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The self-described democratic socialist also expressed a willingness to work with President Donald Trump",
+        "why": "Repeated emphasis on her socialist label and DSA ties foregrounds ideological identity and the party's internal divisions."
+      },
+      {
+        "type": "Framing",
+        "quote": "competing pressures facing House Democrats as they prepare to govern with a new majority while balancing progressive policy demands, internal ideological divisions",
+        "why": "The closing frames the story around Democratic internal division, which is a mildly unfavorable emphasis for Democrats."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "f6291a95ee1c",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China",
+    "link": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+    "summary": "Russia says Putin, Trump and China's Xi agreed during a rare meeting to boost gas and oil production, and \"reaffirmed that there can be no winners in a nuclear war.\"",
+    "published": "2026-11-19T14:44:04+00:00",
+    "id": "eb8efcd13ffd",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a straight recap with attributed readouts, and it notes the Kremlin and White House provided the same statement. A mild skeptical tilt appears in the opening framing that there was little concrete to show, and in the emphasis on Trump leaving without speaking to reporters and his friendly remarks toward Putin.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "there appeared to be little concrete to show for the meeting in terms of resolving any of the crises facing the world",
+        "why": "The lead sets a skeptical evaluation of the summit's results before presenting the participants' own statements."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "Mr. Trump immediately left for his return flight to the U.S. without speaking to journalists on the ground.",
+        "why": "Highlights Trump's avoidance of press, a detail that mildly reflects poorly on him."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "\"Who is that?\" before laughing and saying, \"He's my friend.\"",
+        "why": "Including this friendly banter with Putin spotlights a moment that is awkward for Trump."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "eb8efcd13ffd",
+    "coverage": 6
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Americans remain skeptical after wave of outages",
+    "link": "https://www.cbsnews.com/video/americans-remain-skeptical-after-wave-of-outages/",
+    "summary": "Americans remain skeptical after a wave of tech outages over the last week, despite the Trump administration's insistence that there are no cybersecurity threats. Jo Ling Kent reports.",
+    "published": "2026-11-19T14:17:33+00:00",
+    "id": "213b1de01311",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 15,
+    "leanWhy": "Only a headline and a one-line feed summary were available. The framing sets public skepticism against the Trump administration's \"insistence\" that there are no cybersecurity threats, which mildly casts the administration's claim as doubtful. No sourcing or evidence is visible.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "despite the Trump administration's insistence that there are no cybersecurity threats",
+        "why": "\"Despite\" and \"insistence\" frame the administration's statement as something the public rightly doubts."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "213b1de01311",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump takes 500 actions to weaken cancer protections, new report says",
+    "link": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+    "summary": "Natural Resources Defense Council shows how federal rules changes will increase public’s exposure to carcinogens Amid a rise in early onset cancer , the Trump administration has taken more than 500 actions to systematically dismantle protections against carcinogens once in place across the federal government, an…",
+    "published": "2026-11-19T14:15:15+00:00",
+    "id": "5c3260057c6d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -45,
+    "spin": 50,
+    "leanWhy": "The article adopts the advocacy group's framing in its own voice (\"systematically dismantle,\" \"dramatically increase the public's exposure\"), and the quoted sources are mostly NRDC and current and former EPA officials. The White House and EPA responses appear, but they are generic and come after the critical framing, which sets the tone.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "systematically dismantle protections against carcinogens",
+        "why": "The headline and lede state the NRDC's characterization as the news outlet's own framing, with only a light 'alleges' attribution."
+      },
+      {
+        "type": "Framing",
+        "quote": "will dramatically increase the public’s exposure to carcinogens",
+        "why": "This predicts a large harm as fact, in the writer's voice, rather than as the report's claim."
+      },
+      {
+        "type": "Framing",
+        "quote": "Amid a rise in early onset cancer",
+        "why": "It links the policy changes to rising cancer rates, which implies a connection the excerpt does not establish."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The actions amount to a “pro-cancer” agenda, the report states.",
+        "why": "This charged characterization from an advocacy group is repeated without independent expert verification."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "5c3260057c6d",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Details emerge on South Carolina \"stand your ground\" murder case",
+    "link": "https://www.cbsnews.com/video/details-emerge-on-south-carolina-stand-your-ground-murder-case/",
+    "summary": "New details are emerging in a South Carolina shooting case where two men are claiming self-defense under the state's \"stand your ground\" law. Tom Hanson reports.",
+    "published": "2026-11-19T14:13:35+00:00",
+    "id": "4885f7e01570",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "4885f7e01570",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "‘A new day in the Senate’: 56-44 majority gives Democrats fuel to take on Trump",
+    "link": "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
+    "summary": "Party wins biggest majority since Obama and one unthinkable two years ago – now the hard work of investigating and lawmaking begins It’s official: when Democrats take control of the Senate next year, they’ll have 56 seats, their largest majority in nearly two decades and one that appeared unthinkable at the outset of…",
+    "published": "2026-11-19T14:00:52+00:00",
+    "id": "33f425286754",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 25,
+    "leanWhy": "The piece is mostly a results report, but it uses an upbeat, celebratory frame (\"A new day\", \"fuel to take on Trump\", \"landslide\", \"political earthquake\"). It quotes only Democratic leaders, so Schumer's \"most corrupt administration\" line goes unanswered, and no Republican response appears in the excerpt. The excerpt also notes that Trump's veto will limit what Democrats can pass.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "‘A new day in the Senate’: 56-44 majority gives Democrats fuel to take on Trump",
+        "why": "The headline adopts a Democratic slogan and presents the result as ammunition against Trump."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a political earthquake",
+        "why": "Dramatic wording amplifies the scale of the Democratic win."
+      },
+      {
+        "type": "Source selection",
+        "quote": "We have to end this corruption of the most corrupt administration in American history",
+        "why": "A sweeping partisan charge is quoted from Schumer, with no Republican response in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Its a substantial accomplishment for the party",
+        "why": "The narrator states approval of the Democrats' win in its own voice rather than attributing it."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "33f425286754",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "After a blue wave, Trump will dig in his heels. We must be more vigilant than ever | Steve Cohen and Michael Shank",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/19/trump-blue-wave-new-congress",
+    "summary": "Anti-democratic behaviors won’t disappear overnight. The new Congress – and all of us – must rise to the occasion Americans just witnessed a blue tsunami in the midterm elections, with historic firsts across many US states: the country’s first female Black governor, first female Native American governor, first Muslim…",
+    "published": "2026-11-19T14:00:51+00:00",
+    "id": "b579d72b2b6f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -85,
+    "spin": 70,
+    "leanWhy": "This is an opinion column by two authors arguing that Trump's administration is eroding democracy and that Democrats and local groups must guard against it. It adopts the left's democratic-norms framing throughout, uses loaded language, and gives no Republican or administration perspective.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "blue tsunami",
+        "why": "Celebratory framing of the Democratic midterm win that reads the result as a clear verdict against Trump."
+      },
+      {
+        "type": "Framing",
+        "quote": "the voters’ repudiation of Donald Trump’s agenda is clear",
+        "why": "Presents a sweeping interpretation of the election as settled fact."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "fallaciously fearmongered about Chinese involvement in elections-tinkering",
+        "why": "Gives a one-sided characterization of administration claims without any response from the other side."
+      },
+      {
+        "type": "Framing",
+        "quote": "we should expect the executive branch to lash out even more",
+        "why": "Predicts escalating anti-democratic behavior, presented as likely and with no supporting evidence in this excerpt."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "33f425286754",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "ASRA Q. NOMANI: Old-guard Dems face Frankenstein moment as leftists come for them",
+    "link": "https://www.foxnews.com/politics/asra-q-nomani-like-frankensteins-monster-far-left-network-turns-democrats-chuck-schumer",
+    "summary": "Last Thursday, Ben Cohen and CodePink packed a House Longworth Building office demanding an end to the Iran war as activists turn on Democratic leaders.",
+    "published": "2026-11-19T13:48:17+00:00",
+    "id": "1f962b17ba75",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 55,
+    "spin": 55,
+    "leanWhy": "The piece repeatedly labels the activists \"far-left\" and \"pro-communist\" and casts the protests as a Democratic Party crisis, using a Frankenstein metaphor. It relies on Fox News Digital's own investigation and describes the coalition as creating a \"myth of the marching millions\", with no sympathetic voices from the activists.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "socialist and pro-communist \"red\" organizations, Muslim and Arab \"green\" groups",
+        "why": "Sorts the protest groups into ideological and ethnic-religious categories, which casts them as a hostile bloc."
+      },
+      {
+        "type": "Framing",
+        "quote": "Old-guard Dems face Frankenstein moment as leftists come for them",
+        "why": "The monster metaphor frames the left's activism as a danger Democrats created and now can't control."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "creating the myth of the marching millions",
+        "why": "Asserts that the coalition is manufacturing the appearance of popular support, and offers no evidence for it in this excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "far-left, anti-Israel demonstrators",
+        "why": "Repeated stacking of labels on the protesters portrays the activists as extreme, and the text never describes them in their own terms."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "1f962b17ba75",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
+    "title": "Why the Senate energy permitting bill might become law",
+    "link": "https://www.axios.com/2026/11/19/energy-permitting-bill-senate-politics",
+    "summary": "If the sweeping Senate permitting bill becomes law, it will reflect a rare convergence of political and market forces strong enough to trump the Beltway aversion to big, bipartisan deals.",
+    "published": "2026-11-19T13:46:20+00:00",
+    "id": "8b06cf031bfc",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and a short feed summary are available. They describe a bipartisan permitting bill and the forces behind it without favoring either party's framing, though the \"rare convergence\" wording mildly speculates about the bill's chances.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "8b06cf031bfc",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump holds historic meeting with Xi and Putin",
+    "link": "https://www.today.com/video/trump-holds-historic-meeting-with-xi-and-putin-273803845530",
+    "summary": "President Trump took part in historic three-way talks with Russian President Vladimir Putin and Chinese President Xi Jinping in China. NBC News' Garrett Haake has the details.",
+    "published": "2026-11-19T13:37:28+00:00",
+    "id": "7f003aa4b9f3",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and a short feed blurb were available. The word \"historic\" is mildly flattering to Trump, but the blurb otherwise states the event neutrally and gives no sourcing or criticism to weigh.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump holds historic meeting with Xi and Putin",
+        "why": "\"Historic\" is an evaluative label that casts the event as significant without any supporting context."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "eb8efcd13ffd",
+    "coverage": 6
+  },
+  {
+    "outlet": "Fox",
+    "title": "Florida pastor convicted in Haitian president's assassination plot funded partly by US COVID relief money",
+    "link": "https://www.foxnews.com/us/florida-pastor-convicted-haitian-presidents-assassination-plot-funded-partly-us-covid-relief-money",
+    "summary": "Christian Emmanuel Sanon was convicted in the plot to kill Haitian President Jovenel Moïse, a scheme prosecutors say was hatched in South Florida.",
+    "published": "2026-11-19T13:34:40+00:00",
+    "id": "6eae37c7ee48",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight factual recap of a federal conviction, with claims attributed to prosecutors and the defendant's denial and planned appeal included. The headline emphasizes the COVID relief funding angle, a mild emphasis, but the body stays factual and balanced.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "funded partly by US COVID relief money",
+        "why": "The headline highlights the pandemic-relief funding detail, which is a mild emphasis that adds a government-waste angle."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "6eae37c7ee48",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+    "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+    "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
+    "published": "2026-11-19T13:31:23+00:00",
+    "id": "1b2a1ac4ad28",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting with attribution, and it notes that Maduro and Flores deny the charges. The headline and summary feature Hegseth's triumphant \"compliant security partner\" quote, and the excerpt gives his framing a lot of room with no critics or legal and international objections to the raid visible yet.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "gone from our most aggressive regional threat to a compliant security partner",
+        "why": "The summary leads with the administration's triumphant framing and does not offer a counterview."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Well, we answered that call.",
+        "why": "Extended Hegseth quotes dominate the excerpt, and no critics or independent analysts appear in this portion."
+      },
+      {
+        "type": "Framing",
+        "quote": "Chávez alleged that US military personnel sent to Venezuela to train their counterparts had made disparaging remarks",
+        "why": "Background about Chávez's complaints is presented in a way that casts the earlier rupture as a left-wing leader's grievance."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "1b2a1ac4ad28",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Donald Trump, Xi Jinping, Vladimir Putin Gather for Historic Summit",
+    "link": "https://www.today.com/video/donald-trump-xi-jinping-vladimir-putin-gather-for-historic-summit-273802309629",
+    "summary": "President Donald Trump and the leaders of China and Russia gathered for a first-of-its-kind three-way meeting between global rivals, with an emphasis on nuclear weapons and the wars in Ukraine and the Middle East.",
+    "published": "2026-11-19T13:12:59+00:00",
+    "id": "fc1728f7113d",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "Only a headline and short feed summary are available. The word \"Historic\" is mildly flattering to the summit, but the summary otherwise states the topics (nuclear weapons, Ukraine, the Middle East) without a clear partisan slant.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Historic Summit",
+        "why": "\"Historic\" frames the meeting as significant before any outcome is reported, which mildly flatters the participants."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "right",
+    "cluster": "eb8efcd13ffd",
+    "coverage": 6
+  },
+  {
+    "outlet": "Washington Examiner",
     "title": "Denmark grants final approval to US-Greenland security deal",
     "link": "https://www.washingtonexaminer.com/policy/defense/4808443/denmark-final-approval-us-greenland-security-deal/",
     "summary": "Denmark cleared the way for the security deal between the United States and Greenland to take effect after the NATO country ratified it on Thursday. The Danish Parliament, also known as the Folketing, approved the pact with 109 votes in favor and no votes against or abstentions.",
@@ -57,8 +806,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "7b639968fbcd",
-    "coverage": 2
+    "cluster": "19210646146d",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -251,7 +1000,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -328,7 +1077,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -359,7 +1108,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -429,8 +1178,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "37fed6a9c91a",
-    "coverage": 1
+    "cluster": "b5242c6c74da",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -460,7 +1209,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -479,7 +1228,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -568,6 +1317,32 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "5ab79b3eda17",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Incoming House majority leader Katherine Clark stresses Democratic unity",
+    "link": "https://www.npr.org/2026/11/19/nx-s1-6045750/katherine-clark-hakeem-jeffries-house-democrats",
+    "summary": "As Democrats prepare to take control of the House, incoming majority leader Katherine Clark discusses the party's ambitious agenda and divisions within its ranks.",
+    "published": "2026-11-19T11:20:42+00:00",
+    "id": "d5914b15886b",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "Only a headline and short feed summary are available. The headline foregrounds Clark's message of unity, which is mildly favorable to Democrats, but the summary also mentions \"divisions within its ranks\" and offers no loaded language.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "stresses Democratic unity",
+        "why": "The headline carries the subject's preferred message of unity, though the summary also notes divisions."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "d5914b15886b",
     "coverage": 1
   },
   {
@@ -686,7 +1461,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -935,6 +1710,25 @@
     "coverage": 1
   },
   {
+    "outlet": "NPR",
+    "title": "Muslims will outnumber Christians worldwide by 2035, report says",
+    "link": "https://www.npr.org/2026/11/19/nx-s1-6043018/muslims-will-outnumber-christians-worldwide-by-2035-report-says",
+    "summary": "By 2070, the Democratic Republic of the Congo will surpass the United States as the country with the largest total number of Christians.",
+    "published": "2026-11-19T10:00:00+00:00",
+    "id": "7b3952862c60",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "7b3952862c60",
+    "coverage": 1
+  },
+  {
     "outlet": "CBS News",
     "title": "Obama gives pep talk to freshman House Democrats in surprise visit",
     "link": "https://www.cbsnews.com/news/obama-pep-talk-freshman-house-democrats/",
@@ -1024,7 +1818,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1043,7 +1837,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1074,7 +1868,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1105,7 +1899,7 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1183,7 +1977,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "e134526bfb67",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1213,7 +2007,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1249,8 +2043,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "4d1b737b3392",
-    "coverage": 1
+    "cluster": "1b2a1ac4ad28",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -1306,7 +2100,7 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "2d676c8e8447",
+    "cluster": "3c45bc4bb829",
     "coverage": 1
   },
   {
@@ -1326,7 +2120,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1346,7 +2140,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1408,7 +2202,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1453,7 +2247,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1473,7 +2267,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
+    "cluster": "eb8efcd13ffd",
     "coverage": 6
   },
   {
@@ -1510,7 +2304,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "05434248d188",
-    "coverage": 4
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -1565,8 +2359,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "a40ca48916ee",
-    "coverage": 2
+    "cluster": "cebdca0940e1",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1606,8 +2400,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cbac1ef1e197",
-    "coverage": 2
+    "cluster": "8985393e6465",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -1643,7 +2437,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "05434248d188",
-    "coverage": 4
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -1679,7 +2473,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "05434248d188",
-    "coverage": 4
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -1734,8 +2528,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "05434248d188",
-    "coverage": 4
+    "cluster": "0324ebccc3dc",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1766,7 +2560,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "7b639968fbcd",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -1784,8 +2578,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "e80bfc5d1617",
-    "coverage": 6
+    "cluster": "c33b1c4a7ac1",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1816,7 +2610,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "cbac1ef1e197",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -1852,6 +2646,47 @@
         "type": "Omission",
         "quote": "He told NBC News this week that he was “not interested in chilling free speech.”",
         "why": "Reitz's side gets one short line, while Slotkin's arguments and her lawyer's are quoted at length."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "96a243f6233c",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen. Elissa Slotkin fires back at DOJ official’s ‘sham’ investigation",
+    "link": "https://www.nbcnews.com/politics/congress/elissa-slotkin-fires-back-aaron-reitz-investigation-political-speech-rcna610133",
+    "summary": "U.S. Attorney Aaron Reitz has suggested that Slotkin’s comments about congressional oversight could amount to a criminal civil rights offense.",
+    "published": "2026-11-19T01:33:03+00:00",
+    "id": "d9f4dd847cf2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The piece centers Slotkin's rebuttal and her attorney's view, and it characterizes the administration's actions as \"repeatedly targeted\" for \"political remarks\" in the narrator's own voice. Reitz gets only one brief quote, and his background is framed around political ambition, which echoes Slotkin's charge.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "repeatedly targeted by the Trump administration for potential prosecution due to her political remarks",
+        "why": "The reporter states in their own voice that she was targeted because of her speech, adopting the senator's framing instead of attributing it."
+      },
+      {
+        "type": "Source selection",
+        "quote": "which have come under scrutiny from legal experts",
+        "why": "Unnamed legal experts are invoked as critics, while no experts supporting the inquiry appear."
+      },
+      {
+        "type": "Framing",
+        "quote": "placing fourth in the Republican primary for state attorney general",
+        "why": "This background detail on Reitz reinforces the political-ambition narrative and is an unflattering emphasis."
+      },
+      {
+        "type": "Framing",
+        "quote": "federal grand jurors unanimously rejected the indictment attempt",
+        "why": "The earlier episode is given prominent context that casts the administration's actions as overreach."
       }
     ],
     "confidence": "medium",
@@ -1917,8 +2752,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "05434248d188",
-    "coverage": 4
+    "cluster": "3c8edda3dc42",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1984,8 +2819,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "05434248d188",
-    "coverage": 4
+    "cluster": "b73b6b4bdb46",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2020,8 +2855,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "cbac1ef1e197",
-    "coverage": 2
+    "cluster": "2d3122a336e3",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2217,8 +3052,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "b5242c6c74da",
-    "coverage": 2
+    "cluster": "74507a5b3b12",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2243,8 +3078,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "e80bfc5d1617",
-    "coverage": 6
+    "cluster": "96f7d6573d4f",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -2269,8 +3104,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e134526bfb67",
-    "coverage": 2
+    "cluster": "43999b055d78",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -2320,7 +3155,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "f9d953e3f473",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2345,8 +3180,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "f9d953e3f473",
-    "coverage": 2
+    "cluster": "126858b786b1",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2376,8 +3211,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "f9d953e3f473",
-    "coverage": 2
+    "cluster": "126858b786b1",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -3248,7 +4083,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c33b1c4a7ac1",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -7692,7 +8527,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b211e510f96d",
+    "cluster": "cd85bb97b857",
     "coverage": 2
   },
   {
@@ -7841,7 +8676,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "607cbf51faf8",
+    "cluster": "6955c2de3c92",
     "coverage": 2
   },
   {
@@ -7954,7 +8789,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "cd85bb97b857",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -8061,7 +8896,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "607cbf51faf8",
+    "cluster": "6955c2de3c92",
     "coverage": 2
   },
   {
@@ -8363,7 +9198,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "ccb246d3c951",
+    "cluster": "c380551510c3",
     "coverage": 1
   },
   {
@@ -8396,691 +9231,5 @@
     "storyChoice": "right",
     "cluster": "bc50ba33a0c9",
     "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Rubio says there's \"zero evidence\" recent tech outages are related",
-    "link": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/",
-    "summary": "Secretary of State Marco Rubio acknowledged that people are fearful and uncertain, saying he wanted to be clear that the United States is not under systemic attack.",
-    "published": "2026-11-18T02:43:00+00:00",
-    "id": "b211e510f96d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news report. It relays Rubio's statements at length and adds a Democratic senator's comments on AI, so neither side is attacked or praised. The slight tilt comes from giving the administration's reassurance prominence while noting that \"key questions remain\" about the FAA failure.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "key questions remain about the underlying cause of the systemwide failure",
-        "why": "This adds a note of doubt that slightly qualifies the official reassurance."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "b211e510f96d",
-    "coverage": 2
-  },
-  {
-    "outlet": "Fox",
-    "title": "Major drug kingpin ‘The Kraken’ captured in California after yearslong hunt",
-    "link": "https://www.foxnews.com/us/major-drug-kingpin-the-kraken-captured-california-after-yearslong-hunt",
-    "summary": "Alleged Guatemalan cocaine kingpin Axel Montejo Saenz, known as \"Kraken,\" was arrested in San Diego after agents seized over 5,500 kilograms of cocaine, authorities said.",
-    "published": "2026-11-18T02:41:40+00:00",
-    "id": "31783a3a0f0a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 10,
-    "spin": 8,
-    "leanWhy": "This is mostly a factual law-enforcement recap with attribution to the U.S. Attorney's Office and the State Department. It has a slight tilt toward the right-coded crime and border-security frame: it quotes the prosecutor's triumphant line, uses \"narcoterrorist cartels,\" and gives no other perspective.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"Every drug kingpin has an expiration date. Today was his,\"",
-        "why": "The only quote is a prosecutor's triumphant line, which sets an enforcement-victory tone."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "narcoterrorist cartels",
-        "why": "This term adopts the government's terrorism framing for drug networks without explanation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "31783a3a0f0a",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Rubio insists no ‘imminent threat’ amid reports Iran could deploy ‘dirty bomb’",
-    "link": "https://www.washingtonexaminer.com/news/white-house/4806977/rubio-no-imminent-threat-iran-dirty-bomb/",
-    "summary": "Secretary of State Marco Rubio dismissed reports that the United States is under an “imminent” threat from a so-called dirty bomb deployed by Iran. “I feel a lot of confidence in our intelligence services,” Rubio told reporters on the sidelines of the ASEAN summit in Manila, the Philippines.",
-    "published": "2026-11-18T02:39:26+00:00",
-    "id": "2fb565bba036",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a short, straightforward recap of Rubio's remarks to reporters. It has no outside sourcing or critical context, so it mostly relays the administration's reassurance, which is a very slight tilt.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "2fb565bba036",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
-    "link": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
-    "summary": "Asif Merchant was found guilty in March of trying to hire undercover FBI agents as hitmen to assassinate US officials, including the president.",
-    "published": "2026-11-18T02:29:52+00:00",
-    "id": "b27a3174b7c3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news recap of a sentencing. It relies on prosecutors, court statements and the defendant's own account. The only official voice quoted at the end is the Attorney General, which is a mild tilt toward the government's framing, but the piece includes the defendant's duress claim.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "has been justly sentenced for his criminal conduct",
-        "why": "The closing word goes to the Attorney General's statement, with no outside or defense response."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "fb5128c1c981",
-    "coverage": 2
-  },
-  {
-    "outlet": "CBS News",
-    "title": "8-year-old detained by ICE in San Diego released from custody",
-    "link": "https://www.cbsnews.com/news/8-year-old-detained-ice-released-custody/",
-    "summary": "The Department of Homeland Security previously confirmed that ICE agents placed the child in federal care after he attended a check-in appointment with a man the agency said claimed to be the boy's uncle.",
-    "published": "2026-11-18T02:10:00+00:00",
-    "id": "f7d5313f15fb",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting that includes DHS's rationale. However, it gives the advocacy group the most space and the most emotive quotes, and it includes the dramatic detail that the boy's cousins were left \"in tears.\" The advocate's quote about a \"public outcry\" gets the closing emphasis, and the DHS statement is not challenged or countered.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "An eight-year-old child belongs in a classroom, on a playground, and surrounded by love—not in immigration detention,",
-        "why": "The advocacy group's emotive quote is given prominence, and no one defends the enforcement side beyond the DHS statement."
-      },
-      {
-        "type": "Framing",
-        "quote": "left the boy's cousins \"in tears.\"",
-        "why": "The emotional detail comes from the advocacy group and emphasizes the human cost of the detention."
-      },
-      {
-        "type": "Source selection",
-        "quote": "ICE just incarcerated then deported without taking into account the wellbeing of the children left behind,",
-        "why": "The excerpt closes with the advocacy group's accusation, which gives that side the last word."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "f7d5313f15fb",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Man arrested after allegedly destroying US military C-130 at Irish airport",
-    "link": "https://www.washingtonexaminer.com/news/justice/4806952/irish-man-destroys-c130-us-military-plane/",
-    "summary": "An Irish man accused of destroying a $60 million U.S. military aircraft at an airport in Ireland was charged by federal prosecutors Tuesday after allegedly breaking into the plane and damaging critical equipment in an attack that authorities say took months to plan.",
-    "published": "2026-11-18T02:00:53+00:00",
-    "id": "dc539c902f27",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a straight factual account of an indictment, with consistent attribution (\"allegedly\", \"authorities say\") and no loaded wording. It relies on prosecutors' account only, which is normal for a charging story, and the excerpt is too short to show any motive or antiwar-protest framing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "dc539c902f27",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Irishman charged with destroying US military aircraft with axe",
-    "link": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss",
-    "summary": "The $60m (£45m) plane was destroyed in an hours-long raid by an anti-war protester, according to the FBI.",
-    "published": "2026-11-18T02:00:37+00:00",
-    "id": "0f872d5511b0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 10,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting with consistent attribution (\"allegedly\", \"officials say\"). It leans slightly toward the prosecution's framing because the FBI and prosecutors supply nearly all the quotes and detail, and the protester's side appears only as one line saying supporters call him an anti-war activist.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"This was not an act of spontaneous vandalism,\" said FBI Assistant Director in Charge James Barnacle Jr",
-        "why": "Prosecutors and the FBI dominate the quoted voices, and no defense or activist voice is quoted."
-      },
-      {
-        "type": "Framing",
-        "quote": "Supporters have described him as an anti-war activist.",
-        "why": "The protester's motives get a single line, against long, detailed accounts of the damage."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "destroyed in an hours-long raid by an anti-war protester, according to the FBI",
-        "why": "The summary stresses the scale of the destruction and 'raid' language, though it does attribute it to the FBI."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "0f872d5511b0",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump FDA nominee Heidi Overton struggling to win GOP support",
-    "link": "https://www.cbsnews.com/news/trump-fda-nominee-heidi-overton-confirmation-struggle/",
-    "summary": "Heidi Overton, Trump's pick to be FDA commissioner, is having trouble finding enough Republican support to advance her nomination, which could be pulled if she falls short.",
-    "published": "2026-11-18T01:50:00+00:00",
-    "id": "b2331f8c67f4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a sourced news report on a stalled nomination, with the causes given from both the anti-abortion side (Hawley, SBA) and the abortion-access side (Collins, Murkowski). The framing of the Trump administration's nomination troubles as a pattern (\"arguably the Trump nominee with the highest profile who is struggling\") is a mild emphasis but is backed by named examples.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Overton is arguably the Trump nominee with the highest profile who is struggling to shore up sufficient support in the closing weeks of GOP congressional control.",
-        "why": "Casts the nomination as part of a broader pattern of trouble for Trump nominees, a mild emphasis that is partly an interpretive judgment."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "b2331f8c67f4",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Liberal Danish PM Rejects ‘Large-Scale Population Replacement,’ Endorses ‘Strong Majority Culture’",
-    "link": "https://dailycaller.com/2026/11/17/mette-frederiksen-rejects-large-population-replacement",
-    "summary": "‘I believe that there must be a strong majority culture’",
-    "published": "2026-11-18T01:42:49+00:00",
-    "id": "ec3b4c474e5b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 40,
-    "spin": 40,
-    "leanWhy": "The piece relays the Danish PM's restrictive-immigration remarks almost entirely in her own words, and the \"liberal\" label in the headline sets up a \"even liberals agree\" frame. A related-link aside (\"Letting It Rip Through Europe For Years\") adopts a right-coded view of migration, and no critics or opposing voices are quoted.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Bureaucrats Try Fixing Migrant Crisis After Letting It Rip Through Europe For Years",
-        "why": "The embedded related link uses charged, editorial language that casts migration as a crisis caused by elite failure."
-      },
-      {
-        "type": "Framing",
-        "quote": "Liberal Danish PM Rejects ‘Large-Scale Population Replacement,’",
-        "why": "The headline echoes 'replacement' language and stresses 'Liberal' to suggest a left-leaning figure validating right-coded immigration concerns."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Too many arrivals from those countries reject homosexuality, oppose equal rights for women and want Islam placed above the law, the PM told the outlet.",
-        "why": "The claim about immigrants is relayed with no outside data or dissenting voices to test it."
-      },
-      {
-        "type": "Framing",
-        "quote": "The U.S.-based Southern Poverty Law Center describes concerns about policies that produce demographic replacement in majority-white countries as a “racist conspiracy narrative”",
-        "why": "The only counterview is a brief closing line attributed to a foreign advocacy group, which sets it apart from the Danish context."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "ec3b4c474e5b",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Cruz and Cornyn at odds over judicial vacancy in Texas",
-    "link": "https://www.washingtonexaminer.com/news/justice/4806896/cruz-cornyn-judicial-vacancy-texas/",
-    "summary": "Sen. Ted Cruz (R-TX) is urging outgoing Sen. John Cornyn (R-TX) to advance President Donald Trump’s pick for a Dallas judgeship, telling the Washington Examiner that T.",
-    "published": "2026-11-18T01:37:47+00:00",
-    "id": "3e7fdbfde192",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news account of an intra-Republican dispute over a judicial nomination, relying mainly on Cruz's statements with Cornyn's alternative candidate noted. The framing is slightly tilted toward Cruz's side, since his quote is the lead, and it adopts a GOP-strategy view of the Senate timeline.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"exceptionally well qualified\" and the only candidate who could be confirmed",
-        "why": "Leads with Cruz's characterization of the nominee without a Cornyn quote in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "Adding to the pressure for Republicans is the prospect of the seat remaining open",
-        "why": "Frames the story from the Republican strategic perspective, treating a Democrat's influence as a pressure point."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "3e7fdbfde192",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "White House withdraws nomination of Heidi Overton to lead FDA",
-    "link": "https://www.theguardian.com/us-news/2026/nov/17/white-house-withdraws-heidi-overton-fda",
-    "summary": "Move to drop Trump ally and prominent abortion opponent comes a day before key Senate health committee vote The White House has dropped its nomination of Heidi Overton to lead the Food and Drug Administration, a White House official told the Guardian.",
-    "published": "2026-11-18T01:26:15+00:00",
-    "id": "813431723de2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly straight reporting on a nomination withdrawal, but it describes Trump's vaccine claims as \"unsupported\" in the news voice. It also quotes only an abortion-rights group's celebration and gives it the last substantive reaction, with no anti-abortion or White House response. Overton's abortion stance is emphasized through her own words on abortion being \"corrosive\".",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "A prominent reproductive rights group celebrated the White House’s decision",
-        "why": "Only an abortion-rights advocacy group is quoted in reaction, and no conservative or anti-abortion voice appears."
-      },
-      {
-        "type": "Framing",
-        "quote": "Overton posed a serious threat to the future of medication abortion access.",
-        "why": "The quote gives the left-coded framing of the nominee as a threat, with no counter-view."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9eab200f51f3",
-    "coverage": 3
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "White House withdraws Heidi Overton’s nomination to become next FDA commissioner",
-    "link": "https://www.washingtonexaminer.com/news/white-house/4806936/white-house-heidi-overton-nomination-fda-commissioner/",
-    "summary": "The White House has withdrawn Heidi Overton’s nomination to become the next Food and Drug Administration commissioner before the Senate Health, Education, Labor and Pensions Committee was due to consider her on Wednesday. “Can confirm nomination pulled,” a White House official told the Washington Examiner on Tuesday.",
-    "published": "2026-11-18T01:25:26+00:00",
-    "id": "fda20e18248a",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 3,
-    "leanWhy": "Only a headline and short feed summary were available. They state the withdrawal of the nomination plainly, with a single White House official quoted and no evaluative language.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9eab200f51f3",
-    "coverage": 3
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Iranian agent sentenced to over 27 years in prison for plot to assassinate Trump",
-    "link": "https://www.washingtonexaminer.com/news/justice/4806900/iran-agent-sentenced-plot-assassinate-trump/",
-    "summary": "An Iranian agent was sentenced to over 27 years in prison on Tuesday for his role in a murder-for-hire plot that intended to assassinate President Donald Trump, as well as other former U.S. officials.",
-    "published": "2026-11-18T01:15:24+00:00",
-    "id": "3bac8f312561",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 3,
-    "leanWhy": "This is a short, straight factual report of a sentencing, with charges and conviction timing stated plainly. The excerpt has no loaded language or partisan sourcing, though it is brief and only the opening of the article.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "3bac8f312561",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "White House drops Heidi Overton's nomination for FDA commissioner",
-    "link": "https://www.cbsnews.com/news/white-house-drops-heidi-overton-fda-commissioner/",
-    "summary": "The White House has dropped the nomination of Dr. Heidi Overton, President Trump's pick for FDA commissioner, CBS News has confirmed.",
-    "published": "2026-11-18T01:14:00+00:00",
-    "id": "607cbf51faf8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 3,
-    "leanWhy": "This is a short breaking-news item that states the nomination was dropped, attributes it to a senior administration official and other people familiar, and credits Axios. It has no loaded language and offers no explanation or commentary.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "607cbf51faf8",
-    "coverage": 2
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump administration pulls nomination of Heidi Overton to lead Food and Drug Administration – US politics live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-    "summary": "White House official says it appeared that Overton, a physician and abortion opponent, lacked the votes necessary for Senate confirmation Sign up for US Breaking News email Abdul El-Sayed , the Democratic-Senator elect from Michigan, said today that he would be happy to work with the Trump administration to pass one…",
-    "published": "2026-11-18T01:10:14+00:00",
-    "id": "ccb246d3c951",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 15,
-    "leanWhy": "The piece is mostly straight live-blog reporting of the nomination being pulled, with attribution to a White House official. It gives a reproductive rights group a long quote celebrating the outcome, with no anti-abortion or Republican voice answering it, and it quotes only Democratic lawmakers on the outages.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Voters rejected that anti-abortion agenda nationwide, and our members kept the pressure on to tank her confirmation.",
-        "why": "A long, celebratory advocacy quote from a pro-abortion-rights group is included with no response from the other side."
-      },
-      {
-        "type": "Framing",
-        "quote": "A prominent reproductive rights group celebrated the White House’s decision",
-        "why": "The outcome is framed through the pro-abortion-rights reaction, and the excerpt gives it more space than the White House's stated reasoning."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Letting a handful of tech giants control this industry is just too dangerous,",
-        "why": "The outage coverage quotes only Democratic lawmakers, apart from Rubio's remarks."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "ccb246d3c951",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Newsom confident Jeffries will be elected speaker: ‘I don’t think he needs any of our help’",
-    "link": "https://www.washingtonexaminer.com/news/house/4806865/newsom-confident-jeffries-elected-speaker/",
-    "summary": "Gov. Gavin Newsom (D-CA) projected confidence in House Minority Leader Hakeem Jeffries (D-NY) becoming the next speaker of the House, telling the Washington Examiner at the Capitol he expects Jeffries to win the internal Democratic Caucus vote on Wednesday without trouble.",
-    "published": "2026-11-18T01:07:18+00:00",
-    "id": "c48a71c02e56",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "The excerpt is a short, straight report of Newsom's remarks about Jeffries' expected caucus vote, with attribution to Newsom and no evident loaded language. The only slight tilt is that it relays a Democratic figure's confident framing without any counterview, but the excerpt is brief.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "c48a71c02e56",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "White House pulls Trump’s FDA pick Heidi Overton on eve of Senate panel vote",
-    "link": "https://www.foxnews.com/politics/white-house-pulls-trumps-fda-pick-heidi-overton-eve-senate-panel-vote",
-    "summary": "President Donald Trump's FDA pick Heidi Overton saw her nomination pulled one day before a Senate committee vote, a White House official confirmed.",
-    "published": "2026-11-18T01:04:59+00:00",
-    "id": "1d6a4318a4a1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a short developing-story brief that states the nomination was pulled, cites a White House official, and gives brief background. The only color is the mention of the Sanders clash and Trump's \"ROCKSTAR\" praise, which is minor and does not push a conclusion.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "1d6a4318a4a1",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Man convicted in Iran-backed plot to kill Trump is sentenced",
-    "link": "https://www.cbsnews.com/news/asif-merchant-sentencing-prison-iran-backed-plot-to-murder-trump/",
-    "summary": "A man who was convicted of attempted terrorism and murder-for-hire plots, with potential targets including President Trump and former President Joe Biden, was sentenced to 27 1/2 years in federal prison.",
-    "published": "2026-11-18T01:01:39+00:00",
-    "id": "fb5128c1c981",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight court report that relays the sentencing, the judge's remarks, the prosecution's case and the defendant's duress claim, and it notes Iran's denial. The only slight tilt is the descriptive courtroom color and the judge's strong language about Iran, which fits a national-security frame.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Merchant shuffled into court with a serious expression and shackled ankles",
-        "why": "Atmospheric description of the defendant adds a mildly negative tone beyond the facts of the case."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "fb5128c1c981",
-    "coverage": 2
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump administration permanently pulls funding from LA homeless agency over mounting fraud allegations",
-    "link": "https://www.foxnews.com/politics/trump-admin-permanently-pulls-funding-from-la-homeless-agency-over-mounting-fraud-allegations",
-    "summary": "The Los Angeles Homeless Services Authority will give up about $150 million in federal funding under a HUD settlement, with LA County managing the money.",
-    "published": "2026-11-18T00:55:30+00:00",
-    "id": "20ec5c2e097e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 55,
-    "spin": 50,
-    "leanWhy": "The piece relies almost entirely on Trump administration officials, adopting their framing of \"overwhelming evidence of fraud\" and \"scandal-plagued\" in the narrator's voice, with no response from LAHSA, county, or Democratic officials. It also repeats administration claims crediting border policy for the homelessness decline without scrutiny, and endorses the \"Treatment First\" frame.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "scandal-plagued Los Angeles Homeless Services Authority",
-        "why": "The outlet's own voice adopts a charged characterization of the agency rather than attributing it."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"Organizations that are complicit in this fraud and waste will not get one penny more of federal funding,\"",
-        "why": "Only administration officials are quoted; LAHSA or local officials give no response."
-      },
-      {
-        "type": "Framing",
-        "quote": "citing overwhelming evidence of fraud and years of mismanagement",
-        "why": "Presents the administration's allegations as established, though the settlement resolves a lawsuit rather than a finding."
-      },
-      {
-        "type": "Framing",
-        "quote": "drove a historic decrease in homelessness",
-        "why": "Repeats a causal claim linking border policy to homelessness decline without independent context."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "20ec5c2e097e",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "House Dems can't stand the speaker vote drama anymore",
-    "link": "https://www.axios.com/2026/11/18/house-democrats-speaker-vote-jeffries-pressley",
-    "summary": "House Democrats aren't unanimous on whether House Minority Leader Hakeem Jeffries (D-N.Y.) should be speaker, but they pretty much all agree on two things: He probably will be speaker, and they just want this to be over.",
-    "published": "2026-11-18T00:51:40+00:00",
-    "id": "54b30323e828",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "Only a headline and feed summary were available. The framing highlights Democratic division and fatigue over the speaker vote, a mildly unflattering angle, but the tone is mostly descriptive and carries no partisan advocacy.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "House Dems can't stand the speaker vote drama anymore",
-        "why": "Casual, slightly dramatized headline emphasizes Democratic weariness and discord, a mildly negative framing."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "54b30323e828",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "White House withdraws Heidi Overton’s FDA nomination after Republicans raise concerns",
-    "link": "https://www.nbcnews.com/health/health-care/white-house-drops-dr-heidi-overton-fda-nomination-commissioner-rcna609883",
-    "summary": "The White House is dropping Dr. Heidi Overton’s nomination to lead the Food and Drug Administration, a White House official confirmed Tuesday.",
-    "published": "2026-11-18T00:44:27+00:00",
-    "id": "9eab200f51f3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is mostly a straight news account of a withdrawn nomination, sourced to named senators and a White House official. A slight tilt comes from the closing emphasis on \"upheaval\" at health agencies and on Overton's abortion-pill stance, which no one in the story defends.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The vacancy adds to a long period of upheaval at the nation’s top health agencies.",
-        "why": "This is an editorial-leaning summary that puts the withdrawal inside a narrative of administration turmoil."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Overton has praised the Supreme Court’s decision to overturn Roe v. Wade and called for strict restrictions on medication abortion.",
-        "why": "The article stresses her abortion positions without any response from her or supporters, though it is relevant to Murkowski's concerns."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9eab200f51f3",
-    "coverage": 3
-  },
-  {
-    "outlet": "NBC News",
-    "title": "White House drops Heidi Overton’s FDA nomination after Republicans raise concerns",
-    "link": "https://www.nbcnews.com/health/health-care/white-house-drops-dr-heidi-overton-fda-nomination-commissioner-rcna609883",
-    "summary": "The White House is dropping Dr. Heidi Overton’s nomination to lead the Food and Drug Administration, a White House official confirmed Tuesday.",
-    "published": "2026-11-18T00:44:27+00:00",
-    "id": "a8d17c4258bf",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is mostly straight news reporting on a withdrawn nomination, sourced to Republican senators' stated doubts and procedural facts. A mild tilt comes from the closing paragraphs, which stress administration upheaval and failed nominees, and from the emphasis on Overton's abortion-pill stance.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The vacancy adds to a long period of upheaval at the nation's top health agencies.",
-        "why": "This editorial-style context frames the withdrawal as part of a pattern of administration turmoil."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "Overton has praised the Supreme Court's decision to overturn Roe v. Wade and called for strict restrictions on medication abortion.",
-        "why": "Highlighting her abortion positions foregrounds a issue that divides the parties, though it is relevant to Murkowski's concerns."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "9eab200f51f3",
-    "coverage": 3
-  },
-  {
-    "outlet": "Fox",
-    "title": "Pentagon detains senior US Army officer accused of spying for Russians after UK arrest",
-    "link": "https://www.foxnews.com/us/pentagon-detains-senior-us-army-officer-accused-spying-russians-after-uk-arrest",
-    "summary": "Lt. Col. Brandon Tyner was handed to U.S. military authorities after British counterterrorism police arrested him on suspicion of spying for Russia.",
-    "published": "2026-11-18T00:26:16+00:00",
-    "id": "4a2c7c3a8b24",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 10,
-    "spin": 8,
-    "leanWhy": "This is mostly a straight factual account of an espionage arrest, with attribution to British police, the Kremlin and US officials. A mild tilt appears in repeating FBI Director Patel's self-promotional arrest statistic without any context or outside check.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "That’s been demonstrated by the 167 counterintelligence and espionage arrests we’ve made over the last 21 months, a 53% increase,",
-        "why": "The administration official's favorable statistic is quoted at length with no independent context or comparison."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "4a2c7c3a8b24",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Third grader detained by ICE returned to family",
-    "link": "https://www.cbsnews.com/video/third-grader-detained-ice-returned-family/",
-    "summary": "An eight-year-old born in Haiti was detained by ICE agents last week and was sent to a Texas facility. On Monday, he was reunited with his family back in San Diego.",
-    "published": "2026-11-18T00:24:09+00:00",
-    "id": "9c64067417c9",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and a short feed summary were available. The wording is mostly factual, but the emphasis on a young child (\"third grader,\" \"eight-year-old\") and the family reunion gives a mild humanitarian frame. No ICE or administration explanation is included in this brief text.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Third grader detained by ICE returned to family",
-        "why": "Describing the detainee as a third grader stresses his youth and sympathetic status, a humanitarian frame common on immigration."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "9c64067417c9",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump says \"we're looking into\" report that Iran may use dirty bomb on D.C.",
-    "link": "https://www.cbsnews.com/video/trump-says-were-looking-report-iran-may-use-dirty-bomb-dc/",
-    "summary": "President Trump responded to a CNN report about possible plans by Iran for a devastating attack in Washington, D.C. Weijia Jiang reports from the Philippines, the president's first stop on his historic Asia trip.",
-    "published": "2026-11-18T00:23:31+00:00",
-    "id": "a40ca48916ee",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "a40ca48916ee",
-    "coverage": 2
   }
 ]
