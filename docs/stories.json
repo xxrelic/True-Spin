@@ -1,5 +1,363 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "Trump and Xi speak at APEC summit ahead of rare joint meeting with Putin",
+    "link": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+    "summary": "President Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare face-to-face meeting in China.",
+    "published": "2026-11-19T03:58:15+00:00",
+    "id": "358c09daeda7",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news recap of the summit. It quotes Trump and Xi directly, includes Beijing's denial and the company's denial, and notes Trump's ties to a figure in the chip story. Trump's claims about the economy are reported as his statements without rebuttal, which is a slight tilt, but the piece is otherwise balanced.",
+    "signals": [
+      {
+        "type": "Omission",
+        "quote": "argued the American economy is \"thriving like it has never thrived before.\"",
+        "why": "The claim is reported with attribution but no context or fact-check, which gives it a slight unchallenged weight."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "358c09daeda7",
+    "coverage": 4
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Ecuadorian fishermen sue Trump administration over alleged boat strike and kidnapping",
+    "link": "https://www.washingtonexaminer.com/news/justice/4808362/ecuador-fishermen-lawsuit-trump-boat-strike/",
+    "summary": "Sixteen Ecuadorian fishermen sued the Trump administration this week after the U.S. military allegedly sank their boat and kidnapped them earlier this year. The lawsuit, filed in the U.S.",
+    "published": "2026-11-19T03:48:37+00:00",
+    "id": "53429ba89db0",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary are available. The wording is hedged with \"alleged\" and \"allegedly\", but \"kidnapped\" is the plaintiffs' charge and it is repeated in the summary, which gives their framing slight prominence. The text has no sourcing from the administration.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "the U.S. military allegedly sank their boat and kidnapped them",
+        "why": "The plaintiffs' charged term 'kidnapped' is used in the headline and summary, with no government response in the text."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "53429ba89db0",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "What we know about Trump's meeting with China's Xi, Russia's Putin",
+    "link": "https://www.cbsnews.com/video/trump-meets-with-chinas-xi-russias-putin/",
+    "summary": "President Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are scheduled to hold a trilateral meeting on Thursday in Shenzhen, China. Nancy Cordes and Anna Coren report on the summit.",
+    "published": "2026-11-19T03:47:57+00:00",
+    "id": "32b9ea08fc4d",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "358c09daeda7",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump pushes for three-way nuclear deal as Russia and China show little interest",
+    "link": "https://www.nbcnews.com/world/asia/trump-pushes-three-way-nuclear-deal-russia-china-show-little-interest-rcna610145",
+    "summary": "President Donald Trump has repeatedly placed nonproliferation near the top of the agenda for his unprecedented trilateral meeting Thursday with Chinese President Xi Jinping and Russian President Vladimir Putin, but his counterparts have expressed little interest in committing to new limitations on their nuclear…",
+    "published": "2026-11-19T03:46:42+00:00",
+    "id": "267685d6ba36",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news preview that relies on official statements, readouts from both governments, Pentagon estimates and a think-tank expert. It states Trump's goals and the limits on expectations, and it reports both sides' show-of-force moves without taking a side.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "267685d6ba36",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Musk says he's \"not MAGA,\" feels \"foolish\" about midterm spending",
+    "link": "https://www.cbsnews.com/news/elon-musk-not-maga-midterm-spending-trump/",
+    "summary": "After opening his wallet to assist GOP candidates in the 2026 midterms, billionaire Elon Musk said Wednesday he feels \"pretty foolish\" about spending hundreds of millions of dollars in the race.",
+    "published": "2026-11-19T03:41:14+00:00",
+    "id": "05434248d188",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a straight recap of Musk's interview with direct quotes, but it emphasizes Republican losses and Musk's distancing from MAGA. It also ends on Democratic oversight plans with no Republican response, which gives a slight tilt toward the Democratic side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Those bets largely did not pay off.",
+        "why": "Frames the spending as a failure, which fits the Democratic-win narrative."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Democrats, who have vowed to aggressively investigate the Trump administration",
+        "why": "Includes Democratic oversight plans and Musk as a probe target without any Republican or White House response."
+      },
+      {
+        "type": "Framing",
+        "quote": "the Republicans were routed in this election",
+        "why": "Quoting Musk's harsh wording on the GOP loss gives the Republican defeat a prominent place."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05434248d188",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Trump pushes back on global regulations of AI while speaking at APEC",
+    "link": "https://www.nbcnews.com/video/trump-pushes-back-on-global-regulations-of-ai-while-speaking-at-apec-273783365912",
+    "summary": "President Trump spoke about AI during the APEC summit, reiterating his proposed rebranding of it as SI, “super intelligence.” He warned that while there is a need to be careful of some of AI's \"bad elements\", he also expressed opposition to any global regulations.",
+    "published": "2026-11-19T03:38:30+00:00",
+    "id": "3c45bc4bb829",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Only a headline and short feed summary were available. The wording is a plain description of Trump's remarks, with his caution about AI's \"bad elements\" included next to his opposition to global regulation, so I detect little tilt.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "3c45bc4bb829",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump hints Iran could launch ‘gas’ or ‘bio’ attack following dirty bomb report",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4808340/trump-iran-gas-bio-attack-dirty-bomb/",
+    "summary": "President Donald Trump provided more details regarding Iranian plans to expand its weapons arsenal amid its war with the United States. “Iran is looking at gases, looking at bio, because we’ve shut them out with the nuclear,” Trump told Fox News on Thursday local time in Shenzhen, China.",
+    "published": "2026-11-19T03:15:07+00:00",
+    "id": "cebdca0940e1",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 25,
+    "leanWhy": "The piece relays Trump's claims about Iranian weapons plans almost entirely through his own quotes, with no independent verification, intelligence sourcing or outside voices. That amplifies the administration's threat framing and its claim of success (\"we've shut them out with the nuclear\"), so it tilts slightly right. The excerpt is short and mostly a quote recap.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "“Iran is looking at gases, looking at bio, because we’ve shut them out with the nuclear,” Trump told Fox News",
+        "why": "The only source is Trump, and the excerpt gives no outside confirmation or contrasting view."
+      },
+      {
+        "type": "Framing",
+        "quote": "provided more details regarding Iranian plans to expand its weapons arsenal",
+        "why": "It presents Trump's assertions as established 'details' of Iranian plans rather than as unverified claims."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump hints Iran could launch ‘gas’ or ‘bio’ attack following dirty bomb report",
+        "why": "The headline suggests an attack threat, but the quoted remarks only say Iran is 'looking at' such weapons."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "cebdca0940e1",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+    "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+    "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
+    "published": "2026-11-19T02:59:06+00:00",
+    "id": "26c69108690e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting of Musk's remarks, with context on the midterm results and possible business consequences. There is a slight left-leaning tilt in the emphasis on Republican \"sweeping\" and \"bruising\" defeats and Democratic scrutiny of Musk's firms, with no Republican voices to balance it.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The election was seen as a bruising defeat for Trump",
+        "why": "The vague attribution ('was seen') and the vivid wording frame the result as a rout for Trump."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Democratic lawmakers have also suggested that SpaceX, which has gained an estimated $10bn in new government contracts since Trump was re-elected, should be investigated.",
+        "why": "The excerpt gives Democratic scrutiny of Musk's companies and links it to government contracts, with no Republican or company response."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats won control of the both chambers in the US Congress, flipping both swing seats and making historic gains",
+        "why": "The text stresses the scale of the Democratic gains and Republican losses."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05434248d188",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Elon Musk says he is ‘not MAGA’ after spending millions on Trump and his allies",
+    "link": "https://www.nbcnews.com/politics/2026-election/elon-musk-says-not-maga-spending-millions-trump-allies-rcna610129",
+    "summary": "Elon Musk struck a more moderate tone while discussing his political affiliation Wednesday, arguing that he does not have “blind adherence” to the policies of the Republican Party or MAGA.",
+    "published": "2026-11-19T01:59:27+00:00",
+    "id": "0324ebccc3dc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece mostly reports Musk's own quotes, but it emphasizes the failures of his spending (\"backfired,\" \"didn't work,\" candidates who \"lost\") and ends on a Democratic official pledging to investigate him. That emphasis gives a mild tilt that is unflattering to Musk and the Republican side, and Republican voices get little room.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "This is not the first time that Musk’s generous campaign donations have backfired.",
+        "why": "It frames his political spending as a pattern of failure, which editorializes beyond the news of his remarks."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "The technique didn’t work in 2026, especially in Musk’s home state of Texas, where he has already been targeted by incoming officials.",
+        "why": "It stresses his defeats and the threat of investigation by Democratic officials, with no counterpoint."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "to uplift Trump allies",
+        "why": "The word choice is mildly loaded, and the sentence's focus is on candidates who lost."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05434248d188",
+    "coverage": 4
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump minimizes Jensen Huang scandal: ‘We have to take care of our geniuses’",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4808329/trump-jensen-huang-scandal-china-visit/",
+    "summary": "President Donald Trump said he “might” have informally raised former Nvidia CEO Jensen Huang with Chinese President Xi Jinping during a dinner in China after Huang was forced out of the company he founded following a series of extramarital affairs, including with an alleged Chinese spy.",
+    "published": "2026-11-19T01:42:33+00:00",
+    "id": "7b639968fbcd",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 20,
+    "leanWhy": "The headline uses the interpretive verb \"minimizes\" and pairs Trump's quote with a \"scandal\" label, which frames his remarks as dismissive. The excerpt itself is mostly attributed quotes from Trump, but it is very short and has no outside voices, so the lean is subtle and the confidence is limited.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump minimizes Jensen Huang scandal",
+        "why": "\"Minimizes\" is an editorial characterization of Trump's remarks, which the excerpt shows as a brief, sympathetic comment."
+      },
+      {
+        "type": "Framing",
+        "quote": "I might have referred to it just briefly because it's such a tragedy",
+        "why": "The piece stresses Trump's sympathetic tone toward Huang, and the summary adds the Xi dinner and an alleged spy, which invites a critical reading of Trump."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "7b639968fbcd",
+    "coverage": 2
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump tells stockpilers ‘relax, everything’s good,’ calls outages ‘individual events’",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4808321/trump-stockpilers-relax-outages-individual-events/",
+    "summary": "President Donald Trump softened his rhetoric regarding the spate of technological issues that have rattled the public during an interview while on his trip to Asia.",
+    "published": "2026-11-19T01:36:30+00:00",
+    "id": "cbac1ef1e197",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is short and mostly reports Trump's answer to a Fox News question about outages and stockpiling. The wording \"softened his rhetoric\" and the headline's quotes suggest a faint skeptical tilt, but nothing is argued and no opposing voices appear.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "softened his rhetoric regarding the spate of technological issues that have rattled the public",
+        "why": "It implies Trump earlier used alarming rhetoric and stresses public anxiety, but the excerpt gives no support for either point."
+      },
+      {
+        "type": "Headline emphasis",
+        "quote": "Trump tells stockpilers ‘relax, everything’s good,’",
+        "why": "The headline leads with his dismissive-sounding quote, which invites a mildly skeptical reading."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "cbac1ef1e197",
+    "coverage": 4
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+    "summary": "Musk, who aligned with Trump and was frequent White House guest, says he feels ‘pretty foolish’ about record midterm spending Elon Musk denied being Maga on Wednesday, despite aligning himself intensely with Donald Trump’s Make America Great Again movement since 2024.",
+    "published": "2026-11-19T01:07:51+00:00",
+    "id": "3c8edda3dc42",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a factual recap with direct Musk quotes, but the headline and framing stress his regret and his \"foolish\" spending. It also adds embarrassing background (Republicans who lost, the Epstein post, the falling out), which gives a mild tilt against the Republican side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "despite aligning himself intensely with Donald Trump’s Make America Great Again movement since 2024",
+        "why": "The lede frames his denial as contradicting his record, which undercuts him."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "recently spent nearly $500m in the US midterms to support Republicans, many of whom lost",
+        "why": "It highlights the failure of the spending, which favors a narrative of Republican setback."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Elon Musk claims ‘I’m not Maga’",
+        "why": "\"Claims\" in the headline casts doubt on his statement, though the attribution is standard."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Time to drop the really big bomb: @realDonaldTrump is in the Epstein files.",
+        "why": "It brings in an old, damaging accusation as background that is only loosely tied to the story."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05434248d188",
+    "coverage": 4
+  },
+  {
     "outlet": "Fox",
     "title": "Obama-era homeless policy fueled crisis it promised to end, expert says as Trump admin makes striking reversal",
     "link": "https://www.foxnews.com/us/obama-era-homeless-policy-fueled-crisis-promised-end-expert-says-trump-admin-makes-striking-reversal",
@@ -63,8 +421,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "b73b6b4bdb46",
-    "coverage": 1
+    "cluster": "05434248d188",
+    "coverage": 4
   },
   {
     "outlet": "The Guardian",
@@ -99,8 +457,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2d3122a336e3",
-    "coverage": 2
+    "cluster": "cbac1ef1e197",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -213,6 +571,32 @@
   },
   {
     "outlet": "Axios",
+    "title": "Republicans lose hope in Reconciliation 3.0",
+    "link": "https://www.axios.com/2026/11/19/republicans-reconciliation-defense-spending",
+    "summary": "The Senate GOP's last-ditch effort to pass a defense-heavy, $350 billion reconciliation package is dead on arrival without accompanying spending cuts, House Republicans tell Axios. Why it matters: House Republicans have just 16 days left in session before Democrats take control in January.",
+    "published": "2026-11-19T00:12:57+00:00",
+    "id": "c55a8eddc471",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only the headline and a short feed summary were available. It reads as a straight legislative-process report sourced to House Republicans, with a mild framing of GOP failure (\"lose hope\", \"dead on arrival\") but no clear partisan slant.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Republicans lose hope in Reconciliation 3.0",
+        "why": "The headline stresses GOP failure and despair, a mild negative emphasis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "ed0976dbd0cd",
+    "coverage": 1
+  },
+  {
+    "outlet": "Axios",
     "title": "\"There'll be no hostage-taking\": The anti-Jeffries rebellion that failed to materialize",
     "link": "https://www.axios.com/2026/11/19/hakeem-jeffries-speaker-vote-left-progressives",
     "summary": "The left's campaign to whip up a groundswell of opposition to House Minority Leader Hakeem Jeffries (D-N.Y.) among his members failed in stunning fashion on Wednesday. Why it matters: Fewer than a dozen members voted against Jeffries' nomination for speaker.",
@@ -239,8 +623,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "c1c15f078187",
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -265,8 +649,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "358c09daeda7",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -295,6 +679,37 @@
     "coverage": 1
   },
   {
+    "outlet": "BBC",
+    "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+    "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+    "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+    "published": "2026-11-18T23:28:03+00:00",
+    "id": "f9d953e3f473",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight news report of a criminal complaint, with allegations consistently attributed to prosecutors and charging documents. The prosecutor's statement is quoted prominently and no defense or Russian response appears, but the piece does not push a conclusion beyond the facts.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"We will not tolerate any efforts - by foreign governments or otherwise - to turn Silicon Valley into a base for foreign intelligence operations.\"",
+        "why": "The prosecutor's strong statement gets prominent placement, and no defense or Russian response is included."
+      },
+      {
+        "type": "Framing",
+        "quote": "entered the US unlawfully via the Mexico border",
+        "why": "The border-crossing detail touches immigration themes, though it is attributed to prosecutors and is relevant to the case."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "f9d953e3f473",
+    "coverage": 4
+  },
+  {
     "outlet": "NBC News",
     "title": "Russian national who targeted Palantir workers charged as a foreign agent, sources say",
     "link": "https://www.nbcnews.com/politics/justice-department/russian-national-igor-diu-targeted-palantir-workers-sources-say-rcna610112",
@@ -317,8 +732,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "126858b786b1",
-    "coverage": 3
+    "cluster": "f9d953e3f473",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -343,8 +758,8 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "c1c15f078187",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -418,6 +833,63 @@
     "coverage": 1
   },
   {
+    "outlet": "NPR",
+    "title": "The law releasing the Epstein files passed one year ago. What do his victims say?",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6041708/the-law-releasing-the-epstein-files-passed-one-year-ago-what-do-his-victims-say",
+    "summary": "It's been a year since the House passed the Epstein Files Transparency Act, forcing the Justice Department to release millions of files connected to the convicted sex offender. His victims speak out.",
+    "published": "2026-11-18T22:27:43+00:00",
+    "id": "00a0def0c125",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only the headline and feed summary are available. The framing is a neutral anniversary piece centered on victims' views, with a slight emphasis on the law \"forcing\" the Justice Department to act, which mildly implies resistance by the administration.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "forcing the Justice Department to release millions of files",
+        "why": "\"Forcing\" implies the department was reluctant, a mild framing that casts the executive branch as resisting."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "00a0def0c125",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Why the Nvidia scandal is a national security issue",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6044275/why-the-nvidia-scandal-is-a-national-security-issue",
+    "summary": "The Nvidia scandal has spilled over into the Trump administration, which is now under intense scrutiny for how it allowed America's top AI chips to end up in China's hands.",
+    "published": "2026-11-18T22:12:56+00:00",
+    "id": "a86efb912e3a",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -22,
+    "spin": 35,
+    "leanWhy": "Only a headline and a short feed summary were available. The headline is a thesis-style \"Why...\" framing, and the summary puts the Trump administration under \"intense scrutiny\" for letting chips reach China, which leans critical of the administration. The national-security angle could draw support from both parties, so the tilt is modest.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Why the Nvidia scandal is a national security issue",
+        "why": "A thesis-style headline asserts a conclusion and labels the matter a 'scandal' without any visible evidence."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "now under intense scrutiny for how it allowed America's top AI chips to end up in China's hands",
+        "why": "It assigns responsibility to the administration ('allowed') and stresses the damage, a critical framing of Trump officials."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "7b639968fbcd",
+    "coverage": 2
+  },
+  {
     "outlet": "Axios",
     "title": "Mississippi senator-elect turns historic win into nationwide Nike offer",
     "link": "https://www.axios.com/2026/11/18/air-force-ones-nike-colom-valedictorians",
@@ -435,6 +907,32 @@
     "confidence": "low",
     "cluster": "61bbcda14f7b",
     "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "Democrats nominate Jeffries for speaker, prep investigations into Trump's orbit",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit",
+    "summary": "Democrats gave the official nod to Hakeem Jeffries to be the next speaker of the House. Meanwhile, Democrats are ramping up their plans to investigate the Trump administration come January.",
+    "published": "2026-11-18T22:01:19+00:00",
+    "id": "4f3443fe3475",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary were available. The wording is largely factual (\"nominate,\" \"prep investigations\"), though \"Trump's orbit\" and \"ramping up\" mildly stress the investigations without any Republican response.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "prep investigations into Trump's orbit",
+        "why": "The phrase \"Trump's orbit\" is slightly loose and suggests a broad target, and no Republican perspective is shown."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "4f3443fe3475",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -484,8 +982,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "b12f45f30091",
-    "coverage": 1
+    "cluster": "4f3443fe3475",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -536,7 +1034,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "33fff35a6f88",
+    "cluster": "cbac1ef1e197",
     "coverage": 4
   },
   {
@@ -575,7 +1073,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "33fff35a6f88",
+    "cluster": "cbac1ef1e197",
     "coverage": 4
   },
   {
@@ -744,7 +1242,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2d3122a336e3",
+    "cluster": "46e510e9b97a",
     "coverage": 2
   },
   {
@@ -806,7 +1304,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2d3122a336e3",
+    "cluster": "46e510e9b97a",
     "coverage": 2
   },
   {
@@ -837,8 +1335,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "7c329675d2f5",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -873,8 +1371,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "040076ff35d2",
-    "coverage": 1
+    "cluster": "4f3443fe3475",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -893,8 +1391,8 @@
     "signals": [],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "126858b786b1",
-    "coverage": 3
+    "cluster": "f9d953e3f473",
+    "coverage": 4
   },
   {
     "outlet": "Axios",
@@ -989,8 +1487,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "358c09daeda7",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -1015,7 +1513,7 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "2c963d2cd266",
+    "cluster": "7f865f497401",
     "coverage": 2
   },
   {
@@ -1322,6 +1820,47 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "ROOKE: Our Propaganda Press Is Beating You Senseless, Again",
+    "link": "https://dailycaller.com/2026/11/18/trump-immigration-deportations-democrats-salazar-javier-graciela-quiej-family-illegally-crossings-border-america",
+    "summary": "I’m not sure if y’all remember",
+    "published": "2026-11-18T19:45:27+00:00",
+    "id": "4e8fc76391ae",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 85,
+    "spin": 75,
+    "leanWhy": "This is a first-person opinion newsletter that argues from a restrictionist, pro-mass-deportation view. It describes the media and the left as an \"open-borders machine\" running a coordinated emotional campaign, and it gives no space to the other side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The open-borders machine smelled blood in the water and pounced.",
+        "why": "It casts opponents of deportation as a predatory, coordinated machine."
+      },
+      {
+        "type": "Framing",
+        "quote": "the entire left-wing machine will be working nonstop to sway the minds of the American people",
+        "why": "It presents opposition as organized manipulation, not as sincere disagreement."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "the emotional torture the media and political classes are about to inflict on voters",
+        "why": "It uses hyperbole to portray media coverage of immigrants as abuse of voters."
+      },
+      {
+        "type": "Framing",
+        "quote": "always shining a negative light",
+        "why": "It makes a sweeping claim of media bias without evidence."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "4e8fc76391ae",
+    "coverage": 1
+  },
+  {
     "outlet": "Fox",
     "title": "Jeffries brushes off opposition from far-left Dems who voted no: 'We’re going to work together'",
     "link": "https://www.foxnews.com/politics/jeffries-brushes-off-opposition-far-left-dems-voted-no-work-together",
@@ -1354,8 +1893,49 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "c1c15f078187",
+    "coverage": 3
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Newsom’s Latest Move Proves He’s Trying To Woo Voters, Impress Bureaucrats",
+    "link": "https://dailycaller.com/2026/11/18/artificial-intelligence-gavin-newsom-california-president-ai-safety-in-2026-and-beyond",
+    "summary": "‘Catastrophic consequences’",
+    "published": "2026-11-18T19:31:24+00:00",
+    "id": "48685a0c7363",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 40,
+    "leanWhy": "The headline asserts Newsom's motive (\"Proves He's Trying To Woo Voters, Impress Bureaucrats\") and the excerpt frames the plan around his presidential ambitions, with a related link questioning his motives. The body reports his proposal and quotes fairly, but no critic of the regulation itself or Trump administration response appears, and the political-calculation frame dominates.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Newsom’s Latest Move Proves He’s Trying To Woo Voters, Impress Bureaucrats",
+        "why": "The headline presents a motive as proven, which the body only supports with poll data and speculation about a bid."
+      },
+      {
+        "type": "Framing",
+        "quote": "as he prepares for a possible presidential bid",
+        "why": "Casts the policy mainly as political positioning rather than on its merits."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Others Question Dem Governor’s Motives",
+        "why": "A related link promotes doubts about his motives, reinforcing the cynical frame."
+      },
+      {
+        "type": "Framing",
+        "quote": "Newsom embraced this populist approach to AI after the November midterms",
+        "why": "Ties the policy shift to electoral opportunism rather than to safety concerns."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "48685a0c7363",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -1380,7 +1960,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "2d3122a336e3",
+    "cluster": "46e510e9b97a",
     "coverage": 2
   },
   {
@@ -1454,6 +2034,47 @@
     "storyChoice": "neither",
     "cluster": "7e880d299cc8",
     "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "EXCLUSIVE: Big Banks Weaponized Climate To Punish Customers, Watchdog Says",
+    "link": "https://dailycaller.com/2026/11/18/consumers-research-will-hild-occ-letter-jpmorgan-citi-bank-america-morgan-stanley-climate-debanking",
+    "summary": "‘Woke debanking practices’",
+    "published": "2026-11-18T19:09:29+00:00",
+    "id": "e42693428fcf",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 55,
+    "spin": 55,
+    "leanWhy": "The headline states as fact that banks \"weaponized climate to punish customers\" and the summary uses the right-coded phrase \"woke debanking practices\". The excerpt relays a conservative group's letter almost entirely, with no response from the banks and no outside or opposing view.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Big Banks Weaponized Climate To Punish Customers, Watchdog Says",
+        "why": "The headline puts an advocacy group's contested claim up front as a dramatic accusation, and the attribution comes only at the end."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Woke debanking practices",
+        "why": "The summary adopts a partisan label instead of neutral description."
+      },
+      {
+        "type": "Source selection",
+        "quote": "A conservative watchdog group is calling on the federal government to investigate",
+        "why": "The story relies on the advocacy group's letter and statement, with no bank response or independent expert."
+      },
+      {
+        "type": "Framing",
+        "quote": "conflict with President Trump’s efforts to reduce cost of living, expand energy dominance",
+        "why": "The letter's policy claims are repeated without scrutiny or counterpoint."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "e42693428fcf",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1565,8 +2186,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "126858b786b1",
-    "coverage": 3
+    "cluster": "f9d953e3f473",
+    "coverage": 4
   },
   {
     "outlet": "NBC News",
@@ -1617,7 +2238,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "33fff35a6f88",
+    "cluster": "cbac1ef1e197",
     "coverage": 4
   },
   {
@@ -1658,8 +2279,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "358c09daeda7",
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -1753,8 +2374,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "358c09daeda7",
+    "coverage": 4
   },
   {
     "outlet": "NPR",
@@ -1856,8 +2477,8 @@
     ],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "1f20026dbea5",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -1995,8 +2616,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "917210689a85",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2031,8 +2652,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2c963d2cd266",
-    "coverage": 2
+    "cluster": "9ce25f3a6e21",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2092,8 +2713,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "dd42fb00432d",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2159,8 +2780,75 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "33fff35a6f88",
-    "coverage": 4
+    "cluster": "053d82ea663a",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "California Republicans won only four of state’s 52 US House seats in midterms",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/california-republicans-us-house",
+    "summary": "California Democrats flipped five seats and will send 48 representatives to DC after successful redistricting effort California Republicans have taken an extraordinary hit in the midterm elections, with only four of the state’s 52 congressional seats going to GOP representatives, leaving the party with its smallest…",
+    "published": "2026-11-18T17:03:46+00:00",
+    "id": "35af9146fa5b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -28,
+    "spin": 30,
+    "leanWhy": "The piece reports factual seat counts but uses charged, celebratory-leaning language (\"extraordinary hit,\" \"seismic blue wave,\" \"spectacularly backfired\") and describes Democratic winners favorably, with no Republican voices or reaction. It frames Prop 50 as a counter to Republican \"partisan gerrymandering\" without noting criticism of the Democratic redraw.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "a seismic blue wave that has knocked out Republicans across the country",
+        "why": "Dramatic, triumphant phrasing goes beyond neutral reporting of results."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Republicans’ efforts to redraw districts in their favor spectacularly backfired",
+        "why": "Evaluative adverb and verdict on GOP strategy, with no sourcing, while the Democratic redraw is described as a mere counter."
+      },
+      {
+        "type": "Framing",
+        "quote": "a redistricting measure meant to counter Republicans’ partisan gerrymandering in Texas",
+        "why": "Adopts the Democratic justification for Prop 50 and doesn't mention that it was itself a partisan redraw criticized by Republicans."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Villegas had shunned corporate campaign donations and was endorsed by national progressive leaders",
+        "why": "Flattering details about the Democratic winner, with no comparable detail or comment from Republicans."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "35af9146fa5b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Recent service outages not state-sponsored attacks, DNI Jay Clayton testifies",
+    "link": "https://www.foxnews.com/politics/recent-service-outages-not-state-sponsored-attacks-dni-jay-clayton-testifies",
+    "summary": "DNI Jay Clayton told the House Homeland Security Committee recent U.S. service outages stem from maintenance, not a coordinated state-sponsored attack.",
+    "published": "2026-11-18T17:02:16+00:00",
+    "id": "bea6821922cc",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a straight recap of congressional testimony, with the official's statements quoted at length and attributed. The only slight tilt is that it relies almost entirely on the administration official's account and mentions a Democratic lawmaker's questioning only briefly.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "in response to persistent questioning from Rep. Dan Goldman, D-N.Y.",
+        "why": "The excerpt gives the Democratic questioner's challenge only a passing mention and does not describe what he asked, so the official's account dominates."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "bea6821922cc",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2204,6 +2892,104 @@
     "coverage": 1
   },
   {
+    "outlet": "The Guardian",
+    "title": "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/howard-lutnick-nvidia-cantor-fitzgerald",
+    "summary": "Democratic lawmakers ask if commerce secretary favored Nvidia to enrich his adult children and Cantor Fitzgerald The US commerce secretary, Howard Lutnick, faces mounting questions over his handling of the Nvidia affair as Democratic lawmakers demand answers over his family firm’s vast stake in the tech company.",
+    "published": "2026-11-18T16:48:29+00:00",
+    "id": "00c1c19013ad",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece leads with and is framed around Democratic lawmakers' questions, using \"mounting questions\" and \"the Nvidia affair\" in the narrator's voice, and gives the rhetorical quote the most room. Cantor Fitzgerald's denial and its detailed explanation are included and attributed, which keeps the piece from being stronger in its tilt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "faces mounting questions over his handling of the Nvidia affair",
+        "why": "The outlet's own voice asserts that scrutiny is growing and labels the matter an 'affair', which presumes wrongdoing worth investigating."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The American people deserve to know: did the secretary of commerce seriously and perhaps irreversibly compromise US national security interests",
+        "why": "The sharpest charge is a Democratic quote placed prominently, with no outside or Republican voice in the opening."
+      },
+      {
+        "type": "Framing",
+        "quote": "to enrich his adult children and Cantor Fitzgerald",
+        "why": "The headline-summary adopts the lawmakers' motive framing as the story's premise."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "00c1c19013ad",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Charlotte wants Iryna Zarutska murder lawsuit tossed, says it can’t be held responsible",
+    "link": "https://www.foxnews.com/us/charlotte-wants-iryna-zarutska-murder-lawsuit-tossed-says-cant-held-responsible",
+    "summary": "Charlotte argues governmental immunity shields its transit policing decisions as it asks a judge to toss Iryna Zarutska's family's wrongful-death lawsuit.",
+    "published": "2026-11-18T16:41:39+00:00",
+    "id": "c99e1eb3311e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is a largely factual recap of a court filing. It gives both the city's immunity arguments and the family's claims, including the auditor's finding on unspent security funds, with attribution on each side. The headline wording and the lengthy detail on the family's allegations give a slight tilt against the city.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Charlotte wants Iryna Zarutska murder lawsuit tossed, says it can’t be held responsible",
+        "why": "The headline casts the city as dodging responsibility, a mildly unsympathetic framing of a standard legal defense."
+      },
+      {
+        "type": "Source selection",
+        "quote": "spent about $470,000, leaving roughly $1.76 million unspent and some planned security work unfinished",
+        "why": "The excerpt gives space to the auditor figures that support the family's case, while the city's rebuttal is briefer."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "c99e1eb3311e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Susan Smith's ex-husband wants her ‘in prison until she dies’ after killing sons in alleged bid to win lover",
+    "link": "https://www.foxnews.com/us/susan-smith-ex-husband-wants-prison-until-dies-after-killing-sons-alleged-bid-win-lover",
+    "summary": "David Smith says he wants Susan Smith to stay in prison until she dies for killing their sons as the South Carolina parole board weighs her request.",
+    "published": "2026-11-18T16:25:11+00:00",
+    "id": "adf983ee955a",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 15,
+    "leanWhy": "The piece leads with the victim's father and a fellow inmate who both argue for lifelong imprisonment, which fits a victims-first, punishment-oriented frame. The defense's mental-health argument is included briefly and attributed, so the tilt is subtle.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"I think she’s a sociopath,\" she added.",
+        "why": "Giving space to a former inmate's armchair diagnosis adds a punitive, one-sided voice, with no one arguing for parole."
+      },
+      {
+        "type": "Framing",
+        "quote": "\"32 years hasn’t changed the heartache.\"",
+        "why": "Emotional victim-side quote closes out the framing and supports the keep-her-imprisoned conclusion."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "adf983ee955a",
+    "coverage": 1
+  },
+  {
     "outlet": "BBC",
     "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
     "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
@@ -2220,8 +3006,8 @@
     "signals": [],
     "confidence": "high",
     "storyChoice": "neither",
-    "cluster": "9fbb7d9242c6",
-    "coverage": 7
+    "cluster": "b12241e7b638",
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -2240,8 +3026,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "518371bd75c7",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -2276,8 +3062,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "518371bd75c7",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -2425,8 +3211,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "518371bd75c7",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -2461,8 +3247,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "74507a5b3b12",
-    "coverage": 6
+    "cluster": "518371bd75c7",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -3657,8 +4443,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "5785308b7342",
-    "coverage": 2
+    "cluster": "7ec6dcdb029f",
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -4027,7 +4813,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "b12241e7b638",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NPR",
@@ -4933,8 +5719,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "5785308b7342",
-    "coverage": 2
+    "cluster": "7ec6dcdb029f",
+    "coverage": 6
   },
   {
     "outlet": "CBS News",
@@ -5323,8 +6109,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "5803642ee426",
-    "coverage": 3
+    "cluster": "bc50ba33a0c9",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -6364,7 +7150,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "7f865f497401",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -8312,8 +9098,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "5803642ee426",
-    "coverage": 3
+    "cluster": "79459c8298ca",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -8333,7 +9119,7 @@
     "confidence": "high",
     "storyChoice": "neither",
     "cluster": "79459c8298ca",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -8455,849 +9241,6 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "74f6643a0fa6",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Criminal past of Illinois ethanol plant bomb scare suspect includes multiple felonies, 2 prison stints",
-    "link": "https://www.foxnews.com/us/criminal-past-illinois-ethanol-plant-bomb-scare-suspect-includes-multiple-felonies-2-prison-stints",
-    "summary": "Andrew Kozak, the BioUrja worker accused in the Peoria bomb threat, has a criminal past spanning four Nebraska counties, Fox News Digital reports.",
-    "published": "2026-11-17T16:34:32+00:00",
-    "id": "1101a32f603f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 8,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a factual recap of the indictment and court records, with careful attribution and a note that the indictment does not accuse Kozak of planting the device. The headline and the long catalogue of prior convictions put the focus on his criminal record, a mild punishment and personal-responsibility emphasis that fits a right-coded crime frame.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Criminal past of Illinois ethanol plant bomb scare suspect includes multiple felonies, 2 prison stints",
-        "why": "The headline leads with the suspect's prior record rather than the current charges, which steers readers toward a character-based view."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "A judge found him guilty and determined Kozak was \"not a fit and proper person\" for probation",
-        "why": "The detailed account of old burglary sentences dwells on past offenses that have little bearing on the current allegation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "1101a32f603f",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Jensen Huang, General Counsel To Appear Before House Panels For Closed-Door Testimonies",
-    "link": "https://dailycaller.com/2026/11/17/jensen-huang-nvidia-general-counsel-testify-three-panels",
-    "summary": "Huang’s testimony will be transcribed",
-    "published": "2026-11-17T16:04:58+00:00",
-    "id": "58970504ca60",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is a largely factual recap of a congressional announcement, with attribution to the committee chairmen, Nvidia's board chairman and press reports. The only tilt is that the chairmen's framing of a \"scandal\" and \"breach\" is quoted with no rebuttal, and a line notes Trump was reportedly told and took no action, which is not developed.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "The American people need answers on Mr. Huang and Nvidia's role in allowing dangerous PRC actors to access our most advanced chips",
-        "why": "The chairmen's charged framing is quoted prominently, and no counter-view or defense appears in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "President Donald Trump was reportedly informed of Alice Huang's ties to China in 2025 but took no action.",
-        "why": "This line adds a detail that is awkward for the administration, but it is attributed to reports and sits without elaboration."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "58970504ca60",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "A strong Israel makes America stronger",
-    "link": "https://www.washingtonexaminer.com/op-eds/4805275/us-israel-alliance-strategic-partner/",
-    "summary": "America’s strongest alliances are not built on diplomatic ceremonies or declarations of friendship alone. They are built on shared interests, mutual trust, and the ability of nations to strengthen one another when it matters most.",
-    "published": "2026-11-17T16:00:00+00:00",
-    "id": "722902b59b35",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 40,
-    "spin": 45,
-    "leanWhy": "This is a thesis-driven opinion piece. Its headline and opening frame Israel as a strategic asset to America and urge future leaders to see it that way, with no counterview in the excerpt. That matches the right-coded national-interest, pro-Israel alliance framing, though the excerpt is short and the argument is general.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "A strong Israel makes America stronger",
-        "why": "The thesis headline asserts the conclusion as settled fact and treats Israel's strength as directly good for the US."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "capable, independent, and reliable allies remain among its greatest strategic advantages",
-        "why": "Praise-heavy wording presents the alliance as purely beneficial and leaves out any costs or criticisms."
-      },
-      {
-        "type": "Framing",
-        "quote": "the next generation of American leaders has an opportunity to understand why",
-        "why": "It implies that anyone who disagrees simply lacks understanding, which pushes a conclusion rather than weighing the evidence."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "722902b59b35",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Pride or prejudice in the classroom",
-    "link": "https://www.washingtonexaminer.com/op-eds/4805158/teacher-crucifix-classroom-wall-policy/",
-    "summary": "Marisol Arroyo-Castro hung a crucifix about a foot tall beside her desk and left it there for roughly a decade. In December 2024, her Connecticut school district ordered it taken down. She refused, and a reprimand, a two-day unpaid suspension, paid leave, and a transfer to a non-teaching job followed. The 2nd U.S.",
-    "published": "2026-11-17T16:00:00+00:00",
-    "id": "48374e155d51",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 35,
-    "spin": 35,
-    "leanWhy": "This opinion piece sympathizes with a teacher disciplined over a crucifix and argues for evenly applied rules, which fits the religious-liberty frame. It does acknowledge the Oregon case where pride flags and BLM signs were protected, and its core ask is viewpoint neutrality, so the tilt is moderate rather than strong.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "administrators went after a crucifix, and a federal judge sided with them, for now.",
-        "why": "Casts the district as targeting a faith and hints the ruling is temporary, favoring the teacher's side."
-      },
-      {
-        "type": "Framing",
-        "quote": "it owes teachers a written rule, applied evenly, before it enforces anything against a single faith.",
-        "why": "Presents the dispute as selective enforcement against religion, a religious-liberty frame, without presenting the district's rationale."
-      },
-      {
-        "type": "Source selection",
-        "quote": "a reprimand, a two-day unpaid suspension, paid leave, and a transfer to a non-teaching job followed.",
-        "why": "Stacks the penalties to emphasize severity and sympathy for the teacher, with no district voice."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "48374e155d51",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Bush-appointed judge torpedoes Trump immigration rule, rips DHS for overstepping its authority",
-    "link": "https://www.foxnews.com/politics/bush-appointed-judge-torpedoes-trump-immigration-rule-blasts-dhs-overstepping-its-authority",
-    "summary": "A federal judge appointed by President George W. Bush ruled DHS overstepped its authority on the F-1 student visa, blocking fixed time limits.",
-    "published": "2026-11-17T15:56:40+00:00",
-    "id": "abee6eb98dac",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The headline and framing use loaded verbs (\"torpedoes,\" \"rips\") and stress the judge's Bush appointment, and the excerpt quotes the judge at length, while DHS's case gets one paragraph. The body is largely factual and does include DHS's fraud and security arguments, which keeps the tilt moderate.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "torpedoes Trump immigration rule, rips DHS for overstepping its authority",
-        "why": "Combative verbs frame the ruling as a rebuke of the administration beyond a neutral report."
-      },
-      {
-        "type": "Framing",
-        "quote": "another loss in the Trump administration’s legal crusade to crack down on immigration",
-        "why": "\"Crusade\" and the pattern-of-losses framing cast the administration's policy as zealous and repeatedly failing."
-      },
-      {
-        "type": "Framing",
-        "quote": "to plug an alleged gap in the visa system",
-        "why": "The word \"alleged\" casts doubt on the administration's rationale for the rule."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Put bluntly, DHS is seeking to prevent or discourage the very activity",
-        "why": "The judge's strongest language is quoted at length, while the agency's argument is paraphrased more briefly."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "abee6eb98dac",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Nvidia forms export control panel amid concerns over China sales",
-    "link": "https://www.cbsnews.com/news/nvidia-export-control-committee-china-chips/",
-    "summary": "Chipmaker creates new committee amid growing concerns that it has allowed restricted products to reach China.",
-    "published": "2026-11-17T15:56:05+00:00",
-    "id": "fd47a892cbd3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The piece is a straight business and policy report. It cites the company, bipartisan lawmakers, the Treasury Secretary and an analyst, and it attributes claims. The lawmakers' strong quote is clearly labeled as theirs, and the excerpt shows no partisan framing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "fd47a892cbd3",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US Pentagon fails ninth straight audit despite progress in organizing finances",
-    "link": "https://www.theguardian.com/us-news/2026/nov/17/pentagon-fails-audit",
-    "summary": "The audits check whether financial statements ​are fairly presented and financial systems ‌and processes are sound The Pentagon failed a financial audit for the ninth consecutive year, according to an inspector general ⁠report released on Monday – but an official said a majority of its units passed for the first time.",
-    "published": "2026-11-17T15:43:12+00:00",
-    "id": "049d82e630b9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a mostly factual wire-style report that gives both the failed audit and the progress, with figures and context. The main voice is the Pentagon CFO, with little outside or critical sourcing, which gives a slight tilt toward the administration's framing of progress.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "049d82e630b9",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Democrat Mary Peltola closes in on victory in closely watched US Senate race in Alaska – live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-    "summary": "Challenger nears 50% of the ballot to secure victory in final midterms contest Protests greet Trump on Asia visit – follow live Sign up for US Breaking News email Abdul El-Sayed , the Democratic-Senator elect from Michigan, said today that he would be happy to work with the Trump administration to pass one of his…",
-    "published": "2026-11-17T15:40:24+00:00",
-    "id": "5785308b7342",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 12,
-    "leanWhy": "The live blog is mostly factual, with vote counts attributed to AP and Peltola's denial included. Mild tilt comes from the headline's \"closes in on victory\" and the \"Piling on\" description of Republican actions, plus the framing that Trump's actions are turbulent and aggressive.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Piling on, Alaska’s Republican governor has since ordered an investigation into Peltola’s campaign.",
-        "why": "\"Piling on\" casts the governor's investigation as an unfair pile-on rather than neutrally reporting it."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrat Mary Peltola closes in on victory in closely watched US Senate race in Alaska",
-        "why": "The headline leads with the Democrat's near-win, framing the story around her momentum."
-      },
-      {
-        "type": "Framing",
-        "quote": "Trump blasted the new leadership of CBS News’ 60 Minutes, which was overhauled under the network’s conservative editor-in-chief Bari Weiss.",
-        "why": "Emphasizing the editor's conservatism and the overhaul frames the criticism as part of a political contest, with Trump's reaction cast as a blast."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5785308b7342",
-    "coverage": 2
-  },
-  {
-    "outlet": "Fox",
-    "title": "Far-left US groups battle Trump plan to rival China's tech dominance",
-    "link": "https://www.foxnews.com/politics/far-left-us-groups-battle-trump-plan-rival-chinas-tech-dominance",
-    "summary": "The \"Shut Down Pax\" campaign, backed by CodePink and groups tied to Neville Roy Singham, fights President Donald Trump's bid to cut U.S. reliance on China.",
-    "published": "2026-11-17T15:38:13+00:00",
-    "id": "ff1cd4ec987e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 62,
-    "spin": 60,
-    "leanWhy": "The piece frames opposition to a Trump administration initiative almost entirely through labels like \"communist,\" \"far-left\" and \"pro-China,\" and it relies on the outlet's own investigation and analysis. The administration's case is given in sympathetic terms, while the protesters' stated concerns (environment, labor, ancestral land) get little space and no direct voice.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "American communist and far-left organizations are mobilizing internationally against an American initiative",
-        "why": "Opening frame casts the protesters as communists opposing America, not as critics with specific concerns."
-      },
-      {
-        "type": "Framing",
-        "quote": "opposition to Trump's China strategy is being organized not only overseas, but through pro-China activist networks inside the United States",
-        "why": "Presents domestic opposition to the policy as a foreign-aligned network, which delegitimizes it."
-      },
-      {
-        "type": "Source selection",
-        "quote": "For Washington, experts say, the Pax Silica plan is about securing the technology and resources needed to compete with Beijing.",
-        "why": "Unnamed experts back the administration's framing, while the protesters' concerns get only brief mention."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "most of them are openly \"anti-Zionist,\" opposed to the existence of a Jewish state of Israel",
-        "why": "Adds an unrelated ideological label that further tars the coalition by association."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "ff1cd4ec987e",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "ASRA NOMANI: Far-left US groups battle Trump plan to rival China's tech dominance",
-    "link": "https://www.foxnews.com/politics/far-left-us-groups-battle-trump-plan-rival-chinas-tech-dominance",
-    "summary": "The \"Shut Down Pax\" campaign, backed by CodePink and groups tied to Neville Roy Singham, fights President Donald Trump's bid to cut U.S. reliance on China.",
-    "published": "2026-11-17T15:38:13+00:00",
-    "id": "94939b5e4dfa",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 68,
-    "spin": 65,
-    "leanWhy": "The piece, labeled with a columnist byline, frames opposition to a Trump initiative as a coordinated communist and pro-China network, using repeated labels like \"communist\" and \"far-left\" and tying in DSA and anti-Zionism. Administration and State Department views are presented as the neutral rationale, while protesters' stated concerns (land, labor, environment) get only brief mention and no direct voice.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "American communist and far-left organizations are mobilizing internationally against an American initiative",
-        "why": "Labels opponents as communist and sets them against 'an American initiative', casting dissent as hostile to the nation."
-      },
-      {
-        "type": "Framing",
-        "quote": "opposition to Trump's China strategy is being organized not only overseas, but through pro-China activist networks inside the United States",
-        "why": "Presents opposition as foreign-aligned and pro-China rather than as policy disagreement."
-      },
-      {
-        "type": "Source selection",
-        "quote": "For Washington, experts say, the Pax Silica plan is about securing the technology and resources needed to compete with Beijing.",
-        "why": "Unnamed experts echo the administration's rationale, while opponents' concerns are summarized as wanting to curb American domination."
-      },
-      {
-        "type": "Framing",
-        "quote": "most of them are openly \"anti-Zionist,\" opposed to the existence of a Jewish state of Israel",
-        "why": "Adds an unrelated Israel angle to discredit the network by association."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "ff1cd4ec987e",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Jensen Huang agrees to face Congress over Nvidia scandal",
-    "link": "https://www.axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates",
-    "summary": "Jensen Huang and Nvidia general counsel Tim Teter will officially testify before Congress in early December, lawmakers announced Tuesday. Why it matters: Lawmakers are seeking answers about whether Nvidia's powerful AI chips were compromised by Chinese intelligence and whether the company did enough to protect…",
-    "published": "2026-11-17T15:37:21+00:00",
-    "id": "8683ae72e0ff",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 20,
-    "leanWhy": "Only a headline and a short feed summary are available. The word \"scandal\" in the headline is mildly loaded, but the summary is a neutral account of a congressional inquiry into Nvidia and China, a topic that is bipartisan and anti-corporate in framing.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Nvidia scandal",
-        "why": "Calls the matter a scandal even though the summary describes lawmakers only seeking answers about whether chips were compromised."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "5803642ee426",
-    "coverage": 3
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Trump says US will catch China on rare earth minerals in 10 months",
-    "link": "https://www.washingtonexaminer.com/news/white-house/4805789/trump-china-rare-earth-minerals/",
-    "summary": "President Donald Trump said that U.S. rare earth production will match China‘s within a year during his trip to the Association of Southeast Asian Nations summit on Tuesday. “We are making rare earth at a level that we’ve never made before.",
-    "published": "2026-11-17T15:35:12+00:00",
-    "id": "4c02d5b6f0b7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The excerpt is a short recap of Trump's own remarks with attribution, and it adds no commentary or outside sourcing. It leans slightly toward the administration because the claim is given without independent verification or context, such as current production figures, and the headline repeats the claim as a forecast.",
-    "signals": [
-      {
-        "type": "Omission",
-        "quote": "U.S. rare earth production will match China‘s within a year",
-        "why": "The claim is stated without independent data or expert context to check whether it is plausible."
-      },
-      {
-        "type": "Source selection",
-        "quote": "We’re gonna catch them within 10 months, they say,",
-        "why": "Only Trump is quoted, and the unnamed 'they' in his remark is never identified."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "4c02d5b6f0b7",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Jensen Huang agrees to House interview on Nvidia’s sales to China",
-    "link": "https://www.nbcnews.com/business/corporations/jensen-huang-agrees-house-interview-nvidias-chip-smuggling-rcna609803",
-    "summary": "Former Nvidia CEO Jensen Huang has agreed to sit for an interview with several House committees about whether the computer chip giant’s sales to China may have endangered U.S. national security.",
-    "published": "2026-11-17T15:29:55+00:00",
-    "id": "470a63b02fda",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a straight news report on a congressional interview, with the chairmen's statement attributed and quoted and a note that Nvidia had not responded. The only tilt is that the quoted voices are the Republican committee chairs, whose framing of \"scandal\" and \"breach\" goes unchallenged, though the article does not adopt it as its own.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "We look forward to hearing from Jensen Huang and Tim Teter on their roles in a potential breach of our national security,",
-        "why": "The only substantive quotes come from the Republican chairs and carry their charged framing, with no Democratic or Nvidia view."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "470a63b02fda",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Ex-Nvidia CEO Jensen Huang agrees to testify to Congress amid affair probe",
-    "link": "https://www.cbsnews.com/news/house-republicans-nvidia-jensen-huang-testimony/",
-    "summary": "The former Nvidia chief will appear for closed-door testimony on Dec. 1 after Republicans threatened to subpoena him.",
-    "published": "2026-11-17T15:29:41+00:00",
-    "id": "5803642ee426",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a procedural recap, but it relies entirely on quotes from three Republican chairs and states the \"woman believed to be a Chinese spy\" claim in the news voice. No Democratic or Nvidia-side response appears beyond a \"declined to comment,\" so the Republican national-security framing is the only one presented.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"The American people need answers on Mr. Huang and Nvidia's role in allowing dangerous [People's Republic of China] actors to access our most advanced chips",
-        "why": "The lead quote is from a Republican chair and no outside or opposing voice balances it."
-      },
-      {
-        "type": "Framing",
-        "quote": "an investigation into his affair with a woman believed to be a Chinese spy",
-        "why": "The suspicion is stated in the narrator's voice without attributing who believes it."
-      },
-      {
-        "type": "Framing",
-        "quote": "under the threat of a subpoena",
-        "why": "This emphasizes coercion by the Republican-led committees and sets the tone of a scandal."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "5803642ee426",
-    "coverage": 3
-  },
-  {
-    "outlet": "Fox",
-    "title": "Ivy League student slashed in neck, suspect accused was arrested just weeks before",
-    "link": "https://www.foxnews.com/us/ivy-league-student-slashed-neck-suspect-accused-arrested-weeks-before",
-    "summary": "NYPD says a Barnard College student was slashed behind her ear outside a Columbia University dorm as Earl Baker, a 44-year-old Brooklyn man, was arrested.",
-    "published": "2026-11-17T15:29:02+00:00",
-    "id": "51c5e89fca4a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 15,
-    "leanWhy": "The article is mostly a factual police-sourced account, but the headline stresses the suspect's arrest weeks earlier, which implies a failure of the justice system, a frame that fits a right-leaning crime-and-punishment narrative. The text admits that no charge information is available for the earlier case, so the headline implies more than the facts show.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "suspect accused was arrested just weeks before",
-        "why": "The headline stresses a prior arrest, implying a system failure, although the article says no charge details are available for that case."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "in a brazen attack that happened outside a dorm hall",
-        "why": "'Brazen' adds a mildly sensational tone to the crime."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Barnard College , which chose not to comment on the incident and instead directed the inquiry back to NYPD",
-        "why": "Noting the college's lack of comment mildly suggests institutional evasion."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "51c5e89fca4a",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "‘It’s life’: Trump brushes aside concerns about outages",
-    "link": "https://www.nbcnews.com/politics/donald-trump/trump-downplays-bank-email-travel-outages-faa-ground-stop-microsoft-rcna609796",
-    "summary": "President Donald Trump brushed off recent mass outages that wreaked havoc on air travel, banks and emails, saying Tuesday, “it’s life.”",
-    "published": "2026-11-17T15:27:42+00:00",
-    "id": "6755179b072f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly factual, but the headline and lead frame Trump's offhand quote as dismissive, and the excerpt ends on his and Duffy's refusal to accept blame. No administration defense or outside expert is quoted, which tilts the framing against Trump.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "brushed off recent mass outages that wreaked havoc on air travel, banks and emails",
-        "why": "The wording 'brushed off' and 'wreaked havoc' presents the response as dismissive and the disruption as severe."
-      },
-      {
-        "type": "Emphasis",
-        "quote": "neither Trump nor Transportation Secretary Sean Duffy took any blame for the situation",
-        "why": "The excerpt stresses blame avoidance, though no source says the administration caused the outages."
-      },
-      {
-        "type": "Omission",
-        "quote": "He did not share further details about who he spoke with or the content of their discussion.",
-        "why": "This highlights a lack of detail from Trump while no administration or outside expert is quoted to give context."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "6755179b072f",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Should JD Vance run for president? I say go for it, habibi! | Arwa Mahdawi",
-    "link": "https://www.theguardian.com/commentisfree/2026/nov/17/should-jd-vance-run-for-president-2028",
-    "summary": "Now the vice-president’s luck is turning, he seems reluctant to commit himself to the next presidential race – and I, for one, hate to see it How do you think history will remember JD Vance? As the first vice-president to spark a vigorous debate about their eyeliner routine ?",
-    "published": "2026-11-17T15:21:32+00:00",
-    "id": "f1e8f6be4f4d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -68,
-    "spin": 60,
-    "leanWhy": "This is a satirical opinion column that mocks Vance and the Trump administration with insults and rumor-based jokes, and it casts the midterm results as a repudiation of \"Maga\". Sourcing is limited to CNN and Axios anonymous reports plus one Republican senator's criticism, and the whole piece is framed to ridicule the right.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Vance and his boss managed to muck up the country so badly that even the world's stupidest podcast bros have turned against them",
-        "why": "Mocking, sweeping claim that presents the administration as having failed badly."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Maga's midterm thrashing",
-        "why": "Triumphant, one-sided characterization of the election outcome."
-      },
-      {
-        "type": "Framing",
-        "quote": "Vance has always had just enough brain cells to see the war was a terrible idea",
-        "why": "Insulting aside that asserts the Iran war was a terrible idea as settled fact."
-      },
-      {
-        "type": "Framing",
-        "quote": "the only politician in US history to have been the subject of a rumour about sexual relations with a couch",
-        "why": "Uses a mocking rumor joke to belittle Vance rather than engage with his record."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "f1e8f6be4f4d",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Conservatives launch $10M anti-socialism blitz after Democrats dominate youth vote",
-    "link": "https://www.foxnews.com/politics/conservatives-launch-10m-anti-socialism-blitz-after-democrats-dominate-youth-vote",
-    "summary": "YAF is launching a nationwide \"Freedom Not Socialism\" campaign in 30 Democratic strongholds after Democrats won the majority of the youth vote in the midterms.",
-    "published": "2026-11-17T15:18:54+00:00",
-    "id": "bf613288ba4e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 38,
-    "spin": 35,
-    "leanWhy": "The piece is a \"First on Fox\" announcement that relays only YAF's own officials and an allied Republican congressman-elect, with their claims about socialism and big government left unchallenged. No Democrat, youth voter, or independent expert is quoted, so the right-coded framing dominates.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"Our mission is to explain to people that their high cost of living is due to big government,\" Walker told Fox News Digital",
-        "why": "The causal claim about cost of living comes only from the campaign's leader and is presented without counterpoint."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "while socialism infiltrates our communities and our schools",
-        "why": "Walker's alarmist wording is quoted at length with no response from the other side."
-      },
-      {
-        "type": "Omission",
-        "quote": "\"The American education system has failed us,\" Alfonso said.",
-        "why": "Sweeping claims about schools and the history of socialist regimes go unchallenged, and no Democrat or young voter is quoted."
-      },
-      {
-        "type": "Framing",
-        "quote": "Conservatives launch $10M anti-socialism blitz after Democrats dominate youth vote",
-        "why": "The headline's \"blitz\" and \"dominate\" wording treats Democratic youth support as socialism and frames the campaign as a response to it."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "bf613288ba4e",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Protesters drive Gregory Bovino offstage at Rutgers campus event",
-    "link": "https://www.washingtonexaminer.com/policy/education/4805750/protester-drive-gregory-bovino-offstage-rutgers/",
-    "summary": "Protesters drove former Border Patrol commander-at-large Gregory Bovino offstage after he made an appearance at a Rutgers University campus event hosted by the school’s Republican student organization on Monday night.",
-    "published": "2026-11-17T15:18:46+00:00",
-    "id": "075fb67365b2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The excerpt is a short, mostly factual account of a speech disrupted by protesters, with no quotes from either side. The phrasing \"drove ... offstage\" and the emphasis on the Republican group's invitation slightly frame this as a speech-disruption story, which tilts a little toward the right-coded free-speech frame.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Protesters drove former Border Patrol commander-at-large Gregory Bovino offstage",
-        "why": "The active verb \"drove ... offstage\" stresses the disruption and puts protesters as the actors, which echoes a free-speech and heckler's-veto frame."
-      },
-      {
-        "type": "Omission",
-        "quote": "Protesters in the audience began yelling at him to get out, which he eventually did.",
-        "why": "The excerpt doesn't say why the protesters objected, and it has no comment from the university, the organizers or the protesters."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "075fb67365b2",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Carney eyes 'other options' for embattled Canadian auto sector on China trip",
-    "link": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
-    "summary": "The PM has suggested Chinese automakers could replace American ones in Canada - but some say that would not be easy.",
-    "published": "2026-11-17T15:17:49+00:00",
-    "id": "9a48076b0a35",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "Mostly factual explainer on Canada's auto sector, US tariffs and outreach to China, with Carney's quotes and context on the numbers. Slight tilt in describing the tariffs as \"upending decades of free trade\" and in the mention of \"ire of those close to Trump\", but both framings are mild and the excerpt cuts off before critics are heard.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "upending decades of free trade and automotive integration with Canada",
-        "why": "Casts the US tariff as disruptive in a mildly negative way, which slightly favors Carney's framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "is once again drawing the ire of those close to Trump",
-        "why": "Characterizes the opposing reaction as anger, though it is brief and attributed vaguely."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "9a48076b0a35",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "American veterans targeted by schemes to steal benefits and exploit the sick, disabled: DOJ",
-    "link": "https://www.foxnews.com/politics/american-veterans-targeted-schemes-steal-benefits-exploit-sick-disabled-doj",
-    "summary": "The Justice Department launches a nationwide VA benefits fraud crackdown, charging 15 defendants in schemes with more than $3.4 million in intended losses.",
-    "published": "2026-11-17T15:04:42+00:00",
-    "id": "64fe1bb24cc0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a factual recap of DOJ charges, but it relies almost entirely on DOJ announcement materials and statements. It gives the administration's enforcement effort a favorable frame, including a long, emotive quote answering a skeptical question, and it includes no outside or critical voices.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "announcement materials obtained first by Fox News Digital detail",
-        "why": "The account rests on DOJ-provided materials and officials, with no independent or critical sources."
-      },
-      {
-        "type": "Framing",
-        "quote": "I would ask the question of the veterans who didn't get the care whether the $19 million that was stolen from them, whether it matters to them,",
-        "why": "The official rebuttal to a question about the operation's scale gets the last word and is not tested."
-      },
-      {
-        "type": "Framing",
-        "quote": "American veterans targeted by schemes to steal benefits and exploit the sick, disabled: DOJ",
-        "why": "The headline is emotive and puts the administration's crackdown front and center."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "64fe1bb24cc0",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump Treasury aims to slam shut banking loopholes that could enable fraud tied to illegal immigration",
-    "link": "https://www.foxnews.com/politics/trump-proposal-gives-banks-more-leeway-probe-business-ownership-amid-illegal-immigration-concerns",
-    "summary": "Treasury Secretary Scott Bessent says the FinCEN proposal gives banks more flexibility to combat money laundering and terrorist financing risks.",
-    "published": "2026-11-17T15:00:12+00:00",
-    "id": "35a83bc97fe2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 35,
-    "leanWhy": "The headline's \"slam shut banking loopholes\" and the link between fraud and illegal immigration adopt the administration's framing, and the only voice quoted is Treasury Secretary Bessent. The body is mostly factual about the rule's mechanics and includes the caveat that banks need not verify every customer's immigration status, but it has no critics, immigrant-advocacy or banking-industry perspectives.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "slam shut banking loopholes that could enable fraud tied to illegal immigration",
-        "why": "The headline uses forceful, administration-friendly wording and asserts a fraud-immigration link as the premise."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"Financial institutions are on the front lines of protecting our financial systems from criminal organizations and cartels that target law-abiding businesses and workers,\"",
-        "why": "Only the administration official is quoted, with no outside or critical voices."
-      },
-      {
-        "type": "Framing",
-        "quote": "putting banks on notice to scrutinize business ownership more closely",
-        "why": "This dramatizes the rule as a crackdown, echoing the administration's enforcement framing."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "35a83bc97fe2",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Hundreds protest against ex-border patrol chief Greg Bovino at Rutgers University talk",
-    "link": "https://www.theguardian.com/us-news/2026/nov/17/protest-greg-bovino-rutgers-university",
-    "summary": "New Jersey university’s Republicans club invited Bovino, who oversaw Trump’s ICE surges, to speak on campus Hundreds protested outside a Rutgers University campus building on Monday night, jeering former border patrol commander Greg Bovino, who was inside addressing a crowd of about 25 people.",
-    "published": "2026-11-17T14:49:01+00:00",
-    "id": "cad0732ec3b6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -40,
-    "spin": 35,
-    "leanWhy": "The report uses loaded descriptions of ICE conduct and of Bovino (\"brutal handling\", \"seemingly homophobic pun\", \"grinning... relishing the attention\") and gives sympathetic detail on the protesters, while the Republican club and Bovino's supporters get little voice. It does include Bovino's own quotes and notes the low turnout, but the overall framing is critical of Bovino and his immigration enforcement.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "agents’ brutal handling of immigrant arrests, pulling children off the streets and taking people from cars",
-        "why": "Presents a contested characterization of ICE conduct in the outlet's own voice rather than attributing it."
-      },
-      {
-        "type": "Framing",
-        "quote": "who seemed to be relishing the attention",
-        "why": "Offers an interpretive, unflattering read of Bovino's demeanor."
-      },
-      {
-        "type": "Source selection",
-        "quote": "she miscarried",
-        "why": "Gives emotional personal detail about a protest leader, with no matching human-interest detail from the hosts or supporters."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "made a seemingly homophobic pun out of Pete Buttigieg’s last name",
-        "why": "Characterizes the speaker's remarks as homophobic in the reporter's own voice, hedged only by 'seemingly'."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "cad0732ec3b6",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Hakeem Jeffries shifts tactics ahead of House Democrats' internal speaker vote",
-    "link": "https://www.axios.com/2026/11/17/hakeem-jeffries-speaker-vote-house-democrats",
-    "summary": "House Minority Leader Hakeem Jeffries (D-N.Y.) plans to force his members to take a tallied vote this week on whether to nominate him as speaker of the House, according to two sources familiar with the matter.",
-    "published": "2026-11-17T14:33:20+00:00",
-    "id": "25bed0f219d1",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and a short feed summary were available. The wording is a neutral process report attributed to two unnamed sources, with no visible slant, though \"force his members\" gives a slight hint of internal pressure.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "plans to force his members to take a tallied vote",
-        "why": "\"Force\" frames the move as coercive toward his own caucus, a mild suggestion of internal friction."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "right",
-    "cluster": "25bed0f219d1",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump's $50B air traffic control overhaul faces GOP pushback after nationwide ground stop",
-    "link": "https://www.foxnews.com/politics/trumps-50b-air-traffic-control-overhaul-faces-gop-pushback-after-nationwide-ground-stop",
-    "summary": "Senate Republicans want receipts on the $12.5 billion already sent for air traffic control as the Trump administration seeks $50 billion more.",
-    "published": "2026-11-17T14:29:30+00:00",
-    "id": "5d01de45d5b2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is mostly straight reporting that centers Republican senators' skepticism of the administration's funding request, with the DOT's response included. Mild word choice (\"shell out\", \"doling out\", \"archaic\") and the sourcing, which is almost all GOP critics, give a slight tilt against the administration's handling.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"I haven't seen how they're gonna use it.",
-        "why": "Quotes come mainly from Republican critics (Thune, Scott, Kennedy), so the administration's case appears only through a brief DOT spokesperson statement."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "shell out $50 billion in funding",
-        "why": "Casual phrasing like 'shell out' and 'doling out' casts the request as a cash grab."
-      },
-      {
-        "type": "Framing",
-        "quote": "even Senate Republicans are reluctant to pay the bill",
-        "why": "The 'even' framing stresses intra-party resistance to the administration."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5d01de45d5b2",
     "coverage": 1
   }
 ]
