@@ -1,5 +1,72 @@
 [
   {
+    "outlet": "Fox",
+    "title": "Lawmakers warn Americans of vulnerable systems amid streak of outages: 'Something is going on'",
+    "link": "https://www.foxnews.com/politics/lawmakers-warn-americans-vulnerable-systems-amid-streak-outages-something-going-on",
+    "summary": "Lawmakers warn America's power grids, water systems and banks are soft targets after a 10-day wave of tech outages raised cybersecurity concerns.",
+    "published": "2026-11-21T09:00:38+00:00",
+    "id": "26c78fc5cce8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 30,
+    "leanWhy": "The piece quotes lawmakers from both parties and includes a skeptical Republican (Ricketts) and the administration's denial. The headline and lead quote emphasize alarm and a hidden-cause suspicion, which mildly raises tension beyond the established facts, and the Trump cyber director firing is mentioned as fuel for speculation.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "'Something is going on'",
+        "why": "The headline elevates a single lawmaker's speculative remark into the framing, though the article says the cause is unknown and the administration denies malicious involvement."
+      },
+      {
+        "type": "Framing",
+        "quote": "But speculation continues to increase, particularly after Trump fired National Cyber Director Sean Cairncross",
+        "why": "Linking the firing to growing speculation implies a connection to the outages that is not established in the text."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Because I don't believe any of the public statements that are made, because something is going on behind the scenes.\"",
+        "why": "A strong, unsupported claim of concealment is given prominent placement."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "26c78fc5cce8",
+    "coverage": 2
+  },
+  {
+    "outlet": "NPR",
+    "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+    "link": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+    "summary": "Efforts to establish rules for AI-powered killer robots and drones have run aground. U.N.-backed talks in Geneva ended Saturday with an agreement to extend discussions for two more years.",
+    "published": "2026-11-21T08:08:01+00:00",
+    "id": "4c31a35feada",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary are available. The framing (\"run aground\", \"no firm commitment to rein them in\") mildly leans toward the arms-control and international-institutions view, but the facts reported (talks extended two years) are straightforward. The topic is foreign policy and weapons regulation with no clear partisan split.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "AI killer robots",
+        "why": "The colloquial 'killer robots' label is the framing used by regulation advocates and carries alarm."
+      },
+      {
+        "type": "Framing",
+        "quote": "have run aground",
+        "why": "This metaphor presents the lack of rules as a failure, which implies regulation is the desired outcome."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "4c31a35feada",
+    "coverage": 1
+  },
+  {
     "outlet": "The Guardian",
     "title": "The far right is menacing Europe – but it is fragile. What the extremists and voters want isn’t the same | Gordon Brown",
     "link": "https://www.theguardian.com/commentisfree/2026/nov/21/far-right-menacing-europe-extremists-voters-spain-election-gordon-brown",
@@ -353,7 +420,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "f3b9b753e278",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "BBC",
@@ -414,8 +481,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "336354763cf6",
-    "coverage": 1
+    "cluster": "26c78fc5cce8",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -785,7 +852,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "f3b9b753e278",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "The Guardian",
@@ -1502,7 +1569,7 @@
     "confidence": "low",
     "storyChoice": "right",
     "cluster": "f3b9b753e278",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "NPR",
@@ -2106,8 +2173,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "089f31eae1e4",
-    "coverage": 1
+    "cluster": "f3b9b753e278",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -2328,7 +2395,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "b1553049a1da",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2363,8 +2430,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "c6152ea0c57c",
-    "coverage": 1
+    "cluster": "26c78fc5cce8",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -2399,7 +2466,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b1553049a1da",
+    "cluster": "e394e8bac15b",
     "coverage": 2
   },
   {
@@ -2419,8 +2486,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "f3b9b753e278",
-    "coverage": 3
+    "cluster": "656daa3e9ed5",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -3031,7 +3098,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "e394e8bac15b",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -5268,6 +5335,47 @@
     "coverage": 1
   },
   {
+    "outlet": "The Guardian",
+    "title": "Will AI break the internet? | Garrison Lovely",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
+    "summary": "Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You’re not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft , United Airlines and JPMorgan Chase .",
+    "published": "2026-11-20T10:00:31+00:00",
+    "id": "a165dcdbaafb",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 60,
+    "leanWhy": "This is an opinion piece arguing for a freeze on frontier AI development. Its main frame is anti-Big Tech and anti-corporate sentiment, which appeals to both sides, so it favors neither, though the pro-regulation, corporate-blame framing tilts slightly left. It pushes its conclusion harder than its facts support, for example by tying outages that officials say were not cyber-attacks to AI.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "this process has wrecked education and sloppified the internet; now it threatens to break it altogether",
+        "why": "Sweeping, pejorative claims are asserted as fact without support."
+      },
+      {
+        "type": "Framing",
+        "quote": "we should freeze the reckless gain-of-function experiments they call “frontier AI development”",
+        "why": "The gain-of-function analogy casts the whole industry as reckless and sets up a single policy answer."
+      },
+      {
+        "type": "Framing",
+        "quote": "Even if the recent outages weren’t the result of malicious behavior, it’s all a visceral reminder",
+        "why": "The piece opens with outages that officials said were not cyber-attacks and uses them as emotional support for its AI-blame thesis."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Frontier AI models can find and exploit software flaws faster than the world can fix them",
+        "why": "The central claim is stated flatly, and the excerpt shows no industry or dissenting voices."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "a165dcdbaafb",
+    "coverage": 1
+  },
+  {
     "outlet": "Fox",
     "title": "Trump will face reporters after historic Xi-Putin talks as war questions linger",
     "link": "https://www.foxnews.com/politics/trump-face-reporters-historic-xi-putin-talks-war-questions-linger",
@@ -6463,6 +6571,37 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "7576d61840ff",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Musk says he's \"not MAGA,\" feels \"foolish\" about midterm spending",
+    "link": "https://www.cbsnews.com/news/elon-musk-not-maga-midterm-spending-trump/",
+    "summary": "After opening his wallet to assist GOP candidates in the 2026 midterms, billionaire Elon Musk said Wednesday he feels \"pretty foolish\" about spending hundreds of millions of dollars in the race.",
+    "published": "2026-11-20T00:59:18+00:00",
+    "id": "05434248d188",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a straight recap of Musk's interview remarks, with context on the midterm results and his past MAGA statements. A faint tilt comes from emphasis on the failed bets and his past \"dark MAGA\" quip, but his own words carry most of the story.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Those bets largely did not pay off.",
+        "why": "Frames the spending as a failure in the narrator's own voice, which mildly emphasizes the GOP's setback."
+      },
+      {
+        "type": "Framing",
+        "quote": "It's a change in tone for Musk, who has donned MAGA hats in the past",
+        "why": "Juxtaposing his past MAGA embrace with his new denial highlights an awkward contrast."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "05434248d188",
     "coverage": 1
   },
   {
@@ -9412,129 +9551,5 @@
     "storyChoice": "left",
     "cluster": "db562ae357ab",
     "coverage": 2
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
-    "link": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china",
-    "summary": "US president appeared to doze off while Chinese leader made speech, but White House insisted he was awake Donald Trump was, again, accused of falling asleep during a televised event, this time during the speech of the Chinese president, Xi Jinping, at the Asia-Pacific Economic Cooperation (Apec) summit in China.",
-    "published": "2026-11-19T17:12:11+00:00",
-    "id": "028a89d90886",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece reports the accusation and the White House denial, but it spends most of its length on a pattern of Trump apparently dozing and on his age. It includes the denial and Rubio and Vance quotes, though the framing of \"again, accused\" and the closing on his age and health claims tilt it slightly against Trump.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump often faces accusations of falling asleep during televised events",
-        "why": "It places a single 10-second moment inside a recurring-pattern narrative that builds the age and fitness theme."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Several prominent Trump critics on social media alleged that the US president was asleep",
-        "why": "The accusations come from partisan critics, and the story is built on social media reaction to a brief moment."
-      },
-      {
-        "type": "Framing",
-        "quote": "Despite his age, Trump often claims he is in near-perfect health, often bragging about his “perfect” cognitive test results",
-        "why": "The closing paragraph uses dismissive wording ('bragging') and ends on his age, which undercuts his health claims."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "028a89d90886",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Law firm that cut deal with Trump has done $11.8M in pro bono work",
-    "link": "https://www.cbsnews.com/news/kirkland-ellis-law-firm-trump-deal-12-million-free-legal-work/",
-    "summary": "A lawyer representing the law firm Kirkland & Ellis said it has provided nearly $12 million in free legal services for the Trump administration.",
-    "published": "2026-11-19T17:11:21+00:00",
-    "id": "190d1328c6e3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a mostly factual recap of a law firm's disclosure to Congress, with the firm's own account, including the work it declined and its claim of no repercussions, given prominent space. The framing \"cut deals\" and \"punished four other firms\" and the Democratic-led investigation add a slight critical tilt toward the administration, but the piece is largely balanced.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "after the president signed directives that punished four other firms that either employed his perceived political enemies or represented clients he disfavors",
-        "why": "States the punitive purpose of the orders in the outlet's own voice, which leans toward the critics' framing."
-      },
-      {
-        "type": "Source selection",
-        "quote": "A trio of top Democrats in Congress, Sens. Adam Schiff and Richard Blumenthal, and Rep. Jamie Raskin, launched an investigation",
-        "why": "The only outside actors named are Democratic critics, with no administration or Republican response in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "190d1328c6e3",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
-    "link": "https://www.npr.org/2026/11/19/nx-s1-6047338/bigger-than-barack-obamas-election-scholars-reflect-on-mississippi-senate-race",
-    "summary": "Scott Colom is now this Southern state's first Black U.S. senator in nearly 150 years. Scholars and Mississippi natives Eddie Glaude and Kiese Laymon discuss the historic significance of his victory.",
-    "published": "2026-11-19T17:03:11+00:00",
-    "id": "90b5a775f157",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -30,
-    "spin": 25,
-    "leanWhy": "Based only on the headline and feed summary: the piece frames a Democratic Senate win through the historic-racial-significance lens, and it draws on two progressive-leaning Black scholars as the only voices. The headline's comparison to Obama's election is celebratory and favors a left-coded frame on race and history.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "'Bigger than Barack Obama's election'",
-        "why": "A celebratory, superlative comparison sets up the result as a landmark racial milestone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Scholars and Mississippi natives Eddie Glaude and Kiese Laymon discuss the historic significance of his victory.",
-        "why": "Only two sympathetic commentators are listed, so no other perspective appears."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "90b5a775f157",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Meta rethinks climate goal as AI emissions soar 45%",
-    "link": "https://www.axios.com/2026/11/19/meta-ai-emissions-rise",
-    "summary": "Meta's greenhouse gas emissions surged 45% last year amid its AI infrastructure boom, prompting the tech giant to reconsider its goal of reaching net-zero emissions by 2030.",
-    "published": "2026-11-19T17:00:48+00:00",
-    "id": "7d507a247825",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and short feed summary were available. The wording is factual, though \"soar\" and \"surged\" slightly stress the emissions rise, which fits a climate-concern frame, and no sources are quoted.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "AI emissions soar 45%",
-        "why": "\"Soar\" is dramatic wording that emphasizes the emissions increase."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "7d507a247825",
-    "coverage": 1
   }
 ]
