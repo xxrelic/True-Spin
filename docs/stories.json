@@ -1,6 +1,371 @@
 [
   {
     "outlet": "NBC News",
+    "title": "Abdul El-Sayed catches president’s attention with pitch for ‘Trumpcare’",
+    "link": "https://www.nbcnews.com/politics/donald-trump/abdul-el-sayed-catches-trumps-attention-pitch-trumpcare-rcna610626",
+    "summary": "President Donald Trump responded on Saturday to Sen.-elect Abdul El-Sayed’s push for universal healthcare after the progressive Michigan Democrat pitched that it be called “Trumpcare.”",
+    "published": "2026-11-22T00:37:21+00:00",
+    "id": "70db21edcfe8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a mostly factual recap of an exchange between Trump and El-Sayed. It quotes both sides, and it notes both Trump's openness to bipartisan work and his veto threats. The slight tilt comes from the El-Sayed-focused headline and from ending on his quote.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Abdul El-Sayed catches president’s attention with pitch for ‘Trumpcare’",
+        "why": "The headline frames the story as El-Sayed successfully getting Trump's attention, although Trump posted the screenshot without any text."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“President Trump, give me a call.”",
+        "why": "The piece ends on El-Sayed's quote, which gives him the last word."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "70db21edcfe8",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "ICE officers arrest at least 1 passenger boarding flight in Seattle",
+    "link": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+    "summary": "Masked immigration officers detained at least one person on a crowded airport jet bridge in Seattle as people were boarding Saturday",
+    "published": "2026-11-22T00:37:00+00:00",
+    "id": "c6b1e4eb013c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -25,
+    "spin": 22,
+    "leanWhy": "The piece is mostly straight reporting, but it leads with the \"masked\" officers and a \"distressing\" scene. It quotes only critics (the airline, Democratic officials and the port), and DHS has not yet responded. The emotional video detail and the stack of Democratic condemnations tilt it toward the left-coded humanitarian and government-overreach framing.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"ICE is completely and totally out of control,\" Ferguson said in a statement.",
+        "why": "Several Democratic officials are quoted at length with strong condemnation, and no defender of the enforcement action appears in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Masked immigration officers detained at least one person on a crowded airport jet bridge",
+        "why": "The lead stresses masks and a crowded setting, which emphasizes the alarming side of the operation."
+      },
+      {
+        "type": "Framing",
+        "quote": "as a woman screamed that her daughter is being taken and she has a work permit",
+        "why": "This emotional detail comes from video and is unverified, and it frames the detention sympathetically."
+      },
+      {
+        "type": "Omission",
+        "quote": "CBS News has reached out to the Department of Homeland Security, the parent agency of ICE, for comment.",
+        "why": "The government's rationale is absent from the excerpt, so one side's account dominates."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "c6b1e4eb013c",
+    "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Woman Who Served As Face Of ‘Trans Pride’ In Netherlands Dead After Reported Euthanasia",
+    "link": "https://dailycaller.com/2026/11/21/jason-bhugwandass-trans-pride-dead-euthanasia",
+    "summary": "Outlets Covering Her Death Said Nothing About How She Died",
+    "published": "2026-11-22T00:29:34+00:00",
+    "id": "3b09841f075e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 50,
+    "spin": 55,
+    "leanWhy": "The piece builds its account on an unverified claim from a conservative activist's Substack that she died by euthanasia. It uses right-coded framing: \"biological woman,\" a focus on her scars and the Pride poster, and an implied critique of trans affirmation and psychiatric euthanasia. Dutch outlets and the family have not said how she died, and the mainstream sources are used mainly to point out that gap.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "A biological woman who became the public face of a Dutch Pride campaign",
+        "why": "Opens by emphasizing biological sex and misgenders her relative to her stated identity, a right-coded frame."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Jason Bhugwandass died by euthanasia, writer Andy Ngo wrote on Substack.",
+        "why": "The central claim rests on a single partisan commentator while the Dutch outlets do not confirm it."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "The organizers put that image of a young person with fresh surgical and self-harm scars on public display to promote the parade.",
+        "why": "Editorializing that implies Pride organizers exploited a vulnerable person."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Dead After Reported Euthanasia",
+        "why": "The headline presents the cause of death as reported even though the text says Dutch outlets and relatives did not state it."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "3b09841f075e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "GOP Megadonor Linked To Donation To Dem AG Who Openly Floated Killings Of Republican Colleague’s Children",
+    "link": "https://dailycaller.com/2026/11/21/republican-megadonor-miriam-adelson-company-las-vegas-sands-corporation-donated-virginia-democrat-jay-jones",
+    "summary": "‘We need a Democrat strategy’",
+    "published": "2026-11-22T00:23:01+00:00",
+    "id": "3eb4e6e3ca0f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 35,
+    "spin": 40,
+    "leanWhy": "The headline and lead frame a corporate donation to a Democratic AG's PAC around the AG's past violent texts, and the headline's \"Openly Floated\" is stronger than the body's \"alleged\" texts. The piece also adds a RELATED link attacking the AG's office and uses the Adelson donor angle to portray Democrats as taking GOP-linked money, while giving little space to the donation's stated rationale.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Openly Floated Killings Of Republican Colleague’s Children",
+        "why": "The headline states the remark as fact and as 'openly' made, while the body only attributes the texts to a former delegate's allegation."
+      },
+      {
+        "type": "Framing",
+        "quote": "previously floated the killings of a former GOP colleague and his family",
+        "why": "The lede presents the allegation as established and ties it to the donation, implying guilt by association."
+      },
+      {
+        "type": "Source selection",
+        "quote": "(RELATED: Top Jay Jones Official Helped Enforce Biden Policies Requiring Men In Women’s Abuse Shelters)",
+        "why": "The inserted link adds an unrelated culture-war attack on the AG's office, piling on negative framing."
+      },
+      {
+        "type": "Omission",
+        "quote": "The source also said the donations were not made because of the attorneys general’s work on prediction markets",
+        "why": "The benign explanation for the donations comes late and briefly, after the damaging framing."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "3eb4e6e3ca0f",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "FBI investigates apparent hack of critical crime database",
+    "link": "https://www.nbcnews.com/nightly-news/video/fbi-investigates-apparent-hack-of-critical-crime-database-273966149722",
+    "summary": "The FBI is investigating an apparent breach of its National Crime Information Center, two people briefed on the matter told NBC News. The FBI’s National Crime Information Center is used to connect federal, state and local authorities so that important law enforcement information is available nationwide.",
+    "published": "2026-11-21T23:59:47+00:00",
+    "id": "cca86b5db39c",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "cca86b5db39c",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Deadly raid captures top cartel boss in Mexico",
+    "link": "https://www.nbcnews.com/nightly-news/video/deadly-raid-captures-top-cartel-boss-in-mexico-273965637918",
+    "summary": "A burst of violence erupted in Mexico’s Sinaloa state after authorities say they captured a top cartel leader, known as “El Chapo Isidro.” NBC News’ Dana Griffin reports.",
+    "published": "2026-11-21T23:49:07+00:00",
+    "id": "adefa71557a4",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "adefa71557a4",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Russia escalates attacks on Ukraine as concerns grow in Europe",
+    "link": "https://www.nbcnews.com/nightly-news/video/russia-escalates-attacks-on-ukraine-as-concerns-grow-in-europe-273965125962",
+    "summary": "Following President Trump’s high-stakes meeting with Russian President Vladimir Putin, there are growing concerns for the future of Ukraine and also Europe. Poland’s leader says a Russian missile that hit Polish territory was likely “intentional.” NBC News’ Keir Simmons reports.",
+    "published": "2026-11-21T23:47:23+00:00",
+    "id": "bd56707f5533",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 15,
+    "leanWhy": "Only the headline and a short feed summary were available. The summary ties growing concern for Ukraine and Europe to Trump's meeting with Putin, which mildly implies the diplomacy has backfired. The only source named is Poland's leader, and the summary has no response from the administration.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Following President Trump’s high-stakes meeting with Russian President Vladimir Putin, there are growing concerns",
+        "why": "The sequencing implies a causal link between the Trump-Putin meeting and the escalation and European worries, without evidence in the text."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "bd56707f5533",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump on credit card interest rate cap: ‘I would do it’",
+    "link": "https://www.washingtonexaminer.com/policy/economy/4811339/trump-credit-card-interest-rate-cap/",
+    "summary": "President Donald Trump signaled support for a cap on credit card interest rates on Saturday, an initiative also supported by leading Democratic figures. “You’ve previously suggested perhaps a one-year cap on credit card interest rates at 10%”, Kayleigh McEnany of Saturday in America said, referencing a suggestion the…",
+    "published": "2026-11-21T23:36:28+00:00",
+    "id": "179b7ef05e74",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The excerpt is a short, mostly factual recap of Trump's remarks on a credit card interest rate cap. It notes bipartisan support and gives no opposing view, but the excerpt is brief, so the tilt is minimal. The theme is anti-bank populism, which appeals to both sides.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "179b7ef05e74",
+    "coverage": 4
+  },
+  {
+    "outlet": "Fox",
+    "title": "Retired FBI agent warns NCIC breach could threaten police safety during traffic stops",
+    "link": "https://www.foxnews.com/politics/retired-fbi-agent-warns-ncic-breach-could-threaten-police-safety-traffic-stops",
+    "summary": "Retired FBI agent Jason Pack warns a hack of the National Crime Information Center could endanger officers at traffic stops if records were altered.",
+    "published": "2026-11-21T22:47:07+00:00",
+    "id": "966dcff813d2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is a largely factual account of a reported FBI database breach. It relies on one expert's warning about officer safety and includes a Trump reaction, but it makes no partisan argument. The headline emphasizes a worst-case scenario, which the text says has no evidence yet.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "could threaten police safety during traffic stops",
+        "why": "The headline stresses a hypothetical danger, while the article says there is no indication that any records were altered."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Pack said, adding that cyberattacks have accelerated to \"machine speed\"",
+        "why": "A single retired official supplies the interpretation, and no outside or current officials give balancing views."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "cca86b5db39c",
+    "coverage": 5
+  },
+  {
+    "outlet": "NPR",
+    "title": "Trump orders federal contractors to check with White House before responding to Congress",
+    "link": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+    "summary": "President Trump is directing federal contractors to consult the White House about inquiries from Congress and to withhold any communications that his administration considers privileged.",
+    "published": "2026-11-21T22:40:36+00:00",
+    "id": "b9ffa0d4addc",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary were available. The wording is mostly descriptive (\"directing\", \"consult\"), but it stresses White House control over contractors' answers to Congress, which mildly suggests an oversight-obstruction frame. It gives no sourcing from either side.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "withhold any communications that his administration considers privileged",
+        "why": "It highlights the administration's own definition of privilege, which hints at overreach, but it is attributed and not editorialized."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "b9ffa0d4addc",
+    "coverage": 5
+  },
+  {
+    "outlet": "NPR",
+    "title": "Google employees protest AI in schools policy",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6048599/google-employees-protest-ai-in-schools-policy",
+    "summary": "More than 550 Google employees signed a petition to allow schools access to Search without AI. Parents and educators protested outside Google offices in 6 cities last week for the same ask.",
+    "published": "2026-11-21T22:01:40+00:00",
+    "id": "02afa34e2647",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary are available. They state the petition and protests factually, with no loaded language, and the main frame is anti-Big Tech and AI skepticism, which appeals to both sides.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "02afa34e2647",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Highlights and challenges from covering an historic month in South America",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044647/highlights-and-challenges-from-covering-an-historic-month-in-south-america",
+    "summary": "NPR's South America Correspondent discusses her work covering an historic election upset and a papal visit.",
+    "published": "2026-11-21T22:01:35+00:00",
+    "id": "9b009b150b81",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "9b009b150b81",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Trump Looks To Democrats To Fulfill Campaign Promise GOP Congress Couldn’t Deliver",
+    "link": "https://dailycaller.com/2026/11/21/donald-trump-democrats-campaign-promise-cap-credit-card-interest-rates-fox-news-kayleigh-mcenany-saturday-america",
+    "summary": "‘I know that some people would say it’s not free enterprise’",
+    "published": "2026-11-21T21:57:26+00:00",
+    "id": "3adbca5e53f5",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a straight recap of Trump's interview. It quotes bipartisan senators and gives both a lobbying-group warning and a study on savings. The headline and a \"strangled\" related link add mild framing that the GOP Congress failed, and they lean slightly toward Trump's populist position.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump Looks To Democrats To Fulfill Campaign Promise GOP Congress Couldn’t Deliver",
+        "why": "The headline stresses a GOP Congress failure and casts Trump as the one finding a solution."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Americans Now Being Strangled By Highest Amount Of Credit Card Debt In History",
+        "why": "The related-link headline uses dramatic language that supports the case for a cap."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "179b7ef05e74",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
     "title": "Princeton neuroscientist detained by ICE at D.C. airport after leaving conference",
     "link": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603",
     "summary": "U.S. Immigration and Customs Enforcement arrested a Princeton University Ph.D.",
@@ -32,8 +397,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "4e0a68888264",
-    "coverage": 1
+    "cluster": "c6b1e4eb013c",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -301,8 +666,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "cca86b5db39c",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -337,8 +702,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "22f92a2691a8",
-    "coverage": 4
+    "cluster": "b9ffa0d4addc",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -357,8 +722,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "47b4dae3b909",
-    "coverage": 2
+    "cluster": "179b7ef05e74",
+    "coverage": 4
   },
   {
     "outlet": "Daily Caller",
@@ -402,8 +767,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "fdca942dcf71",
-    "coverage": 4
+    "cluster": "adefa71557a4",
+    "coverage": 5
   },
   {
     "outlet": "The Guardian",
@@ -438,8 +803,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "22f92a2691a8",
-    "coverage": 4
+    "cluster": "b9ffa0d4addc",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -495,8 +860,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fdca942dcf71",
-    "coverage": 4
+    "cluster": "adefa71557a4",
+    "coverage": 5
   },
   {
     "outlet": "Daily Caller",
@@ -624,8 +989,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "a47420eeeea4",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -773,8 +1138,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "47b4dae3b909",
-    "coverage": 2
+    "cluster": "179b7ef05e74",
+    "coverage": 4
   },
   {
     "outlet": "BBC",
@@ -799,8 +1164,34 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "cca86b5db39c",
+    "coverage": 5
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Court overturns federal pregnant workers’ law due to Congress’s COVID-era remote voting",
+    "link": "https://www.washingtonexaminer.com/news/justice/4811197/court-overturn-pregnant-law-congresss-covid-remote-voting/",
+    "summary": "A federal appeals court overturned a law protecting pregnant workers on Friday, concluding that the measure had been unconstitutionally enacted because Congress held the vote remotely during the COVID-19 pandemic. In a 9-8 ruling, the 5th U.S.",
+    "published": "2026-11-21T16:21:57+00:00",
+    "id": "603d426f4c96",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The excerpt is a short factual account of the ruling, including the 9-8 split and the court's quorum-clause reasoning. The only tilt is the repeated description of the statute as \"a law protecting pregnant workers\", which stresses the effect on workers more than the constitutional reasoning, and no reaction from either side appears in the excerpt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "overturned a law protecting pregnant workers",
+        "why": "Describing the law by its protective purpose in the lead stresses the human impact over the procedural legal basis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "603d426f4c96",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -866,8 +1257,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "a47420eeeea4",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -886,7 +1277,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "de47c280eeb7",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -942,8 +1333,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "cca86b5db39c",
+    "coverage": 5
   },
   {
     "outlet": "The Guardian",
@@ -1245,8 +1636,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "22f92a2691a8",
-    "coverage": 4
+    "cluster": "b9ffa0d4addc",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -1271,8 +1662,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "fdca942dcf71",
-    "coverage": 4
+    "cluster": "adefa71557a4",
+    "coverage": 5
   },
   {
     "outlet": "NPR",
@@ -1379,8 +1770,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "078dba32d038",
-    "coverage": 6
+    "cluster": "cca86b5db39c",
+    "coverage": 5
   },
   {
     "outlet": "Daily Caller",
@@ -1543,8 +1934,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "22f92a2691a8",
-    "coverage": 4
+    "cluster": "b9ffa0d4addc",
+    "coverage": 5
   },
   {
     "outlet": "BBC",
@@ -1569,8 +1960,8 @@
     ],
     "confidence": "high",
     "storyChoice": "right",
-    "cluster": "fdca942dcf71",
-    "coverage": 4
+    "cluster": "adefa71557a4",
+    "coverage": 5
   },
   {
     "outlet": "Fox",
@@ -2025,8 +2416,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "8dace09fb7d3",
-    "coverage": 1
+    "cluster": "cca86b5db39c",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -2358,8 +2749,8 @@
     ],
     "confidence": "high",
     "storyChoice": "right",
-    "cluster": "de47c280eeb7",
-    "coverage": 2
+    "cluster": "27c4cf5a7e90",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -2533,6 +2924,47 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "adf028741534",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "2028 presidential contender under fire from state auditor over waste, fraud, abuse fears: 'Troubling response'",
+    "link": "https://www.foxnews.com/politics/2028-presidential-contender-under-fire-from-state-auditor-over-waste-fraud-abuse-fears-troubling-response",
+    "summary": "Kentucky's top auditor says $1.5 billion in taxpayer waste was uncovered, accusing Democratic Gov. Andy Beshear of brushing off Medicaid and SNAP findings.",
+    "published": "2026-11-21T10:00:44+00:00",
+    "id": "5607162f9c84",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 40,
+    "spin": 40,
+    "leanWhy": "The piece rests almost entirely on the Republican auditor's account and quotes her at length. The headline and framing present Beshear as a 2028 contender who is \"under fire,\" and the excerpt includes no response from his office. The government-waste and noncitizen-benefits themes fit right-coded framing.",
+    "signals": [
+      {
+        "type": "Headline framing",
+        "quote": "2028 presidential contender under fire from state auditor over waste, fraud, abuse fears: 'Troubling response'",
+        "why": "The headline ties a state audit dispute to Beshear's presidential ambitions and uses the auditor's charged quote as its hook."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"I wish I could say that I had more support and help from the governor's office in Kentucky, but I haven't really.",
+        "why": "The auditor is the only voice in the excerpt, and the piece includes no response from the governor's office."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "money just being flushed down the toilet",
+        "why": "Her vivid quote is used without any counterweight."
+      },
+      {
+        "type": "Framing",
+        "quote": "Ineligible noncitizens receiving benefits, single Social Security numbers being used by up to 10 people at once",
+        "why": "These items are placed alongside the waste total and fit a fraud-and-abuse narrative, with no context on how many of them were confirmed fraud."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "5607162f9c84",
     "coverage": 1
   },
   {
@@ -2981,8 +3413,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "f3b9b753e278",
-    "coverage": 1
+    "cluster": "58375735a27e",
+    "coverage": 2
   },
   {
     "outlet": "BBC",
@@ -6050,7 +6482,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2dffae8e9b50",
+    "cluster": "58375735a27e",
     "coverage": 2
   },
   {
@@ -7400,8 +7832,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
+    "cluster": "5ccb9587f64a",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -8238,8 +8670,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
+    "cluster": "1f30c19cc6a0",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -8781,8 +9213,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
+    "cluster": "5ccb9587f64a",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -8941,8 +9373,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
+    "cluster": "a954d7485f7c",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -8978,7 +9410,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "a954d7485f7c",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -9086,464 +9518,6 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "99e7dd5470d2",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Democrat lawmaker hit with federal indictment over alleged $240K COVID fraud scheme",
-    "link": "https://www.foxnews.com/us/democrat-lawmaker-hit-federal-indictment-alleged-240k-covid-fraud-scheme",
-    "summary": "Alabama Rep. Patrick Sellers allegedly obtained more than $240,000 through fraudulent applications and used the money for personal expenses.",
-    "published": "2026-11-20T01:29:45+00:00",
-    "id": "077862df3dc4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 15,
-    "leanWhy": "The article is mostly a factual recap of the indictment, attributed to prosecutors. The headline's \"Democrat lawmaker\" label and the final quote about aggressively pursuing corrupt officials give a subtle tilt against Democrats, and the text offers no defense response.",
-    "signals": [
-      {
-        "type": "Headline framing",
-        "quote": "Democrat lawmaker hit with federal indictment",
-        "why": "Leads with party label and the dramatic phrase \"hit with\", highlighting partisanship in a fraud case."
-      },
-      {
-        "type": "Source selection",
-        "quote": "we have a mandate to aggressively pursue corrupt public officials, no matter what position they hold or what power they wield",
-        "why": "Only the prosecution's voice is quoted, and its rhetoric is presented without any defense comment."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "siphoned more than $240,000",
-        "why": "Vivid verb for alleged conduct, though it is tied to the \"allegedly\" qualifier."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "077862df3dc4",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "US army warns detonation of unstable explosives will create toxic plume",
-    "link": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
-    "summary": "The Army has delayed the controlled explosion of unstable lead azide in eastern Iowa to Monday after concerns from residents and lawmakers.",
-    "published": "2026-11-20T01:27:27+00:00",
-    "id": "18dcd8cf73fc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straight news account that gives the Army's safety rationale, the EPA permit and the environmental groups' lawsuit. It attributes each claim and doesn't push a conclusion. The headline stresses the toxic plume slightly, but the body is balanced.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "US army warns detonation of unstable explosives will create toxic plume",
-        "why": "The headline stresses the toxic plume risk more than the Army's framing of a controlled safety operation does, though the body is more balanced."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "18dcd8cf73fc",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump calls Putin his friend at summit, prompting backlash from some world leaders",
-    "link": "https://www.cbsnews.com/video/trump-calls-putin-his-friend-at-summit-prompting-backlash-from-some-world-leaders/",
-    "summary": "President Trump insisted that Russian President Vladimir Putin wants to end his war with Ukraine as the two leaders met with Chinese President Xi Jinping. But Putin later told reporters he plans to halt negotiations with the country he invaded in 2022. Mr.",
-    "published": "2026-11-20T01:26:05+00:00",
-    "id": "2dffae8e9b50",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 20,
-    "leanWhy": "Only the headline and a short feed summary were available. The headline stresses \"backlash from some world leaders\", and the summary sets Trump's claim that Putin wants peace against Putin's later statement that he will halt talks. That contrast makes Trump look naive, which is a mild tilt toward critics of Trump.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "prompting backlash from some world leaders",
-        "why": "The headline foregrounds criticism of Trump and gives no sign of a response from Trump or his supporters."
-      },
-      {
-        "type": "Framing",
-        "quote": "But Putin later told reporters he plans to halt negotiations",
-        "why": "The 'But' contrast undercuts Trump's claim and implies it was wrong."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "2dffae8e9b50",
-    "coverage": 2
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "White House cyber director ousted after US hit by wave of tech outages",
-    "link": "https://www.theguardian.com/us-news/2026/nov/19/white-house-cyber-director-ousted",
-    "summary": "Sean Cairncross exits after outages that sparked fierce criticism, with DoD official Kirsten Davies to take over White House national ⁠cyber director Sean ⁠Cairncross ​was ousted from his job, a person close to the White House told Reuters on Thursday, ⁠days after tech outages hit US air travel, banking and national…",
-    "published": "2026-11-20T01:25:05+00:00",
-    "id": "d8fa98beb71c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is a wire-style personnel report that attributes claims to anonymous sources and Axios, and it includes the intelligence chief's statement that the outages were not an attack. The slight tilt comes from the headline's causal link between the outages and the ouster, and from the \"fierce criticism\" wording, which is not sourced to anyone named.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "ousted after US hit by wave of tech outages",
-        "why": "The headline implies the outages caused the firing, but the text only cites anonymous sources and a separate Axios claim about credentials."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "outages that sparked fierce criticism",
-        "why": "'Fierce criticism' is stated without naming any critic, which amplifies the administration's trouble."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Raskin sets sights on Trump ‘pardon brokers’ as Democrats prepare to unleash oversight power",
-    "link": "https://www.washingtonexaminer.com/news/house/4809594/raskin-trump-pardon-brokers-democrats-oversight/",
-    "summary": "Rep. Jamie Raskin (D-MD) on Thursday raised the possibility that President Donald Trump’s “pardon brokers” could be subject to Democrats‘ sweeping investigations planned for the new Congress.",
-    "published": "2026-11-20T01:09:13+00:00",
-    "id": "2b58ed9efa00",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The excerpt is short and relays Raskin's plans, which fits the story's news peg. It tilts left because the headline and summary use Democratic framing (\"pardon brokers,\" \"unleash oversight power,\" \"sweeping investigations\"), and the excerpt includes no Republican or White House response.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Democrats prepare to unleash oversight power",
-        "why": "\"Unleash\" casts the investigations in a dramatic, forceful light, which reads as sympathetic to or promotional of the Democratic agenda."
-      },
-      {
-        "type": "Framing",
-        "quote": "Trump’s “pardon brokers”",
-        "why": "The phrase adopts Raskin's label for the intermediaries, and the excerpt gives no counter-framing."
-      },
-      {
-        "type": "Source selection",
-        "quote": "said he wants to investigate the emergence of the intermediaries who use their connections to Trump to help clients obtain clemency",
-        "why": "Only Raskin's account is given, and the excerpt has no response from Trump or Republicans."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "2b58ed9efa00",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Army delays detonation in Iowa that could send toxic dust into Illinois",
-    "link": "https://www.cbsnews.com/news/army-lead-azide-detonation-iowa-toxic-dust-plume/",
-    "summary": "The U.S. Army has delayed plans to detonate unstable explosives at a munition plant in Iowa, amid concerns about the risks of a plume of dust containing toxic lead particles that could spread across parts of Iowa and Illinois.",
-    "published": "2026-11-20T01:08:18+00:00",
-    "id": "7576d61840ff",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting. It gives the Army's rationale at length alongside the environmental groups' lawsuit and concerns, with a slight tilt from the headline's focus on toxic dust and from quoting the plaintiffs' counsel on \"no safe level of lead exposure.\" The Army and EPA positions get equal space, so the framing is roughly balanced.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "could send toxic dust into Illinois",
-        "why": "The headline stresses the risk of toxic dust, which gives the environmental-concern frame more prominence than the Army's safety rationale."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The EPA itself admits that there is no safe level of lead exposure for humans",
-        "why": "The environmental group's strongest quote is included in full, while the Army's reply comes only from its own statements."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "7576d61840ff",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Musk says he's \"not MAGA,\" feels \"foolish\" about midterm spending",
-    "link": "https://www.cbsnews.com/news/elon-musk-not-maga-midterm-spending-trump/",
-    "summary": "After opening his wallet to assist GOP candidates in the 2026 midterms, billionaire Elon Musk said Wednesday he feels \"pretty foolish\" about spending hundreds of millions of dollars in the race.",
-    "published": "2026-11-20T00:59:18+00:00",
-    "id": "05434248d188",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The piece is mostly a straight recap of Musk's interview remarks, with context on the midterm results and his past MAGA statements. A faint tilt comes from emphasis on the failed bets and his past \"dark MAGA\" quip, but his own words carry most of the story.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Those bets largely did not pay off.",
-        "why": "Frames the spending as a failure in the narrator's own voice, which mildly emphasizes the GOP's setback."
-      },
-      {
-        "type": "Framing",
-        "quote": "It's a change in tone for Musk, who has donned MAGA hats in the past",
-        "why": "Juxtaposing his past MAGA embrace with his new denial highlights an awkward contrast."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "05434248d188",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "White House national cyber director is leaving the administration",
-    "link": "https://www.nbcnews.com/politics/white-house/national-cyber-director-sean-cairncross-leaving-kirsten-davies-replaci-rcna610329",
-    "summary": "Sean Cairncross has played a key role in crafting AI policy for the Trump administration. His immediate replacement is Kirsten A. Davies.",
-    "published": "2026-11-20T00:48:22+00:00",
-    "id": "5a30d84e0ce1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 6,
-    "leanWhy": "Straight personnel news with attributed sourcing and neutral wording. A mild juxtaposition of the departure with recent tech outages hints at a connection, but the text does not assert one.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Cairncross is leaving his post after a series of tech outages affected both private companies and government agencies over the past week.",
-        "why": "Placing the departure next to the outages invites a link that the text does not establish."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "53fedf8346e5",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "White House national cyber director is leaving the administration after series of tech outages",
-    "link": "https://www.nbcnews.com/politics/white-house/national-cyber-director-sean-cairncross-leaving-kirsten-davies-replaci-rcna610329",
-    "summary": "Sean Cairncross has played a key role in crafting AI policy for the Trump administration. His immediate replacement is Kirsten A. Davies.",
-    "published": "2026-11-20T00:48:22+00:00",
-    "id": "51fc56d89250",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "This is a mostly straightforward personnel report that attributes claims to officials and sources and includes Davies's own statement. The headline links the departure to the outages, which is a mild causal implication, although the text only says it came \"in the wake of\" them.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "is leaving the administration after series of tech outages",
-        "why": "The headline implies the departure was caused by the outages, but the text confirms only timing and the White House gave no details."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "51fc56d89250",
-    "coverage": 5
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Religious messages agriculture secretary emailed to staff deemed unconstitutional",
-    "link": "https://www.theguardian.com/us-news/2026/nov/19/religious-messages-agriculture-secretary-unconstitutional",
-    "summary": "A federal judge ruled that messages sent by Brooke Rollins to USDA workers suggest Christianity is a shared faith and violate the first amendment Religious messages that US agriculture secretary Brooke Rollins emailed to the agency’s 100,000 employees were unconstitutional, and she must be careful to avoid…",
-    "published": "2026-11-20T00:31:24+00:00",
-    "id": "1fa6c58c5993",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a straight recap of a court ruling, but it relies on the judge's reasoning and the plaintiffs' side, and the only response from the other side is that USDA did not comment. It stresses that Rollins sent no messages for other religions and that the judge quoted her own policy against her, which are mild framings that favor the church-state separation view.",
-    "signals": [
-      {
-        "type": "Omission",
-        "quote": "The USDA did not respond to a request for comment.",
-        "why": "No defense argument or Rollins's rationale appears in the excerpt, so the ruling's reasoning dominates."
-      },
-      {
-        "type": "Framing",
-        "quote": "She did not send messages commemorating holidays from other religions.",
-        "why": "This detail sits in the opening paragraphs and stresses the unequal treatment of religions."
-      },
-      {
-        "type": "Framing",
-        "quote": "commands that were quoted directly from a USDA policy on workplace religious expression that Rollins herself adopted",
-        "why": "It highlights that Rollins's own policy was used against her, which puts her conduct in an unflattering light."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "1fa6c58c5993",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Religious messages US agriculture secretary emailed to staff deemed unconstitutional",
-    "link": "https://www.theguardian.com/us-news/2026/nov/19/religious-messages-agriculture-secretary-unconstitutional",
-    "summary": "A federal judge ruled that messages sent by Brooke Rollins to USDA workers suggest Christianity is a shared faith and violate the first amendment Religious messages that US agriculture secretary Brooke Rollins emailed to the agency’s 100,000 employees were unconstitutional, and she must be careful to avoid…",
-    "published": "2026-11-20T00:31:24+00:00",
-    "id": "44c88a5697d5",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a straight recap of the ruling and quotes the judge and Rollins' own policy. It tilts slightly left because only the plaintiffs' and judge's side is presented. It notes the lack of non-Christian holiday messages and says USDA did not respond, and it gives no defense of the emails.",
-    "signals": [
-      {
-        "type": "Omission",
-        "quote": "The USDA did not respond to a request for comment.",
-        "why": "No defense of the emails or the agency's legal argument appears in the excerpt, so the judge's and plaintiffs' framing dominates."
-      },
-      {
-        "type": "Framing",
-        "quote": "She did not send messages commemorating holidays from other religions.",
-        "why": "This detail stresses the one-sided religious character of the emails and supports the establishment-clause framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "“Cannot create a hostile work environment through persistent unwelcome advances”",
-        "why": "Quoting Rollins' own policy against her stresses the contradiction and puts her in an unflattering light."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "1fa6c58c5993",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "California opens investigation into Nvidia after Jensen Huang’s affair with alleged Chinese spy",
-    "link": "https://www.washingtonexaminer.com/news/justice/4809539/california-investigation-nvidia-jensen-huang-spy-affair/",
-    "summary": "California Attorney General Rob Bonta on Thursday opened an investigation into Nvidia after ex-CEO Jensen Huang was discovered to have had an affair with a suspected Chinese spy.",
-    "published": "2026-11-20T00:20:00+00:00",
-    "id": "16fcfbcabef9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The excerpt is a short, straight recap of a state attorney general's announced investigation, attributed to his press release, with no partisan framing. The only mild tilt is the personal, salacious emphasis on the affair, and the excerpt gives no response from Nvidia or Huang.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "was discovered to have had an affair with a suspected Chinese spy",
-        "why": "States the affair as established fact in the lead, while the spy label stays hedged, and the wording is somewhat sensational."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "16fcfbcabef9",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Slotkin snubs Schumer with Chris Van Hollen leader endorsement",
-    "link": "https://www.washingtonexaminer.com/news/senate/4809591/slotkin-snubs-schumer-chris-van-hollen-leader-endorsement/",
-    "summary": "Sen. Elissa Slotkin (D-MI) announced on Thursday that she will support Sen. Chris Van Hollen (D-MD) in next month’s Senate leadership elections, making her the fifth Senate Democrat to publicly snub their current leader, Sen. Chuck Schumer (D-NY).",
-    "published": "2026-11-20T00:19:13+00:00",
-    "id": "699423f51703",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 15,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a straightforward report of a senator's endorsement, with her own words quoted. The word \"snub\", used in both the headline and the lead, frames it as a slight to Schumer and stresses Democratic infighting, a framing that tends to help the right. The excerpt has no Schumer response or counterview.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Slotkin snubs Schumer",
-        "why": "\"Snubs\" casts a leadership preference as a personal slight and stresses party discord."
-      },
-      {
-        "type": "Framing",
-        "quote": "making her the fifth Senate Democrat to publicly snub their current leader",
-        "why": "Counting defectors presents the story as a growing revolt against Schumer."
-      },
-      {
-        "type": "Source selection",
-        "quote": "the American public want a new generation, and they want big and bold ideas.",
-        "why": "Only Slotkin's view is quoted, and the excerpt has no response from Schumer or his allies."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "699423f51703",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "National cyber director to leave Trump administration",
-    "link": "https://www.nbcnews.com/nightly-news/video/national-cyber-director-to-leave-trump-administration-273861701758",
-    "summary": "A White House official says Sean Cairncross will leave his position as National Cyber Director. The news comes as the country has been dealing with a series of tech outages. NBC News’ Stephanie Gosk reports.",
-    "published": "2026-11-20T00:18:11+00:00",
-    "id": "53fedf8346e5",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "53fedf8346e5",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Becerra suggests he will criminally prosecute companies over rogue AI",
-    "link": "https://www.washingtonexaminer.com/policy/technology/4809492/becerra-criminally-prosecute-companies-rogue-ai/",
-    "summary": "Gov.-elect Xavier Becerra (D-CA) suggested on Thursday that he is open to slapping criminal charges on artificial intelligence companies over incidents of AI agents going rogue.",
-    "published": "2026-11-20T00:13:51+00:00",
-    "id": "1a610ab4f9e5",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The excerpt is short and mostly relays Becerra's own quote from a Politico interview, with no outside voices. The phrase \"slapping criminal charges\" is mildly loaded and leans toward portraying regulatory zeal, and the headline's \"suggests he will\" goes a bit beyond the \"open to\" wording in the text.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "slapping criminal charges on artificial intelligence companies",
-        "why": "\"Slapping\" frames the possible prosecution as heavy-handed."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "suggests he will criminally prosecute companies over rogue AI",
-        "why": "The headline states intent more firmly than the text, which says he is \"open to\" charges."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "1a610ab4f9e5",
     "coverage": 1
   }
 ]
