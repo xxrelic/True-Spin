@@ -1,5 +1,594 @@
 [
   {
+    "outlet": "The Guardian",
+    "title": "Democrats reveal details for 2028 presidential primary after midterm victories – US politics live",
+    "link": "https://www.theguardian.com/us-news/live/2026/nov/23/donald-trump-democrats-republicans-presidential-primary-midterms-house-latest-news-updates",
+    "summary": "Party says there will be 12 debates to select a candidate from what is expected to be a large number of hopefuls Sign up to the Breaking News US email Donald Trump is scheduled to deliver remarks at the Department of Justice this afternoon, officially billed as “Remarks on Protecting American Families”.",
+    "published": "2026-11-23T13:16:02+00:00",
+    "id": "4069caeb8667",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 12,
+    "leanWhy": "The live blog mostly reports facts about the DNC debate schedule with attribution. A subtle left tilt shows in the \"convincing midterm performance\" wording and in the Trump items, which stress Democratic accusations of profiteering and Trump's warm words about Putin.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "follows the party’s convincing midterm performance",
+        "why": "Describes the Democratic result in approving terms, though it is attributed to AP reporting."
+      },
+      {
+        "type": "Framing",
+        "quote": "rewarding top holders of his own meme coin, as Democrats accuse the president of improperly profiting",
+        "why": "Puts the Trump crypto gala in a profiteering frame, with Democrats' accusation as the main context."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Trump’s warm characterization of the Russian president",
+        "why": "Emphasizes a point that is awkward for Trump, and the item is cut off before any broader context."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "f294e9677544",
+    "coverage": 3
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Nine people shot at central California concert with one in critical condition",
+    "link": "https://www.theguardian.com/us-news/2026/nov/23/concert-shooting-california-strathmore",
+    "summary": "Authorities say they believe the Saturday night shooting at a concert in Strathmore ‘may be gang-related’ Nine people were shot at a concert in central California , leaving one person critically injured with a chest injury, the local sheriff said Sunday.",
+    "published": "2026-11-23T13:00:05+00:00",
+    "id": "30e8d3821dfe",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is mostly a factual recap of the shooting, attributed to the sheriff's department, and it includes the gang-related possibility. The closing paragraph adds gun-control context that points slightly toward the left-coded gun-violence frame, with no counterview from gun-rights supporters.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "High numbers of mass shootings reported annually in the US have prompted many to call for more substantial federal gun control.",
+        "why": "The unsourced policy context adds the gun-control frame to a local crime story and gives no gun-rights perspective."
+      },
+      {
+        "type": "Omission",
+        "quote": "But Congress over the years has not passed such restrictions.",
+        "why": "The closing line on congressional inaction implies a policy failure and gets the last word."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "30e8d3821dfe",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Part of MAHA agenda may undermine GOP appeals to young working men: Poll",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4811734/part-of-maha-agenda-may-undermine-gop-appeal-young-working-men-poll/",
+    "summary": "EXCLUSIVE – One Make America Healthy Again priority may not help President Donald Trump and Republicans appeal to young working men after this month’s midterm elections underscored their erosion of support among the demographic, which, in part, catapulted Trump back to the White House in 2024, according to a new poll.",
+    "published": "2026-11-23T13:00:00+00:00",
+    "id": "9c70e93272a2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is a poll-driven report that relays the pollster's memo with attribution and includes both negative findings for Trump and Republicans and positive ones, such as trust on cost of living. It relies on a single pollster's framing and links the poll to the MAHA ultra-processed food push, which gives a slight tilt toward the regulation-versus-limited-government frame.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "In a memo previewed to the Washington Examiner, pollsters from the Tyson Group report",
+        "why": "The story rests on one pollster's memo, and the pollster's interpretation drives the headline claim about MAHA."
+      },
+      {
+        "type": "Framing",
+        "quote": "That dynamic, under which MAHA priorities create more federal rules and regulations, not less",
+        "why": "It presents MAHA regulation as a political liability among working men, a link that the cited poll numbers in the excerpt do not directly show."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "9c70e93272a2",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Democrats want to reward the hospitals behind soaring healthcare costs",
+    "link": "https://www.washingtonexaminer.com/restoring-america/4811288/democrats-reward-hospitals-healthcare-costs/",
+    "summary": "Congressional Democrats are planning to restore enhanced Obamacare subsidies and reverse Republican Medicaid reforms when they take power in January. House Democratic leader Hakeem Jeffries has even promised to “fight for your hospitals.” That’s a strange priority when soaring hospital prices are a major reason…",
+    "published": "2026-11-23T13:00:00+00:00",
+    "id": "e06080ea4f07",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 62,
+    "spin": 55,
+    "leanWhy": "This is an opinion piece that frames Democratic healthcare plans as handouts to hospitals and insurers, and it promotes market-based, deregulatory fixes. No Democratic voice or counterargument appears; the case for the subsidies (coverage and affordability for enrollees) is not engaged.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "That’s a strange priority when soaring hospital prices are a major reason",
+        "why": "The framing casts Jeffries' pledge as perverse before any counterargument is considered."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats appear poised to send more taxpayer money into a system that desperately needs greater competition.",
+        "why": "This reduces Democratic policy to spending taxpayer money, in the right-coded frame of tax burden and government waste."
+      },
+      {
+        "type": "Omission",
+        "quote": "Democrats want to reverse these reforms and restore the flow of taxpayer dollars",
+        "why": "The piece does not mention the coverage effects of the subsidies and Medicaid changes, and no Democratic rationale is presented."
+      },
+      {
+        "type": "Source selection",
+        "quote": "work requirements for certain able-bodied adults",
+        "why": "The wording adopts the Republican framing of the Medicaid provisions without a counter-view."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "e06080ea4f07",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Washington already has two Social Security plans. Both are bad",
+    "link": "https://www.washingtonexaminer.com/op-eds/4810237/social-security-trust-fund-2032-borrowing-future-generations/",
+    "summary": "This week, Senate Budget Committee Chairman Sen. Ron Johnson (R-WI) unveiled the Stop Scaring Seniors Act, a bill to cover any Social Security shortfall with transfers from the Treasury’s general fund, and to let the Treasury borrow past the debt limit to do it.",
+    "published": "2026-11-23T13:00:00+00:00",
+    "id": "da90ff4ca85f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 35,
+    "leanWhy": "This is a commentary piece that criticizes both parties and both default options (automatic cuts or borrowing) as evasions, so it does not favor a partisan side. Its main frame is fiscal-hawk concern about unfunded borrowing, which is a mildly right-coded theme, but it faults Democrats and Republicans alike.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Both decide who will bear the burden of insolvency.",
+        "why": "Presents the choice as a binary of two bad options and pushes the thesis in the headline."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Borrowing is attractive because it’s invisible.",
+        "why": "Characterizes lawmakers' motives as evasive, an interpretive claim beyond the facts."
+      },
+      {
+        "type": "Framing",
+        "quote": "When they do come together, the hole gets deeper.",
+        "why": "Editorial conclusion that bipartisan action worsens the shortfall."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "da90ff4ca85f",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "So much for affordability: Spanberger just betrayed the people she vowed to help",
+    "link": "https://www.washingtonexaminer.com/op-eds/4810163/virginia-federal-tax-credit-scholarship-opt-out-spanberger/",
+    "summary": "So much for affordability. Gov. Abigail Spanberger (D-VA), who ran for governor last year on a pledge to improve the finances of Virginia’s families, turned her back on a program that would make a quality education more affordable and accessible for children across the Commonwealth.",
+    "published": "2026-11-23T13:00:00+00:00",
+    "id": "24d145e5792b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 80,
+    "spin": 70,
+    "leanWhy": "This is a first-person opinion column that argues for school choice and attacks a Democratic governor for opting out of the federal tax credit scholarship program. It uses right-coded framing (parental choice, \"betrayed\") and quotes the governor's side only briefly before rebutting it.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Spanberger just betrayed the people she vowed to help",
+        "why": "The headline uses accusatory language and casts a policy disagreement as a betrayal."
+      },
+      {
+        "type": "Framing",
+        "quote": "Denying parents the opportunity to select the educational environment that best works for their children",
+        "why": "It presents opting out as taking away parental choice, which is the school-choice side's framing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "one educational writer recently told the Wall Street Journal",
+        "why": "It relies on a single anecdotal source to rebut the governor's claim, while the opposing case gets one short quote."
+      },
+      {
+        "type": "Framing",
+        "quote": "put partisan politics aside",
+        "why": "It implies that opposition to the program is purely partisan, and it holds up two other Democratic governors as the model."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "24d145e5792b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "America needs a Latin American fortress. Arm Bukele and de la Espriella to build it",
+    "link": "https://www.washingtonexaminer.com/op-eds/4805104/shield-of-the-americas-should-arm-el-salvador-colombia/",
+    "summary": "When the United States launched Plan Colombia in 2000, the nation suffered nearly 28,000 homicides a year. Sustained American intelligence, equipment, and political will under former President Alvaro Uribe eventually slashed that figure by roughly 40%.",
+    "published": "2026-11-23T13:00:00+00:00",
+    "id": "a4183ba09f4f",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 80,
+    "spin": 75,
+    "leanWhy": "This is an advocacy op-ed urging the US to arm Bukele and de la Espriella. It uses right-coded framing: deterrence, military force, sovereignty, and praise for Trump's initiative. It describes Petro as a \"terrorist-turned-president\" and offers no critics, human-rights concerns, or costs.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the previous terrorist-turned-president Gustavo Petro",
+        "why": "It labels a political opponent with a pejorative, partisan epithet."
+      },
+      {
+        "type": "Omission",
+        "quote": "Under his command, security forces have taken more than 80,000 suspected gang members off the streets.",
+        "why": "The mass-detention record is presented only as a success, with no mention of civil-liberties or human-rights criticism."
+      },
+      {
+        "type": "Framing",
+        "quote": "Withholding these essential tools only forces capable allies to fight at a disadvantage",
+        "why": "It frames the policy as a one-sided necessity and presents opposition as reckless."
+      },
+      {
+        "type": "Framing",
+        "quote": "that same formula has already produced even sharper results in El Salvador and is now doing the same in Colombia",
+        "why": "It asserts a causal link between US-backed force and falling homicides without evidence or caveats."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "a4183ba09f4f",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+    "link": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+    "summary": "Democrats have currently flipped 47 House seats and could flip 49 total. And, climate change talks at COP31 ran two days longer than expected, becoming the longest conference in the summit's history.",
+    "published": "2026-11-23T12:42:03+00:00",
+    "id": "1b1d64f9e6d1",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and feed summary are available. The wording is largely factual (seat counts, conference length), though the headline leads with the scale of the Democratic win and a \"no deal\" climate result, with no sourcing or context to judge further.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Democrats win House by largest margin in 50 years",
+        "why": "Leads with a superlative that highlights the scale of the Democratic win, a mildly celebratory emphasis."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "c71e768ee9ec",
+    "coverage": 6
+  },
+  {
+    "outlet": "Fox",
+    "title": "Trump to confront Newsom over plan to spare 548 death row inmates and more top headlines",
+    "link": "https://www.foxnews.com/us/trump-confront-newsom-plan-spare-548-death-row-inmates-more-top-headlines",
+    "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+    "published": "2026-11-23T12:32:00+00:00",
+    "id": "893a29804e41",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 35,
+    "leanWhy": "This newsletter digest uses right-coded framing in its lead items, such as stressing that the death row inmates include \"child killers\" and mocking Democratic figures, and it features Trump's framing and a conservative opinion column. It also reports Democratic midterm wins, but with tabloid-style labels like \"OLD GUARD SHAKEN\" and \"STAR STRUCK DOWN\" that carry a tone of ridicule toward Democrats and celebrities. The text is only headline blurbs, so judgment is limited.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump to confront Newsom over plan to spare 548 death row inmates, including child killers",
+        "why": "Emphasizing 'child killers' and 'spare' frames the clemency plan in its most inflammatory terms, using a punishment and victims-first frame."
+      },
+      {
+        "type": "Framing",
+        "quote": "Jennifer Lopez raises eyebrows over racial discrimination claim despite $400M net worth.",
+        "why": "Casts a discrimination claim skeptically by pointing to wealth, a framing that downplays race-related grievances."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Trump details actions Iran has taken since Democrats swept midterms",
+        "why": "Leads with Trump's account and ties Iran's actions to a Democratic win without any other view."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Activist nixes $5B project on empty lot, calls money 'a made-up concept.'",
+        "why": "Mocking framing of an activist, plus a promoted conservative opinion column, tilts the digest toward the right."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "893a29804e41",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "ICE Officers Arrest 2 Passenger Boarding Flight, Sparking Outrage",
+    "link": "https://www.today.com/video/video-shows-distressing-ice-arrests-of-father-and-daughter-274005061831",
+    "summary": "Distressing video shows two passengers, a father and his adult daughter, being arrested while boarding a flight in Seattle over the weekend, with the masked agents forcibly removing them from the jetbridge. The encounter is now prompting sharp rebukes from several local and state officials.",
+    "published": "2026-11-23T12:31:09+00:00",
+    "id": "025af9430050",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -35,
+    "spin": 40,
+    "leanWhy": "Based on headline and feed summary only: the framing stresses \"Distressing video,\" \"masked agents forcibly removing\" and \"sharp rebukes\" from local and state officials, which matches left-coded humanitarian and anti-enforcement framing. No ICE or DHS justification, and no reason for the arrests, appears in the text provided.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Sparking Outrage",
+        "why": "The headline presents outrage as the main takeaway and sets the emotional tone before any facts."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Distressing video shows",
+        "why": "It characterizes the footage emotionally instead of describing it neutrally."
+      },
+      {
+        "type": "Source selection",
+        "quote": "sharp rebukes from several local and state officials",
+        "why": "Only critics are cited, and no agency explanation or rationale for the arrests is given."
+      },
+      {
+        "type": "Framing",
+        "quote": "masked agents forcibly removing them from the jetbridge",
+        "why": "The wording emphasizes force and anonymity, which casts the enforcement action negatively."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "025af9430050",
+    "coverage": 4
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Zelenskyy Vows Revenge After Russian Airstrikes Kill 11",
+    "link": "https://www.today.com/video/zelenskyy-vows-revenge-after-russian-airstrikes-kill-11-274005573668",
+    "summary": "The conflict between Russia and Ukraine is continuing to escalate, just days after President Donald Trump met with Vladimir Putin, saying he expressed interest in ending the war. Airstrikes on an apartment block near Kyiv killed at least 11 people on Sunday.",
+    "published": "2026-11-23T12:27:34+00:00",
+    "id": "8174b6deda33",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and a short feed summary are available, so this is a limited judgment. The summary juxtaposes escalation with Trump's meeting with Putin, which mildly implies the diplomacy has not worked, but it also attributes to Trump only that he \"expressed interest\" in ending the war, and otherwise reports the strike factually.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "just days after President Donald Trump met with Vladimir Putin",
+        "why": "Placing the escalation right after the Trump-Putin meeting subtly implies the diplomacy failed."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Zelenskyy Vows Revenge",
+        "why": "\"Revenge\" is a dramatic framing of the Ukrainian leader's response, though it may reflect his actual words."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "8174b6deda33",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Iran vows to end U.S. naval blockade by \"all available means\"",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+    "summary": "Iran vows to force the U.S. to lift its blockade as Trump acknowledges the regime's increasing attacks, but says they've \"done no damage.\"",
+    "published": "2026-11-23T12:24:01+00:00",
+    "id": "4cc3a0ace08c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The excerpt is wire-style reporting that gives both Israeli and Lebanese statements and Iran's position with attribution, and it also explains the US blockade as a response to Iran's Hormuz closure. The headline and summary lead with Iran's vow, which is a slight emphasis, while the excerpt mostly covers the Lebanon school visit, so the headline does not match the text well.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Iran vows to end U.S. naval blockade by \"all available means\"",
+        "why": "The headline focuses on Iran's vow, but most of the excerpt covers a separate Israel-Lebanon school visit."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "4cc3a0ace08c",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Alice Huang Kept in Contact With Spy Agency During Affair: Report",
+    "link": "https://www.today.com/video/alice-huang-kept-in-contact-with-spy-agency-during-affair-report-274006085826",
+    "summary": "Alice Huang, the woman at the center of the Nvidia scandal kept in contact with China’s top spy agency from the spring of 2025 until fall 2026, according to the New York Times. That time period overlaps with her relationship with Jensen Huang who was ousted as the chip company’s CEO.",
+    "published": "2026-11-23T12:20:32+00:00",
+    "id": "658f4e8d61a1",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "43362be0ff3d",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "‘Is it possible for any government to run that way?’: Americans outraged over tech outages",
+    "link": "https://www.theguardian.com/us-news/2026/nov/23/us-tech-outages-flights-microsoft",
+    "summary": "After the nationwide flight stoppage and Microsoft outage, many are directing their anger at the Trump administration The US Federal Aviation Administration’s grounding of all US flights last week, alongside separate outages affecting Microsoft services, caused widespread disruption across the country.",
+    "published": "2026-11-23T12:00:29+00:00",
+    "id": "f0c7dfd895de",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -62,
+    "spin": 55,
+    "leanWhy": "The piece is a reader-response roundup framed from the headline and summary as anger at the Trump administration, and the excerpt quotes only critical readers, including ones using harsh language like \"fascism\" and \"grift\". No supporters or administration response appear, so the anti-administration framing dominates.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "many are directing their anger at the Trump administration",
+        "why": "The summary sets a blame-the-administration frame for a tech outage that also involved a private contractor and Microsoft."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“I don’t believe anything this administration says. Not a day goes by without a lie, a grift exposed",
+        "why": "Only critical voices are quoted, with no dissenting readers or administration response to balance them."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "it is a textbook example of what fascism looks like",
+        "why": "Extreme partisan characterization is published without any counterpoint or pushback."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Americans outraged over tech outages",
+        "why": "Generalizes from a self-selected set of reader responses to all Americans."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "ef307c9dff28",
+    "coverage": 3
+  },
+  {
+    "outlet": "Fox",
+    "title": "'Failed socialist state': Deep blue state’s lone GOP congressman reveals secret to winning as Democrats sweep",
+    "link": "https://www.foxnews.com/politics/failed-socialist-state-deep-blue-states-lone-gop-congressman-reveals-secret-winning-democrats-sweep",
+    "summary": "Rep. Cliff Bentz told Fox News Digital that Oregon voters rejected failed progressive policies, blaming high taxes and regulation for hurting business.",
+    "published": "2026-11-23T12:00:02+00:00",
+    "id": "bde0a50b562c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 55,
+    "spin": 55,
+    "leanWhy": "The piece relays only Bentz's view that Oregon is a \"failed\" state, and it has no Democratic or independent voice. It also adds its own claim that the tax rates drove the economy \"to a near collapse\", though it attributes that to Bentz.",
+    "signals": [
+      {
+        "type": "Headline framing",
+        "quote": "'Failed socialist state': Deep blue state’s lone GOP congressman reveals secret to winning",
+        "why": "The headline adopts the speaker's charged label and presents his explanation as a 'secret' to winning."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "bde0a50b562c",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "GOP senator 'not likely' to mount presidential bid, but continues leaving door open to possibility",
+    "link": "https://www.foxnews.com/politics/gop-senator-not-likely-mount-presidential-bid-continues-leaving-door-open-possibility",
+    "summary": "Republican Sen. John Kennedy of Louisiana is continuing to leave the door open to the possibility of mounting a 2028 bid for the presidency.",
+    "published": "2026-11-23T11:31:13+00:00",
+    "id": "aead64c45d2b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "This is a straight recap of Sen. Kennedy's Meet the Press remarks about re-election and a possible 2028 run, built mostly on his own quotes with background on his term. No partisan framing or loaded wording appears, and the headline matches the content.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "aead64c45d2b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Trump to confront Newsom over plan to spare 548 death row inmates, including notorious child killers",
+    "link": "https://www.foxnews.com/politics/president-trump-confront-newsom-plan-spare-548-death-row-inmates-notorious-child-killers",
+    "summary": "President Donald Trump is expected to join victims' families at the DOJ to condemn Gavin Newsom's plan to commute all 548 California death sentences to life without parole.",
+    "published": "2026-11-23T11:00:58+00:00",
+    "id": "a272545f5d4b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 40,
+    "spin": 40,
+    "leanWhy": "The piece follows the White House's framing: it leads with the most notorious crimes, uses the administration's list, and gives the administration's spokeswoman the only quoted condemnation. Newsom's rationale and his acknowledgment of opposing victims' families appear, but briefly, and his office is described as not addressing the individual cases.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Trump will confront California Gov. Gavin Newsom over his sweeping plan to spare 548 death row inmates",
+        "why": "\"Confront\" and \"spare\" cast the story as a showdown and put the commutations in the harshest light."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The White House provided Fox News Digital with a list of 20 notorious convicted killers",
+        "why": "The excerpt relies on the administration's curated list of the worst offenders, and no other source frames the commutations."
+      },
+      {
+        "type": "Framing",
+        "quote": "Newsom's office did not directly address the individual murder cases highlighted by the White House.",
+        "why": "This implies evasion by Newsom's office and adopts the White House's chosen terms of debate."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "refusing to carry out justice against these barbaric child killers and serial killers",
+        "why": "The spokeswoman's charged rhetoric is printed with no counterweight from the other side."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "893a29804e41",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+    "link": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+    "summary": "Ukraine carried out an attack on a Russian warship moored at a port in Libya, President Volodymyr Zelenskyy said, claiming that sea drones sank the navy vessel in a surprise assault.",
+    "published": "2026-11-23T10:16:33+00:00",
+    "id": "094e141287db",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only a headline and short feed summary are available. Both attribute the claim to Zelenskyy (\"says\", \"claiming\") and state it neutrally, with no loaded wording.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "094e141287db",
+    "coverage": 1
+  },
+  {
     "outlet": "Axios",
     "title": "UN climate meltdown raises new doubts about talks",
     "link": "https://www.axios.com/2026/11/23/un-climate-talks-meltdown-aftermath",
@@ -28,7 +617,7 @@
     "confidence": "low",
     "storyChoice": "right",
     "cluster": "7b3c4455d036",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -48,7 +637,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "f294e9677544",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -115,7 +704,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "f294e9677544",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -273,6 +862,26 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "00c5ccdd2886",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "After midterm losses, Republicans debate what's next for the party",
+    "link": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
+    "summary": "In the wake of their midterm election losses, Republicans are discussing what happened and what the future might be for their party.",
+    "published": "2026-11-23T09:45:06+00:00",
+    "id": "bd95b0c548ce",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Only a headline and a one-sentence feed summary are available, and both are neutral in wording, describing Republicans discussing their midterm losses. There is no sourcing or loaded language to judge, so the lean is essentially none.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "bd95b0c548ce",
     "coverage": 1
   },
   {
@@ -467,8 +1076,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c8bc70607878",
-    "coverage": 5
+    "cluster": "025af9430050",
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -565,8 +1174,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c8bc70607878",
-    "coverage": 5
+    "cluster": "025af9430050",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -597,7 +1206,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "7b3c4455d036",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -632,8 +1241,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "c8bc70607878",
-    "coverage": 5
+    "cluster": "025af9430050",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -796,7 +1405,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c7377b431ade",
-    "coverage": 3
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -891,8 +1500,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "c8bc70607878",
-    "coverage": 5
+    "cluster": "025af9430050",
+    "coverage": 4
   },
   {
     "outlet": "NBC News",
@@ -1007,7 +1616,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "7b3c4455d036",
-    "coverage": 4
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1038,7 +1647,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "9d11acd305cc",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -1100,7 +1709,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -1167,7 +1776,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "ef307c9dff28",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1187,7 +1796,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ef307c9dff28",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -1347,7 +1956,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -1377,8 +1986,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "43362be0ff3d",
-    "coverage": 2
+    "cluster": "238bf0aa3b9b",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -1408,8 +2017,8 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "43362be0ff3d",
-    "coverage": 2
+    "cluster": "238bf0aa3b9b",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -1435,7 +2044,7 @@
     "confidence": "high",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "NBC News",
@@ -1490,7 +2099,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "987d904dd3f0",
+    "cluster": "a38a46b2c881",
     "coverage": 1
   },
   {
@@ -1527,7 +2136,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "The Guardian",
@@ -1568,7 +2177,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "Washington Examiner",
@@ -1594,7 +2203,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c71e768ee9ec",
-    "coverage": 5
+    "coverage": 6
   },
   {
     "outlet": "Daily Caller",
@@ -1692,7 +2301,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "238bf0aa3b9b",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -1753,8 +2362,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 3
+    "cluster": "4074db20d410",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -1785,7 +2394,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "ef307c9dff28",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -1892,7 +2501,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "987d904dd3f0",
+    "cluster": "a38a46b2c881",
     "coverage": 1
   },
   {
@@ -1912,7 +2521,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "987d904dd3f0",
+    "cluster": "a38a46b2c881",
     "coverage": 1
   },
   {
@@ -1943,8 +2552,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 3
+    "cluster": "7137226b5b21",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2020,8 +2629,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "9d11acd305cc",
-    "coverage": 2
+    "cluster": "72db3b696edf",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2118,8 +2727,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "7b3c4455d036",
-    "coverage": 4
+    "cluster": "70cfd3058b9c",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2262,8 +2871,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "c8bc70607878",
-    "coverage": 5
+    "cluster": "5ceb465b990d",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2293,8 +2902,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "7b3c4455d036",
-    "coverage": 4
+    "cluster": "04b77df49ac4",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -2312,8 +2921,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "238bf0aa3b9b",
-    "coverage": 2
+    "cluster": "9e30e127e684",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -2331,7 +2940,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "987d904dd3f0",
+    "cluster": "3247f6c86b08",
     "coverage": 1
   },
   {
@@ -2362,8 +2971,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "8cee5953e742",
-    "coverage": 3
+    "cluster": "5c971e9b87f1",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2722,7 +3331,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "04b77df49ac4",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "NPR",
@@ -7337,8 +7946,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "194f6c47d8fe",
-    "coverage": 2
+    "cluster": "2ca9dd8a556e",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -8732,668 +9341,6 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "c521713b63a0",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange",
-    "link": "https://www.foxnews.com/politics/trump-wags-finger-really-rude-reporter-tells-her-she-belongs-back-row-during-press-exchange",
-    "summary": "Donald Trump wagged his finger at a reporter, calling her \"really a rude person\" and telling her she belonged in the \"back row\" at the White House.",
-    "published": "2026-11-20T20:35:08+00:00",
-    "id": "089f31eae1e4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is largely a straight recap with extended direct quotes of Trump and the reporter's brief reply, with no editorializing. The headline and lead emphasize the finger-wagging and the \"rude\" remark, which is a slight tilt that makes Trump look bad, but the article also includes Trump's praise of Miller and his closing remarks without comment.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "wagging his finger at her, calling her \"really a rude person\" and telling her she belonged in the \"back row.\"",
-        "why": "Leading with the confrontation's most vivid details gives the exchange the prominence of a story in itself."
-      },
-      {
-        "type": "Omission",
-        "quote": "Who are you with. Who are you with?",
-        "why": "The reporter's original question or topic is not identified, so readers can't see what prompted the exchange."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "089f31eae1e4",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Musk said he'd \"look into\" this disclosure law. Now it heads to court.",
-    "link": "https://www.cbsnews.com/news/elon-musk-corporate-disclosure-lawsuit/",
-    "summary": "Two county prosecutors say the Trump administration broke the law when it exempted U.S. companies from ownership reporting.",
-    "published": "2026-11-20T20:26:18+00:00",
-    "id": "cd56c7c780af",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The headline and framing center on Musk's social media reply and the timing of the rollback. Democratic plaintiffs, Democratic lawmakers and critics supply most of the sourcing, while the Treasury gets one short statement. The article does note that Treasury cited small-business costs and national security.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Musk said he'd \"look into\" this disclosure law. Now it heads to court.",
-        "why": "The headline ties the policy change to Musk's casual reply, which implies a causal link that the article says Treasury did not confirm."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats in Congress have questioned Musk's possible role since April 2025",
-        "why": "Democratic critics supply most of the sourcing on motive and timing, and no outside defenders of the rollback appear."
-      },
-      {
-        "type": "Framing",
-        "quote": "which critics have scrutinized for its timing",
-        "why": "Opening on the timing and Musk's role stresses an insinuation of influence over the substantive policy dispute."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "easier than ever for criminals to use shell and front companies",
-        "why": "The plaintiffs' framing of the harm is quoted at length, while the administration's rationale gets a brief statement."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "cd56c7c780af",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Somali community leaders bristle at broad blame even as youth gang violence surges from Minnesota to Maine",
-    "link": "https://www.foxnews.com/politics/somali-community-leaders-bristle-broad-blame-even-youth-gang-violence-surges-from-minnesota-maine",
-    "summary": "Ramsey County Sheriff Bob Fletcher says about 100 of 300 young alleged Somali gang members in the Twin Cities were arrested, but many cycle back into gang life.",
-    "published": "2026-11-20T20:11:42+00:00",
-    "id": "2908016b1402",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 17,
-    "spin": 22,
-    "leanWhy": "The piece mostly attributes claims to local outlets and includes both law enforcement and Somali community voices. The headline's \"surges from Minnesota to Maine\" framing and the national extension to Lewiston, with a fearful teen quote, tilt it slightly toward a right-coded crime and immigration frame.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "youth gang violence surges from Minnesota to Maine",
-        "why": "The headline generalizes a local issue into a national, ethnically tied trend."
-      },
-      {
-        "type": "Source selection",
-        "quote": "I don’t feel safe. I fear for my life,",
-        "why": "A fearful teen quote, recycled from earlier Fox coverage, emphasizes the threat, and the Lewiston paragraph highlights refugee population links."
-      },
-      {
-        "type": "Framing",
-        "quote": "The city houses a large population of Somali refugees and refugees from other African nations.",
-        "why": "Ties the crime statistics to refugee populations without further context on causes."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "2908016b1402",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Mamdani Announces Closure Of Rikers Island Jail Holding More Than 6,000 Prisoners",
-    "link": "https://dailycaller.com/2026/11/20/zohran-mamdani-closes-rikers-island-jail-prisoners",
-    "summary": "‘We ask ourselves what a person needs, not just what they’re accused of’",
-    "published": "2026-11-20T20:08:00+00:00",
-    "id": "194f6c47d8fe",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 35,
-    "spin": 35,
-    "leanWhy": "The piece reports the announcement with plenty of direct Mamdani quotes, but its framing tilts right. It labels him \"Socialist Democratic,\" links a related story tying his policies to \"BLM And Antifa Takeovers,\" dwells on Rikers violence through a Daily Caller opinion piece, and highlights the commissioner's own record of incarceration.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Socialist Democratic New York mayor Zohran Mamdani",
-        "why": "The ideological label in the opening line primes readers against the mayor."
-      },
-      {
-        "type": "Framing",
-        "quote": "Here’s How Similar Moves Fueled BLM And Antifa Takeovers In Other Blue Cities",
-        "why": "The embedded related link ties his policing policy to disorder and left-wing militancy."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“Shanked. Again and again. Officers were left bleeding out while alarms screamed and help was trapped somewhere else,”",
-        "why": "A vivid quote from the outlet's own opinion contributor supplies the violence angle, and no reform advocates or critics are quoted."
-      },
-      {
-        "type": "Framing",
-        "quote": "was himself incarcerated at Rikers from 1986 to 1988 for robbery and drug activity",
-        "why": "Stressing the commissioner's criminal past casts doubt on the administration's approach."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "194f6c47d8fe",
-    "coverage": 2
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump responds after Vance blames Iran war for midterm losses, VP says his job is to support president",
-    "link": "https://www.foxnews.com/politics/trump-responds-vance-blames-iran-war-midterm-losses-vp-says-job-support-president",
-    "summary": "President Donald Trump says he would launch the war against Iran again, as JD Vance blames midterm losses on voter anger over the conflict and oil prices.",
-    "published": "2026-11-20T20:03:11+00:00",
-    "id": "3fffc7d11c01",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is mostly a straight recap of Trump's and Vance's on-record statements, with direct quotes from both. A slight tilt comes from giving the last word and the justification to the administration's case for the war, and from Democrats appearing only as the election winners.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Despite the political fallout, Trump maintained that the military action was necessary to counter Tehran’s nuclear ambitions and to protect Israel and other Middle Eastern nations.",
-        "why": "The administration's rationale is presented in the narrator's voice with no outside or critical view of the war."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "3fffc7d11c01",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Merchant Crew Ignores UN’s Advice, Thwarts Pirate Attack",
-    "link": "https://dailycaller.com/2026/11/20/merchant-crew-ignores-uns-advice-thwarts-pirate-attack",
-    "summary": "‘Warning shots were returned by the armed security team’",
-    "published": "2026-11-20T19:29:58+00:00",
-    "id": "5dd6a5f329ee",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 48,
-    "spin": 50,
-    "leanWhy": "The headline and framing cast the armed crew as defying a UN agency's \"advice\" and winning, and the piece ends with a pro-concealed-carry research citation, which turns a maritime incident into a gun-rights argument. The UN/IMO's position is quoted at length but only as a foil, and no voices or evidence back it up.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "Merchant Crew Ignores UN’s Advice, Thwarts Pirate Attack",
-        "why": "It frames the event as defiance of the UN that was vindicated, though the alert only reports warning shots and a skiff moving away."
-      },
-      {
-        "type": "Source selection",
-        "quote": "According to research published by the Crime Prevention Research Center (CPRC), many studies have found that right-to-carry or concealed carry laws are associated with reductions in violent crime",
-        "why": "It closes with an advocacy-oriented source on domestic concealed carry, which has little to do with ship security and pushes a pro-gun conclusion."
-      },
-      {
-        "type": "Framing",
-        "quote": "UN Agency Tells Merchants Not To Arm Against Pirates Despite 90 Sailors Being Held Hostage",
-        "why": "The related-link framing presents the IMO's position as out of touch, and the hostage detail is used to imply the policy failed."
-      },
-      {
-        "type": "Omission",
-        "quote": "Carriage of arms on board ships may encourage attackers to carry firearms or even more dangerous weapons",
-        "why": "The IMO's reasoning is quoted at length but never weighed against evidence, so the one-off outcome is allowed to rebut it."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "5dd6a5f329ee",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Too many House Republicans are missing work, Mike Johnson says",
-    "link": "https://www.cbsnews.com/news/johnson-house-republican-absences/",
-    "summary": "Dozens of House members didn't show up to vote this week. They're still getting paid.",
-    "published": "2026-11-20T19:28:16+00:00",
-    "id": "b1553049a1da",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a factual recap built on Johnson's own letter and quotes, and it notes that Democrats also missed votes. The headline, the summary's \"still getting paid\" line and the lead's \"skipped work\" framing stress Republican absences and pay, which is a mild tilt against the GOP.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "They're still getting paid.",
-        "why": "The summary adds a pay-for-no-work angle that casts absent members as shirking."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Too many House Republicans skipped work this week",
-        "why": "'Skipped work' is a colloquial, judgmental phrasing, though it echoes Johnson's complaint."
-      },
-      {
-        "type": "Framing",
-        "quote": "The base salary for a rank-and-file House Republican is $174,000",
-        "why": "Dwelling on salary underscores the pay-for-absence angle."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "accfe59dc9b9",
-    "coverage": 2
-  },
-  {
-    "outlet": "BBC",
-    "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-    "link": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-    "published": "2026-11-20T19:27:49+00:00",
-    "id": "1e891d39098b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a mostly straight recap of a sentencing, with allegations attributed to prosecutors and India's denial and Pannun's denial of terrorism included. The closing quotes come only from Sikh separatist advocates, a mild sourcing tilt, but it does not map cleanly onto a US left/right divide.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "the sentencing marks the \"first time we see justice\"",
-        "why": "The last word goes to Sikh separatist advocates, with no Indian government or independent voice responding to the sentencing."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "1e891d39098b",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Tech outage cascade exposes US vulnerabilities to foreign cyber threats",
-    "link": "https://www.foxnews.com/politics/tech-outage-cascade-exposes-us-vulnerabilities-foreign-cyber-threats",
-    "summary": "Six days of outages hit Microsoft 365, banks and NSA Net, and experts like Tommy Waller warn the disruptions may be more than just a coincidence.",
-    "published": "2026-11-20T19:23:24+00:00",
-    "id": "c6152ea0c57c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 30,
-    "leanWhy": "The piece reports administration denials of a coordinated cyberattack alongside outside experts who question coincidence, so it is mostly balanced on partisan lines. The headline and framing lean toward a national-security-threat narrative beyond what officials say the facts show, but this is not clearly left- or right-coded.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "Tech outage cascade exposes US vulnerabilities to foreign cyber threats",
-        "why": "The headline implies foreign cyber threat exposure while officials say the outages were not cyberattacks."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"We know that our adversaries use that domain to attack our critical infrastructure,\"",
-        "why": "Expert sourcing emphasizes the threat narrative, with the experts quoted mostly questioning the coincidence."
-      },
-      {
-        "type": "Framing",
-        "quote": "makes it a little harder to just write off.",
-        "why": "The excerpt gives space to suspicion of a connection despite official explanations of maintenance and technical failure."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "c6152ea0c57c",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Speaker Mike Johnson calls upon House Republicans to show up for work",
-    "link": "https://www.foxnews.com/politics/speaker-mike-johnson-calls-house-republicans-show-work",
-    "summary": "House Speaker Mike Johnson issued a letter pressing his Republican colleagues to show up for work during the final stretch of the 119th Congress.",
-    "published": "2026-11-20T19:07:55+00:00",
-    "id": "accfe59dc9b9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 10,
-    "leanWhy": "The piece is mostly a straight recap of Johnson's letter, but it quotes only Republicans who back him (Norman and Harris), with no Democratic or critical voice. It also repeats Johnson's framing of \"important priorities\" without scrutiny, though it does note the Democratic midterm wins.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"Well said, @SpeakerJohnson,\" Rep. Mark Harris, R-N.C., wrote",
-        "why": "Only supportive Republican reactions are quoted, and no Democrats or critics are included."
-      },
-      {
-        "type": "Framing",
-        "quote": "so we can get even more of our important priorities signed into law",
-        "why": "The piece passes on the speaker's description of the agenda as 'important' without outside context."
-      },
-      {
-        "type": "Framing",
-        "quote": "While Democrats routed Republicans during the 2026 midterms",
-        "why": "The piece notes the Democratic win, but this is background and not scrutiny of Republican attendance problems."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "accfe59dc9b9",
-    "coverage": 2
-  },
-  {
-    "outlet": "BBC",
-    "title": "White House removes cyber-security chief after series of tech outages",
-    "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-    "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-    "published": "2026-11-20T19:03:56+00:00",
-    "id": "1f30c19cc6a0",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight news report of a personnel change. It attributes the firing to CBS, Axios and Trump's own words, and it gives the officials' statements that the outages were not cyberattacks. The framing is mostly neutral, with a slight emphasis on the administration's handling of the outages.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "1f30c19cc6a0",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump touts Asia trip, meeting with Putin and Xi at news conference",
-    "link": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/",
-    "summary": "President Trump touted his trip to Asia this week and his meetings with China's Xi Jinping and Russia's Vladimir Putin at a press conference at the White House.",
-    "published": "2026-11-20T19:00:05+00:00",
-    "id": "656daa3e9ed5",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a straight recap of a press conference, with statements attributed to Trump and Miller and little editorializing. Miller's boasts and Trump's remarks are quoted at length without rebuttal, but the Lutnick rift and the veto threats are also reported, so the tilt is minimal.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "656daa3e9ed5",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "A national popular vote would destroy the United States",
-    "link": "https://www.washingtonexaminer.com/in_focus/4810096/national-popular-vote-destroy-united-states/",
-    "summary": "The Electoral College “makes no sense,” says aspiring Democratic Party presidential candidate Pete Buttigieg, and as a relic of “some very arcane, parochial politics in the 1770s,” it should be abolished.",
-    "published": "2026-11-20T19:00:00+00:00",
-    "id": "46b6f98b944a",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 75,
-    "spin": 70,
-    "leanWhy": "This is a thesis-driven opinion piece with an alarmist headline. It defends the Electoral College, attributes the left's motives to a power grab, and sets Buttigieg's quote against unflattering comparisons to other countries. The excerpt gives no opposing voices.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "A national popular vote would destroy the United States",
-        "why": "The headline is an absolutist, alarmist claim that states the thesis as fact."
-      },
-      {
-        "type": "Framing",
-        "quote": "it has everything to do with grabbing power",
-        "why": "It ascribes a purely cynical motive to the other side and does not engage their stated democratic reasoning."
-      },
-      {
-        "type": "Framing",
-        "quote": "the electoral process favored by Algeria, the Dominican Republic, and Turkey",
-        "why": "Guilt by association with other countries' systems is a rhetorical device, not an argument."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "everyone understands why left-wingers want direct popular presidential elections",
-        "why": "It generalizes about the whole left and treats its motives as obvious."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "46b6f98b944a",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Democrats argue that ‘no one is above the law,’ except themselves",
-    "link": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4810178/democrats-argue-no-one-above-the-law-except-themselves/",
-    "summary": "During the Biden administration, Democrats constantly told us that no one, not even the most powerful politician in the world, is above the law. Predictably, they never truly believed that the same standard should apply when a Republican took charge. Rep.",
-    "published": "2026-11-20T18:54:26+00:00",
-    "id": "cf917e65282c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 75,
-    "spin": 70,
-    "leanWhy": "This is a commentary piece with a thesis headline that accuses Democrats of hypocrisy, and the excerpt gives only the author's partisan framing. It has no Democratic voices and treats the McIver case as proof of bad faith, not as a legal matter with two sides.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Predictably, they never truly believed that the same standard should apply",
-        "why": "It asserts bad faith and hypocrisy as fact, with no evidence, and speaks for Democrats' inner beliefs."
-      },
-      {
-        "type": "Framing",
-        "quote": "is learning the hard way",
-        "why": "The phrasing suggests McIver is being rightly punished and carries a mocking tone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats constantly told us that no one, not even the most powerful politician in the world, is above the law.",
-        "why": "It paints all Democrats with one broad generalization and offers no sourcing or other viewpoint."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "cf917e65282c",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "‘Worth fighting for’: senators vow to restore financial watchdog agency after Guardian investigation",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/senators-consumer-financial-protection-bureau",
-    "summary": "Democrats – including incoming banking chair and both majority leader candidates – said wealthy interests were prioritized over the needs of working Americans In response to a Guardian investigation , four US Senate Democrats say they will work to resurrect a financial watchdog agency that has abandoned dozens of…",
-    "published": "2026-11-20T18:51:16+00:00",
-    "id": "f2bc332478e7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 30,
-    "leanWhy": "The piece is built around Democratic senators' vows and the paper's own investigation, with the headline quoting 'worth fighting for' and the summary adopting the Democrats' framing that wealthy interests were put ahead of working Americans. The administration's response gets a brief spokesperson statement, but Democrats get several long quotes and the last word.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "said wealthy interests were prioritized over the needs of working Americans",
-        "why": "The summary presents the Democratic characterization as the central takeaway."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“The Trump administration has done everything in its power to bow down to special interests and billionaires at the expense of American families,” Schumer said.",
-        "why": "A Democratic leader's partisan attack gets the closing word, with no Republican or independent expert response."
-      },
-      {
-        "type": "Framing",
-        "quote": "complaints against those firms rose by an average of more than 75%",
-        "why": "The excerpt implies the dropped suits caused the rise in complaints, but it gives no context on other possible causes."
-      },
-      {
-        "type": "Framing",
-        "quote": "the financial cop on the beat that has returned more than $21bn directly to Americans",
-        "why": "Warren's favorable description of the agency goes unchallenged in the narrative."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "f2bc332478e7",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Lauren Boebert says Trump ‘did some things to hurt’ her constituents",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/lauren-boebert-trump-midterms",
-    "summary": "Controversial Colorado Republican narrowly lost House seat in midterms but says ‘I’m not mad at the president’ Lauren Boebert says Donald Trump “did some things that hurt” her constituents before they voted the pugnacious Colorado Republican out of her US House seat during midterm elections, which saw her and the…",
-    "published": "2026-11-20T18:51:09+00:00",
-    "id": "e77cbc5d2b18",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -30,
-    "spin": 30,
-    "leanWhy": "The piece is mostly a recap of Boebert's AP interview, but its descriptors and background choices lean critical of Boebert and Trump. It uses labels like \"controversial\" and \"pugnacious\", states flatly that Trump's claims about the 2020 election were \"lies\", and lists her scandals at length. It gives no space to any defense of Trump's policies.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the pugnacious Colorado Republican",
-        "why": "A pejorative descriptor, paired with 'Controversial' in the lede, sets a negative tone toward Boebert."
-      },
-      {
-        "type": "Framing",
-        "quote": "supporting Trump’s lies that the 2020 election",
-        "why": "Presents the election-fraud claims as flat 'lies' in the narrator's own voice, a left-coded framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "unpopular initiatives created an environment in which Democrats flipped nine seats",
-        "why": "Characterizes Trump's policies as unpopular and as the cause of the losses, in the narrator's voice."
-      },
-      {
-        "type": "Omission",
-        "quote": "A 2023 scandal saw her and a man with whom she was on a date get kicked out",
-        "why": "A long run of personal scandals dwells on embarrassing details that add little to the news of the interview."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "e77cbc5d2b18",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "New York City lawmakers propose ban on restaurants boiling lobsters alive",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/new-york-city-ban-boiling-lobsters-alive-proposal",
-    "summary": "Sponsors cite ‘studies’ indicating crustaceans experience significant pain when boiled alive without being stunned New York City lawmakers are proposing a ban on restaurants boiling lobsters alive.",
-    "published": "2026-11-20T18:49:03+00:00",
-    "id": "3d47e47aaffa",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece mostly reports the proposal, its penalties, the sponsors' rationale and international precedents, with attribution throughout. Slight tilt comes from the scare quotes around 'studies' in the subhead and from the closing frame of another city effort to restrict culinary practices, while the sponsor gets the only direct quote and no opponents or restaurant voices appear.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Sponsors cite ‘studies’ indicating",
-        "why": "Scare quotes around 'studies' subtly cast doubt on the science behind the proposal."
-      },
-      {
-        "type": "Framing",
-        "quote": "the latest effort by New York City lawmakers to restrict culinary practices on animal-welfare grounds",
-        "why": "Frames the bill as part of a pattern of regulatory restriction by city Democrats, a mildly right-coded overreach frame."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“Some argue that lobsters don’t feel pain. If they don’t feel pain, why do they thrash around",
-        "why": "Only the sponsor is quoted directly; no restaurant industry or skeptic voice is given."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "3d47e47aaffa",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump says Vance’s statement blaming Iran war for Republican midterm wipeout was ‘fine’ in wide-ranging press conference – live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/20/donald-trump-brooke-rollins-religion-sean-cairncross-senate-alaska-white-house-press-conference-us-politics-latest-news-updates",
-    "summary": "US president again claims Republicans’ midterms losses were because he ‘wasn’t on the ballot’, vows to fight for datacenters and boasts of his relationship with Xi Jinping Sign up for the Breaking News US email We’re also following the latest on Capitol Hill as the battle for Senate majority leader between Democrats…",
-    "published": "2026-11-20T18:49:01+00:00",
-    "id": "ff6a2b7d29f1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -25,
-    "spin": 25,
-    "leanWhy": "This is a live-blog recap that mostly quotes Trump directly, but its framing and editorial asides lean critical of him. Loaded word choices (\"drubbing,\" \"wipeout\"), an inserted fact-check about inflation, and an emphasis on the Lutnick controversy and the cabinet's laughter all tilt against Trump and Republicans.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the Republican drubbing in the recent midterm elections",
-        "why": "'Drubbing' (and 'wipeout' in the headline) is a dramatic, mocking description of the losses rather than a neutral one."
-      },
-      {
-        "type": "Framing",
-        "quote": "despite inflation being higher than when he took office in 2025",
-        "why": "This rebuttal is inserted into the reporter's own narration, undercutting Trump's claim without any counter-perspective."
-      },
-      {
-        "type": "Framing",
-        "quote": "Notably, Bessent appeared to blame Lutnick for inaction related to the scandal.",
-        "why": "The editorial 'notably' and the word 'scandal' stress internal administration discord."
-      },
-      {
-        "type": "Framing",
-        "quote": "to grins and laughter from members of his cabinet",
-        "why": "This detail emphasizes a sycophantic or unserious atmosphere around the president."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "ff6a2b7d29f1",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Burnham promises ‘Brexit reset’ with EU will not worsen UK’s ‘illegal immigration’ crisis",
-    "link": "https://www.washingtonexaminer.com/news/world/4810007/burnham-promises-brexit-reset-eu-not-worsen-us-illegal-immigration/",
-    "summary": "Prime Minister Andy Burnham is touting a new agreement with the European Union as a “reset” of the Brexit movement, but assures voters the immigration issue that led to Britain leaving the bloc should not be a concern.",
-    "published": "2026-11-20T18:45:40+00:00",
-    "id": "e15f6ef9ace6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The headline puts \"illegal immigration\" in quotes and calls it a \"crisis\". The summary also says immigration \"led to Britain leaving the bloc\". Both use a right-coded frame and cast the deal with skepticism. The excerpt itself describes the deal's economic content fairly neutrally, but it is short and has no other voices or reaction.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "will not worsen UK’s ‘illegal immigration’ crisis",
-        "why": "The headline treats an illegal immigration crisis as a given and makes it the lens for judging a mainly economic deal."
-      },
-      {
-        "type": "Framing",
-        "quote": "assures voters the immigration issue that led to Britain leaving the bloc should not be a concern",
-        "why": "It reduces Brexit to an immigration cause and presents the PM's words as reassurance to be doubted."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "touting a new agreement",
-        "why": "'Touting' suggests promotion or salesmanship rather than neutral announcement."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "e15f6ef9ace6",
     "coverage": 1
   }
 ]
