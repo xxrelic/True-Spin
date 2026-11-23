@@ -1,5 +1,41 @@
 [
   {
+    "outlet": "NBC News",
+    "title": "A lost Claus: Florida town cancels Christmas parade after property tax changes",
+    "link": "https://www.nbcnews.com/politics/politics-news/lost-claus-florida-town-hit-states-voter-approved-property-tax-overhau-rcna610806",
+    "summary": "The Grinch didn’t steal Christmas from the residents of Deltona, Florida, but the state’s recently passed Amendment 3 may have.",
+    "published": "2026-11-23T05:07:16+00:00",
+    "id": "770d0ec22329",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -18,
+    "spin": 22,
+    "leanWhy": "The piece is mostly factual, but it leads with a playful framing that blames the tax-cut amendment for a canceled holiday event. Sourcing comes only from officials warning of cuts (Deltona's city manager and Miami-Dade's Democratic mayor), and no supporters of the amendment or state-level voices appear in the excerpt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The Grinch didn’t steal Christmas from the residents of Deltona, Florida, but the state’s recently passed Amendment 3 may have.",
+        "why": "Casts the tax cut as a Grinch-like culprit that takes away a beloved event."
+      },
+      {
+        "type": "Source selection",
+        "quote": "officials have warned that Amendment 3 will force serious cuts",
+        "why": "Only local officials warning of harm are quoted, with no proponents or counter-arguments."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "dramatically slash the amount of taxes homeowners pay",
+        "why": "'Slash' and 'drastically' emphasize the scale of the cuts and the harm to services, not the benefit to homeowners."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "770d0ec22329",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Iranian drone and missile attacks reached yearlong high last week, Trump says",
     "link": "https://www.washingtonexaminer.com/news/world/4811776/trump-iranian-attacks-yearlong-high-last-week/",
@@ -38,7 +74,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "80e9cf1a91d8",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -268,6 +304,37 @@
     "coverage": 4
   },
   {
+    "outlet": "CBS News",
+    "title": "Army moves forward with plans to detonate 5 tons of toxic materials in Iowa",
+    "link": "https://www.cbsnews.com/video/army-moves-forward-plans-detonate-5-tons-toxic-materials-iowa/",
+    "summary": "The Army warned that freezing temperatures could risk an accidental toxic explosion at a munitions plant in Middletown, Iowa. The Trump administration declared an emergency and is moving ahead with a plan to blow up the unstable explosives despite a federal court order. Ian Lee has more on the controversial plan.",
+    "published": "2026-11-23T01:49:00+00:00",
+    "id": "2cea914bd1b9",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary are available. The summary stresses that the Trump administration is proceeding \"despite a federal court order\" and calls the plan \"controversial\", which mildly frames the administration as defying limits, though it also gives the Army's safety rationale.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "despite a federal court order",
+        "why": "Puts the administration's defiance of a court at the center, which implies overreach."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "controversial plan",
+        "why": "Labels the plan contested without saying who objects or why."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "c581530d7188",
+    "coverage": 4
+  },
+  {
     "outlet": "The Guardian",
     "title": "US army to blow up bomb-making chemicals despite safety concerns",
     "link": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa",
@@ -319,8 +386,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "965af4ecf151",
-    "coverage": 1
+    "cluster": "438d9489ef00",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -397,7 +464,26 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c7377b431ade",
-    "coverage": 3
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "11/22/2026: One Molecule at a Time; The Mass Shooter Fandom; The Angola Prison Rodeo",
+    "link": "https://www.cbsnews.com/video/60minutes-2026-11-22/",
+    "summary": "First, a look at how drug cartels make synthetic opioids. Then, investigating the online community idolizing mass shooters. And, visiting a rodeo inside a maximum security prison.",
+    "published": "2026-11-23T00:00:00+00:00",
+    "id": "663ac7c5dc38",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "663ac7c5dc38",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -867,7 +953,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "438d9489ef00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1041,7 +1127,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "987d904dd3f0",
+    "cluster": "a38a46b2c881",
     "coverage": 1
   },
   {
@@ -1304,8 +1390,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 3
+    "cluster": "4074db20d410",
+    "coverage": 2
   },
   {
     "outlet": "Daily Caller",
@@ -1371,8 +1457,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "36926a2f8af4",
-    "coverage": 1
+    "cluster": "80e9cf1a91d8",
+    "coverage": 2
   },
   {
     "outlet": "NPR",
@@ -1443,7 +1529,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "987d904dd3f0",
+    "cluster": "a38a46b2c881",
     "coverage": 1
   },
   {
@@ -1463,8 +1549,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 3
+    "cluster": "4074db20d410",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -1494,8 +1580,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 3
+    "cluster": "4074db20d410",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1882,7 +1968,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "987d904dd3f0",
+    "cluster": "3247f6c86b08",
     "coverage": 1
   },
   {
@@ -9341,99 +9427,6 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "c9be9f81ca39",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Four States Just Passed Voter ID. What’s Stopping The Rest?",
-    "link": "https://dailycaller.com/2026/11/20/opinion-voter-id-nevada-north-carolina-ohio-oklahoma-nicole-kelly-steve-roberts",
-    "summary": "‘Look at what happened’",
-    "published": "2026-11-20T17:56:57+00:00",
-    "id": "14ae7b13633d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 75,
-    "spin": 55,
-    "leanWhy": "This is a commentary piece arguing for voter ID expansion, using right-coded framing (election integrity, \"commonsense requirements\") and dismissing opposing views as a \"false narrative from leftist media.\" It cites real vote shares and polling to support its thesis, but the opposing arguments never get a fair hearing.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Despite the false narrative from leftist media that voter ID is racist and unpopular",
-        "why": "It dismisses opponents' arguments as a media falsehood and does not engage with them."
-      },
-      {
-        "type": "Framing",
-        "quote": "Voters are not the obstacle on voter ID.",
-        "why": "It opens with a thesis headline and blames legislators and party officials for not acting, which presents expansion of voter ID as obviously right."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Pew found 83% of Americans favor requiring government-issued photo ID to vote",
-        "why": "It relies on favorable polling and the ballot results and offers no opposing voices or concerns about access."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "14ae7b13633d",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-    "link": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-    "published": "2026-11-20T17:54:37+00:00",
-    "id": "1e891d39098b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is mostly a straight factual recap of a sentencing, with allegations attributed to prosecutors and India's denial included. Sourcing leans slightly toward Sikh separatist voices in the closing quotes, but this is a mild tilt and the story is a foreign-policy and justice matter that doesn't map cleanly onto US left/right framing.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"It's for all the community to finally witness someone getting caught red-handed.\"",
-        "why": "The final reaction quotes come from Sikh separatist advocates, with no Indian government or opposing voice offered in the same space."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "1e891d39098b",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Maps and charts show record number of measles cases in U.S. this year",
-    "link": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/",
-    "summary": "CBS News has been tracking a record number of measles cases and outbreaks around the country in 2026. The majority of cases are among those who haven't been vaccinated.",
-    "published": "2026-11-20T17:49:57+00:00",
-    "id": "7196f25ddb87",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 10,
-    "leanWhy": "The piece is mostly data-driven reporting that relies on CDC figures and public health experts. It leans slightly toward the left-coded frame of trusting health agencies and experts, because it uses emotive expert quotes and attributes the rise to low vaccination, and it includes no vaccine-skeptic voices. A Trump-administration health official, NIH director Bhattacharya, is quoted backing vaccination, which balances this somewhat.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"What a tragedy. We have had children die of measles this past year. That should never have happened.",
-        "why": "An emotive expert quote is given prominent space, and no dissenting or vaccine-skeptic view is included."
-      },
-      {
-        "type": "Framing",
-        "quote": "which medical research has proven to be safe and highly effective",
-        "why": "The text states vaccine safety as settled fact in the narrator's voice, which fits the left-coded trust-in-experts frame, though it is broadly consistent with the evidence."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "7196f25ddb87",
     "coverage": 1
   }
 ]
