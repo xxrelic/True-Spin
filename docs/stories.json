@@ -1,5 +1,829 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "DOJ directs array of litigators to help with ICE detainee lawsuits",
+    "link": "https://www.cbsnews.com/news/ice-detainee-lawsuits-justice-department-non-immigration-attorneys/",
+    "summary": "Roughly 2,000 DOJ civil litigators are being directed to help with thousands of ICE detainee habeas petitions.",
+    "published": "2026-11-24T21:53:52+00:00",
+    "id": "a7de728b328c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "This is mostly straight reporting built on an obtained DOJ memo, with the administration's rationale quoted directly and context on the surge in habeas cases. A mild tilt comes from the contextual background on the administration's detention policies and Miller's habeas suspension idea, and no detainee or immigration-bar voices are quoted.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"Many of the Department's U.S. Attorneys' Offices have been overwhelmed by the influx of petitions and impracticable procedures set by the courts,\"",
+        "why": "The only voice is the administration's, with no immigration lawyers or detainee advocates responding in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Stephen Miller, the architect of the Trump administration's deportation policy",
+        "why": "Closing on the floated suspension of habeas corpus adds context that frames the surge in cases critically, though it is attributed and noted as not pursued."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "a7de728b328c",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
+    "link": "https://www.theguardian.com/us-news/2026/nov/24/iowa-illinois-missouri-hazardous-bomb-explosion-blast-prep-thanksgiving",
+    "summary": "Detonation of 68 barrels of lead azide scheduled for Wednesday after several delays amid public outcry Residents of Iowa, Illinois and Missouri who are preparing for Thanksgiving are also bracing themselves for the detonation of hazardous bomb-making materials, after the US army announced it would go through with…",
+    "published": "2026-11-24T21:49:07+00:00",
+    "id": "cd082cbba9b9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is mostly a factual account of the planned detonation. It includes official statements, the political back-and-forth, and local concerns, and it has no clear partisan slant. Emphasis on \"chaotic\" confusion and the late public notice gives a slight tilt toward criticism of the government's handling.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "The chaotic back-and-forth has left many locals confused and frustrated",
+        "why": "Characterizes the handling as chaotic, which adds mild editorial tone to the sequence of delays."
+      },
+      {
+        "type": "Framing",
+        "quote": "an advisory that is at odds with scheduling the day before Thanksgiving",
+        "why": "Highlights the awkward timing and pushes the reader to see poor planning."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Sen. Gillibrand says 60-seat Senate majority ‘on the table’ in 2028",
+    "link": "https://www.nbcnews.com/meet-the-press/video/sen-gillibrand-says-60-seat-senate-majority-on-the-table-in-2028-274118725698",
+    "summary": "NBC News’ Sahil Kapur goes one-on-one with DSCC Chair Sen. Kirsten Gillibrand (D-N.Y.) on Democrats’ path to expanding their Senate majority in 2028 and whether a filibuster-proof majority is within reach.",
+    "published": "2026-11-24T21:48:09+00:00",
+    "id": "affcaef90666",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 15,
+    "leanWhy": "Only a headline and short feed summary are available. The headline leads with a Democratic campaign chair's optimistic claim about a 60-seat majority, and the summary frames it as a \"path to expanding\" the majority, which gives the Democratic view a mild tilt. The format is a one-on-one interview, and no opposing voices are visible.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "60-seat Senate majority ‘on the table’ in 2028",
+        "why": "The headline amplifies a party chair's optimistic projection as its main news."
+      },
+      {
+        "type": "Source selection",
+        "quote": "goes one-on-one with DSCC Chair Sen. Kirsten Gillibrand",
+        "why": "The only voice shown is a Democratic party official, with no Republican or independent counterweight."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "affcaef90666",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case",
+    "link": "https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case",
+    "summary": "Justice Department lawyers say Judge James Boasberg contradicted his ruling by unsealing search warrant records in Rep. Ilhan Omar's Washington, D.C. case.",
+    "published": "2026-11-24T21:45:21+00:00",
+    "id": "dbe1b24f4302",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 45,
+    "spin": 50,
+    "leanWhy": "The piece adopts the DOJ's framing of a \"contradiction\" and labels the judge \"Obama-appointed\" in headline and lede, while noting he \"frequently found himself at odds with the Trump administration\" and calling his shift a \"u-turn\". It does note a key distinction (Trump was already indicted, Omar is not), but no judge, Omar representative or legal expert gives a counterview, so the DOJ's argument dominates.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case",
+        "why": "The headline stresses the judge's appointing president and states a contradiction as fact, though it is the DOJ's argument."
+      },
+      {
+        "type": "Framing",
+        "quote": "who has frequently found himself at odds with the Trump administration",
+        "why": "This insinuates a pattern of hostility toward Trump without supporting context."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "Boasberg's tune was much different in that case",
+        "why": "The tone is mocking and suggests inconsistency or hypocrisy."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The White House did not immediately respond to Fox News Digital's request for comment on the apparent u-turn from the judge.",
+        "why": "It repeats the 'u-turn' framing, and only the DOJ's side is presented as argument."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "dbe1b24f4302",
+    "coverage": 3
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump’s DoJ ‘looked into’ concerns about Huang after affair with suspected Chinese spy but says no security risk found – live",
+    "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
+    "summary": "Justice department and other agencies reached ‘collective consensus’ that Jensen Huang is not a national security risk, attorney general Todd Blanche says Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET.",
+    "published": "2026-11-24T21:42:48+00:00",
+    "id": "3a936c85da90",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The live-blog frames Blanche as evasive (\"became defensive\") and then gives a Biden-era official extended space to argue for strict chip export controls, while the Trump administration's account is shorter. The piece mostly relays direct quotes, but the emphasis and the \"affair with suspected Chinese spy\" headline lean toward scrutiny of the Trump DOJ.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "the attorney general became defensive when reporters pressed him",
+        "why": "Characterizes Blanche's response as defensive, which colors the exchange against the administration."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Raimondo, who oversaw export controls on advanced chips that were imposed on China during the Biden administration",
+        "why": "Gives extended space to a Democratic-era official's national security argument, with no counterpart from the administration on the export policy."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump’s DoJ ‘looked into’ concerns about Huang after affair with suspected Chinese spy",
+        "why": "Scare quotes around 'looked into' hint at skepticism about the department's claim."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "3a936c85da90",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Congress will need to ‘force’ changes to immigration policy, says House Democrat",
+    "link": "https://www.nbcnews.com/meet-the-press/video/congress-will-need-to-force-changes-to-immigration-policy-says-house-democrat-274118213880",
+    "summary": "Rep. Glenn Ivey (D-Md.) joins Meet the Press NOW to discuss Democrats’ priorities in the next Congress and whether he believes the party can work with the Trump administration on immigration reform.",
+    "published": "2026-11-24T21:37:12+00:00",
+    "id": "4fb3fa0c8770",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "4fb3fa0c8770",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Mike DeWine Signs Bill Ending Red Tape On Gun Suppressors In Ohio",
+    "link": "https://dailycaller.com/2026/11/24/ohio-governor-signs-law-ending-red-tape-on-suppressors",
+    "summary": "‘Ohio has removed draconian restrictions on suppressors AND short-barreled firearms’",
+    "published": "2026-11-24T21:36:07+00:00",
+    "id": "512edb2d8359",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 50,
+    "spin": 45,
+    "leanWhy": "The headline's \"Ending Red Tape\" and the quoted \"draconian restrictions\" adopt the gun-rights framing, and the excerpt quotes only gun-rights groups (GOA, Buckeye Firearms), celebrating the law. No gun-control advocates, public-safety concerns or Democratic response appear, and the linked item about Democrats \"zapping burdensome regulations\" uses the same pro-deregulation language.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Ending Red Tape On Gun Suppressors In Ohio",
+        "why": "The headline frames the law as cutting bureaucracy, which is the gun-rights side's own description."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Both national and state-level pro-Second Amendment groups celebrated the move.",
+        "why": "Only advocates of the change are quoted; opponents or public-safety voices are absent."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "‘Ohio has removed draconian restrictions on suppressors AND short-barreled firearms’",
+        "why": "The summary uses an advocacy group's charged wording as its own framing."
+      },
+      {
+        "type": "Framing",
+        "quote": "Democrats Could Zap Burdensome Regulations On Gun Suppressors Back To Life",
+        "why": "The related-link text treats the regulations as burdensome in the outlet's own voice."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "512edb2d8359",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Chinese Telecom Giant Huawei Found Guilty Of Stealing US Trade Secrets, Bank Fraud",
+    "link": "https://dailycaller.com/2026/11/24/chinese-telecom-giant-huawei-guilty-of-stealing-us-trade-secrets-bank-fraud",
+    "summary": "Convicted on 10 of 12 counts",
+    "published": "2026-11-24T21:32:41+00:00",
+    "id": "146e26940ebd",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a factual recap of the verdict, the charges and the trial, with attribution to the NYT and Straits Times. It includes Huawei's denial and the acquittals. Slight tilt comes from prosecution-leaning phrasing and a related-story link with a charged tone.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "accusing Huawei of ripping off American competitors while operating as a criminal enterprise",
+        "why": "Colloquial phrasing repeats the prosecution's framing in vivid terms."
+      },
+      {
+        "type": "Framing",
+        "quote": "Commerce Dept Adds Company At Center Of Jensen Huang Scandal To Infamous Entity List: REPORT",
+        "why": "The related link uses charged wording ('Scandal', 'Infamous') that adds a hawkish tone."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "146e26940ebd",
+    "coverage": 2
+  },
+  {
+    "outlet": "BBC",
+    "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+    "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+    "summary": "The verdict follows a months-long trial in New York.",
+    "published": "2026-11-24T21:32:34+00:00",
+    "id": "fdc7f4a9d5ac",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "This is a straight news recap of a verdict that gives both prosecution and defense their arguments and quotes Huawei's response at length. No partisan framing is visible, and the US-China corporate legal topic does not map cleanly onto left or right.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "146e26940ebd",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'",
+    "link": "https://www.foxnews.com/politics/trump-pauses-turkey-pardon-salute-us-troops-guarding-strait-hormuz-watch-over-protect",
+    "summary": "President Donald Trump paused the White House turkey pardon to thank U.S. troops enforcing what he called the greatest naval blockade against Iran.",
+    "published": "2026-11-24T21:29:14+00:00",
+    "id": "23dc395ed646",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 25,
+    "spin": 25,
+    "leanWhy": "The piece mostly relays Trump's own remarks and claims about the blockade, with attribution (\"asserted,\" \"contended\"), but includes no outside source, critic, or independent verification of his claims. The headline and framing present his military tribute favorably, and the \"greatest naval blockade\" language is repeated at length without context on the crisis's costs or disputes.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Trump also contended that U.S. forces have severely degraded Iran's conventional military capabilities and restored oil shipments",
+        "why": "Relies solely on Trump's claims about military success without independent confirmation or counterpoints."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'",
+        "why": "The headline frames the event as a patriotic, reverent moment and uses a prayer quote rather than the contested blockade claims."
+      },
+      {
+        "type": "Omission",
+        "quote": "\"It’s a blockade, the greatest naval blockade in history.\"",
+        "why": "Superlatives are quoted at length with no Democratic or expert response or context on the dispute."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "23dc395ed646",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Nvidia will comply with investigations ‘one way or the other,’ says California AG",
+    "link": "https://www.nbcnews.com/meet-the-press/video/nvidia-will-comply-with-investigations-one-way-or-the-other-says-california-ag-274117701755",
+    "summary": "California Attorney General Rob Bonta (D) joins Meet the Press NOW to discuss where his Nvidia investigation goes next after the reinstatement of CEO Jensen Huang.",
+    "published": "2026-11-24T21:23:24+00:00",
+    "id": "a8d43cccc5a8",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "ac32ecb24492",
+    "coverage": 3
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Future Of Education Could Hinge On Tricky Alliance",
+    "link": "https://dailycaller.com/2026/11/24/workforce-pell-requires-marrying-public-and-private-sectors-experts-say",
+    "summary": "‘No states have their act together across the board on this issue’",
+    "published": "2026-11-24T21:22:15+00:00",
+    "id": "a388b8cfb09c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a recap of a policy panel on Workforce Pell. It leans slightly right by using only think-tank experts who favor private-sector involvement and tax credits, and by using the \"One Big Beautiful Bill Act\" name without critics. No critics or labor or student advocates are quoted.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "Senior Research Fellow at The Buckeye Institute, Greg R. Lawson, offered insight",
+        "why": "The sourcing comes only from think-tank panelists who back private-sector partnerships, with no dissenting or skeptical voices."
+      },
+      {
+        "type": "Framing",
+        "quote": "President Donald Trump’s One Big Beautiful Bill Act established Workforce Pell in 2025",
+        "why": "The program is credited to Trump's legislation in neutral-to-favorable terms, with no counterpoints on the law's wider effects."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "a388b8cfb09c",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Even The CIA Can’t Withstand The Tidal Wave Of Cyber Attacks",
+    "link": "https://dailycaller.com/2026/11/24/cia-odni-cyber-attacks-intelligence-nsa-microsoft-faa-jay-clayton",
+    "summary": "‘An intrusion that exposed unclassified intelligence information’",
+    "published": "2026-11-24T21:20:15+00:00",
+    "id": "abd2173647cb",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 30,
+    "leanWhy": "The body is mostly attributed, factual reporting on a series of federal cyber incidents, and it includes official denials of serious damage and notes that other outages were attributed to technical faults. The headline is alarmist (\"Tidal Wave\"), and the piece links unrelated outages and uses a \"Systems Crumble\" related link, which pushes a narrative of systemic failure beyond what the facts show.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Even The CIA Can’t Withstand The Tidal Wave Of Cyber Attacks",
+        "why": "The headline is sensational and implies overwhelming attacks, while the article says only unclassified information was exposed and the perpetrator is unknown."
+      },
+      {
+        "type": "Framing",
+        "quote": "NSA’s Classified Network Goes Dark As US Systems Crumble: REPORT",
+        "why": "The related link uses dramatic language, and the NSA says the outage was routine maintenance."
+      },
+      {
+        "type": "Framing",
+        "quote": "Several other recent technological disruptions affecting America’s aviation, banking and communications infrastructure",
+        "why": "Grouping unrelated outages that were attributed to malfunctions with cyber intrusions suggests a connected crisis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "abd2173647cb",
+    "coverage": 3
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "China’s space diplomacy belied by Russia’s nuclear weapon satellite",
+    "link": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4814104/china-space-diplomacy-russia-nuclear-weapon-satellite/",
+    "summary": "Beijing is hyping up a joint mission with Pakistan as proof of its noble ambitions for peaceful space exploration. But this mission, which launches on Wednesday, is only one side of China’s space strategy coin. After all, China’s dependent partner Russia is preparing its own space mission of a slightly different kind.",
+    "published": "2026-11-24T21:11:05+00:00",
+    "id": "8acb4f93d07c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 35,
+    "spin": 45,
+    "leanWhy": "The piece reads as commentary: it frames China's peaceful space cooperation as a cover story (\"hyping up\", \"noble ambitions\") and ties it to Russia's alleged nuclear satellite. That hawkish, threat-focused national-security framing leans right-coded, and no Chinese or Pakistani perspective appears.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Beijing is hyping up a joint mission with Pakistan as proof of its noble ambitions",
+        "why": "Sardonic wording presents China's stated peaceful aims as propaganda before any evidence is offered."
+      },
+      {
+        "type": "Framing",
+        "quote": "China’s dependent partner Russia",
+        "why": "Asserts a subordinate relationship and links China to Russia's weapon without support in the excerpt."
+      },
+      {
+        "type": "Source selection",
+        "quote": "German media reported this week that Western intelligence has detected signs",
+        "why": "Relies on secondhand, anonymous intelligence reporting and the outlet's own earlier report, with no official or opposing voice."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "poses a profound threat to international security, communications, and the global economy",
+        "why": "Sweeping alarmist conclusion stated as fact."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "8acb4f93d07c",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region",
+    "link": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+    "summary": "Washington's $9 billion industry grows more than 70% of the nation's fresh apples. Farmers are being pressed by high costs, tariffs and a strong dollar that diminishes foreign purchasing power.",
+    "published": "2026-11-24T21:09:29+00:00",
+    "id": "1a1901c65049",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -10,
+    "spin": 12,
+    "leanWhy": "Only the headline and feed summary were available. The headline puts tariffs first among the cost pressures on farmers, which is a subtle tilt against administration trade policy, though the summary also names fuel, fertilizer and a strong dollar as causes.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region",
+        "why": "Leading with tariffs and using the word 'squeezing' frames trade policy as a main driver of farmer hardship."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "1a1901c65049",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Kamala Harris' former political mentor and boyfriend delivers stinging warning about 2028 comeback",
+    "link": "https://www.foxnews.com/politics/kamala-harris-former-political-mentor-boyfriend-delivers-stinging-warning-2028-comeback",
+    "summary": "Willie Brown says Kamala Harris is \"not a communicator\" and doesn't want her to run in 2028, as Pete Buttigieg and Gavin Newsom eye the Democratic primary.",
+    "published": "2026-11-24T21:07:54+00:00",
+    "id": "d9dbd23fec77",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 15,
+    "spin": 25,
+    "leanWhy": "The piece is mostly a factual recap of Brown's quotes and background, but the headline's \"stinging warning\" and the emphasis on Harris's former romantic link to Brown frame the story as an embarrassing blow to a Democratic figure. Sourcing is only Brown and Harris's own earlier comments, with no defenders of Harris.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "delivers stinging warning about 2028 comeback",
+        "why": "Dramatic headline wording amplifies the criticism beyond a simple quote report."
+      },
+      {
+        "type": "Framing",
+        "quote": "Kamala Harris' former political mentor and boyfriend",
+        "why": "Leading with the romantic past foregrounds a personal angle over the substance of the comments."
+      },
+      {
+        "type": "Framing",
+        "quote": "casts doubt on her potential candidacy",
+        "why": "The article's own gloss treats Brown's view as undermining her prospects."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Representatives for Harris did not immediately respond to a request for comment",
+        "why": "No Harris allies or counter-voices are included, so the criticism goes unanswered."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "d9dbd23fec77",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "CIA and ODNI hit by cybersecurity breach of open-source intelligence systems: Report",
+    "link": "https://www.washingtonexaminer.com/policy/technology/4814275/cia-odni-cybersecurity-breach-open-source-intelligence/",
+    "summary": "The nation’s top intelligence agencies experienced a cybersecurity breach of systems containing unclassified information, a new report Tuesday revealed, marking the latest development in a string of technology disruptions causing alarm across the country.",
+    "published": "2026-11-24T21:07:50+00:00",
+    "id": "50e53514df64",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is a short, attributed account of a breach of unclassified systems, citing the New York Times and U.S. officials, with no partisan framing. The only mild tilt is the broad \"causing alarm across the country\" line, which doesn't favor either side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "a string of technology disruptions causing alarm across the country",
+        "why": "This broad, somewhat sensational framing implies a wider pattern and public alarm that the excerpt doesn't support."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "abd2173647cb",
+    "coverage": 3
+  },
+  {
+    "outlet": "NPR",
+    "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+    "summary": "The attacks, if officials who spoke to NPR are correct, may be the latest example of Iranian cyberattacks against global critical infrastructure during the war with the U.S.",
+    "published": "2026-11-24T21:04:50+00:00",
+    "id": "c1fa67beb65f",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "Only a headline and a short feed summary were available. The framing is a straightforward investigative report attributed to officials, with hedging (\"if officials... are correct\"), and it shows no clear partisan tilt.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "c1fa67beb65f",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Conservatism is dying because it abandoned personal duty",
+    "link": "https://www.washingtonexaminer.com/in_focus/4812687/conservatism-dying-abandoned-personal-duty/",
+    "summary": "There’s a meme circulating on X based on an iconic scene from Saving Private Ryan. A well-armed American soldier, Cpl. Timothy Upham (played by Jeremy Davies), freezes in terror rather than assisting his fellow soldier, Pvt.",
+    "published": "2026-11-24T21:00:00+00:00",
+    "id": "f7d02e00da7e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 35,
+    "leanWhy": "This is an opinion piece with a thesis headline, but the excerpt only sets up a meme criticizing Republicans for cowardice in using power. The thesis seems to be an intra-conservative critique, so it doesn't clearly favor the left or right in the excerpt. Only the opening is visible, so the confidence is limited.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Conservatism is dying because it abandoned personal duty",
+        "why": "The sweeping thesis headline asserts a conclusion about a movement's decline beyond what the excerpt establishes."
+      },
+      {
+        "type": "Framing",
+        "quote": "Republicans lost the recent elections because they are cowards who lack the will to exercise power effectively.",
+        "why": "It presents a meme's blunt interpretation of the election results as the premise for the argument."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "f7d02e00da7e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "CIA hit by cyber breach that exposed unclassified data on intelligence analysis network: sources",
+    "link": "https://www.foxnews.com/politics/cia-hit-cyber-breach-exposed-unclassified-data-intelligence-analysis-network-sources",
+    "summary": "Sources confirm a cyber breach hit the CIA, exposing unclassified data on a network used to analyze open-source intelligence as the FBI weighs in.",
+    "published": "2026-11-24T20:53:34+00:00",
+    "id": "a437393f2581",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight, sourced news report on cyber breaches at federal agencies. It attributes claims to sources, notes that the CIA system was unclassified, and says the cause is unclear, with no partisan framing.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "abd2173647cb",
+    "coverage": 3
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Democrat Victoria Broderick unseats eight-term Republican incumbent in Tennessee to win election",
+    "link": "https://www.theguardian.com/us-news/2026/nov/24/democrat-victoria-broderick-election-win-tennesee-midterms",
+    "summary": "Victory expands Democrats’ House majority, its largest advantage in three decades Democrat Victoria Broderick has won Tennessee’s fourth congressional district, unseating eight-term Republican incumbent Scott DesJarlais in one of the biggest House upsets of the cycle.",
+    "published": "2026-11-24T20:20:24+00:00",
+    "id": "eb1941ae4845",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 15,
+    "leanWhy": "The piece is mostly factual election reporting, but it leans toward the winner. It relies mainly on Broderick's own quotes and ends on DesJarlais's past controversies, with no Republican voice beyond his concession statement. The \"GOP's mid-decade gerrymandering\" wording is also a left-coded frame.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "the GOP’s mid-decade gerrymandering effort",
+        "why": "Describing the redistricting as 'gerrymandering' in the outlet's own voice adopts a framing common on the left."
+      },
+      {
+        "type": "Omission",
+        "quote": "DesJarlais, a physician, was also dogged by controversy during his time in office",
+        "why": "The article closes on his personal scandals, which tilts the emphasis against the loser, and offers no Republican response or context for the narrow margin."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“We did not have the political machine behind us. We didn’t have corporate Pac money, we didn’t have powerful insiders. We had you, the people,”",
+        "why": "The winner's populist self-presentation is quoted at length and without counterpoint."
+      },
+      {
+        "type": "Framing",
+        "quote": "in one of the biggest House upsets of the cycle",
+        "why": "The excerpt stresses the scale of the Democratic win and the 'historic' majority, a celebratory emphasis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "eb1941ae4845",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Wendy's \"pricing scheme\" inflated menu prices, lawsuit alleges",
+    "link": "https://www.cbsnews.com/news/wendys-class-action-lawsuit-dynamic-pricing/",
+    "summary": "In a proposed class action, a California resident alleges that Wendy's conspired with its franchisees to set and raise menu prices.",
+    "published": "2026-11-24T20:19:43+00:00",
+    "id": "b550c44d1148",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is a straight report on a proposed class action, attributing claims to the lawsuit and noting Wendy's did not respond. The anti-corporate pricing frame appeals to both sides, and the plaintiff's lawyer is the only voice quoted, which is a mild tilt.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"By delegating pricing decisions to a common decision-maker, it eliminates critical price competition that drives costs down for consumers,\"",
+        "why": "Only the plaintiff's lawyer is quoted at length, and the defendants have not yet responded."
+      },
+      {
+        "type": "Framing",
+        "quote": "In 2024, Wendy's raised concerns after saying it would test Uber-style pricing.",
+        "why": "Background about past pricing controversies adds context that reinforces the plaintiff's narrative."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "b550c44d1148",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Democrats have flipped 48 House seats. Here's the breakdown.",
+    "link": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
+    "summary": "Democrats won control of the House by flipping dozens of Republican-held seats, picking up perennial swing districts and seats that were once considered deep red.",
+    "published": "2026-11-24T20:18:42+00:00",
+    "id": "559ec9ccc669",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight results recap that reports flips by region and state, mentions both parties' redistricting efforts, and attributes outcomes to maps and races rather than offering judgments. A faint tilt comes from the emphasis on Democratic wins and failed GOP redistricting aims, which is largely what the results themselves show.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Republicans' attempt to flip the 1st District by making it redder did not succeed.",
+        "why": "Dwelling on failed GOP map-drawing efforts slightly emphasizes Republican setbacks."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "53f5f6f96527",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China",
+    "link": "https://www.theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress",
+    "summary": "Senate minority leader joins lawmakers from both parties outraged over Nvidia CEO’s reinstatement Chuck Schumer, the current Senate minority leader vying to lead the Democratic majority in the next Congress, accused Jensen Huang, the newly reinstated Nvidia CEO, of shipping “extremely advanced chips to China” and…",
+    "published": "2026-11-24T20:05:09+00:00",
+    "id": "362e86e768df",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 30,
+    "leanWhy": "The excerpt is dominated by Democratic critics (Schumer, Van Hollen, Meeks) and their framing of corruption and enforcement failure under Trump, with Trump's defense given only briefly. The \"both parties\" framing is asserted, but no Republican critic is quoted in the excerpt, so the sourcing is one-sided.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "joins lawmakers from both parties outraged over Nvidia CEO’s reinstatement",
+        "why": "The bipartisan outrage claim is made, but only Democrats are quoted in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Van Hollen pointed to a series of ties between Huang and Trumpworld as evidence of the executive’s influence",
+        "why": "The donation and dinner ties are presented as evidence of influence, with the Democratic framing dominating and little response from the other side."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "“political corruption and rot at the heart of the Trump administration’s big tech and AI policy”",
+        "why": "A strong accusation from a Democratic politician is given prominent placement without counter-sourcing."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "ac32ecb24492",
+    "coverage": 3
+  },
+  {
+    "outlet": "Axios",
+    "title": "Trump talks turkey, and his ballroom, at pardoning event",
+    "link": "https://www.axios.com/2026/11/24/trump-turkey-pardon-ballroom",
+    "summary": "President Trump honored a time-worn Washington tradition Tuesday: pardoning poultry — after using the pulpit to praise his White House ballroom and deliver a rally-reminiscent speech.",
+    "published": "2026-11-24T20:01:04+00:00",
+    "id": "bbf86ce90ad2",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "Only a headline and a short feed summary were available. The light, punning tone and the \"rally-reminiscent speech\" description mildly suggest the event was used for political messaging, a slight tilt against Trump, but there is too little text to say much more.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "deliver a rally-reminiscent speech",
+        "why": "Presents a ceremonial event as campaign-style politicking, a mildly critical framing."
+      },
+      {
+        "type": "Framing",
+        "quote": "after using the pulpit to praise his White House ballroom",
+        "why": "Emphasizes self-promotion at a ceremonial occasion."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "23dc395ed646",
+    "coverage": 2
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Can Jensen Huang put out the fire he started at Nvidia?",
+    "link": "https://www.cbsnews.com/news/nvidia-jensen-huang-challenges/",
+    "summary": "Despite Jensen Huang's shock return as Nvidia's CEO, experts say it's anything but business as usual for the chipmaker.",
+    "published": "2026-11-24T19:42:57+00:00",
+    "id": "8c65af81a346",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece is a mostly factual explainer on Nvidia's legal, regulatory and China-export risks, sourced to governance experts, an investment adviser and Republican House committee chairs. Mild dramatic framing (\"fire he started\", \"thicket of legal and operational problems\") adds some negative emphasis, but it does not tilt toward a partisan side.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Can Jensen Huang put out the fire he started at Nvidia?",
+        "why": "The headline assigns blame to Huang and dramatizes the situation before the facts are laid out."
+      },
+      {
+        "type": "Framing",
+        "quote": "his return raises a thicket of legal and operational problems",
+        "why": "Stacks the framing toward trouble and uncertainty, with no counterpoint on why the board backed him."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "97967808b895",
+    "coverage": 4
+  },
+  {
+    "outlet": "Axios",
+    "title": "Criminal charge against incoming House Democrat dropped",
+    "link": "https://www.axios.com/2026/11/24/lakesha-womack-charge-dropped-rental-car-nc",
+    "summary": "Prosecutors in Mecklenburg County, N.C., announced Tuesday they are dropping a criminal charge against Rep.-elect LaKesha Womack (D-N.C.) related to an un-returned rental car in 2019.",
+    "published": "2026-11-24T19:42:11+00:00",
+    "id": "55ff20e6ca46",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Only a headline and a short feed summary were available. Both state the dropped charge in neutral, factual terms with no loaded wording or sourcing to judge.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "55ff20e6ca46",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "China places Shanghai CCP leader under investigation for corruption as Xi expands purge",
     "link": "https://www.washingtonexaminer.com/news/world/4813982/china-shanghai-ccp-leader-investigation-corruption-purge/",
@@ -259,7 +1083,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a91e3a65a1ef",
+    "cluster": "3a936c85da90",
     "coverage": 2
   },
   {
@@ -295,7 +1119,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a91e3a65a1ef",
+    "cluster": "3a936c85da90",
     "coverage": 2
   },
   {
@@ -332,6 +1156,47 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "1bdd93dfbbc6",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "Analysis: Fears over the AI boom haven't gone away",
+    "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+    "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+    "published": "2026-11-24T18:21:43+00:00",
+    "id": "88ceea6d80de",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -22,
+    "spin": 35,
+    "leanWhy": "This is labeled analysis and takes a skeptical, critical view of Trump's intervention to reinstate Huang, using words like \"extraordinary\", \"astonishing\" and \"remarkable\" and no administration response. The market-fragility thesis is mostly economic, which limits the partisan tilt, but the framing of the White House as propping up a boom leans critical of Trump.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Among the truly astonishing reflections from President Trump",
+        "why": "Evaluative wording signals disapproval of Trump's remarks rather than neutrally reporting them."
+      },
+      {
+        "type": "Framing",
+        "quote": "The bond vigilantes and short sellers are now up against Silicon Valley and the White House.",
+        "why": "Casts the administration as part of an operation to prop up a market boom."
+      },
+      {
+        "type": "Source selection",
+        "quote": "those sceptical about the AI boom say they have never seen an operation to prop up a stock market boom like this",
+        "why": "Only sceptics are quoted, with no administration or bullish view offered in reply."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "the Nvidia psychodrama",
+        "why": "Dismissive, dramatizing label for the episode."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "88ceea6d80de",
     "coverage": 1
   },
   {
@@ -408,8 +1273,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -470,7 +1335,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "ecb8e0b0946d",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -530,7 +1395,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "a91e3a65a1ef",
+    "cluster": "3a936c85da90",
     "coverage": 2
   },
   {
@@ -566,7 +1431,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "0c992b92a934",
+    "cluster": "dbe1b24f4302",
     "coverage": 3
   },
   {
@@ -633,7 +1498,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "0c992b92a934",
+    "cluster": "dbe1b24f4302",
     "coverage": 3
   },
   {
@@ -741,8 +1606,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "863727e40020",
-    "coverage": 4
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
   },
   {
     "outlet": "CBS News",
@@ -787,8 +1652,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "863727e40020",
-    "coverage": 4
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
   },
   {
     "outlet": "Daily Caller",
@@ -987,8 +1852,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "30f6505a07bf",
-    "coverage": 1
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
   },
   {
     "outlet": "The Guardian",
@@ -1078,8 +1943,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "863727e40020",
-    "coverage": 4
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
   },
   {
     "outlet": "Daily Caller",
@@ -1254,8 +2119,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -1475,8 +2340,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -1511,8 +2376,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -1542,8 +2407,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "863727e40020",
-    "coverage": 4
+    "cluster": "cd082cbba9b9",
+    "coverage": 5
   },
   {
     "outlet": "NBC News",
@@ -1573,8 +2438,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -1614,8 +2479,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -1634,8 +2499,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "ac32ecb24492",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -1794,8 +2659,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "863727e40020",
-    "coverage": 4
+    "cluster": "f48048f6c374",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -1835,8 +2700,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "0c992b92a934",
-    "coverage": 3
+    "cluster": "c05c6b07ca87",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -1861,8 +2726,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "231d31339fa2",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2089,8 +2954,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "34963aca1f46",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2120,8 +2985,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "0459277cc98a",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2161,8 +3026,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "37e5ea7ff6e5",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -2187,8 +3052,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "ecb8e0b0946d",
-    "coverage": 2
+    "cluster": "352225c3e0be",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2264,8 +3129,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "e5a852f69bf2",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2479,7 +3344,7 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "764584f49e5b",
+    "cluster": "72b442476540",
     "coverage": 1
   },
   {
@@ -2551,8 +3416,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "2b0108b5e66f",
-    "coverage": 4
+    "cluster": "4fa5206537c0",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2741,8 +3606,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "c581530d7188",
-    "coverage": 3
+    "cluster": "b8cd1c8675ed",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -3684,8 +4549,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "50a1dddc7a81",
-    "coverage": 2
+    "cluster": "fa65f5b7d271",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -5915,8 +6780,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c581530d7188",
-    "coverage": 3
+    "cluster": "b2f9e2620a7a",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -6199,7 +7064,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "b2f9e2620a7a",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -8687,858 +9552,6 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "7fcb07fb2d09",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "AI is already saving lives on our roads, rails, and runways",
-    "link": "https://www.washingtonexaminer.com/op-eds/4810072/ai-transportation-safety-computing-capacity-cutting-traffic-split-second-braking-and-signaling/",
-    "summary": "‘Now, Not Someday’ is an op-ed series in partnership with Independent Women, in which five leading experts discuss how artificial intelligence and data centers are saving lives and helping families in every major industry. Somewhere in America today, a car will automatically brake and avoid the vehicle in front of it.",
-    "published": "2026-11-23T10:00:00+00:00",
-    "id": "bbf2f634fed6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 35,
-    "spin": 50,
-    "leanWhy": "This is an op-ed series produced in partnership with Independent Women, and it presents AI and data centers only as life-savers. That one-sided promotional frame leans toward the right-coded themes of growth, energy and deregulation and sets aside the left-coded concerns about AI regulation and corporate power. The excerpt is short and has no explicit partisan language, so the lean is moderate and confidence is low to medium.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "AI is already saving lives on our roads, rails, and runways",
-        "why": "The headline states a one-sided, thesis-driven positive claim about AI with no counterpoint."
-      },
-      {
-        "type": "Source selection",
-        "quote": "an op-ed series in partnership with Independent Women",
-        "why": "The series is produced with an advocacy group and promotes the industry-friendly case for AI and data centers."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "That quiet save is the work of artificial intelligence",
-        "why": "An anecdotal, emotive example is presented as evidence of AI's benefit."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "bbf2f634fed6",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Democratic fiscal insanity",
-    "link": "https://www.washingtonexaminer.com/opinion/4810340/democratic-fiscal-insanity/",
-    "summary": "It is not a good sign when a city’s chief financial officer resigns in the middle of budget season. It is worse when she is the third chief financial officer to leave in a year and, in her resignation statement, says that that “to continue in this role would be to compromise my integrity and […]",
-    "published": "2026-11-23T10:00:00+00:00",
-    "id": "93cee51528b4",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 60,
-    "spin": 60,
-    "leanWhy": "Based only on the headline and a short feed summary: the thesis-style headline \"Democratic fiscal insanity\" attacks Democrats and frames a city's CFO resignations as a partisan failure. The summary's facts (a third CFO leaving in a year, a resignation statement about integrity) are real, but the headline pushes a broad conclusion about a whole party.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Democratic fiscal insanity",
-        "why": "A partisan label plus 'insanity' casts a local budget problem as a failing of Democrats generally."
-      },
-      {
-        "type": "Framing",
-        "quote": "It is not a good sign when a city’s chief financial officer resigns in the middle of budget season.",
-        "why": "The opinion-style opening builds a narrative of mismanagement before any evidence or the city's response is given."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "93cee51528b4",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Keep an eye on these six Republican candidates to launch 2028 campaigns sooner rather than later",
-    "link": "https://www.washingtonexaminer.com/news/white-house/4810423/six-republican-candidates-2028-campaigns/",
-    "summary": "The 2026 election just ended, which means the 2028 cycle is already beginning. Republicans’ losses in November, according to Trumpworld and party insiders, have upended the passing of the torch from President Donald Trump to Vice President JD Vance.",
-    "published": "2026-11-23T10:00:00+00:00",
-    "id": "aad8f2c29750",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The excerpt is a straightforward horse-race preview of the 2028 Republican field. It relies on unnamed \"Trumpworld and party insiders\" and polls, and it leans slightly toward a narrative of Republican disarray without much balancing detail.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "according to Trumpworld and party insiders",
-        "why": "The claim that losses upended succession rests on unnamed insiders, with no named sources or opposing view."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "a groundswell of conservatives are calling on him to enter the race",
-        "why": "'Groundswell' is a sweeping characterization with no evidence given in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "aad8f2c29750",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "Morning news brief",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6045619/morning-news-brief",
-    "summary": "A look at how artificial intelligence is affecting the economy, NATO to meet after Russian missiles hit Poland, negotiators fail to reach a deal as COP31 comes to an end.",
-    "published": "2026-11-23T09:45:21+00:00",
-    "id": "00c5ccdd2886",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "00c5ccdd2886",
-    "coverage": 1
-  },
-  {
-    "outlet": "NPR",
-    "title": "After midterm losses, Republicans debate what's next for the party",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
-    "summary": "In the wake of their midterm election losses, Republicans are discussing what happened and what the future might be for their party.",
-    "published": "2026-11-23T09:45:06+00:00",
-    "id": "bd95b0c548ce",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "Only a headline and a one-sentence feed summary are available, and both are neutral in wording, describing Republicans discussing their midterm losses. There is no sourcing or loaded language to judge, so the lean is essentially none.",
-    "signals": [],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "bd95b0c548ce",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Georgia officer shoots 13-year-old after traffic stop linked to earlier shooting, police say",
-    "link": "https://www.foxnews.com/us/georgia-police-shoot-13-year-old-milledgeville",
-    "summary": "A 13-year-old suspected in a Jones County, Georgia, shooting was later wounded by a Milledgeville Police officer during a traffic stop at Milledgeville Mall, police say.",
-    "published": "2026-11-23T09:10:22+00:00",
-    "id": "9ab839f949d1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight factual police-shooting report that attributes claims to authorities and notes the circumstances are not yet clear. It relies mostly on police and sheriff sources, a subtle tilt, but it flags uncertainty and says an independent GBI investigation will follow.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "9ab839f949d1",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "A lost Claus: Florida town cancels Christmas parade after property tax changes",
-    "link": "https://www.nbcnews.com/politics/politics-news/lost-claus-florida-town-hit-states-voter-approved-property-tax-overhau-rcna610806",
-    "summary": "The Grinch didn’t steal Christmas from the residents of Deltona, Florida, but the state’s recently passed Amendment 3 may have.",
-    "published": "2026-11-23T05:07:16+00:00",
-    "id": "770d0ec22329",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -18,
-    "spin": 22,
-    "leanWhy": "The piece is mostly factual, but it leads with a playful framing that blames the tax-cut amendment for a canceled holiday event. Sourcing comes only from officials warning of cuts (Deltona's city manager and Miami-Dade's Democratic mayor), and no supporters of the amendment or state-level voices appear in the excerpt.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The Grinch didn’t steal Christmas from the residents of Deltona, Florida, but the state’s recently passed Amendment 3 may have.",
-        "why": "Casts the tax cut as a Grinch-like culprit that takes away a beloved event."
-      },
-      {
-        "type": "Source selection",
-        "quote": "officials have warned that Amendment 3 will force serious cuts",
-        "why": "Only local officials warning of harm are quoted, with no proponents or counter-arguments."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "dramatically slash the amount of taxes homeowners pay",
-        "why": "'Slash' and 'drastically' emphasize the scale of the cuts and the harm to services, not the benefit to homeowners."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "770d0ec22329",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Iranian drone and missile attacks reached yearlong high last week, Trump says",
-    "link": "https://www.washingtonexaminer.com/news/world/4811776/trump-iranian-attacks-yearlong-high-last-week/",
-    "summary": "President Donald Trump offered an update on where things stand in the conflict with Iran on Sunday night as a key result trickled in from the 2026 midterm elections. Democrats secured another House seat on Sunday afternoon as Chuck Hubbard defeated incumbent Rep.",
-    "published": "2026-11-23T03:40:45+00:00",
-    "id": "80e9cf1a91d8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 22,
-    "spin": 25,
-    "leanWhy": "The piece mostly relays Trump's post and statements, leading with his framing and a CENTCOM denial of damage, with little independent checking of claims such as the 81,000 figure or the oil-price assertion. Word choice like \"terrorist-sponsoring nation\" and the note that inflation threatens Democrats add a mild right tilt, though Jeffries gets a quote and the Democratic wins are reported plainly.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "The terrorist-sponsoring nation launched attacks at U.S. military bases in Bahrain",
-        "why": "The narrator adopts a charged label for Iran in its own voice rather than attributing it."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"that the Islamic Republic of Iran, which has killed more than 81,000 protesters as of today, will grow more aggressive in their attacks.\"",
-        "why": "Trump's contested figure and claims are relayed without independent verification or context."
-      },
-      {
-        "type": "Framing",
-        "quote": "Stubbornly high inflation poses a threat to Democrats as well, however",
-        "why": "It adds a caveat about Democratic vulnerability right after reporting their win, which tempers the Democratic framing."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "Iranian drone and missile attacks reached yearlong high last week, Trump says",
-        "why": "The headline leads with Trump's claim, while the article's main news is the midterm results and his political framing."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "80e9cf1a91d8",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Army plans to carry out detonation at Iowa plant on Wednesday",
-    "link": "https://www.cbsnews.com/news/us-army-iowa-plant-detonation-court-records/",
-    "summary": "The Department of the Army said it plans to use an emergency munitions and explosives exclusion to the Environmental Protection Agency's permit.",
-    "published": "2026-11-23T03:02:31+00:00",
-    "id": "c581530d7188",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The piece is a mostly factual recap of the Army's plan, the court order and the environmental groups' challenge, with the Army's safety rationale quoted at length. A slight tilt appears in noting that the Army did not explain why Wednesday is safer, though the story also gives the government's reasoning in detail.",
-    "signals": [
-      {
-        "type": "Omission",
-        "quote": "It did not immediately explain if the forecast or other factors had changed to make a move to Wednesday safer.",
-        "why": "It highlights a gap in the Army's justification, which mildly casts doubt on the agency's decision."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "c581530d7188",
-    "coverage": 3
-  },
-  {
-    "outlet": "Fox",
-    "title": "Trump's Thanksgiving turkeys arrive at luxury DC hotel as Americans vote on their names",
-    "link": "https://www.foxnews.com/politics/trumps-thanksgiving-turkeys-arrive-luxury-dc-hotel-americans-vote-names",
-    "summary": "Two turkeys raised on a West Virginia farm strutted a red carpet at the Willard InterContinental Washington, D.C., ahead of Tuesday's pardon.",
-    "published": "2026-11-23T02:48:57+00:00",
-    "id": "20ddd831bbf1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a lighthearted ceremonial-tradition piece that relays White House and USDA promotional material in a playful tone, with no policy claims or criticism. The tone is mildly warm toward the White House's publicity, but the story is routine and historically bipartisan.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "The U.S. Department of Agriculture celebrated their arrival on X",
-        "why": "Relies almost entirely on administration-provided messaging and photos, repeating it with a playful, uncritical tone."
-      },
-      {
-        "type": "Framing",
-        "quote": "settle a pressing matter of national importance",
-        "why": "Mock-grand tone amplifies the White House's own publicity contest without any outside perspective."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "20ddd831bbf1",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
-    "link": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport",
-    "summary": "Footage of Saturday incident, filmed by fellow passengers, quickly went viral on social media as mayor calls tactics ‘un-American’ Protesters marched through the Seattle-Tacoma international airport on Sunday after widely shared footage captured masked immigration agents detaining a father and daughter on an airport…",
-    "published": "2026-11-23T02:38:16+00:00",
-    "id": "c8bc70607878",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -28,
-    "spin": 25,
-    "leanWhy": "The piece is mostly straight reporting and includes ICE's statement. But the headline and summary lead with the viral video and Democratic officials' condemnation, and the sourcing leans toward critics and the family's lawyer. The excerpt quotes \"horrific,\" \"chilling\" and \"un-American\" with no counterweight from supporters of the enforcement.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "mayor calls tactics ‘un-American’",
-        "why": "The subhead leads with a Democratic official's condemnation as the key frame."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“The video is horrific and it is chilling,” Ferguson said",
-        "why": "Emotive criticism from officials is quoted at length, with no supportive voices for the enforcement action."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“They’ve done everything correctly, and these are educated people,”",
-        "why": "The family's lawyer gets extended sympathetic space, which presents the detainees as model immigrants."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "masked immigration agents",
-        "why": "The wording stresses masked agents, a detail that fits critics' framing."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c8bc70607878",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Man convicted for role in Tessa Majors' 2019 NYC killing released on parole",
-    "link": "https://www.foxnews.com/us/man-convicted-role-tessa-majors-2019-nyc-killing-released-parole",
-    "summary": "Luchiano Lewis, convicted in the 2019 murder of Barnard College freshman Tessa Majors, was freed on conditional parole after serving fewer than seven years behind bars.",
-    "published": "2026-11-23T02:34:57+00:00",
-    "id": "88841cb46c3b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a factual recap that cites state corrections records and explains the legal basis for conditional release. It leans slightly toward a victim-first, punishment-focused frame by stressing the short time served and the victim's promise, and it includes no voices from the defense or reform side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "after serving fewer than seven years behind bars",
-        "why": "The headline and summary stress how short the time served was against a nine-years-to-life sentence, which invites a leniency critique."
-      },
-      {
-        "type": "Source selection",
-        "quote": "remembering her as a talented student, musician and writer whose future was tragically ended too soon",
-        "why": "The piece dwells on the victim's lost potential and gives no defense or rehabilitation perspective."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "88841cb46c3b",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "New York Dem addresses bizarre 'lizard people' claims after viral clip behind Mamdani",
-    "link": "https://www.foxnews.com/politics/new-york-dem-addresses-bizarre-lizard-people-claims-after-viral-clip-behind-mamdani",
-    "summary": "New York Assemblyman Jordan J.G. Wright breaks silence on viral reptilian claims after a clip showed him rolling his eyes behind Mayor Zohran Mamdani.",
-    "published": "2026-11-23T02:16:02+00:00",
-    "id": "90e9d0cc5dc8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 15,
-    "leanWhy": "The piece is a light viral-moment story that mostly reports Wright's statement and the online reactions, but it leads with a mocking-toned \"bizarre\" frame about a Democrat standing behind Mamdani. It also quotes a user tying the clip to a \"full scale-release of dangerous prisoners,\" which echoes a right-coded framing of the jail plan without any counterweight in the excerpt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "bizarre 'lizard people' claims",
-        "why": "The headline puts a Democratic official and Mamdani's event next to a mocking conspiracy frame, which is a mild tabloid tilt."
-      },
-      {
-        "type": "Source selection",
-        "quote": "as he announces a full scale-release of dangerous prisoners from NYC jails",
-        "why": "The excerpt repeats a social media claim that casts the jail plan as a release of dangerous prisoners, and the plan's actual scale (a 2,500-inmate reduction over five years) comes only later."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "90e9d0cc5dc8",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
-    "link": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
-    "summary": "ICE said a man and a woman, both Mexican nationals, were arrested for allegedly overstaying their visas.",
-    "published": "2026-11-23T01:59:38+00:00",
-    "id": "50a1dddc7a81",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 15,
-    "leanWhy": "The piece is mostly attributed straight reporting that includes ICE's account, but the headline leads with the Port's \"outraged\" reaction. The excerpt gives more space to critics, the family's lawyer and an eyewitness who disputes the coffee claim than to ICE's side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "US immigration authorities faced criticism after",
-        "why": "The opening frames the story around criticism of ICE, and the headline leads with the Port's outrage."
-      },
-      {
-        "type": "Source selection",
-        "quote": "I didn't see anyone throw coffee,",
-        "why": "The eyewitness who contradicts ICE's account gets extended quotation, while ICE's account is a brief paraphrase."
-      },
-      {
-        "type": "Source selection",
-        "quote": "They're not fugitives. They're going through a legal process,",
-        "why": "The defense lawyer's framing of the detainees as law-abiding gets several quotes, and no ICE or DHS rebuttal appears in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "50a1dddc7a81",
-    "coverage": 2
-  },
-  {
-    "outlet": "CBS News",
-    "title": "International climate talks fall apart over fossil fuels",
-    "link": "https://www.cbsnews.com/video/international-climate-talks-fall-apart-over-fossil-fuels/",
-    "summary": "International climate talks collapsed in Turkey on Sunday in a bitter clash over fossil fuels, the main cause of global warming.",
-    "published": "2026-11-23T01:56:06+00:00",
-    "id": "8e82b57e6176",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -10,
-    "spin": 12,
-    "leanWhy": "Only the headline and a one-sentence feed summary were available. The summary describes fossil fuels as \"the main cause of global warming\", which is a climate-crisis framing from the left. The framing is mild, and the text reports the collapse of the talks without blaming a side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "the main cause of global warming",
-        "why": "The aside takes the climate-crisis frame and presents fossil fuels as the problem, though it is widely accepted science."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "bitter clash",
-        "why": "Dramatic wording stresses conflict, though it may reflect the actual tone of the talks."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "neither",
-    "cluster": "8e82b57e6176",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Unmarked ICE agents make violent arrest at Seattle airport",
-    "link": "https://www.cbsnews.com/video/unmarked-ice-agents-violent-arrest-seattle-airport/",
-    "summary": "An Immigration and Customs Enforcement arrest was caught on camera as passengers were boarding an Alaska Airlines flight. The event was so distressing that some of the crew members asked to be replaced. Olivia Rinaldi reports.",
-    "published": "2026-11-23T01:52:00+00:00",
-    "id": "3b676b220ce6",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 40,
-    "leanWhy": "Only a headline and a short feed summary are available. The headline calls the arrest \"violent\" and stresses that the agents were \"unmarked\", and the summary stresses distress among passengers and crew. That is a critical framing of ICE enforcement, and the summary gives no ICE or government response.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "make violent arrest",
-        "why": "The headline states 'violent' as fact, with no attribution and no detail on what happened."
-      },
-      {
-        "type": "Framing",
-        "quote": "The event was so distressing that some of the crew members asked to be replaced.",
-        "why": "The summary centers the emotional reaction of bystanders, which casts the enforcement action in a negative light."
-      },
-      {
-        "type": "Omission",
-        "quote": "Unmarked ICE agents",
-        "why": "The headline stresses that the agents were unmarked and suggests secrecy, and the summary offers no ICE explanation or legal basis for the arrest."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "3b676b220ce6",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Army moves forward with plans to detonate 5 tons of toxic materials in Iowa",
-    "link": "https://www.cbsnews.com/video/army-moves-forward-plans-detonate-5-tons-toxic-materials-iowa/",
-    "summary": "The Army warned that freezing temperatures could risk an accidental toxic explosion at a munitions plant in Middletown, Iowa. The Trump administration declared an emergency and is moving ahead with a plan to blow up the unstable explosives despite a federal court order. Ian Lee has more on the controversial plan.",
-    "published": "2026-11-23T01:49:00+00:00",
-    "id": "2cea914bd1b9",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 15,
-    "leanWhy": "Only a headline and short feed summary are available. The summary stresses that the Trump administration is proceeding \"despite a federal court order\" and calls the plan \"controversial\", which mildly frames the administration as defying limits, though it also gives the Army's safety rationale.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "despite a federal court order",
-        "why": "Puts the administration's defiance of a court at the center, which implies overreach."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "controversial plan",
-        "why": "Labels the plan contested without saying who objects or why."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "2cea914bd1b9",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US army to blow up bomb-making chemicals despite safety concerns",
-    "link": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa",
-    "summary": "Army invokes emergency provisions in Iowa to avoid court order despite worries about health and environment risks The US army plans to invoke emergency provisions to avoid a court order that had put on hold plans to detonate several tons of bomb-making chemicals in Iowa , saying that continued delays will make it more…",
-    "published": "2026-11-23T00:50:39+00:00",
-    "id": "5261dc539dde",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 15,
-    "leanWhy": "The headline and subhead stress \"despite safety concerns\" and environmental groups' criticism of a government \"maneuver\", which leans toward the environmentalist framing. The piece still gives the Army's reasoning and the government lawyers' arguments, with the unstable chemicals and the cold-weather risk, so the tilt is mild.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "US army to blow up bomb-making chemicals despite safety concerns",
-        "why": "The headline foregrounds the safety objections, though the Army's stated rationale is also about safety."
-      },
-      {
-        "type": "Framing",
-        "quote": "to avoid a court order",
-        "why": "Describes the Army's action as evasion of the court, which matches the critics' framing."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The Army seemed more concerned over the weekend with finding a way to sidestep the judicial process",
-        "why": "The sharpest quote comes from an environmental attorney and is given prominent space."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5261dc539dde",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "Trump's top intelligence official is also taking charge of cyber policy",
-    "link": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director",
-    "summary": "Director of National Intelligence Jay Clayton will also serve as acting national cyber director while Kirsten Davies awaits Senate confirmation to lead the office, Axios has learned.",
-    "published": "2026-11-23T00:31:32+00:00",
-    "id": "965af4ecf151",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "965af4ecf151",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
-    "link": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin",
-    "summary": "Virginia dinner comes as Democrats accuse president of improperly profiting from his cryptocurrency ventures Donald Trump is scheduled to headline his third cryptocurrency gala on ⁠Sunday night at his ​country club in Virginia, rewarding top holders of his own meme coin as Democrats accuse the president of improperly…",
-    "published": "2026-11-23T00:31:31+00:00",
-    "id": "52d925e6c689",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 22,
-    "leanWhy": "The piece is mostly factual reporting, but the headline's \"outcry\" and the sourcing lean on Democratic accusations, with Schiff's letter quoted at length. The White House gets only a brief denial, and the details about perks, foreign wallets and falling interest emphasize embarrassing aspects for Trump.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "amid conflict of interest outcry",
-        "why": "The headline presents the controversy as a broad outcry, though the excerpt mainly cites Democrats."
-      },
-      {
-        "type": "Source selection",
-        "quote": "allowing the President to abuse the power of his office to personally enrich himself, as he has throughout this term",
-        "why": "A long Democratic senators' accusation is quoted, while the rebuttal is a brief generic denial."
-      },
-      {
-        "type": "Framing",
-        "quote": "rewarding top holders of his own meme coin",
-        "why": "The lead frames the event as self-dealing and stresses the perks, with no neutral description of its purpose."
-      },
-      {
-        "type": "Source selection",
-        "quote": "indicating they ‌are linked to foreign nationals",
-        "why": "It uses an advocacy group's analysis to imply foreign involvement, which adds suggestive weight."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "52d925e6c689",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Jeffries previews Democrats’ five opening moves",
-    "link": "https://www.washingtonexaminer.com/news/house/4811757/jeffries-previews-democrats-opening-moves/",
-    "summary": "Rep. Hakeem Jeffries (D-NY) outlined five key legislative priorities for Democrats as they prepare to take control of Congress in January. “We’re going to work incredibly hard to deliver on our promises to the American people around affordability and accountability,” he said while speaking with Margaret Brennan on…",
-    "published": "2026-11-23T00:21:49+00:00",
-    "id": "c7377b431ade",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a recap of Jeffries' interview. It gives him extended, unchallenged quotes that use Democratic framing, such as \"reckless and costly war of choice\" and tariffs costing \"thousands of dollars per year.\" No Republican response appears, though the article does note Trump's openness to working with Democrats and the Schumer–Van Hollen split.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "We need to end this reckless and costly war of choice in Iran that has skyrocketed gas prices, food prices, and diesel prices.",
-        "why": "Long, contested claims from Jeffries are presented with no Republican rebuttal or fact-check."
-      },
-      {
-        "type": "Framing",
-        "quote": "following Republicans’ decisive loss in the 2026 midterm elections",
-        "why": "The article states the Republican loss as a plain fact in the narrator's voice. This sets up the Democrats as having a mandate."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "The socialist lawmaker has said he would work with Trump",
-        "why": "The label \"socialist\" is applied in the article's own voice and could read as pejorative or as neutral description."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c7377b431ade",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "11/22/2026: One Molecule at a Time; The Mass Shooter Fandom; The Angola Prison Rodeo",
-    "link": "https://www.cbsnews.com/video/60minutes-2026-11-22/",
-    "summary": "First, a look at how drug cartels make synthetic opioids. Then, investigating the online community idolizing mass shooters. And, visiting a rodeo inside a maximum security prison.",
-    "published": "2026-11-23T00:00:00+00:00",
-    "id": "663ac7c5dc38",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "663ac7c5dc38",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump indicates he’s open to working with El-Sayed on healthcare",
-    "link": "https://www.nbcnews.com/nightly-news/video/trump-indicates-he-s-open-to-working-with-el-sayed-on-healthcare-273990213772",
-    "summary": "Senator-elect Abdul El-Sayed, D-Mich., said Sunday that he’s open to working with the administration to bring down costs and improve healthcare for Americans, after President Donald Trump made a post on social media seeming to leave the door open to possible universal healthcare. NBC News’ Julie Tsirkin reports.",
-    "published": "2026-11-22T23:56:37+00:00",
-    "id": "8cee5953e742",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and short feed summary were available. The summary reports a bipartisan-openness moment with hedged wording (\"seeming to leave the door open\") and no loaded language or one-sided sourcing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "8cee5953e742",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "New escalations in conflicts in Iran and Ukraine",
-    "link": "https://www.nbcnews.com/nightly-news/video/new-escalations-in-conflicts-in-iran-and-ukraine-273988677851",
-    "summary": "Days after a declaration toward peace was signed by President Trump, Russian President Vladimir Putin and Chinese President Xi Jinping, the conflicts in both the Gulf and Ukraine appear to be intensifying. NBC News’ Keir Simmons reports.",
-    "published": "2026-11-22T23:44:37+00:00",
-    "id": "6d1cea5fb817",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "Only a headline and short feed summary are available. The summary contrasts a peace declaration signed by Trump, Putin and Xi with escalating conflicts, which mildly implies the declaration was ineffective, but it is mostly factual and has no sourcing to judge.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Days after a declaration toward peace was signed by President Trump",
-        "why": "Juxtaposing the peace declaration with intensifying conflict subtly implies the diplomacy has failed."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "6d1cea5fb817",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Dramatic ICE confrontations caught on camera spark backlash",
-    "link": "https://www.nbcnews.com/nightly-news/video/dramatic-ice-confrontations-caught-on-camera-spark-backlash-273989701623",
-    "summary": "Masked immigration officers detained two people on a crowded airport jet bridge in Seattle as people were boarding a flight Saturday, in a dramatic incident that was caught on camera. NBC News’ Dana Griffin reports.",
-    "published": "2026-11-22T23:42:15+00:00",
-    "id": "ece1ec4e1644",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 20,
-    "leanWhy": "Only a headline and short feed summary were available. The wording \"dramatic,\" \"masked immigration officers\" and \"spark backlash\" emphasizes the confrontational side of enforcement and gives no official or enforcement-side explanation, a mild left-leaning tilt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Dramatic ICE confrontations caught on camera spark backlash",
-        "why": "The headline stresses drama and backlash without saying who objected, which frames the enforcement action negatively."
-      },
-      {
-        "type": "Framing",
-        "quote": "Masked immigration officers detained two people on a crowded airport jet bridge",
-        "why": "The summary highlights masks and a crowded setting, which emphasizes the alarming optics and omits the reason for the detentions."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "ece1ec4e1644",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump hosts exclusive dinner for investors in his declining meme coin",
-    "link": "https://www.nbcnews.com/politics/donald-trump/trump-hosts-exclusive-dinner-investors-declining-meme-coin-rcna610757",
-    "summary": "President Donald Trump will reward top investors in his declining meme coin with an exclusive dinner Sunday night as Democrats focus future congressional probes on the president’s business dealings, including his crypto ventures.",
-    "published": "2026-11-22T23:11:54+00:00",
-    "id": "6c57dee93069",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 30,
-    "leanWhy": "The piece is mostly factual reporting on the dinner, but it frames the event through Democratic oversight and ethics critiques. It quotes Democratic senators at length and then CREW, and it gives no Trump-side or White House defense beyond a referral of questions. The headline and lead use \"reward\" and \"declining,\" which add a mildly negative tone.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "“This dinner and scoring mechanism appear carefully constructed to increase investment in $TRUMP, allowing the President to abuse the power of his office to personally enrich himself, as he has throughout this term,”",
-        "why": "Long critical quotes from Democratic senators dominate, and no defender of Trump or the coin is quoted."
-      },
-      {
-        "type": "Framing",
-        "quote": "President Donald Trump will reward top investors in his declining meme coin",
-        "why": "The lead uses 'reward' and 'declining', which sets a skeptical tone before any facts are given."
-      },
-      {
-        "type": "Framing",
-        "quote": "many who invested in those cryptocurrencies experienced steep losses on their investments",
-        "why": "The excerpt stresses investor losses next to Trump's gains, which implies he profits at others' expense."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The watchdog group Citizens for Responsibility and Ethics in Washington reacted to the dinner",
-        "why": "The excerpt ends on a critical advocacy group's reaction, so critics get the last word."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "6c57dee93069",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Here’s the biggest news you missed this weekend",
-    "link": "https://www.nbcnews.com/news/us-news/weekend-rundown-november-22-rcna610436",
-    "summary": "Democrat Chuck Hubbard has defeated GOP Rep. Virginia Foxx for a congressional seat in North Carolina, NBC News projects, adding to a Democratic wave that is projected to deliver the party at least 258 House seats.",
-    "published": "2026-11-22T23:00:42+00:00",
-    "id": "99b6ae2a1011",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 12,
-    "leanWhy": "This is mostly factual news recap with attributed sourcing (NBC Decision Desk, House Historian). It has a mild tilt: it uses the word \"wave\" and stresses Democratic gains in deeply Trump-won districts. The excerpt features only Democratic voices, including El-Sayed and Van Hollen, and no Republican reaction.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "adding to a Democratic wave that is projected to deliver the party at least 258 House seats",
-        "why": "'Wave' and the emphasis on record size present the result in a triumphant frame."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“Yes, because if you look at our caucus, you can see a huge appetite for change,”",
-        "why": "Democratic figures get the closing quotes, and no Republican voice appears in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "also by winning in deeply Republican areas that voted for President Donald Trump by double-digit margins",
-        "why": "Dwelling on Democratic wins in Trump-won districts emphasizes Republican losses."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "99b6ae2a1011",
-    "coverage": 1
-  },
-  {
-    "outlet": "Axios",
-    "title": "How bitter rivals Buttigieg and Klobuchar went from enemies to friends",
-    "link": "https://www.axios.com/2026/11/22/klobuchar-buttigieg-enemies-friends",
-    "summary": "To the surprise of many Democrats and even some of their former aides, Pete Buttigieg and Amy Klobuchar now consider themselves friends after their bitter clashes during their campaigns for president in 2020.",
-    "published": "2026-11-22T22:50:05+00:00",
-    "id": "22492d5d9a62",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "22492d5d9a62",
     "coverage": 1
   }
 ]
