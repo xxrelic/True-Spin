@@ -1,6 +1,334 @@
 [
   {
     "outlet": "Fox",
+    "title": "2026's biggest political turkeys: Scandals, gaffes, and other memorable unfortunate moments from this year",
+    "link": "https://www.foxnews.com/politics/2026-biggest-political-turkeys-scandals-gaffes-memorable-unfortunate-moments-year",
+    "summary": "Eric Swalwell's California gubernatorial collapse, Tim Walz's fraud scandal and more: the political figures whose 2026 ended in scandal and defeat.",
+    "published": "2026-11-26T16:00:02+00:00",
+    "id": "91e6c2b58fc4",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The year-end \"turkeys\" list opens with and dwells on Democratic figures (Swalwell, Walz, Crockett) and uses somewhat editorial framing like \"massive fraud scandal\" and \"collapse\". It does include the GOP's midterm losses, and it notes that Swalwell denies the allegations and that no charges have been filed, which tempers the tilt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Eric Swalwell's California gubernatorial collapse, Tim Walz's fraud scandal",
+        "why": "The headline and summary lead with Democratic failures as the featured examples of the year's embarrassments."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "amid a massive fraud scandal that is estimated to have cost the state billions",
+        "why": "Strong characterization of the Walz story, stated without attribution for the estimate."
+      },
+      {
+        "type": "Framing",
+        "quote": "leading some pundits to criticize the decision to add him to the ticket",
+        "why": "Uses vague, unnamed pundits to pile on Walz beyond the scandal itself."
+      },
+      {
+        "type": "Framing",
+        "quote": "effectively ended his political career and put him in potential legal jeopardy",
+        "why": "Emphasizes ruin and legal peril before the denial and the lack of charges are repeated."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "91e6c2b58fc4",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Washington cannot ignore the erosion of Kurdish autonomy",
+    "link": "https://www.washingtonexaminer.com/op-eds/4816156/kurdistan-region-autonomy-baghdad-control/",
+    "summary": "Baghdad does not need to send tanks into Erbil or dissolve the Kurdistan Regional Government to bring the Kurdistan Region increasingly under its control. It can accomplish much of that through economic pressure, administrative centralization, and political leverage.",
+    "published": "2026-11-26T15:00:00+00:00",
+    "id": "61ebaf58d5ab",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 30,
+    "leanWhy": "This is an opinion piece with a thesis headline urging Washington to act on Kurdish autonomy. That is a foreign-policy position, but it doesn't map cleanly onto the US left-right divide. The excerpt also criticizes Kurdish leaders' own failures, which balances it. The excerpt is short, so confidence is limited.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Washington cannot ignore the erosion of Kurdish autonomy",
+        "why": "The thesis headline pushes a policy conclusion and presents the erosion as established fact."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "61ebaf58d5ab",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Israel is committing ‘ungenocide’",
+    "link": "https://www.washingtonexaminer.com/op-eds/4816151/is-israel-committing-genocide/",
+    "summary": "Israel is widely — and falsely — accused of genocide. States the U.N. Independent International Commission of Inquiry: “Israel has committed genocide against Palestinians in the Gaza Strip.” The Ayatollah Ali Khamenei, Supreme Leader of Iran, “has accused Israel of carrying out a genocide against Palestinians in…",
+    "published": "2026-11-26T15:00:00+00:00",
+    "id": "5be27dba39fb",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 60,
+    "spin": 60,
+    "leanWhy": "Only the headline and a short feed summary were available. The summary asserts that Israel is \"falsely\" accused of genocide and sets a UN commission's finding next to Iran's Supreme Leader's accusation, which frames the charge as a hostile talking point. That is a right-coded, pro-Israel stance, and the thin text gives low confidence.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "widely — and falsely — accused of genocide",
+        "why": "The summary states as fact that the accusation is false, with no attribution."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Ayatollah Ali Khamenei, Supreme Leader of Iran, “has accused Israel",
+        "why": "Putting the UN finding beside Iran's leader ties the accusation to a hostile regime and undercuts its credibility."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Israel is committing ‘ungenocide’",
+        "why": "The coined, scare-quoted term reads as sarcastic or provocative and signals a thesis rather than neutral reporting."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "right",
+    "cluster": "5be27dba39fb",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Trump is following his conviction on tariffs, not politics",
+    "link": "https://www.washingtonexaminer.com/op-eds/4816147/trump-tariffs-leadership-conviction/",
+    "summary": "On Nov. 25, three weeks after his party lost both houses of Congress, President Donald Trump proposed new tariffs on 14 major trading partners — including China, the European Union, Japan, and India — over what his administration calls structural excess industrial capacity.",
+    "published": "2026-11-26T15:00:00+00:00",
+    "id": "24b4aa7a63a9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 55,
+    "spin": 60,
+    "leanWhy": "This is a commentary piece that presents Trump's decision to continue with tariffs after midterm losses as admirable \"leadership\" and \"conviction.\" It compares him to Reagan and does not give weight to the voters' objections, so it favors a pro-Trump view, though it hedges with \"Whatever one thinks of tariffs.\"",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "that is what leadership is supposed to look like: Conviction about the country’s long-term interest rather than obedience to the political wind.",
+        "why": "It casts ignoring voter rebuke as principled leadership, and it treats voter views as mere 'political wind'."
+      },
+      {
+        "type": "Framing",
+        "quote": "Ronald Reagan showed the same steadiness when he held to painful anti-inflation policy through heavy midterm losses in 1982",
+        "why": "The Reagan comparison implies Trump will be vindicated, though the two policies and situations differ."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump is following his conviction on tariffs, not politics",
+        "why": "The thesis headline asserts Trump's motive as principle rather than politics, which the text assumes without evidence."
+      },
+      {
+        "type": "Omission",
+        "quote": "Voters blamed tariffs, the war in Iran, and high prices. Trump kept going.",
+        "why": "It acknowledges the voter complaints in one line but does not examine whether they have merit."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "24b4aa7a63a9",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "A case for optimism for young people post-election",
+    "link": "https://www.washingtonexaminer.com/restoring-america/community-family/4815549/case-for-optimism-young-people/",
+    "summary": "Based on the results of the midterm elections, groups focused on educating young people about the value of freedom have a lot of work to do. Among voters ages 18-29, 66% supported Democratic House candidates.",
+    "published": "2026-11-26T15:00:00+00:00",
+    "id": "2841e429e538",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 40,
+    "spin": 40,
+    "leanWhy": "The piece treats young voters' heavy Democratic and DSA support as a sign they haven't learned \"the value of freedom\". That is a conservative or libertarian frame, and the excerpt shows no opposing view. The excerpt is short and mostly gives data, but the opening thesis and the headline suggest an opinion piece.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "groups focused on educating young people about the value of freedom have a lot of work to do",
+        "why": "It presents youth support for Democrats as a lack of understanding of freedom, which assumes the right-leaning view is the correct one."
+      },
+      {
+        "type": "Framing",
+        "quote": "More than 70 candidates endorsed by the Democratic Socialists of America won races across the country.",
+        "why": "It stresses socialist gains as a worrying trend, which fits the thesis that young voters need to be taught about freedom."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "A case for optimism for young people post-election",
+        "why": "The headline promises optimism, but the opening is a warning about youth voting patterns. That sets up an argument rather than a plain report."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "2841e429e538",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Middle-class investors shouldn’t be taxed on income they never received",
+    "link": "https://www.washingtonexaminer.com/op-eds/4815443/growth-act-mutual-fund-capital-gains-tax/",
+    "summary": "Every year, millions of Americans who invest in mutual funds are penalized with a tax bill even when they don’t sell a single share. When a mutual fund distributes capital gains, roughly 96% of investors automatically reinvest those distributions.",
+    "published": "2026-11-26T15:00:00+00:00",
+    "id": "faa5cfe80517",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 30,
+    "spin": 40,
+    "leanWhy": "The thesis headline and the wording (\"penalized,\" \"phantom taxes,\" \"harder than it needs to be\") use the right-coded economic frame of tax burden and government overreach. The excerpt has no opposing view or counterargument, and it makes the case for tax relief. The tax-relief theme has some bipartisan appeal, which keeps the lean moderate.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "these phantom taxes are making saving harder than it needs to be",
+        "why": "'Phantom taxes' is an argumentative label that presents the tax treatment as plainly unjust."
+      },
+      {
+        "type": "Framing",
+        "quote": "millions of Americans who invest in mutual funds are penalized with a tax bill",
+        "why": "Calling a tax bill a 'penalty' frames ordinary tax rules as punishment, a tax-burden framing."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "Middle-class investors shouldn’t be taxed on income they never received",
+        "why": "The thesis headline asserts a policy conclusion, and the excerpt reads as advocacy, not neutral explanation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "faa5cfe80517",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Food banks overwhelmed as people struggle to afford Thanksgiving meals",
+    "link": "https://www.cbsnews.com/video/food-banks-overwhelmed-as-people-struggle-to-afford-thanksgiving-meals/",
+    "summary": "Food banks and resource centers are overwhelmed this season, with nearly 6.5 million fewer Americans receiving food assistance this year. Jason Allen reports.",
+    "published": "2026-11-26T14:39:36+00:00",
+    "id": "649cabae52a4",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 20,
+    "leanWhy": "Only a headline and a short feed summary were available. The framing stresses overwhelmed food banks and a drop of nearly 6.5 million people receiving food assistance, which fits a left-coded safety-net and inequality frame. The summary gives no cause and no response from officials or other sources.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Food banks and resource centers are overwhelmed this season",
+        "why": "Leads with distress and strain, which emphasizes need and implies a safety-net shortfall."
+      },
+      {
+        "type": "Omission",
+        "quote": "nearly 6.5 million fewer Americans receiving food assistance this year",
+        "why": "The figure is given with no cause or context, such as policy changes or eligibility, so readers may infer a conclusion."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "649cabae52a4",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "‘These families will be essentially homeless’: Flatbush groups condemn response to building collapse",
+    "link": "https://www.theguardian.com/us-news/2026/nov/26/flatbush-brooklyn-nyc-building-collapse-response-homeless",
+    "summary": "Advocacy groups say displaced families were sent to ‘subpar hotels’ until 30 November, with no housing plans in place afterward Flatbush community leaders are in an uproar on behalf of those who have been displaced in the aftermath of an apartment building collapse in Brooklyn earlier this month.",
+    "published": "2026-11-26T14:00:36+00:00",
+    "id": "f5ef04ce6cc9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 20,
+    "leanWhy": "The piece leads with and relies on advocacy groups' criticism of the city's response, and the quoted voices are almost all community organizers. City officials get only brief, factual mentions with no real rebuttal. The framing is mild and the facts are mostly attributed, so the tilt is subtle.",
+    "signals": [
+      {
+        "type": "Headline framing",
+        "quote": "‘These families will be essentially homeless’",
+        "why": "The headline leads with an advocacy group's most alarming characterization as its framing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“There is complete disorganization and lack of transparency with the displaced tenants,”",
+        "why": "Critics are quoted at length, while city officials are not quoted responding to the complaints."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "“It is a ticking timebomb until there are actual solutions,”",
+        "why": "Dramatic rhetoric from the advocacy side is included without a counterweight."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "f5ef04ce6cc9",
+    "coverage": 1
+  },
+  {
+    "outlet": "NPR",
+    "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+    "link": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+    "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
+    "published": "2026-11-26T13:31:28+00:00",
+    "id": "705a64db92e9",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "Only a headline and short feed summary were available. The text reports Kim's vow with the hedge \"reportedly\" and attributes his stated reason to threats from the U.S. and South Korea. The phrase \"ignoring Trump's overture\" slightly frames the story around Trump's diplomacy failing, but it is mild.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "after ignoring Trump's overture",
+        "why": "The headline links Kim's move to a rebuffed Trump outreach, which implies his diplomacy failed, though the link is not shown in the text."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "705a64db92e9",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "No lead detected in Iowa air after Army's detonation, EPA says",
+    "link": "https://www.cbsnews.com/video/no-lead-detected-in-iowa-air-after-armys-detonation-epa-says/",
+    "summary": "No lead has been detected in the air near the Army's controlled blast site in Iowa, where they detonated nearly five tons of lead explosives on Wednesday, according to the Environmental Protection Agency. Some locals remain concerned. Ian Lee reports.",
+    "published": "2026-11-26T13:24:00+00:00",
+    "id": "3a1bd08486ff",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "3a1bd08486ff",
+    "coverage": 3
+  },
+  {
+    "outlet": "Fox",
     "title": "Trump, NATO chief push Russia to avoid any actions that would 'expand the war' with Ukraine",
     "link": "https://www.foxnews.com/politics/trump-nato-chief-push-russia-avoid-actions-expand-war-ukraine",
     "summary": "President Donald Trump and NATO chief Mark Rutte, who met Wednesday night at Mar-a-Lago, urged Russia to avoid actions that might expand the Ukraine war.",
@@ -181,7 +509,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "334edb041031",
+    "cluster": "3a1bd08486ff",
     "coverage": 3
   },
   {
@@ -207,7 +535,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "88edb547882a",
+    "cluster": "9bc40a39eb97",
     "coverage": 4
   },
   {
@@ -680,8 +1008,8 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "d5927d5c003e",
-    "coverage": 3
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1013,7 +1341,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "88edb547882a",
+    "cluster": "9bc40a39eb97",
     "coverage": 4
   },
   {
@@ -1049,7 +1377,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "334edb041031",
+    "cluster": "3a1bd08486ff",
     "coverage": 3
   },
   {
@@ -1111,7 +1439,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "88edb547882a",
+    "cluster": "9bc40a39eb97",
     "coverage": 4
   },
   {
@@ -1147,7 +1475,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "88edb547882a",
+    "cluster": "9bc40a39eb97",
     "coverage": 4
   },
   {
@@ -1219,7 +1547,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "334edb041031",
+    "cluster": "3a1bd08486ff",
     "coverage": 3
   },
   {
@@ -1239,7 +1567,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "2eb4008b5134",
+    "cluster": "649cabae52a4",
     "coverage": 1
   },
   {
@@ -1326,7 +1654,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "88edb547882a",
+    "cluster": "9bc40a39eb97",
     "coverage": 4
   },
   {
@@ -1511,8 +1839,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "73dd929629ae",
-    "coverage": 1
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1624,7 +1952,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "334edb041031",
+    "cluster": "3a1bd08486ff",
     "coverage": 3
   },
   {
@@ -1823,8 +2151,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "d5927d5c003e",
-    "coverage": 3
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -2075,8 +2403,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 1
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -2152,8 +2480,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "d5927d5c003e",
-    "coverage": 3
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -2266,8 +2594,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "d5927d5c003e",
-    "coverage": 3
+    "cluster": "d68d82b38475",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -2605,7 +2933,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b3ece4f12bcb",
+    "cluster": "edd9e61e4ad8",
     "coverage": 1
   },
   {
@@ -2641,8 +2969,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "d5927d5c003e",
-    "coverage": 3
+    "cluster": "98475b69494d",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -4799,7 +5127,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "98475b69494d",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -5745,7 +6073,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "4351f121d0c9",
+    "cluster": "863727e40020",
     "coverage": 1
   },
   {
@@ -6135,6 +6463,32 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "99c668f3c7ed",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Army to detonate unstable explosives in Iowa Wednesday morning",
+    "link": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/",
+    "summary": "A federal appeals court on Monday declined to block the Army from detonating explosives containing lead azide at a munitions plant in Iowa.",
+    "published": "2026-11-25T04:51:00+00:00",
+    "id": "863727e40020",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is mostly a factual recap of the Army's plan and the court ruling. It leans slightly toward the government's account because it quotes Army officials at length, while the environmental groups' objections get only a brief summary.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "\"There is consensus across the experts, across the country, that a controlled mitigated detonation",
+        "why": "Army officials' assurances are quoted at length, while the challengers' concerns are only paraphrased."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "863727e40020",
     "coverage": 1
   },
   {
@@ -8363,7 +8717,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a91e3a65a1ef",
+    "cluster": "3a936c85da90",
     "coverage": 1
   },
   {
@@ -8975,6 +9329,42 @@
     "coverage": 1
   },
   {
+    "outlet": "NBC News",
+    "title": "Family of teen killed by Georgia police officer demands release of body camera footage",
+    "link": "https://www.nbcnews.com/news/us-news/family-teen-killed-georgia-police-officer-demands-release-body-camera-rcna611153",
+    "summary": "The family of a Black teenager in Georgia who was killed in a police shooting said Tuesday that it wants transparency and called on the police department to release the officer body camera footage.",
+    "published": "2026-11-24T20:11:33+00:00",
+    "id": "0256437ed380",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 10,
+    "leanWhy": "The piece is mostly standard straight reporting that includes the GBI's account and the police department's statement. It leans slightly left by leading with the family's demand for transparency and the victim's race, and by giving the family's attorney the most quotable lines, such as the honor-roll student and \"young Black people running away\" remarks.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The family of a Black teenager in Georgia who was killed in a police shooting",
+        "why": "Leads with the victim's race and the family's framing, and describes the event as a killing, before the official account."
+      },
+      {
+        "type": "Source selection",
+        "quote": "was an honor roll student who dreamed of becoming a pediatric nurse",
+        "why": "Humanizing detail comes from the family's attorney and is not balanced by comparable context about the officer."
+      },
+      {
+        "type": "Source selection",
+        "quote": "I fail to understand why the most dangerous thing in America to police seems to be young Black people running away from them",
+        "why": "A pointed attorney quote about race and policing is included without rebuttal."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "0256437ed380",
+    "coverage": 1
+  },
+  {
     "outlet": "Daily Caller",
     "title": "Mexico Refuses To Hand Over Cartel Kingpin Wanted By US, Plans Its Own Trial",
     "link": "https://dailycaller.com/2026/11/24/mexico-cartel-kingpin-el-chapo-isidro-claudia-sheinbaum",
@@ -9250,433 +9640,6 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "8f5ee4514a67",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "‘Shocking’ decline seen in hep B vaccination against incurable virus, including babies with infected mothers",
-    "link": "https://www.nbcnews.com/health/health-news/hepatitis-b-vaccination-decline-newborns-liver-disease-study-rcna611070",
-    "summary": "Fewer newborns are being vaccinated against hepatitis B, an incurable infection that can lead to liver disease, a large new analysis has found.",
-    "published": "2026-11-24T18:56:06+00:00",
-    "id": "f309a7a0b1e4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -28,
-    "spin": 30,
-    "leanWhy": "The piece frames falling vaccination as a public health alarm. It relies on public-health experts and links the decline to \"anti-vaccine behavior\" and the loss of measles elimination status, and no skeptic or dissenting voice appears in the excerpt. The facts are well sourced and the study is attributed, but the emphasis and sourcing match the left-coded trust-in-experts frame.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "“It’s shocking to see a nearly 15% decline in three years,”",
-        "why": "The headline and lead quote use emotive wording ('shocking') to carry the alarm frame."
-      },
-      {
-        "type": "Framing",
-        "quote": "The findings mirror increasing trends in anti-vaccine behavior in general.",
-        "why": "The reporter ties the study to a broader anti-vaccine narrative, though the study may not measure motive."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“We talk about measles being the canary in the coal mine. We’re seeing those outbreaks,”",
-        "why": "Only public-health advocates are quoted, and no one with a different view on birth-dose policy appears."
-      },
-      {
-        "type": "Framing",
-        "quote": "reversing one of the country’s greatest public health achievements this century",
-        "why": "The text editorializes on the significance of the measles status loss."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "f309a7a0b1e4",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Trump presents Rudy Giuliani with Presidential Medal of Freedom",
-    "link": "https://www.cbsnews.com/news/trump-rudy-giuliani-presidential-medal-of-freedom-white-house/",
-    "summary": "Rudy Giuliani, the former mayor of New York City who worked as a personal lawyer to President Trump, said he will be honored in the Oval Office.",
-    "published": "2026-11-24T18:55:35+00:00",
-    "id": "31a9f1496eac",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 10,
-    "leanWhy": "The piece is mostly straight reporting of the award, but the excerpt gives the White House's and Giuliani's praise at length and unchallenged. It doesn't include critics or the controversies around Giuliani's 2020 election work, which are only alluded to in the descriptor \"personal lawyer during the 2020 election\".",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Mayor Rudy Giuliani is a dedicated public servant whose decisive leadership has left a lasting impact on New York City and our Nation,",
-        "why": "A long White House tribute is quoted in full with no critical or opposing voice in the excerpt."
-      },
-      {
-        "type": "Omission",
-        "quote": "who served as his personal lawyer during the 2020 election",
-        "why": "The excerpt describes his 2020 role without any context on the disputes over it, which softens a contested part of his record."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "844de576b9e4",
-    "coverage": 2
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Mamdani’s and AOC’s anti-Amazon stance will ‘make things far less affordable for New Yorkers’: Joe Concha",
-    "link": "https://www.washingtonexaminer.com/policy/finance-and-economy/4813933/mamdani-aoc-amazon-new-york-joe-concha/",
-    "summary": "Washington Examiner columnist Joe Concha slammed New York City Mayor Zohran Mamdani (D) for stunting growth in the city after backing legislation that would make Amazon deliveries more expensive. Concha called it a “bait and switch, because that’s what this feels like,” on Fox Business’s Kudlow on Monday.",
-    "published": "2026-11-24T18:52:40+00:00",
-    "id": "84313e8b12fd",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": 60,
-    "spin": 60,
-    "leanWhy": "Based on the headline and feed summary only, the piece amplifies a conservative commentator's attack on Democratic officials' Amazon policy. The headline adopts Concha's prediction as its main frame, and the summary uses \"slammed\" and \"stunting growth\" with no response from Mamdani or AOC.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "slammed New York City Mayor Zohran Mamdani (D) for stunting growth",
-        "why": "The verb 'slammed' and the unattributed 'stunting growth' adopt the critic's framing as fact."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Washington Examiner columnist Joe Concha",
-        "why": "The item rests on one conservative commentator on a business show, with no counter-view shown."
-      },
-      {
-        "type": "Framing",
-        "quote": "will ‘make things far less affordable for New Yorkers’",
-        "why": "The headline presents a contested prediction as the main takeaway, on the right-coded economy frame of regulation raising costs."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "84313e8b12fd",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Zelensky says US is aligned with Putin and criticizes Washington for Patriot missile delays",
-    "link": "https://www.washingtonexaminer.com/news/world/4813814/zelensky-us-aligned-putin-criticizes-patriot-missile-delay/",
-    "summary": "Ukrainian President Volodymyr Zelensky is amping up his pressure on the United States to increase support for his country, saying the Trump administration is “putting itself in a very unpleasant situation” by not sending more Patriot missiles to Kyiv. “Putin is counting on breaking Ukraine.",
-    "published": "2026-11-24T18:51:26+00:00",
-    "id": "68b1f82cac35",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 20,
-    "leanWhy": "The excerpt is mostly Zelensky's own quotes with no Trump administration response, which gives one side's framing and leaves out the other. The headline's \"aligned with Putin\" is a stronger claim than the quoted text supports, and that tilts the piece slightly toward criticism of the administration.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "Zelensky says US is aligned with Putin",
-        "why": "The headline puts a sharp claim up front, but the excerpt only quotes him saying the US is putting itself in an unpleasant situation and delaying interceptors."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Zelensky told Bloomberg.",
-        "why": "The excerpt relies only on Zelensky and has no White House or administration reply."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "amping up his pressure",
-        "why": "This wording casts the story as escalating pressure on Washington."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "68b1f82cac35",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Diary Entries Of Pope Francis Detail Encounters With Devil",
-    "link": "https://dailycaller.com/2026/11/24/pope-francis-demonic-attacks-devil-diary",
-    "summary": "‘The Lord granted me an opportunity to leave that meeting, and he thus freed me’",
-    "published": "2026-11-24T18:49:27+00:00",
-    "id": "e9dd4a1738c3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is a largely factual recap of published diary excerpts, attributed to CNN, with no editorializing on religion or Church politics. The sensational headline and the brief note on the Latin Mass decree add slight framing, but they do not push a conclusion either way.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "reportedly reveal he grappled with disturbing visions of the devil",
-        "why": "Sensational wording gives the story a lurid tone, though it is hedged with 'reportedly' and attributed."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "e9dd4a1738c3",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump’s DoJ ‘looked into’ concerns about Jensen Huang after alleged affair with Chinese spy but no security risk found – live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-    "summary": "Justice department and other agencies reached ‘collective consensus’ that Jensen Huang is not a national security risk, attorney general Todd Blanche says Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET.",
-    "published": "2026-11-24T18:49:21+00:00",
-    "id": "a91e3a65a1ef",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a live-blog recap of Blanche's press conference with direct quotes. It has a slight tilt: the headline stresses \"Trump's DoJ\" and \"alleged affair with Chinese spy\", and the excerpt dwells on Blanche becoming \"defensive\" when reporters pressed him.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump’s DoJ ‘looked into’ concerns about Jensen Huang after alleged affair with Chinese spy",
-        "why": "The headline ties the story to Trump and puts the scare quotes on 'looked into', which hints at skepticism of the DoJ."
-      },
-      {
-        "type": "Framing",
-        "quote": "the attorney general became defensive when reporters pressed him",
-        "why": "This characterizes Blanche's demeanor in unflattering terms, and the excerpt gives no outside view of whether the questions were fair."
-      },
-      {
-        "type": "Omission",
-        "quote": "Blanche largely declined to give reporters detailed information",
-        "why": "The excerpt emphasizes the lack of detail, but it offers no independent sourcing on the underlying allegation."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "a91e3a65a1ef",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "US Army Made Detonation Dilemma More Dangerous By Replacing Blast Doors With Plywood",
-    "link": "https://dailycaller.com/2026/11/24/us-army-detonation-iowa-army-ammunition-plant-lead-azide-blast-doors-removed-lead-dust-plume",
-    "summary": "‘The blast doors were removed in preparation’",
-    "published": "2026-11-24T18:37:59+00:00",
-    "id": "4c25c8c08f49",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 22,
-    "leanWhy": "The piece mostly relays DOJ court filings and an outside engineer's comments, with a headline that states the Army's fault as fact. That emphasis is mildly critical of a government agency, but the excerpt has no partisan framing and includes no Army response.",
-    "signals": [
-      {
-        "type": "Headline mismatch",
-        "quote": "US Army Made Detonation Dilemma More Dangerous By Replacing Blast Doors With Plywood",
-        "why": "The headline asserts the Army caused added danger as fact, while the body attributes this to DOJ attorneys' filing."
-      },
-      {
-        "type": "Omission",
-        "quote": "the Army made the situation more dangerous by removing blast doors and exposing the material to temperature swings",
-        "why": "The excerpt gives no Army response or explanation for removing the doors, so the criticism stands alone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Dr. Ron Sahu, a combustion outlet and environmental engineer, told the outlet that",
-        "why": "The only outside expert quoted implies poor storage monitoring caused the crystallization, reinforcing the critical frame."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "4c25c8c08f49",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Todd Blanche calls Nvidia a ‘good corporate citizen’ while dodging questions on investigation",
-    "link": "https://www.nbcnews.com/politics/trump-administration/todd-blanche-nvidia-investigation-ceo-jensen-huang-trump-rcna611132",
-    "summary": "Attorney General Todd Blanche praised Nvidia as a “good corporate citizen” while sidestepping questions about the Justice Department’s role in the president’s controversial decision to push for the reinstatement of CEO Jensen Huang.",
-    "published": "2026-11-24T18:37:56+00:00",
-    "id": "4ea727584027",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly direct quotes and attribution, but the headline and framing stress Blanche \"dodging\" and \"sidestepping\" questions and call Trump's decision \"controversial\". It dwells on his evasive, halting answers, which casts the administration unfavorably, while its sourcing leans on the administration's own statements and unnamed officials.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "dodging questions on investigation",
-        "why": "The headline characterizes the answers as evasion instead of neutrally describing them."
-      },
-      {
-        "type": "Framing",
-        "quote": "the president’s controversial decision to push for the reinstatement of CEO Jensen Huang",
-        "why": "Labeling the decision 'controversial' in the narrator's voice sets a critical frame."
-      },
-      {
-        "type": "Framing",
-        "quote": "“What does that mean?”",
-        "why": "Extended verbatim quoting of Blanche's stumbling replies emphasizes evasiveness and embarrasses the official."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "4ea727584027",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Boston marks Thanksgiving as ‘Day of Mourning’ while historic Plymouth battles anti-Thanksgiving activists",
-    "link": "https://www.foxnews.com/politics/boston-marks-thanksgiving-day-mourning-historic-plymouth-battles-anti-thanksgiving-activists",
-    "summary": "The Boston City Council's Day of Mourning resolution honors Indigenous peoples as Plymouth officials and activists clash in court over their own observances on Thanksgiving.",
-    "published": "2026-11-24T18:22:04+00:00",
-    "id": "1bdd93dfbbc6",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 15,
-    "leanWhy": "The piece is mostly straight reporting with attributed quotes, but the headline's \"battles anti-Thanksgiving activists\" frames the Plymouth dispute in a way that casts the activists as adversaries of the holiday, and the Fox-style emphasis on a symbolic resolution that \"carries no legal weight\" slightly deflates the council. The only quoted supporters are the council member and the activist, and the town's liability argument is reported fairly.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "battles anti-Thanksgiving activists",
-        "why": "Labels the activists as 'anti-Thanksgiving' and frames a stage-insurance dispute as a battle, which is not how the group describes itself."
-      },
-      {
-        "type": "Framing",
-        "quote": "the resolution carries no legal weight or changes to city operations",
-        "why": "Emphasizes the symbolic nature of the resolution, which mildly diminishes it."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "historic Plymouth battles",
-        "why": "The court dispute is over stage logistics and insurance, not the holiday itself, so the headline overstates the conflict."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "1bdd93dfbbc6",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Analysis: Fears over the AI boom haven't gone away",
-    "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-    "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
-    "published": "2026-11-24T18:21:43+00:00",
-    "id": "88ceea6d80de",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -22,
-    "spin": 35,
-    "leanWhy": "This is labeled analysis and takes a skeptical, critical view of Trump's intervention to reinstate Huang, using words like \"extraordinary\", \"astonishing\" and \"remarkable\" and no administration response. The market-fragility thesis is mostly economic, which limits the partisan tilt, but the framing of the White House as propping up a boom leans critical of Trump.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Among the truly astonishing reflections from President Trump",
-        "why": "Evaluative wording signals disapproval of Trump's remarks rather than neutrally reporting them."
-      },
-      {
-        "type": "Framing",
-        "quote": "The bond vigilantes and short sellers are now up against Silicon Valley and the White House.",
-        "why": "Casts the administration as part of an operation to prop up a market boom."
-      },
-      {
-        "type": "Source selection",
-        "quote": "those sceptical about the AI boom say they have never seen an operation to prop up a stock market boom like this",
-        "why": "Only sceptics are quoted, with no administration or bullish view offered in reply."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "the Nvidia psychodrama",
-        "why": "Dismissive, dramatizing label for the episode."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "88ceea6d80de",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump honors Rudy Giuliani with presidential medal of freedom",
-    "link": "https://www.theguardian.com/us-news/2026/nov/24/trump-giuliani-presidential-medal-of-freedom",
-    "summary": "President’s former lawyer, disbarred over effort to overturn 2020 election result, receives top civilian honor Donald Trump awarded Rudy Giuliani, his former personal attorney who was disbarred for his efforts to help the US president overturn 2020 election results , with the presidential medal of freedom on Tuesday.",
-    "published": "2026-11-24T18:09:17+00:00",
-    "id": "844de576b9e4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 20,
-    "leanWhy": "The piece is mostly factual and includes the White House's and Andrew Giuliani's praise. But the headline and subheading stress the disbarment, and the article lists his legal and reputational setbacks at length, which mostly frames the honor as discrediting. Mirror test: a right-leaning outlet would likely stress his 9/11 leadership more and drop or play down the setbacks.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "disbarred over effort to overturn 2020 election result",
-        "why": "The subheading puts the disbarment first and frames the honor around it."
-      },
-      {
-        "type": "Omission",
-        "quote": "though both cases were eventually dismissed",
-        "why": "The charges and settlements get long, detailed treatment, while the dismissals are mentioned only briefly."
-      },
-      {
-        "type": "Framing",
-        "quote": "In the decades after 9/11, Giuliani’s reputation suffered several blows, in part because of his loyalty to Trump.",
-        "why": "This editorial summary of his reputation steers the reader toward a negative reading of the award."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "844de576b9e4",
-    "coverage": 2
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "EXCLUSIVE: Rep. Ryan Zinke Doubles Down On Trump Policies After GOP’s Midterm ‘Mauling,’ Says Messaging Was To Blame",
-    "link": "https://dailycaller.com/2026/11/24/ryan-zinke-interview-midterms-republicans-democrats",
-    "summary": "‘I think we paid a price for it’",
-    "published": "2026-11-24T17:55:12+00:00",
-    "id": "0676eaf82c5f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is an interview-driven news report that centers Zinke's own view that messaging, not policy, caused the losses. It adds some context unfavorable to the GOP, such as the war's unpopularity and the margin of loss, but it also gives the Republican's defense of the policies, and the loaded terms mostly come from his own quotes or are attributed to observers.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "a Democrat-controlled Congress assumes the reins to steer Washington toward an unknown future",
-        "why": "Slightly dramatic framing of the change in congressional control."
-      },
-      {
-        "type": "Framing",
-        "quote": "The Democratic Party won the generic House ballot by a whopping 14 percentage points",
-        "why": "'Whopping' is emphatic wording that stresses the scale of the GOP loss."
-      },
-      {
-        "type": "Framing",
-        "quote": "Trump’s perceived betrayal of his campaign promise to avoid bogging the U.S. in endless wars",
-        "why": "Adds a critical frame of Trump, though hedged with 'perceived'."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "0676eaf82c5f",
     "coverage": 1
   }
 ]
