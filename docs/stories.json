@@ -1,5 +1,359 @@
 [
   {
+    "outlet": "CBS News",
+    "title": "As Thanksgiving meal costs rise, food donation lines get longer",
+    "link": "https://www.cbsnews.com/video/thanksgiving-meal-costs-rise-food-donation-lines-get-longer/",
+    "summary": "At the home of the Dallas Cowboys, thousands of cars inched across the massive parking lot as volunteers filled truck beds with turkeys, potatoes, cabbage and carrots. The cost of a Thanksgiving meal is even more expensive this year, creating more demand from families in need. Jason Allen has more.",
+    "published": "2026-11-26T01:11:16+00:00",
+    "id": "2eb4008b5134",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "Only the headline and a short feed summary were available. The piece is a human-interest account of food donation demand tied to higher Thanksgiving costs. It assigns no blame to any party or policy, though the cost-of-living emphasis mildly echoes economic-hardship framing.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "2eb4008b5134",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Trump blames volatile stock market on midterm election results",
+    "link": "https://www.cbsnews.com/video/trump-blames-volatile-stock-market-midterm-election-results/",
+    "summary": "President Trump blamed the volatile stock market on the midterm election results that will put Democrats in control of Congress in January. Weijia Jiang has more.",
+    "published": "2026-11-26T01:07:13+00:00",
+    "id": "c3b29d7080f6",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "Only a headline and a short feed summary are available. They attribute the claim to Trump and report it without commentary or rebuttal, so the framing is mostly neutral. Leading with the attributed claim lightly exposes it to scrutiny, but no loaded wording appears.",
+    "signals": [],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "c3b29d7080f6",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Judge declines to issue long-term ban on tax-funded pro-Trump ads",
+    "link": "https://www.cbsnews.com/news/judge-declines-long-term-ban-pro-trump-ads/",
+    "summary": "A federal judge has sided against Democrats on the federal government's taxpayer-funded political ads, which critics say were illegal propaganda intended to promote President Trump.",
+    "published": "2026-11-26T01:07:04+00:00",
+    "id": "aeb0bf2b2be1",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "Only a headline and a short feed summary are available. The headline and summary call the ads \"pro-Trump\" and repeat critics' view that they were \"illegal propaganda\", which adopts the challengers' framing without any response from the government.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "illegal propaganda intended to promote President Trump",
+        "why": "Presents critics' characterization, with no administration rebuttal in the summary, which colors the ads' purpose."
+      },
+      {
+        "type": "Framing",
+        "quote": "tax-funded pro-Trump ads",
+        "why": "The headline labels the ads as pro-Trump rather than describing them neutrally as government ads."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "aeb0bf2b2be1",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Judge blocks FCC review of ABC station licenses for now",
+    "link": "https://www.nbcnews.com/business/media/judge-blocks-fcc-review-abc-station-licenses-now-rcna601892",
+    "summary": "The Walt Disney Co. secured a temporary restraining order Wednesday blocking the Federal Communications Commission from moving forward with an unusually early review of ABC’s broadcast-station licenses, which the media company has called an attack on free speech by the Trump administration.",
+    "published": "2026-11-26T00:45:11+00:00",
+    "id": "8ae1587b854b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting of a court ruling, but the quoted material is dominated by Disney's lawyer and the judge's pointed language about retaliation. The FCC's side gets only one sentence (a jurisdiction argument) and no comment, so the free-speech/retaliation framing prevails.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "which the media company has called an attack on free speech by the Trump administration",
+        "why": "The lede adopts Disney's characterization of the dispute as the framing, with no FCC counter-framing alongside it."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“Chairman Carr has taken President Trump’s rhetoric as his marching orders,”",
+        "why": "Strongest judicial quotes against the administration are featured heavily, while the FCC's argument is summarized in a single sentence."
+      },
+      {
+        "type": "Omission",
+        "quote": "The FCC’s lawyers argued at the hearing that the U.S. District Court does not have jurisdiction in the matter",
+        "why": "The FCC's position is brief and not developed, and its substantive rationale beyond jurisdiction is absent."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8ae1587b854b",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Sen. Eric Schmitt urges DOJ investigation after USAID file dump unveils Biden initiatives",
+    "link": "https://www.washingtonexaminer.com/news/justice/4815974/eric-schmitt-doj-investigation-usaid-files/",
+    "summary": "Sen. Eric Schmitt (R-MO) is calling on the Department of Justice to investigate the U.S. Agency for International Development after the Trump administration released files showing a “behind the scenes” look at the agency’s Biden-era activities.",
+    "published": "2026-11-26T00:31:48+00:00",
+    "id": "f7a615413b4c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 45,
+    "spin": 40,
+    "leanWhy": "The excerpt adopts the DOGE/Trump framing, describing Musk taking \"a chainsaw to government waste, fraud, and abuse\" as fact. It relays Schmitt's call and the administration's release without any Democratic or USAID response or evidence of wrongdoing in the files.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Elon Musk took a chainsaw to government waste, fraud, and abuse",
+        "why": "Presents the contested premise that USAID was waste, fraud and abuse as established fact, in the administration's own framing."
+      },
+      {
+        "type": "Framing",
+        "quote": "essentially axed the agency from top to bottom",
+        "why": "Celebratory-sounding recap of the agency's dismantling without noting criticism or legal disputes."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a “behind the scenes” look at the agency’s Biden-era activities",
+        "why": "Takes the administration's characterization of the file release at face value, with no independent or opposing voices in the excerpt."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "after USAID file dump unveils Biden initiatives",
+        "why": "Implies the files reveal something improper, but the excerpt shows no specific wrongdoing."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "f7a615413b4c",
+    "coverage": 1
+  },
+  {
+    "outlet": "BBC",
+    "title": "US approves SpaceX plan to send a million data satellites to space",
+    "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+    "published": "2026-11-26T00:07:51+00:00",
+    "id": "e810d3970d59",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly straight reporting of an FCC approval. It leans slightly toward the company and regulator because it quotes Carr and Musk at length and repeats the \"greener alternative\" pitch. It does include context on local opposition to data centres and on the uncertainty over the satellite count.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "This is the kind of American ingenuity that can unite our strengths in space and advanced technology",
+        "why": "Long promotional quotes from the regulator and Musk appear, with no critics of orbital satellites, such as astronomers or debris experts, quoted in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "is being pitched as a greener alternative to traditional centres",
+        "why": "The environmental benefit is presented as the industry's pitch and not tested, though the word 'pitched' signals some distance."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "e810d3970d59",
+    "coverage": 3
+  },
+  {
+    "outlet": "Fox",
+    "title": "2nd Circuit deals blow to Manhattan DA, breathes new life into Trump's hush money appeal",
+    "link": "https://www.foxnews.com/politics/second-circuit-deals-blow-manhattan-da-breathes-new-life-trump-hush-money-appeal",
+    "summary": "President Donald Trump's bid to move his New York hush money case to federal court is revived after the 2nd Circuit cited errors in a prior denial.",
+    "published": "2026-11-26T00:00:15+00:00",
+    "id": "7e8888e86be8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual recap of a court ruling, includes the prosecutors' arguments, and notes that the conviction remains and that a pardon is not available. The headline and lead (\"deals blow,\" \"legal victory,\" \"wrest\") frame it from Trump's winning side, and the Trump attorney's quote about delay is given more room than the prosecutors' counter.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "deals blow to Manhattan DA, breathes new life into Trump's hush money appeal",
+        "why": "Dramatic headline verbs frame the ruling as a win for Trump and a loss for prosecutors."
+      },
+      {
+        "type": "Framing",
+        "quote": "reviving his bid to wrest his New York hush money case from state court",
+        "why": "\"Wrest\" and the victory framing emphasize Trump's gain, though it is mild."
+      },
+      {
+        "type": "Source selection",
+        "quote": "warned that leaving the case in New York's judicial system could significantly delay",
+        "why": "The Trump attorney's warning gets a direct quote and the prosecutors' position is paraphrased more briefly."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "7e8888e86be8",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Socialists on blast for pledging to weed money out of politics but accepting business execs' checks anyway",
+    "link": "https://www.foxnews.com/politics/socialists-blast-pledging-weed-money-out-politics-accepting-business-execs-checks-anyway",
+    "summary": "An investigation of FEC records found 24 corporate executives gave $675,300 to DSA-endorsed candidates like Rashida Tlaib and progressive PACs.",
+    "published": "2026-11-25T23:00:23+00:00",
+    "id": "87d2da0927d3",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 48,
+    "spin": 50,
+    "leanWhy": "The piece frames progressive candidates as hypocrites using a headline and lead built on right-leaning sources (a Republican lawmaker, an anti-DEI nonprofit, a Heritage economist), with no response from the Democratic Socialist candidates. It does include some nuance, noting the pledges were about corporate PACs and that the records don't establish executives sought favors, but that comes late and is outweighed by the accusatory frame.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "Socialists on blast",
+        "why": "Tabloid-style headline phrasing presents the candidates as being under attack and sets up a hypocrisy narrative."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"If you're taking money from them, at least be man enough to admit you're going to take the money,\"",
+        "why": "The only named reaction comes from a Republican, and the lead quote is a partisan jab. No Democratic or DSA response is shown."
+      },
+      {
+        "type": "Framing",
+        "quote": "Far-left lawmakers are facing accusations of hypocrisy",
+        "why": "The lead adopts the hypocrisy frame and labels the lawmakers 'far-left'. The accusations come from the outlet's own sourcing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Heritage Foundation chief economist E.J. Antoni spelled out",
+        "why": "A conservative think-tank voice supplies the interpretation of donor motives, and the article offers no counterweight."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "right",
+    "cluster": "87d2da0927d3",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Judge halts order requiring Fulton County to turn over copies of 2020 ballots",
+    "link": "https://www.nbcnews.com/politics/elections/judge-halts-order-fulton-county-copies-2020-ballots-georgia-election-rcna611353",
+    "summary": "The judge previously ruled the county had to turn over unredacted digital copies of election materials to the State Election Board, which is run by Trump allies.",
+    "published": "2026-11-25T22:49:14+00:00",
+    "id": "93b5dc67b06e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a straight account of the judge's pause, but it repeatedly describes the election board as run by \"Trump allies\" and calls the fraud claims \"false\" without any response from the board or Trump side. The background framing leans toward the left-coded view of these efforts as politically motivated, though the facts stated are generally accepted.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "which is run by Trump allies",
+        "why": "The summary defines the board by its political ties, which casts the records request as partisan."
+      },
+      {
+        "type": "Framing",
+        "quote": "as they seek to find evidence to support their false claims of widespread voter fraud",
+        "why": "This attributes motive to Trump and his allies and gives only one side's characterization, with no response from them."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Superior Court Judge Kelly Lee Ellerbe halted the previous day’s order",
+        "why": "The excerpt has no quotes or statements from the election board or the county, so the context comes from the writer's framing alone."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "e79a5ae40573",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Judge Christopher Cooper blocks Trump’s second attempt at limiting birthright citizenship",
+    "link": "https://www.washingtonexaminer.com/news/justice/4815735/judge-blocks-trump-second-attempt-birthright-citizenship/",
+    "summary": "A U.S. district judge in Washington, D.C., barred President Donald Trump’s latest executive order aimed at stripping back birthright citizenship protections. In August, Trump signed a new executive order aimed at curbing birthright citizenship by targeting specific categories of narrow exceptions to the 14th…",
+    "published": "2026-11-25T22:31:43+00:00",
+    "id": "28d1570b4510",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The excerpt is a short, mostly factual recap of a court ruling and the background of the two executive orders. Wording such as \"stripping back\" birthright citizenship leans slightly toward the critics' framing, and no administration response or opposing view appears in the excerpt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "aimed at stripping back birthright citizenship protections",
+        "why": "\"Stripping back protections\" is a critic-leaning description of the order's purpose, not the administration's own framing."
+      },
+      {
+        "type": "Omission",
+        "quote": "barred President Donald Trump’s latest executive order",
+        "why": "The excerpt gives no administration or White House response or legal rationale."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "28d1570b4510",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Biden’s memoir is a ‘chance to set the record straight,’ says longtime aide Steve Ricchetti",
+    "link": "https://www.nbcnews.com/meet-the-press/video/biden-s-memoir-is-a-chance-to-set-the-record-straight-says-longtime-aide-steve-ricchetti-274189893756",
+    "summary": "Steve Richetti joins Meet the Press NOW to reflect on President Biden’s legacy and react to the former president’s new memoir.",
+    "published": "2026-11-25T22:05:17+00:00",
+    "id": "34b10c815bd6",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "Only a headline and a short feed summary were available. The headline uses a Biden loyalist's own phrase, \"chance to set the record straight,\" as its frame, and the summary says the aide will \"reflect on\" Biden's legacy. That gives the former president's side the platform, though it may simply describe an interview.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "says longtime aide Steve Ricchetti",
+        "why": "The headline's framing comes from a Biden loyalist, so the favorable view of the memoir is the only one shown."
+      },
+      {
+        "type": "Framing",
+        "quote": "chance to set the record straight",
+        "why": "Repeating the aide's phrase without a counterpoint presents the memoir as a correction of the record."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "left",
+    "cluster": "34b10c815bd6",
+    "coverage": 1
+  },
+  {
     "outlet": "The Guardian",
     "title": "Chris Van Hollen picks up more support for Senate majority leader role ahead of Democrats vote next week – live",
     "link": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
@@ -114,8 +468,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "ac4ba4e9da7b",
-    "coverage": 1
+    "cluster": "28d1570b4510",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -195,6 +549,88 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "President Trump Is Failing On Algorithmic Immigration",
+    "link": "https://dailycaller.com/2026/11/25/opinion-donald-trump-artificial-intelligence-algorithmic-immigration-nico-zviovich",
+    "summary": "‘It was not supposed to go this way’",
+    "published": "2026-11-25T21:40:55+00:00",
+    "id": "42ccc90b3331",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 60,
+    "leanWhy": "This is an opinion piece criticizing Trump's AI policy from a populist-right, working-class angle, using the \"algorithmic immigrants\" metaphor and anti-Big Tech, anti-establishment framing. It mixes right-coded themes (border and immigration rhetoric, a sympathetic Trump origin story, criticism of the \"Republican establishment\") with cross-cutting anti-corporate and anti-Big Tech sentiment, so it favors neither side cleanly.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "These algorithmic immigrants (AI for short) are racing to America’s shores without visas and taking Americans’ jobs for no pay",
+        "why": "The extended immigration metaphor pushes an emotional conclusion about AI by borrowing border-security rhetoric."
+      },
+      {
+        "type": "Framing",
+        "quote": "Trump rightfully warned that the people running the country had sold out the people living in it.",
+        "why": "The author endorses a populist framing in his own voice rather than attributing it."
+      },
+      {
+        "type": "Framing",
+        "quote": "he betrayed that promise and voters responded resoundingly during the midterms",
+        "why": "This is a sweeping assertion of betrayal and electoral punishment stated as fact in the opening."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "a tech industry that bought off both parties and hollowed out America’s white- and blue-collar sectors",
+        "why": "A sweeping anti-Big Tech claim is stated without attribution or evidence."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "42ccc90b3331",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Military Doctors Warn Pentagon’s Iran War Medical Preparations Could Cost American Lives",
+    "link": "https://dailycaller.com/2026/11/25/military-doctors-iran-war-pentagon-medical-preparations",
+    "summary": "‘He may not come home’",
+    "published": "2026-11-25T21:35:22+00:00",
+    "id": "c394f7433f02",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 30,
+    "leanWhy": "The piece relays MS NOW's reporting that critiques the Pentagon's handling of the Iran war, relying almost entirely on military families and an officer's letter, with the military's denial given a single sentence. The headline and the \"he may not come home\" subhead stress the risk of American deaths, a frame that is critical of the administration's war conduct. Attribution is careful (\"reportedly,\" \"alleged\"), and the Iranian violations are noted, which keeps the tilt moderate.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Could Cost American Lives",
+        "why": "The headline gives a strong warning, but the excerpt backs it with spouses' and one officer's allegations rather than broad medical-corps findings."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Military spouses have alleged that their service members in the Medical Battalion have faced intentional attacks.",
+        "why": "The sourcing is mostly family members and one anonymous officer, while the military's response is limited to a brief assertion."
+      },
+      {
+        "type": "Framing",
+        "quote": "“like a prison camp,”",
+        "why": "A vivid, emotional quote is used to set the tone, and the subhead repeats the fear that 'he may not come home'."
+      },
+      {
+        "type": "Source selection",
+        "quote": "the armed forces assert that all surgical teams have access to hardened medical facilities and adequate supplies",
+        "why": "The official rebuttal gets one sentence and is placed against a long run of critical testimony."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "c394f7433f02",
+    "coverage": 1
+  },
+  {
     "outlet": "CBS News",
     "title": "China may have surveilled Alice Huang amid affair with Nvidia CEO",
     "link": "https://www.cbsnews.com/news/chinese-intel-may-have-surveilled-alice-huang-after-affair-nvidia-ceo/",
@@ -223,7 +659,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "73dd929629ae",
-    "coverage": 6
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -300,7 +736,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "73dd929629ae",
-    "coverage": 6
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -470,7 +906,48 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "13d1191ca154",
-    "coverage": 2
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines",
+    "link": "https://www.foxnews.com/politics/exclusive-white-house-accuses-south-korea-breaking-promise-trump-us-tech-giant-faces-688m-fines",
+    "summary": "The White House says Seoul broke a promise to President Donald Trump on fair treatment for U.S. tech companies as regulators fined Coupang $688 million.",
+    "published": "2026-11-25T20:16:44+00:00",
+    "id": "ae577b45bbf1",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 22,
+    "spin": 25,
+    "leanWhy": "The piece is an exclusive built on White House and State Department claims. Its headline states the accusation, and the lead and framing follow the administration's account (\"assault\", \"punched back\"). The South Korean embassy gets a substantial rebuttal, which limits the tilt. The excerpt also stresses the ruling party's liberal identity.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines",
+        "why": "The headline leads with the administration's accusation and casts Coupang as a US tech giant under fines, adopting the White House's framing."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "A South Korean embassy official punched back at the White House's allegation",
+        "why": "Combative phrasing dramatizes the embassy's response as a fight rather than reporting it neutrally."
+      },
+      {
+        "type": "Source selection",
+        "quote": "the Korea Fair Trade Commission’s continued \"assault\" on American companies",
+        "why": "The State Department's charged wording is repeated without independent analysis of whether the fines are warranted."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Democratic Party is South Korea's main liberal party and favors progressive domestic",
+        "why": "The excerpt stresses the ruling party's liberal identity, which hints at an ideological motive for the fines without evidence."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "ae577b45bbf1",
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -542,6 +1019,109 @@
     "confidence": "high",
     "storyChoice": "right",
     "cluster": "0b401aca4621",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+    "link": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+    "summary": "Ábrego García chooses to depart from US after previously being deported to El Salvador due to ‘administrative error’ US politics – live updates Kilmar Ábrego García, the Salvadorian national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts, has landed in Spain.",
+    "published": "2026-11-25T19:36:24+00:00",
+    "id": "a170a1f4c7b1",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -30,
+    "spin": 25,
+    "leanWhy": "The excerpt leans on Ábrego García and his lawyer's framing, including \"complete victory\" and \"inhumanely\", and it describes the earlier deportation as a violation of a judge's order. The DHS \"self-deported\" response appears only at the very end of the excerpt, and no critic of his case is quoted in it.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "He described it as a “complete victory”",
+        "why": "The lawyer's triumphant framing gets extended space, while the government's account is cut off at the end."
+      },
+      {
+        "type": "Framing",
+        "quote": "a notorious anti-terrorism mega-prison, in violation of the US immigration judge’s 2019 order",
+        "why": "The wording stresses the wrongfulness of the deportation and the prison's bad reputation, and does not mention the administration's stated justifications."
+      },
+      {
+        "type": "Framing",
+        "quote": "the Salvadorian national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts",
+        "why": "The framing casts him as a symbol of the crackdown and calls the deportation a mistake, which sets the sympathetic tone."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "after ‘leaving happy’",
+        "why": "The headline puts his own upbeat words up front as the story's framing."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a170a1f4c7b1",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Vance says Jensen Huang doesn’t need pardon after Trump says ‘it’s an option’",
+    "link": "https://www.theguardian.com/us-news/2026/nov/25/trump-open-to-pardoning-jensen-huang-nvidia",
+    "summary": "Vice-president says he supports reinstatement of Nvidia CEO after ‘assurances’ from top US officials was ‘under no investigation’ JD Vance said on Wednesday that Jensen Huang , the recently reinstalled Nvidia CEO , was never under criminal investigation and therefore did not need a pardon after Donald Trump said he…",
+    "published": "2026-11-25T19:36:22+00:00",
+    "id": "581b8b61ccb3",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting with direct quotes from Vance, Trump and Blanche. It tilts mildly toward a critical view of the administration by noting inconsistencies in its statements, saying the administration \"intervened\" and \"put pressure\" on the board, and ending the excerpt on a Republican senator's questions.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump and Vance intervened in Nvidia’s leadership drama and put pressure on the tech company’s board",
+        "why": "This states the administration's pressure on the board as fact in the narrator's own voice, which casts the government's role in a negative light."
+      },
+      {
+        "type": "Framing",
+        "quote": "Yet days earlier, Trump told CNBC that his administration had done “a pretty good investigation” to exonerate Huang.",
+        "why": "The 'Yet' sets Trump's statements against Blanche's and Vance's, which stresses inconsistency in the administration's account."
+      },
+      {
+        "type": "Framing",
+        "quote": "Vance’s comments appeared to confirm that the DoJ never initiated a formal investigation into Huang.",
+        "why": "This is the reporter's interpretation, and it adds to the suggestion that the administration's vetting was inadequate."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "581b8b61ccb3",
+    "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "Lindsay Clancy retrial moves forward as state's highest court denies prosecutors' request to pause murder case",
+    "link": "https://www.foxnews.com/us/lindsay-clancy-retrial-moves-forward-states-highest-court-denies-prosecutors-request-pause-murder-case",
+    "summary": "The Massachusetts Supreme Judicial Court denied prosecutors' bid to pause Lindsay Clancy's murder case as her double jeopardy appeal is considered.",
+    "published": "2026-11-25T19:27:03+00:00",
+    "id": "229d06798907",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is a straight procedural recap that quotes both prosecutors and defense lawyers and attributes the charges as accusations. The one outside expert quoted supports the prosecution's request, which is a slight tilt, but the piece draws no conclusion.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "I see this as a reasonable request, and the parties have not even publicly stated",
+        "why": "The only outside legal expert quoted backs the prosecution's position and gets the last word, with no comparable expert for the defense."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "229d06798907",
     "coverage": 1
   },
   {
@@ -634,8 +1214,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "d92d4281500d",
-    "coverage": 2
+    "cluster": "e810d3970d59",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -866,8 +1446,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "edd9e61e4ad8",
-    "coverage": 3
+    "cluster": "a170a1f4c7b1",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -897,8 +1477,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "d92d4281500d",
-    "coverage": 2
+    "cluster": "e810d3970d59",
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -1062,8 +1642,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 6
+    "cluster": "581b8b61ccb3",
+    "coverage": 2
   },
   {
     "outlet": "Fox",
@@ -1165,8 +1745,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 6
+    "cluster": "581b8b61ccb3",
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -1248,7 +1828,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "73dd929629ae",
-    "coverage": 6
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -1279,7 +1859,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "bbccaa6dd277",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "The Guardian",
@@ -1372,7 +1952,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "73dd929629ae",
-    "coverage": 6
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -1424,7 +2004,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "bbccaa6dd277",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -1532,7 +2112,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "bbccaa6dd277",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -1855,7 +2435,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "bbccaa6dd277",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -2146,7 +2726,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "ad3d6e250cf9",
+    "cluster": "dea16e84119d",
     "coverage": 1
   },
   {
@@ -2208,8 +2788,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 6
+    "cluster": "98475b69494d",
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -2228,8 +2808,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "bbccaa6dd277",
-    "coverage": 5
+    "cluster": "fb76e427ee44",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2336,8 +2916,8 @@
     ],
     "confidence": "high",
     "storyChoice": "left",
-    "cluster": "13d1191ca154",
-    "coverage": 2
+    "cluster": "bf35a198720b",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2398,8 +2978,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "edd9e61e4ad8",
-    "coverage": 3
+    "cluster": "8a03fc068542",
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -2434,8 +3014,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 6
+    "cluster": "577f3df11793",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2475,8 +3055,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "73dd929629ae",
-    "coverage": 6
+    "cluster": "8dce261ab589",
+    "coverage": 1
   },
   {
     "outlet": "BBC",
@@ -2511,8 +3091,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "edd9e61e4ad8",
-    "coverage": 3
+    "cluster": "4ed8866bb738",
+    "coverage": 2
   },
   {
     "outlet": "NPR",
@@ -2592,7 +3172,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "b4f595c444fc",
+    "cluster": "551930832b8d",
     "coverage": 1
   },
   {
@@ -6972,8 +7552,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "5186ad1cded4",
-    "coverage": 2
+    "cluster": "bd3e163b7f3b",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -7080,7 +7660,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b8cd1c8675ed",
+    "cluster": "31d73ba4ec84",
     "coverage": 2
   },
   {
@@ -7167,8 +7747,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "a3aa55043cdc",
-    "coverage": 2
+    "cluster": "de61874ad254",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -7850,8 +8430,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "10d41bf2a92b",
-    "coverage": 2
+    "cluster": "1b1d86b9f31b",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -7948,8 +8528,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "10d41bf2a92b",
-    "coverage": 2
+    "cluster": "1b1d86b9f31b",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -9044,562 +9624,7 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "930dc8cf5571",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-    "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-    "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-    "published": "2026-11-24T04:36:31+00:00",
-    "id": "10d41bf2a92b",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 15,
-    "leanWhy": "The piece is mostly factual reporting with Trump's quotes and the board's statement, but the headline leads with \"backlash\" against Trump and the framing stresses his personal intervention and stock-market motives. The sourcing included in the excerpt is an AI-safety professor saying the board was under \"enormous pressure\" from the White House, with no pro-Trump voice visible in the excerpt.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump faces backlash after saying he 'convinced' Nvidia",
-        "why": "The headline centers on criticism of Trump rather than on the reinstatement itself."
-      },
-      {
-        "type": "Source selection",
-        "quote": "must have been under \"enormous pressure\" from the White House",
-        "why": "The excerpt's outside commentary is a critic's speculation about White House pressure, and no supportive voice appears."
-      },
-      {
-        "type": "Framing",
-        "quote": "The president was asked whether Nvidia stock losses after Huang resigned last week had influenced his decision to personally intervene.",
-        "why": "The line emphasizes a market-motive angle for Trump's intervention."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "10d41bf2a92b",
+    "cluster": "31d73ba4ec84",
     "coverage": 2
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Army plans Wednesday detonation of unstable lead azide in Iowa",
-    "link": "https://www.washingtonexaminer.com/policy/defense/4813397/army-wednesday-detonation-lead-azide-iowa/",
-    "summary": "Acting Army Secretary Adam Telle on Monday said the branch will move forward with detonating unstable lead explosive in Iowa on Wednesday after a federal appeals court, as well as Gov. Kim Reynolds (R-IA) and Gov.-elect Rob Sand (D-IA), gave the green light. The 8th U.S.",
-    "published": "2026-11-24T03:55:51+00:00",
-    "id": "b8cd1c8675ed",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 12,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a straight recap that relies heavily on the Army secretary's framing of a \"consensus decision\" backed by \"every expert agency\". The environmental plaintiffs get only a brief, summarized statement of their arguments and no direct quote, which gives a slight tilt toward the government's view.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "“This is a consensus decision,” Telle said. “Every expert agency agrees",
-        "why": "The official's claim of unanimity is quoted at length and early, while the plaintiffs are only paraphrased."
-      },
-      {
-        "type": "Framing",
-        "quote": "Sand’s objection stemmed from feelings that the public was not well informed",
-        "why": "Describing the objection as 'feelings' downplays the governor-elect's concern about transparency."
-      },
-      {
-        "type": "Source selection",
-        "quote": "It is the unanimous judgement of our people — the Army, Navy, EPA, ATF, FBI, DARPA, DoE, CDC, HHS, FEMA",
-        "why": "A long list of agencies reinforces the official's authority and no independent expert is cited."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "b8cd1c8675ed",
-    "coverage": 2
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Newsom urges reforms to presidential pardon power: ‘Justice is not for sale’",
-    "link": "https://www.washingtonexaminer.com/news/justice/4813271/gavin-newsom-trump-pardon-power/",
-    "summary": "Gov. Gavin Newsom (D-CA) on Monday called for reforms of presidential pardon power, accusing President Donald Trump of putting his executive power up for sale and making the Justice Department his “law firm.” The California governor’s comments mark the latest public skirmish with Trump after the president condemned…",
-    "published": "2026-11-24T03:26:56+00:00",
-    "id": "8953a3e16df3",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 22,
-    "leanWhy": "The piece is mostly a recap of Newsom's video and uses attribution like \"claims\" and \"frames\". But it gives Newsom's rebuttal and pardon examples the most space and the last word. Trump's side gets only a brief summary of the press conference, with no direct quotes and no response to Newsom's allegations.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "“Donald Trump doesn’t oppose mercy; he sells it,” Newsom said.",
-        "why": "Newsom's quotes dominate the excerpt, while Trump and the victims' families are paraphrased without direct quotes."
-      },
-      {
-        "type": "Framing",
-        "quote": "Newsom cited six instances in which he claims Trump tipped the scales of justice or acted improperly",
-        "why": "The excerpt lists the pardon examples in detail and includes no Trump or White House rebuttal."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "‘Justice is not for sale’",
-        "why": "The headline leads with Newsom's slogan, which presents his framing as the story."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "8953a3e16df3",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Coast Guard boards 2 foreign ships bound for US amid reports of Iranian hacking probe",
-    "link": "https://www.foxnews.com/us/coast-guard-boards-2-foreign-ships-bound-us-ports-amid-reports-iran-hacking-probe",
-    "summary": "U.S. Coast Guard cyber teams boarded two foreign vessels in the Gulf of America after their networks were compromised by foreign cyber actors at sea.",
-    "published": "2026-11-24T03:07:21+00:00",
-    "id": "999d953defb4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a mostly factual recap of Coast Guard statements and Wall Street Journal reporting on a suspected Iran-linked cyber campaign against tankers. It relies on official sources and attributes claims, with only a mild security-threat emphasis and no partisan framing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "999d953defb4",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Republican lawmakers break with Trump over alleged Nvidia chip smuggling after Jensen Huang’s reinstatement – as it happened",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/23/donald-trump-democrats-republicans-presidential-primary-midterms-house-latest-news-updates",
-    "summary": "This live blog is now closed. Jensen Huang reinstated as Nvidia CEO after Trump intervenes Sign up to the Breaking News US email Nvidia ’s shares have surged by 31% at the start of trading following the news.",
-    "published": "2026-11-24T03:04:41+00:00",
-    "id": "0b8b7f766534",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -40,
-    "spin": 40,
-    "leanWhy": "The live blog uses sarcastic, mocking language about Trump (\"which was all very normal\", \"lame-duck president\") and frames Republican dissent and Warren's criticism as the main thread. Trump's side gets no direct response, and the piece ends on Warren's critique.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "which was all very normal",
-        "why": "Sarcasm editorializes about Trump's meme in a news summary."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "the lame-duck president",
-        "why": "A pejorative framing that diminishes Trump's standing."
-      },
-      {
-        "type": "Framing",
-        "quote": "his donor Jensen Huang",
-        "why": "Presents the reinstatement as a favor to a donor, implying a quid pro quo, without evidence in the text."
-      },
-      {
-        "type": "Source selection",
-        "quote": "“If the White House still wants to go around passing out get-out-of-jail-free cards",
-        "why": "Warren's critical quote gets the extended last word, and the excerpt shows no White House or Nvidia response."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "0b8b7f766534",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Trump orders US military not to detonate toxic explosives in Iowa for now",
-    "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
-    "summary": "The US Army has moved its plans to detonate five tonnes of toxic explosives to Wednesday.",
-    "published": "2026-11-24T02:58:27+00:00",
-    "id": "930dc8cf5571",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a straight news recap that attributes claims to Trump, the Army, the DOJ, the EPA, environmental groups, the court and Sand. It gives both the safety rationale for detonation and the health concerns, with only slight emphasis on the EPA's lead-exposure warning.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "930dc8cf5571",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Army sergeant pleads guilty to cashing in on US military secrets in China-linked plot, DOJ says",
-    "link": "https://www.foxnews.com/us/army-sergeant-pleads-guilty-cashing-us-military-secrets-china-linked-plot-doj-says",
-    "summary": "Sgt. Jian Zhao faces up to 10 years in prison after pleading guilty to selling national defense information from Joint Base Lewis-McChord, prosecutors say.",
-    "published": "2026-11-24T02:48:51+00:00",
-    "id": "3605488e5e8c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a straight recap of a DOJ plea announcement, with attribution to prosecutors and officials and no partisan framing. The only tilt is that sourcing comes entirely from law enforcement, which is normal for a plea story.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"This guilty plea reflects a deliberate betrayal of the oath every Soldier takes to defend our nation and safeguard our fellow service members,\"",
-        "why": "Quotes come only from prosecutors, the Army and the FBI, with no defense perspective, though that is typical for a plea story."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "3605488e5e8c",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Federal court clears way for army to detonate bomb-making chemicals in Iowa",
-    "link": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
-    "summary": "Trump, on social media, tried to push responsibility of ‘any and all death or destruction’ on Democratic governor-elect The US army can proceed with detonating several tons of degraded bomb-making chemicals in Iowa, a federal appeals court ruled on Monday.",
-    "published": "2026-11-24T02:25:49+00:00",
-    "id": "c0d35f677430",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly factual reporting with balanced sourcing, including Sand, Grassley, Reynolds and Trump's own claims about Obama-era storage. The subhead and the verbs \"tried to push\" and \"foist\" frame Trump's statement as blame-shifting, and that is a mild tilt against him.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Trump, on social media, tried to push responsibility of ‘any and all death or destruction’ on Democratic governor-elect",
-        "why": "\"Tried to push responsibility\" casts Trump's statement as an attempt to deflect blame, which is an interpretive framing."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "attempt to foist responsibility",
-        "why": "\"Foist\" implies an unfair imposition and editorializes on Trump's motive."
-      },
-      {
-        "type": "Framing",
-        "quote": "after an outpouring of public concern about potential health and environmental effects",
-        "why": "The text stresses public alarm and puts the opposition to the plan up front."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c0d35f677430",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Judge unseals documents related to search of Rep. Ilhan Omar’s home",
-    "link": "https://www.nbcnews.com/politics/congress/judge-unseals-court-documents-related-search-ilhan-omar-home-washingto-rcna611027",
-    "summary": "Some of the unsealed court filings make clear the Trump administration believes violations of the law took place as far back as 1980.",
-    "published": "2026-11-24T02:24:16+00:00",
-    "id": "5186ad1cded4",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 22,
-    "leanWhy": "The piece is mostly a factual recap of the unsealed filings. It leans slightly toward Omar's side by stressing the magistrate's scrutiny of the DOJ, noting the 1980 start date predates her birth, and calling the timing before the midterms \"unusual\". The DOJ's case gets little substantive explanation because the filings are redacted, and the DOJ's own framing appears only briefly.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "the length to which a magistrate judge worked to ensure the Trump administration was following proper procedures",
-        "why": "Interpretive emphasis implies the administration needed heavy oversight, which casts doubt on the search."
-      },
-      {
-        "type": "Framing",
-        "quote": "Omar’s congressional bio page says she was born in October 1982.",
-        "why": "Juxtaposing her birth year with the 1980 start date invites readers to doubt the government's theory."
-      },
-      {
-        "type": "Framing",
-        "quote": "an unusual move to take against a sitting lawmaker seeking re-election",
-        "why": "The text offers its own judgment on the timing and does not attribute it to a source."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "5186ad1cded4",
-    "coverage": 2
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Federal court releases Rep. Ilhan Omar D.C. home raid documents",
-    "link": "https://www.cbsnews.com/news/congresswoman-ilhan-omar-house-raid-documents-release/",
-    "summary": "A federal court on Monday evening released documents regarding last month's raid at the Washington, D.C. home of Democratic Minnesota U.S. Rep. Ilhan Omar.",
-    "published": "2026-11-24T02:21:00+00:00",
-    "id": "8f989e109263",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a factual recap of the released court documents. It gives the government's filings and Omar's office's response, and it notes that the filing did not identify the alleged crimes. The anonymous \"WCCO sources\" line about immigration issues and the lawyer's remark about possible loss of citizenship add some unsourced weight toward the investigation's side.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "WCCO sources have said there are several immigration issues that authorities are investigating.",
-        "why": "Anonymous sourcing is used to suggest the substance of the probe without any verifiable detail."
-      },
-      {
-        "type": "Framing",
-        "quote": "somebody could be in jeopardy of losing their citizenship",
-        "why": "A defense attorney's speculation about citizenship loss is included without documents backing it up, which heightens the stakes for Omar."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "8f989e109263",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Ilhan Omar investigation examining crimes dating back decades: Search warrant records",
-    "link": "https://www.washingtonexaminer.com/news/investigations/4813260/ilhan-omar-investigation-crimes-dating-back-decades-search-warrant/",
-    "summary": "Search and seizure records related to the federal raid of Rep. Ilhan Omar’s (D-MN) residence were unsealed Monday night under a court order, revealing that the criminal case the Justice Department has been building against the Somali-born congresswoman centers on alleged offenses that stretch back more than 40 years.",
-    "published": "2026-11-24T02:16:53+00:00",
-    "id": "e0a46ae9cb59",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 40,
-    "spin": 45,
-    "leanWhy": "The piece reports unsealed warrant records accurately, but it adds long-running, unproven allegations about Omar (marrying her brother, a changed birth year) as background. It gives no Omar response beyond one line on her citizenship, and it stresses her \"Somali-born\" origin and the judge's Obama appointment, which fits a right-coded frame.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Omar has long been suspected of marrying her own brother to help him obtain a green card.",
-        "why": "It states a serious allegation as established background, with no source and no response from Omar."
-      },
-      {
-        "type": "Framing",
-        "quote": "the Somali-born congresswoman",
-        "why": "It stresses her foreign birth in the lead, which links the story to immigration-fraud themes."
-      },
-      {
-        "type": "Framing",
-        "quote": "an appointee of former President Barack Obama,",
-        "why": "It labels the judge by the president who appointed him, which hints at partisanship in the unsealing order."
-      },
-      {
-        "type": "Omission",
-        "quote": "Omar says she became a U.S. citizen at the age of 17 through her father.",
-        "why": "Her side gets one sentence, inside a longer passage that casts doubt on her citizenship, and no rebuttal or representative is quoted."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "e0a46ae9cb59",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump urges justice department to speed up federal executions in dig at Gavin Newsom",
-    "link": "https://www.theguardian.com/us-news/2026/nov/23/trump-justice-department-federal-executions-gavin-newsom",
-    "summary": "President, in partisan speech, targeted California governor’s decision to commute death sentences of 548 prisoners Donald Trump on Monday urged the Department of Justice to speed up federal executions, in a partisan speech that targeted the California governor’s decision to spare the lives of all prisoners on death…",
-    "published": "2026-11-24T01:55:36+00:00",
-    "id": "2d7c03e2dc72",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -25,
-    "spin": 25,
-    "leanWhy": "The piece reports Trump's speech with direct quotes, but it adds context that is unfavorable to his position: botched executions, US isolation on capital punishment, and his 1989 Central Park case ad. It also labels the speech \"partisan\" and says \"dig at\" in the headline, and no one defending the death penalty appears except Trump and the victims' families.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "in partisan speech",
-        "why": "Labeling the address as partisan in the headline and summary frames it as political point-scoring."
-      },
-      {
-        "type": "Framing",
-        "quote": "despite a recent outcry over a series of botched executions",
-        "why": "Puts the criticism and failures alongside Trump's order, which tilts the framing against it."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The US is increasingly isolated in its use of capital punishment",
-        "why": "The international comparison is context that supports death penalty opponents, and no counterpoint is offered."
-      },
-      {
-        "type": "Framing",
-        "quote": "after five young Black and Latino men were wrongly accused in the Central Park jogger case",
-        "why": "Linking Trump's present stance to a case widely seen as his past misjudgment is pointed background."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "2d7c03e2dc72",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Husband of woman arrested by ICE at airport calls it \"unjust\"",
-    "link": "https://www.cbsnews.com/news/ice-arrest-seattle-airport-husband/",
-    "summary": "Jose Castillo told CBS News he felt \"useless\" seeing his wife and father-in-law be taken into federal custody at Seattle-Tacoma International Airport.",
-    "published": "2026-11-24T01:49:00+00:00",
-    "id": "2e7a4acf2778",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -27,
-    "spin": 25,
-    "leanWhy": "The piece is built around the husband's emotional account, and the headline and lead use his word \"unjust\". It includes DHS's account and the assault allegation, but the family's rebuttal gets more space. The closing paragraphs frame the arrest as part of a string of ICE operations that \"have gone awry\", which is a humanitarian, accountability-oriented frame.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The incident is the latest in a string of ICE operations that have gone awry in recent weeks",
-        "why": "The narrator's own voice casts the operations as failures, which sets a critical pattern frame beyond this one incident."
-      },
-      {
-        "type": "Source selection",
-        "quote": "As a U.S. citizen, you feel useless.",
-        "why": "The emotional first-person account from the family is the centerpiece, while DHS's side is summarized in a few paragraphs."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "calls it \"unjust\"",
-        "why": "The headline leads with the husband's characterization of the arrest as unjust."
-      },
-      {
-        "type": "Framing",
-        "quote": "masked U.S. Immigration and Customs Enforcement officers detained his wife",
-        "why": "Stressing the masks and the public setting adds a sinister tone to the arrest."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "2e7a4acf2778",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
-    "link": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
-    "summary": "Singapore-based company entangled in scandal over alleged spy Alice Huang’s affair with Jensen Huang The US commerce department published an official notice on Monday adding the Singapore-based company Megaspeed, and its subsidiaries in Thailand and Malaysia, to a trade blacklist.",
-    "published": "2026-11-24T01:47:15+00:00",
-    "id": "c8536aeeff5e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "The piece is mostly a factual account of the trade blacklisting. It attributes the spy claims, includes China's denial and the company's statement, and quotes Singapore's prime minister. The only mild tilt is a closing emphasis on administration officials and a Republican senator pressing Commerce over its delay, with no Democratic voices.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "The Department of Commerce still needs to explain to Congress why this took so long,",
-        "why": "A Republican senator's criticism of the Trump administration's Commerce Department is quoted without a Democratic or Commerce response."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "c8536aeeff5e",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "$98 million civil judgment awarded in Ohio rape that could not be prosecuted",
-    "link": "https://www.nbcnews.com/news/us-news/98-million-civil-judgment-awarded-ohio-rape-not-prosecuted-rcna611016",
-    "summary": "An Ohio woman who survived a brutal rape that went unsolved for decades was awarded a $98 million civil judgment against her attacker, a doctor who admitted to the assault but could not be prosecuted for it because the statute of limitations had expired.",
-    "published": "2026-11-24T01:38:08+00:00",
-    "id": "3c0bc9f38c36",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a straight factual report of a civil judgment, using the judge's own language and the victim's quotes. The framing leans mildly sympathetic to the survivor, but this is an ordinary victim-first treatment of a case with little left/right divide.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "a brutal rape that went unsolved for decades",
-        "why": "Emotive descriptor in the lead and a victim-centered focus, though it is mild and factually grounded."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "3c0bc9f38c36",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Four illegal immigrants among six arrested in Florida slaughterhouse torture case, AG says",
-    "link": "https://www.foxnews.com/us/four-illegal-immigrants-among-six-arrested-florida-slaughterhouse-torture-case-ag-says",
-    "summary": "Six workers at Ali Meat International, an Orlando halal slaughterhouse, face animal cruelty charges as four are held on ICE detainers, officials say.",
-    "published": "2026-11-24T01:30:29+00:00",
-    "id": "a3aa55043cdc",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 25,
-    "spin": 25,
-    "leanWhy": "The headline leads with the immigration status of four of the six defendants, and the text relies almost entirely on Republican officials and prosecutors, which fits the right-coded frame of immigration and crime. The piece is mostly attributed reporting of charges and investigators' claims, with no defense or immigrant-advocate voice, and it quotes the AG's \"sent back to where they came from\" line without comment.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Four illegal immigrants among six arrested in Florida slaughterhouse torture case",
-        "why": "The headline foregrounds immigration status and uses the word 'torture,' pushing an immigration-and-crime frame."
-      },
-      {
-        "type": "Source selection",
-        "quote": "\"Four are illegal aliens who never should have been here, and they will be punished and sent back to where they came from.\"",
-        "why": "The AG's political rhetoric is quoted prominently, with no counterpoint from defendants, defense lawyers or the halal/Muslim community."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "pure evil",
-        "why": "The official's charged characterization is put in the lede and is not balanced by neutral description."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "a3aa55043cdc",
-    "coverage": 2
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump’s role in bringing Huang back to Nvidia met with bipartisan criticism",
-    "link": "https://www.nbcnews.com/nightly-news/video/trump-s-role-in-bringing-huang-back-to-nvidia-met-with-bipartisan-criticism-274057285739",
-    "summary": "After President Trump shared news of his role in Jensen Huang’s return to Nvidia as CEO, the move was met with sharp criticism on both sides of the political aisle. NBC News’ Chief White House Correspondent Garrett Haake reports.",
-    "published": "2026-11-24T01:27:41+00:00",
-    "id": "5f9a4137202a",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "Only a headline and short feed summary are available. The framing stresses \"bipartisan criticism\" and \"sharp criticism\" of Trump's role, which is mildly unfavorable to him, but it gives no sourcing to check that.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "met with sharp criticism on both sides of the political aisle",
-        "why": "It stresses broad, intense condemnation of Trump without naming critics or giving any defense."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "5f9a4137202a",
-    "coverage": 1
   }
 ]
