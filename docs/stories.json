@@ -1,6 +1,276 @@
 [
   {
     "outlet": "Washington Examiner",
+    "title": "Trump approves $100 million in Florida disaster relief on Thanksgiving",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4816347/trum-florida-disaster-relief-thanksgiving/",
+    "summary": "President Donald Trump signed $100 million in disaster relief for Florida on Thanksgiving, as the state grapples with rebuilding after flooding and prolonged heavy storms.",
+    "published": "2026-11-27T01:17:31+00:00",
+    "id": "be6dfc03c8c7",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is a short factual recap of a disaster declaration. The headline and framing emphasize the president acting on a holiday, which casts him in a favorable light, and no critics, outside voices or context such as the scale of the damage appear in the excerpt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump approves $100 million in Florida disaster relief on Thanksgiving",
+        "why": "Highlighting the holiday timing presents the action as diligent and generous."
+      },
+      {
+        "type": "Source selection",
+        "quote": "he also held an event Thursday to sign a major disaster declaration",
+        "why": "The excerpt relies on the president's own actions and includes no outside voices or independent assessment."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "be6dfc03c8c7",
+    "coverage": 2
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Iowa lead detonation results expected soon, EPA says",
+    "link": "https://www.cbsnews.com/news/iowa-lead-detonation-epa-testing-results-soon/",
+    "summary": "The EPA conducted sampling at more than 130 structures in Iowa, including homes, schools, daycare centers and churches.",
+    "published": "2026-11-27T01:13:00+00:00",
+    "id": "a069de40dd77",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "This is mostly a factual recap built on EPA statements, and it includes the Army's stated safety rationale, the concerns of residents and environmental groups, and the court ruling. A slight tilt comes from the closing details about the \"chaotic\" run-up and the administration's internal blame questions, balanced by Trump's praise.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "The chaotic lead-up to the detonation reached the White House",
+        "why": "\"Chaotic\" characterizes the process negatively and puts the focus on administration missteps."
+      },
+      {
+        "type": "Source selection",
+        "quote": "sources familiar with the matter told CBS News",
+        "why": "Anonymous sourcing about internal blame adds a critical angle, though it is attributed."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "a069de40dd77",
+    "coverage": 3
+  },
+  {
+    "outlet": "Fox",
+    "title": "Democrats, Republicans find rare common ground when asked what they're thankful for",
+    "link": "https://www.foxnews.com/politics/democrats-republicans-find-rare-common-ground-when-asked-what-theyre-thankful",
+    "summary": "Democrats and Republicans on Capitol Hill may clash on policy, but this Thanksgiving, lawmakers say family is what they're most thankful for.",
+    "published": "2026-11-27T01:00:34+00:00",
+    "id": "c13654a71198",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "A light holiday feature that quotes lawmakers from both parties in roughly equal numbers on gratitude, mostly family. It has no policy argument, and the tone is unifying and neutral.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "c13654a71198",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Trump signs severe weather disaster declarations from Mar-a-Lago on Thanksgiving",
+    "link": "https://www.cbsnews.com/video/trump-signs-severe-weather-disaster-declarations-mar-a-lago-thanksgiving/",
+    "summary": "President Trump celebrated Thanksgiving at his resort in Palm Beach, Florida. He signed disaster declarations for Florida in the wake of severe weather. Weijia Jiang has more.",
+    "published": "2026-11-27T00:32:27+00:00",
+    "id": "24e205295182",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 5,
+    "leanWhy": "Only a headline and a short feed summary were available. They report the president's holiday location and his disaster declarations in a neutral, factual tone, with no evaluative language. The word \"celebrated\" and the mention of the resort are very mild context.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "be6dfc03c8c7",
+    "coverage": 2
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Families navigate Thanksgiving after toxic chemical detonation",
+    "link": "https://www.nbcnews.com/nightly-news/video/families-navigate-thanksgiving-after-toxic-chemical-detonation-274245189654",
+    "summary": "In and around Middletown, Iowa, residents are navigating the Thanksgiving holiday after the U.S. Army detonated tons of toxic chemicals in the region. And while officials say no airborne lead has been detected, some families are still concerned. NBC News’ Shaquille Brewster reports.",
+    "published": "2026-11-26T23:45:22+00:00",
+    "id": "0d05cf7cfd38",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "Only a headline and short summary are available. The framing centers on family worry and the \"toxic chemical detonation\", but it also includes the officials' statement that no airborne lead was detected, so the tilt is slight and leans mildly toward government-skeptical or environmental concern.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "toxic chemical detonation",
+        "why": "The headline stresses danger with the word 'toxic' before any reassurance from officials appears."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "0d05cf7cfd38",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Elon Musk announces two SpaceX shares for every American child",
+    "link": "https://www.washingtonexaminer.com/news/business/4816338/elon-musk-two-spacex-shares-every-american-child/",
+    "summary": "SpaceX CEO Elon Musk announced the gifting of two SpaceX shares to every American child. The company on Wednesday said the shares will be distributed to Trump Accounts, tax-advantaged investment accounts for all children in the United States opened in the president’s name last year.",
+    "published": "2026-11-26T23:27:52+00:00",
+    "id": "5d7a43aac1ff",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The short excerpt reports the announcement in a mostly factual way, with the share count and the White House's account figure. The only slight tilt is that it relays a Trump-program framing without any outside reaction or context, and the \"claimed\" attribution on the account number is mildly skeptical.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "The White House last claimed that around 70 million accounts were active.",
+        "why": "The only outside figure comes from the White House, with no independent verification or critical reaction, and 'claimed' adds a faint note of doubt."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "5d7a43aac1ff",
+    "coverage": 3
+  },
+  {
+    "outlet": "NPR",
+    "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+    "link": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+    "summary": "After the midterms, a Democratic congressman declared that DEI is back. What does Democrats' ascendance portend for diversity initiatives that the Trump administration relentlessly attacked?",
+    "published": "2026-11-26T23:06:14+00:00",
+    "id": "8724248317c4",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "Only a headline and feed summary are available. The headline centers the hopes of DEI supporters, and the summary says the Trump administration \"relentlessly attacked\" diversity initiatives, which is a mildly loaded verb. The only voice cited is a Democratic congressman.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "relentlessly attacked",
+        "why": "Describing the administration's actions as relentless attacks adopts the framing of DEI supporters."
+      },
+      {
+        "type": "Framing",
+        "quote": "some hope attacks on DEI will ease",
+        "why": "The headline leads with the hopes of DEI supporters and treats the earlier policies as attacks."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a Democratic congressman declared that DEI is back",
+        "why": "The summary's only voice is a Democrat celebrating DEI, with no counterview visible."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8724248317c4",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Universities, schools nationwide use Thanksgiving as chance to promote 'Day of Mourning' and decolonization",
+    "link": "https://www.foxnews.com/politics/universities-schools-nationwide-use-thanksgiving-chance-promote-day-mourning-decolonization",
+    "summary": "Campus Thanksgiving events have been reframed as a \"National Day of Mourning\" for Indigenous remembrance, with Salem State and Pratt citing historical harm.",
+    "published": "2026-11-26T23:00:47+00:00",
+    "id": "abe81b082177",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 42,
+    "spin": 40,
+    "leanWhy": "The piece catalogs campus and school events that reframe Thanksgiving, opening with a framing of the holiday as celebratory for \"the vast majority of Americans\" and treating the counter-programming as an ideological trend. Only critics' perspective (a parent pushing back via Fox News) is cited; no Indigenous voices or organizers explain the events beyond event descriptions.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "for several students on college campuses across the country, the national holiday is a source of anguish",
+        "why": "Contrasts the 'vast majority' with a small group of students, casting the events as fringe and the anguish as exaggerated."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "The colonial messaging around Thanksgiving isn't limited to universities",
+        "why": "Language of 'messaging' and spreading beyond universities implies an ideological campaign creeping into schools."
+      },
+      {
+        "type": "Source selection",
+        "quote": "a parent recently pushed back in an interview with Fox News",
+        "why": "The only outside voice is a critical parent, with no defenders or Indigenous voices given space."
+      },
+      {
+        "type": "Headline mismatch",
+        "quote": "use Thanksgiving as chance to promote 'Day of Mourning' and decolonization",
+        "why": "The headline's 'use ... as chance to promote' implies opportunism, while the body mostly shows optional events and website listings."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "abe81b082177",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Strobe Talbott, Time magazine reporter and deputy US secretary of state, dies aged 80",
+    "link": "https://www.theguardian.com/us-news/2026/nov/26/strobe-talbott-time-secretary-of-state-dead",
+    "summary": "After 21 years at Time, Talbott joined the Clinton administration and later headed the Brookings Institution Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80.",
+    "published": "2026-11-26T22:36:55+00:00",
+    "id": "a1b1b54fe765",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 3,
+    "leanWhy": "This is a factual obituary covering Talbott's career in journalism, the State Department and Brookings, with no evaluative language. The mention of his last book's title is a neutral biographical detail.",
+    "signals": [],
+    "confidence": "high",
+    "storyChoice": "neither",
+    "cluster": "a1b1b54fe765",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "WATCH LIVE: Trump calls service members on Thanksgiving",
+    "link": "https://www.washingtonexaminer.com/news/white-house/4816322/watch-live-trump-calls-service-members-thanksgiving/",
+    "summary": "President Donald Trump and first lady Melania Trump are calling U.S. service members for Thanksgiving, an annual presidential tradition. They are set to begin their calls at around 5:30 p.m. EST.",
+    "published": "2026-11-26T22:23:57+00:00",
+    "id": "42450ea5e850",
+    "basis": "summary",
+    "political": true,
+    "scorable": false,
+    "opinion": false,
+    "lean": null,
+    "spin": null,
+    "signals": [],
+    "leanWhy": "Not enough text was available to judge slant fairly.",
+    "confidence": "low",
+    "cluster": "42450ea5e850",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
     "title": "Eisenkot strikes coalition deal with left-wing faction, drawing closer to replacing Netanyahu",
     "link": "https://www.washingtonexaminer.com/news/world/4816308/eisenkot-coalition-deal-democrats/",
     "summary": "Gadi Eisenkot’s Yashar party reached a coalition deal with Yair Golan’s left-wing Democrats, putting them one step closer to forming a parliamentary majority in Israel’s Knesset. Eisenkot and Golan announced the deal in a joint statement on Thursday.",
@@ -198,7 +468,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c2cb85aa83f5",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "BBC",
@@ -234,7 +504,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "CBS News",
@@ -275,7 +545,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "c2cb85aa83f5",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "The Guardian",
@@ -315,8 +585,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "b3bb6dd75d5e",
-    "coverage": 1
+    "cluster": "c2cb85aa83f5",
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -370,8 +640,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "2a1400a1a4fc",
-    "coverage": 4
+    "cluster": "a069de40dd77",
+    "coverage": 3
   },
   {
     "outlet": "The Guardian",
@@ -462,8 +732,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "9a8bb41169d0",
-    "coverage": 2
+    "cluster": "5d7a43aac1ff",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -482,8 +752,8 @@
     "signals": [],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "2a1400a1a4fc",
-    "coverage": 4
+    "cluster": "a069de40dd77",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -522,6 +792,42 @@
     "coverage": 1
   },
   {
+    "outlet": "Daily Caller",
+    "title": "These AI Agents Are Clawing For Your Data. ‘The Dog Went Rogue’ Is No Excuse",
+    "link": "https://dailycaller.com/2026/11/26/ai-agents-rogue-data-meta-google-xai-epoch-openai",
+    "summary": "‘You can’t say not my fault; the dog went rogue. It’s your dog’",
+    "published": "2026-11-26T17:15:43+00:00",
+    "id": "4d11d639fb01",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "The piece centers on anti-Big Tech and privacy themes, which appeal to both sides, and it includes company responses from Meta and a note that OpenAI did not respond. The headline and the accountability quote lean toward corporate responsibility and regulation, and the framing is somewhat alarmist, but there is no clear partisan tilt.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "These AI Agents Are Clawing For Your Data.",
+        "why": "The headline gives the software predatory intent, which is more dramatic than the incidents described."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Who should be held responsible when a dog bites someone? The owner of the dog,",
+        "why": "The piece builds its framing on a single expert's accountability argument, and the headline repeats it."
+      },
+      {
+        "type": "Framing",
+        "quote": "Tech giants are struggling to contain their artificial intelligence agents",
+        "why": "The opening stresses loss of control and presents the incidents as a pattern, while Meta's 'isolated incidents' rebuttal comes later."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "4d11d639fb01",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Francesca Hong reveals Thanksgiving menu after holiday controversy dogged campaign",
     "link": "https://www.washingtonexaminer.com/news/entertainment/4816246/francesca-hong-thanksgiving-menu-holiday-controversy/",
@@ -550,6 +856,42 @@
     "confidence": "low",
     "storyChoice": "right",
     "cluster": "4029cd6a4ad9",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "America’s Long-Running War On Terror Mission In Somalia Gets Another Chapter",
+    "link": "https://dailycaller.com/2026/11/26/somalia-baledogle-airbase-us-military-bancroft-africom",
+    "summary": "American military officials are reportedly preparing to return to a Somali airbase just weeks after withdrawing, extending Washington’s decades-long counterterrorism mission in the African nation.",
+    "published": "2026-11-26T16:57:50+00:00",
+    "id": "c56b4a4e011b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 15,
+    "leanWhy": "The piece mostly relays reporting and official statements, including AFRICOM's denial of any intent to return. A mild skeptical tilt appears in the cost and \"another chapter\" framing, which touches the cross-cutting theme of opposition to prolonged foreign wars, and in the headline's stronger claim than the AFRICOM statement supports.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "American military officials have reportedly returned to a Somali airbase just weeks after withdrawing",
+        "why": "The lead asserts a US military return, but AFRICOM says it is not connected to the contract and has no intent to return, so the contractor angle is blurred."
+      },
+      {
+        "type": "Framing",
+        "quote": "raising fresh questions about the costs of America’s prolonged military involvement in Somalia",
+        "why": "This frames the story around cost and endless involvement, a skeptical angle on the mission."
+      },
+      {
+        "type": "Framing",
+        "quote": "The contractor alleged by Kaab TV to be involved in air base construction is not without controversy.",
+        "why": "It adds a pointed insinuation about the contractor, based on a 2015 investigation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "c56b4a4e011b",
     "coverage": 1
   },
   {
@@ -638,7 +980,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "c2cb85aa83f5",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "outlet": "Washington Examiner",
@@ -705,6 +1047,47 @@
     "confidence": "high",
     "storyChoice": "right",
     "cluster": "6c80fe6d4dd8",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Federal Scientist Shared Draft Climate Lesson For Judges With Lawyer Weighing Oil Lawsuit",
+    "link": "https://dailycaller.com/2026/11/26/michael-wehner-roger-worthington-environmental-law-institute-climate-judiciary-project-multnomah-county",
+    "summary": "‘prepared for the Environmental Law Institute’",
+    "published": "2026-11-26T16:13:20+00:00",
+    "id": "51d3bbbe72eb",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 30,
+    "spin": 30,
+    "leanWhy": "The story leads with House Republican committee exhibits and framing that a federal scientist helped an attorney suing oil companies, a narrative aligned with right-coded skepticism of climate litigation and agencies. It does include ELI's denials and Worthington's sworn declaration, but these come after the insinuating lead and are largely relayed through the institute's statement.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "sent a draft climate lesson for judges to an attorney weighing a lawsuit against oil companies",
+        "why": "The headline and lead stress a link between the scientist and the litigating lawyer, implying improper coordination."
+      },
+      {
+        "type": "Source selection",
+        "quote": "according to exhibits the Republican-led House Judiciary Committee released",
+        "why": "The core evidence and framing come from a partisan committee's report, with no independent climate or legal experts quoted."
+      },
+      {
+        "type": "Framing",
+        "quote": "A Climate of Bias: How Environmental Activists Influence the Judiciary,",
+        "why": "Including the hearing title repeats the committee's bias narrative without any counterweight."
+      },
+      {
+        "type": "Omission",
+        "quote": "Wehner, Worthington, Berkeley Lab and the Energy Department did not respond",
+        "why": "The key subjects offer no account, leaving the committee's reading of the emails as the main interpretation."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "51d3bbbe72eb",
     "coverage": 1
   },
   {
@@ -1145,8 +1528,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "2a1400a1a4fc",
-    "coverage": 4
+    "cluster": "a069de40dd77",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -1330,8 +1713,8 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "cluster": "0d05cf7cfd38",
+    "coverage": 1
   },
   {
     "outlet": "NPR",
@@ -1356,7 +1739,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "9bc40a39eb97",
+    "cluster": "88edb547882a",
     "coverage": 1
   },
   {
@@ -1460,7 +1843,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Axios",
@@ -1512,7 +1895,7 @@
     "confidence": "medium",
     "storyChoice": "right",
     "cluster": "5c6f031133be",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -1610,7 +1993,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "NPR",
@@ -1636,7 +2019,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -1703,7 +2086,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "coverage": 4
   },
   {
     "outlet": "Fox",
@@ -2131,8 +2514,8 @@
     ],
     "confidence": "low",
     "storyChoice": "right",
-    "cluster": "9a8bb41169d0",
-    "coverage": 2
+    "cluster": "5d7a43aac1ff",
+    "coverage": 3
   },
   {
     "outlet": "NPR",
@@ -2162,8 +2545,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "949acb4e13d5",
-    "coverage": 4
+    "cluster": "88edb547882a",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2198,8 +2581,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "2a1400a1a4fc",
-    "coverage": 4
+    "cluster": "c00bc45233cc",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -2234,8 +2617,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "0f0b3c94b64b",
-    "coverage": 5
+    "cluster": "ed9e7146ff06",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -2261,7 +2644,7 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "949acb4e13d5",
-    "coverage": 4
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -2296,8 +2679,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "949acb4e13d5",
-    "coverage": 4
+    "cluster": "8ae1587b854b",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -2337,8 +2720,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "5c6f031133be",
-    "coverage": 2
+    "cluster": "aed74119c37f",
+    "coverage": 1
   },
   {
     "outlet": "NBC News",
@@ -2368,8 +2751,39 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "2a1400a1a4fc",
-    "coverage": 4
+    "cluster": "0e610f8df3d0",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "GOP Senator Says Trump’s Nvidia Intervention Sets ‘Dangerous Precedent’",
+    "link": "https://dailycaller.com/2026/11/25/dave-mccormick-trump-nvidia-huang-dangerous-precedent",
+    "summary": "Could Erode The Country’s Competitive Edge",
+    "published": "2026-11-26T01:21:38+00:00",
+    "id": "27148e7e2bd2",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece mostly relays a Republican senator's criticism of Trump's involvement in a corporate leadership dispute, alongside the timeline and Trump's own quotes. Emphasis on McCormick's warning and the headline framing gives a slight tilt against Trump's intervention, but the facts are attributed and Trump's side is quoted.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "A GOP senator is warning that the White House shouldn’t be deciding who runs one of the country’s most valuable companies.",
+        "why": "The lead adopts the critic's framing of the intervention as the central story."
+      },
+      {
+        "type": "Headline emphasis",
+        "quote": "Could Erode The Country’s Competitive Edge",
+        "why": "The summary presents the senator's speculative warning as the takeaway."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "27148e7e2bd2",
+    "coverage": 1
   },
   {
     "outlet": "CBS News",
@@ -2388,7 +2802,7 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "b058b691cce7",
+    "cluster": "2eb4008b5134",
     "coverage": 1
   },
   {
@@ -2475,8 +2889,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "949acb4e13d5",
-    "coverage": 4
+    "cluster": "8ae1587b854b",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -2588,8 +3002,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "right",
-    "cluster": "ed86a1efdcc0",
-    "coverage": 2
+    "cluster": "d92d4281500d",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -2916,7 +3330,7 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "8afcedfc2d7e",
+    "cluster": "a0900b1ac3e1",
     "coverage": 1
   },
   {
@@ -3359,7 +3773,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "d92d4281500d",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -4049,7 +4463,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "d92d4281500d",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -9247,456 +9661,6 @@
     "confidence": "high",
     "storyChoice": "neither",
     "cluster": "3752d0062131",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Trump Says Investigation Cleared Nvidia CEO. Todd Blanche Won’t Say If DOJ Opened Criminal Probe Into Him.",
-    "link": "https://dailycaller.com/2026/11/24/trump-says-investigation-cleared-nvidia-ceo-blanche-wont-say-if-doj-opened-a-criminal-probe-into-him",
-    "summary": "Nvidia’s board cited assurances from U.S. officials when it brought Jensen Huang back. A day later, Todd Blanche declined to say whether DOJ opened a criminal investigation into him.",
-    "published": "2026-11-24T22:29:24+00:00",
-    "id": "203e43552463",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -15,
-    "spin": 20,
-    "leanWhy": "The headline and framing emphasize the administration's evasiveness, juxtaposing Trump's \"cleared\" claim with Blanche's refusal to answer, which mildly tilts against the administration. The body is mostly attributed and includes Blanche's and Trump's own statements, so the tilt is subtle.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Todd Blanche Won’t Say If DOJ Opened Criminal Probe Into Him.",
-        "why": "The headline stresses the official's refusal to answer, framing the story as an evasion."
-      },
-      {
-        "type": "Framing",
-        "quote": "a day after President Donald Trump credited a federal investigation with finding Huang did nothing wrong",
-        "why": "Setting Trump's claim against Blanche's non-answer implies a contradiction between the two."
-      },
-      {
-        "type": "Source selection",
-        "quote": "declined to say whether the bureau had been in contact with Huang",
-        "why": "Piling up non-answers from officials leaves no outside experts or critics to give context beyond the evasion."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "203e43552463",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "How Democrats are gaming out the timing of their 2028 bids: From the Politics Desk",
-    "link": "https://www.nbcnews.com/politics/politics-news/democrats-are-gaming-timing-2028-bids-politics-desk-rcna611193",
-    "summary": "In today’s edition, Natasha Korecki explores when we might see Democratic presidential contenders launch their campaigns.",
-    "published": "2026-11-24T22:26:46+00:00",
-    "id": "7b199c45fd9f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is a straight explainer on campaign-timing strategy, sourced to unnamed Democratic advisers and strategists, with no policy or partisan argument. The only tilt is that it covers only the Democratic side and uses mildly flattering terms like \"new party superstars\".",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "after the new party superstars in Congress settle in",
-        "why": "Mildly flattering label for incoming Democratic lawmakers."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "7b199c45fd9f",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Doug Burgum Promises Farmers Relief From Wetland Rules That Bogged Down Trump Nominees",
-    "link": "https://dailycaller.com/2026/11/24/doug-burgum-kevin-cramer-wetland-easements-north-dakota-farmers-fish-wildlife-service",
-    "summary": "‘You can have a commitment … that we’re going to work to fix this’",
-    "published": "2026-11-24T22:24:24+00:00",
-    "id": "f2ef689be61e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 14,
-    "spin": 12,
-    "leanWhy": "The piece is mostly straight reporting with attributed quotes and some agency caveats. It leans slightly right by leading with the administration's promise, relying on landowner and Burgum framing, and including a related-story link about farmers accusing the government of \"overstepping\". Environmental or conservation voices are absent.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Wetland Rules That Bogged Down Trump Nominees",
-        "why": "The headline frames the wetland rules as an obstacle, which echoes the landowners' and senator's view."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Farmers Accuse Gov’t Of ‘Overstepping’ Their Property Rights In Rural Battle Over Trump’s Nominations",
-        "why": "The linked story uses government-overreach framing, and no conservation or environmental voices appear in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "we fix them once and for all",
-        "why": "The article gives Burgum's confident promise prominent placement with little independent scrutiny, though agency caveats appear later."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "f2ef689be61e",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Climate scientists urge US lawmakers to vote no on sweeping permitting bill",
-    "link": "https://www.theguardian.com/us-news/2026/nov/24/climate-scientists-lawmakers-baaja",
-    "summary": "Open letter warns Baaja, intended to expedite energy and infrastructure projects, will cause irreversible climate harm A group of more than 120 climate scientists have urged US lawmakers to not pass contentious legislation to speed up the building of energy projects, datacenters and other infrastructure, amid a…",
-    "published": "2026-11-24T22:09:57+00:00",
-    "id": "92dcef10ed54",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is built around climate scientists' objections, and their sharp language (\"irreversible climate harm\", \"dark money actors\", \"held hostage\") dominates the excerpt. Whitehouse gets a real response, and the article notes supporters exist. Even so, the headline and framing adopt the critics' view and emphasize the bill's fossil fuel provisions over its claimed benefits.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "will cause irreversible climate harm",
-        "why": "The sub-headline states the letter's alarming claim as a flat outcome rather than as the scientists' warning."
-      },
-      {
-        "type": "Source selection",
-        "quote": "backed by a veritable who’s who of bad fossil fuel and dark money actors",
-        "why": "Mann's loaded characterization is quoted at length without any rebuttal of that specific charge."
-      },
-      {
-        "type": "Framing",
-        "quote": "amid a growing backlash to the sweeping permitting bill",
-        "why": "Describing a 'growing backlash' stresses opposition, and supporters' arguments are pushed to the end of the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "92dcef10ed54",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "11/24: The Takeout with Major Garrett",
-    "link": "https://www.cbsnews.com/video/112426-the-takeout-with-major-garrett/",
-    "summary": "Attorney General Todd Blanche won't say if the Justice Department investigated Jensen Huang; airports brace for Thanksgiving travel rush.",
-    "published": "2026-11-24T22:00:00+00:00",
-    "id": "8afcedfc2d7e",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "8afcedfc2d7e",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "DOJ directs array of litigators to help with ICE detainee lawsuits",
-    "link": "https://www.cbsnews.com/news/ice-detainee-lawsuits-justice-department-non-immigration-attorneys/",
-    "summary": "Roughly 2,000 DOJ civil litigators are being directed to help with thousands of ICE detainee habeas petitions.",
-    "published": "2026-11-24T21:53:52+00:00",
-    "id": "a7de728b328c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is mostly straight reporting built on an obtained DOJ memo, with the administration's rationale quoted directly and context on the surge in habeas cases. A mild tilt comes from the contextual background on the administration's detention policies and Miller's habeas suspension idea, and no detainee or immigration-bar voices are quoted.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"Many of the Department's U.S. Attorneys' Offices have been overwhelmed by the influx of petitions and impracticable procedures set by the courts,\"",
-        "why": "The only voice is the administration's, with no immigration lawyers or detainee advocates responding in the excerpt."
-      },
-      {
-        "type": "Framing",
-        "quote": "Stephen Miller, the architect of the Trump administration's deportation policy",
-        "why": "Closing on the floated suspension of habeas corpus adds context that frames the surge in cases critically, though it is attributed and noted as not pursued."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "a7de728b328c",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
-    "link": "https://www.theguardian.com/us-news/2026/nov/24/iowa-illinois-missouri-hazardous-bomb-explosion-blast-prep-thanksgiving",
-    "summary": "Detonation of 68 barrels of lead azide scheduled for Wednesday after several delays amid public outcry Residents of Iowa, Illinois and Missouri who are preparing for Thanksgiving are also bracing themselves for the detonation of hazardous bomb-making materials, after the US army announced it would go through with…",
-    "published": "2026-11-24T21:49:07+00:00",
-    "id": "cd082cbba9b9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a factual account of the planned detonation. It includes official statements, the political back-and-forth, and local concerns, and it has no clear partisan slant. Emphasis on \"chaotic\" confusion and the late public notice gives a slight tilt toward criticism of the government's handling.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "The chaotic back-and-forth has left many locals confused and frustrated",
-        "why": "Characterizes the handling as chaotic, which adds mild editorial tone to the sequence of delays."
-      },
-      {
-        "type": "Framing",
-        "quote": "an advisory that is at odds with scheduling the day before Thanksgiving",
-        "why": "Highlights the awkward timing and pushes the reader to see poor planning."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "cd082cbba9b9",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Sen. Gillibrand says 60-seat Senate majority ‘on the table’ in 2028",
-    "link": "https://www.nbcnews.com/meet-the-press/video/sen-gillibrand-says-60-seat-senate-majority-on-the-table-in-2028-274118725698",
-    "summary": "NBC News’ Sahil Kapur goes one-on-one with DSCC Chair Sen. Kirsten Gillibrand (D-N.Y.) on Democrats’ path to expanding their Senate majority in 2028 and whether a filibuster-proof majority is within reach.",
-    "published": "2026-11-24T21:48:09+00:00",
-    "id": "affcaef90666",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 15,
-    "leanWhy": "Only a headline and short feed summary are available. The headline leads with a Democratic campaign chair's optimistic claim about a 60-seat majority, and the summary frames it as a \"path to expanding\" the majority, which gives the Democratic view a mild tilt. The format is a one-on-one interview, and no opposing voices are visible.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "60-seat Senate majority ‘on the table’ in 2028",
-        "why": "The headline amplifies a party chair's optimistic projection as its main news."
-      },
-      {
-        "type": "Source selection",
-        "quote": "goes one-on-one with DSCC Chair Sen. Kirsten Gillibrand",
-        "why": "The only voice shown is a Democratic party official, with no Republican or independent counterweight."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "affcaef90666",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case",
-    "link": "https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case",
-    "summary": "Justice Department lawyers say Judge James Boasberg contradicted his ruling by unsealing search warrant records in Rep. Ilhan Omar's Washington, D.C. case.",
-    "published": "2026-11-24T21:45:21+00:00",
-    "id": "dbe1b24f4302",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 45,
-    "spin": 50,
-    "leanWhy": "The piece adopts the DOJ's framing of a \"contradiction\" and labels the judge \"Obama-appointed\" in headline and lede, while noting he \"frequently found himself at odds with the Trump administration\" and calling his shift a \"u-turn\". It does note a key distinction (Trump was already indicted, Omar is not), but no judge, Omar representative or legal expert gives a counterview, so the DOJ's argument dominates.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case",
-        "why": "The headline stresses the judge's appointing president and states a contradiction as fact, though it is the DOJ's argument."
-      },
-      {
-        "type": "Framing",
-        "quote": "who has frequently found himself at odds with the Trump administration",
-        "why": "This insinuates a pattern of hostility toward Trump without supporting context."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Boasberg's tune was much different in that case",
-        "why": "The tone is mocking and suggests inconsistency or hypocrisy."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The White House did not immediately respond to Fox News Digital's request for comment on the apparent u-turn from the judge.",
-        "why": "It repeats the 'u-turn' framing, and only the DOJ's side is presented as argument."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "dbe1b24f4302",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case, DOJ says",
-    "link": "https://www.foxnews.com/politics/obama-judges-omar-warrant-unsealing-directly-contradicts-his-own-decision-trump-case",
-    "summary": "Justice Department lawyers say Judge James Boasberg contradicted his ruling by unsealing search warrant records in Rep. Ilhan Omar's Washington, D.C. case.",
-    "published": "2026-11-24T21:45:21+00:00",
-    "id": "9b836771eff5",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 45,
-    "spin": 50,
-    "leanWhy": "The piece adopts the DOJ's contradiction argument as its frame, labels the judge \"Obama-appointed\" in the headline and lead, and says he \"has frequently found himself at odds with the Trump administration.\" It does include a note that Trump was already indicted while Omar is not, but it presents this only briefly and mostly relies on DOJ filings and Boasberg's own past words, with no outside legal view or Omar-side response.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Obama judge's Omar warrant unsealing directly contradicts his own decision",
-        "why": "The headline stresses the judge's appointing president and states the contradiction claim strongly, even though the text itself points to a differing factual posture."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Boasberg's tune was much different in that case",
-        "why": "The idiom mocks the judge and implies inconsistency before any legal distinction is considered."
-      },
-      {
-        "type": "Framing",
-        "quote": "who has frequently found himself at odds with the Trump administration",
-        "why": "The aside casts the judge as an adversary of the administration and primes readers to see bias."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The White House did not immediately respond to Fox News Digital's request for comment on the apparent u-turn from the judge.",
-        "why": "It asks only the administration for comment and calls the ruling an 'apparent u-turn', so the contradiction frame is treated as given."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "dbe1b24f4302",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Iran War Prices Drove Most Of Europe’s Surge In American Energy Buying",
-    "link": "https://dailycaller.com/2026/11/24/europe-american-energy-exports-iran-war-prices-crude-lng-chris-wright",
-    "summary": "Europeans are spending a lot more on American energy in 2026, mostly because the Iran war pushed up what each cargo costs.",
-    "published": "2026-11-24T21:44:10+00:00",
-    "id": "f1ccf52113c8",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The piece is a data-driven analysis that separates price effects from volume effects, cites Eurostat, EIA and the Energy Department, and includes an outside expert and the European Commission. It gives the administration's credit claim for the Warsaw deals only a brief, attributed mention, and it notes that the Energy Department did not respond to a request for comment.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "mostly because the Iran war pushed up what each cargo costs",
-        "why": "The lead frames the export surge as a war-price effect rather than a policy success, which slightly undercuts the administration's credit claim."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "f1ccf52113c8",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump’s DoJ ‘looked into’ concerns about Huang after affair with suspected Chinese spy but says no security risk found – live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-    "summary": "Justice department and other agencies reached ‘collective consensus’ that Jensen Huang is not a national security risk, attorney general Todd Blanche says Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET.",
-    "published": "2026-11-24T21:42:48+00:00",
-    "id": "3a936c85da90",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The live-blog frames Blanche as evasive (\"became defensive\") and then gives a Biden-era official extended space to argue for strict chip export controls, while the Trump administration's account is shorter. The piece mostly relays direct quotes, but the emphasis and the \"affair with suspected Chinese spy\" headline lean toward scrutiny of the Trump DOJ.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "the attorney general became defensive when reporters pressed him",
-        "why": "Characterizes Blanche's response as defensive, which colors the exchange against the administration."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Raimondo, who oversaw export controls on advanced chips that were imposed on China during the Biden administration",
-        "why": "Gives extended space to a Democratic-era official's national security argument, with no counterpart from the administration on the export policy."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "Trump’s DoJ ‘looked into’ concerns about Huang after affair with suspected Chinese spy",
-        "why": "Scare quotes around 'looked into' hint at skepticism about the department's claim."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "3a936c85da90",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Congress will need to ‘force’ changes to immigration policy, says House Democrat",
-    "link": "https://www.nbcnews.com/meet-the-press/video/congress-will-need-to-force-changes-to-immigration-policy-says-house-democrat-274118213880",
-    "summary": "Rep. Glenn Ivey (D-Md.) joins Meet the Press NOW to discuss Democrats’ priorities in the next Congress and whether he believes the party can work with the Trump administration on immigration reform.",
-    "published": "2026-11-24T21:37:12+00:00",
-    "id": "4fb3fa0c8770",
-    "basis": "summary",
-    "political": true,
-    "scorable": false,
-    "opinion": false,
-    "lean": null,
-    "spin": null,
-    "signals": [],
-    "leanWhy": "Not enough text was available to judge slant fairly.",
-    "confidence": "low",
-    "cluster": "4fb3fa0c8770",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Mike DeWine Signs Bill Ending Red Tape On Gun Suppressors In Ohio",
-    "link": "https://dailycaller.com/2026/11/24/ohio-governor-signs-law-ending-red-tape-on-suppressors",
-    "summary": "‘Ohio has removed draconian restrictions on suppressors AND short-barreled firearms’",
-    "published": "2026-11-24T21:36:07+00:00",
-    "id": "512edb2d8359",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 50,
-    "spin": 45,
-    "leanWhy": "The headline's \"Ending Red Tape\" and the quoted \"draconian restrictions\" adopt the gun-rights framing, and the excerpt quotes only gun-rights groups (GOA, Buckeye Firearms), celebrating the law. No gun-control advocates, public-safety concerns or Democratic response appear, and the linked item about Democrats \"zapping burdensome regulations\" uses the same pro-deregulation language.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Ending Red Tape On Gun Suppressors In Ohio",
-        "why": "The headline frames the law as cutting bureaucracy, which is the gun-rights side's own description."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Both national and state-level pro-Second Amendment groups celebrated the move.",
-        "why": "Only advocates of the change are quoted; opponents or public-safety voices are absent."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "‘Ohio has removed draconian restrictions on suppressors AND short-barreled firearms’",
-        "why": "The summary uses an advocacy group's charged wording as its own framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "Democrats Could Zap Burdensome Regulations On Gun Suppressors Back To Life",
-        "why": "The related-link text treats the regulations as burdensome in the outlet's own voice."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "right",
-    "cluster": "512edb2d8359",
     "coverage": 1
   }
 ]
