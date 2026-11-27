@@ -1,5 +1,391 @@
 [
   {
+    "outlet": "Washington Examiner",
+    "title": "America cannot afford an FAA moment for its electric grid",
+    "link": "https://www.washingtonexaminer.com/op-eds/4815515/grid-modernization-electric-grid-reliability/",
+    "summary": "As someone who travels frequently for work, I know the frustration of flight cancellations and delays. The Federal Aviation Administration’s nationwide ground stop on Nov.",
+    "published": "2026-11-27T16:00:00+00:00",
+    "id": "84f1005063b8",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 0,
+    "spin": 25,
+    "leanWhy": "This is a first-person opinion piece that uses the FAA ground stop to argue for modernizing the electric grid. The excerpt is short and sets out only the thesis. It doesn't say which policies or which side's approach the author favors, so the lean is unclear.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "We cannot afford to wait for critical infrastructure to fail before modernizing it.",
+        "why": "It states a thesis and uses an aviation outage as an analogy to build urgency for grid investment."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "neither",
+    "cluster": "84f1005063b8",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Zelensky chides the Trump-Putin friendship as ‘strange’",
+    "link": "https://www.washingtonexaminer.com/news/world/4816476/zelensky-trump-putin-friendship-russia-ukraine-war/",
+    "summary": "Ukrainian President Volodymyr Zelensky called President Donald Trump’s friendship with Russian President Vladimir Putin “strange” in a BBC interview that was published Friday.",
+    "published": "2026-11-27T15:54:09+00:00",
+    "id": "a109b321971c",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The excerpt is short and mostly relays Zelensky's quoted remark and the context of Trump's \"friend\" comment, with no editorializing. The headline verb \"chides\" and the lead on Trump's friendship with Putin give a slight tilt toward the critical frame, and no White House response appears in the excerpt.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Zelensky chides the Trump-Putin friendship as ‘strange’",
+        "why": "\"Chides\" casts the remark as a rebuke and centers the story on Trump's closeness to Putin."
+      },
+      {
+        "type": "Source selection",
+        "quote": "called President Donald Trump’s friendship with Russian President Vladimir Putin “strange”",
+        "why": "Only Zelensky's critical view is given in the excerpt, with no Trump or White House reply."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a109b321971c",
+    "coverage": 2
+  },
+  {
+    "outlet": "BBC",
+    "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+    "link": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+    "summary": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their funadamental rights.",
+    "published": "2026-11-27T15:38:13+00:00",
+    "id": "2894311f0b1d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a factual recap of the ruling, with Quebec's secularism rationale included. It tilts slightly left through the loaded phrase \"legal loophole\" for the notwithstanding clause and through its sourcing, which gives more room to critics' rights-based arguments than to the law's defenders.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "a legal loophole that allows governments to override certain rights",
+        "why": "Calling a constitutional provision a \"loophole\" implies illegitimacy and frames the law from the rights-challengers' side."
+      },
+      {
+        "type": "Source selection",
+        "quote": "Civil liberty groups in Quebec have criticised Bill 21, saying it disproportionately affects Muslim women",
+        "why": "Critics' arguments are described in detail, while Quebec's secularism rationale gets one brief closing line."
+      },
+      {
+        "type": "Framing",
+        "quote": "Quebec has argued that the law is necessary to uphold the province's state secularism",
+        "why": "The government's defense comes last and is brief, which gives the challengers' framing more weight."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "2894311f0b1d",
+    "coverage": 1
+  },
+  {
+    "outlet": "CBS News",
+    "title": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
+    "link": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/",
+    "summary": "Volodymyr Zelenskyy described President Trump calling Vladimir Putin \"my friend\" as \"strange\" because the Russian leader is \"an aggressor and a killer.\"",
+    "published": "2026-11-27T15:32:29+00:00",
+    "id": "451473286ebe",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly straight reporting with Trump's response included. However, the headline leads with the Hitler comparison, and the added context (Kushner's \"grandmaster\" remark, Witkoff's \"humanitarian\" remark, the ICC sanctions, and Zelenskyy's complaints about undelivered Patriot missiles) is mostly unflattering to Trump's approach. Trump gets only brief space, and no defenders of his strategy are quoted.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump calling Putin a friend like calling Hitler a friend",
+        "why": "The headline puts the most provocative comparison up front, although Zelenskyy's own wording was milder, calling it 'strange'."
+      },
+      {
+        "type": "Framing",
+        "quote": "in the latest sign of deepening tension between Kyiv and Washington",
+        "why": "The story is framed as a deteriorating US-Ukraine relationship under Trump."
+      },
+      {
+        "type": "Source selection",
+        "quote": "complimented Putin on being a \"grandmaster\" of politics",
+        "why": "The piece adds other Trump-team praise of Putin, which reinforces the critical framing without any counterbalancing context."
+      },
+      {
+        "type": "Framing",
+        "quote": "before Mr. Trump resumed relations",
+        "why": "This implies Trump ended Putin's isolation, which is a pointed emphasis."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "a109b321971c",
+    "coverage": 2
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Newly released documents suggest CIA did more post-9/11 waterboarding than previously acknowledged",
+    "link": "https://www.theguardian.com/us-news/2026/nov/27/newly-released-documents-cia-waterboarding-9-11",
+    "summary": "Declassified documents appear to support belief that waterboarding was more common and may have occurred beyond two acknowledged sites Newly released documents suggest that the CIA waterboarded more detainees during the post-9/11 “war on terror” than previously acknowledged, utilizing a site north of Kabul,…",
+    "published": "2026-11-27T15:25:03+00:00",
+    "id": "8db3c7a4f633",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -14,
+    "spin": 12,
+    "leanWhy": "The piece is mostly careful, hedged reporting (\"appear,\" \"suggest,\" \"seemingly\") on declassified documents, with attributions to the FBI summary and the Times. It leans slightly left through story choice and the use of \"torture\" in the CIA investigation framing, and it has no defenders of the program or counterpoints.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "includes an account from a former CIA contract translator that appears to support the belief",
+        "why": "The story rests on one witness account and has no CIA or defender response, though the hedging is careful."
+      },
+      {
+        "type": "Framing",
+        "quote": "investigation into the CIA’s use of torture",
+        "why": "It uses the term 'torture' in the outlet's own voice, which is the left-coded framing of 'enhanced interrogation'."
+      },
+      {
+        "type": "Omission",
+        "quote": "No charges were ever brought.",
+        "why": "The article states this briefly and does not add context, such as the reasons or the program's legal defenses."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "8db3c7a4f633",
+    "coverage": 1
+  },
+  {
+    "outlet": "NBC News",
+    "title": "Lottery winner arrested by ICE days after claiming $1 million prize",
+    "link": "https://www.nbcnews.com/news/us-news/lottery-winner-arrested-ice-days-claiming-1-million-prize-rcna611555",
+    "summary": "An East Boston man who won $1 million on a scratch ticket earlier this month has been arrested by U.S.",
+    "published": "2026-11-27T15:12:46+00:00",
+    "id": "f117d187166b",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 10,
+    "leanWhy": "The piece is mostly a factual recap that attributes the arrest, the removal order and the entry date to ICE. It quotes ICE's mocking social media post but gives no response from the man, his lawyer or critics, so the agency's account is the only one presented.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "ICE said Velasquez-Morales entered the U.S. illegally on May 15, 2013, and was ordered removed by an immigration judge on April 24, 2014.",
+        "why": "The immigration history comes only from the agency, with no other voice or counterpoint."
+      },
+      {
+        "type": "Framing",
+        "quote": "Welcome to the ERO [Enforcement and Removal Operations] Boston lottery!",
+        "why": "The article reproduces ICE's celebratory, mocking tone without any added context or reaction from the other side."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "f117d187166b",
+    "coverage": 2
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "STATE OF FRIDAY: A Pardon For The Price Of A Stock Rally?",
+    "link": "https://dailycaller.com/2026/11/27/state-of-friday-donald-trump-nvidia-jensen-huang-pardon-china-chips",
+    "summary": "Then reports of another affair surfaced, followed by reports of a third",
+    "published": "2026-11-27T15:05:00+00:00",
+    "id": "2b5be2a19b6d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": -80,
+    "spin": 70,
+    "leanWhy": "This is a first-person commentary piece that frames Trump's involvement in Nvidia's CEO decision and a possible pardon as corruption driven by his personal stock holdings. It uses mocking and loaded language and gives no Trump-side or Nvidia-side response in the excerpt, though it does cite his own CNBC remarks.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "There’s really no way around how disgustingly corrupt this whole ploy is.",
+        "why": "It states a conclusion of corruption outright instead of attributing it to sources."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "corruption-riddled Jensen Huang Saga",
+        "why": "The label asserts corruption as settled fact in the framing."
+      },
+      {
+        "type": "Framing",
+        "quote": "Not too shabby for a Monday.",
+        "why": "The sarcastic tone casts the president's possible gain as a self-serving scheme."
+      },
+      {
+        "type": "Framing",
+        "quote": "in true Trump fashion, he had no problem publicly celebrating his scheme",
+        "why": "It attributes a scheme and motive to Trump without presenting any alternative explanation."
+      }
+    ],
+    "confidence": "high",
+    "storyChoice": "left",
+    "cluster": "2b5be2a19b6d",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Three studies link glyphosate to cancer, contradicting claims of Trump EPA",
+    "link": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa",
+    "summary": "Experts say NIH research raises concerns about chemical companies’ influence on US agency’s pesticide division The US government’s top medical research agency has released three new studies linking glyphosate, the world’s most widely used pesticide and an active ingredient in Roundup, to cancer .",
+    "published": "2026-11-27T15:00:13+00:00",
+    "id": "28f8fd05278e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -42,
+    "spin": 40,
+    "leanWhy": "The piece frames the NIH reviews as a \"blow\" to the White House and the EPA, and the only outside expert quoted is an advocate who attacks the EPA. Its criticism of the administration's tie to Bayer fits left-coded themes of distrust of agencies and corporate influence, while the industry gets just one brief statement. The article does note that the EPA did not respond and includes the Bayer statement.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "deals a blow to the White House",
+        "why": "Frames the findings as a political defeat for the administration rather than neutrally describing them."
+      },
+      {
+        "type": "Source selection",
+        "quote": "“The EPA’s pesticide office has made a mockery of pesticide science for far too long.”",
+        "why": "The only independent expert is an advocacy-group scientist, and his harsh quote is given prominent space with no independent scientist offering a counterview."
+      },
+      {
+        "type": "Framing",
+        "quote": "The papers also represent a major public relations hit for Bayer, which has relentlessly defended the herbicide",
+        "why": "Characterizes the company's defense as relentless and stresses its sales figures, which casts the company in a negative light."
+      },
+      {
+        "type": "Framing",
+        "quote": "which would subject it to a modest increase in regulations",
+        "why": "Mild downplaying of the regulatory consequences, but the headline's 'contradicting claims' framing treats the EPA conclusion as discredited."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "28f8fd05278e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "How AI helps the environment",
+    "link": "https://www.washingtonexaminer.com/op-eds/4813018/ai-environmental-benefits/",
+    "summary": "Critics of artificial intelligence — and AI’s power sources, data centers — believe it will destroy humanity and harm the planet. But that’s an inaccurate way to look at it.",
+    "published": "2026-11-27T15:00:00+00:00",
+    "id": "63a9ec9b53f1",
+    "basis": "summary",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 20,
+    "spin": 40,
+    "leanWhy": "Only a headline and a short feed summary are available. The summary reads as a thesis piece that rejects critics' environmental concerns about AI and data centers as \"inaccurate\". That tilts toward the right-coded framing of skepticism toward climate and energy restrictions, though the AI-and-environment debate also cuts across party lines.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "But that’s an inaccurate way to look at it.",
+        "why": "It states a conclusion that dismisses critics' concerns without offering evidence in the text shown."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "believe it will destroy humanity and harm the planet",
+        "why": "It describes critics' views in extreme terms, which makes them easier to dismiss."
+      }
+    ],
+    "confidence": "low",
+    "storyChoice": "right",
+    "cluster": "63a9ec9b53f1",
+    "coverage": 1
+  },
+  {
+    "outlet": "Washington Examiner",
+    "title": "Subsidized housing has a waiting list. Respect it",
+    "link": "https://www.washingtonexaminer.com/op-eds/4815465/hud-mixed-status-rule-housing-aid-eligible-households/",
+    "summary": "HUD says its housing reaches about one-quarter of eligible households in need. The rest have to wait. Anyone who has stood in line knows how it feels when someone else walks past it. That’s why this week’s lawsuits miss the point.",
+    "published": "2026-11-27T15:00:00+00:00",
+    "id": "235d738be01d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": true,
+    "lean": 55,
+    "spin": 50,
+    "leanWhy": "This first-person opinion piece backs the HUD rule and dismisses the cities' lawsuits as missing the point. It frames the issue through queue fairness, taxpayer status and \"qualified claimants first\", which is a rule-of-law and cost frame. The excerpt gives the plaintiffs only one quoted line and no response to their claim that citizens would be evicted.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Anyone who has stood in line knows how it feels when someone else walks past it.",
+        "why": "Casts the rule as simple queue fairness and presents non-qualifying residents as line-cutters."
+      },
+      {
+        "type": "Source selection",
+        "quote": "I’m a taxpayer, father, and small business owner who has spent 30 years around other people’s money.",
+        "why": "Builds authority from a taxpayer and small-business persona, a right-coded frame, instead of from housing evidence."
+      },
+      {
+        "type": "Omission",
+        "quote": "they claim will “unlawfully evict U.S. citizens and other qualifying residents from their homes.”",
+        "why": "The plaintiffs' claim is quoted once and framed as a claim, and the excerpt does not answer it."
+      },
+      {
+        "type": "Loaded language",
+        "quote": "That’s why this week’s lawsuits miss the point.",
+        "why": "Dismisses the legal challenge as beside the point before the excerpt engages with its substance."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "235d738be01d",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "US pilot tells Trump which fighter jet is ‘world’s greatest’ during Thanksgiving phone call",
+    "link": "https://www.foxnews.com/politics/us-pilot-tells-trump-which-fighter-jet-worlds-greatest-thanksgiving-phone-call",
+    "summary": "An F-16 pilot told President Donald Trump the jet is the \"world's greatest\" during a Thanksgiving call, saying \"you couldn't pay me to switch airplanes.\"",
+    "published": "2026-11-27T14:25:40+00:00",
+    "id": "a56cc29fa629",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 12,
+    "spin": 12,
+    "leanWhy": "The piece is mostly a straight recap of the call, with direct quotes from Trump and the pilot. It gives Trump's upbeat account of the Iran war without outside challenge or context, and the light, friendly headline framing mildly favors the administration.",
+    "signals": [
+      {
+        "type": "Source selection",
+        "quote": "And you're seeing some big victories, aren't you? Knocking them out left and right",
+        "why": "Trump's claims of victory in the Iran war are reported without independent verification or counterpoint."
+      },
+      {
+        "type": "Framing",
+        "quote": "Their economy is down the tubes",
+        "why": "Trump's characterization of Iran is relayed without context, so the piece reads as favorable coverage of the war effort."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "a56cc29fa629",
+    "coverage": 2
+  },
+  {
     "outlet": "CBS News",
     "title": "Trump says he's giving Iran \"a chance to be smart\"",
     "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
@@ -60,6 +446,83 @@
     "storyChoice": "neither",
     "cluster": "9773260c66a4",
     "coverage": 2
+  },
+  {
+    "outlet": "Fox",
+    "title": "From Hollywood mogul to Biden-Harris insiders, Democrats turn to familiar faces to shape their next chapter",
+    "link": "https://www.foxnews.com/politics/from-hollywood-mogul-biden-harris-insiders-democrats-turn-familiar-faces-shape-next-chapter",
+    "summary": "Abdul El-Sayed's transition team director previously claimed Zionists were \"controlling\" U.S. politics, while Tyler Perry co-chairs Georgia's team.",
+    "published": "2026-11-27T13:00:33+00:00",
+    "id": "ba03aacda382",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 25,
+    "spin": 30,
+    "leanWhy": "The piece is mostly a factual rundown of transition appointments, with responses from campaigns included. But the summary and the excerpt give the most space to the one controversial pick, an old quote about \"Zionists,\" which fits a right-leaning frame of Democrats recycling insiders and tolerating extremism.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Democrats turn to familiar faces to shape their next chapter",
+        "why": "The headline casts the appointments as recycled establishment figures."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "Abdelall previously claimed that Zionists were \"controlling\" much of U.S. politics",
+        "why": "The summary and excerpt dwell on one controversial remark from a single appointee, which gives it more weight than the other appointments."
+      },
+      {
+        "type": "Source selection",
+        "quote": "The Washington Free Beacon reported Nov. 6",
+        "why": "The controversy rests on a partisan outlet's report, and the campaign's rebuttal comes only afterward."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "ba03aacda382",
+    "coverage": 1
+  },
+  {
+    "outlet": "The Guardian",
+    "title": "Trump Medicaid cuts will hit the most vulnerable Americans, officials say",
+    "link": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+    "summary": "In Kentucky, one of America’s unhealthiest states, denial of healthcare and potential closure of hospitals may affect 250,000 people The coalfields of eastern Kentucky fueled America’s economic rise in the early 20th century. But the state has since found itself left behind.",
+    "published": "2026-11-27T13:00:11+00:00",
+    "id": "bef926c98fce",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -45,
+    "spin": 40,
+    "leanWhy": "The piece frames Medicaid cuts almost entirely through their harms to vulnerable Kentuckians, quoting a policy researcher and a county Democratic chair. No supporters of the cuts or work requirements appear in the excerpt, so the left-coded frame of safety-net protection and rural harm dominates.",
+    "signals": [
+      {
+        "type": "Headline mismatch",
+        "quote": "Trump Medicaid cuts will hit the most vulnerable Americans, officials say",
+        "why": "The headline states harm as a certain outcome, but the excerpt quotes a think-tank researcher and a local Democratic party chair rather than administration or neutral officials."
+      },
+      {
+        "type": "Source selection",
+        "quote": "says Zack Hall, chair of the Perry County Democratic party",
+        "why": "A partisan Democrat is a main voice on hospital closures, and no Republican or administration defender appears in the excerpt."
+      },
+      {
+        "type": "Framing",
+        "quote": "Kentucky’s most vulnerable are set to be especially affected by the cuts.",
+        "why": "This asserts the outcome as settled, even though other passages hedge it with 'could' and 'are believed to be at risk'."
+      },
+      {
+        "type": "Omission",
+        "quote": "The federal work requirement, in which many Americans must demonstrate they work or volunteer at least 80 hours a month",
+        "why": "The work requirement is described only as a burden, and the excerpt gives no rationale for it."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "bef926c98fce",
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -554,6 +1017,83 @@
     "coverage": 1
   },
   {
+    "outlet": "Fox",
+    "title": "How to spot real Black Friday savings this holiday season amid the affordability squeeze",
+    "link": "https://www.foxnews.com/politics/how-spot-real-black-friday-savings-holiday-season-amid-affordability-squeeze",
+    "summary": "A marketing professor warns that Black Friday deals aren't always real discounts, citing shrinkflation and inflation as factors that obscure true savings.",
+    "published": "2026-11-27T11:00:26+00:00",
+    "id": "9064de7d260e",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "This is mostly consumer-advice copy built around a marketing professor's tips, with data from Visa, AAA and the New York Fed. The economic framing (\"affordability crisis,\" \"raging Iran conflict,\" tariff pass-through) is mildly negative for the current administration, but the piece makes no partisan argument and cites tariffs only as one potential pressure.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "amid a persisting affordability crisis and rising fuel prices with the raging Iran conflict",
+        "why": "Dramatic framing of economic conditions adds a negative-economy tone that is not attributed to a source."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "9064de7d260e",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Pregnant inmate escapes in New Mexico prison transport SUV during Whataburger stop",
+    "link": "https://www.foxnews.com/us/pregnant-inmate-escapes-new-mexico-prison-transport-suv-whataburger-stop",
+    "summary": "Pregnant inmate Rebecca Taylor escaped a New Mexico corrections vehicle during a Whataburger stop in Albuquerque following a prenatal appointment.",
+    "published": "2026-11-27T10:55:03+00:00",
+    "id": "640376702322",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a straight factual account of an escape, attributed to the corrections department and KOAT. It notes the no-restraint policy for pregnant inmates and the unclear whereabouts of two officers, but it draws no conclusion and gives no ideological framing.",
+    "signals": [],
+    "confidence": "medium",
+    "storyChoice": "right",
+    "cluster": "640376702322",
+    "coverage": 1
+  },
+  {
+    "outlet": "Fox",
+    "title": "Trump mourns Florida detective killed by suspected drunk driver on Thanksgiving",
+    "link": "https://www.foxnews.com/us/trump-mourns-florida-detective-killed-suspected-drunk-driver-thanksgiving",
+    "summary": "President Donald Trump paid tribute to Palm Beach County Detective Alan Smith, a bomb squad expert killed in a wrong-way crash on I-95 on Thanksgiving.",
+    "published": "2026-11-27T10:49:27+00:00",
+    "id": "0069d860b176",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 8,
+    "leanWhy": "The piece is a largely factual recap of a fatal crash, the charges, and tributes from the sheriff's office, Trump and the FBI director. Mild right-coded emphasis comes from dwelling on the suspect's DUI history and revoked license and on police-victim tributes, but there is no explicit editorializing.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "placed Martinez in the same handcuffs carried by Smith",
+        "why": "A poignant detail that emphasizes the officer-as-victim and punishment frame."
+      },
+      {
+        "type": "Emphasis",
+        "quote": "Martinez has been arrested three times for DUI and that his driver's license had been revoked for 10 years",
+        "why": "Dwelling on the suspect's record fits a personal-responsibility and deterrence frame, though it is relevant and sourced."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "0069d860b176",
+    "coverage": 1
+  },
+  {
     "outlet": "BBC",
     "title": "Canada's top court to rule on Quebec's ban on wearing religious symbols",
     "link": "https://www.bbc.co.uk/news/articles/c78j8vk3r50o?at_medium=RSS&at_campaign=rss",
@@ -581,7 +1121,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "ab34a0e08bba",
+    "cluster": "2894311f0b1d",
     "coverage": 1
   },
   {
@@ -1210,8 +1750,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "42450ea5e850",
-    "coverage": 1
+    "cluster": "a56cc29fa629",
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -1897,8 +2437,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "4c2e586db3d7",
-    "coverage": 1
+    "cluster": "f117d187166b",
+    "coverage": 2
   },
   {
     "outlet": "Axios",
@@ -1950,7 +2490,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "01bbcc6d36ba",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Daily Caller",
@@ -2350,7 +2890,7 @@
     ],
     "confidence": "low",
     "storyChoice": "left",
-    "cluster": "b058b691cce7",
+    "cluster": "649cabae52a4",
     "coverage": 1
   },
   {
@@ -2472,8 +3012,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "a069de40dd77",
-    "coverage": 4
+    "cluster": "3a1bd08486ff",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -2498,8 +3038,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "01bbcc6d36ba",
-    "coverage": 2
+    "cluster": "58da21893848",
+    "coverage": 1
   },
   {
     "outlet": "The Guardian",
@@ -4095,7 +4635,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "e79a5ae40573",
+    "cluster": "93b5dc67b06e",
     "coverage": 1
   },
   {
@@ -4311,6 +4851,42 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "aed74119c37f",
+    "coverage": 1
+  },
+  {
+    "outlet": "Daily Caller",
+    "title": "Anthropic, OpenAI Roll Out Agent Safeguards As Insiders Fear Their Top Models Are Too Powerful",
+    "link": "https://dailycaller.com/2026/11/25/anthropic-openai-artificial-intelligence-safeguards-models-powerful",
+    "summary": "‘Americans should be extremely concerned’",
+    "published": "2026-11-25T21:54:20+00:00",
+    "id": "9d2078a2929d",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 35,
+    "leanWhy": "The piece is an alarm-leaning tech-safety report that relies on company blog posts and one critic, and AI risk and regulation is a cross-cutting theme (anti-Big Tech sentiment) rather than a clear left/right frame. The framing is mildly sensational, but it does not favor either party.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "their most powerful models become too powerful to contain",
+        "why": "The lead states as fact that the models are too powerful to contain, which is more alarmist than the evidence in the excerpt supports."
+      },
+      {
+        "type": "Source selection",
+        "quote": "more than two dozen anonymous sources told Axios Tuesday",
+        "why": "The central claim that the models are too powerful to release rests on anonymous sources relayed secondhand."
+      },
+      {
+        "type": "Framing",
+        "quote": "“Americans should be extremely concerned that AI companies are planning to make superhuman AI systems",
+        "why": "The only outside voice is an ex-insider critic whose alarm is repeated in the summary, with no counter-view."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "9d2078a2929d",
     "coverage": 1
   },
   {
@@ -5148,8 +5724,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "98475b69494d",
-    "coverage": 2
+    "cluster": "0df29dbb97ba",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -5463,7 +6039,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "b3df78c1ffe1",
+    "cluster": "4ba728d72051",
     "coverage": 1
   },
   {
@@ -5963,8 +6539,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "df024f5fc67c",
-    "coverage": 4
+    "cluster": "0df29dbb97ba",
+    "coverage": 3
   },
   {
     "outlet": "Axios",
@@ -7337,7 +7913,7 @@
     "confidence": "low",
     "storyChoice": "left",
     "cluster": "98475b69494d",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Axios",
@@ -8754,8 +9330,8 @@
     "signals": [],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "df024f5fc67c",
-    "coverage": 4
+    "cluster": "0df29dbb97ba",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -8922,7 +9498,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "c723c31fbed7",
+    "cluster": "e0e7d217e8e9",
     "coverage": 1
   },
   {
@@ -9071,8 +9647,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "df024f5fc67c",
-    "coverage": 4
+    "cluster": "0df29dbb97ba",
+    "coverage": 3
   },
   {
     "outlet": "NBC News",
@@ -9097,8 +9673,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "df024f5fc67c",
-    "coverage": 4
+    "cluster": "0df29dbb97ba",
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -9130,589 +9706,5 @@
     "storyChoice": "neither",
     "cluster": "6dbbda159948",
     "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "NTSB chief presses for safety fixes before Army resumes flights near DCA",
-    "link": "https://www.washingtonexaminer.com/policy/defense/4814683/ntsb-safety-army-training-flights-dca/",
-    "summary": "National Transportation Safety Board Chairwoman Jennifer Homendy on Tuesday said the Army must implement its safety recommendations before resuming helicopter training flights near Ronald Reagan Washington National Airport.",
-    "published": "2026-11-25T02:14:25+00:00",
-    "id": "3dd1ec7460d9",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "The excerpt is a short, factual report of an NTSB chair's statement about Army helicopter flights near DCA, with no loaded language. It leans slightly toward the safety-regulator frame, but it is a brief excerpt with no partisan framing and little Army or Pentagon response.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "3dd1ec7460d9",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Iran developing chemical weapons, Israeli defense minister says",
-    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-    "summary": "Israeli Defense Minister Israel Katz said Iran was developing chemical weapons and left open the possibility of preemptive strikes if necessary.",
-    "published": "2026-11-25T02:14:00+00:00",
-    "id": "0aca8e764715",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "This is a live-updates style roundup that mostly attributes claims to named sources (Houthi media, the DOJ, Trump) and reports them in a largely factual way. The excerpt does not reach the headline's Katz claim, and Trump's oil-price remarks are quoted without any outside check or counterpoint, a mild tilt.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"People, it's dropping very quickly, like a rock.\"",
-        "why": "Trump's upbeat oil-price claim is quoted without independent context or counterpoint in the excerpt, though the Brent price drop is noted."
-      },
-      {
-        "type": "Headline mismatch",
-        "quote": "Iran developing chemical weapons, Israeli defense minister says",
-        "why": "The headline's claim rests on a single official's assertion, and the excerpt gives no supporting evidence or response from Iran."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "0aca8e764715",
-    "coverage": 1
-  },
-  {
-    "outlet": "Washington Examiner",
-    "title": "Blanche calls in DOJ reinforcements as ICE detention challenges top 97,000",
-    "link": "https://www.washingtonexaminer.com/news/justice/4814632/blanche-doj-reinforcements-ice-detention-challenges/",
-    "summary": "Attorney General Todd Blanche is calling in lawyers from across the Justice Department to defend President Donald Trump’s immigration enforcement policies after a surge in lawsuits from detainees overwhelmed U.S. attorneys’ offices.",
-    "published": "2026-11-25T02:09:17+00:00",
-    "id": "96d396cf94f2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 10,
-    "leanWhy": "The excerpt is a mostly factual account of a DOJ internal memo, with figures and a historical comparison and no loaded wording. The framing of lawyers \"defending\" policy against an overwhelming \"surge\" of lawsuits is mildly administration-centered, and no detainee, advocate or critic is quoted in the excerpt.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "according to a Nov. 24 memo obtained by the Washington Examiner",
-        "why": "The account rests on a single internal government memo, with no outside voices such as detainees' lawyers in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "96d396cf94f2",
-    "coverage": 1
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Trump Says Pardoning Jensen Huang Is ‘Always An Option,’ But Probably Won’t Be ‘Necessary’",
-    "link": "https://dailycaller.com/2026/11/24/trump-jensen-huang-pardon-nvidia-congress-testimony",
-    "summary": "‘I got into the business of chips, much more than the business of sex’",
-    "published": "2026-11-25T01:55:16+00:00",
-    "id": "df024f5fc67c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 15,
-    "leanWhy": "The piece is mostly a straight recap of Trump's interview remarks, with attribution to CBS, CNBC and ABC and reaction from both Democrats and a Republican-led committee. A slight tilt appears in the note that the White House did not say which investigation cleared Huang, and in the related link saying both parties are upset.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Both Sides Of Congress Upset Trump Put Thumb On Scale To Reinstate Jensen Huang As Nvidia CEO",
-        "why": "The linked headline uses the idiom 'put thumb on scale', which implies improper interference by Trump, though it also notes bipartisan criticism."
-      },
-      {
-        "type": "Omission",
-        "quote": "The White House has not specified which investigation he meant.",
-        "why": "This points out that Trump's exoneration claim is unsupported, a mildly skeptical note that is fair but does cut against his claim."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "df024f5fc67c",
-    "coverage": 4
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution",
-    "link": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/",
-    "summary": "Nidal Hasan, the Army soldier who fatally shot 13 people in the attack at the Texas Army post in 2009, told a federal court Tuesday that he plans to file a petition to delay his execution by firing squad.",
-    "published": "2026-11-25T01:49:00+00:00",
-    "id": "4b7c0c60907d",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "This is a mostly factual report on a death-row petition and a dispute over survivor access to the execution. It quotes Hasan's claims and attributes them to the court filing, and it gives the survivors' grievance, with no editorializing.",
-    "signals": [],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "66866893634f",
-    "coverage": 2
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Judge orders Fulton County to turn over copies of 2020 ballots to Trump-allied election board",
-    "link": "https://www.nbcnews.com/politics/elections/judge-orders-fulton-county-turn-copies-2020-ballots-ga-election-board-rcna611220",
-    "summary": "The State Election Board, which sets and enforces Georgia’s election rules, is under the control of activists aligned with Trump and his false claims of a stolen election.",
-    "published": "2026-11-25T01:44:07+00:00",
-    "id": "e79a5ae40573",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece is mostly factual about the court order, but it repeatedly describes the board as \"Trump-allied\" activists and stresses that Trump's fraud claims are false or unsubstantiated. It includes no voice from the board or its supporters, and it adds a few editorial touches such as the \"small price to pay\" line and \"conspiracy theorists\".",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "under the control of activists aligned with Trump and his false claims of a stolen election",
-        "why": "The summary labels the board members as activists and states in its own voice that the claims are false, which is a framing choice rather than neutral attribution."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "frequent targets of criticism from conspiracy theorists",
-        "why": "The phrase puts critics of Fulton County's election administration in a dismissive category."
-      },
-      {
-        "type": "Framing",
-        "quote": "The amount is considered a small price to pay given the board’s interest in obtaining the records.",
-        "why": "The sentence is vague and unattributed, and it carries a wry tone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "The State Election Board and Fulton County did not immediately respond to requests for comment Tuesday night.",
-        "why": "No board member, county official or outside expert is quoted, so the piece relies on the outlet's own characterization."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "e79a5ae40573",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Judge orders Georgia’s Fulton County to turn over copies of 2020 ballots to Trump-allied election board",
-    "link": "https://www.nbcnews.com/politics/elections/judge-orders-fulton-county-turn-copies-2020-ballots-ga-election-board-rcna611220",
-    "summary": "The State Election Board, which sets and enforces Georgia’s election rules, is under the control of activists aligned with Trump and his false claims of a stolen election.",
-    "published": "2026-11-25T01:44:07+00:00",
-    "id": "9063ccad586c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 25,
-    "leanWhy": "The piece reports the court order accurately, but repeatedly labels the board as controlled by Trump allies and activists and frames the fraud claims as false or unsubstantiated, which matches a left-coded framing of election-integrity efforts. No board member or Trump-aligned voice is quoted to explain their rationale, and the excerpt includes editorializing asides.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "under the control of activists aligned with Trump and his false claims of a stolen election",
-        "why": "The summary states the claims are false and uses 'activists' for board members, an editorial framing."
-      },
-      {
-        "type": "Framing",
-        "quote": "The amount is considered a small price to pay, given the board’s interest in obtaining the records.",
-        "why": "This unattributed editorial aside has no named source and reads as a judgment."
-      },
-      {
-        "type": "Source selection",
-        "quote": "conspiracy theorists",
-        "why": "Critics of election administration are labeled this way, and no board member or Trump-aligned voice is quoted in their own words."
-      },
-      {
-        "type": "Framing",
-        "quote": "has struggled to substantiate the president’s insistence of widespread voter fraud",
-        "why": "The DOJ context emphasizes failure to prove the claims and downplays any other perspective."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "e79a5ae40573",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "California prosecutors, victim advocates challenge Newsom's mass death sentence commutation",
-    "link": "https://www.foxnews.com/politics/california-prosecutors-victim-advocates-challenge-newsoms-mass-death-sentence-commutation",
-    "summary": "California Gov. Gavin Newsom defended commuting 548 death sentences, but victims' advocates and a district attorney call the move morally offensive.",
-    "published": "2026-11-25T01:21:10+00:00",
-    "id": "34cc1464bcc2",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 40,
-    "spin": 35,
-    "leanWhy": "The piece leads with and gives most space to critics of the commutation (a DA, a victims' group head, and Trump), and its headline and summary stress \"morally offensive.\" Newsom's side gets only a brief paragraph, a referral to a press release with supportive victims' relatives, so the opposing view is present but minor.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "Modoc County District Attorney Nina Salarno said Newsom's sweeping action denied the loved ones of murder victims any voice",
-        "why": "Most of the sourcing comes from critics, who are quoted at length and uncontested, and the lead is built around their reaction."
-      },
-      {
-        "type": "Framing",
-        "quote": "California Gov. Gavin Newsom defended commuting 548 death sentences, but victims' advocates and a district attorney call the move morally offensive.",
-        "why": "The summary frames the story around the moral condemnation of the move rather than the policy debate."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "He stood with the murderers and child slayers.",
-        "why": "Trump's inflammatory attack is repeated without any challenge or rebuttal."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Newsom's office referred Fox News Digital to news release from Monday featuring victims and survivors who support his decision.",
-        "why": "Newsom's side is relegated to a short mention near the end, giving critics most of the space."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "34cc1464bcc2",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "Trump reportedly says he is open to pardoning Jensen Huang ahead of CEO’s planned Senate committee testimony – live",
-    "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-    "summary": "President took credit for convincing Nvidia’s board to reinstate Huang, a move that might have made Trump a personal profit of $15m in one day, as Nvidia sticks soared Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET.",
-    "published": "2026-11-25T01:03:50+00:00",
-    "id": "c723c31fbed7",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -35,
-    "spin": 35,
-    "leanWhy": "The live-blog framing leads with Trump's possible personal profit and mocking descriptors (leaving for his \"beach club,\" \"rightwing tabloid,\" \"friendly outlet\"), which casts him in a negative light. The Democratic senator-elect's critical statement is quoted at length with no response from the Army or the administration in the excerpt.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "the rightwing tabloid owned by his supporter, Rupert Murdoch",
-        "why": "Characterizes the outlet in pejorative, partisan terms rather than neutrally."
-      },
-      {
-        "type": "Framing",
-        "quote": "Before he got a jump on the Thanksgiving holiday, by leaving the White House for his beach club in Florida",
-        "why": "Opens with a detail that portrays Trump as leisurely, which is editorial color."
-      },
-      {
-        "type": "Framing",
-        "quote": "a move that might have made the president a personal profit of $15m in one day",
-        "why": "Insinuates personal financial gain with speculative language and no sourcing in the excerpt."
-      },
-      {
-        "type": "Source selection",
-        "quote": "I will be using my position in the U.S. Senate to get answers as to why these failures took place",
-        "why": "A long Democratic statement dominates the item and no administration or Army response appears in the excerpt."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c723c31fbed7",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Trump's Nvidia intervention ties his political fortunes to the AI boom",
-    "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-    "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-    "published": "2026-11-25T01:03:05+00:00",
-    "id": "c6266f3dba9e",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 30,
-    "leanWhy": "The piece is analysis-style news that stresses political risk to Trump and Republicans, and it quotes Democrats and a Republican critic (Cotton) on oversight. It gives Trump's defense only briefly, and its rhetorical questions about the AI image and its framing of a \"victory lap\" lean mildly critical.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "with that comes significant risks for the American president and for Republicans",
-        "why": "It leads with the downside for Trump and the GOP, and the headline's 'inextricably linked' thesis is an interpretive conclusion."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "The post was classic Trump – potentially offensive, yet still a bit opaque.",
-        "why": "This is editorializing about Trump's behavior, followed by a run of speculative rhetorical questions about the image."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats and some concerned Republicans in Congress have a different view.",
-        "why": "Critics and promised oversight get the space, while the administration's side is limited to Trump's own quotes."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "took a very public victory lap",
-        "why": "The phrase gives Trump's reaction a slightly mocking tone."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c6266f3dba9e",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
-    "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-    "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-    "published": "2026-11-25T01:03:05+00:00",
-    "id": "cc3438140740",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 30,
-    "leanWhy": "The piece is analysis-style reporting that frames Trump's intervention as a risky political liability, dwelling on the provocative AI image and on Democratic oversight plans. It includes a Republican critic (Cotton) and Trump's own words, but it speculates about Trump's motives and the fallout without any defending voices beyond Trump.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump riskily ties his political fortunes to Nvidia",
-        "why": "The headline sets up the story as a political liability for Trump, which is a conclusion more than a reported fact."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "The post was classic Trump – potentially offensive, yet still a bit opaque.",
-        "why": "This editorial characterization of Trump's style goes beyond straight reporting."
-      },
-      {
-        "type": "Framing",
-        "quote": "Was the bra a celebration Huang's reported extramarital affairs?",
-        "why": "The piece asks a string of speculative rhetorical questions about Trump's intent, which adds insinuation."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats and some concerned Republicans in Congress have a different view.",
-        "why": "The sourcing leans toward critics and oversight threats, and the administration's defense is limited to Trump's own quotes."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "c6266f3dba9e",
-    "coverage": 1
-  },
-  {
-    "outlet": "BBC",
-    "title": "Trump's rescue of Nvidia's Huang brings political risks",
-    "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-    "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-    "published": "2026-11-25T01:03:05+00:00",
-    "id": "21373f1d9441",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -22,
-    "spin": 30,
-    "leanWhy": "The analysis-style piece centers on risks to Trump and Republicans, and it interprets his social post with speculative, pointed questions. It quotes Trump, Democrats and a Republican critic (Cotton), but it gives no space to defenders of the reinstatement beyond Trump's own remarks, so the tilt is mild to moderate.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "The post was classic Trump – potentially offensive, yet still a bit opaque.",
-        "why": "It characterizes the president's behavior with an evaluative editorial aside rather than neutral description."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Was the bra a celebration Huang's reported extramarital affairs?",
-        "why": "Rhetorical speculation about the president's motives and about personal matters adds insinuation beyond the reported facts."
-      },
-      {
-        "type": "Framing",
-        "quote": "with the fate of the former hinging on the successes and failures of the latter. And with that comes significant risks for the American president",
-        "why": "The piece's thesis stresses the downside for Trump and Republicans, and sourcing mostly supports that."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Democrats and some concerned Republicans in Congress have a different view.",
-        "why": "Critics get the main sourcing, and the piece cites no supporters of the decision apart from Trump."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "21373f1d9441",
-    "coverage": 1
-  },
-  {
-    "outlet": "CBS News",
-    "title": "Maps show how far lead dust from Iowa detonation could travel",
-    "link": "https://www.cbsnews.com/news/maps-show-how-far-lead-dust-from-about-5-tons-of-iowa-explosives-could-spread/",
-    "summary": "Maps of the planned lead azide detonation in Middletown show the shaded area stretching from near Burlington toward Macon, Missouri, by noon Wednesday. The forecasts will change with the weather.",
-    "published": "2026-11-25T01:01:06+00:00",
-    "id": "b3df78c1ffe1",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 5,
-    "leanWhy": "This is a factual, service-style report on modeled plume maps, with attribution to the Army, NOAA, and state officials from both Illinois and Missouri. It includes caveats that forecasts will change and do not establish harmful exposure, and gives both the Army's rationale and the environmental and official concerns.",
-    "signals": [],
-    "confidence": "high",
-    "storyChoice": "neither",
-    "cluster": "b3df78c1ffe1",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "One lame duck and two turkeys as Trump plays the hits at pardon ceremony",
-    "link": "https://www.theguardian.com/us-news/2026/nov/24/donald-trump-turkey-pardon",
-    "summary": "Levity was in short supply as president, reeling from midterms rout, talked up his achievements – and fixated on White House vanity project For some, it was his pardoning of the January 6 rioters or the deployment of masked ICE agents.",
-    "published": "2026-11-25T00:56:48+00:00",
-    "id": "e2488d6ee292",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -68,
-    "spin": 60,
-    "leanWhy": "The piece is a sketch-style commentary that mocks Trump through loaded labels (\"lame duck,\" \"decorator-in-chief,\" \"humiliatingly unfunny\") and lists left-coded grievances such as the pardons of January 6 rioters and masked ICE agents. It has no supportive or opposing voices, and it frames a ceremonial event as proof he \"went too far.\"",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "a decorator-in-chief who was once reportedly found supergluing gold appliqués to the Oval Office fireplace",
-        "why": "Mocking characterization built on a secondhand anecdote, used to ridicule rather than inform."
-      },
-      {
-        "type": "Framing",
-        "quote": "Donald Trump’s second term as US president has been full of moments when people exclaim: this is the last straw!",
-        "why": "Presents the controversies as widely seen outrages, and frames a turkey ceremony as him going too far."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Perhaps he was still scarred by his humiliatingly unfunny turn at the White House Correspondents’ Association dinner.",
-        "why": "Gratuitous mocking editorial judgment inserted into the account."
-      },
-      {
-        "type": "Framing",
-        "quote": "the master builder welcomed guests and claimed the White House had “never looked better than it’s looked right now”",
-        "why": "Sarcastic epithets and a skeptical verb steer the reader to see him as vain."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "e2488d6ee292",
-    "coverage": 1
-  },
-  {
-    "outlet": "The Guardian",
-    "title": "One lame duck and two turkeys as Trump plays the hits at Thanksgiving ceremony",
-    "link": "https://www.theguardian.com/us-news/2026/nov/24/donald-trump-turkey-pardon",
-    "summary": "Levity was in short supply as president, reeling from midterms rout, talked up his achievements – and fixated on White House vanity project For some, it was his pardoning of the January 6 rioters or the deployment of masked ICE agents.",
-    "published": "2026-11-25T00:56:48+00:00",
-    "id": "a451a0cf094c",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": true,
-    "lean": -68,
-    "spin": 60,
-    "leanWhy": "The piece is a sketch-style commentary that mocks Trump with loaded labels (\"lame duck,\" \"vanity project,\" \"decorator-in-chief,\" \"humiliatingly unfunny\") and lists left-coded grievances as \"last straw\" moments. Trump's own quotes are used mostly to ridicule him, and no supporters or defenders are given a voice.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "decorator-in-chief who was once reportedly found supergluing gold appliqués to the Oval Office fireplace",
-        "why": "Mocking nickname and an anecdote that belittle the president rather than inform."
-      },
-      {
-        "type": "Framing",
-        "quote": "For some, it was his pardoning of the January 6 rioters or the deployment of masked ICE agents.",
-        "why": "Frames the term as a run of outrages by listing progressive grievances as 'last straw' moments."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "Perhaps he was still scarred by his humiliatingly unfunny turn",
-        "why": "Gratuitous mockery and speculation about Trump's psychology."
-      },
-      {
-        "type": "Framing",
-        "quote": "the master builder welcomed guests",
-        "why": "Sarcastic epithet used to ridicule his White House renovations."
-      }
-    ],
-    "confidence": "high",
-    "storyChoice": "left",
-    "cluster": "e2488d6ee292",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "ICE nabs illegal immigrant days after he claims $1 million Massachusetts State Lottery prize",
-    "link": "https://www.foxnews.com/politics/ice-nabs-illegal-immigrant-days-after-claims-1-million-massachusetts-state-lottery-prize",
-    "summary": "ICE sources say Ariel Antonio Velasquez-Morales, an El Salvador man with a 2014 deportation order, ran from officers in East Boston before his arrest.",
-    "published": "2026-11-25T00:47:02+00:00",
-    "id": "e43c399ffb24",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 30,
-    "spin": 30,
-    "leanWhy": "The piece relies entirely on anonymous ICE sources, uses \"illegal immigrant\" and \"nabs,\" and emphasizes the lottery win and the governor's role in the commission, which implies a government-embarrassment angle. No immigrant-side, legal, or advocacy voices appear, and the only outreach for comment goes to Democratic Gov. Healey's office.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "ICE nabs illegal immigrant days after he claims $1 million Massachusetts State Lottery prize",
-        "why": "\"Nabs\" and \"illegal immigrant\" give the headline a triumphant, enforcement-friendly tone."
-      },
-      {
-        "type": "Source selection",
-        "quote": "Three ICE sources told Fox News",
-        "why": "The account of the arrest and his immigration history rests on anonymous enforcement sources with no independent verification or opposing view."
-      },
-      {
-        "type": "Framing",
-        "quote": "The governor appoints two members of the five-member commission that oversees the lottery.",
-        "why": "This detail ties the story to Gov. Healey and implies political responsibility without any evidence of a connection."
-      },
-      {
-        "type": "Framing",
-        "quote": "A man who smiled for a Massachusetts State Lottery photo with a $1 million check was arrested",
-        "why": "Opening on the smiling photo and the irony of the timing sets up a gotcha narrative."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "right",
-    "cluster": "e43c399ffb24",
-    "coverage": 1
-  },
-  {
-    "outlet": "Fox",
-    "title": "Fort Hood shooter Nidal Hasan asks federal judge to halt execution",
-    "link": "https://www.foxnews.com/us/fort-hood-shooter-nidal-hasan-asks-federal-judge-halt-execution",
-    "summary": "Former U.S. Army Maj. Nidal Hasan filed a federal court motion Tuesday seeking to delay next week's scheduled execution at Fort Hood while he challenges his sentence.",
-    "published": "2026-11-25T00:39:04+00:00",
-    "id": "66866893634f",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 8,
-    "leanWhy": "Straight news report that gives the ACLU's due-process argument and a survivor's emotional response, and notes that criticism of the livestream proposal crossed party lines. The mild tilt is the final quote from a survivor who feels betrayed, which gives victims the last word, but the framing stays factual.",
-    "signals": [
-      {
-        "type": "Source selection",
-        "quote": "\"To look Hasan in the eye and say, ‘You didn’t get me.'\"",
-        "why": "Ending on a survivor's emotional quote gives the victims' side the last word, which is a subtle victims-first emphasis."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "neither",
-    "cluster": "66866893634f",
-    "coverage": 2
   }
 ]
