@@ -640,7 +640,7 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "bf0628ed4af9",
+    "cluster": "c3934fac03df",
     "coverage": 1
   },
   {
@@ -1387,7 +1387,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "9e3d80a42bb9",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "Washington Examiner",
@@ -2363,7 +2363,7 @@
     ],
     "confidence": "low",
     "storyChoice": "neither",
-    "cluster": "942ded26f5e7",
+    "cluster": "9e3d80a42bb9",
     "coverage": 2
   },
   {
@@ -4008,7 +4008,7 @@
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
     "cluster": "942ded26f5e7",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -6024,6 +6024,42 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Trump owned millions in Nvidia stock as he pressed for Jensen Huang's reinstatement",
+    "link": "https://www.cbsnews.com/news/trump-nvidia-stock-jensen-huang/",
+    "summary": "President Trump holds tens of millions in Nvidia shares, giving him a personal stake in the company's stock market roller coaster ride of the past two weeks, financial disclosure documents show.",
+    "published": "2026-11-26T03:31:32+00:00",
+    "id": "577f3df11793",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -22,
+    "spin": 25,
+    "leanWhy": "The piece is mostly sourced to disclosures and includes the White House denial and context (small share of net worth, index-style holdings). However, the headline links his stock to his advocacy, and the quoted outside voices are ethics critics with strong language, while no defender is quoted beyond the spokesman.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "Trump owned millions in Nvidia stock as he pressed for Jensen Huang's reinstatement",
+        "why": "The headline juxtaposes his holdings with his intervention, implying a financial motive."
+      },
+      {
+        "type": "Framing",
+        "quote": "stood to profit handsomely after he successfully pressed the chip developer's board",
+        "why": "Casts the president's action as a personal profit opportunity, which goes beyond the disclosure facts."
+      },
+      {
+        "type": "Source selection",
+        "quote": "He is squarely, explicitly using his power as president to benefit himself financially.",
+        "why": "The strongest accusation is given from ethics critics, with no outside voice offering a counterpoint."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "577f3df11793",
+    "coverage": 1
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "Federal judge halts FCC review of Disney’s ABC broadcast licenses",
     "link": "https://www.washingtonexaminer.com/news/justice/4816073/judge-fcc-review-disney-abc-broadcast-licenses/",
@@ -7498,6 +7534,37 @@
     "coverage": 1
   },
   {
+    "outlet": "CBS News",
+    "title": "Kilmar Abrego Garcia leaves U.S. and arrives in Spain",
+    "link": "https://www.cbsnews.com/news/kilmar-abrego-garcia-leaving-us-europe/",
+    "summary": "Kilmar Abrego Garcia, the El Salvador native who was mistakenly deported last year, left the U.S. for Spain on Tuesday, the Department of Homeland Security confirmed.",
+    "published": "2026-11-25T20:14:00+00:00",
+    "id": "9f59065d79c9",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": 0,
+    "spin": 12,
+    "leanWhy": "The piece is mostly straight reporting that gives both Abrego Garcia's side and DHS officials their say, with the gang allegation attributed and noted as denied. Slight tilt comes from describing the deportation as \"mistaken\" and the prison as \"notorious\" in the narrator's voice, and from the extended quotes from his lawyer.",
+    "signals": [
+      {
+        "type": "Loaded language",
+        "quote": "mistakenly deported last year and sent to a notorious prison",
+        "why": "The outlet's own voice uses a framing sympathetic to Abrego Garcia's account of the case."
+      },
+      {
+        "type": "Source selection",
+        "quote": "\"Instead of flying ICE Air, he flew United Airlines,\"",
+        "why": "The lawyer's triumphant quote is given prominent space, though DHS officials also get their statements."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "neither",
+    "cluster": "9f59065d79c9",
+    "coverage": 1
+  },
+  {
     "outlet": "Daily Caller",
     "title": "ROOKE: Pride, Prejudice, And Parenting",
     "link": "https://dailycaller.com/2026/11/25/parenting-marriage-women-raising-kids-girls-jane-austen-thanksgiving-thankful-teenagers-topics",
@@ -7643,8 +7710,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "98475b69494d",
-    "coverage": 2
+    "cluster": "581b8b61ccb3",
+    "coverage": 1
   },
   {
     "outlet": "Fox",
@@ -9770,68 +9837,6 @@
     "confidence": "medium",
     "storyChoice": "left",
     "cluster": "7c509718b379",
-    "coverage": 2
-  },
-  {
-    "outlet": "Daily Caller",
-    "title": "Rare Opportunities Emerge For Congress To Actually Help Americans As Cracks Form In Status Quo",
-    "link": "https://dailycaller.com/2026/11/25/democrats-republicans-congress-bipartisan-issues",
-    "summary": "Rare Opportunities Emerge For Congress To Actually Help Americans As Cracks Form In Status Quo",
-    "published": "2026-11-25T13:19:45+00:00",
-    "id": "e17a440d4977",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 30,
-    "leanWhy": "The piece is framed around bipartisan reform themes (surveillance, AI, insider trading), which are cross-cutting anti-establishment and anti-Big Tech issues. The headline's \"actually help Americans\" and \"old-guard never bothered\" language adds a mild anti-status-quo tilt. Sourcing leads with Sanders and includes Trump, Kennedy and a GOP-aligned source, so the balance is fairly even.",
-    "signals": [
-      {
-        "type": "Loaded language",
-        "quote": "Rare Opportunities Emerge For Congress To Actually Help Americans",
-        "why": "The headline implies Congress normally fails Americans, which is an editorializing, anti-establishment frame."
-      },
-      {
-        "type": "Loaded language",
-        "quote": "issues that the old-guard never bothered to touch",
-        "why": "This is an evaluative claim stated in the writer's own voice rather than attributed to a source."
-      },
-      {
-        "type": "Source selection",
-        "quote": "I think this election made it very clear that the American people want change.",
-        "why": "Sanders's interpretation of the election is the lead quote and is presented without counterpoint."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "e17a440d4977",
-    "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump Signals Willingness to Pardon Nvidia’s Jensen Huang",
-    "link": "https://www.today.com/video/huang-calls-trump-role-in-reinstatement-completely-untrue-274157637679",
-    "summary": "Jensen Huang, the freshly reinstated CEO of Nvidia, is set to testify before a number of Congressional committees and ahead of those appearances, President Donald Trump told the New York Post he’s open to pardoning Huang. Huang’s reinstatement, however, continues to face bipartisan concern.",
-    "published": "2026-11-25T13:18:18+00:00",
-    "id": "98475b69494d",
-    "basis": "summary",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": 0,
-    "spin": 12,
-    "leanWhy": "Only a headline and feed summary were available. The wording is mostly factual, reporting Trump's statement and noting the \"bipartisan concern\" about the reinstatement. The pardon angle puts a slight emphasis on Trump's clemency habits, but the text does not clearly favor either side.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump Signals Willingness to Pardon Nvidia’s Jensen Huang",
-        "why": "Leading with the pardon angle emphasizes presidential clemency, which may mildly embarrass Trump, though it simply reports his stated openness."
-      }
-    ],
-    "confidence": "low",
-    "storyChoice": "left",
-    "cluster": "98475b69494d",
     "coverage": 2
   }
 ]
