@@ -1,5 +1,46 @@
 [
   {
+    "outlet": "NBC News",
+    "title": "Zelenskyy questions Trump’s ‘strange’ reference to Putin as a ‘friend’",
+    "link": "https://www.nbcnews.com/world/ukraine/zelenskyy-questions-trumps-strange-reference-putin-friend-rcna611653",
+    "summary": "KYIV, Ukraine — Ukrainian President Volodymyr Zelenskyy expressed frustration with the U.S. stance toward Russian leader Vladimir Putin, in the latest sign of deepening tension between Kyiv and Washington, as new questions emerged about Europe’s future financial commitments to Ukraine.",
+    "published": "2026-11-28T09:16:01+00:00",
+    "id": "f69497c668ba",
+    "basis": "article",
+    "political": true,
+    "scorable": true,
+    "opinion": false,
+    "lean": -15,
+    "spin": 15,
+    "leanWhy": "The piece is mostly straight reporting with Trump's defense and the Kremlin's response included, but the framing and context lean slightly toward critics of Trump's Russia approach. It stacks Kushner's \"grandmaster\" and Witkoff's \"humanitarian\" remarks about Putin, the ICC warrant, and the sanctions on the court, with no administration voice beyond Trump's own quote.",
+    "signals": [
+      {
+        "type": "Framing",
+        "quote": "in the latest sign of deepening tension between Kyiv and Washington",
+        "why": "The lede frames the story as a widening rift, which casts the U.S. approach as the source of friction."
+      },
+      {
+        "type": "Omission",
+        "quote": "The White House did not respond to a request for comment on Zelenskyy’s remarks.",
+        "why": "No administration official explains the policy, so Trump's defense is the only counterpoint to the critical framing."
+      },
+      {
+        "type": "Source selection",
+        "quote": "complimented Putin on being a “grandmaster” of politics",
+        "why": "Piling up flattering remarks by Trump envoys about Putin adds context that reinforces the critical frame."
+      },
+      {
+        "type": "Framing",
+        "quote": "The Trump administration has imposed sweeping sanctions on the court as part of its campaign to dismantle the tribunal",
+        "why": "The ICC paragraph is added after the Putin warrant and links the administration to Putin's legal exposure, which is unfavorable context for Trump."
+      }
+    ],
+    "confidence": "medium",
+    "storyChoice": "left",
+    "cluster": "f69497c668ba",
+    "coverage": 3
+  },
+  {
     "outlet": "Washington Examiner",
     "title": "New York Senate Majority Leader Andrea Stewart-Cousins, first woman in role, dies at 76",
     "link": "https://www.washingtonexaminer.com/news/4816799/new-york-senate-majority-leader-andrea-stewart-cousins-dies/",
@@ -1905,8 +1946,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a109b321971c",
-    "coverage": 2
+    "cluster": "f69497c668ba",
+    "coverage": 3
   },
   {
     "outlet": "BBC",
@@ -1982,8 +2023,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "a109b321971c",
-    "coverage": 2
+    "cluster": "f69497c668ba",
+    "coverage": 3
   },
   {
     "outlet": "Daily Caller",
@@ -2302,7 +2343,7 @@
     "confidence": "low",
     "storyChoice": "neither",
     "cluster": "1903d6c3ec88",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "outlet": "CBS News",
@@ -2337,8 +2378,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "4eccecefc1eb",
-    "coverage": 1
+    "cluster": "1903d6c3ec88",
+    "coverage": 2
   },
   {
     "outlet": "NBC News",
@@ -2531,8 +2572,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "06d611fd2e86",
-    "coverage": 1
+    "cluster": "1903d6c3ec88",
+    "coverage": 2
   },
   {
     "outlet": "The Guardian",
@@ -8855,8 +8896,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "neither",
-    "cluster": "571125de9799",
-    "coverage": 2
+    "cluster": "e943afab8aa1",
+    "coverage": 3
   },
   {
     "outlet": "Washington Examiner",
@@ -9000,7 +9041,7 @@
     "confidence": "medium",
     "storyChoice": "neither",
     "cluster": "571125de9799",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "outlet": "Washington Examiner",
@@ -9379,8 +9420,8 @@
     "signals": [],
     "leanWhy": "Not enough text was available to judge slant fairly.",
     "confidence": "low",
-    "cluster": "7c509718b379",
-    "coverage": 2
+    "cluster": "e943afab8aa1",
+    "coverage": 3
   },
   {
     "outlet": "Fox",
@@ -9624,8 +9665,8 @@
     ],
     "confidence": "medium",
     "storyChoice": "left",
-    "cluster": "7c509718b379",
-    "coverage": 2
+    "cluster": "e943afab8aa1",
+    "coverage": 3
   },
   {
     "outlet": "CBS News",
@@ -9807,36 +9848,5 @@
     "storyChoice": "neither",
     "cluster": "a73e3f21a5f6",
     "coverage": 1
-  },
-  {
-    "outlet": "NBC News",
-    "title": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
-    "link": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087",
-    "summary": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
-    "published": "2026-11-25T13:48:59+00:00",
-    "id": "7c509718b379",
-    "basis": "article",
-    "political": true,
-    "scorable": true,
-    "opinion": false,
-    "lean": -12,
-    "spin": 15,
-    "leanWhy": "The piece is mostly straight reporting with administration (Greer) and foreign government responses quoted. A subtle left-leaning tilt comes from the editorial context line tying Trump's tariffs and inflation to Republicans' midterm losses, a causal claim stated in the news voice, and from noting the Supreme Court blocked earlier tariffs.",
-    "signals": [
-      {
-        "type": "Framing",
-        "quote": "Trump’s tariff policies — and the inflation they fueled — contributed to Republicans’ sweeping losses in the midterm elections",
-        "why": "States in the news voice that tariffs fueled inflation and caused electoral losses, a contested causal claim that frames the policy negatively."
-      },
-      {
-        "type": "Framing",
-        "quote": "ever since the Supreme Court blocked many of Trump’s 2025 country-specific tariffs",
-        "why": "Emphasizes legal setback for Trump's tariff approach as context."
-      }
-    ],
-    "confidence": "medium",
-    "storyChoice": "left",
-    "cluster": "7c509718b379",
-    "coverage": 2
   }
 ]
